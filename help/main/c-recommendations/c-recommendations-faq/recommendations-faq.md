@@ -5,20 +5,20 @@ title: Var hittar jag frågor och svar om  [!DNL Recommendations]?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: 25b448ad99618dca8b5aa4b698976a3d9aa76dec
+source-git-commit: 18f6c06aa06e9526ee65bd3cc0f9b552c91c10e7
 workflow-type: tm+mt
-source-wordcount: '3506'
+source-wordcount: '3444'
 ht-degree: 0%
 
 ---
 
-# RECOMMENDATIONS FAQ
+# Rekommendationer - frågor och svar
 
 Lista med vanliga frågor och svar om [!DNL Adobe Target] [!DNL Recommendations] aktiviteter.
 
 ## Skapas [!DNL Recommendations] objekt via API-visning i [!DNL Target]-gränssnittet?
 
-Ja, [!UICONTROL Recommendations] objekt ([!UICONTROL Criteria], [!UICONTROL Designs], [!UICONTROL Collections] och [!UICONTROL Exclusions]) som skapats över API är nu tillgängliga i gränssnittet.
+Ja, [!UICONTROL Recommendations] objekt ([!UICONTROL Criteria], [!UICONTROL Designs], [!UICONTROL Collections] och [!UICONTROL Exclusions]) som skapats över API är tillgängliga i användargränssnittet och kan redigeras via API eller [!DNL Target] användargränssnitt.
 
 ## Kan jag hantera [!DNL Target] visuella erbjudanden som har skapats i användargränssnittet med API:erna i [!DNL Target]?
 
@@ -36,11 +36,11 @@ Tidsramen och resultaten varierar beroende på hur objekten uppdateras.
 
 | Source | Information |
 | --- | --- |
-| Objektattribut uppdaterade via mbox eller API | <ul><li>Recommendations uppdateras inom 15 minuter.</li><li>Befintliga rekommendationer och objektattribut visas tills uppdateringarna är tillgängliga.</li><li>Katalogsökning uppdateras efter katalogindex (3-8 timmar).</li></ul> |
-| Objektattribut uppdaterade via feed | <ul><li>Recommendations uppdateras efter foderkonsumtion (2-8 timmar).</li><li>Befintliga rekommendationer och objektattribut visas tills uppdateringarna är tillgängliga.</li><li>Katalogsökningen uppdateras efter feed-importen (2-8 timmar) och efter efterföljande katalogindex (3-8 timmar). Katalogsökning uppdateras inom totalt 5-16 timmar.</li></ul> |
-| Objektet togs bort från katalogen via [!DNL Target]-gränssnittet eller API:t | <ul><li>Recommendations uppdateras inom 15 minuter.</li><li>Befintliga rekommendationer och objektattribut visas tills uppdateringarna är tillgängliga.</li><li>Katalogsökning uppdateras efter katalogindex (3-8 timmar).</li></ul> |
-| Objekt som lagts till i katalogen via mbox eller API | <ul><li>Recommendations uppdateras efter att algoritmen har körts. Algoritmkörningar schemaläggs var tolfte timme för 1-2-dagars algoritmer och varannan timme för 7+-dagars algoritmer.</li><li>Befintliga rekommendationer visas tills det finns uppdateringar om det tillagda objektet inte är en begärd nyckel.</li><li>Rekommendationer för säkerhetskopiering visas tills det finns uppdateringar om det tillagda objektet är en begärd nyckel.</li><li>Katalogsökning uppdateras efter katalogindex (3-8 timmar).</li></ul> |
-| Objekt som lagts till i katalogen via feed | <ul><li>Recommendations uppdateras efter att fodret har importerats (2-8 timmar). Efterföljande algoritmkörningar schemaläggs var tolfte timme för 1-2-dagarsalgoritmer och varannan timme för 7+-dagsalgoritmer. Recommendations uppdateras inom 2-32 timmar totalt.</li><li>Befintliga rekommendationer visas tills det finns uppdateringar om det tillagda objektet inte är en begärd nyckel.</li><li>Rekommendationer för säkerhetskopiering visas tills det finns uppdateringar om det tillagda objektet är en begärd nyckel.</li><li>Katalogsökningen uppdateras efter feed-importen (2-8 timmar) och efter katalogindexet (3-8 timmar). Katalogsökning uppdateras inom totalt 5-16 timmar.</li></ul> |
+| Objektattribut uppdaterade via mbox eller API | <ul><li>Rekommendationerna uppdateras inom 15 minuter.</li><li>Befintliga rekommendationer och objektattribut visas tills uppdateringarna är tillgängliga.</li><li>Katalogsökning uppdateras efter katalogindex (3-8 timmar).</li></ul> |
+| Objektattribut uppdaterade via feed | <ul><li>Rekommendationerna uppdateras efter foderkonsumtion (2-8 timmar).</li><li>Befintliga rekommendationer och objektattribut visas tills uppdateringarna är tillgängliga.</li><li>Katalogsökningen uppdateras efter feed-importen (2-8 timmar) och efter efterföljande katalogindex (3-8 timmar). Katalogsökning uppdateras inom totalt 5-16 timmar.</li></ul> |
+| Objektet togs bort från katalogen via [!DNL Target]-gränssnittet eller API:t | <ul><li>Rekommendationerna uppdateras inom 15 minuter.</li><li>Befintliga rekommendationer och objektattribut visas tills uppdateringarna är tillgängliga.</li><li>Katalogsökning uppdateras efter katalogindex (3-8 timmar).</li></ul> |
+| Objekt som lagts till i katalogen via mbox eller API | <ul><li>Rekommendationer uppdateras efter att algoritmen har körts. Algoritmkörningar schemaläggs var tolfte timme för 1-2-dagars algoritmer och varannan timme för 7+-dagars algoritmer.</li><li>Befintliga rekommendationer visas tills det finns uppdateringar om det tillagda objektet inte är en begärd nyckel.</li><li>Rekommendationer för säkerhetskopiering visas tills det finns uppdateringar om det tillagda objektet är en begärd nyckel.</li><li>Katalogsökning uppdateras efter katalogindex (3-8 timmar).</li></ul> |
+| Objekt som lagts till i katalogen via feed | <ul><li>Rekommendationerna uppdateras efter att fodret har intagits (2-8 timmar). Efterföljande algoritmkörningar schemaläggs var tolfte timme för 1-2-dagarsalgoritmer och varannan timme för 7+-dagsalgoritmer. Rekommendationer uppdateras inom totalt 2-32 timmar.</li><li>Befintliga rekommendationer visas tills det finns uppdateringar om det tillagda objektet inte är en begärd nyckel.</li><li>Rekommendationer för säkerhetskopiering visas tills det finns uppdateringar om det tillagda objektet är en begärd nyckel.</li><li>Katalogsökningen uppdateras efter feed-importen (2-8 timmar) och efter katalogindexet (3-8 timmar). Katalogsökning uppdateras inom totalt 5-16 timmar.</li></ul> |
 
 När du har importerat en feed-fil eller efter att ha tagit emot entitetsuppdateringar via API eller mbox visas följande ändringar under 60 minuter:
 
@@ -95,7 +95,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 </script>
 ```
 
-## Varför är inte alla villkor, inklusive anpassade kriterier, tillgängliga för val när du skapar en Recommendations-aktivitet? {#section_B2265AC8B8A94E0298D495A05C5D817F}
+## Varför är inte alla villkor, inklusive anpassade kriterier, tillgängliga för markering när en rekommendationsaktivitet skapas? {#section_B2265AC8B8A94E0298D495A05C5D817F}
 
 De tillgängliga villkoren baseras på den aktuella kategorin. När du skapar rekommendationer visas villkor baserat på kategori-ID i algoritmväljaren.
 
@@ -128,7 +128,7 @@ Följande lista innehåller specialfall där [!DNL Target] inte visar kryssrutan
 * Inget mbox-anrop aktiveras från sidan (!config.isAutoCreateGlobalMbox &amp;&amp; !config.isRegionalMbox)
 * [!DNL Target] parametrar har inte definierats.
 
-## Vad ska jag göra om en samling i Recommendations blir noll (0)? {#section_E2DB2FE67CF24EEC81412BFF3FA6385D}
+## Vad ska jag göra om en samling i Rekommendationer blir noll (0)? {#section_E2DB2FE67CF24EEC81412BFF3FA6385D}
 
 Tänk på följande information om du ser en samling gå till noll som tidigare inte var noll:
 
@@ -177,11 +177,11 @@ Följande JavaScript kan användas i början av designen för att öka antalet b
 
 [!DNL Target] sätter en postgräns på 50 MB på programnivå, men det är bara när du skickar innehållstypsrubriken `application/x-www-form-urlencoded`.
 
-Du kan försöka att skicka 50 000 produkter i ett enda samtal. Om det inte fungerar kan du dela upp det i grupper. Adobe rekommenderar att kunderna delar upp sina samtal i produktgrupper om 5 000 eller 10 000 för att minska sannolikheten för timeout på grund av systembelastning.
+Du kan försöka att skicka 50 000 produkter i ett enda samtal. Om det inte fungerar kan du dela upp det i grupper. Adobe rekommenderar att kunderna bryter sina samtal till 5 000 eller 10 000 produktgrupper för att minska sannolikheten för en timeout på grund av systembelastning.
 
-## Måste jag ange mbox-namnet när jag skapar Recommendations-kriterier, kampanjer eller testregler för mallar? {#section_FFA42ABCC5954B48A46526E32A3A88A2}
+## Måste jag ange mbox-namnet när jag skapar rekommendationer, kampanjer eller testregler för mallar? {#section_FFA42ABCC5954B48A46526E32A3A88A2}
 
-När du skapar Recommendations-villkor, kampanjer eller malltestningsregel som baseras på en mbox-parameter, frågar `mboxParameter` inte längre efter `mboxName`. Nu är mbox-namnet valfritt. Med den här ändringen kan du använda parametrar från flera rutor eller referera till en parameter som ännu inte har registrerats på kanten.
+När du skapar en regel för rekommendationskriterier, kampanjer eller malltestning som baseras på en mbox-parameter, uppmanar `mboxParameter` dig inte längre att ange `mboxName`. Nu är mbox-namnet valfritt. Med den här ändringen kan du använda parametrar från flera rutor eller referera till en parameter som ännu inte har registrerats på kanten.
 
 Så här väljer du önskad parameter:
 
@@ -192,9 +192,9 @@ Om du använder någon av metoderna finns det ingen länk mellan mbox och parame
 
 Om du redigerar ett befintligt villkor, en befordran eller en malltestregel visas filtervillkoren med namnet på mbox som angavs när du skapade.
 
-## Varför kan jag inte spara min gamla Recommendations-aktivitet efter att ha definierat en ny publik? {#section_1E47C40B1FE7479BAC3EE0F50CE7C2C4}
+## Varför kan jag inte spara min tidigare Rekommendationer-aktivitet efter att jag har definierat en ny målgrupp? {#section_1E47C40B1FE7479BAC3EE0F50CE7C2C4}
 
-Se till att målgruppen har ett unikt namn. Om du gav målgruppen samma namn som en befintlig målgrupp kan du inte spara din tidigare Recommendations-aktivitet (en Recommendations-aktivitet som skapades före oktober 2016).
+Se till att målgruppen har ett unikt namn. Om du gav publiken samma namn som en befintlig publik kan du inte spara din tidigare Rekommendationer-aktivitet (en Rekommendationsaktivitet som skapades före oktober 2016).
 
 ## Vilken är den maximala storleken för en CSV-fil för en feed-överföring? {#section_20F1AF4839A447B9889B246D6E873538}
 
@@ -216,7 +216,7 @@ Om du vill exkludera `entityIds` lägger du till `&excludes=${mbox.excludedIds}`
 
 Som standard är den här funktionen aktiverad för nya rekommendationer. Befintliga rekommendationer måste sparas för att stödja enheter som utesluts dynamiskt.
 
-## Vad betyder NO_CONTENT-svaret som ibland returneras i Recommendations innehållsspårning?
+## Vad betyder NO_CONTENT-svaret som ibland returneras i innehållspårningen Recommendations?
 
 NO_CONTENT returneras när rekommendationer inte är tillgängliga för den begärda algoritmen och tangentkombinationen. I allmänhet inträffar detta när säkerhetskopieringar inaktiveras för algoritmen och ett eller flera av följande är också sant:
 
@@ -288,9 +288,8 @@ En del kunder inom media och publicering vill se till att rekommenderade objekt 
 
 Följande är kända problem med [!UICONTROL Recommendations]-aktiviteter:
 
-* När [!DNL Target] returnerar ett JSON-erbjudande med getOffer() returneras det med typen JSON. Om du returnerar en JSON Recommendations-design returneras den emellertid med en typ av HTML.
+* När [!DNL Target] returnerar ett JSON-erbjudande med getOffer() returneras det med typen JSON. Om du returnerar en JSON-rekommendation returneras den emellertid med en typ av HTML.
 * Enheter som har gått ut har gått ut 60 dagar efter att de inte har fått några uppdateringar via feed eller API. De enheter som har gått ut tas dock inte bort från katalogens sökindex efter att de har gått ut. Enheter som tas bort via feed eller API tas inte heller bort från indexet för katalogsökning. (IRI-857)
-* Recommendations-erbjudanden i A/B- och Experience Targeting-aktiviteter visar inte någon visuell förhandsvisning av Recommendations-fältet (TGT-33426)
-* Samlingar, uteslutningar, villkor och designer som skapas via API är inte synliga i Target-användargränssnittet och kan bara redigeras via API. Om du skapar något av de här objekten i målgränssnittet och sedan redigerar dem via API, återspeglas inte ändringarna i målgränssnittet. Objekt som redigeras via API bör fortsätta att redigeras via API för att undvika att ändringar går förlorade. (TGT-35777)
-* Recommendations-aktiviteter som skapas via API kan visas i användargränssnittet, men kan bara redigeras via API.
+* Rekommendationer i A/B- och Experience Targeting-aktiviteter visar ingen visuell förhandsgranskning av rekommendationsfältet (TGT-33426)
+* Rekommendationsaktiviteter som skapas via API kan visas i användargränssnittet, men kan bara redigeras via API.
 * Den feed-status för anpassade kriterier som visas i kriterielistan (kortvyn) uppdateras var tionde minut och kan i sällsynta fall vara mer än tio minuter gammal. Statusen som visas i redigeringsvyn för anpassade kriterier hämtas i realtid och är alltid uppdaterad. (TGT-35896, TGT-36173)
