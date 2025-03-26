@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i dokument
 title: Var kan jag se dokumentationsuppdateringar för  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 18f6c06aa06e9526ee65bd3cc0f9b552c91c10e7
+source-git-commit: be9cb6da17f125c127d64ed8f9002987188fdf3d
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '436'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,7 @@ På den här sidan visas viktiga ändringar i produktdokumentationen för [!DNL 
 |--- |--- |--- |
 | 26 mars | [[!DNL Target] versionsinformation (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionsinformation för version [!DNL Target Standard/Premium] 25.3.7 har lagts till. |
 |  | [Rekommendationer, frågor och svar](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md) | Uppdaterade vanliga frågor och svar som indikerar att [!DNL Recommendations] objekt som skapats via API är tillgängliga i [!DNL Target]-gränssnittet. |
+|  | [Samlingar](/help/main/c-recommendations/c-products/collections.md) | Följande kommentar har lagts till: Samlingsreglerna gäller för rekommendationsobjekt som genereras efter att kriterierna har körts. De påverkar bara enhetsrekommendationer (ER) i utdata, inte nyckeln. |
 | 19 mars | [Felsökning av problem relaterade till [!UICONTROL Enhanced Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) | Uppdaterade IP-adresser till tillåtelselista. |
 | 18 mars | [A4T-stöd för [!UICONTROL Auto-Allocate] och [!UICONTROL Auto-Target] aktiviteter](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | Anteckning har lagts till i avsnittet *Målmått som stöds*. |
 | 14 mars | [[!DNL Target] versionsinformation (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionsinformation för version [!DNL Target Standard/Premium] 25.3.6 har lagts till. |
