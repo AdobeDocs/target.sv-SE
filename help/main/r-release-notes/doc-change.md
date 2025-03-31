@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i dokument
 title: Var kan jag se dokumentationsuppdateringar för  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: be9cb6da17f125c127d64ed8f9002987188fdf3d
+source-git-commit: 36f269331d992f621d71fc085c85f3a7ad5bdfa6
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '450'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,7 @@ På den här sidan visas viktiga ändringar i produktdokumentationen för [!DNL 
 
 | Datum | Ämne | Ändringar |
 |--- |--- |--- |
+| 31 mars | [versionsinformation för at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank} | Ytterligare information om at.js 2.11.8-versionen. |
 | 26 mars | [[!DNL Target] versionsinformation (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionsinformation för version [!DNL Target Standard/Premium] 25.3.7 har lagts till. |
 |  | [Rekommendationer, frågor och svar](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md) | Uppdaterade vanliga frågor och svar som indikerar att [!DNL Recommendations] objekt som skapats via API är tillgängliga i [!DNL Target]-gränssnittet. |
 |  | [Samlingar](/help/main/c-recommendations/c-products/collections.md) | Följande kommentar har lagts till: Samlingsreglerna gäller för rekommendationsobjekt som genereras efter att kriterierna har körts. De påverkar bara enhetsrekommendationer (ER) i utdata, inte nyckeln. |
