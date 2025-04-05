@@ -5,7 +5,7 @@ title: Vad är miljöer och hur använder jag dem?
 feature: Administration & Configuration
 role: Admin
 exl-id: 820a116a-15f9-4ba0-94f3-8e35aa0f90da
-source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
+source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
 workflow-type: tm+mt
 source-wordcount: '644'
 ht-degree: 0%
@@ -21,6 +21,8 @@ Värdar paketeras i miljöer för enkel hantering. Du kan till exempel ha dussin
 En miljö, standardmiljön, har förnamnet [!UICONTROL Production]. Den här standardmiljön kan inte tas bort, även om du byter namn på den. [!DNL Target] antar att det är här du kommer att leverera slutgiltiga, godkända aktiviteter och tester.
 
 När en [!DNL Target]-begäran tas emot från nya webbplatser eller domäner visas alltid dessa nya domäner i [!UICONTROL Production]-miljön. Miljön [!UICONTROL Production] kan inte ha sina inställningar ändrade, så okända eller nya platser garanteras bara se innehåll som är aktivt och klart. Med värdhantering kan du enkelt säkerställa kvaliteten på nya aktiviteter och innehåll i test-, staging- och utvecklingsmiljöer innan du aktiverar aktiviteterna.
+
+{{permissions-update}}
 
 Klicka **[!UICONTROL Administration]** > **[!UICONTROL Environments]** om du vill hantera miljöer.
 
@@ -80,7 +82,7 @@ En miljö kan användas för att separera tillgängliga objekt i katalogen för 
 >Levererade rekommendationer beror på värdgruppens eller miljö-ID:t som anges i begäran.
 
 
-Om du inte ser dina produkter bör du kontrollera att du använder rätt värdgrupp. Om du t.ex. har konfigurerat din rekommendation att använda en mellanlagringsmiljö och du har angett mellanlagringsgruppen som värdgrupp kan du behöva återskapa dina samlingar i mellanlagringsmiljön för att produkterna ska kunna visas. Om du vill se vilka produkter som är tillgängliga i respektive miljö använder du Katalogsökning för varje miljö. Du kan också förhandsgranska innehållet i Recommendations-samlingar och undantag för en vald miljö (värdgrupp).
+Om du inte ser dina produkter bör du kontrollera att du använder rätt värdgrupp. Om du t.ex. har konfigurerat din rekommendation att använda en mellanlagringsmiljö och du har angett mellanlagringsgruppen som värdgrupp kan du behöva återskapa dina samlingar i mellanlagringsmiljön för att produkterna ska kunna visas. Om du vill se vilka produkter som är tillgängliga i respektive miljö använder du Katalogsökning för varje miljö. Du kan också förhandsgranska innehållet i Rekommendationer-samlingar och undantag för en vald miljö (värdgrupp).
 
 >[!NOTE]
 >När du har ändrat den valda miljön måste du klicka på Sök för att uppdatera de returnerade resultaten.

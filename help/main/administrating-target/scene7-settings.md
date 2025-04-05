@@ -1,20 +1,22 @@
 ---
 keywords: scene7;dynamic media classic;digital asset management;assets;dam;content library;swap image
-description: Lär dig hur du integrerar Adobe [!DNL Target]  med Adobe Dynamic Media Classic (tidigare Scene7) för att tillhandahålla DAM (Digital Asset Management) i innehållsbiblioteket.
+description: Lär dig hur du integrerar Adobe [!DNL Target] med Adobe Dynamic Media Classic (tidigare Scene7) för att tillhandahålla DAM (Digital Asset Management) i innehållsbiblioteket.
 title: Hur konfigurerar jag integreringen av Dynamic Media Classic (Scene7)?
 feature: Administration & Configuration
 role: Admin
 exl-id: 315670ca-a4d1-4808-b3ec-f2ac195c281a
-source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
+source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 0%
 
 ---
 
-# Dynamic Media Classic (tidigare Scene7)-konfiguration
+# Dynamic Media Classic-konfiguration (tidigare Scene7)
 
 [!DNL Adobe Target] kan integreras med [!DNL Adobe Dynamic Media Classic] (tidigare [!DNL Scene7]) för att ge DAM (Digital Asset Management) i [!UICONTROL Content Library].
+
+{{permissions-update}}
 
 >[!NOTE]
 >
@@ -34,7 +36,7 @@ Om du vill referera till en URL för en offentlig bild direkt i ett erbjudande e
 
 Observera att lagrings-URL:en och de slutliga publicerings-URL:erna för bilder från [!DNL Dynamic Media] är olika och att du måste *INTE* skapa erbjudanden med hjälp av lagringslänken för bilder, eftersom leveransen inte fungerar i sådana fall. Du måste använda bilderbjudandefunktionen enligt anvisningarna i vår hjälpdokumentation.
 
-Om du vill integrera med [!DNL Dynamic Media Classic] ([!DNL Scene7]) måste du ange följande information.
+To integrate with [!DNL Dynamic Media Classic] ([!DNL Scene7]), you need to specify the following information.
 
 1. Klicka på **[!UICONTROL Administration]** > **[!UICONTROL Scene7 Configuration]**.
 

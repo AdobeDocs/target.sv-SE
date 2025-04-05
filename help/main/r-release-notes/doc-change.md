@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i dokument
 title: Var kan jag se dokumentationsuppdateringar för  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: c6799d43ee2f5ebe568f7199ae4ec1deaa164c06
+source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '530'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,10 @@ På den här sidan visas viktiga ändringar i produktdokumentationen för [!DNL 
 
 | Datum | Ämne | Ändringar |
 |--- |--- |--- |
+| 4 april | [[!DNL Target] versionsinformation (aktuell)](/help/main/r-release-notes/release-notes.md) | Updated release notes for the upcoming [!DNL Target] permissions update scheduled for April 22, 2025. |
+|  | [[!DNL Target] versionsinformation (förhandsversion)](/help/main/r-release-notes/target-release-notes.md) | Updated prerelease notes for the upcoming [!DNL Target] permissions update scheduled for April 22, 2025. |
+|  | [Administrator first steps](/help/main/administrating-target/start-target.md#admin-permissions) | Added new section: &quot;Permissions required for editing [!UICONTROL Administration] settings.&quot; |
+|  | [Administrera [!DNL Target] Översikt](/help/main/administrating-target/administrating-target.md) | Viktigt att notera om behörigheter som krävs för att redigera inställningarna för [!UICONTROL Administration] har lagts till.<P>Samma anteckning har lagts till för alla artiklar i avsnittet [!UICONTROL Administration]. |
 | 2 april | [[!DNL Target] versionsinformation (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionsinformation för version [!DNL Target Standard/Premium] 25.4.1 har lagts till. |
 
 ### [!DNL Target Standard/Premium] 25.3.1 (3 mars 2025)

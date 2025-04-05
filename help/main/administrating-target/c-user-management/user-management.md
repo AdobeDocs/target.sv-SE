@@ -5,7 +5,7 @@ title: Hur konfigurerar jag användarhantering?
 feature: Administration & Configuration
 role: Admin
 exl-id: 3bf0c23c-7382-43d2-af54-734221063872
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 # Användarhantering
 
 Information om hur du hanterar användare i [!DNL Target] Standard och hanterar Enterprise [!UICONTROL Properties] och [!UICONTROL Permissions] i [!DNL Target] Premium.
+
+{{permissions-update}}
 
 >[!NOTE]
 >
@@ -29,7 +31,7 @@ Du kan se om din organisation har en Standard- eller Premium-licens genom att kl
 
   [!DNL Target] Standardkunder bör följa instruktionerna i [Användare](/help/main/administrating-target/c-user-management/c-user-management/user-management.md) för att lägga till användare och tilldela behörigheter i Adobe Admin Console.
 
-* **Målpremiumkunder:** Om din organisation har en [!DNL Target] Premium-licens kommer du att observera följande i målgränssnittet:
+* **Target Premium-kunder:** Om din organisation har en [!DNL Target] Premium-licens kommer du att se följande i målgränssnittet:
 
    * Fliken [!UICONTROL Properties] visas ( [!UICONTROL Administration] > [!UICONTROL Properties] )
    * Du kommer också att se fliken [!UICONTROL Users] ( [!UICONTROL Administration] > [!UICONTROL Users] )

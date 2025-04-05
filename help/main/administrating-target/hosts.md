@@ -5,7 +5,7 @@ title: Vad är värdar och hur använder jag dem?
 feature: Administration & Configuration
 role: Admin
 exl-id: 31c661c0-686d-440e-ad58-864fb853b1c4
-source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
+source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
 workflow-type: tm+mt
 source-wordcount: '1027'
 ht-degree: 0%
@@ -21,6 +21,8 @@ Det främsta målet med värdhantering är att se till att inget inaktivt inneh�
 En värd är en domän från vilken en [!DNL Target]-begäran görs. På en webbplats är det vanligtvis egenskapen `location.hostname` för den URL som gör [!DNL Target]-begäran.
 
 Som standard begränsar inte [!DNL Target] en värd som kan göra [!DNL Target] förfrågningar och ta emot [!DNL Target] svar. När nya värdar gör förfrågningar fungerar de automatiskt. Den här processen gör det även möjligt att testa på olika domäner som du inte vet eller inte kan förutse. Om du vill åsidosätta det här standardbeteendet kan du konfigurera en tillåtelselista eller blockeringslista för att begränsa vilka värdar som ska arbeta med [!DNL Target].
+
+{{permissions-update}}
 
 Om du vill hantera värdar klickar du på **[!UICONTROL Administration]** > **[!UICONTROL Hosts]**.
 

@@ -6,7 +6,7 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
+source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
 workflow-type: tm+mt
 source-wordcount: '3165'
 ht-degree: 0%
@@ -16,6 +16,8 @@ ht-degree: 0%
 # Enterprise-användarbehörigheter
 
 Enterprise-användarbehörigheter är ett sätt att formellt administrera företagsövergripande användaråtkomst till [!DNL Adobe Target]. Lägg till användare i [!DNL Target], tilldela behörigheter baserat på deras roller och skapa arbetsytor för team baserat på olika avdelningar, globala platser, kanaler och andra logiska grupperingar. Du kan tilldela användare rollerna för [!UICONTROL Observer], [!UICONTROL Editor], [!UICONTROL Approver] eller [!UICONTROL Publisher].
+
+{{permissions-update}}
 
 ## Avgör om du har åtkomst till företagsanvändarbehörigheter
 
@@ -81,7 +83,7 @@ Alla användarroller och åtkomst till alla [!DNL Target]-funktioner är desamma
 
 ### Användargrupper
 
-Du kan skapa användargrupper, till exempel utvecklare, analytiker, marknadsförare och chefer. Du kan sedan tilldela behörigheter för flera Adobe-produkter och arbetsytor. Att utse en ny teammedlem kan vara lika enkelt som att lägga till dem i en viss användargrupp.
+Du kan skapa användargrupper, till exempel utvecklare, analytiker, marknadsförare och chefer. Sedan kan du tilldela behörigheter för flera Adobe-produkter och arbetsytor. Att tilldela en ny teammedlem alla behörigheter som krävs för olika Adobe-produkter kan vara lika enkelt som att lägga till dem i en viss användargrupp.
 
 ### Roller och behörigheter {#roles-permissions}
 
@@ -215,7 +217,7 @@ Tänk på följande när du använder eller konfigurerar egenskaper och behörig
 
    * Visual Experience Composer
    * Rapportering
-   * Scene7 Configuration
+   * Konfiguration av Scene7
    * Implementering
    * Egenskaper
    * Värdar
@@ -235,9 +237,9 @@ Tänk på följande när du använder eller konfigurerar egenskaper och behörig
 * Följande resurser är *inte* en del av den nya Enterprise Permissions-modellen:
 
    * Bilderbjudanden
-   * Alla Recommendations-resurser, inklusive kriteriebibliotek, designbibliotek, katalog, Recommendations Setup.
+   * Alla resurser för rekommendationer, inklusive kriteriebibliotek, designbibliotek, katalog, inställningar för rekommendationer.
    * Befintliga resurser (som aktiviteter, koderbjudanden och målgrupper) som skapats i Target Premium innan Enterprise Permissions aktiveras kan kopieras, men kan inte flyttas till andra arbetsytor.
-   * Aktiviteter, målgrupper, koderbjudanden, bilderbjudanden eller andra resurser som skapats med följande lösningar eller metoder kan inte styras av Enterprise Permissions-modellen, men ingår i standardversionen av Workspace: Target Classic, Adobe Experience Manager (AEM), Adobe Mobile Services och resurser som skapats med API. Resurser som skapas via API omfattar aktiviteter, målgrupper, koderbjudanden och bilderbjudanden).
+   * Aktiviteter, målgrupper, koderbjudanden, bilderbjudanden eller andra resurser som skapats med följande lösningar eller metoder kan inte styras av Enterprise Permissions-modellen, men ingår i standardversionen av Workspace: Target Classic, Adobe Experience Manager (AEM), Adobe Mobile Services och resurser som skapats via API. Resurser som skapas via API omfattar aktiviteter, målgrupper, koderbjudanden och bilderbjudanden).
    * Bilderbjudanden (resurser som lagras under `https://[tenantName].marketing.adobe.com/content/mac/[tenantName]/target/offers.html#image-library` kan för närvarande inte styras av modellen Enterprise Permissions.
    * clickTracking och omdirigerar arbetet när mållänken eller målsidan är en del av en egenskap som ingår i aktiviteten. ClickTracking fungerar kanske inte heller när funktionen `targetPageParams()` används. `targetPageParamsAll()` är den rekommenderade funktionen.
 
@@ -313,7 +315,7 @@ Utbildningsmål:
 
 ### Kontorstid: [!DNL Target] Premium-arbetsytor
 
-Den här videon är en inspelning av&quot;Office Hours&quot;, ett projekt som leds av kundtjänstteamet på Adobe.
+Den här videon är en inspelning av&quot;Office Hours&quot;, ett projekt som leds av Adobe kundtjänstteam.
 
 * Skapa en arbetsyta (produktprofil)
 * Skapa egenskaper

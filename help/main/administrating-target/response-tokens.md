@@ -5,7 +5,7 @@ title: Vad är svarstoken och hur använder jag dem?
 feature: Administration & Configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
+source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
 workflow-type: tm+mt
 source-wordcount: '1622'
 ht-degree: 0%
@@ -19,6 +19,8 @@ Med svarstoken kan du automatiskt skicka information som är specifik för [!DNL
 Med svarstoken kan du välja vilka variabler (i nyckelvärdepar) som ska användas och sedan aktivera att de skickas som en del av ett [!DNL Target]-svar. Du aktiverar en variabel med växeln och variabeln skickas med [!DNL Target] svar, som kan valideras i nätverksanrop. Svarstoken fungerar även i [!UICONTROL Preview]-läge.
 
 En viktig skillnad mellan plugin-program och svarstoken är att plugin-program levererar JavaScript till den sida som körs vid leverans. Svarstoken levererar emellertid ett objekt som sedan kan läsas och hanteras med händelseavlyssnare. Svarstoken är säkrare och gör det enklare att utveckla och underhålla tredjepartsintegreringar.
+
+{{permissions-update}}
 
 >[!NOTE]
 >
@@ -35,8 +37,8 @@ En viktig skillnad mellan plugin-program och svarstoken är att plugin-program l
 
    Mer information:
 
-   * **Platform Web SDK**: Se [Installera SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) i översiktshandboken *Platform Web SDK*.
-   * **at.js**: Se [Hämta på.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html){target=_blank}.
+   * **Platform Web SDK**: See [Install the SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) in the *Platform Web SDK overview* guide.
+   * **at.js**: See [Download at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html){target=_blank}.
 
 1. I [!DNL Target] klickar du på **[!UICONTROL Administration]** > **[!UICONTROL Response Tokens]**.
 
@@ -46,21 +48,21 @@ En viktig skillnad mellan plugin-program och svarstoken är att plugin-program l
 
    | Typ | Parameter | Anteckningar |
    |--- |--- |--- |
-   | Inbyggda profiler | `profile.activeActivities` | Returnerar en matris för `activityIds` som besökaren är kvalificerad för. Det ökar efterhand som användarna kvalificerar sig. På en sida med två [!DNL Target]-begäranden som levererar två olika aktiviteter, innehåller den andra begäran till exempel båda aktiviteterna. |
+   | Built-in Profiles | `profile.activeActivities` | Returns an array of the `activityIds` the visitor is qualified for. It increments as users are qualified. For example, on a page with two [!DNL Target] requests delivering two different activities, the second request includes both activities. |
    |  | `profile.isFirstSession` | Returnerar &quot;true&quot; eller &quot;false&quot;. |
    |  | `profile.isNewSession` | Returnerar &quot;true&quot; eller &quot;false&quot;. |
    |  | `profile.daysSinceLastVisit` | Returnerar antalet dagar sedan besökarens senaste besök. |
    |  | `profile.tntId` | Returnerar besökarens tntID |
    |  | `profile.marketingCloudVisitorId` | Returnerar besökarens Experience Cloud Visitor-ID. |
    |  | `profile.thirdPartyId` | Returnerar besökarens tredjeparts-ID. |
-   |  | `profile.categoryAffinity` | Returnerar besökarens favoritkategori. |
-   |  | `profile.categoryAffinities` | Returnerar en array med besökarens fem populäraste kategorier som strängar. |
-   | Aktivitet | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`offer.name`<br>`offer.id` | Information om den aktuella aktiviteten.<br> Observera att värden för erbjudandeparametrar utvärderas på upplevelsenivå. |
+   |  | `profile.categoryAffinity` | Returns the visitor&#39;s favorite category. |
+   |  | `profile.categoryAffinities` | Returns an array of the visitor&#39;s top 5 categories as strings. |
+   | Aktivitet | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`offer.name`<br>`offer.id` | Details of the current activity.<br> Note that values for offer parameters are evaluated on the experience level. |
    | Geo | `geo.country`<br>`geo.state`<br>`geo.city`<br>`geo.zip`<br>`geo.dma`<br>`geo.domainName`<br>`geo.ispName`<br>`geo.connectionSpeed`<br>`geo.mobileCarrier` | Mer information om hur du använder geomål i aktiviteter finns i [Geo](/help/main/c-target/c-audiences/c-target-rules/geo.md). |
    | Trafikallokeringsmetod <br> (Gäller endast för [!UICONTROL Auto-Target]- och [!UICONTROL Automated Personalization]-aktiviteter.) | `experience.trafficAllocationId` | Returnerar 0 om en besökare har fått en upplevelse av att vara i&quot;kontrolltrafik&quot; och 1 om en besökare har fått en upplevelse av den&quot;riktade&quot; trafikfördelningen. |
    |  | `experience.trafficAllocationType` | Returnera&quot;control&quot; eller&quot;target&quot;. |
 
-   Attribut för användarprofiler och kundattribut visas också i listan.
+   User profile attributes and Customer Attributes also display in the list.
 
    >[!NOTE]
    >
@@ -84,7 +86,7 @@ I följande svarsexempel läggs en [!DNL Platform Web SDK] anpassad händelsehan
 
 | Objekt | Information |
 | --- | --- |
-| Typ - Personalization.Decision | Anger om beslutet fattades av [!DNL Target]- eller Offer decisioning-providern. |
+| Typ - Personalization.Decision | Anger om beslutet fattades av [!DNL Target]- eller Offer Decisioning-providern. |
 | DecisionProvider - TGT | TGT-[!DNL Target]. [!DNL Target] tillhandahåller metadata och värden för svarstoken till sidan. |
 | Meta | Metadata som skickas till sidan. |
 | Data | Värden för de metadata som skickas till sidan. |
@@ -186,9 +188,9 @@ Plugin-program och svarstoken är tillgängliga parallellt, men plugin-program k
 
 **Levereras svarstoken via alla [!DNL Target] svar eller endast via [!DNL Target] svar som levererar en aktivitet?**
 
-Svarstoken levereras endast via [!DNL Target] svar som levererar en aktivitet.
+Response tokens are delivered only through [!DNL Target] responses delivering an activity.
 
-**Mitt [!DNL Target Classic]-plugin-program innehåller JavaScript. Hur replikerar jag funktionaliteten med hjälp av svarstoken?**
+**My [!DNL Target Classic] plugin included JavaScript. Hur replikerar jag funktionaliteten med hjälp av svarstoken?**
 
 När du migrerar till svarstoken måste den här typen av JavaScript finnas i din kodbas- eller tagghanteringslösning. Du kan utlösa den här koden med [!DNL Platform Web SDK] eller [!DNL at.js] anpassade händelser och skicka svarstokenvärden till dina JavaScript-funktioner.
 
@@ -206,23 +208,23 @@ Svarstoken extraherar information från användarprofiler och skickar sedan info
 
 **Jag har bytt namn på mitt profilskript, men varför är token som använder skriptet fortfarande aktiv med det gamla namnet?**
 
-Som nämnts ovan fungerar svarstoken på den profilinformation som har sparats för användare. Även om du har bytt namn på ditt profilskript kommer användare som har besökt din webbplats att spara det gamla profilskriptvärdet i sina profiler. Token fortsätter att hämta det gamla värdet som redan har sparats i användarprofilerna. Om du nu vill leverera innehåll med det nya namnet måste du inaktivera den tidigare variabeln och aktivera den nya variabeln.
+Som nämnts ovan fungerar svarstoken på den profilinformation som har sparats för användare. Även om du har bytt namn på ditt profilskript kommer användare som har besökt din webbplats att spara det gamla profilskriptvärdet i sina profiler. Token fortsätter att hämta det gamla värdet som redan har sparats i användarprofilerna. If you now want to deliver content on the new name, you must toggle off the previous token and toggle on the new token.
 
-**Om mina attribut har ändrats, när tas de bort från listan?**
+**If my attributes have changed, when are they be removed from the list?**
 
-[!DNL Target] utför en uppdatering av attribut med regelbundna intervall. Alla attribut som inte är aktiverade tas bort under nästa uppdatering. Om du har ett attribut som har aktiverats och tagits bort tas det skriptet inte bort från attributlistan förrän du har inaktiverat det. Du tog till exempel bort ett profilskript som användes som token. [!DNL Target] tar bara bort de inaktiverade attributen från listan när de tas bort eller byter namn.
+[!DNL Target] performs a refresh of attributes at regular intervals. Any attribute that is not toggled on is removed during the next refresh. However, if you have an attribute that was toggled on and has been removed, that script is not removed from the attribute list until you toggle it off. As an example, you removed a profile script that was used as a token. [!DNL Target] removes only the toggled-off attributes from the list when they are deleted or renamed.
 
 ## Skicka data till Google Analytics
 
 I följande avsnitt beskrivs hur du skickar [!DNL Target]-data till Google Analytics 4. Data som skickas av svarstoken kan också skickas till andra tredjepartsintegreringar.
 
-### ![AEP-märke](/help/main/assets/platform.png) Skickar data till Google Analytics via Platform Web SDK
+### ![AEP-emblem](/help/main/assets/platform.png) Skicka data till Google Analytics via Platform Web SDK
 
-Google Analytics kan skickas via Platform Web SDK version 2.6.0 (eller senare) genom att lägga till följande kod på HTML-sidan.
+Google Analytics kan skickas via Platform Web SDK version 2.6.0 (eller senare) genom att följande kod läggs till på HTML-sidan.
 
 >[!NOTE]
 >
->Kontrollera att svarstokennyckelvärdepar finns under objektet `alloy("sendEvent"`.
+>Make sure the response token key value pair are under the `alloy("sendEvent"` object.
 
 ```javascript
 <script async src="https://www.googletagmanager.com/gtag/js?id=TAG_ID"></script>
@@ -254,7 +256,7 @@ Google Analytics kan skickas via Platform Web SDK version 2.6.0 (eller senare) g
 </script>
 ```
 
-### ![at.js-märket](/help/main/assets/atjs.png) Skicka data till Google Analytics via at.js {#section_04AA830826D94D4EBEC741B7C4F86156}
+### ![at.js badge](/help/main/assets/atjs.png) Sending data to Google Analytics via at.js {#section_04AA830826D94D4EBEC741B7C4F86156}
 
 Google Analytics kan skicka data via at.js genom att lägga till följande kod på HTML-sidan:
 
