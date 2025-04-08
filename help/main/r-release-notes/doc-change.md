@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i dokument
 title: Var kan jag se dokumentationsuppdateringar för  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 203c0ca94b198ee7ce8379731d31d32b27cb8a0d
+source-git-commit: 626d33f00ff84af367847d53de7806ea62940809
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '600'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,7 @@ På den här sidan visas viktiga ändringar i produktdokumentationen för [!DNL 
 
 | Datum | Ämne | Ändringar |
 |--- |--- |--- |
+| 8 april | [CNAME och Target](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/implement-cname-support-in-target){target=_blank} | Uppdaterade följande:<ul><li>Alla certifikat är RSA SHA-256 och nycklarna är RSA 2048-bitars som standard. Nyckelstorlekar som är större än 2 048 bitar ska begäras explicit via kundtjänst. (Nyckelstorlekar som är större än 2 048 bitar stöds inte tidigare.)</li><li>Uppdaterat basskript.</li><li>Uppdaterat kodfragment för valideringsutdata.</li></ul> |
 | 7 april | [[!DNL Target] versionsinformation (förhandsversion)](/help/main/r-release-notes/target-release-notes.md) | Förhandsversionsinformation har lagts till för följande kommande versioner:<UL><li>[!DNL Target Standard/Premium] 25.4.2 (8 april 2025)</li><li>[!DNL Target Standard/Premium] 25.4.3 (10 april 2025)</li></ul> |
 | 4 april | [[!DNL Target] versionsinformation (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionsinformation för den kommande [!DNL Target]-behörighetsuppdateringen som är schemalagd till den 22 april 2025 har uppdaterats. |
 |  | [[!DNL Target] versionsinformation (förhandsversion)](/help/main/r-release-notes/target-release-notes.md) | Uppdaterade förhandsversionsinformation för den kommande [!DNL Target]-behörighetsuppdateringen som schemalagts till 22 april 2025. |
@@ -32,7 +33,7 @@ På den här sidan visas viktiga ändringar i produktdokumentationen för [!DNL 
 
 | Datum | Ämne | Ändringar |
 |--- |--- |--- |
-| 31 mars | [versionsinformation för at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank} | Ytterligare information om at.js 2.11.8-versionen. |
+| 31 mars | Versionsinformation för [at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank} | Ytterligare information om at.js 2.11.8-versionen. |
 | 26 mars | [[!DNL Target] versionsinformation (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionsinformation för version [!DNL Target Standard/Premium] 25.3.7 har lagts till. |
 |  | [Rekommendationer, frågor och svar](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md) | Uppdaterade vanliga frågor och svar som indikerar att [!DNL Recommendations] objekt som skapats via API är tillgängliga i [!DNL Target]-gränssnittet. |
 |  | [Samlingar](/help/main/c-recommendations/c-products/collections.md) | Följande kommentar har lagts till: Samlingsreglerna gäller för rekommendationsobjekt som genereras efter att kriterierna har körts. De påverkar bara enhetsrekommendationer (ER) i utdata, inte nyckeln. |
@@ -51,7 +52,7 @@ På den här sidan visas viktiga ändringar i produktdokumentationen för [!DNL 
 | Datum | Ämne | Ändringar |
 |--- |--- |--- |
 | 26 februari | [[!DNL Target] versionsinformation (aktuell)](/help/main/r-release-notes/release-notes.md) | Tillagd information för följande versioner:<ul><li>[!DNL Target Standard/Premium] 25.2.3 (26 februari 2025)</li><li>at.js version 2.11.7 (26 februari 2025)</li></ul> |
-|  | [versionsinformation för at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank} | Information har lagts till för version 2.11.7 (26 februari 2025) av at.js. |
+|  | Versionsinformation för [at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank} | Information har lagts till för version 2.11.7 (26 februari 2025) av at.js. |
 |  | [Aktivitets-QA-bokmärke](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md) | Uppdaterade Activity QA-bokmärket för at.js 2.x. |
 | 13 februari | [[!DNL Target] versionsinformation (aktuell)](/help/main/r-release-notes/release-notes.md) | Uppdateringen av användargränssnittet i [!DNL Target Standard/Premium] 25.2.1 ändrades till 17 februari 2025. |
 | 12 februari | [Alternativ för Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) | Uppdaterade hela avsnittet för att förklara den uppdaterade VEC som introducerades i version [!DNL Target Standard/Premium] 25.2.1 (12 februari 2025). |
