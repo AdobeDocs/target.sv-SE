@@ -4,9 +4,9 @@ description: Lär dig mer om de nya funktionerna, förbättringarna och korriger
 title: Vilka nya funktioner och förbättringar ingår i den kommande [!DNL Target] versionen?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 8af56181ea0ed74eb41d799908ce50f0436d330c
+source-git-commit: 7e23eea48abdebd60f37ad1bf453813a63779d33
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '744'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,16 @@ Från och med den 22 april 2025 kan bara [!UICONTROL Product]- och [!UICONTROL S
 
 Mer information finns i [Administrera mål](/help/main/administrating-target/start-target.md).
 
+## [!DNL Target Standard/Premium] 25.4.4 (15 april 2025)
+
+Den här versionen innehåller följande korrigeringar och uppdateringar:
+
+* Ett felmeddelande har lagts till som hjälp för användarna när de vill lösa dubblettalternativ i en aktivitet. (TGT-51927)
+* Ett problem har korrigerats där ClickTrack-väljare inte togs bort när sidor eller upplevelser med omdirigeringserbjudanden togs bort. (TGT-51952)
+* Ett problem har korrigerats där [!DNL Target] inte kunde identifiera ett #-tecken korrekt i aktivitets-URL:en. (TGT-52093)
+* Ett problem har korrigerats där målgruppsdefinitioner inte var synliga vid redigering av målgruppsanpassning på erbjudandenivå i [!UICONTROL Automated Personalization] (AP)-aktiviteter. (TGT-52148)
+* Korrigerade ett problem där målgruppsförbättringar och målgrupper med målinriktning mot aktiviteter hämtades i användargränssnittet. (TGT-52158)
+
 ## [!DNL Target Standard/Premium] 25.4.3 (10 april 2025)
 
 Den här versionen innehåller följande korrigeringar och uppdateringar:
@@ -51,7 +61,6 @@ Den här versionen innehåller följande korrigeringar och uppdateringar:
 * Korrigerade ett problem som förhindrade att hela upplevelsens URL visades i [!UICONTROL Browse mode] i [!UICONTROL Visual Experience Composer] (VEC). (TGT-52101)
 * Korrigerade ett problem där redigering av en aktivitet orsakade att sidans leverans lade till &quot;/&quot; i slutet av URL:en, vilket gjorde den ogiltig. (TGT-52114)
 * Ett problem har korrigerats där länken [!UICONTROL Activity QA] i [!UICONTROL Form-Based Experience Composer] felaktigt omdirigerades till hemsidan [!DNL Adobe Experience Cloud]. (TGT-52055)
-* Ett felmeddelande har lagts till som hjälp för användarna när de vill lösa dubblettalternativ i en aktivitet. (TGT-51927)
 * Ett problem har korrigerats där ytterligare sidor som lagts till i aktiviteten [!UICONTROL A/B Test] inte sparades när de sparades och öppnades igen. (TGT-51994)
 * Ett problem som gjorde att kunder inte kunde ta bort format i avsnittet med infogade format har korrigerats. (TGT-52070)
 * Åtkomsten till [målgruppsdefinitionskort](/help/main/c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780) i dialogrutan [!UICONTROL Activity QA] återställdes, ungefär som det gamla användargränssnittet. (TGT-52056)
