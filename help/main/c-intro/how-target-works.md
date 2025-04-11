@@ -4,7 +4,7 @@ description: Lär dig hur [!DNL Adobe Target] fungerar, inklusive information om
 title: Hur fungerar  [!DNL Target] ?
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-source-git-commit: 09e35c7a70785424bea0b63956d01e5e3944bfa9
+source-git-commit: 673fe3d19ff569d8dd8c659e77a85a7fb74bbae7
 workflow-type: tm+mt
 source-wordcount: '2400'
 ht-degree: 0%
@@ -103,10 +103,10 @@ Mer information finns i [Rekommendationer](/help/main/c-recommendations/recommen
 
 Följande information hjälper dig att förstå den inventeringsstrategi som används för [!DNL Target]-serveranrop, vilket visas i tabellen nedan:
 
-* **Antal en gång**: Räkna en gång per API-anrop
-* **Räkna antalet rutor**: Räknar antalet rutor under matrisen i nyttolasten för ett enda API-anrop
-* **Ignorera**: räknas inte alls
-* **Räkna antalet vyer (en gång)**: Räknar antalet vyer under arrayen i nyttolasten. I en vanlig implementering har ett vymeddelande bara en vy under meddelandearrayen, vilket gör att det motsvarar att räkna en gång i de flesta implementeringar
+* **Antal en gång**: Räknar en gång per API-anrop.
+* **Räkna antalet rutor**: Räknar antalet rutor under arrayen i nyttolasten för ett enda API-anrop.
+* **Ignorera**: Räknas inte alls.
+* **Räkna antalet vyer (en gång)**: Räknar antalet vyer under arrayen i nyttolasten. I en vanlig implementering har ett vymeddelande bara en vy under meddelandearrayen, vilket gör att det motsvarar att räkna en gång i de flesta implementeringar.
 
 | Slutpunkt | Hämtningstyp | Alternativ | Inventeringsstrategi |
 |--- |--- |--- |-- |
