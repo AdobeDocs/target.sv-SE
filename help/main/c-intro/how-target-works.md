@@ -4,9 +4,9 @@ description: Lär dig hur [!DNL Adobe Target] fungerar, inklusive information om
 title: Hur fungerar  [!DNL Target] ?
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-source-git-commit: 70b3dbc7f0521e865de781e72bb1e5ca98df0258
+source-git-commit: 09e35c7a70785424bea0b63956d01e5e3944bfa9
 workflow-type: tm+mt
-source-wordcount: '2306'
+source-wordcount: '2400'
 ht-degree: 0%
 
 ---
@@ -50,22 +50,22 @@ Vilket innehåll som visas beror på vilken typ av aktivitet du skapar:
 
 ### [!UICONTROL A/B Test]
 
-I ett grundläggande A/B-test väljs innehåll slumpmässigt från de tilldelade upplevelserna. Du kan ange procentvärden för trafikallokering för varje upplevelse. Inledningsvis kan trafiken fördelas ojämnt på grund av slumpmässig uppdelning, men den utjämnas i takt med att trafiken ökar. Om du till exempel har två upplevelser väljs startupplevelsen slumpmässigt. Låg trafik kan snedvrida besökarnas procentandelar mot en upplevelse, men den här situationen jämnas ut med mer trafik.
+I ett grundläggande A/B-test väljs innehåll slumpmässigt från de tilldelade upplevelserna. Du kan ange procentvärden för trafikallokering för varje upplevelse. Inledningsvis kan trafiken fördelas ojämnt på grund av slumpmässig uppdelning, men den utjämnas i takt med att trafiken ökar. För två upplevelser väljs till exempel startupplevelsen slumpmässigt. Låg trafik kan skeva besökarprocenten mot en upplevelse, men den här situationen balanserar ut mot mer trafik.
 
-Ange procentuella mål för varje upplevelse. Ett slumpmässigt nummer genereras för att välja den upplevelse som ska visas. Även om de resulterande procentsatserna kanske inte exakt matchar målen, leder högre trafik till en närmare uppdelning av målen.
+Ange procentmål för varje upplevelse. Ett slumpmässigt tal genereras för att välja vilken upplevelse som ska visas. Även om de resulterande procentsatserna kanske inte matchar målen exakt, leder högre trafik till en närmare delning av målmålen.
 
-1. En kund begär en sida från din server, som visas i deras webbläsare.
-1. En förstapartscookie ställs in i kundens webbläsare för att lagra deras beteende.
-1. Sidan anropar inriktningssystemet.
+1. En kund begär en sida från servern som visas i webbläsaren.
+1. En cookie från första part är inställd i kundens webbläsare för att lagra beteendet.
+1. Sidan anropar målsystemet.
 1. Innehållet visas baserat på aktivitetsreglerna.
 
-Mer information finns i [Skapa ett A/B-test](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) .
+Mer information finns i [Skapa ett A/B-test](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md).
 
 ### [!UICONTROL Auto-Allocate]
 
-[!UICONTROL Auto-Allocate] Identifierar den vinnande upplevelsen bland två eller flera alternativ. Den omfördelar sedan automatiskt mer trafik till vinnaren, vilket ökar konverteringarna när testet fortsätter att köras och lära sig.
+[!UICONTROL Auto-Allocate] identifierar den vinnande upplevelsen bland två eller fler alternativ. Sedan omfördelas automatiskt mer trafik till vinnaren och antalet konverteringar ökar allt eftersom testet fortsätter att köras och lära sig mer.
 
-Mer information finns här [[!UICONTROL Auto-Allocate]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) .
+Mer information finns i [[!UICONTROL Auto-Allocate]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
 
 ### [!UICONTROL Auto-Target] (AT)
 
@@ -73,9 +73,9 @@ Mer information finns här [[!UICONTROL Auto-Allocate]](/help/main/c-activities/
 
 Mer information finns i [Automatiskt mål](/help/main/c-activities/auto-target/auto-target-to-optimize.md).
 
-### [!UICONTROL Automated Personalization] Herr talman, mina damer och herrar!
+### [!UICONTROL Automated Personalization] (AP)
 
-[!UICONTROL Automated Personalization] (AP) kombinerar erbjudanden eller meddelanden och använder avancerad maskininlärning för att matcha olika varianter till varje besökare. AP personaliserar innehåll baserat på individuella kundprofiler för att lyfta.
+[!UICONTROL Automated Personalization] (AP) kombinerar erbjudanden eller meddelanden och använder avancerad maskininlärning för att matcha olika variationer för varje besökare. AP personaliserar innehåll baserat på individuella kundprofiler för att lyfta.
 
 Mer information finns i [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9).
 
@@ -101,6 +101,13 @@ Mer information finns i [Rekommendationer](/help/main/c-recommendations/recommen
 
 [!DNL Target] räknar endast serveranrop som ger värde till kunderna. I följande tabell visas hur [!DNL Target] räknar slutpunkter, en mbox, batchmbox-anrop, kör, förhämtar och meddelandeanrop.
 
+Följande information hjälper dig att förstå den inventeringsstrategi som används för [!DNL Target]-serveranrop, vilket visas i tabellen nedan:
+
+* **Antal en gång**: Räkna en gång per API-anrop
+* **Räkna antalet rutor**: Räknar antalet rutor under matrisen i nyttolasten för ett enda API-anrop
+* **Ignorera**: räknas inte alls
+* **Räkna antalet vyer (en gång)**: Räknar antalet vyer under arrayen i nyttolasten. I en vanlig implementering har ett vymeddelande bara en vy under meddelandearrayen, vilket gör att det motsvarar att räkna en gång i de flesta implementeringar
+
 | Slutpunkt | Hämtningstyp | Alternativ | Inventeringsstrategi |
 |--- |--- |--- |-- |
 | `rest//v1/mbox` | Enkelt | [!UICONTROL execute] | Räkna en gång |
@@ -115,16 +122,16 @@ Mer information finns i [Rekommendationer](/help/main/c-recommendations/recommen
 |  | Grupp | [!UICONTROL prefetch] > [!UICONTROL mboxes] | Ignorera |
 |  | Grupp | [!UICONTROL notifications] > [!UICONTROL views] | Räkna antalet vyer (en gång) |
 |  | Grupp | [!UICONTROL notifications] > [!UICONTROL pageLoad] | Räkna en gång |
-|  | Grupp | [!UICONTROL notifications] > typ ([!UICONTROL conversions]) | Räkna en gång |
+|  | Grupp | [!UICONTROL notifications] > text ([!UICONTROL conversions]) | Räkna en gång |
 |  | Grupp | [!UICONTROL notifications] > [!UICONTROL mboxes] | Räkna antalet rutor |
 
 ## Edge Network {#concept_0AE2ED8E9DE64288A8B30FCBF1040934}
 
 En Edge är en geografiskt spridd serverarkitektur som ger optimal svarstid för besökare som begär innehåll, oavsett var de befinner sig.
 
-För att förbättra svarstiderna [!DNL Target] är Edge endast värd för aktivitetslogik, cachelagrade profiler och erbjudandeinformation.
+För att förbättra svarstiderna är [!DNL Target] Edge värd endast för aktivitetslogik, cachelagrade profiler och erbjudandeinformation.
 
-Aktivitets- och innehållsdatabaser, [!DNL Analytics] data, API:er och användargränssnitt för marknadsförare finns i [!DNL Adobe] centrala kluster. Uppdateringar skickas till [!DNL Target]-kanterna, som automatiskt synkroniseras med Central Clusters för att kontinuerligt uppdatera cachelagrade aktivitetsdata. Alla 1:1-modelleringar lagras också på varje kant, vilket gör att komplexa begäranden kan bearbetas lokalt.
+Aktivitets- och innehållsdatabaser, [!DNL Analytics] data, API:er och marknadsföringsanvändargränssnitt finns i [!DNL Adobe] Central Clusters. Uppdateringar skickas till [!DNL Target]-kanterna, som automatiskt synkroniseras med Central Clusters för att kontinuerligt uppdatera cachelagrade aktivitetsdata. Alla 1:1-modelleringar lagras också på varje kant, vilket gör att komplexa begäranden kan bearbetas lokalt.
 
 Varje Edge-kluster innehåller all information som behövs för att svara på förfrågningar om besökarinnehåll och spåra analysdata. Besöksförfrågningar dirigeras till närmaste Edge-kluster.
 
@@ -166,18 +173,18 @@ Du kan tillåtslista [!DNL Target] Edge Clusters om du vill. Mer information fin
 
 ## Skyddad användarupplevelse {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
-[!DNL Adobe] säkerställer att tillgängligheten och prestandan för dess målinfrastruktur är så tillförlitlig som möjligt. Kommunikationsavbrott mellan en besökares webbläsare och [!DNL Adobe] servrar kan dock avbryta innehållsleveransen.
+[!DNL Adobe] ser till att målinfrastrukturen är så tillförlitlig som möjligt och att dess prestanda är så tillförlitliga som möjligt. Kommunikationsstörningar mellan en besökares webbläsare och [!DNL Adobe] servrar kan dock störa innehållsleveransen.
 
 För att skydda mot avbrott i tjänsten och anslutningsproblem ställs alla platser in på att inkludera standardinnehåll (definieras av klienten). Det här standardinnehållet visas om besökarens webbläsare inte kan ansluta till [!DNL Target].
 
 Inga ändringar görs på sidan om besökarens webbläsare inte kan ansluta inom en angiven tidsgräns (standard: 15 sekunder). Om den här tidsgränsen nås visas standardplatsinnehåll.
 
-[!DNL Adobe] Skyddar användarupplevelsen genom att optimera och skydda prestandan.
+[!DNL Adobe] skyddar användarupplevelsen genom att optimera och skydda prestanda.
 
-* [!DNL Adobe] säkerställer prestandatester baserade på branschstandarder, garanterade av [!UICONTROL Adobe Service Level Agreement].
-* Edge Network säkerställer snabb dataleverans.
-* [!UICONTROL Adobe] använder en metod med flera nivåer för att säkra sina applikationer, vilket ger högsta möjliga tillgänglighet och tillförlitlighet för kunderna.
-* [!DNL Target] Consulting erbjuder implementeringshjälp och löpande produktsupport.
+* [!DNL Adobe] garanterar prestandatester baserat på branschstandarder, som garanteras av [!UICONTROL Adobe Service Level Agreement].
+* Edge Network ger snabb leverans av data.
+* [!UICONTROL Adobe] använder en metod med flera nivåer för att skydda sina program, vilket ger högsta tillgänglighet och tillförlitlighet för kunderna.
+* [!DNL Target] Consulting erbjuder implementeringshjälp och fortlöpande produktsupport.
 
 ## SEO-testning (Search Engine Optimization) {#concept_C0C865663CAB4251B66A1F250FD25E6A}
 
@@ -197,19 +204,19 @@ Riktlinjer presenterades i ett [blogginlägg från Google Webmaster Central](htt
 
   [!DNL Target] har konfigurerats för att behandla sökmotorobjekt på samma sätt som andra användare. Därför kan botar inkluderas i aktiviteter om de väljs slumpmässigt och&quot;se&quot; testvariationerna.
 
-* **Använd rel=&quot;canonical&quot;**: Ibland kräver ett A/B-test olika webbadresser för varianter. I dessa fall bör alla varianter innehålla en rel=&quot;canonical&quot;-tagg som refererar till den ursprungliga (kontroll)URL:en. Om [!DNL Adobe] du till exempel testar startsidan med olika webbadresser för varje variant ska följande kanoniska tagg för startsidan placeras i taggen `<head>` för varje variant:
+* **Använd rel=&quot;canonical&quot;**: Ibland krävs olika URL:er för variationer för ett A/B-test. I dessa fall ska alla variationer innehålla en rel=&quot;canonical&quot;-tagg som refererar till den ursprungliga (kontroll) URL:en. Om [!DNL Adobe] till exempel testar sin hemsida med olika URL:er för varje variation, ska följande kanoniska tagg för hemsidan placeras i taggen `<head>` för varje variation:
 
   `<link rel="canonical" href="https://www.adobe.com" />`
 
-* **Använd 302-omdirigeringar (tillfälliga**): När separata webbadresser används för variantsidor i ett test [!DNL Google] rekommenderar vi att du använder en 302-omdirigering för att dirigera trafik till testvarianterna. 302-omdirigeringen informerar sökmotorerna om att omdirigeringen endast är tillfällig och aktiv medan testet körs.
+* **Använd 302 (tillfälliga) omdirigeringar**: När separata URL:er används för variantsidor i ett test rekommenderar [!DNL Google] att du använder en 302-omdirigering för att dirigera trafik till testvarianterna. Omdirigeringen till 302 informerar sökmotorer om att omdirigeringen är tillfällig och aktiv endast medan testet körs.
 
-  En 302-omdirigering är en omdirigering på serversidan, medan [!DNL Target] de flesta optimeringsleverantörer använder funktioner på klientsidan. [!DNL Target] Är därför inte helt kompatibel med [!DNL Google]s rekommendationer för omdirigeringar. Detta påverkar dock bara en liten del av testerna. Standardmetoden för att köra tester [!DNL Target] innebär att innehållet ändras i en enda URL, vilket eliminerar behovet av omdirigeringar. I de fall där flera URL:er krävs för testvariationer använder [!DNL Target] JavaScript `window.location`-kommandot, som inte anger om omdirigeringen är 301 eller 302.
+  En 302-omdirigering är en omdirigering på serversidan, medan [!DNL Target] och de flesta optimeringsleverantörer använder funktioner på klientsidan. Därför är [!DNL Target] inte helt kompatibel med [!DNL Google]s rekommendationer för omdirigeringar. Detta påverkar dock endast en liten del av testerna. Standardmetoden för att köra tester via [!DNL Target] innebär att ändra innehåll inom en enda URL, vilket eliminerar behovet av omdirigeringar. I de fall där flera URL:er krävs för testvariationer använder [!DNL Target] JavaScript `window.location`-kommandot, som inte anger om omdirigeringen är 301 eller 302.
 
   [!DNL Adobe] söker aktivt efter lösningar som är helt förenliga med riktlinjerna för sökmotorer. För klienter som behöver separata URL:er för testning anser [!DNL Adobe] att korrekt implementering av kanoniska taggar minskar de associerade riskerna.
 
-* **Kör försök bara så länge som krävs**: [!DNL Adobe] definierar &quot;så länge som krävs&quot; som den tid som krävs för att uppnå statistisk signifikans. [!DNL Target]erbjuder bästa praxis och kalkylatorn [!DNL Adobe Target] [](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) för provstorlek för att avgöra när ditt test har nått denna punkt. [!DNL Adobe] rekommenderar att du införlivar den hårdkodade implementeringen av vinnande tester i ditt testarbetsflöde och tilldelar lämpliga resurser.
+* **Kör försök bara så länge som krävs**: [!DNL Adobe] definierar &quot;så länge som krävs&quot; som den tid som krävs för att uppnå statistisk signifikans. [!DNL Target] erbjuder bästa praxis och [!DNL Adobe Target] [Beräkna provstorlek](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) för att avgöra när testet har nått den här punkten. [!DNL Adobe] rekommenderar att du införlivar den hårdkodade implementeringen av vinnande tester i ditt testarbetsflöde och tilldelar lämpliga resurser.
 
-  Att använda [!DNL Target] för att &quot;publicera&quot; vinnande tester rekommenderas inte som en permanent lösning. Om det vinnande testet publiceras för 100 % av användarna hela tiden kan den här metoden användas tillfälligt när det vinnande testet hårdkodas.
+  Vi rekommenderar inte att [!DNL Target] används för att&quot;publicera&quot; vinnande tester som en permanent lösning. Om det vinnande testet publiceras för 100 % av användarna hela tiden kan det här tillvägagångssättet användas tillfälligt medan det vinnande testet hårdkodas.
 
   Tänk på vad ditt test har ändrats. Mindre uppdateringar, t.ex. knappfärger, påverkar inte den organiska rankningen. Textändringar bör dock vara hårdkodade.
 
@@ -238,16 +245,16 @@ Trafik som identifieras som robotgenererad betjänas fortfarande. Bots behandlas
 [!DNL Target] gör inte följande för känd robottrafik:
 
 * Skapa eller hämta en besökarprofil
-* Logga profilattribut eller köra profilskript
+* Logga profilattribut eller kör profilskript
 * Slå upp [!DNL Adobe Audience Manager] (AAM) segment (om tillämpligt)
-* Använd robottrafik för att modellera eller leverera anpassat innehåll för [!UICONTROL Recommendations], [!UICONTROL Auto-Target], [!UICONTROL Automated Personalization]eller [!UICONTROL Auto-Allocate] aktiviteter
+* Använd robottrafik i modellering eller för att leverera anpassat innehåll för [!UICONTROL Recommendations], [!UICONTROL Auto-Target], [!UICONTROL Automated Personalization] eller [!UICONTROL Auto-Allocate] aktiviteter
 * Logga ett aktivitetsbesök för rapportering
-* Loggdata som ska skickas till [!DNL Adobe Experience Cloud] plattformen
+* Loggdata som ska skickas till plattformen [!DNL Adobe Experience Cloud]
 
-För känd robottrafik, när du använder [!UICONTROL Analytics for Target] (A4T), [!DNL Target] gör du inte:
+För känd robottrafik gäller inte [!UICONTROL Analytics for Target] (A4T): [!DNL Target]
 
 * Skicka händelser till [!DNL Analytics]
 
-För känd robottrafik när du använder `client_side` loggning [!DNL Target] returneras inte:
+[!DNL Target] returnerar inte för känd robottrafik när `client_side`-loggning används:
 
 * `tnta payload`
