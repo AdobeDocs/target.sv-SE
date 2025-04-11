@@ -4,7 +4,7 @@ title: Användarhandbok om Adobe Target Business Practitioner
 description: Lär dig hur du använder Adobe [!DNL Target] för att anpassa kundernas upplevelse och maximera intäkterna på webbplatser, mobilsajter, appar och andra digitala kanaler.
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: 626d33f00ff84af367847d53de7806ea62940809
+source-git-commit: b9ec7af30fda6e97e3b0372a02a682a177764742
 workflow-type: tm+mt
 source-wordcount: '505'
 ht-degree: 1%
@@ -15,14 +15,14 @@ ht-degree: 1%
 
 [!DNL Adobe Target] är lösningen [!DNL Adobe Experience Cloud] som innehåller allt du behöver för att skräddarsy och personalisera dina kunders upplevelse så att du kan maximera intäkterna på dina webbplatser, mobilsajter, appar, sociala medier och andra digitala kanaler.
 
-**Senast uppdaterad: 8 april 2025 ( [Se vad som ändrats](r-release-notes/doc-change.md) )**
+**Senast uppdaterad: 11 april 2025 ( [Se vad som ändrats](r-release-notes/doc-change.md) )**
 
 >[!NOTE]
 >
 >Förutom den här guiden finns även följande [!DNL Adobe Target] stödlinjer tillgängliga:
 >
 >- [*Adobe Target Developer Guide*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}
->- [*Adobe Target-självstudiekurser*](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html){target=_blank}
+>- [*Adobe Target självstudiekurser*](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html){target=_blank}
 >
 >Versionsinformation finns i [Versionsinformation för mål (aktuell)](/help/main/r-release-notes/release-notes.md) i den här handboken.
 
@@ -56,7 +56,7 @@ Marknadsförare, utvecklare, administratörer, analytiker och kvalitetstekniker.
 
 ## Utvecklare {#developers}
 
-- [Adobe Target Developer Guide](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}: Den här portalen innehåller resurser och guider för [!DNL Adobe Target] -utvecklare, inklusive API- och SDK-dokumentation för implementering av [!DNL Target].
+- [Adobe Target Developer Guide](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}: Den här portalen innehåller resurser och guider för [!DNL Adobe Target] utvecklare, inklusive API- och SDK-dokumentation för implementering av [!DNL Target].
 
 ## Mål- och Adobe Experience Cloud-administratörer {#admins}
 
