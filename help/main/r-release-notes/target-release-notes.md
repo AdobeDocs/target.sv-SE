@@ -4,7 +4,7 @@ description: Lär dig mer om de nya funktionerna, förbättringarna och korriger
 title: Vilka nya funktioner och förbättringar ingår i den kommande [!DNL Target] versionen?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: b9ec7af30fda6e97e3b0372a02a682a177764742
+source-git-commit: 218036d23803643f25e6cf9dd91ea71dd55342ea
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Den här artikeln innehåller förhandsversionsinformation för kommande [!DNL Adobe Target]-versioner, inklusive SDK, API:er och JavaScript-bibliotek.
 
-**Senast uppdaterad: 11 april 2025**
+**Senast uppdaterad: 17 april 2025**
 
 >[!NOTE]
 >
@@ -23,7 +23,7 @@ Den här artikeln innehåller förhandsversionsinformation för kommande [!DNL A
 >
 >Information om den aktuella versionen finns i [Versionsinformation för mål](release-notes.md). Informationen på dessa sidor kan vara densamma, beroende på när releaserna ska släppas. Utfärdandenumren inom parentes är avsedda för intern [!DNL Adobe]-användning.
 
-## [!DNL Target Standard/Premium] 25.4.4 (15 april 2025)
+## [!DNL Target Standard/Premium] 25.4.4 (17 april 2025)
 
 Den här versionen innehåller följande korrigeringar och uppdateringar:
 
@@ -46,7 +46,7 @@ Mer information finns i [Administrera mål](/help/main/administrating-target/sta
 | Resurs | Information |
 |--- |--- |
 | [Versionsinformation: Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=en) | Information om ändringarna i respektive version av Platform Web SDK. |
-| [versionsinformation för at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | Information om ändringar i varje version av JavaScript-biblioteket [!DNL Adobe Target] at.js. |
+| Versionsinformation för [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | Information om ändringar i varje version av JavaScript-biblioteket [!DNL Adobe Target] at.js. |
 
 ## Förhandsversionsinformation {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
