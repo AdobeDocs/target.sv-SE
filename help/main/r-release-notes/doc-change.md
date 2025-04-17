@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i dokument
 title: Var kan jag se dokumentationsuppdateringar för  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 09e35c7a70785424bea0b63956d01e5e3944bfa9
+source-git-commit: 02447c110372536022df0afb2329c708be675d2a
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '647'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,7 @@ På den här sidan visas viktiga ändringar i produktdokumentationen för [!DNL 
 
 | Datum | Ämne | Ändringar |
 |--- |--- |--- |
+| 17 april | [[!DNL Target] versionsinformation (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionsinformation för version [!DNL Target Standard/Premium] 25.4.4 har lagts till. |
 | 11 april | [[!DNL Target] versionsinformation (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionsinformation för version [!DNL Target Standard/Premium] 25.4.3 har lagts till. |
 |  | [Så här fungerar [!DNL Target] ](/help/main/c-intro/how-target-works.md#usage) | Nytt avsnitt har lagts till: &quot;Hur [!DNL Target] räknar användning av serveranrop.&quot; |
 | 9 april | [[!DNL Target] versionsinformation (förhandsversion)](/help/main/r-release-notes/target-release-notes.md) | Uppdaterade prerelease notes-datum för version 25.4.4. |
@@ -36,7 +37,7 @@ På den här sidan visas viktiga ändringar i produktdokumentationen för [!DNL 
 
 | Datum | Ämne | Ändringar |
 |--- |--- |--- |
-| 31 mars | [versionsinformation för at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank} | Ytterligare information om at.js 2.11.8-versionen. |
+| 31 mars | Versionsinformation för [at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank} | Ytterligare information om at.js 2.11.8-versionen. |
 | 26 mars | [[!DNL Target] versionsinformation (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionsinformation för version [!DNL Target Standard/Premium] 25.3.7 har lagts till. |
 |  | [Rekommendationer, frågor och svar](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md) | Uppdaterade vanliga frågor och svar som indikerar att [!DNL Recommendations] objekt som skapats via API är tillgängliga i [!DNL Target]-gränssnittet. |
 |  | [Samlingar](/help/main/c-recommendations/c-products/collections.md) | Följande kommentar har lagts till: Samlingsreglerna gäller för rekommendationsobjekt som genereras efter att kriterierna har körts. De påverkar bara enhetsrekommendationer (ER) i utdata, inte nyckeln. |
@@ -55,7 +56,7 @@ På den här sidan visas viktiga ändringar i produktdokumentationen för [!DNL 
 | Datum | Ämne | Ändringar |
 |--- |--- |--- |
 | 26 februari | [[!DNL Target] versionsinformation (aktuell)](/help/main/r-release-notes/release-notes.md) | Tillagd information för följande versioner:<ul><li>[!DNL Target Standard/Premium] 25.2.3 (26 februari 2025)</li><li>at.js version 2.11.7 (26 februari 2025)</li></ul> |
-|  | [versionsinformation för at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank} | Information har lagts till för version 2.11.7 (26 februari 2025) av at.js. |
+|  | Versionsinformation för [at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank} | Information har lagts till för version 2.11.7 (26 februari 2025) av at.js. |
 |  | [Aktivitets-QA-bokmärke](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md) | Uppdaterade Activity QA-bokmärket för at.js 2.x. |
 | 13 februari | [[!DNL Target] versionsinformation (aktuell)](/help/main/r-release-notes/release-notes.md) | Uppdateringen av användargränssnittet i [!DNL Target Standard/Premium] 25.2.1 ändrades till 17 februari 2025. |
 | 12 februari | [Alternativ för Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) | Uppdaterade hela avsnittet för att förklara den uppdaterade VEC som introducerades i version [!DNL Target Standard/Premium] 25.2.1 (12 februari 2025). |

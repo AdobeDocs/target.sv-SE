@@ -4,9 +4,9 @@ description: Lär dig mer om de nya funktionerna, förbättringarna och korriger
 title: Vilka nya funktioner och förbättringar ingår i den kommande [!DNL Target] versionen?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 218036d23803643f25e6cf9dd91ea71dd55342ea
+source-git-commit: cd25bda52b7a1b916a73ca5e531a7134ba8cef4e
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '416'
 ht-degree: 0%
 
 ---
@@ -28,10 +28,15 @@ Den här artikeln innehåller förhandsversionsinformation för kommande [!DNL A
 Den här versionen innehåller följande korrigeringar och uppdateringar:
 
 * Ett felmeddelande har lagts till som hjälp för användarna när de vill lösa dubblettalternativ i en aktivitet. (TGT-51927)
-* Ett problem har korrigerats där ClickTrack-väljare inte togs bort när sidor eller upplevelser med omdirigeringserbjudanden togs bort. (TGT-51952)
-* Ett problem har korrigerats där [!DNL Target] inte kunde identifiera ett #-tecken korrekt i aktivitets-URL:en. (TGT-52093)
+* Ett problem har korrigerats där `ClickTrack` väljare inte togs bort när sidor eller upplevelser med omdirigeringserbjudanden togs bort. (TGT-51952)
+* Ett problem som orsakats av att tomma `ClickTrack` väljare tillåts har korrigerats. [!DNL Target] kräver nu att väljarfältet inte får vara tomt. (TGT-52107)
+* Korrigerade ett problem som felaktigt tillät mätvärden med dubblettnamn. Mätvärden kräver nu unika namn. (TGT-52201)
 * Ett problem har korrigerats där målgruppsdefinitioner inte var synliga vid redigering av målgruppsanpassning på erbjudandenivå i [!UICONTROL Automated Personalization] (AP)-aktiviteter. (TGT-52148)
-* Korrigerade ett problem där målgruppsförbättringar och målgrupper med målinriktning mot aktiviteter hämtades i användargränssnittet. (TGT-52158)
+* Ett problem som gjorde att kunder med [!UICONTROL Editor] rättigheter inte kunde spara aktiviteter har korrigerats. (TGT-5227)
+* `OptionLocalIDs` ökar inte längre felaktigt när alternativet inte ändras. (TGT-52139)
+* Korrigerade ett problem som orsakade ett ogiltigt `optionLocalIds`-meddelande när en aktivitet skulle skapas. (TGT-52154)
+* Skillnader mellan `OptionLocalIDs` som har definierats för en aktivitet och de som används för att definiera upplevelser har korrigerats. (TGT-52215)
+* Korrigerade ett problem som orsakade ett valideringsfel som inträffade när en A/B-aktivitet skulle skapas. (TGT-51923)
 
 ## Uppdatering av målbehörigheter (22 april 2025)
 
