@@ -4,9 +4,9 @@ description: Lär dig mer om de nya funktionerna, förbättringarna och korriger
 title: Vilka nya funktioner och förbättringar ingår i den kommande [!DNL Target] versionen?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 938351d258746031a6e47a935a37e2caccbf6e36
+source-git-commit: 872e56662e04e3fabda7ff38233adfea32efbe48
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '373'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,19 @@ Den här artikeln innehåller förhandsversionsinformation för kommande [!DNL A
 >Releasedatum, funktioner och annan information kan ändras utan föregående meddelande.
 >
 >Information om den aktuella versionen finns i [Versionsinformation för mål](release-notes.md). Informationen på dessa sidor kan vara densamma, beroende på när releaserna ska släppas. Utfärdandenumren inom parentes är avsedda för intern [!DNL Adobe]-användning.
+
+## [!DNL Target Standard/Premium] 25.4.5 (24 april 2025)
+
+Den här versionen innehåller följande korrigeringar och uppdateringar:
+
+* Korrigerade ett problem som gjorde att flera upplevelsemålgrupper visades när en aktivitet redigerades eller sparades. (TGT-52134)
+* Ett problem har korrigerats där rekommendationer inte visades på kundens webbplats efter att aktiviteten [!DNL Recommendations] aktiverats. (TGT-52164)
+* `OptionLocalIDs` ökar inte längre felaktigt när alternativet inte ändras. (TGT-52187)
+* Hämtade rapportfiler visar nu korrekt data i det rapporterade användargränssnittet. (TGT-52068)
+* Korrigerade ett fel som gjorde att Target inte kunde identifiera tecknet&quot;#&quot; i en webbplats URL. (TGT-52093)
+* Gruppåtgärder misslyckas inte längre efter att sidleveransregler har lagts till. (TGT-52097)
+* Ett problem som gjorde att [!DNL Target] trimmade alla frågeparametrar från webbplatsens URL har åtgärdats. (TGT-52100)
+* Korrigerade ett problem som medförde att målgruppsförbättringar och aktivitetspubliker hämtades i det uppdaterade användargränssnittet. (TGT-52158)
 
 ## Uppdatering av målbehörigheter (22 april 2025)
 
