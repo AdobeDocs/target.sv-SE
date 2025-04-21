@@ -5,9 +5,9 @@ title: Vilka data samlas in för att skapa algoritmer för maskininlärning?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
-source-git-commit: 3f64da1c9a1146e4d2d9389d6d5ce764764d2d9c
+source-git-commit: fe6a7addd3854c430798fc339741c9ae6a4efc7d
 workflow-type: tm+mt
-source-wordcount: '1967'
+source-wordcount: '1958'
 ht-degree: 0%
 
 ---
@@ -43,13 +43,13 @@ I följande tabell visas kunddata som samlats in av [!UICONTROL Automated Person
 | Refererande URL | REF | Refererande URL och eventuella URL-parametrar för den refererande URL:en. | Anpassad - [Refererande URL-parameter] - [Parametervärde] |
 | [!DNL Adobe Experience Cloud] delade målgrupper | AAM | Alla målgrupper som delas med [!DNL Target] från andra [!DNL Adobe Experience Cloud]-lösningar (till exempel [!DNL Adobe Audience Manager] och [!DNL Adobe Analytics] via [[!DNL Experience Cloud Audience Library]](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html){target=_blank}). | Anpassad - Experience Cloud-målgrupp - [målgruppsnamn] |
 | [!DNL Adobe Experience Platform Real-time CDP] målgrupper | UPS | CDP-målgrupper i realtid för plattform delade med [!DNL Target] via [!UICONTROL Destinations]. |  |
-| [!DNL Adobe Experience Platform Real-time CDP] attribut | AEP | CDP-attribut i realtid för plattformen delade med [!DNL Target] via [!UICONTROL Destinations]. |  |
+
 
 ## Blockera funktioner från [!DNL Target] maskininlärningsalgoritmer
 
 Funktioner kan blockeras från [!DNL Target] maskininlärningsalgoritmer, vilket förhindrar att de används i någon [!UICONTROL Automated Personalization]- eller [!UICONTROL Auto-Target]-modell eller aktivitet.
 
-Mer information finns i [Översikt över API:t för modeller (Blockeringslistning)](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html){target=_blank} i *[!DNL Adobe Target]Utvecklarhandbok*.
+Mer information finns i [Models API (Blockeringslistning) - översikt](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html){target=_blank} i *[!DNL Adobe Target]Utvecklarhandbok*.
 
 ## Enhetsdata och mobildata {#device-mobile}
 
