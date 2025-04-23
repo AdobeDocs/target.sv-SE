@@ -4,9 +4,9 @@ description: Lär dig mer om de nya funktionerna, förbättringarna och korriger
 title: Vilka nya funktioner och förbättringar ingår i den kommande [!DNL Target] versionen?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 872e56662e04e3fabda7ff38233adfea32efbe48
+source-git-commit: ad82d108adc6f5c76b2104f40fb0bb2c66e98a2b
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '589'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Den här artikeln innehåller förhandsversionsinformation för kommande [!DNL Adobe Target]-versioner, inklusive SDK, API:er och JavaScript-bibliotek.
 
-**Senast uppdaterad: 17 april 2025**
+**Senast uppdaterad: 23 april 2025**
 
 >[!NOTE]
 >
@@ -27,14 +27,25 @@ Den här artikeln innehåller förhandsversionsinformation för kommande [!DNL A
 
 Den här versionen innehåller följande korrigeringar och uppdateringar:
 
-* Korrigerade ett problem som gjorde att flera upplevelsemålgrupper visades när en aktivitet redigerades eller sparades. (TGT-52134)
 * Ett problem har korrigerats där rekommendationer inte visades på kundens webbplats efter att aktiviteten [!DNL Recommendations] aktiverats. (TGT-52164)
 * `OptionLocalIDs` ökar inte längre felaktigt när alternativet inte ändras. (TGT-52187)
 * Hämtade rapportfiler visar nu korrekt data i det rapporterade användargränssnittet. (TGT-52068)
-* Korrigerade ett fel som gjorde att Target inte kunde identifiera tecknet&quot;#&quot; i en webbplats URL. (TGT-52093)
 * Gruppåtgärder misslyckas inte längre efter att sidleveransregler har lagts till. (TGT-52097)
 * Ett problem som gjorde att [!DNL Target] trimmade alla frågeparametrar från webbplatsens URL har åtgärdats. (TGT-52100)
-* Korrigerade ett problem som medförde att målgruppsförbättringar och aktivitetspubliker hämtades i det uppdaterade användargränssnittet. (TGT-52158)
+* Ett konsolfel som hindrade kunder från att skapa aktiviteter i det gamla och uppdaterade målgränssnittet har åtgärdats. (TGT-52181)
+* Korrigerade ett problem som hindrade kunder från att lägga till nya sidor, vilket orsakade ett ogiltigt användarinmatningsfel. (TGT-52258)
+* Korrigerade ett problem som gjorde att ändringar försvann efter att du lagt till ytterligare sidor och sedan navigerade tillbaka till fliken [!UICONTROL Experiences]. (TGT-52264)
+* Korrigerade ett problem som hindrade kunder från att ändra målgrupp i en [!UICONTROL Experience Targeting] (XT)-aktivitet. (TGT-52191)
+* Korrigerade ett fel som förhindrade redigering av en XT-aktivitet på grund av en gränssnittsregel som inte stöds. (TGT-52273)
+* Ett problem har korrigerats där aktivitetsändringar inte visades i användargränssnittet för [!DNL Target] trots att de levererades till webbsidan. (TGT-52192)
+* Korrigerade ett fel i den uppdaterade [!UICONTROL Visual Experience Composer] (VEC) där vägbeskrivningar inte alltid visades längst ned i redigeraren, vilket medförde problem med att välja element exakt. (TGT-51169)
+* Ett problem har korrigerats där listrutan [!UICONTROL Audience] inte kunde visa alla målgrupper på grund av sidnumrering. (TGT-52204)
+* Ett problem som orsakade ett ogiltigt användarindatameddelande när nya erbjudanden lades till i [!UICONTROL Automated Personalization] (AP)-aktiviteter har åtgärdats. (TGT-52210)
+* Korrigerade ett problem där [!UICONTROL Analytics for Target] (A4T) felaktigt valdes som rapportkälla, trots att kunden inte hade åtkomst till A4T. (TGT-52226)
+* Ett problem som gjorde att en aktivitet med URL-måttet [!UICONTROL View a Page] inte kunde sparas har åtgärdats. (TGT-52260)
+* Korrigerade ett problem som hindrade kunder från att välja arbetsytor när de skapade erbjudanden i en aktivitet. (TGT-52289)
+* Ett problem har korrigerats där ändringar från en upplevelse visades felaktigt när de växlades till en annan upplevelse. (TGT-52184)
+* Ett problem har korrigerats där standarderbjudandet felaktigt visades i användargränssnittet för [!DNL Target] efter att aktiviteten öppnades. (TGT-52198)
 
 ## Uppdatering av målbehörigheter (22 april 2025)
 
