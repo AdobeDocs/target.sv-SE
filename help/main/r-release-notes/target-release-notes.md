@@ -4,9 +4,9 @@ description: Lär dig mer om de nya funktionerna, förbättringarna och korriger
 title: Vilka nya funktioner och förbättringar ingår i den kommande [!DNL Target] versionen?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: ad82d108adc6f5c76b2104f40fb0bb2c66e98a2b
+source-git-commit: b09796cd8464b54dcc1945ae1ec00eb914ba218c
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '642'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Den här artikeln innehåller förhandsversionsinformation för kommande [!DNL Adobe Target]-versioner, inklusive SDK, API:er och JavaScript-bibliotek.
 
-**Senast uppdaterad: 23 april 2025**
+**Senast uppdaterad: 24 april 2025**
 
 >[!NOTE]
 >
@@ -23,14 +23,16 @@ Den här artikeln innehåller förhandsversionsinformation för kommande [!DNL A
 >
 >Information om den aktuella versionen finns i [Versionsinformation för mål](release-notes.md). Informationen på dessa sidor kan vara densamma, beroende på när releaserna ska släppas. Utfärdandenumren inom parentes är avsedda för intern [!DNL Adobe]-användning.
 
-## [!DNL Target Standard/Premium] 25.4.5 (24 april 2025)
+## [!DNL Target Standard/Premium] 25.4.5 (25 april 2025)
 
 Den här versionen innehåller följande korrigeringar och uppdateringar:
 
+* Korrigerade ett problem som orsakade skillnader i målgruppslistor mellan inställningssidan [!UICONTROL Activity] och översiktssidan [!UICONTROL Reporting]. (TGT-52203)
+* Korrigerade ett problem som förhindrade att en ny sida lades till i en aktivitet på grund av ett ogiltigt användarinmatningsfel. (TGT-52263)
 * Ett problem har korrigerats där rekommendationer inte visades på kundens webbplats efter att aktiviteten [!DNL Recommendations] aktiverats. (TGT-52164)
-* `OptionLocalIDs` ökar inte längre felaktigt när alternativet inte ändras. (TGT-52187)
-* Hämtade rapportfiler visar nu korrekt data i det rapporterade användargränssnittet. (TGT-52068)
-* Gruppåtgärder misslyckas inte längre efter att sidleveransregler har lagts till. (TGT-52097)
+* Korrigerade ett problem som gjorde att `OptionLocalIDs` ökade felaktigt när alternativet inte ändrades. (TGT-52187)
+* Ett problem har korrigerats så att hämtade rapportfiler korrekt visar data i rapportgränssnittet. (TGT-52068)
+* Ett problem har korrigerats så att gruppåtgärder inte längre misslyckas efter att sidleveransregler har lagts till. (TGT-52097)
 * Ett problem som gjorde att [!DNL Target] trimmade alla frågeparametrar från webbplatsens URL har åtgärdats. (TGT-52100)
 * Ett konsolfel som hindrade kunder från att skapa aktiviteter i det gamla och uppdaterade målgränssnittet har åtgärdats. (TGT-52181)
 * Korrigerade ett problem som hindrade kunder från att lägga till nya sidor, vilket orsakade ett ogiltigt användarinmatningsfel. (TGT-52258)
@@ -45,7 +47,7 @@ Den här versionen innehåller följande korrigeringar och uppdateringar:
 * Ett problem som gjorde att en aktivitet med URL-måttet [!UICONTROL View a Page] inte kunde sparas har åtgärdats. (TGT-52260)
 * Korrigerade ett problem som hindrade kunder från att välja arbetsytor när de skapade erbjudanden i en aktivitet. (TGT-52289)
 * Ett problem har korrigerats där ändringar från en upplevelse visades felaktigt när de växlades till en annan upplevelse. (TGT-52184)
-* Ett problem har korrigerats där standarderbjudandet felaktigt visades i användargränssnittet för [!DNL Target] efter att aktiviteten öppnades. (TGT-52198)
+* Ett problem har korrigerats där standarderbjudandet felaktigt visades i användargränssnittet för [!DNL Target] när aktiviteten öppnades. (TGT-52198)
 
 ## Uppdatering av målbehörigheter (22 april 2025)
 
