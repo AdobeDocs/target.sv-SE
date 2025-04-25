@@ -4,9 +4,9 @@ description: Håll dig uppdaterad med viktiga tillägg och ändringar i dokument
 title: Var kan jag se dokumentationsuppdateringar för  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 4104b6cb67347205c0143c9dea46dd483a8266ce
+source-git-commit: 579ebd9bebd3faa724f0d1d542f4d23766adefe3
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '713'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,7 @@ På den här sidan visas viktiga ändringar i produktdokumentationen för [!DNL 
 
 | Datum | Ämne | Ändringar |
 |--- |--- |--- |
+| 25 april | [[!DNL Target] versionsinformation (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionsinformation för version [!DNL Target Standard/Premium] 25.4.5 har lagts till. |
 | 23 april | [Integrera med [!DNL Real-Time Customer Data Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#limitations) | Följande har lagts till i avsnittet *Attribut för Real-Time CDP-profiler, samt begränsningar och överväganden*: <ul><li>[!DNL Target] stöder bara datatypen &quot;string&quot; för profilattribut för [!DNL Adobe Experience Platform] som ska användas i erbjudanden. Attributen för typerna &quot;Map&quot; och &quot;Array&quot; stöds ännu inte.</li></ul> |
 | 17 april | [[!DNL Target] versionsinformation (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionsinformation för version [!DNL Target Standard/Premium] 25.4.4 har lagts till. |
 |  | [[!DNL Target] versionsinformation (förhandsversion)](/help/main/r-release-notes/target-release-notes.md) | Datumen för förhandsversionsinformation för version 25.4.5 har lagts till. |
