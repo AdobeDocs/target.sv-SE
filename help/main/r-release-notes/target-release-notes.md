@@ -4,9 +4,9 @@ description: Lär dig mer om de nya funktionerna, förbättringarna och korriger
 title: Vilka nya funktioner och förbättringar ingår i den kommande [!DNL Target] versionen?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: b09796cd8464b54dcc1945ae1ec00eb914ba218c
+source-git-commit: 24cbccca7ac76dd77668abf0b4498ab4fd374893
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '707'
 ht-degree: 0%
 
 ---
@@ -48,6 +48,14 @@ Den här versionen innehåller följande korrigeringar och uppdateringar:
 * Korrigerade ett problem som hindrade kunder från att välja arbetsytor när de skapade erbjudanden i en aktivitet. (TGT-52289)
 * Ett problem har korrigerats där ändringar från en upplevelse visades felaktigt när de växlades till en annan upplevelse. (TGT-52184)
 * Ett problem har korrigerats där standarderbjudandet felaktigt visades i användargränssnittet för [!DNL Target] när aktiviteten öppnades. (TGT-52198)
+
+## [!DNL Target Standard/Premium] 25.4.5 (25 april 2025)
+
+Den här versionen innehåller följande korrigeringar och uppdateringar:
+
+* Korrigerade ett fel som gjorde att [!DNL Target] inte kunde identifiera tecknet&quot;#&quot; i webbplatsens URL. (TGT-52093)
+* Korrigerade ett problem som förhindrade att målgrupper rensades och redigerades tillsammans i det uppdaterade användargränssnittet för [!UICONTROL Automated Personalization] (AP)-aktiviteter. (TGT-52149)
+* Korrigerade ett problem som medförde att målgruppsförbättringar och aktivitetspubliker hämtades i det uppdaterade användargränssnittet. (TGT-52158)
 
 ## Uppdatering av målbehörigheter (22 april 2025)
 
