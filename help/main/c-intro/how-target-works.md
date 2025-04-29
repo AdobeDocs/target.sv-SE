@@ -4,9 +4,9 @@ description: Lär dig hur [!DNL Adobe Target] fungerar, inklusive information om
 title: Hur fungerar  [!DNL Target] ?
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-source-git-commit: 673fe3d19ff569d8dd8c659e77a85a7fb74bbae7
+source-git-commit: c5cca9b4b95289626ade1654bb508ee9f0bf35f3
 workflow-type: tm+mt
-source-wordcount: '2400'
+source-wordcount: '2215'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Referera [!UICONTROL Experience Platform Web SDK] eller at.js på alla sidor på
 
 Följande resurser innehåller detaljerad information som kan hjälpa dig att implementera [!DNL Experience Platform Web SDK] eller at.js:
 
-* [[!DNL Adobe Experience Platform Web SDK] extension](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html){target=_blank}
+* [[!DNL Adobe Experience Platform Web SDK] tillägg](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html){target=_blank}
 * [Implementera [!DNL Target] med [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch){target=_blank}
 
 Varje gång en besökare begär en sida som är optimerad för [!DNL Target] skickas en realtidsbegäran till målsystemet för att fastställa vilket innehåll som ska användas. Denna begäran görs och utförs varje gång en sida läses in, styrs av marknadsförarstyrda aktiviteter och upplevelser. Innehållet riktar sig till enskilda webbplatsbesökare, vilket maximerar svarsfrekvenserna, förvärvsfrekvensen och intäkterna. Personaliserat innehåll säkerställer att besökarna svarar, interagerar eller gör inköp.
@@ -97,33 +97,36 @@ Mer information finns i [Multivariate Test](/help/main/c-activities/c-multivaria
 
 Mer information finns i [Rekommendationer](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0).
 
-## Hur [!DNL Target] räknar användning av serversamtal {#usage}
+<!--
+## How [!DNL Target] counts server-call usage {#usage}
 
-[!DNL Target] räknar endast serveranrop som ger värde till kunderna. I följande tabell visas hur [!DNL Target] räknar slutpunkter, en mbox, batchmbox-anrop, kör, förhämtar och meddelandeanrop.
+[!DNL Target] counts only server calls that provide value to customers. The following table shows how [!DNL Target] counts endpoints, single mbox, batch mbox calls, execute, prefetch, and notification calls.
 
-Följande information hjälper dig att förstå den inventeringsstrategi som används för [!DNL Target]-serveranrop, vilket visas i tabellen nedan:
+The following information helps you understand the counting strategy used for [!DNL Target] server calls, as shown in the table below:
 
-* **Antal en gång**: Räknar en gång per API-anrop.
-* **Räkna antalet rutor**: Räknar antalet rutor under arrayen i nyttolasten för ett enda API-anrop.
-* **Ignorera**: Räknas inte alls.
-* **Räkna antalet vyer (en gång)**: Räknar antalet vyer under arrayen i nyttolasten. I en vanlig implementering har ett vymeddelande bara en vy under meddelandearrayen, vilket gör att det motsvarar att räkna en gång i de flesta implementeringar.
+* **Count Once**: Counts once per API call.
+* **Count the Number of mboxes**: Counts the number of mboxes under the array in the payload of a single API call.
+* **Ignore**: Is not counted at all.
+* **Count the Number of Views (Once)**: Counts the number of views under the array in the payload. In a typical implementation, a view notification has only one view under the notifications array, making this equivalent to counting once in most implementations.
 
-| Slutpunkt | Hämtningstyp | Alternativ | Inventeringsstrategi |
+|Endpoint|Fetch type|Options|Counting strategy|
 |--- |--- |--- |-- |
-| `rest//v1/mbox` | Enkelt | [!UICONTROL execute] | Räkna en gång |
-| `rest/v2/batchmbox` | Grupp | [!UICONTROL execute] | Räkna antalet rutor |
-|  | Grupp | [!UICONTROL prefetch] | Ignorera |
-|  | Grupp | [!UICONTROL notifications] | Räkna antalet rutor |
-| `/ubox/[raw\|image\|page]` | Enkelt | [!UICONTROL execute] | Räkna en gång |
-| `rest/v1/delivery`<p>`/rest/v1/target-upstream` | Enkelt | [!UICONTROL execute] > [!UICONTROL pageLoad] | Räkna en gång |
-|  | Enkelt | [!UICONTROL prefetch] > [!UICONTROL pageLoad] | Ignorera |
-|  | Enkelt | [!UICONTROL prefetch] > [!UICONTROL views] | Ignorera |
-|  | Grupp | [!UICONTROL execute] > [!UICONTROL mboxes] | Räkna antalet rutor |
-|  | Grupp | [!UICONTROL prefetch] > [!UICONTROL mboxes] | Ignorera |
-|  | Grupp | [!UICONTROL notifications] > [!UICONTROL views] | Räkna antalet vyer (en gång) |
-|  | Grupp | [!UICONTROL notifications] > [!UICONTROL pageLoad] | Räkna en gång |
-|  | Grupp | [!UICONTROL notifications] > text ([!UICONTROL conversions]) | Räkna en gång |
-|  | Grupp | [!UICONTROL notifications] > [!UICONTROL mboxes] | Räkna antalet rutor |
+|`rest//v1/mbox`|Single|[!UICONTROL execute]|Count once|
+|`rest/v2/batchmbox`|Batch|[!UICONTROL execute]|Count the number of mboxes|
+||Batch|[!UICONTROL prefetch]|Ignore|
+||Batch|[!UICONTROL notifications]|Count the number of mboxes|
+|`/ubox/[raw\|image\|page]`|Single|[!UICONTROL execute]|Count once|
+|`rest/v1/delivery`<p>`/rest/v1/target-upstream`|Single|[!UICONTROL execute] > [!UICONTROL pageLoad]|Count once|
+||Single|[!UICONTROL prefetch] > [!UICONTROL pageLoad]|Ignore|
+||Single|[!UICONTROL prefetch] > [!UICONTROL views]|Ignore|
+||Batch|[!UICONTROL execute] > [!UICONTROL mboxes]|Count the number of mboxes|
+||Batch|[!UICONTROL prefetch] > [!UICONTROL mboxes]|Ignore|
+||Batch|[!UICONTROL notifications] > [!UICONTROL views]|Count the number of views (once)|
+||Batch|[!UICONTROL notifications] > [!UICONTROL pageLoad]|Count once|
+||Batch|[!UICONTROL notifications] > type ([!UICONTROL conversions])|Count once|
+||Batch|[!UICONTROL notifications] > [!UICONTROL mboxes]|Count the number of mboxes|
+
+-->
 
 ## Edge Network {#concept_0AE2ED8E9DE64288A8B30FCBF1040934}
 
