@@ -17,7 +17,7 @@ Kombinera flera målgrupper (inklusive [!DNL Adobe Experience Cloud], [!DNL Adob
 
 >[!NOTE]
 >
->[!DNL Adobe Experience Platform]-källan är tillgänglig för alla [!DNL Target]-kunder som använder [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=en){target=_blank}. Publiker som är tillgängliga från [!DNL Adobe Experience Platform] kan användas som de är eller kombineras med befintliga målgrupper, vilket förklaras i det här avsnittet.
+>[!DNL Adobe Experience Platform]-källan är tillgänglig för alla [!DNL Target]-kunder som använder [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=sv-SE){target=_blank}. Publiker som är tillgängliga från [!DNL Adobe Experience Platform] kan användas som de är eller kombineras med befintliga målgrupper, vilket förklaras i det här avsnittet.
 >
 >Mer information finns i [Använda målgrupper från Adobe Experience Platform](/help/main/c-target/c-audiences/audiences.md#aep).
 

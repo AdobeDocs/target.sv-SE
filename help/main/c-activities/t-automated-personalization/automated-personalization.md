@@ -2,7 +2,7 @@
 keywords: automatiserad personalisering;ap;målgrupper;ensemble;random forest;multi-väpnad bandit;thompson sampling;ml;maskininlärning
 description: Lär dig hur du använder [!UICONTROL Automated Personalization] (AP) aktiviteter i  [!DNL Adobe Target] som använder avancerad maskininlärning för att matcha olika erbjudandevariationer för varje besökare.
 title: Vad är en [!UICONTROL Automated Personalization]-aktivitet (AP)?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=sv-SE#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Automated Personalization
 exl-id: 3654dce4-0d6c-42a3-8be7-e081ec478075
 source-git-commit: d5b24f298ae405d57c2ba639082cbe99c4e358fd
@@ -68,9 +68,9 @@ Random Forest är en ledande maskininlärningsstrategi. I datavetenskapliga term
 
 Offlinedata, som CRM-information eller kundrespons, kan vara oerhört värdefulla när du bygger personaliseringsmodeller. Det finns flera sätt att ange data i personaliseringsalgoritmerna [!UICONTROL Automated Personalization] (AP) och [!UICONTROL Auto-Target].
 
-* [mbox-parametrar](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}
-* [Profilparametrar](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}
-* [API:er på serversidan för profiluppdatering](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}
+* [mbox-parametrar](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=sv-SE){target=_blank}
+* [Profilparametrar](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=sv-SE){target=_blank}
+* [API:er på serversidan för profiluppdatering](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=sv-SE){target=_blank}
 
 Mer information om de data som samlas in automatiskt och används av [!UICONTROL Automated Personalization] och [!UICONTROL Auto-Target] personaliseringsalgoritmer finns i [Automated Personalization Data Collection](/help/main/c-activities/t-automated-personalization/ap-data.md).
 

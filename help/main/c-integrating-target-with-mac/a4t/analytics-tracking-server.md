@@ -19,7 +19,7 @@ Om du använder en äldre version av at.js måste du ange en [!DNL Analytics]-sp
 >
 >Du behöver inte ange en spårningsserver när du skapar en aktivitet om du använder at.js version 0.9.1 (eller senare). at.js-biblioteket skickar automatiskt spårningsservervärden till [!DNL Target]. När aktiviteten skapas kan du lämna fältet [!UICONTROL Tracking Server] tomt på sidan [!UICONTROL Goals & Settings].
 >
->[!DNL Target]-teamet stöder både at.js 1.*x* och at.js 2.*x*. Uppgradera till den senaste uppdateringen av någon större version av at.js för att säkerställa att du kör en version som stöds. Mer information finns i [versionsinformation för at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
+>[!DNL Target]-teamet stöder både at.js 1.*x* och at.js 2.*x*. Uppgradera till den senaste uppdateringen av någon större version av at.js för att säkerställa att du kör en version som stöds. Mer information finns i [versionsinformation för at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=sv-SE){target=_blank}.
 
 För att säkerställa att data från [!DNL Target] går till rätt plats i [!DNL Analytics], kräver A4T att en [!DNL Analytics]-spårningsserver skickas i alla anrop till Modstats från [!DNL Target]. För implementeringar som använder flera spårningsservrar använder du [!DNL Adobe Experience Platform Debugger] eller webbläsarens utvecklingsverktyg för att fastställa rätt spårningsserver för din aktivitet.
 
@@ -29,7 +29,7 @@ Felsökaren bör visas på en sida där aktiviteten levereras för att säkerst�
 
 1. Öppna [!DNL Adobe Experience Platform Debugger] från sidan där du skapar din aktivitet.
 
-   Om du inte har installerat felsökaren läser du [Översikt över Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/platform-learn/data-collection/debugger/overview.html).
+   Om du inte har installerat felsökaren läser du [Översikt över Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/platform-learn/data-collection/debugger/overview.html?lang=sv-SE).
 
 1. Klicka på **[!UICONTROL Analytics]** i den vänstra navigeringsmenyn.
 

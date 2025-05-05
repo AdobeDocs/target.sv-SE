@@ -20,7 +20,7 @@ Den här artikeln innehåller de första stegen [!DNL Adobe Target] som administ
 
 En systemadministratör i måste [!DNL Adobe Admin Console] lägga till dig som användare genom [!DNL Target] att bjuda in dig att gå med. Systemadministratören ska sedan lägga till dig i en eller flera rollspecifika grupper. Båda dessa uppgifter utförs i [Adobe Admin Console](https://adminconsole.adobe.com).
 
-Mer information finns i [Hantera användare och produkter](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html) i Experience *Cloud och bastjänster hjälpen*.
+Mer information finns i [Hantera användare och produkter](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=sv-SE) i Experience *Cloud och bastjänster hjälpen*.
 
 Du kommer att få en inbjudan via e-post efter att systemadministratören har utfört dessa steg.
 

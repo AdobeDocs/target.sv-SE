@@ -2,7 +2,7 @@
 keywords: trafikskattare;automatiserad personalisering;ap;uppskattning av trafik
 description: Använd  [!DNL Adobe Target] [!UICONTROL Traffic Estimator] för att avgöra om du har tillräckligt med trafik för att din [!UICONTROL Automated Personalization]-aktivitet ska lyckas.
 title: Hur mycket trafik krävs för en lyckad [!UICONTROL Automated Personalization]-aktivitet?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=sv-SE#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Automated Personalization
 exl-id: 11f9e239-700b-45cd-bf77-39f7f8967a2e
 source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88

@@ -25,17 +25,17 @@ Adobe Target VEC for SPA utnyttjar det nya konceptet Views: en logisk grupp visu
 
 Om du vill förklara vad Vyer är kan du navigera på den hypotetiska e-handelsplatsen som implementeras i React och utforska några exempel på Vyer. Klicka på länkarna nedan för att öppna den här webbplatsen på en ny flik i webbläsaren.
 
-**Länk: [Hemwebbplats](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/)**
+**Länk: [Hemwebbplats](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=sv-SE#/)**
 
 ![hemwebbplats](/help/main/c-experiences/assets/home.png)
 
 När vi navigerar till hemsidan ser vi omedelbart en hjältebild som främjar en påskförsäljning samt de senaste produkterna som säljer på webbplatsen. I det här fallet kan en vy definieras som hela hemsidan. Detta är praktiskt att notera eftersom vi kommer att gå vidare med detta i avsnittet Implementera Adobe Target-vyer nedan.
 
-**Länk: [Produktwebbplats](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products)**
+**Länk: [Produktwebbplats](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=sv-SE#/products)**
 
 ![produktwebbplats](/help/main/c-experiences/assets/product-site.png)
 
-När vi blir mer intresserade av produkterna väljer vi att klicka på länken Produkter. På samma sätt som hemsidan kan hela produktwebbplatsen definieras som en vy. Vi kan ge den här vyn namnet&quot;products&quot; precis som sökvägsnamnet i `https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products`.
+När vi blir mer intresserade av produkterna väljer vi att klicka på länken Produkter. På samma sätt som hemsidan kan hela produktwebbplatsen definieras som en vy. Vi kan ge den här vyn namnet&quot;products&quot; precis som sökvägsnamnet i `https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=sv-SE#/products`.
 
 ![produktwebbplats 2](/help/main/c-experiences/assets/product-site-2.png)
 
@@ -45,7 +45,7 @@ I början av det här avsnittet definierade vi Vyer som hela webbplatsen eller t
 
 Vi väljer att klicka på knappen Läs in mer för att utforska fler produkter på webbplatsen. Webbplatsens URL ändras inte i det här fallet. Men en vy här kan bara representera den andra produktraden som visas ovan. Vynamnet kan heta &quot;PRODUCTS-PAGE-2&quot;.
 
-**Länk: [Utcheckning](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/checkout)**
+**Länk: [Utcheckning](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=sv-SE#/checkout)**
 
 ![utcheckningssida](/help/main/c-experiences/assets/checkout.png)
 
@@ -65,9 +65,9 @@ Nu när vi har täckt vad Adobe Target Views är kan vi utnyttja detta koncept i
 
    ![Dialogrutan Implementeringsinformation](/help/main/c-experiences/assets/imp-200.png)
 
-   Hämta at.js 2.x via Adobe Target-gränssnittet i [!UICONTROL Administration > Implementation]. at.js 2.x kan också distribueras via taggar i [Adobe Experience Platform](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}. Adobe Target-tilläggen är dock för närvarande inte aktuella och stöds inte.
+   Hämta at.js 2.x via Adobe Target-gränssnittet i [!UICONTROL Administration > Implementation]. at.js 2.x kan också distribueras via taggar i [Adobe Experience Platform](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html?lang=sv-SE){target=_blank}. Adobe Target-tilläggen är dock för närvarande inte aktuella och stöds inte.
 
-1. Implementera den senaste funktionen hos at.js 2.x: [triggerView()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-triggerview-atjs-2.html){target=_blank} på dina webbplatser.
+1. Implementera den senaste funktionen hos at.js 2.x: [triggerView()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-triggerview-atjs-2.html?lang=sv-SE){target=_blank} på dina webbplatser.
 
    När du har definierat vyerna för SPA där du vill köra ett A/B- eller XT-test implementerar du funktionen `triggerView()` för at.js 2.x med vyerna skickade som en parameter. Detta gör att marknadsförarna kan använda VEC för att utforma och köra A/B- och XT-tester för de vyer som definierats. Om funktionen `triggerView()` inte har definierats för dessa vyer kommer VEC inte att identifiera vyerna och marknadsförarna kan därför inte använda VEC för att utforma och köra A/B- och XT-tester.
 
@@ -81,7 +81,7 @@ Nu när vi har täckt vad Adobe Target Views är kan vi utnyttja detta koncept i
 
    Nu ska vi gå igenom några exempel på hur funktionen `triggerView()` kan anropas i React för vår hypotetiska e-SPA:
 
-   **Länk: [Hemwebbplats](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/)**
+   **Länk: [Hemwebbplats](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=sv-SE#/)**
 
    ![home-response-1](/help/main/c-experiences/assets/react1.png)
 
@@ -112,7 +112,7 @@ Nu när vi har täckt vad Adobe Target Views är kan vi utnyttja detta koncept i
    <Router history={hashHistory} onUpdate={targetView} >
    ```
 
-   **Länk: [Produkter ](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products)**
+   **Länk: [Produkter ](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=sv-SE#/products)**
 
    Låt oss titta på ett exempel som är lite mer komplicerat. Som marknadsförare vill vi personalisera produktraden genom att ändra prisetikettens färg till röd efter att en användare klickat på knappen Läs in mer.
 
@@ -141,7 +141,7 @@ Nu när vi har täckt vad Adobe Target Views är kan vi utnyttja detta koncept i
    }
    ```
 
-   **Länk: [Utcheckning](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/checkout)**
+   **Länk: [Utcheckning](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=sv-SE#/checkout)**
 
    ![reagerar utcheckning](/help/main/c-experiences/assets/react6.png)
 
@@ -354,7 +354,7 @@ Om du vill använda A/B-aktiviteter som mål automatiskt kan du flytta alla åtg
 | --- | --- |
 | [Analyser för mål (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md) | Ja |
 | [Publiker i Experience Cloud](/help/main/c-integrating-target-with-mac/mmp.md) | Ja |
-| [Kundattribut](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html){target=_blank} | Ja |
+| [Kundattribut](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=sv-SE){target=_blank} | Ja |
 | [AEM Experience Fragments](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | Ja |
 
 ## Funktioner som stöds {#supported-features}
@@ -389,10 +389,10 @@ Här följer ett exempel på hur du använder gemener/VERSALER:
 
 Följande ändringar har gjorts:
 
-* Bakgrundsfärgen har ändrats i hemvyn, som finns under URL-adressen: [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/).
-* Knappfärgen har ändrats i produktvyn, som finns under URL:en: [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products).
+* Bakgrundsfärgen har ändrats i hemvyn, som finns under URL-adressen: [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=sv-SE#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=sv-SE#/).
+* Knappfärgen har ändrats i produktvyn, som finns under URL:en: [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=sv-SE#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=sv-SE#/products).
 
-Med exemplet ovan i åtanke, vad händer när vi konfigurerar [!UICONTROL Page Delivery]-inställningarna så att de bara innehåller: [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/) i en SPA med at.js 2.*x*?
+Med exemplet ovan i åtanke, vad händer när vi konfigurerar [!UICONTROL Page Delivery]-inställningarna så att de bara innehåller: [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=sv-SE#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=sv-SE#/) i en SPA med at.js 2.*x*?
 
 ![Dialogrutan Sidleverans](/help/main/c-experiences/assets/spa-page-delivery.png)
 
@@ -402,22 +402,22 @@ Följande bild visar begäran om målflöde - sidinläsning i at.js 2.*x*:
 
 **Användarresa nr 1**
 
-* En användare navigerar direkt till [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/).
-* at.js 2.*x* skickar en fråga till Edge för att se om någon aktivitet behöver köras för URL:en: [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/).
+* En användare navigerar direkt till [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=sv-SE#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=sv-SE#/).
+* at.js 2.*x* skickar en fråga till Edge för att se om någon aktivitet behöver köras för URL:en: [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=sv-SE#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=sv-SE#/).
 * I steg 6 returnerar Target-Edge åtgärderna för hem- och produktvyn så att de cachas i webbläsaren.
 
-**Resultat**: Användaren ser den gröna bakgrundsfärgen i hemvyn. När användaren sedan navigerar till [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products) visas knappens blå bakgrundsfärg eftersom åtgärden cachas i webbläsaren under produktvyn.
+**Resultat**: Användaren ser den gröna bakgrundsfärgen i hemvyn. När användaren sedan navigerar till [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=sv-SE#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=sv-SE#/products) visas knappens blå bakgrundsfärg eftersom åtgärden cachas i webbläsaren under produktvyn.
 
-Obs! Användaren som navigerar till [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products) utlöste ingen sidinläsning.
+Obs! Användaren som navigerar till [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=sv-SE#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=sv-SE#/products) utlöste ingen sidinläsning.
 
 **Användarresa nr 2**
 
-* En användare navigerar direkt till [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products).
-* at.js 2.*x* skickar en fråga till Edge för att se om någon aktivitet behöver köras för URL:en: [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products).
-* Inga aktiviteter är kvalificerade för [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products).
+* En användare navigerar direkt till [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=sv-SE#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=sv-SE#/products).
+* at.js 2.*x* skickar en fråga till Edge för att se om någon aktivitet behöver köras för URL:en: [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=sv-SE#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=sv-SE#/products).
+* Inga aktiviteter är kvalificerade för [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=sv-SE#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=sv-SE#/products).
 * Eftersom inga aktiviteter är kvalificerade finns det inga åtgärder och vyer att cachelagra för at.js 2.*x* att utlösa från.
 
-**Resultat**: Även om du har definierat `triggerView()` för produktvyn och gjort en åtgärd i produktvyn via SPA VEC, kommer du inte att se den förväntade åtgärden eftersom du inte har skapat någon regel som inkluderade [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products) i sidleveransinställningarna.
+**Resultat**: Även om du har definierat `triggerView()` för produktvyn och gjort en åtgärd i produktvyn via SPA VEC, kommer du inte att se den förväntade åtgärden eftersom du inte har skapat någon regel som inkluderade [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=sv-SE#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=sv-SE#/products) i sidleveransinställningarna.
 
 ### Bästa praxis
 

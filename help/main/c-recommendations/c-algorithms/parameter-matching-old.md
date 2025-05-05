@@ -2,7 +2,7 @@
 keywords: inkluderingsregler;inklusionskriterier;rekommendationer;befordran;kampanjer;dynamisk filtrering;dynamisk;parametermatchning
 description: Lär dig filtrera dynamiskt i Adobe [!DNL Target] Recommendations genom att jämföra objekt (entiteter) med ett värde i begäran (API eller mbox).
 title: Hur filtrerar jag efter parametermatchning i Recommendations-aktiviteter?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=sv-SE#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Recommendations
 exl-id: 9ec161b9-1b37-4475-b508-af676126c817
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c

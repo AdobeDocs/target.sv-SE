@@ -2,7 +2,7 @@
 keywords: e-post;ESP;e-postleverantör;rawbox;delivery API;download only template;email template;batch processing;build-time email
 description: Lär dig hur du integrerar e-post med Adobe [!DNL Target Recommendations], including using the [!DNL Target] leverans-API, rawbox-mallar och nedladdningsmallar.
 title: Hur integrerar jag Recommendations med e-post?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=sv-SE#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Recommendations
 exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
 source-git-commit: 1f505991ea9a0caf0d6d49f6464550243128ffaf
@@ -78,7 +78,7 @@ Var `clientcode` är din [!DNL Target]-klientkod.
 >
 >Var noga med att ange ett unikt värde för både `sessionId` och en av `tntId` eller `thirdPartyId` för varje e-postmottagare (till exempel för varje API-anrop). Om du inte anger unika värden för de här fälten kan API-svar ta lång tid eller misslyckas på grund av många händelser som genereras i en enskild profil.
 
-Mer information finns i [dokumentation för leverans-API](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/overview.html){target=_blank}.
+Mer information finns i [dokumentation för leverans-API](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/overview.html?lang=sv-SE){target=_blank}.
 
 ## Metod 2: Använd en mall för e-post i en rawbox {#rawbox}
 

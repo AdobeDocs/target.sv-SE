@@ -33,7 +33,7 @@ För att lösa det här problemet samlar [!DNL Target] in ytterligare data för 
 
 >[!NOTE]
 >
->Kunder som använder Mobile SDK behöver inte göra något för att använda den här funktionen. Kunder som använder at.js måste [uppgradera till at.js version 1.5.0](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} (eller senare).
+>Kunder som använder Mobile SDK behöver inte göra något för att använda den här funktionen. Kunder som använder at.js måste [uppgradera till at.js version 1.5.0](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=sv-SE){target=_blank} (eller senare).
 
 Du kan välja mer än en mobil enhetsegenskap. Flera markeringar förenas med en OR-operator.
 

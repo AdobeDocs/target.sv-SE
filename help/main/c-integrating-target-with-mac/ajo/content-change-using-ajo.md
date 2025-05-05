@@ -2,7 +2,7 @@
 keywords: optimera;personalisering;adobe-reseoptimering;ajo;användningsfall;scenarier;innehållsändring/ab test;profilattribut;change image;swap image
 description: Lås upp hemligheterna för effektiv A/B-testning av innehållsändringar i Adobe Journey Optimizer
 title: Innehållet ändras via A/B-testning i  [!DNL Adobe Journey Optimizer]
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="Vad är Beta-funktioner i  [!DNL Adobe Target]?"
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=sv-SE#beta newtab=true" tooltip="Vad är Beta-funktioner i  [!DNL Adobe Target]?"
 feature: Integrations
 hide: true
 hidefromtoc: true
@@ -36,7 +36,7 @@ Det här användningsexemplet visar hur du utför välkända uppgifter, till exe
 
 >[!NOTE]
 >
->Instruktionerna i det här avsnittet visar de nödvändiga stegen för att ändra en bild och för att använda profilattribut för att anpassa textmeddelanden. Mer information om tillgängliga alternativ i webbdesignern [!DNL Journey Optimizer] finns i [Arbeta med webbdesignern](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank} i *Journey Optimizer-dokumentationen*.
+>Instruktionerna i det här avsnittet visar de nödvändiga stegen för att ändra en bild och för att använda profilattribut för att anpassa textmeddelanden. Mer information om tillgängliga alternativ i webbdesignern [!DNL Journey Optimizer] finns i [Arbeta med webbdesignern](https://experienceleague.adobe.com/sv/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank} i *Journey Optimizer-dokumentationen*.
 >
 >Videon längst ned på sidan är särskilt användbar.
 
@@ -58,7 +58,7 @@ Så här optimerar du en webbsida genom att testa olika bilder och anpassa medde
 
    En webbkonfiguration, eller kanalyta, är en konfiguration som definieras av en systemadministratör. Webbkonfigurationen innehåller alla tekniska parametrar för att skicka meddelandet, som rubrikparameter, underdomän, mobilappar och så vidare.
 
-   Mer information finns i [Konfigurera kanalytor](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/channel-surfaces#set-up-channel-surfaces){target=_blank} i *Journey Optimizer-dokumentationen*.
+   Mer information finns i [Konfigurera kanalytor](https://experienceleague.adobe.com/sv/docs/journey-optimizer/using/configuration/channel-surfaces#set-up-channel-surfaces){target=_blank} i *Journey Optimizer-dokumentationen*.
 
 1. Klicka på **[!UICONTROL Edit Content]** i avsnittet **[!UICONTROL Action]** för att öppna din webbplats i webbdesignern [!DNL Journey Optimizer].
 
@@ -68,7 +68,7 @@ Så här optimerar du en webbsida genom att testa olika bilder och anpassa medde
 
 1. Om du vill skapa ett experiment för att avgöra vilket innehåll som fungerar bättre klickar du på **[!UICONTROL Create Experiment]**.
 
-   Med innehållsexperiment kan du variera meddelandeinnehåll, ämne eller avsändare för att definiera flera behandlingar och för att fastställa den bästa kombinationen för era målgrupper. Mer information finns i [Skapa ett innehållsexperiment](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/content-experiment){target=_blank} i *Journey Optimizer-dokumentationen*.
+   Med innehållsexperiment kan du variera meddelandeinnehåll, ämne eller avsändare för att definiera flera behandlingar och för att fastställa den bästa kombinationen för era målgrupper. Mer information finns i [Skapa ett innehållsexperiment](https://experienceleague.adobe.com/sv/docs/journey-optimizer/using/content-management/content-experiment/content-experiment){target=_blank} i *Journey Optimizer-dokumentationen*.
 
 1. Välj ett framgångsmått och klicka på åtgärden.
 
@@ -100,13 +100,13 @@ Så här optimerar du en webbsida genom att testa olika bilder och anpassa medde
 
    ![Knappen Lägg till Personalization.](/help/main/c-integrating-target-with-mac/ajo/assets/add-personalization-button.png)
 
-   Mer information om profilattribut finns i [Kom igång med personaliseringsredigeraren](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions){target=_blank} i *Journey Optimizer-dokumentationen*.
+   Mer information om profilattribut finns i [Kom igång med personaliseringsredigeraren](https://experienceleague.adobe.com/sv/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions){target=_blank} i *Journey Optimizer-dokumentationen*.
 
 1. Sök efter och klicka på plustecknet för att lägga till profilattributet för&quot;förnamn&quot;, justera texten efter behov och klicka sedan på **[!UICONTROL Save]**.
 
    ![Lägg till profilattribut för namnet](/help/main/c-integrating-target-with-mac/ajo/assets/add-profile-attribute-for-name.png)
 
-   Mer information finns i [Kom igång med personaliseringsredigeraren](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions){target=_blank} i *Journey Optimizer-dokumentationen*.
+   Mer information finns i [Kom igång med personaliseringsredigeraren](https://experienceleague.adobe.com/sv/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions){target=_blank} i *Journey Optimizer-dokumentationen*.
 
 1. Klicka på bakåtpilen i det övre vänstra hörnet för att gå tillbaka till webbdesignern.
 
@@ -121,9 +121,9 @@ Klicka på knappen [!UICONTROL Reports] och klicka sedan på önskad rapportperi
 * [!UICONTROL View all time report]
 * [!UICONTROL View last 24hrs report]
 
-Mer information finns i [Kom igång med det nya rapporteringsgränssnittet](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channel-report/report-gs-cja){target=_blank} i *Journey Optimizer-dokumentationen*.
+Mer information finns i [Kom igång med det nya rapporteringsgränssnittet](https://experienceleague.adobe.com/sv/docs/journey-optimizer/using/channel-report/report-gs-cja){target=_blank} i *Journey Optimizer-dokumentationen*.
 
 >[!MORELIKETHIS]
 >
->[Arbeta med webbdesignern](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank} i *Journey Optimizer-dokumentationen*
->[Skapa en kampanj](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank} i *Journey Optimizer-självstudiekurser*
+>[Arbeta med webbdesignern](https://experienceleague.adobe.com/sv/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank} i *Journey Optimizer-dokumentationen*
+>[Skapa en kampanj](https://experienceleague.adobe.com/sv/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank} i *Journey Optimizer-självstudiekurser*

@@ -2,7 +2,7 @@
 keywords: inkluderingsregler;inkluderingskriterier;rekommendationer;skapa nya kriterier;befordran;kampanjer;dynamisk filtrering;dynamiska;tomma värden;ignorera filtreringsregel;statiskt filter;filter efter värde;entitetsattributmatchning;profilattributmatchning;parametermatchning;filter efter värde;statiskt filter
 description: Lär dig hur du skapar inkluderingsregler i  [!DNL Target] Recommendations för villkor och kampanjer.
 title: Hur använder jag regler för dynamisk och statisk inkludering i Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=sv-SE#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: 49b20e75-ee55-4239-94a0-6d175e2d4811

@@ -2,7 +2,7 @@
 keywords: felsökning;vanliga frågor;Vanliga frågor;Vanliga frågor;Vanliga frågor;Automatisk personalisering;kontroll;standardupplevelse;bästa praxis
 description: Utforska en lista med vanliga frågor och svar om [!UICONTROL Automated Personalization]-aktiviteter (AP) i [!UICONTROL Adobe Target].
 title: Hur hittar jag vanliga frågor om [!UICONTROL Automated Personalization] aktiviteter?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=sv-SE#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Automated Personalization
 exl-id: 2bf62cc1-1781-4021-a400-2884e0bae893
 source-git-commit: 336da9dd876243a0eea662b4604a8fc1e6a69b1a

@@ -2,7 +2,7 @@
 keywords: Recommendations;Recommendations-kriterier;rekommendationsalgoritmer;rekommendationer-aktivitet;kriterier;rekommendationer målinriktning;recs
 description: Lär dig mer om Recommendations-aktiviteter i Adobe [!DNL Target] som automatiskt visar innehåll som kan intressera dina kunder baserat på tidigare användaraktivitet eller andra algoritmer.
 title: Vad är  [!DNL Target] Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=sv-SE#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Recommendations
 exl-id: 0d986e17-bc99-4c08-a963-7f9a6619609a
 source-git-commit: 07062b7df75300bd7558a24da5121df454520e42

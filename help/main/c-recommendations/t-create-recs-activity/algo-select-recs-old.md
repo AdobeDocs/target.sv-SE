@@ -2,7 +2,7 @@
 keywords: rekommendationer;rekommendationsaktivitet;kriterier;algoritm
 description: Lär dig hur du väljer de villkor (regler som avgör vilka produkter eller vilket innehåll som ska rekommenderas) som ska användas i din Recommendations-aktivitet i Adobe [!DNL Target] .
 title: Hur väljer jag kriterier för en Recommendations-aktivitet?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=sv-SE#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Recommendations
 exl-id: 119227ec-88c3-4de9-b2cf-f7d5fa2e98f6
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c

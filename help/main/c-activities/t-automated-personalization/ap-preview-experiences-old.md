@@ -2,7 +2,7 @@
 keywords: Automated Personalization;ap;preview;exclude experience
 description: Lär dig hur du förhandsgranskar varje upplevelse i en [!UICONTROL Automated Personalization] (AP) aktivitet i  [!DNL Adobe Target] med hjälp av [!UICONTROL Visual Experience Composer] (VEC).
 title: Hur kan jag förhandsgranska [!UICONTROL Automated Personalization] upplevelser i VEC?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=sv-SE#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Automated Personalization
 exl-id: b346e9cb-f4db-4777-8671-cf714bed465a
 source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88

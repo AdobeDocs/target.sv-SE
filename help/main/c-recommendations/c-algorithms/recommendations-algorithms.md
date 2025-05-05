@@ -2,7 +2,7 @@
 keywords: rekommendationer, algoritmer;modellutbildning;modellvisning;innehållsleverans;objektbaserad;användarbaserad;popularitetsbaserad;kundbaserad;kundbaserad;anpassade kriterier
 description: Lär dig mer om algoritmerna som används i  [!DNL Target Recommendations], inklusive modellutbildning och modellservning.
 title: Var kan jag lära mig om vetenskapen bakom Target's Recommendations Algorithms?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=sv-SE#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
@@ -65,7 +65,7 @@ Det logiska flödet för den faktiska algoritmimplementeringen visas i följande
 
 Här följer information om de här stegen:
 
-* **Indata**: Beteendedata, i form av visningar och köp av besökare som samlats in när du [implementerar Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} eller från [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
+* **Indata**: Beteendedata, i form av visningar och köp av besökare som samlats in när du [implementerar Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=sv-SE){target=_blank} eller från [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
 
 * **Modellutbildning**:
 
@@ -89,7 +89,7 @@ I den här typen av algoritm anses två objekt vara relaterade om deras namn och
 
 Här följer information om de här stegen:
 
-* **Indatadata**: Enligt beskrivningen ovan baseras den här algoritmen enbart på katalogdata (som har importerats till [!DNL Target] via en [katalogfeed, entitets-API:t eller från siduppdateringar](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
+* **Indatadata**: Enligt beskrivningen ovan baseras den här algoritmen enbart på katalogdata (som har importerats till [!DNL Target] via en [katalogfeed, entitets-API:t eller från siduppdateringar](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=sv-SE){target=_blank}.
 
 * **Modellutbildning**:
 
@@ -127,7 +127,7 @@ Logiken i modellutbildning och poängsättning visas i följande diagram:
 
 Här följer information om de här stegen:
 
-* **Indata**: Detta är identiskt med CF-metoder (object-item collaborative filtering). [!UICONTROL Both Recommended For You]- och Cart-baserade algoritmer använder beteendedata, i form av visningar och köp av användare som samlats in när du [implementerar Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} eller från [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
+* **Indata**: Detta är identiskt med CF-metoder (object-item collaborative filtering). [!UICONTROL Both Recommended For You]- och Cart-baserade algoritmer använder beteendedata, i form av visningar och köp av användare som samlats in när du [implementerar Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=sv-SE){target=_blank} eller från [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
 
 * **Modellutbildning**:
 

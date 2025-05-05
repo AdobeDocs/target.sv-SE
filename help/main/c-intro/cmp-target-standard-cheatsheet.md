@@ -33,7 +33,7 @@ Ta en titt på [Target Community Forum](/help/main/cmp-resources-and-contact-inf
 
 **Vilka webbläsare stöder Target?**
 
-Mer information finns i matrisen [Webbläsare som stöds](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html){target=_blank}. Observera att det finns två aspekter: gränssnittsstödet för Target Standard/Premium Experience Cloud och webbläsarstödet för slutanvändare på datorer/enheter.
+Mer information finns i matrisen [Webbläsare som stöds](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=sv-SE){target=_blank}. Observera att det finns två aspekter: gränssnittsstödet för Target Standard/Premium Experience Cloud och webbläsarstödet för slutanvändare på datorer/enheter.
 
 ## Verksamhet {#section_CB95B3BF9934445DB98E8A7E22FC2CF6}
 
@@ -155,7 +155,7 @@ Använd procentallokeringskontrollerna som är tillgängliga från [Steg 2 i det
 Se följande aspekter av produkten:
 
 * [Analyser för mål (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [Kundattribut](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
+* [Kundattribut](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=sv-SE)
 * [Målgrupper](/help/main/c-integrating-target-with-mac/mmp.md)
 
 ## Erfarenheter {#section_5959536B8D6A4BEA8FAA1273338F3451}
@@ -258,7 +258,7 @@ Se följande aspekter av produkten:
 
 * [Analyser för mål (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 
-* [Kundattribut](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
+* [Kundattribut](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=sv-SE)
 
 * [Målgrupper](/help/main/c-integrating-target-with-mac/mmp.md)
 
@@ -309,4 +309,4 @@ Vi beklagar att du har problem. Gå till [Felsökningsmål](/help/main/r-trouble
 
 **Var kan jag läsa mer om mål-API:er?**
 
-Vi har utförlig dokumentation om API:er. Se [Dokumentation för leverans-API:er, NodeJS SDK och Recommendations API:er](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}.
+Vi har utförlig dokumentation om API:er. Se [Dokumentation för leverans-API:er, NodeJS SDK och Recommendations API:er](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=sv-SE){target=_blank}.

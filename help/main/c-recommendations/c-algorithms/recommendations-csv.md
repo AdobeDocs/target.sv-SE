@@ -2,7 +2,7 @@
 keywords: skapa anpassade kriterier;algoritmer;villkor;rekommendationer villkor;csv;ftp;upload csv
 description: Lär dig hur du överför en CSV-fil för att anpassa dina rekommendationer i Adobe [!DNL Target] Recommendations.
 title: Hur överför jag anpassade villkor i  [!DNL Recommendations]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=sv-SE#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Recommendations
 exl-id: 33434121-e0ae-4b82-b1dd-78b9738026cb
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c

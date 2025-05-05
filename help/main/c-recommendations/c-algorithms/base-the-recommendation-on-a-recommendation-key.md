@@ -34,7 +34,7 @@ Olika rekommendationsalgoritmer passar in på olika typer av sidor. Mer informat
 
 ## Cart-baserad {#cart-based}
 
-Algoritmtypen [!UICONTROL Cart-Based] gör att du kan rekommendera objekt baserat på innehållet i besökarens aktuella kundvagn. Rekommendationstangenterna anges med [mbox-parametern `cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} i kommaavgränsade värden. Endast de första 10 värdena beaktas.
+Algoritmtypen [!UICONTROL Cart-Based] gör att du kan rekommendera objekt baserat på innehållet i besökarens aktuella kundvagn. Rekommendationstangenterna anges med [mbox-parametern `cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=sv-SE){target=_blank} i kommaavgränsade värden. Endast de första 10 värdena beaktas.
 
 Den kundbaserade rekommendationslogiken liknar den användarbaserade algoritmen [!UICONTROL Recommended For You] och de objektbaserade algoritmerna [!UICONTROL People Who Viewed These, Bought Those] och [!UICONTROL People Who Bought These, Bought Those].
 

@@ -22,15 +22,15 @@ Vi har sammanställt en ordnad lista med värdefull information som hjälper dig
 ## Resurslänkar
 
 * **Konfigurera Adobe Target**: Information som hjälper dig att administrera [!DNL Adobe Target], inklusive konfigurationsinställningar för [!UICONTROL Visual Experience Composer] (VEC), rapportering, [!DNL Scene7] konfiguration, implementering, värdar, miljöer, svarstoken och användare. Se [Administrera målöversikt](/help/main/administrating-target/administrating-target.md).
-* **Adobe Target produktdokumentation**: Allt du behöver veta om Adobe Target. Se [Adobe Target produktdokumentation](https://experienceleague.adobe.com/docs/target/using/target-home.html).
+* **Adobe Target produktdokumentation**: Allt du behöver veta om Adobe Target. Se [Adobe Target produktdokumentation](https://experienceleague.adobe.com/docs/target/using/target-home.html?lang=sv-SE).
 * **Adobe Target API- och SDK-dokumentation**: Lär dig hur du implementerar [!DNL Target] på klientprogram, program på serversidan, mobilappar, IoT med flera. Lär dig även hur du utbyter dina [!DNL Target]-data med tredjepartslösningar. Se [Adobe Target API - översikt](/help/main/api/api-overview.md).
 * **Adobe Target aktivitetsguide**: Introduktion till olika aktiviteter som du kan använda i [!DNL Target]. Se [Målaktivitetstyper](/help/main/c-activities/target-activities-guide.md).
-* **Adobe Target kundtjänst**: Har du hittat ett problem? Adobe Target-användare kan skicka e-post eller ringa supporten när som helst! Se sidan [Stöd för målföretag](https://helpx.adobe.com/contact/enterprise-support.ec.html#target).
+* **Adobe Target kundtjänst**: Har du hittat ett problem? Adobe Target-användare kan skicka e-post eller ringa supporten när som helst! Se sidan [Stöd för målföretag](https://helpx.adobe.com/se/contact/enterprise-support.ec.html#target).
 
 ## Utbildning och användbarhet
 
-* **Adobe Target Tutorials**: Lär dig grunderna eller förfina dina kunskaper. Se sidan [Adobe Target Tutorials](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html).
-* **Adobe Target On-demand-utbildning**: Utforska de olika Target-kurser vi erbjuder. Se sidan [Utbildning och självstudiekurser för Adobe](https://helpx.adobe.com/learning.html?promoid=KAUDK).
+* **Adobe Target Tutorials**: Lär dig grunderna eller förfina dina kunskaper. Se sidan [Adobe Target Tutorials](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=sv-SE).
+* **Adobe Target On-demand-utbildning**: Utforska de olika Target-kurser vi erbjuder. Se sidan [Utbildning och självstudiekurser för Adobe](https://helpx.adobe.com/se/learning.html?promoid=KAUDK).
 * **Adobe Target-videor:** Binge tittar på [!DNL Target]-videoklippen för att se framgångsberättelser och lösningsfunktioner. Se [Utbildningsvideor om Adobe Target Standard och Premium](/help/main/c-intro/target-standard-premium-training-videos.md)
 * **Webinar Series**: Adobe Target Basics. Delta i vår Customer Success-webbinarium som utforskar grunderna för optimering med Adobe Target-användare. Se [Grundläggande målwebbseminarier](/help/main/cmp-resources-and-contact-information.md#concept_11902FAC95C64479AABE020557A7EEE4).
 * **Kundtjänsttimmar på Adobe**: Kontorstimmar är ett initiativ som leds av Adobe kundtjänstteamet. Dessa sessioner är avsedda att informera såväl som hjälpa deltagare att felsöka problem, och ge tips och råd för att lyckas med [!DNL Adobe Experience Cloud]-lösningar, inklusive [!DNL Target]. Mer information finns i [Adobe Kundtjänstkontorstider](/help/main/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7).
@@ -42,6 +42,6 @@ Vi har sammanställt en ordnad lista med värdefull information som hjälper dig
 
 * **Adobe Target hemsida**: Hemsidan för [!DNL Adobe Target], läs mer om våra funktioner och se våra senaste framgångshistorik här. Se [Adobe Target](https://www.adobe.com/marketing/target.html).
 * **Bloggen**: Håll dig uppdaterad med de senaste nyheterna, tipsen och framgångsfilmerna genom att följa [Målbloggen](https://blog.adobe.com/en/topics/target).
-* **Experience League**: Upptäck guider, evenemang och utbildning som du behöver för att komma igång snabbt med ditt upplevelseföretag och få kontakt med Target-communityn och hitta de svar du söker. Se [Adobe Experience League hemsida](https://experienceleague.adobe.com/#home).
+* **Experience League**: Upptäck guider, evenemang och utbildning som du behöver för att komma igång snabbt med ditt upplevelseföretag och få kontakt med Target-communityn och hitta de svar du söker. Se [Adobe Experience League hemsida](https://experienceleague.adobe.com/sv#home).
 * **Adobe Target-certifiering**: Uppnå Adobe-certifierad expertstatus med nya Adobe Target-examina. Boka in en tentamen här eller kurser. Se [Utbildning och certifiering](/help/main/c-intro/training-and-certification.md).
 * **Versionsinformation för Adobe Target**: Information om funktioner, förbättringar och korrigeringar för varje [!DNL Target Standard] och [!DNL Target Premium] release. Versionsinformation om Target-API:er, SDK:er, JavaScript-biblioteket (at.js) och andra plattformsändringar ingår också, i tillämpliga fall. Se [Versionsinformation för mål (aktuell)](/help/main/r-release-notes/release-notes.md).

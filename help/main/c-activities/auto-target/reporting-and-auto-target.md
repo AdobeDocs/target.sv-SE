@@ -2,7 +2,7 @@
 keywords: automatiskt mål;mål;trafikallokering;vanliga frågor;frågor;felsökning;felsökning;rapportering;rapporter;automatisk målrapport;sammanfattningsrapport;automatiserade segment;viktiga attribut
 description: Lär dig hur du tolkar [!UICONTROL Auto-Target] aktivitetsrapporter i  [!DNL Target].
 title: Hur tolkar jag en [!UICONTROL Auto-Target]-rapport?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=sv-SE#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Auto-Target
 exl-id: df3f2d91-13f8-4acb-ba31-68f91500610b
 source-git-commit: 79fcfe80d8c77d59965e6565a36cf15eb63f8323

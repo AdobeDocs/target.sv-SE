@@ -37,7 +37,7 @@ Några exempel på hur du skulle kunna använda undantag är:
 
    ![exclusions_list image](assets/exclusions_list.png)
 
-   Antalet objekt som rapporteras för varje undantag i listvyn [!UICONTROL Exclusions] är antalet produkter som matchar reglerna för undantaget i den konfigurerade standardvärdgruppen [Recommendations](/help/main/administrating-target/hosts.md) (miljö). Se [Inställningar](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} om du vill ändra standardvärdgruppen.
+   Antalet objekt som rapporteras för varje undantag i listvyn [!UICONTROL Exclusions] är antalet produkter som matchar reglerna för undantaget i den konfigurerade standardvärdgruppen [Recommendations](/help/main/administrating-target/hosts.md) (miljö). Se [Inställningar](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=sv-SE){target=_blank} om du vill ändra standardvärdgruppen.
 
 1. Klicka på **[!UICONTROL Create Exclusion]**.
 

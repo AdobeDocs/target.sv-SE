@@ -2,7 +2,7 @@
 keywords: Recommendations;intro;introduction;webbinar;demo
 description: Lär dig mer om Recommendations-aktiviteter i Adobe [!DNL Target] som automatiskt visar innehåll som kan intressera dina kunder baserat på tidigare användaraktivitet eller andra algoritmer.
 title: Vad är Recommendations aktiviteter?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=sv-SE#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Recommendations
 exl-id: bc4d9a46-ea21-4687-b8a0-7f2e1dc33ebf
 source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
@@ -105,7 +105,7 @@ Därefter bör du lägga till taggar eller utnyttja befintlig [!DNL Analytics]-i
 
 Du måste se till att [!DNL Target] är medveten om de objekt som användarna visar och köper. Om köpet inte är relevant för ditt sammanhang kan du spåra en annan typ av konverteringshändelse, till exempel hämtning av PDF, slutförande av en enkät, prenumeration på ett nyhetsbrev, titta på en video o.s.v.
 
-Om du redan använder [!DNL Target] för att köra A/B-tester på din webbplats, kanske du redan har slutfört det här steget. Om du redan använder [!DNL Adobe Analytics] för att rapportera webbplatsbesök och konverteringsbeteenden kan du använda [!DNL Analytics] som din beteendedatakälla. Annars är det enklast att konfigurera detta med en tagghanterare som taggar i [[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}. Det går också att skicka interaktioner offline eller i appen till [!DNL Target] via API:t i realtid.
+Om du redan använder [!DNL Target] för att köra A/B-tester på din webbplats, kanske du redan har slutfört det här steget. Om du redan använder [!DNL Adobe Analytics] för att rapportera webbplatsbesök och konverteringsbeteenden kan du använda [!DNL Analytics] som din beteendedatakälla. Annars är det enklast att konfigurera detta med en tagghanterare som taggar i [[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html?lang=sv-SE){target=_blank}. Det går också att skicka interaktioner offline eller i appen till [!DNL Target] via API:t i realtid.
 
 ### Få rekommendationer i rätt sammanhang
 

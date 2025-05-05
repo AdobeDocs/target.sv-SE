@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Analyser för implementering av [!DNL Target]
 
-Flera steg krävs när [!DNL Adobe Analytics] implementeras som rapportkälla för [!DNL Adobe Target] (A4T). Processen varierar beroende på om du implementerar A4T med [[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) eller med at.js.
+Flera steg krävs när [!DNL Adobe Analytics] implementeras som rapportkälla för [!DNL Adobe Target] (A4T). Processen varierar beroende på om du implementerar A4T med [[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=sv-SE) eller med at.js.
 
 ## ![Adobe Experience Platform Web SDK badge](/help/main/assets/platform.png) Implementeringssteg för en Adobe Experience Platform Web SDK-implementering {#platform}
 
@@ -29,11 +29,11 @@ Kraven för användarkontot måste uppfyllas innan du kan skapa en aktivitet bas
 
 ### Steg 3: Skapa en Edge-konfiguration
 
-Skapa en Edge-konfiguration med [!DNL Adobe Experience Platform] med hjälp av edge-konfigurationsverktyget. Konfigurera [Skapa och konfigurera datastreams](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html).
+Skapa en Edge-konfiguration med [!DNL Adobe Experience Platform] med hjälp av edge-konfigurationsverktyget. Konfigurera [Skapa och konfigurera datastreams](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=sv-SE).
 
 ### Steg 4: Installera och konfigurera Platform Web SDK
 
-Om du vill börja leverera [!DNL Target]-upplevelser och använda [!DNL Analytics] i spårnings- och analyssyfte, [installerar](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) och [konfigurerar](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html) Platform Web SDK på webbplatsens sidor.
+Om du vill börja leverera [!DNL Target]-upplevelser och använda [!DNL Analytics] i spårnings- och analyssyfte, [installerar](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=sv-SE) och [konfigurerar](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=sv-SE) Platform Web SDK på webbplatsens sidor.
 
 ### Steg 5: Aktivera alternativen för A4T
 
@@ -58,15 +58,15 @@ Kraven för användarkontot måste uppfyllas innan du kan skapa en [!DNL Analyti
 
 Med besökar-ID-tjänsten kan du identifiera användare för alla [!DNL Adobe Experience Cloud]-lösningar. Implementera eller migrera till den version av Experience Cloud Visitor-ID som krävs. Mer information finns i Implementeringskrav i [Innan du implementerar](/help/main/c-integrating-target-with-mac/a4t/before-implement.md).
 
-Se [Implementera Experience Cloud ID-tjänsten för mål](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-target.html) i dokumentationen för *Experience Cloud Visitor ID-tjänsten*.
+Se [Implementera Experience Cloud ID-tjänsten för mål](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-target.html?lang=sv-SE) i dokumentationen för *Experience Cloud Visitor ID-tjänsten*.
 
 ### Steg 4: Uppdatera AppMeasurementet för JavaScript eller s_code
 
 Implementera eller migrera till den version av appMeasurement.js som krävs. Mer information finns i Implementeringskrav i [Innan du implementerar](/help/main/c-integrating-target-with-mac/a4t/before-implement.md).
 
-Information om nya implementeringar finns i [Översikt över JavaScript-implementering](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html) i *Implementeringshandboken för analyser*.
+Information om nya implementeringar finns i [Översikt över JavaScript-implementering](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html?lang=sv-SE) i *Implementeringshandboken för analyser*.
 
-Information om migrering finns i [Migrera till AppMeasurement för JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/js/migrate-from-hcode.html) i *Implementeringshandboken för analyser*.
+Information om migrering finns i [Migrera till AppMeasurement för JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/js/migrate-from-hcode.html?lang=sv-SE) i *Implementeringshandboken för analyser*.
 
 ### Steg 5: Hämta och uppdatera på .js
 
@@ -116,9 +116,9 @@ Den här konfigurationen har en global effekt, vilket innebär att alla anrop fr
 }
 ```
 
-Nyttolasten kan sedan vidarebefordras till Analytics via [API:t för datainfogning](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html). Om du vill använda Automatisk allokering och Automatiskt mål-aktiviteter måste du även vidarebefordra sessions-ID. Mer information finns i [Analytics for Target-rapportering (A4T)](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html){target=_blank} i guiden *Adobe Target SDK*.
+Nyttolasten kan sedan vidarebefordras till Analytics via [API:t för datainfogning](https://helpx.adobe.com/se/analytics/kb/data-insertion-api-post-method-adobe-analytics.html). Om du vill använda Automatisk allokering och Automatiskt mål-aktiviteter måste du även vidarebefordra sessions-ID. Mer information finns i [Analytics for Target-rapportering (A4T)](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html?lang=sv-SE){target=_blank} i guiden *Adobe Target SDK*.
 
-Om en global inställning inte önskas och en mer on demand-metod är att föredra, använder du funktionen at.js [getOffers()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffers-atjs-2.html){target=_blank} genom att ange **analyticsLogging: &quot;client_side&quot;**. Analysens nyttolast returneras endast för det här anropet och [!DNL Target]-serverdelen vidarebefordrar inte nyttolasten till [!DNL Analytics]. Genom att följa den här metoden returnerar varje at.js [!DNL Target]-begäran nyttolasten som standard, men i stället bara när det önskas och anges.
+Om en global inställning inte önskas och en mer on demand-metod är att föredra, använder du funktionen at.js [getOffers()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffers-atjs-2.html?lang=sv-SE){target=_blank} genom att ange **analyticsLogging: &quot;client_side&quot;**. Analysens nyttolast returneras endast för det här anropet och [!DNL Target]-serverdelen vidarebefordrar inte nyttolasten till [!DNL Analytics]. Genom att följa den här metoden returnerar varje at.js [!DNL Target]-begäran nyttolasten som standard, men i stället bara när det önskas och anges.
 
 Exempel:
 
@@ -174,7 +174,7 @@ Svaret ser ut så här:
 }
 ```
 
-Nyttolasten kan sedan vidarebefordras till [!DNL Analytics] via [API:t för datainfogning](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
+Nyttolasten kan sedan vidarebefordras till [!DNL Analytics] via [API:t för datainfogning](https://helpx.adobe.com/se/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
 
 ### Steg 8: Validera implementeringen {#step8}
 

@@ -3,8 +3,8 @@ keywords: ajo;adobe travel optimizer;adobe travel optimizer target integration;r
 description: Integrera [!DNL Adobe Target Recommendations] med [!DNL Adobe Journey Optimizer].
 title: Hur använder jag  [!DNL Target Recommendations] i kundresor med  [!DNL Adobe Journey Optimizer]?
 feature: Integrations
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="Vad är Beta-funktioner i  [!DNL Adobe Target]?"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=sv-SE#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=sv-SE#beta newtab=true" tooltip="Vad är Beta-funktioner i  [!DNL Adobe Target]?"
 hide: true
 hidefromtoc: true
 exl-id: 81bbbd51-47fc-4e23-a1cb-7c18fea1c159
@@ -25,11 +25,11 @@ Denna integrering hjälper er att få fler konverteringar och se effekten av e-p
 
 Om du vill använda integreringen [!DNL Target Recommendations] och [!DNL Adobe Journey Optimizer] behöver du följande:
 
-* [[!DNL Adobe Target Premium]](/help/main/c-intro/intro.md#premium) implementeras med [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank}.
+* [[!DNL Adobe Target Premium]](/help/main/c-intro/intro.md#premium) implementeras med [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/sv/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank}.
 
   Den här funktionen är inte tillgänglig med en [!DNL Target Standard]-licens eller vid implementering av [!DNL Target] med at.js eller andra [!DNL Target] SDK:er.
 
-* [[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target=_blank}.
+* [[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/sv/docs/journey-optimizer/using/ajo-home){target=_blank}.
 
 ## Exempel på användningsområden
 

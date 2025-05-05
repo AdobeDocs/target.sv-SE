@@ -96,7 +96,7 @@ Följande avsnitt innehåller felsökningsinformation om aktiviteter, åtskilda 
 
 ## Global mbox
 
-* [Global mbox](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html)
+* [Global mbox](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html?lang=sv-SE)
 
 ## Värdar/miljöer
 
@@ -108,23 +108,23 @@ Följande avsnitt innehåller felsökningsinformation om implementering av Targe
 
 ### Allmän implementering
 
-* [Webbläsare som stöds](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html)
-* [Använda molnbaserade instanser med Target](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targeting-using-cloud-based-instances.html)
+* [Webbläsare som stöds](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=sv-SE)
+* [Använda molnbaserade instanser med Target](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targeting-using-cloud-based-instances.html?lang=sv-SE)
 
 ### Globala mboxes
 
-* [Vanliga frågor om den globala mbox](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html)
+* [Vanliga frågor om den globala mbox](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html?lang=sv-SE)
 
 ### at.js
 
-* [at.js - frågor och svar](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html)
-* [Felsöka at.js med Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html)
-* Versionsinformation för [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html)
+* [at.js - frågor och svar](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html?lang=sv-SE)
+* [Felsöka at.js med Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html?lang=sv-SE)
+* Versionsinformation för [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=sv-SE)
 * &quot;Office Hours&quot;, en video som leds av Adobe kundtjänstteam.
 
 ## Mobilappar
 
-* [Mål för mobilappar - frågor och svar](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/mobile-faq.html)
+* [Mål för mobilappar - frågor och svar](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/mobile-faq.html?lang=sv-SE)
 
 ## Rapportering
 
@@ -133,11 +133,11 @@ Följande avsnitt innehåller felsökningsinformation om implementering av Targe
 
 ## Sökmotoroptimering (SEO)
 
-* [Anpassad testning för sökmotoroptimering (SEO)](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
+* [Anpassad testning för sökmotoroptimering (SEO)](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=sv-SE)
 
 ## Säkerhet
 
-* [CSP-direktiv (Content Security Policy)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/content-security-policy.html)
+* [CSP-direktiv (Content Security Policy)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/content-security-policy.html?lang=sv-SE)
 
 ## Systemstatus
 

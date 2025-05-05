@@ -125,7 +125,7 @@ Använd en:
 
   Om det här beteendet inte matchar dina krav kan du utföra någon av följande åtgärder:
 
-   * Skicka [mbox-parametrar](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank} till [!DNL Target] som ska användas för målinriktningsändamål.
+   * Skicka [mbox-parametrar](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html?lang=sv-SE){target=_blank} till [!DNL Target] som ska användas för målinriktningsändamål.
    * Använd en [A/B-testaktivitet](/help/main/c-activities/t-test-ab/test-ab.md) i stället för en landningssidaktivitet. A/B-testaktiviteter byter inte upplevelser för samma besökare.
    * Använd en [besökarprofil](/help/main/c-target/c-audiences/c-target-rules/visitor-profile.md) i stället.
 

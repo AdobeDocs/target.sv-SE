@@ -2,7 +2,7 @@
 keywords: rekommendationsfeed;feed;SAINT;ftp;csv;klassificeringar;analysklassificeringar
 description: Lär dig hur feeds importerar entiteter till  [!DNL Adobe Target] [!DNL Recommendations] med hjälp av CSV-filer, Google produktsökningsformat och  [!DNL Analytics] produktklassificeringar.
 title: Hur använder jag [!UICONTROL Feeds] i [!DNL Target Recommendations]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=sv-SE#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Recommendations
 exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
@@ -212,7 +212,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 ### [!DNL Analytics] produktklassificeringar {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-Produktklassificeringen [!DNL Analytics] är den enda klassificeringen som är tillgänglig för rekommendationer. Mer information om den här klassificeringsfilen finns i [Om klassificeringar](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) i guiden *Analyskomponenter*. Det är möjligt att inte all information du behöver för rekommendationer finns tillgänglig i den aktuella implementeringen, så följ den här användarhandboken om du vill lägga till i klassificeringsfilen.
+Produktklassificeringen [!DNL Analytics] är den enda klassificeringen som är tillgänglig för rekommendationer. Mer information om den här klassificeringsfilen finns i [Om klassificeringar](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=sv-SE) i guiden *Analyskomponenter*. Det är möjligt att inte all information du behöver för rekommendationer finns tillgänglig i den aktuella implementeringen, så följ den här användarhandboken om du vill lägga till i klassificeringsfilen.
 
 >[!IMPORTANT]
 >

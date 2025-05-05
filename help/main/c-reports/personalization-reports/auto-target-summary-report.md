@@ -2,7 +2,7 @@
 keywords: rapporter;auto target;auto target;AT;report
 description: Lär dig hur du tolkar sammanfattningsrapporten för automatisk målanpassning i Adobe Target. Du kan växla till rapporterna Automatiserade segment och Viktiga attribut från den här rapporten.
 title: Hur använder jag den automatiska målsammanfattningsrapporten?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=sv-SE#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Reports
 exl-id: 098fcc0e-8e17-4898-ab2f-ec74472562ff
 source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1

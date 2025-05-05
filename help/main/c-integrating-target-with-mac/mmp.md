@@ -15,7 +15,7 @@ ht-degree: 0%
 
 [!DNL Adobe Experience Cloud Audiences] ger möjlighet för [!DNL Adobe Experience Cloud] lösningar att kommunicera och dela information om besökare på webbplatser så att samma data kan användas av varje lösning.
 
-Mer information finns i [Publiker](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) i *Användarhandboken för bastjänster*.
+Mer information finns i [Publiker](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=sv-SE) i *Användarhandboken för bastjänster*.
 
 ## Video: Integrera [!DNL Target] med [!DNL Experience Cloud Audiences] (10:48)
 

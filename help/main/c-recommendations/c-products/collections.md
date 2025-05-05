@@ -2,7 +2,7 @@
 keywords: samling;Riktning
 description: Lär dig hur du använder produktsamlingar eller objekt i  [!DNL Target Recommendations].
 title: Hur använder jag samlingar i rekommendationer?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=sv-SE#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Recommendations
 exl-id: e62f501b-3521-4456-9ea1-e4b8a2b478c6
 source-git-commit: be9cb6da17f125c127d64ed8f9002987188fdf3d
@@ -44,7 +44,7 @@ Skapa en samling för att ordna de produkter eller det innehåll som du vill vis
 
    Sidan [!UICONTROL Collections] visar en lista över dina befintliga samlingar. Du skapar nya samlingar genom att klicka på knappen [!UICONTROL Create Collection]. Du kan också redigera, kopiera och ta bort befintliga samlingar genom att klicka på ikonen Fler åtgärder ( ![ikonen Fler åtgärder](/help/main/assets/icons/MoreSmallList.svg) ) bredvid önskad samling och sedan klicka på önskat alternativ.
 
-   Antalet objekt som rapporteras för varje samling i listvyn [!UICONTROL Collections] är antalet produkter som matchar reglerna för den samlingen i den konfigurerade standardrekommendationerna [värdgrupp](/help/main/administrating-target/hosts.md) (miljö). Se [Inställningar](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} om du vill ändra standardvärdgruppen.
+   Antalet objekt som rapporteras för varje samling i listvyn [!UICONTROL Collections] är antalet produkter som matchar reglerna för den samlingen i den konfigurerade standardrekommendationerna [värdgrupp](/help/main/administrating-target/hosts.md) (miljö). Se [Inställningar](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=sv-SE){target=_blank} om du vill ändra standardvärdgruppen.
 
 1. Klicka på **[!UICONTROL Create Collection]**.
 

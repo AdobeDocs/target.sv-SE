@@ -217,7 +217,7 @@ Följande alternativ är tillgängliga:
 
 ### [!UICONTROL Offer Decision]
 
-Lägg till ett [erbjudande som skapats i [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} för att presentera det bästa erbjudandet och upplevelsen för dina kunder med hjälp av offer decisioning.
+Lägg till ett [erbjudande som skapats i [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=sv-SE){target=_blank} för att presentera det bästa erbjudandet och upplevelsen för dina kunder med hjälp av offer decisioning.
 
 **Obs!** Det här alternativet är endast tillgängligt när du redigerar eller skapar [manuella [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) - eller [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT)-aktiviteter. Det här alternativet är inte tillgängligt för andra aktivitetstyper.
 
@@ -249,7 +249,7 @@ Följande alternativ är tillgängliga:
 
 ### [!UICONTROL Offer Decision]
 
-Lägg till ett [erbjudande som skapats i [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} för att presentera det bästa erbjudandet och upplevelsen för dina kunder med hjälp av offer decisioning.
+Lägg till ett [erbjudande som skapats i [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=sv-SE){target=_blank} för att presentera det bästa erbjudandet och upplevelsen för dina kunder med hjälp av offer decisioning.
 
 **Obs!** Det här alternativet är endast tillgängligt när du redigerar eller skapar [manuella [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) - eller [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT)-aktiviteter. Det här alternativet är inte tillgängligt för andra aktivitetstyper.
 
@@ -281,7 +281,7 @@ Följande alternativ är tillgängliga:
 
 ### [!UICONTROL Offer Decision]
 
-Lägg till ett [erbjudande som skapats i [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} för att presentera det bästa erbjudandet och upplevelsen för dina kunder med hjälp av offer decisioning.
+Lägg till ett [erbjudande som skapats i [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=sv-SE){target=_blank} för att presentera det bästa erbjudandet och upplevelsen för dina kunder med hjälp av offer decisioning.
 
 **Obs!** Det här alternativet är endast tillgängligt när du redigerar eller skapar [manuella [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) - eller [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT)-aktiviteter. Det här alternativet är inte tillgängligt för andra aktivitetstyper.
 
@@ -371,7 +371,7 @@ Markera det överordnade elementet förutom det ursprungligen markerade elemente
 
 ## Överväganden {#considerations}
 
-* Om ett erbjudande innehåller HTML finns mer information i&quot;How at.js renders offers with HTML content&quot; i [How at.js works](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank}.
+* Om ett erbjudande innehåller HTML finns mer information i&quot;How at.js renders offers with HTML content&quot; i [How at.js works](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=sv-SE){target=_blank}.
 
 ## Stöd för anpassade element {#custom}
 
@@ -379,9 +379,9 @@ VEC har stöd för [webbkomponenter](https://developer.mozilla.org/en-US/docs/We
 
 >[!NOTE]
 >
->VEC-stöd för anpassade element stöds i [at.js version](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} 2.7.0 (eller senare){target=_blank}. Kontrollera att rätt version är distribuerad på webbplatsen. Om du använder hjälptillägget [Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) måste det också ha den version av at.js som krävs distribuerad. De VEC-alternativ som beskrivs ovan är inte synliga och tillgängliga för användning med versioner av at.js som inte stöds.
+>VEC-stöd för anpassade element stöds i [at.js version](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=sv-SE){target=_blank} 2.7.0 (eller senare){target=_blank}. Kontrollera att rätt version är distribuerad på webbplatsen. Om du använder hjälptillägget [Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) måste det också ha den version av at.js som krävs distribuerad. De VEC-alternativ som beskrivs ovan är inte synliga och tillgängliga för användning med versioner av at.js som inte stöds.
 >
->VEC-stöd för anpassade element stöds för närvarande inte med [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}.
+>VEC-stöd för anpassade element stöds för närvarande inte med [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=sv-SE){target=_blank}.
 
 De flesta VEC-åtgärder stöds för anpassade händelser och i anpassade händelser, med följande undantag:
 

@@ -31,7 +31,7 @@ Den här A4T-integreringen kräver att du implementerar följande biblioteksvers
 
 >[!NOTE]
 >
->Följande krav listar de *minimum*-versioner av at.js som behövs för att implementera A4T. [!DNL Target]-teamet underhåller endast två versioner av [!DNL at.js] - den aktuella versionen och den andra senaste versionen. Uppgradera [!DNL at.js] efter behov för att kontrollera att du kör en version som stöds. Mer information om vad som finns i respektive version finns i [at.js Versionsinformation](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
+>Följande krav listar de *minimum*-versioner av at.js som behövs för att implementera A4T. [!DNL Target]-teamet underhåller endast två versioner av [!DNL at.js] - den aktuella versionen och den andra senaste versionen. Uppgradera [!DNL at.js] efter behov för att kontrollera att du kör en version som stöds. Mer information om vad som finns i respektive version finns i [at.js Versionsinformation](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=sv-SE){target=_blank}.
 
 ### Krav krävs om *inte* använder omdirigeringserbjudanden med A4T
 
@@ -41,7 +41,7 @@ Integreringen kräver att du implementerar följande biblioteksversioner (eller 
 * [!DNL Adobe Target]: at.js version 0.9.1
 * Adobe Analytics: appMeasurement.js version 1.7.0
 
-Mer information om hur du implementerar A4T med [!DNL Platform Web SDK] finns i [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}.
+Mer information om hur du implementerar A4T med [!DNL Platform Web SDK] finns i [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=sv-SE){target=_blank}.
 
 ### Krav som krävs för omdirigeringserbjudanden med A4T
 
@@ -59,7 +59,7 @@ Om du vill använda omdirigeringserbjudanden med A4T måste du implementera föl
 
 Instruktioner för hämtning och distribution finns i [Analytics for Target Implementation](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md).
 
-Mer information om hur du implementerar A4T med [!DNL Platform Web SDK] finns i [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}.
+Mer information om hur du implementerar A4T med [!DNL Platform Web SDK] finns i [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=sv-SE){target=_blank}.
 
 ## Saker att känna till innan ni implementerar {#section_50D49CC52E11414089C89FB67F9B88F5}
 
@@ -83,7 +83,7 @@ Latensökningen börjar efter att du har implementerat besökar-ID-tjänsten [!D
 
 Alla [!DNL Target] anrop som används av en A4T-aktivitet för att leverera innehåll eller registrera målmåttet måste ha en motsvarande [!DNL Analytics]-träff som delar det kompletterande ID:t för A4T för att fungera korrekt.
 
-Träffar som innehåller data från [!DNL Analytics] och [!DNL Target] innehåller ett extra data-ID. Du kan se det här ID:t i [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html) som parametern `sdid`. Till exempel: `sdid=2F3C18E511F618CC-45F83E994AEE93A0`. Detta ID genereras när som helst när följande kriterier finns på plats:
+Träffar som innehåller data från [!DNL Analytics] och [!DNL Target] innehåller ett extra data-ID. Du kan se det här ID:t i [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=sv-SE) som parametern `sdid`. Till exempel: `sdid=2F3C18E511F618CC-45F83E994AEE93A0`. Detta ID genereras när som helst när följande kriterier finns på plats:
 
 * Tjänsten för besökar-ID är implementerad
 

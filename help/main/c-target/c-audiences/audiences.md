@@ -21,7 +21,7 @@ Målgrupperna används överallt där målgruppsanpassning finns tillgänglig. N
 * [Skapa en aktivitetsspecifik målgrupp](/help/main/c-target/creating-activity-only-audience.md) och ange den som mål
 * [Kombinera flera målgrupper](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) för att skapa en ad hoc-målgrupp
 
-Du kan också använda målgruppsdata som samlats in av [!DNL Adobe Analytics] för målinriktning och personalisering i realtid i [!DNL Target] och andra [!DNL Adobe Experience Cloud]-program. Se [Publiker i Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) i guiden *Komponenter i det centrala Experience Cloud-gränssnittet*.
+Du kan också använda målgruppsdata som samlats in av [!DNL Adobe Analytics] för målinriktning och personalisering i realtid i [!DNL Target] och andra [!DNL Adobe Experience Cloud]-program. Se [Publiker i Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=sv-SE) i guiden *Komponenter i det centrala Experience Cloud-gränssnittet*.
 
 Det finns två typer av målgrupper i [!DNL Target]:
 
@@ -45,7 +45,7 @@ Listan [!UICONTROL Audiences] innehåller de målgrupper som du kan använda i d
 
   >[!NOTE]
   >
-  >[!DNL Adobe Experience Platform]-källan är tillgänglig för alla [!DNL Target]-kunder som använder [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}. Publiker som är tillgängliga från [!DNL Adobe Experience Platform] kan användas som de är eller [kombineras med befintliga målgrupper](/help/main/c-target/combining-multiple-audiences.md).
+  >[!DNL Adobe Experience Platform]-källan är tillgänglig för alla [!DNL Target]-kunder som använder [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=sv-SE){target=_blank}. Publiker som är tillgängliga från [!DNL Adobe Experience Platform] kan användas som de är eller [kombineras med befintliga målgrupper](/help/main/c-target/combining-multiple-audiences.md).
   >
   >Användare måste ha statusvärdet [!UICONTROL Approver] eller högre i [!DNL Target] för att kunna konfigurera [!DNL Target] [!UICONTROL Destinations]-kort i AEP/RTCDP ([!DNL Real-time Customer Data Platform]).
   >
