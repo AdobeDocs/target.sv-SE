@@ -102,7 +102,7 @@ I den här översiktsvideon förklaras vilka aktivitetstyper som är tillgängli
 
 ### Skapa multivariata tester (9:25) ![Självstudiemärke](/help/main/assets/tutorial.png)
 
-I den här videon förklaras hur du förstår, planerar och skapar ett multivariat-test med hjälp av det guidade arbetsflödet i tre steg för [!DNL]Target.
+I den här videon förklaras hur du förstår, planerar och skapar ett multivariat-test med hjälp av det guidade arbetsflödet i tre steg för Target.
 
 * Definiera och utforma ett multivariat test
 * Skapa ett multivariata test

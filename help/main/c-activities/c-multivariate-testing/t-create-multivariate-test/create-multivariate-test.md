@@ -39,7 +39,7 @@ Med redigeraren för peka och klicka på [!DNL Target] kan du välja valfri plat
 
    [!UICONTROL Visual Experience Composer] öppnas.
 
-1. 
+1. &#x200B;
    1. Klicka på ikonen **[!UICONTROL Rename]** ( ![Byt namn ](/help/main/assets/icons/MoreSmallListVert.svg) ), klicka på **[!UICONTROL Rename]**, ange ett namn för aktiviteten och klicka sedan på **[!UICONTROL Save]**.
 
    Aktivitetsnamnet får inte börja med något av följande tecken:

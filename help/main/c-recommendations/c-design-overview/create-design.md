@@ -48,7 +48,7 @@ Du kan skapa en design baserad på en standarddesign eller skapa en egen design.
 
    Dialogrutan [!UICONTROL Create Design] visas.
 
-1. Skriv in en **[!UICONTROL  Name]** och en förhandsvisningsbild som du vill visa på designkortet.
+1. Skriv in en **[!UICONTROL &#x200B; Name]** och en förhandsvisningsbild som du vill visa på designkortet.
 
    När du använder en standarddesign visas designnamnet och kopian i fältet **[!UICONTROL Content Name]**. Du kan redigera namnet. Du kan också välja en bild som ska visas på designkortet.
 

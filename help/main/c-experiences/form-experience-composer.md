@@ -35,7 +35,7 @@ Om du skapar en [!UICONTROL Recommendations]-aktivitet finns det inga upplevelse
 
    Den här skärmen är annorlunda om du skapar en [!UICONTROL Recommendations]-aktivitet. [!UICONTROL Recommendations] aktiviteter inkluderar inte upplevelser.
 
-1. 
+1. &#x200B;
    1. Klicka på ikonen **[!UICONTROL Rename]** ( ![Byt namn ](/help/main/assets/icons/MoreSmallListVert.svg) ), klicka på **[!UICONTROL Rename]**, ange ett namn för aktiviteten och klicka sedan på **[!UICONTROL Save]**.
 
    Aktivitetsnamnet får inte börja med något av följande tecken:

@@ -230,9 +230,9 @@ Det finns fyra lägen för [!UICONTROL Auto-Target]-aktiviteter: [!UICONTROL Dai
 
 Standardordningen som diagrammet ritas i är följande:
 
-* **[!UICONTROL A/B Test](inklusive [!UICONTROL Auto-Allocate] och [!UICONTROL Automated Personalization])**: Den ordning i vilken upplevelsen skapas, i fallande ordning.
-* **[!UICONTROL Experience Targeting](XT)**: Upplevelseordning i aktiviteten.
-* **[!UICONTROL Multivariate Test](MVT)**: Alfabetiskt efter upplevelsenamn.
+* **[!UICONTROL A/B Test] (inklusive [!UICONTROL Auto-Allocate] och [!UICONTROL Automated Personalization])**: Den ordning i vilken upplevelsen skapas, i fallande ordning.
+* **[!UICONTROL Experience Targeting] (XT)**: Upplevelseordning i aktiviteten.
+* **[!UICONTROL Multivariate Test] (MVT)**: Alfabetiskt efter upplevelsenamn.
 * **[!UICONTROL Recommendations]**: Den ordning i vilken upplevelsen skapas, i fallande ordning.
 
 När du arbetar med alternativen för [!UICONTROL Counting Methodology] bör du tänka på följande:

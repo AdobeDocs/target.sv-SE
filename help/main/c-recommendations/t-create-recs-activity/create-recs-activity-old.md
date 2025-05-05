@@ -30,7 +30,7 @@ Använd Target Visual Experience Composer (VEC) för att skapa en Recommendation
    >
    >Felsökningsinformation om VEC finns i [Felsökning av Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md) om du har problem.
    >
-   >Alternativet [!UICONTROL [Choose Workplace]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) i föregående bild är en [Target Premium](/help/main/c-intro/intro.md)-funktion. Din organisation har en Target Standard-licens om du inte ser det här alternativet.
+   >Alternativet [[!UICONTROL [Choose Workplace]]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) i föregående bild är en [Target Premium](/help/main/c-intro/intro.md)-funktion. Din organisation har en Target Standard-licens om du inte ser det här alternativet.
 
 1. (Villkorligt) Om du är [Target Premium-kund](/help/main/c-intro/intro.md#premium) väljer du en [arbetsyta](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 

@@ -83,7 +83,7 @@ Bilden visar hur den trafik som tilldelats varje upplevelse fortskrider under fl
 >
 >Om en aktivitet bara har två upplevelser får båda upplevelserna samma trafik tills [!DNL Target] hittar en vinnande upplevelse med 75 % förtroende. Då fördelas två tredjedelar av trafiken till vinnaren och en tredjedel till förloraren. När upplevelsen når 95 % av förtroendet tilldelas vinnaren 90 % av trafiken och 10 % tilldelas förloraren. [!DNL Target] skickar alltid viss trafik till den&quot;förlorade&quot; upplevelsen för att undvika falskt positiva resultat i slutet (d.v.s. upprätthålla utforskande).
 
-När en [!UICONTROL Auto-Allocate]-aktivitet har aktiverats tillåts inte följande åtgärder från gränssnittet Ta[!DNL]get:
+När en [!UICONTROL Auto-Allocate]-aktivitet har aktiverats tillåts inte följande åtgärder från gränssnittet Taget:
 
 * Växla läget&quot;Trafikallokering&quot; till&quot;Manuell&quot;
 * Ändra målmåttstyp

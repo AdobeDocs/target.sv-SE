@@ -132,7 +132,7 @@ Vi är glada över att kunna dela med oss av viktiga och banbrytande nyheter om 
    * Hur varumärken kan leverera snabbare hastigheter och beslut genom att finjustera sina AI-baserade algoritmer
    * Unika användningsexempel för personalisering från 1 till 1
 
-+++
+  +++
 
 ### [!DNL Adobe Target] kunskapsbyggare - AI-styrda Personalization och rekommendationer (15 september 2022) {#AI}
 
@@ -156,11 +156,11 @@ Mobilupplevelser är grunden för innovation inom hur marknadsförings- och tekn
    * Livscykelstatistik för testning och målinriktning av kundupplevelser
    * SDK för mobiler = API:er för flexibla implementeringar (iOS- och Android-plattformar)
 
-+++
+  +++
 
 ### Chef&#39;s Collection: Recept for Personalization (30 augusti 2022)
 
-Gå med i [!DNL Adobe Target] [!DNL]teamet och få nya idéer om hur du kan få ut så mycket som möjligt av Target. Baserat på vår senaste e-bok &quot;Chef&#39;s Collection: Ideas for Personalization&quot;.
+Gå med i [!DNL Adobe Target] teamet och få nya idéer om hur du kan få ut så mycket som möjligt av Target. Baserat på vår senaste e-bok &quot;Chef&#39;s Collection: Ideas for Personalization&quot;.
 
 * [Länkar för inspelning](https://video.tv.adobe.com/v/346970/){target=_blank}
 
@@ -172,7 +172,7 @@ Gå med i [!DNL Adobe Target] [!DNL]teamet och få nya idéer om hur du kan få 
    * Optimera för en konkurrensfördel
    * Skapa personliga upplevelser
 
-+++
+  +++
 
 ### Aktivering av lojalitet i realtid (25 augusti 2022)
 
@@ -201,7 +201,7 @@ Under 2022 har systemen nått en vändpunkt när det gäller möjligheten att ti
 
   Följ Michael Klein (Director, Industry Strategy Retail) och Leina Betzer (Target Consultant, Adobe Premier Support) för att diskutera hur detaljhandeln skjuter i höjden när konsumenternas köpmönster och beteenden förändras, med ökad efterfrågan på varor och tjänster på vissa marknader.
 
-+++
+  +++
 
 ### [!DNL Adobe]: Personalization med Precision - [!DNL Adobe Analytics] och [!DNL Target] (2 juni 2022)
 
@@ -235,7 +235,7 @@ Lär dig de bästa sätten att utöka personaliseringsprogram i stor skala. Se h
    * Total affärseffekt genom skalning av personalisering och experimentella aktiviteter på webben och i mobilen
    * Detaljhandelstips och tricks för att använda analysdata för att omvandla genomsnittliga besökare till återkommande idrottsmän
 
-+++
+  +++
 
 ### [!DNL Adobe]: Personalization Industry Insider - Financial Services and Insurance (24 maj 2022)
 
@@ -247,7 +247,7 @@ Se hur finansföretagen stöder och informerar kunder som använder personaliser
 
   Besök Christopher Young (Director, Industry Strategy Financial Services) och James Capasso (Target Consultant, Adobe Premier Support) för att få reda på hur varumärken hanterar omedelbara förändringar i efterfrågan och sätter personaliseringen i centrum för kundernas engagemang. Se hur finansföretagen stöder och informerar kunder över hela världen som är oroliga för de senaste inflationsmönstren och omständigheterna kring sina investeringar.
 
-+++
+  +++
 
 ### City National Bank: How to Achieve the Top 1% in Digital Optimization (26 maj 2022)
 
@@ -266,7 +266,7 @@ Visa verktygspaket och användningsexempel för implementering av strategier fö
    * Öka tillväxten i verksamheten med ökat engagemang och ökad användning av personaliserade erbjudanden
    * Optimera flerkanalskampanjer för time-to-value och avkastning.
 
-+++
+  +++
 
 ### Webbinarium: Anpassa och testa med nolltidsfördröjning med enhetsbeslut från [!DNL Adobe Target]
 
@@ -278,7 +278,7 @@ Visa verktygspaket och användningsexempel för implementering av strategier fö
 
   I det här inspelade webbinariet diskuterar Adobe Target produktexperter hur flyttande beslut om optimering av kritiska upplevelser på enheter som körs lokalt med nolltidsfördröjning kan öppna dörrar för spännande nya användningsfall samtidigt som webbplatsens prestanda förbättras för dina kunder.
 
-+++
+  +++
 
 ### Webbinarium: Hur HSBC utnyttjar Adobe [!DNL Target] och AI för att snabbt optimera och leverera personalisering i stor skala
 
@@ -298,7 +298,7 @@ Visa verktygspaket och användningsexempel för implementering av strategier fö
 
    * McKinsey-artikel: [Återställningen av COVID-19 blir digital](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#), maj 2020
 
-+++
+  +++
 
 ### [!DNL Adobe Target] Kunskapsbyggaren: Utvecklarchatt, migrera [!DNL Adobe Target] mbox.js till at.js {#skill-builder}
 
