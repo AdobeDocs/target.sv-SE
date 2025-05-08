@@ -4,9 +4,9 @@ description: Förstå ändringarna i Visual Experience Composer (VEC) i Adobe Ta
 title: Vilka ändringar införs i den nya Visual Experience Composer (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 4c7a5657-93d9-4355-9d2b-c992b36bcb50
-source-git-commit: 3aeac3344c2bbc2a44da80b5a359e55c9419b59b
+source-git-commit: f9f914c11dbff64d902a3fd8d6bf96237d1f4aae
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '650'
 ht-degree: 0%
 
 ---
@@ -17,53 +17,57 @@ Version [!DNL Adobe Target Standard/Premium] 25.2.1 (17 februari 2015) innehåll
 
 >[!IMPORTANT]
 >
->Det uppdaterade [!UICONTROL Visual Editing Composer] kräver [!DNL Adobe Experience Cloud] [[!UICONTROL Visual Editing Helper]-tillägget ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) som är tillgängligt på Chrome Web Store.
+>Den uppdaterade [!UICONTROL Visual Editing Composer] kräver [!DNL Adobe Experience Cloud] [[!UICONTROL Visual Editing Helper]-tillägget ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) som finns i [!DNL Chrome Web Store].
 
 VEC visas när du skapar eller redigerar en befintlig aktivitet.
 
-![Visual Experience Composer (VEC)](/help/main/c-experiences/c-visual-experience-composer/assets/new-vec.png)
+![Visual Experience Composer (VEC)](/help/main/c-experiences/c-visual-experience-composer/assets/vec-highlight-refresh.png)
 
 ## Viktiga förändringar i VEC
 
 I följande avsnitt förklaras de största förändringarna i den uppdaterade VEC jämfört med den tidigare versionen.
 
-### Panelen [!UICONTROL Experiences]
+### [!UICONTROL Experiences] spår
 
-Precis som i den tidigare versionen finns panelen [!UICONTROL Experiences] kvar på VEC:s vänstra sida. Det går inte att komprimera panelen [!UICONTROL Experiences].
+Precis som i den tidigare versionen finns den [!UICONTROL Experiences] kvar på VEC:s vänstra sida. Rälen [!UICONTROL Experiences] kan inte komprimeras.
 
-![Panelen Erfarenheter](/help/main/c-experiences/c-visual-experience-composer/assets/experiences-panel.png)
+![Upplevelsefältet](/help/main/c-experiences/c-visual-experience-composer/assets/experiences-panel.png)
 
-Du kan skapa, byta namn på eller ta bort upplevelser med panelen [!UICONTROL Experiences]. Klicka på ikonen **[!UICONTROL Add]** ( ![Lägg till ](/help/main/assets/icons/Add.svg) ) för att lägga till en ny upplevelse. Klicka på ikonen [!UICONTROL More Actions] ( ![ikonen Fler åtgärder](/help/main/assets/icons/MoreSmall.svg) ) om du vill duplicera, ta bort eller omdirigera en upplevelse.
+Du kan skapa, byta namn på eller ta bort upplevelser med hjälp av spåret [!UICONTROL Experiences]. Klicka på ikonen **[!UICONTROL Add]** ( ![Lägg till ](/help/main/assets/icons/Add.svg) ) för att lägga till en ny upplevelse. Klicka på ikonen [!UICONTROL More Actions] ( ![ikonen Fler åtgärder](/help/main/assets/icons/MoreSmall.svg) ) om du vill duplicera, ta bort eller omdirigera en upplevelse.
 
-### [!UICONTROL Components] panel (ny)
+### [!UICONTROL Components] ratt (ny)
 
-Du kan lägga till ett antal komponenter på webbsidan och redigera dem efter behov med den nya [!UICONTROL Components]-panelen.
+Du kan lägga till ett antal komponenter på webbsidan och redigera dem efter behov med den nya [!UICONTROL Components]-listen.
 
-![Panelen Komponenter](/help/main/c-experiences/c-visual-experience-composer/assets/components-panel.png)
+![Komponentspår](/help/main/c-experiences/c-visual-experience-composer/assets/components-panel.png)
 
-Om du vill lägga till en ny komponent drar du komponenten från panelen Komponenter som du vill infoga över ett befintligt sidelement på arbetsytan för design. Välj sedan att infoga komponenten före eller efter det markerade elementet.
+Om du vill lägga till en ny komponent drar du komponenten från [!UICONTROL Components]-listen som du vill infoga över ett befintligt sidelement på arbetsytan i [!UICONTROL Design]. Välj sedan att infoga komponenten före eller efter det markerade elementet.
 
 Jämfört med den tidigare VEC-versionen kan du inte ersätta ett markerat element med en komponent.
 
-### Panelen [!UICONTROL Modifications]
+### [!UICONTROL Modifications] spår
 
-Om du vill öppna panelen [!UICONTROL Modifications] klickar du på ikonen [!UICONTROL Show Modifications] ( ![Visa ändringspanelen](/help/main/assets/icons/History.svg) ) på panelen [!UICONTROL Components] . Panelen [!UICONTROL Modifications] ändrade position från höger sida till vänster på arbetsytan för redigering.
+Klicka på ikonen [!UICONTROL Show Modifications] ( ![Visa ändringslinjen](/help/main/assets/icons/History.svg) ) i [!UICONTROL Components]-listen för att öppna [!UICONTROL Modifications]-listen. Rälen [!UICONTROL Modifications] ändrade position från höger sida till vänster på arbetsytan för redigering.
 
-![Panelen Ändringar](/help/main/c-experiences/c-visual-experience-composer/assets/modifications-panel.png)
+![Räler för ändringar](/help/main/c-experiences/c-visual-experience-composer/assets/modifications-panel.png)
 
-Panelen [!UICONTROL Modifications] visar alla ändringar som har gjorts på sidan i [!UICONTROL Visual Experience Composer] (VEC) och gör att du kan göra ytterligare ändringar (till exempel CSS-väljare, Mbox och anpassad kod).
+Rälen [!UICONTROL Modifications] visar alla ändringar som har gjorts på sidan i VEC och gör att du kan göra ytterligare ändringar (till exempel CSS-väljare, Mbox och anpassad kod).
 
 Klicka på ikonen [!UICONTROL More Options] ( ![ ikonen Fler åtgärder ](/help/main/assets/icons/MoreSmall.svg) ) om du vill lägga till en ändring, ta bort alla ändringar eller ta bort alla ogiltiga ändringar. Klicka på [!UICONTROL Select] om du vill utföra gruppåtgärder: [!UICONTROL Apply to All Pages] eller [!UICONTROL Delete].
 
-### [!UICONTROL Properties] panel (ny)
+Om du vill visa [!UICONTROL Modifications]-rälen igen klickar du på ikonen [!UICONTROL Hide Modifications] ( ![Visa ändringslinjen](/help/main/assets/icons/History.svg) ) i [!UICONTROL Modifications]-rälen.
 
-Med den nya panelen [!UICONTROL Properties] kan du ändra egenskaper för markerade element på sidan, oavsett om dessa element är HTML-element eller objekt som är specifika för [!DNL Target], till exempel rekommendationer eller erbjudanden.
+### [!UICONTROL Properties] ratt (ny)
 
-![Egenskapspanelen](/help/main/c-experiences/c-visual-experience-composer/assets/properties-panel.png)
+Med [!UICONTROL Properties]-spåret kan du ändra egenskaper för markerade element på sidan, oavsett om dessa element är HTML-element eller objekt som är specifika för [!DNL Target], till exempel rekommendationer eller erbjudanden.
 
-Klicka på ikonerna överst på panelen för att redigera HTML-kod eller ta bort, duplicera eller dölja element. Ändringarna visas på panelen [!UICONTROL Modifications].
+![Egenskapsfältet](/help/main/c-experiences/c-visual-experience-composer/assets/properties-panel.png)
 
-Panelen [!UICONTROL Properties] kan komprimeras i den högra listen. Klicka på ikonen [!UICONTROL Show/Hide Properties] ( ![ egenskapsikonen ](/help/main/assets/icons/Propertie.svg) ) till höger om panelen för att komprimera eller visa panelen [!UICONTROL Properties].
+Klicka på ikonerna ovanför listen för att redigera HTML-kod eller ta bort, duplicera eller dölja element. Ändringar visas i [!UICONTROL Modifications]-rälen.
+
+![Egenskapsikoner](/help/main/c-experiences/c-visual-experience-composer/assets/options-icons.png)
+
+Rälen [!UICONTROL Properties] kan döljas i den högra listen. Klicka på ikonen [!UICONTROL Show/Hide Properties] ( ![ egenskapsikonen ](/help/main/assets/icons/Propertie.svg) ) till höger om rälen för att komprimera eller visa [!UICONTROL Properties]-rälen.
 
 ### Aktivitetsinställningar/konfiguration
 
@@ -71,13 +75,13 @@ Klicka på ikonen [!UICONTROL Configure] ( ![ ikonen Konfigurera ](/help/main/as
 
 ![Alternativ för aktivitetskonfigurationer](/help/main/c-experiences/c-visual-experience-composer/assets/configure-options.png)
 
-Med de olika alternativen kan du aktivera eller inaktivera flersidiga eller flera målgruppsaktiviteter, tilldela egenskaper ([[!DNL Target Premium]](/help/main/c-intro/intro.md#premium)-funktion) eller redigera regler för sidleverans.
+Med de olika alternativen kan du tilldela egenskaper, redigera regler för sidleverans, ange webbplatsinställningar, lägga till ytterligare sidor och aktivera eller inaktivera flersidiga eller flera målgruppsaktiviteter. Tilldela [!UICONTROL Properties] är en [[!DNL Target Premium]](/help/main/c-intro/intro.md#premium)-funktion.
 
 Positionen och funktionaliteten liknar det tidigare VEC-gränssnittet.
 
 ### [!UICONTROL Design]/[!UICONTROL Browse] lägen
 
-Använd de [!UICONTROL Design]/[!UICONTROL Browse]-reglage som visas ovanpå arbetsytan för att växla mellan design- och bläddringsläge.
+Använd de [!UICONTROL Design]/[!UICONTROL Browse]-växlar som visas ovanpå [!UICONTROL Properties]-strängen för att växla mellan design- och bläddringsläge.
 
 ![Designa och bläddra bland växlar](/help/main/c-experiences/c-visual-experience-composer/assets/design-browse-mode.png)
 
@@ -93,7 +97,7 @@ Om du vill göra om en åtgärd expanderar du knappgruppen Ångra/[!UICONTROL Re
 
 ### [!UICONTROL Design] arbetsyta
 
-På arbetsytan i [!UICONTROL Design] kan du välja visningsrutor, inklusive anpassa till skärmen, [!UICONTROL Desktop], [!UICONTROL Tablet], [!UICONTROL Mobile Landscape] och [!UICONTROL Mobile Portrait]. Som standard passar arbetsytan sidan på skärmen tillsammans med de visningsrutor som definieras i avsnittet [Administration](/help/main/administrating-target/visual-experience-composer-set-up.md) .
+På arbetsytan i [!UICONTROL Design] kan du välja visningsrutor, inklusive anpassa till skärmen, [!UICONTROL Desktop], [!UICONTROL Tablet], [!UICONTROL Mobile Landscape] och [!UICONTROL Mobile Portrait].
 
 ![Alternativ för visningsruta](/help/main/c-experiences/c-visual-experience-composer/assets/viewports.png)
 
