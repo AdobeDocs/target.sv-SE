@@ -4,7 +4,7 @@ description: Utforska de tillgängliga alternativen i  [!DNL Adobe Target] [!UIC
 title: Hur använder jag alternativen för [!UICONTROL Visual Experience Composer] (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: 3aeac3344c2bbc2a44da80b5a359e55c9419b59b
+source-git-commit: 042c060aeb9434fd6bb4f9333093f3a1a8508ac9
 workflow-type: tm+mt
 source-wordcount: '1847'
 ht-degree: 0%
@@ -27,15 +27,15 @@ VEC visas när du skapar eller redigerar en befintlig aktivitet.
 
 I följande avsnitt beskrivs de alternativ som är tillgängliga i den uppdaterade VEC för en [!UICONTROL A/B Test]-aktivitet. Alternativen varierar beroende på aktivitetstypen.
 
-### Panelen [!UICONTROL Experiences]
+### [!UICONTROL Experiences] spår
 
-Panelen [!UICONTROL Experiences] visas i den vänstra listen i VEC.
+Rälen [!UICONTROL Experiences] visas i VEC:s vänstra del.
 
-![Panelen Erfarenheter](/help/main/c-experiences/c-visual-experience-composer/assets/experiences-panel.png)
+![Upplevelsefältet](/help/main/c-experiences/c-visual-experience-composer/assets/experiences-panel.png)
 
-Du kan visa, skapa, byta namn på eller ta bort upplevelser med panelen [!UICONTROL Experiences].
+Du kan visa, skapa, byta namn på eller ta bort upplevelser med hjälp av spåret [!UICONTROL Experiences].
 
-Följande alternativ är tillgängliga på panelen [!UICONTROL Experiences]:
+Följande alternativ är tillgängliga i [!UICONTROL Experiences]-spåret:
 
 * **Visa en upplevelse**: Om du vill visa en upplevelse klickar du på önskad upplevelse för att visa den på arbetsytan i [!UICONTROL Design].
 * **Lägg till en upplevelse**: Klicka på ikonen **[!UICONTROL Add]** ( ![Lägg till ikon ](/help/main/assets/icons/Add.svg) ) för att lägga till en ny upplevelse. Konfigurera den nya upplevelsen efter behov.
@@ -73,15 +73,15 @@ Du kan ångra ändringar som gjorts genom att klicka på ikonen [!UICONTROL Undo
 
 Om du vill göra om en åtgärd expanderar du knappgruppen Ångra/[!UICONTROL Redo] och väljer [!UICONTROL Redo].
 
-### Panelen [!UICONTROL Components]
+### [!UICONTROL Components] spår
 
-Du kan lägga till ett antal komponenter på webbsidan och redigera dem efter behov med den nya [!UICONTROL Components]-panelen.
+Du kan lägga till ett antal komponenter på webbsidan och redigera dem efter behov med den nya [!UICONTROL Components]-listen.
 
-![Panelen Komponenter](/help/main/c-experiences/c-visual-experience-composer/assets/components-panel.png)
+![Komponentspår](/help/main/c-experiences/c-visual-experience-composer/assets/components-panel.png)
 
 >[!NOTE]
 >
->Om panelen [!UICONTROL Modifications] visas i det här området i stället för panelen [!UICONTROL Components] klickar du på ikonen **[!UICONTROL Show Components]** ( ![Visa komponentikonen ](/help/main/assets/icons/Add.svg) ). Ikonen [!UICONTROL Show Components] ( ![Visa komponentikonen](/help/main/assets/icons/Add.svg) ) och ikonen [!UICONTROL Show Modifications] ( ![Visa ändringspanel](/help/main/assets/icons/History.svg) ) fungerar som växlar för att visa lämpliga alternativ.
+>Om du ser [!UICONTROL Modifications]-rälen i det här området i stället för [!UICONTROL Components]-rälen klickar du på ikonen **[!UICONTROL Show Components]** ( ![Visa komponentikonen ](/help/main/assets/icons/Add.svg) ). Ikonen [!UICONTROL Show Components] ( ![Visa komponentikonen](/help/main/assets/icons/Add.svg) ) och ikonen [!UICONTROL Show Modifications] ( ![Visa ändringslinjen](/help/main/assets/icons/History.svg) ) fungerar som växlar för att visa lämpliga alternativ.
 
 Så här lägger du till en ny komponent i en upplevelse:
 
@@ -107,19 +107,19 @@ Så här lägger du till en ny komponent i en upplevelse:
 
    Jämfört med den tidigare VEC-versionen kan du inte ersätta ett markerat element med en komponent.
 
-### Panelen [!UICONTROL Modifications]
+### [!UICONTROL Modifications] spår
 
-Om du vill öppna panelen [!UICONTROL Modifications] klickar du på ikonen [!UICONTROL Show Modifications] ( ![Visa ändringspanelen](/help/main/assets/icons/History.svg) ) på panelen [!UICONTROL Components] .
+Klicka på ikonen [!UICONTROL Show Modifications] ( ![Visa ändringslinjen](/help/main/assets/icons/History.svg) ) i [!UICONTROL Components]-listen för att öppna [!UICONTROL Modifications]-listen.
 
-![Panelen Ändringar](/help/main/c-experiences/c-visual-experience-composer/assets/modifications-panel.png)
+![Räler för ändringar](/help/main/c-experiences/c-visual-experience-composer/assets/modifications-panel.png)
 
 >[!NOTE]
 >
->Ikonen [!UICONTROL Show Components] ( ![Visa komponentikonen](/help/main/assets/icons/Add.svg) ) och ikonen [!UICONTROL Show Modifications] ( ![Visa ändringspanel](/help/main/assets/icons/History.svg) ) fungerar som växlar för att visa lämpliga alternativ.
+>Ikonen [!UICONTROL Show Components] ( ![Visa komponentikonen](/help/main/assets/icons/Add.svg) ) och ikonen [!UICONTROL Show Modifications] ( ![Visa ändringslinjen](/help/main/assets/icons/History.svg) ) fungerar som växlar för att visa lämpliga alternativ.
 
-Panelen [!UICONTROL Modifications] visar alla ändringar som har gjorts på sidan i [!UICONTROL Visual Experience Composer] (VEC) och gör att du kan göra ytterligare ändringar (till exempel CSS-väljare, Mbox och anpassad kod).
+Rälen [!UICONTROL Modifications] visar alla ändringar som har gjorts på sidan i [!UICONTROL Visual Experience Composer] (VEC) och gör att du kan göra ytterligare ändringar (till exempel CSS-väljare, Mbox och anpassad kod).
 
-Klicka på ikonen **[!UICONTROL More Options]** ( ![ ikonen Fler åtgärder ](/help/main/assets/icons/MoreSmall.svg) ) i panelhuvudet om du vill lägga till en ändring, ta bort alla ändringar eller ta bort alla ogiltiga ändringar. Klicka på [!UICONTROL Select] om du vill utföra gruppåtgärder: [!UICONTROL Apply to All Pages] eller [!UICONTROL Delete].
+Klicka på ikonen **[!UICONTROL More Options]** ( ![ ikonen Fler åtgärder ](/help/main/assets/icons/MoreSmall.svg) ) i spårhuvudet om du vill lägga till en ändring, ta bort alla ändringar eller ta bort alla ogiltiga ändringar. Klicka på [!UICONTROL Select] om du vill utföra gruppåtgärder: [!UICONTROL Apply to All Pages] eller [!UICONTROL Delete].
 
 Klicka på ikonen **[!UICONTROL More Options]** ( ![Fler åtgärder-ikon](/help/main/assets/icons/MoreSmall.svg) ) bredvid varje ändring för att visa dess information, ta bort ändringen eller tillämpa ändringen på fler vyer.
 
@@ -141,19 +141,19 @@ De olika [!UICONTROL Visual Experience Composer]-åtgärderna (VEC) grupperas i 
 >
 >Vilka alternativ som är tillgängliga beror på vilken aktivitetstyp och vilket element du skapar eller redigerar. Mer information om hur du redigerar bilder och erbjudanden i en [!UICONTROL A/B Test]-aktivitet finns i [Redigera element med arbetsytan i [!UICONTROL Design] ](#design) nedan.
 
-### Panelen [!UICONTROL Properties]
+### [!UICONTROL Properties] spår
 
-På panelen [!UICONTROL Properties] kan du ändra egenskaper för markerade element på sidan, oavsett om dessa element är HTML-element eller objekt som är specifika för [!DNL Target], till exempel rekommendationer eller erbjudanden.
+Med [!UICONTROL Properties]-spåret kan du ändra egenskaper för markerade element på sidan, oavsett om dessa element är HTML-element eller objekt som är specifika för [!DNL Target], till exempel rekommendationer eller erbjudanden.
 
-![Egenskapspanelen](/help/main/c-experiences/c-visual-experience-composer/assets/properties-panel.png)
+![Egenskapsfältet](/help/main/c-experiences/c-visual-experience-composer/assets/properties-panel.png)
 
-Klicka på ikonerna överst på panelen för att redigera HTML-kod eller ta bort, duplicera eller dölja element. Ändringarna visas på panelen [!UICONTROL Modifications].
+Klicka på ikonerna ovanför listen för att redigera HTML-kod eller ta bort, duplicera eller dölja element. Ändringar visas i [!UICONTROL Modifications]-rälen.
 
-Panelen [!UICONTROL Properties] kan komprimeras i den högra listen. Klicka på ikonen [!UICONTROL Show/Hide Properties] ( ![ egenskapsikonen ](/help/main/assets/icons/Propertie.svg) ) till höger om panelen för att komprimera eller visa panelen [!UICONTROL Properties].
+Rälen [!UICONTROL Properties] kan döljas i den högra listen. Klicka på ikonen [!UICONTROL Show/Hide Properties] ( ![ egenskapsikonen ](/help/main/assets/icons/Propertie.svg) ) till höger om rälen för att komprimera eller visa [!UICONTROL Properties]-rälen.
 
 ## Redigera element med arbetsytan [!UICONTROL Design] {#design}
 
-I följande avsnitt visas hur du redigerar bilder och text på arbetsytan i [!UICONTROL Design]. Designarbetsytan och panelerna Komponenter, Ändringar och Egenskaper innehåller kraftfulla verktyg som du kan använda för att enkelt skapa upplevelser för dina aktiviteter.
+I följande avsnitt visas hur du redigerar bilder och text på arbetsytan i [!UICONTROL Design]. Designarbetsytan och komponenterna, modifieringarna och egenskaperna har kraftfulla verktyg med vilka du enkelt kan skapa upplevelser för dina aktiviteter.
 
 ### Bildalternativ
 
@@ -220,7 +220,7 @@ Med menyn längst upp i textelementet kan du göra följande:
 * Lägg till personalisering ( ![Lägg till Personalization-ikon](/help/main/assets/icons/PersonalizationField.svg) ).
 * Ta bort bilden ( ![ikonen Ta bort](/help/main/assets/icons/Delete.svg) ).
 
-På panelen [!UICONTROL Properties] till höger kan du konfigurera textegenskaperna ytterligare.
+Rälen [!UICONTROL Properties] till höger gör att du kan konfigurera textegenskaperna ytterligare.
 
 Med ikonerna längst upp i bildrutan kan du göra följande:
 
@@ -467,7 +467,7 @@ The following options are available:
 
 ### [!UICONTROL Offer Decision]
 
-Add an [offer created in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=sv-SE){target=_blank} to present the best offer and experience to your customers using offer decisioning.
+Add an [offer created in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} to present the best offer and experience to your customers using offer decisioning.
 
 **Note:** This option is available when editing or creating [manual [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) or [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) activities only. This option is not available for other activity types.
 
@@ -499,7 +499,7 @@ The following options are available:
 
 ### [!UICONTROL Offer Decision]
 
-Add an [offer created in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=sv-SE){target=_blank} to present the best offer and experience to your customers using offer decisioning.
+Add an [offer created in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} to present the best offer and experience to your customers using offer decisioning.
 
 **Note:** This option is available when editing or creating [manual [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) or [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) activities only. This option is not available for other activity types.
 
@@ -531,7 +531,7 @@ The following options are available:
 
 ### [!UICONTROL Offer Decision]
 
-Add an [offer created in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=sv-SE){target=_blank} to present the best offer and experience to your customers using offer decisioning.
+Add an [offer created in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} to present the best offer and experience to your customers using offer decisioning.
 
 **Note:** This option is available when editing or creating [manual [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) or [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) activities only. This option is not available for other activity types.
 
@@ -621,7 +621,7 @@ Undo changes you make to your activities during an editing session. You can also
 
 ## Considerations {#considerations}
 
-* If an offer contains HTML content, see "How at.js renders offers with HTML content" in [How at.js works](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=sv-SE){target=_blank} for more information.
+* If an offer contains HTML content, see "How at.js renders offers with HTML content" in [How at.js works](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank} for more information.
 
 ## Custom element support {#custom}
 
@@ -629,9 +629,9 @@ The VEC supports [Web Components](https://developer.mozilla.org/en-US/docs/Web/W
 
 >[!NOTE]
 >
->VEC support for custom elements is supported in [at.js version](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=sv-SE){target=_blank} 2.7.0 (or later){target=_blank}. Ensure that your website has the required version deployed. If you are using the [Visual Experience Composer helper extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md), it must also have the required version of at.js deployed. The VEC options described above are not visible and available for use with non-supported versions of at.js.
+>VEC support for custom elements is supported in [at.js version](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} 2.7.0 (or later){target=_blank}. Ensure that your website has the required version deployed. If you are using the [Visual Experience Composer helper extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md), it must also have the required version of at.js deployed. The VEC options described above are not visible and available for use with non-supported versions of at.js.
 >
->VEC support for custom elements is currently not supported with the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=sv-SE){target=_blank}.
+>VEC support for custom elements is currently not supported with the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}.
 
 Most VEC actions are supported on custom events and inside custom events, with the following exceptions: 
 
