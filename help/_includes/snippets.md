@@ -1,7 +1,7 @@
 ---
-source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
+source-git-commit: b1fb49d78b3a159c16e8ebb855ff175c26681da6
 workflow-type: tm+mt
-source-wordcount: '64'
+source-wordcount: '50'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,6 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Från och med den 22 april 2025 kan bara [!UICONTROL Product]- och [!UICONTROL Solutions]-administratörer uppdatera inställningarna i [!UICONTROL Administration] -avsnitten, oavsett vilka roller de har i [!DNL Target] -arbetsytorna. Användare utan den här behörigheten har skrivskyddad åtkomst till [!UICONTROL Administration]-avsnitten. Mer information finns i [Behörigheter som krävs för att redigera [!UICONTROL Administration]-inställningar](/help/main/administrating-target/start-target.md#admin-permissions).
+>[!DNL Target]-användare med [!UICONTROL Product Administrator]- och [!UICONTROL System Administrator]-behörighet kan redigera alla inställningar på [!UICONTROL Administration] -sidorna, oavsett deras roll i [!DNL Target]. Användare utan dessa behörigheter har skrivskyddad åtkomst till de här inställningarna.
 
 
