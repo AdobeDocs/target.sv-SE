@@ -4,9 +4,9 @@ description: Lär dig hur du använder [!UICONTROL Visual Experience Composer] (
 title: Hur skapar jag en [!UICONTROL Multivariate Test]?
 feature: Multivariate Tests
 exl-id: 7712b747-543a-4e19-b689-bea36c44805c
-source-git-commit: be118753eed999ce24d547c90ac9d195cce7e9e9
+source-git-commit: 9cc1eb4c5c95ea51bc0a1fc9e89b245a18c9914b
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '731'
 ht-degree: 0%
 
 ---
@@ -39,8 +39,7 @@ Med redigeraren för peka och klicka på [!DNL Target] kan du välja valfri plat
 
    [!UICONTROL Visual Experience Composer] öppnas.
 
-1. &#x200B;
-   1. Klicka på ikonen **[!UICONTROL Rename]** ( ![Byt namn ](/help/main/assets/icons/MoreSmallListVert.svg) ), klicka på **[!UICONTROL Rename]**, ange ett namn för aktiviteten och klicka sedan på **[!UICONTROL Save]**.
+1. Om du vill namnge aktiviteten klickar du på ikonen **[!UICONTROL Edit]** ( ![Redigera-ikon](/help/main/assets/icons/Edit.svg) ) bredvid [!UICONTROL Untitled Activity], anger ett beskrivande namn för aktiviteten och klickar sedan på **[!UICONTROL Save]**.
 
    Aktivitetsnamnet får inte börja med något av följande tecken:
 

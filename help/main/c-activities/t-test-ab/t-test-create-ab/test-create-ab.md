@@ -4,9 +4,9 @@ description: Använd [!UICONTROL Visual Experience Composer] (VEC) för att skap
 title: Hur skapar jag ett A/B-test?
 feature: A/B Tests
 exl-id: 76002873-0b7c-44a8-8e89-8ad28b63eccb
-source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
+source-git-commit: 9cc1eb4c5c95ea51bc0a1fc9e89b245a18c9914b
 workflow-type: tm+mt
-source-wordcount: '881'
+source-wordcount: '888'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Så här skapar du en manuell [!UICONTROL A/B Test]-aktivitet:
 
    [!UICONTROL Visual Experience Composer] öppnas och sidan som anges i URL:en visas.
 
-1. Klicka på ikonen **[!UICONTROL Rename]** ( ![Byt namn ](/help/main/assets/icons/MoreSmallListVert.svg) ), klicka på **[!UICONTROL Rename]**, ange ett namn för aktiviteten och klicka sedan på **[!UICONTROL Save]**.
+1. Om du vill namnge aktiviteten klickar du på ikonen **[!UICONTROL Edit]** ( ![Redigera-ikon](/help/main/assets/icons/Edit.svg) ) bredvid [!UICONTROL Untitled Activity], anger ett beskrivande namn för aktiviteten och klickar sedan på **[!UICONTROL Save]**.
 
    Aktivitetsnamnet får inte börja med något av följande tecken:
 

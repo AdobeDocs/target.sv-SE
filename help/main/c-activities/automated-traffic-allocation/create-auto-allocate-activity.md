@@ -4,9 +4,9 @@ description: Lär dig hur du använder [!UICONTROL Visual Experience Composer] (
 title: Hur skapar jag en [!UICONTROL Auto-Allocate]-aktivitet?
 feature: Auto-Allocate
 exl-id: 30bc95e0-4f5e-4d1f-bad2-7b20b8f3c7d2
-source-git-commit: 32a91a41cd182d3a55ded7dea8c1c6ea6f46aa71
+source-git-commit: 9cc1eb4c5c95ea51bc0a1fc9e89b245a18c9914b
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '901'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Skapa en [!UICONTROL Auto-Allocate]-aktivitet:
 
    [!UICONTROL Visual Experience Composer] öppnas och sidan som anges i URL:en visas.
 
-1. Klicka på ikonen **[!UICONTROL Rename]** ( ![Byt namn ](/help/main/assets/icons/MoreSmallListVert.svg) ), klicka på **[!UICONTROL Rename]**, ange ett namn för aktiviteten och klicka sedan på **[!UICONTROL Save]**.
+1. Om du vill namnge aktiviteten klickar du på ikonen **[!UICONTROL Edit]** ( ![Redigera-ikon](/help/main/assets/icons/Edit.svg) ) bredvid [!UICONTROL Untitled Activity], anger ett beskrivande namn för aktiviteten och klickar sedan på **[!UICONTROL Save]**.
 
    Aktivitetsnamnet får inte börja med något av följande tecken:
 
