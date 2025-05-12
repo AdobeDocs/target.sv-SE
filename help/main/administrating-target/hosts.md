@@ -5,9 +5,9 @@ title: Vad är värdar och hur använder jag dem?
 feature: Administration & Configuration
 role: Admin
 exl-id: 31c661c0-686d-440e-ad58-864fb853b1c4
-source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
+source-git-commit: 0ab5b7d7cbfaef86b9a045883f597900dba72416
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '1029'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Kontrollera att värden känns igen när en värd har lagts till i listan [!UICO
 
    Som standard placeras en nyligen identifierad värd i miljön [!UICONTROL Production]. Miljön [!UICONTROL Production] är den säkraste miljön eftersom den inte tillåter att inaktiva aktiviteter visas från dessa värdar.
 
-1. (Villkorligt) Klicka på ikonen **[!UICONTROL Move]** ( ![ flytta ikon ](/help/main/administrating-target/assets/icon-move.png) ) för att flytta värden till [!UICONTROL Development], [!UICONTROL Staging] eller någon annan miljö.
+1. (Villkorligt) Klicka på ikonen **[!UICONTROL Move]** ( ![ flytta ikon ](/help/main/assets/icons/MoveTo.svg) ) för att flytta värden till [!UICONTROL Development], [!UICONTROL Staging] eller någon annan miljö.
 
 >[!NOTE]
 >
@@ -85,7 +85,7 @@ Om en [!DNL Target]-begäran görs på en obehörig värd, svarar samtalet med `
 
 >[!IMPORTANT]
 >
->**Bästa säkerhetsrutiner**: Om du använder funktionen för lådor i [!DNL Target] styr det här tillåtelselista även listan över domäner som [redirectors](https://experienceleague.adobe.com/docs/target-dev/developer/implement-email/working-with-redirectors.html?lang=sv-SE){target=_blank} kan navigera till. Se till att du lägger till domäner som du vill omdirigera till när du använder ubox som en del av implementeringen. Om tillåtelselista inte anges kan [!DNL Adobe] inte verifiera omdirigerings-URL:erna och skydda mot potentiella skadliga omdirigeringar.
+>**Bästa säkerhetsrutiner**: Om du använder funktionen för lådor i [!DNL Target] styr det här tillåtelselista även listan över domäner som [redirectors](https://experienceleague.adobe.com/docs/target-dev/developer/implement-email/working-with-redirectors.html){target=_blank} kan navigera till. Se till att du lägger till domäner som du vill omdirigera till när du använder ubox som en del av implementeringen. Om tillåtelselista inte anges kan [!DNL Adobe] inte verifiera omdirigerings-URL:erna och skydda mot potentiella skadliga omdirigeringar.
 >
 >Tillåtelselista har företräde framför miljöer. Ta bort alla värdar innan du använder funktionen tillåtelselista, så visas bara de värdar som tillåts av tillåtelselista i din värdlista. Du kan sedan flytta värdarna till den önskade miljön.
 
@@ -103,7 +103,7 @@ Du kan också skapa ett blockeringslista som anger värdar (domäner) som inte k
 
 Du kan ta bort en värd när den inte längre behövs.
 
-1. Klicka på ikonen **[!UICONTROL Delete]** i listan [!UICONTROL Hosts].
+1. Klicka på ikonen **[!UICONTROL Delete]** ( ![Ta bort ikon](/help/main/assets/icons/DeleteOutline.svg) ) i listan [!UICONTROL Hosts].
 1. Klicka på **[!UICONTROL Delete]** för att bekräfta borttagningen.
 
 >[!NOTE]

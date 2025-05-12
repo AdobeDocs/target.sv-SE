@@ -5,9 +5,9 @@ title: Hur konfigurerar jag användarhantering?
 feature: Administration & Configuration
 role: Admin
 exl-id: 3bf0c23c-7382-43d2-af54-734221063872
-source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
+source-git-commit: 0ab5b7d7cbfaef86b9a045883f597900dba72416
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '208'
 ht-degree: 0%
 
 ---
@@ -34,10 +34,10 @@ Du kan se om din organisation har en Standard- eller Premium-licens genom att kl
 * **Target Premium-kunder:** Om din organisation har en [!DNL Target] Premium-licens kommer du att se följande i målgränssnittet:
 
    * Fliken [!UICONTROL Properties] visas ( [!UICONTROL Administration] > [!UICONTROL Properties] )
-   * Du kommer också att se fliken [!UICONTROL Users] ( [!UICONTROL Administration] > [!UICONTROL Users] )
+   * Du *ser inte* fliken [!UICONTROL Users] ( [!UICONTROL Administration] > [!UICONTROL Users] )
 
      [!DNL Target] Premium-kunder bör följa instruktionerna i [Enterprise User Permissions](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) och [Configure Enterprise Permissions](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#concept_22F2855DBF0D4754B9460F5D68749C71) för att lägga till användare och tilldela behörigheter i [!DNL Adobe Admin Console].
 
-Följande bild visar sidan [!UICONTROL Administration] för ett [!DNL Target] Premium-konto. Observera att flikarna [!UICONTROL Properties] och [!UICONTROL Users] är tillgängliga:
+Följande bild visar sidan [!UICONTROL Administration] för ett [!DNL Target Premium]-konto:
 
 ![Fliken Administration](/help/main/administrating-target/assets/premium.png)
