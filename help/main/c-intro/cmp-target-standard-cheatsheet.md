@@ -4,9 +4,9 @@ description: Se en lista med vanliga frågor och svar om Adobe Target funktioner
 title: Var kan jag hitta svar på Mina optimerings- och Personalization-frågor?
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: 7dc7f6f053fa935c0166edde3e0fe09d161a7a67
 workflow-type: tm+mt
-source-wordcount: '2721'
+source-wordcount: '2678'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Ta en titt på [Target Community Forum](/help/main/cmp-resources-and-contact-inf
 
 **Vilka webbläsare stöder Target?**
 
-Mer information finns i matrisen [Webbläsare som stöds](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=sv-SE){target=_blank}. Observera att det finns två aspekter: gränssnittsstödet för Target Standard/Premium Experience Cloud och webbläsarstödet för slutanvändare på datorer/enheter.
+Läs matrisen [Webbläsare](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html){target=_blank} som stöds om du vill ha mer information. Observera att det finns två aspekter: gränssnittsstödet i Target Standard/Premium Experience Cloud och webbläsarstödet för slutanvändare på datorer/enheter.
 
 ## Verksamhet {#section_CB95B3BF9934445DB98E8A7E22FC2CF6}
 
@@ -59,7 +59,7 @@ Ta en titt på alternativet [Automatiskt mål](/help/main/c-activities/auto-targ
 
 Läs [Målaktivitetshandboken](/help/main/c-activities/target-activities-guide.md#concept_D974B0918EB74B3B8CB07ACD32BF37A1) om du vill veta mer om de scenarier där vart och ett av de alternativ som tillhandahålls av Adobe Target passar bäst.
 
-Ta även [Recommendations-aktiviteter](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0) i beaktande.
+Se även till att [rekommendera aktiviteter](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0) tas i beaktande.
 
 **Hur kan jag identifiera vilka kombinationer av element på min sida som bidrar till dess framgång och i vilken utsträckning varje element bidrar?**
 
@@ -111,7 +111,7 @@ Detta är också möjligt. [Använd bara alternativet Spara för att göra stegv
 
 Använd vår [kraftfulla QA-lägesfunktion](/help/main/c-activities/c-activity-qa/activity-qa.md) för att utföra QA. Du kan dela länkar med ditt QA-team och även testa aktiviteten från början till slut, inklusive rapportering, för att vara helt säker på att den fungerar som den ska och som den har testats när aktiviteten är aktiv.
 
-**Hur kan jag använda Target beslutsförmåga för att ta emot en upplevelse/ett erbjudande som kan användas i Single Page-program (SPA) eller serversidesintegreringar?**
+**Hur kan jag använda Target beslutsförmåga för att ta emot en upplevelse/ett erbjudande som kan användas i SPA (Single Page Applications) eller integreringar på serversidan?**
 
 Använd kraften i [formulärbaserade aktiviteter](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) med [JSON-erbjudanden](/help/main/c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D) för att uppnå ditt mål.
 
@@ -155,7 +155,7 @@ Använd procentallokeringskontrollerna som är tillgängliga från [Steg 2 i det
 Se följande aspekter av produkten:
 
 * [Analyser för mål (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [Kundattribut](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=sv-SE)
+* [Kundattribut](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 * [Målgrupper](/help/main/c-integrating-target-with-mac/mmp.md)
 
 ## Erfarenheter {#section_5959536B8D6A4BEA8FAA1273338F3451}
@@ -180,7 +180,7 @@ Prova [felsökningsinformationen](/help/main/c-experiences/c-visual-experience-c
 
 Vi har också [formulärbaserad metod](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) som kan häva blockeringen.
 
-Läs även när och varför [Förbättrad Experience Composer](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) kan vara användbart. Du kan också behöva kontakta din IT-avdelning för att få tillgång till [tillåtslista Adobe-proxyservrar](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6).
+Läs även när och varför [Förbättrad Experience Composer](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) kan vara användbart. Du kan också behöva kontakta din IT-avdelning för att [tillåtslista Adobe proxyservrar](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6).
 
 **Jag har en responsiv webbplats. Hur vet jag att jag överväger nyckelenheter när jag skapar en aktivitet?**
 
@@ -212,13 +212,7 @@ Ett sätt är att använda den [anpassade kodredigeraren](/help/main/c-experienc
 
 Använd funktionerna Disponera och Bläddra för att navigera till valfri sida och börja skapa din upplevelse.
 
-![vec2-bild](assets/vec2.png)
-
-**Hur kan jag gå till den upplevelse jag väljer i steg 2 i det guidade arbetsflödet i tre delar (målsida)?**
-
-Klicka på miniatyrbilden framför upplevelsenamnet i steg 2 så får du en bättre upplevelse.
-
-![thumbnail_experiences image](assets/thumbnail_experiences.png)
+![Designa och bläddra bland växlar](/help/main/c-experiences/c-visual-experience-composer/assets/design-browse-mode.png)
 
 **Jag är en tidigare Target Classic-användare. Kan jag utnyttja mina lådor för vissa syften?**
 
@@ -246,7 +240,7 @@ Det är möjligt att din plats kan ha dynamiska ID:n, duplicerade ID:n eller dyn
 
 Använd vår [debugger](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#concept_D2548B486C984B1E97ED7A72075B8EEA) och sök efter [aktivitetskonflikter](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E).
 
-**Kan jag använda målets beslutskraft för att ta emot en upplevelse/ett erbjudande som kan användas i Single Page-program (SPA) eller integreringar på serversidan?**
+**Kan jag använda Target beslutsförmåga för att ta emot en upplevelse/ett erbjudande som kan användas i SPA (Single Page Applications) eller integreringar på serversidan?**
 
 Använd kraften i [formulärbaserade aktiviteter](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) med [JSON-erbjudanden](/help/main/c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D) för att uppnå ditt mål.
 
@@ -258,7 +252,7 @@ Se följande aspekter av produkten:
 
 * [Analyser för mål (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 
-* [Kundattribut](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=sv-SE)
+* [Kundattribut](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 
 * [Målgrupper](/help/main/c-integrating-target-with-mac/mmp.md)
 
@@ -309,4 +303,4 @@ Vi beklagar att du har problem. Gå till [Felsökningsmål](/help/main/r-trouble
 
 **Var kan jag läsa mer om mål-API:er?**
 
-Vi har utförlig dokumentation om API:er. Se [Dokumentation för leverans-API:er, NodeJS SDK och Recommendations API:er](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=sv-SE){target=_blank}.
+Vi har utförlig dokumentation om API:er. Se [dokumentation för leverans-API:er, NodeJS SDK och rekommendationer-API:er](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}.
