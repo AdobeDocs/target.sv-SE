@@ -1,6 +1,6 @@
 ---
 keywords: AI-assistent;artificiell intelligensassistent
-description: Lär dig hur du aktiverar [!DNL AI Assistant] i[!DNL  Adobe Target].
+description: Lär dig hur du aktiverar [!DNL AI Assistant] i[!DNL &#x200B; Adobe Target].
 title: Hur aktiverar jag  [!DNL AI Assistant] in [!DNL Target]?
 feature: Overview
 hide: true
