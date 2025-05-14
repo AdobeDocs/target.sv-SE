@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Adobe Target Business Practitioner
 breadcrumb-title: Användarhandbok om Target
 user-guide-description: Lär dig hur du skräddarsyr och personanpassar dina kunders upplevelser för att maximera intäkterna från dina webbplatser och mobilsajter, appar, sociala medier och andra digitala kanaler.
 feature-set: Target
-source-git-commit: d1afb007d3cd257a2682c5d3a1833bbc33cad1a8
+source-git-commit: 5ae34c65a9c65a9385c6041756a4835af29e61d1
 workflow-type: tm+mt
-source-wordcount: '1274'
+source-wordcount: '1277'
 ht-degree: 2%
 
 ---
@@ -27,8 +27,9 @@ ht-degree: 2%
    + [Åtkomstmål från Adobe Experience Cloud](c-intro/target-access-from-mac.md)
    + [Målgrupper](c-intro/target-key-concepts.md)
    + [Förstå målgränssnittet](/help/main/c-intro/understand-the-target-ui.md)
-   + Adobe Target AI Assistant {#ai-assistant}
-      + [Aktivera AI-assistenten](/help/main/c-intro/ai-assistant.md)
+   + Adobe Target AI Assistant {#assistant-ai}
+      + [Översikt över AI Assistant](/help/main/c-intro/ai-assistant.md)
+      + [Aktivera AI-assistenten](/help/main/c-intro/enabling-ai-assistant.md)
       + [Använd AI Assistant för att få produktkännedom](/help/main/c-intro/ai-assistant-product-knowledge.md)
    + Adobe Target welcome kit {#welcome}
       + [Översikt över välkomstpaket](/help/main/c-intro/target-welcome-kit.md)

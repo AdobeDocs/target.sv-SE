@@ -4,9 +4,9 @@ description: Bekanta dig med användargränssnittet och hitta länkar till mer d
 title: Hur använder jag  [!DNL Target] gränssnittet?
 feature: Overview
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-source-git-commit: 6bef27637c06f39ffc0e755f19e8a0870ec749e5
+source-git-commit: 1ab7bb6aef5982f13191ff4f0573e87aac815938
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1388'
 ht-degree: 0%
 
 ---
@@ -15,13 +15,15 @@ ht-degree: 0%
 
 Användargränssnittet är ordnat i ett logiskt och användarvänligt format så att du får ut det mesta av [!DNL Adobe Target]. I följande korta översikt får du hjälp att bekanta dig med [!DNL Target] och länkar till mer detaljerad information och stegvisa instruktioner.
 
-Rubriken högst upp i [!DNL Target]-gränssnittet innehåller flikar och alternativ som hjälper dig att navigera i lösningens olika funktioner. Du kan också växla mellan organisationer och [!DNL Adobe Experience Cloud] lösningar, få hjälp och meddelanden, hantera din [!DNL Adobe]-profil och logga ut från [!DNL Target].
+## [!DNL Target] gränssnittshuvud
+
+Rubriken högst upp i [!DNL Target]-gränssnittet innehåller flikar och alternativ som hjälper dig att navigera i lösningens olika funktioner. Du kan också växla mellan organisationer och [!DNL Adobe Experience Cloud] lösningar, ge feedback om du är en del av ett Beta-program, få tillgång till AI Assistant, få hjälp och meddelanden, hantera din [!DNL Adobe]-profil och logga ut från [!DNL Target].
 
 ![Målrubrik](/help/main/c-intro/assets/target-header.png)
 
-Med flikarna till vänster kan du komma åt de olika funktionerna i [!DNL Target], som diskuteras senare. Låt oss börja med att diskutera alternativen till höger innan vi går in på flikarna.
+Med flikarna till vänster kan du komma åt de olika funktionerna i [!DNL Target], som diskuteras senare. Låt oss börja med att diskutera alternativen till höger innan vi diskuterar flikarna.
 
-## Organisationer
+### [!UICONTROL Organization]
 
 En *organisation* är den entitet som gör det möjligt för en administratör att konfigurera grupper och användare samt att styra enkel inloggning i [!DNL Adobe Experience Cloud]. Organisationen fungerar som ett inloggningsföretag som omfattar alla [!DNL Experience Cloud]-produkter och -lösningar. Oftast är en organisation ditt företagsnamn. Ett företag kan dock ha många organisationer.
 
@@ -29,19 +31,25 @@ Välj önskad organisation i listrutan [!UICONTROL Organization] om ditt företa
 
 ![Listrutan Organisation](/help/main/c-intro/assets/organizations.png)
 
-## Appar
+### [!UICONTROL Beta Feedback]
 
-Med Apps-väljaren kan du snabbt komma åt de [!DNL Adobe Experience Cloud]-lösningar du har tillgång till.
+(Villkorligt) Om du är en del av ett officiellt Beta-program för [!DNL Target] kan du se ikonen [!UICONTROL Beta Feedback] .
 
-![Appväljaren](/help/main/c-intro/assets/apps.png)
+![Beta Feedback-ikon](/help/main/c-intro/assets/beta-feedback.png)
 
-## Hjälp
+Ange en beskrivning för din feedback, inkludera tillämpliga filer eller skärmbilder och ytterligare information, efter behov, och klicka sedan på **[!UICONTROL Submit]**.
+
+### [!DNL AI Assistant] (schemalagd att släppas 20 maj 2025)
+
+(Villkorligt) Om din organisation har gett dig behörighet att använda AI Assistant klickar du på AI Assistant-ikonen.
+
+### Hjälp
 
 Med hjälpikonen kan du komma åt information, videoklipp, bloggar och mycket mer och använda [!DNL Target] på ett mer effektivt sätt. Du kan skapa en supportanmälan, hitta telefonnummer till supporten, ställa frågor via Twitter eller lämna feedback om [!DNL Target] för att tala om för oss hur [!DNL Target]-teamet fungerar.
 
 ![Hjälp](/help/main/c-intro/assets/help.png)
 
-## Meddelanden och meddelanden {#notifications-announcements}
+### Meddelanden och meddelanden {#notifications-announcements}
 
 Panelerna [!UICONTROL Notifications] och [!UICONTROL Announcements] hjälper dig att hålla dig uppdaterad om allt [!DNL Adobe Target]. Proaktiva meddelanden hjälper dig att hålla dig à jour med statusen för [!DNL Adobe Experience Cloud]-lösningar och [!DNL Target]-händelser. Proaktiva meddelanden varnar dig för driftavbrott och underhållshändelser.
 
@@ -55,7 +63,7 @@ Panelen innehåller flikar för [!UICONTROL Notifications] och [!UICONTROL Annou
 
 Följande avsnitt innehåller information om varje flik och hur du konfigurerar meddelanden och meddelanden:
 
-### Meddelanden {#notifications}
+#### Meddelanden {#notifications}
 
 [!DNL Target] händelsemeddelanden innehåller följande:
 
@@ -78,7 +86,7 @@ Följande avsnitt innehåller information om varje flik och hur du konfigurerar 
    * `Profile Script {target.profileScript.name} has been activated`
    * `Profile Script {target.profileScript.name} has been deactivated`
 
-* **Recommendations-flöden**: Meddelanden när en [!DNL Recommendations]-feed aktiveras eller inaktiveras, antingen manuellt eller av [!DNL Target]. Meddelanden skickas också när en [!DNL Recommendations]-feed misslyckas.
+* **Rekommenderade feeds**: Meddelanden när en [!DNL Recommendations]-feed aktiveras eller inaktiveras, antingen manuellt eller av [!DNL Target]. Meddelanden skickas också när en [!DNL Recommendations]-feed misslyckas.
 
   Meddelanden kan konfigureras och tas emot som standard av produktadministratörer och godkännare för [!DNL Target Premium]-konton. [!DNL Recommendations] är en [!DNL Target Premium]-funktion och är inte tillgänglig i [!DNL Target Standard].
 
@@ -93,11 +101,11 @@ Du kan markera enskilda meddelanden som lästa genom att hålla muspekaren över
 
 Du kan också ange att en påminnelse ska meddelas igen genom att hålla pekaren över ett meddelande, klicka på ikonen [!UICONTROL Remind me] och sedan välja när du vill bli meddelad: 5 minuter, 15 minuter, en timme eller imorgon.
 
-### Meddelanden
+#### Meddelanden
 
 Proaktiva meddelanden varnar dig för driftavbrott och underhållshändelser.
 
-Mer detaljerad information finns på [Adobe-statussidan](https://status.adobe.com/).
+Mer detaljerad information finns på sidan [Adobe Status](https://status.adobe.com/).
 
 ### Konfigurera meddelanden och meddelanden
 
@@ -119,7 +127,6 @@ Så här redigerar du aviseringsinställningarna:
    >
    >&quot;Nya releaser&quot; och &quot;Uppdateringar av innehåll&quot; är de enda meddelandekategorier som gäller för [!DNL Target]. Övriga kategorier gäller för andra Adobe-lösningar.
 
-
 1. Välj de kategorier som du vill ska ha hög prioritet.
 1. Välj de meddelanden som du vill visa aviseringar för i webbläsaren.
 
@@ -132,7 +139,13 @@ Så här redigerar du aviseringsinställningarna:
    * Daglig sammandrag
    * Veckosammandrag
 
-## Profil
+### Appväljaren
+
+Med Apps-väljaren kan du snabbt komma åt de [!DNL Adobe Experience Cloud]-lösningar du har tillgång till.
+
+![Appväljaren](/help/main/c-intro/assets/apps.png)
+
+### Profil
 
 Klicka på din profilavatar om du vill redigera dina [!DNL Adobe Experience Cloud]-inställningar eller logga ut från [!DNL Target]. Du kan även komma åt eller redigera din [!DNL Adobe]-profil.
 
@@ -168,19 +181,19 @@ En upplevelse kan vara ett erbjudande, en bild, text, knapp, video, en kombinati
 
 Se [Erbjudanden](/help/main/c-experiences/c-manage-content/manage-content.md) om du vill ha mer information om erbjudandetyperna i [!DNL Target] och om du vill veta mer om användargränssnittet i [!UICONTROL Offer]-listan.
 
-## Recommendations
+## Rekommendationer
 
 Klicka på fliken **[!UICONTROL Recommendations]** för att komma åt [!DNL Target Recommendations].
 
 >[!NOTE]
 >
->Recommendations-aktiviteter är tillgängliga som en del av lösningen [!DNL Target Premium]. De är inte tillgängliga i [!DNL Target Standard] utan en [!DNL Target Premium]-licens. Mer information finns i [Target Premium](/help/main/c-intro/intro.md#premium) i *Introduktion till Target*.
+>Rekommendationsaktiviteter är tillgängliga som en del av lösningen [!DNL Target Premium]. De är inte tillgängliga i [!DNL Target Standard] utan en [!DNL Target Premium]-licens. Mer information finns i [Target Premium](/help/main/c-intro/intro.md#premium) i *Introduktion till Target*.
 
-![Recommendations](/help/main/c-intro/assets/recommendations.png)
+![Rekommendationer](/help/main/c-intro/assets/recommendations.png)
 
-[!UICONTROL Recommendations]-aktiviteter visar automatiskt produkter eller innehåll som kan intressera dina kunder baserat på tidigare användaraktivitet eller andra algoritmer. Recommendations hjälper kunderna att hänvisa till relevanta objekt som de annars kanske inte känner till.
+[!UICONTROL Recommendations]-aktiviteter visar automatiskt produkter eller innehåll som kan intressera dina kunder baserat på tidigare användaraktivitet eller andra algoritmer. Rekommendationer hjälper kunderna att hänvisa till relevanta objekt som de annars kanske inte känner till.
 
-Mer information om [!UICONTROL Recommendations] i [!DNL Target] finns i [Recommendations](/help/main/c-recommendations/recommendations.md) och om användargränssnittet i [!UICONTROL Recommendations].
+Mer information om [!UICONTROL Recommendations] i [!DNL Target] finns i [Rekommendationer](/help/main/c-recommendations/recommendations.md) och om användargränssnittet i [!UICONTROL Recommendations].
 
 ## Administration
 
