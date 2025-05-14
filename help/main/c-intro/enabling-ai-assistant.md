@@ -18,7 +18,7 @@ Information om nödvändiga uppgifter som din organisation måste slutföra inna
 
 Din organisation måste först godkänna ytterligare juridiska villkor för att få tillgång till [!DNL AI Assistant]. Kontakta sedan ditt Adobe-kontoteam för att få hjälp med dessa villkor.
 
-Mer information finns i [Åtkomst [!DNL AI Assistant] i [!DNL Experience Platform]](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/access){target=_blank} i *[!DNL Experience Platform]*-dokumentationen.
+Mer information finns i [Åtkomst [!DNL AI Assistant] i [!DNL Experience Platform]](https://experienceleague.adobe.com/sv/docs/experience-platform/ai-assistant/access){target=_blank} i *[!DNL Experience Platform]*-dokumentationen.
 
 ## Aktivera användarbehörigheter för [!UICONTROL AI Assistant]
 
