@@ -1,11 +1,9 @@
 ---
 keywords: AI-assistent;artificiell intelligensassistent
-description: Lär dig hur du aktiverar [!DNL AI Assistant] i[!DNL &#x200B; Adobe Target].
+description: Lär dig hur du aktiverar [!DNL AI Assistant] i[!DNL  Adobe Target].
 title: Hur aktiverar jag  [!DNL AI Assistant] in [!DNL Target]?
 feature: Overview
-hide: true
-hidefromtoc: true
-source-git-commit: 1ab7bb6aef5982f13191ff4f0573e87aac815938
+source-git-commit: b30c7e0bed23b87a34dae5d47bcbe80edd957bb3
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 0%
@@ -20,7 +18,7 @@ Information om nödvändiga uppgifter som din organisation måste slutföra inna
 
 Din organisation måste först godkänna ytterligare juridiska villkor för att få tillgång till [!DNL AI Assistant]. Kontakta sedan ditt Adobe-kontoteam för att få hjälp med dessa villkor.
 
-Mer information finns i [Åtkomst [!DNL AI Assistant] i [!DNL Experience Platform]](https://experienceleague.adobe.com/sv/docs/experience-platform/ai-assistant/access){target=_blank} i *[!DNL Experience Platform]*-dokumentationen.
+Mer information finns i [Åtkomst [!DNL AI Assistant] i [!DNL Experience Platform]](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/access){target=_blank} i *[!DNL Experience Platform]*-dokumentationen.
 
 ## Aktivera användarbehörigheter för [!UICONTROL AI Assistant]
 
