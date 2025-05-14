@@ -60,10 +60,10 @@ Så här kommer du åt [!DNL AI Assistant]:
 
 Läs mer om [!DNL Adobe Experience Platform] program från [!DNL AI Assistant].
 
->[!VIDEO](https://video.tv.adobe.com/v/3441024/?learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3441028/?learn=on&#x26;enablevpops&captions=swe)
 
 ### Validera svar från AI Assistant
 
 Lär dig hur du verifierar och validerar svaren som [!DNL AI Assistant] i [!DNL Adobe Experience Platform] tillhandahåller.
 
->[!VIDEO](https://video.tv.adobe.com/v/3441738/?learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3441742/?learn=on&#x26;enablevpops&captions=swe)
