@@ -1,0 +1,79 @@
+---
+keywords: AI-assistent;artificiell intelligensassistent
+description: Lär dig hur du får [!DNL Target] produktkunskap med [!DNL AI Assistant].
+title: Hur använder jag  [!DNL AI Assistant] in [!DNL Target] för att få produktinformation?
+feature: Overview
+hide: true
+hidefromtoc: true
+source-git-commit: f1f1eb08367b26206df74a3b81af0750e6180b9f
+workflow-type: tm+mt
+source-wordcount: '302'
+ht-degree: 0%
+
+---
+
+# Använd [!DNL AI Assistant] i [!DNL Adobe Target] för att lära dig produktkunskap
+
+[!DNL AI Assistant] i [!DNL Adobe Experience Platform] är en gränssnittsfunktion som du kan använda för att navigera och förstå [!DNL Adobe Target]-begrepp.
+
+[!DNL AI Assistant] är ett användbart verktyg för att lära dig nya funktioner eller för att få snabba svar på välbekanta funktioner.
+
+Produktkunskapsfrågor innehåller [!DNL Adobe] koncept relaterade till aspekter av [!DNL Target]. Några exempel på frågor om produktkunskap är:
+
+* Hur konfigurerar jag ett profilskript?
+* Jag får ett fel när jag sparar min aktivitet. Vad betyder det?
+* Bör jag uppgradera min at.js-implementering till AEP Web SDK?
+
+Så här kommer du åt [!DNL AI Assistant]:
+
+1. Kontrollera att du har slutfört de nödvändiga uppgifterna i [Aktivera [!DNL Adobe Experience Platform] [!DNL AI Assistant] i [!DNL Adobe Target]](/help/main/c-intro/ai-assistant.md).
+
+   * Din organisation måste först godkänna de juridiska villkoren. Kontakta Adobe Account Team om du vill ha mer information.
+   * Administratörerna måste ge dig behörighet att komma åt [!DNL AI Assistant].
+
+1. Klicka på **[!DNL AI Assistant]-ikonen** i det övre högra hörnet av användargränssnittet i [!DNL Target].
+
+   ![AI Assistant-ikon](/help/main/c-intro/assets/ai-assistant-icon.png)
+
+   [!DNL AI Assistant] visas i den högra listen i användargränssnittet för [!DNL Target].
+
+1. Ställ en fråga i textrutan.
+
+   Exempel:&quot;Hur konfigurerar jag profilskript?&quot;
+
+   ![AI-assistenten med svar](/help/main/c-intro/assets/ai-assistant-answer.png)
+
+1. Om du vill kontrollera källan för svaret klickar du på ikonen Visa källor ( ![ikonen Visa källor](/help/main/assets/icons/Visibility.svg) ).
+
+   >[!IMPORTANT]
+   >
+   >AI-genererade svar kan vara felaktiga eller vilseledande. Kontrollera svaren och källorna.
+
+1. (Valfritt) Ge feedback till AI-assistenten.
+
+   * Klicka på ikonen för att visa miniatyrbilder ( ![Tummen uppåt ](/help/main/assets/icons/ThumbUp.svg) ) för att visa [!DNL AI Assistant] att svaret är korrekt.
+   * Klicka på ikonen för att dra reglaget nedåt ( ![Tummen nedåt ](/help/main/assets/icons/ThumbDown.svg) ) för att ange för [!DNL AI Assistant] att svaret är felaktigt.
+   * Klicka på ikonen Rapportera resultat ( ![Ikonen Rapportera resultat](/help/main/assets/icons/Flag.svg) ) för att rapportera ett problem till [!DNL AI Assistant].
+
+## Utbildningsvideor
+
+### Lär dig Experience Platform-program med AI Assistant
+
+Läs mer om [!DNL Adobe Experience Platform] program från [!DNL AI Assistant].
+
+>[!VIDEO](https://video.tv.adobe.com/v/3441024/?learn=on&#x26;enablevpops)
+
+### Validera svar från AI Assistant
+
+Lär dig hur du verifierar och validerar svaren som [!DNL AI Assistant] i [!DNL Adobe Experience Platform] tillhandahåller.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3441738/?learn=on&#x26;enablevpops)
+
+
+
+
+
+
+
+
+
