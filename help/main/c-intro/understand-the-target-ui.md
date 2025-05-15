@@ -4,9 +4,9 @@ description: Bekanta dig med användargränssnittet och hitta länkar till mer d
 title: Hur använder jag  [!DNL Target] gränssnittet?
 feature: Overview
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-source-git-commit: 1ab7bb6aef5982f13191ff4f0573e87aac815938
+source-git-commit: 84f2e590ee9fb984a3b272240b0373072057ca32
 workflow-type: tm+mt
-source-wordcount: '1388'
+source-wordcount: '1387'
 ht-degree: 0%
 
 ---
@@ -39,25 +39,25 @@ Välj önskad organisation i listrutan [!UICONTROL Organization] om ditt företa
 
 Ange en beskrivning för din feedback, inkludera tillämpliga filer eller skärmbilder och ytterligare information, efter behov, och klicka sedan på **[!UICONTROL Submit]**.
 
-### [!DNL AI Assistant] (schemalagd att släppas 20 maj 2025)
+### [!DNL AI Assistant]
 
-(Villkorligt) Om din organisation har gett dig behörighet att använda AI Assistant klickar du på AI Assistant-ikonen.
+(Villkorligt) Om din organisation har gett dig behörighet att använda [!DNL AI Assistant] klickar du på ikonen [!DNL AI Assistant] .
+
+Mer information finns i [Översikt över Adobe Experience Platform AI Assistant](/help/main/c-intro/ai-assistant.md).
 
 ### Hjälp
 
-Med hjälpikonen kan du komma åt information, videoklipp, bloggar och mycket mer och använda [!DNL Target] på ett mer effektivt sätt. Du kan skapa en supportanmälan, hitta telefonnummer till supporten, ställa frågor via Twitter eller lämna feedback om [!DNL Target] för att tala om för oss hur [!DNL Target]-teamet fungerar.
+Om du klickar på ikonen [!UICONTROL Help] ( ![hjälpikon](/help/main/assets/icons/HelpOutline.svg) ) får du tillgång till information, videoklipp, bloggar och mycket annat, så att du kan använda [!DNL Target] på ett mer effektivt sätt. Du kan skapa en supportanmälan, hitta telefonnummer till supporten, ställa frågor via Twitter eller lämna feedback om [!DNL Target] för att tala om för oss hur [!DNL Target]-teamet fungerar.
 
 ![Hjälp](/help/main/c-intro/assets/help.png)
 
-### Meddelanden och meddelanden {#notifications-announcements}
+### Begäranden, meddelanden och meddelanden {#notifications-announcements}
 
-Panelerna [!UICONTROL Notifications] och [!UICONTROL Announcements] hjälper dig att hålla dig uppdaterad om allt [!DNL Adobe Target]. Proaktiva meddelanden hjälper dig att hålla dig à jour med statusen för [!DNL Adobe Experience Cloud]-lösningar och [!DNL Target]-händelser. Proaktiva meddelanden varnar dig för driftavbrott och underhållshändelser.
+Panelerna [!UICONTROL Requests], [!UICONTROL Notifications] och [!UICONTROL Announcements] hjälper dig att hålla dig uppdaterad om alla saker [!DNL Adobe Target]. Proaktiva meddelanden hjälper dig att hålla dig à jour med statusen för [!DNL Adobe Experience Cloud]-lösningar och [!DNL Target]-händelser. Proaktiva meddelanden varnar dig för driftavbrott och underhållshändelser.
 
-Klicka på klockikonen i sidhuvudet för att visa meddelanden:
+Klicka på ikonen [!UICONTROL Notifications] ( ![Notifications icon ](/help/main/assets/icons/Bell.svg) ) i sidhuvudet för att visa meddelanden:
 
-![Bell-ikon för meddelanden och meddelanden](assets/bell-icon.png)
-
-Panelen innehåller flikar för [!UICONTROL Notifications] och [!UICONTROL Announcements].
+Panelen innehåller flikar för [!UICONTROL Requests], [!UICONTROL Notifications] och [!UICONTROL Announcements].
 
 ![Meddelanden](assets/notifications.png)
 

@@ -3,10 +3,11 @@ keywords: AI-assistent;artificiell intelligensassistent
 description: Lär dig hur du får [!DNL Target] produktkunskap med [!DNL AI Assistant].
 title: Hur använder jag  [!DNL AI Assistant] in [!DNL Target] för att få produktinformation?
 feature: Overview
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="Vad är Beta-funktioner i  [!DNL Adobe Target]?"
 exl-id: 48a6a9d3-07e8-4858-b15b-48d182161a76
-source-git-commit: b30c7e0bed23b87a34dae5d47bcbe80edd957bb3
+source-git-commit: 84f2e590ee9fb984a3b272240b0373072057ca32
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '311'
 ht-degree: 0%
 
 ---
@@ -60,10 +61,10 @@ Så här kommer du åt [!DNL AI Assistant]:
 
 Läs mer om [!DNL Adobe Experience Platform] program från [!DNL AI Assistant].
 
->[!VIDEO](https://video.tv.adobe.com/v/3441028/?learn=on&#x26;enablevpops&captions=swe)
+>[!VIDEO](https://video.tv.adobe.com/v/3441024/?learn=on&#x26;enablevpops)
 
 ### Validera svar från AI Assistant
 
 Lär dig hur du verifierar och validerar svaren som [!DNL AI Assistant] i [!DNL Adobe Experience Platform] tillhandahåller.
 
->[!VIDEO](https://video.tv.adobe.com/v/3441742/?learn=on&#x26;enablevpops&captions=swe)
+>[!VIDEO](https://video.tv.adobe.com/v/3441738/?learn=on&#x26;enablevpops)
