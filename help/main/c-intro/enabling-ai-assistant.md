@@ -1,6 +1,6 @@
 ---
 keywords: AI-assistent;artificiell intelligensassistent
-description: Lär dig hur du aktiverar [!DNL AI Assistant] i[!DNL  Adobe Target].
+description: Lär dig hur du aktiverar [!DNL AI Assistant] i[!DNL &#x200B; Adobe Target].
 title: Hur aktiverar jag  [!DNL AI Assistant] in [!DNL Target]?
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="Vad är Beta-funktioner i  [!DNL Adobe Target]?"
 feature: Overview
