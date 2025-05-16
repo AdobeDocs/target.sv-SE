@@ -3,11 +3,10 @@ keywords: AI-assistent;artificiell intelligensassistent
 description: Lär dig hur du får [!DNL Target] produktkunskap med [!DNL AI Assistant].
 title: Hur använder jag  [!DNL AI Assistant] in [!DNL Target] för att få produktinformation?
 feature: Overview
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=sv-SE#beta newtab=true" tooltip="Vad är Beta-funktioner i  [!DNL Adobe Target]?"
 exl-id: 48a6a9d3-07e8-4858-b15b-48d182161a76
-source-git-commit: 84f2e590ee9fb984a3b272240b0373072057ca32
+source-git-commit: 63df83fd7479c7be7e4cd4c08501ab17511a41fb
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '302'
 ht-degree: 0%
 
 ---
@@ -26,7 +25,7 @@ Produktkunskapsfrågor innehåller [!DNL Adobe] koncept relaterade till aspekter
 
 Så här kommer du åt [!DNL AI Assistant]:
 
-1. Kontrollera att du har slutfört de nödvändiga uppgifterna i [Aktivera [!DNL Adobe Experience Platform] [!DNL AI Assistant] i [!DNL Adobe Target]](/help/main/c-intro/ai-assistant.md).
+1. Kontrollera att du har slutfört de nödvändiga uppgifterna i [Aktivera [!DNL Adobe Experience Platform] [!DNL AI Assistant] i [!DNL Adobe Target]](/help/main/c-intro/enabling-ai-assistant.md).
 
    * Din organisation måste först godkänna de juridiska villkoren. Kontakta Adobe Account Team om du vill ha mer information.
    * Administratörerna måste ge dig behörighet att komma åt [!DNL AI Assistant].
@@ -61,10 +60,10 @@ Så här kommer du åt [!DNL AI Assistant]:
 
 Läs mer om [!DNL Adobe Experience Platform] program från [!DNL AI Assistant].
 
->[!VIDEO](https://video.tv.adobe.com/v/3441028/?learn=on&#x26;enablevpops&captions=swe)
+>[!VIDEO](https://video.tv.adobe.com/v/3441024/?learn=on&#x26;enablevpops)
 
 ### Validera svar från AI Assistant
 
 Lär dig hur du verifierar och validerar svaren som [!DNL AI Assistant] i [!DNL Adobe Experience Platform] tillhandahåller.
 
->[!VIDEO](https://video.tv.adobe.com/v/3441742/?learn=on&#x26;enablevpops&captions=swe)
+>[!VIDEO](https://video.tv.adobe.com/v/3441738/?learn=on&#x26;enablevpops)
