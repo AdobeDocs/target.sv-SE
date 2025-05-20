@@ -75,7 +75,7 @@ Så här skapar du text med [!DNL AI Assistant]:
 
 ### Skapa innehåll med AI-assistenten för innehållsgenerering
 
->[!VIDEO](https://video.tv.adobe.com/v/3434635/?learn=on">https://video.tv.adobe.com/v/3434635/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3434639/?learn=on&captions=swe">https://video.tv.adobe.com/v/3434639/?learn=on&captions=swe)
 
 
 
