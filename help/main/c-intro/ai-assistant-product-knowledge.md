@@ -4,9 +4,9 @@ description: Lär dig hur du får [!DNL Target] produktkunskap med [!DNL AI Assi
 title: Hur använder jag  [!DNL AI Assistant] in [!DNL Target] för att få produktinformation?
 feature: Overview
 exl-id: 48a6a9d3-07e8-4858-b15b-48d182161a76
-source-git-commit: 04e06151e87df0fea7b4eacbe4993dc7fb3702e2
+source-git-commit: 41889716a2793c846085d765d5e6f9db0fc70c30
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '316'
 ht-degree: 0%
 
 ---
@@ -54,10 +54,10 @@ Så här kommer du åt [!DNL AI Assistant] för produktinformation:
    >
    >AI-genererade svar kan vara felaktiga eller vilseledande. Kontrollera svaren och källorna.
 
-1. (Valfritt) Ge feedback till AI-assistenten.
+1. (Valfritt) Ge feedback till [!DNL AI Assistant].
 
-   * Klicka på ikonen för att visa miniatyrbilder ( ![Tummen uppåt ](/help/main/assets/icons/ThumbUp.svg) ) för att visa [!DNL AI Assistant] att svaret är korrekt.
-   * Klicka på ikonen för att dra reglaget nedåt ( ![Tummen nedåt ](/help/main/assets/icons/ThumbDown.svg) ) för att ange för [!DNL AI Assistant] att svaret är felaktigt.
+   * Klicka på Thumbs up ( ![Thumbs up icon](/help/main/assets/icons/ThumbUp.svg) ) för att ange för [!DNL AI Assistant] att svaret är korrekt.
+   * Klicka på ikonen Tummen nedåt ( ![Tummen nedåt ](/help/main/assets/icons/ThumbDown.svg) ) för att ange för [!DNL AI Assistant] att svaret är felaktigt.
    * Klicka på ikonen Rapportera resultat ( ![Ikonen Rapportera resultat](/help/main/assets/icons/Flag.svg) ) för att rapportera ett problem till [!DNL AI Assistant].
 
 ## Utbildningsvideor
@@ -66,10 +66,10 @@ Så här kommer du åt [!DNL AI Assistant] för produktinformation:
 
 Läs mer om [!DNL Adobe Experience Platform] program från [!DNL AI Assistant].
 
->[!VIDEO](https://video.tv.adobe.com/v/3441028/?learn=on&#x26;enablevpops&captions=swe)
+>[!VIDEO](https://video.tv.adobe.com/v/3441024/?learn=on&#x26;enablevpops)
 
 ### Validera svar från AI Assistant
 
 Lär dig hur du verifierar och validerar svaren som [!DNL AI Assistant] i [!DNL Adobe Experience Platform] tillhandahåller.
 
->[!VIDEO](https://video.tv.adobe.com/v/3441742/?learn=on&#x26;enablevpops&captions=swe)
+>[!VIDEO](https://video.tv.adobe.com/v/3441738/?learn=on&#x26;enablevpops)

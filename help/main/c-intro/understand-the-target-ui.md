@@ -4,9 +4,9 @@ description: Bekanta dig med användargränssnittet och hitta länkar till mer d
 title: Hur använder jag  [!DNL Target] gränssnittet?
 feature: Overview
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-source-git-commit: 84f2e590ee9fb984a3b272240b0373072057ca32
+source-git-commit: 41889716a2793c846085d765d5e6f9db0fc70c30
 workflow-type: tm+mt
-source-wordcount: '1387'
+source-wordcount: '1355'
 ht-degree: 0%
 
 ---
@@ -63,6 +63,12 @@ Panelen innehåller flikar för [!UICONTROL Requests], [!UICONTROL Notifications
 
 Följande avsnitt innehåller information om varje flik och hur du konfigurerar meddelanden och meddelanden:
 
+#### [!UICONTROL Requests]
+
+Ta emot viktig information om [!DNL Adobe] produkter och lösningar, ditt samarbete med andra användare och andra relevanta uppdateringar på panelen [!UICONTROL Requests].
+
+När någon skickar en begäran till dig om att godkänna ett objekt eller bevilja åtkomst till ett objekt, visas den begäran på panelen [!UICONTROL Requests].
+
 #### Meddelanden {#notifications}
 
 [!DNL Target] händelsemeddelanden innehåller följande:
@@ -97,9 +103,9 @@ Följande avsnitt innehåller information om varje flik och hur du konfigurerar 
    * `Feed {target.feed.name} has failed`
    * `Feed {target.feed.name} has failed to import from source`
 
-Du kan markera enskilda meddelanden som lästa genom att hålla muspekaren över meddelandet och sedan klicka på bockmarkeringen. Du kan markera alla meddelanden som lästa eller visa alla meddelanden genom att klicka på [!UICONTROL "Mark as Read"] eller [!UICONTROL "View All"] längst ned på panelen.
+Du kan markera enskilda meddelanden som lästa genom att hålla muspekaren över det önskade meddelandet och sedan klicka på ikonen [!UICONTROL Mark as Read] ( ![Markera som läst ](/help/main/assets/icons/CheckmarkCircle.svg) ). Du kan markera alla meddelanden som lästa eller visa alla meddelanden genom att klicka på [!UICONTROL Mark as Read] eller [!UICONTROL View All] längst ned på panelen.
 
-Du kan också ange att en påminnelse ska meddelas igen genom att hålla pekaren över ett meddelande, klicka på ikonen [!UICONTROL Remind me] och sedan välja när du vill bli meddelad: 5 minuter, 15 minuter, en timme eller imorgon.
+Du kan också ange att en påminnelse ska meddelas igen genom att hålla pekaren över ett meddelande och klicka på ikonen [!UICONTROL Snooze] ( ![Snoze ](/help/main/assets/icons/Clock.svg) ). Du kan sedan välja när du vill bli meddelad: 5 minuter, 15 minuter, en timme eller imorgon.
 
 #### Meddelanden
 
@@ -111,33 +117,31 @@ Mer detaljerad information finns på sidan [Adobe Status](https://status.adobe.c
 
 Så här redigerar du aviseringsinställningarna:
 
-1. Klicka på kugghjulsikonen och sedan på **[!UICONTROL Notifications]**.
-1. Klicka på **[!UICONTROL Customize]** under **[!UICONTROL Target]**.
-1. Markera eller avmarkera de kategorier för vilka du vill få meddelanden:
+1. Klicka på ikonen [!UICONTROL Edit Preferences] ( ![Redigera inställningar ](/help/main/assets/icons/Setting.svg) ) och klicka sedan på **[!UICONTROL Notifications]** i den vänstra listen.
+1. Under **[!UICONTROL Target]** väljer du hur du vill bli meddelad:
 
-   * Begäranden: När någon skickar en begäran till dig om att godkänna ett objekt eller bevilja åtkomst till ett objekt. Du kan inte avbryta prenumerationen på den här kategorin.
-   * Tilldelad: När någon tilldelar dig ett objekt.
-   * Meningar: När någon talar om dig i en kommentar.
-   * Nya releaser: När en ny release är tillgänglig för en produkt eller tjänst som du har tillgång till.
-   * Delas med mig: När någon delar ett objekt med dig.
-   * Uppdateringar av innehåll: När någon redigerar, tar bort eller kommenterar ett objekt som du har skapat eller följt.
-   * Övrigt:
+   * [!UICONTROL In-app]
+   * [!UICONTROL Email]
+   * [!DNL Slack]
+
+1. Välj de kategorier som du vill ska ha hög prioritet.
 
    >[!NOTE]
    >
-   >&quot;Nya releaser&quot; och &quot;Uppdateringar av innehåll&quot; är de enda meddelandekategorier som gäller för [!DNL Target]. Övriga kategorier gäller för andra Adobe-lösningar.
+   >[!UICONTROL New releases] och [!UICONTROL Updates on content] är de enda meddelandekategorierna som gäller för [!DNL Target]. De andra kategorierna gäller för andra [!DNL Adobe]-lösningar.
 
-1. Välj de kategorier som du vill ska ha hög prioritet.
 1. Välj de meddelanden som du vill visa aviseringar för i webbläsaren.
 
    Dessa varningar visas i webbläsarens övre högra hörn under några sekunder. Du kan välja att visa kategorier med hög prioritet, alla kategorier eller att dölja alla popup-meddelanden. Du kan också konfigurera om du vill att meddelandena ska vara synliga tills du stänger dem eller om du kan konfigurera meddelandets varaktighet.
 
 1. Ange hur ofta du vill få e-postmeddelanden:
 
-   * Skicka inte e-post
-   * Snabbmeddelanden
-   * Daglig sammandrag
-   * Veckosammandrag
+   * [!UICONTROL Don't send emails]
+   * [!UICONTROL Instant notifications]
+   * [!UICONTROL Daily digest]
+   * [!UICONTROL Weekly digest]
+
+1. Konfigurera Slack-meddelanden för en arbetsyta.
 
 ### Appväljaren
 
@@ -157,25 +161,19 @@ Nu ska vi diskutera flikarna till vänster om huvudet [!DNL Target].
 
 Listan **[!UICONTROL Activities]** är standardvy när du öppnar [!DNL Target]. Du kan skapa aktiviteter från den här sidan och hantera befintliga aktiviteter.
 
-![Aktivitetslista](/help/main/c-intro/assets/activities-list.png)
-
 Se [Aktiviteter](/help/main/c-activities/activities.md) för detaljerad information om aktivitetstyperna i [!DNL Target] och för mer information om användargränssnittet i [!UICONTROL Activity]-listan.
 
 ## Målgrupper
 
 Klicka på fliken **[!UICONTROL Audiences]** för att visa listan [!UICONTROL Audiences] där du kan skapa målgrupper och hantera befintliga målgrupper.
 
-![Mållista](/help/main/c-intro/assets/audience-list.png)
-
-En målgrupp är en grupp liknande aktivitetsdeltagare som ser en riktad aktivitet. En målgrupp är en grupp människor med samma egenskaper, till exempel en ny besökare, en återkommande besökare eller återkommande besökare från mellanvästern. Med funktionen [!UICONTROL Audience] kan ni rikta olika innehåll och upplevelser till specifika målgrupper för att optimera er digitala marknadsföring genom att visa rätt budskap till rätt personer vid rätt tidpunkt. Om en besökare identifieras som en del av en målpublik avgör [!DNL Target] vilken upplevelse som ska visas, baserat på kriterier som definieras när aktiviteten skapas.
+En målgrupp är en grupp liknande aktivitetsdeltagare som ser en riktad aktivitet. En publik är en grupp människor med samma egenskaper, till exempel en ny besökare, en återkommande besökare eller återkommande besökare från mellanvästern. Med funktionen [!UICONTROL Audience] kan ni rikta olika innehåll och upplevelser till specifika målgrupper för att optimera er digitala marknadsföring genom att visa rätt budskap till rätt personer vid rätt tidpunkt. Om en besökare identifieras som en del av en målpublik avgör [!DNL Target] vilken upplevelse som ska visas, baserat på kriterier som definieras när aktiviteten skapas.
 
 Se [Skapa målgrupper](/help/main/c-target/c-audiences/create-audience.md) för ingående information om målgruppstyperna i [!DNL Target] och om du vill veta mer om användargränssnittet i [!UICONTROL Audience]-listan.
 
 ## Erbjudanden
 
 Klicka på fliken **[!UICONTROL Offers]** för att visa listan [!UICONTROL Offers] där du kan skapa upplevelser och erbjudanden och hantera befintliga upplevelser och erbjudanden.
-
-![Erbjudandelista](/help/main/c-intro/assets/offers.png)
 
 En upplevelse kan vara ett erbjudande, en bild, text, knapp, video, en kombination av dessa olika element på en sida, en hel webbsida eller en uppsättning sidor som kanske utgör en inköpstratt eller någon annan logisk sekvens av sidor. Det kan också vara svaret från en röstassistent, ett kundskript eller till och med en personlig smak från en dryckesmaskin. Du testar eller personaliserar upplevelser i [!DNL Target]-aktiviteter.
 
@@ -187,9 +185,7 @@ Klicka på fliken **[!UICONTROL Recommendations]** för att komma åt [!DNL Targ
 
 >[!NOTE]
 >
->Rekommendationsaktiviteter är tillgängliga som en del av lösningen [!DNL Target Premium]. De är inte tillgängliga i [!DNL Target Standard] utan en [!DNL Target Premium]-licens. Mer information finns i [Target Premium](/help/main/c-intro/intro.md#premium) i *Introduktion till Target*.
-
-![Rekommendationer](/help/main/c-intro/assets/recommendations.png)
+>[!UICONTROL Recommendations] aktiviteter är tillgängliga som en del av lösningen [!DNL Target Premium]. [!UICONTROL Recommendations] aktiviteter är inte tillgängliga i [!DNL Target Standard] utan licens [!DNL Target Premium]. Mer information finns i [Target Premium](/help/main/c-intro/intro.md#premium) i *Introduktion till Target*.
 
 [!UICONTROL Recommendations]-aktiviteter visar automatiskt produkter eller innehåll som kan intressera dina kunder baserat på tidigare användaraktivitet eller andra algoritmer. Rekommendationer hjälper kunderna att hänvisa till relevanta objekt som de annars kanske inte känner till.
 
@@ -199,8 +195,10 @@ Mer information om [!UICONTROL Recommendations] i [!DNL Target] finns i [Rekomme
 
 Klicka på fliken **[!UICONTROL Administration]** för att komma åt [!UICONTROL Administration]-sidorna.
 
-![Administrationssidor](/help/main/c-intro/assets/administration.png)
-
-På sidorna [!UICONTROL Administration] kan du administrera [!DNL Target], inklusive konfigurationsinställningar för [!UICONTROL Visual Experience Composer] (VEC), rapportering, [!DNL Scene7] konfiguration, implementering, värdar, miljöer, svarstoken och användare.
+På sidorna [!UICONTROL Administration] kan du administrera [!DNL Target], inklusive konfigurationsinställningar för [!UICONTROL Visual Experience Composer] (VEC), rapportering, [!DNL Scene7] konfiguration, implementering, värdar, miljöer, svarstoken, användare och rekommendationer.
 
 Mer information och mer information om användargränssnittet finns i [Administrera målöversikt](/help/main/administrating-target/administrating-target.md).
+
+## Visual Experience Composer (VEC)
+
+Utöver användargränssnittet för [!DNL Target] bör du bekanta dig med VEC-gränssnittet. Mer information finns i [[!DNL Visual Experience Composer] alternativ](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md).
