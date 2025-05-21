@@ -3,7 +3,7 @@ keywords: hjälpmedel;artificiell intelligensassistent;innehållsgenerering;inne
 description: Lär dig hur du skapar innehåll med  [!DNL AI Assistant].
 title: Hur använder jag  [!DNL AI Assistant] in [!DNL Target] för att generera innehåll?
 feature: Overview
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="Vad är Beta-funktioner i  [!DNL Adobe Target]?"
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=sv-SE#beta newtab=true" tooltip="Vad är Beta-funktioner i  [!DNL Adobe Target]?"
 hide: true
 hidefromtoc: true
 exl-id: eb6f07d8-729e-4f94-ae7a-a054bf54b030
