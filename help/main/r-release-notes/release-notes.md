@@ -6,9 +6,9 @@ short-description: Lär dig mer om de nya funktionerna, förbättringarna och ko
 title: Vad ingår i den aktuella versionen?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 63df83fd7479c7be7e4cd4c08501ab17511a41fb
+source-git-commit: dc9797cc0afdb3fed5b4bb95cf134e702cec42d7
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: '1372'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,32 @@ ht-degree: 0%
 Versionsinformationen innehåller information om funktioner, förbättringar och korrigeringar för varje [!DNL Adobe Target Standard]- och [!DNL Target Premium]-version. Versionsinformation för [!DNL Target] API:er, SDK:er, [!DNL Adobe Experience Platform Web SDK], at.js och andra plattformsändringar inkluderas också, om tillämpligt.
 
 (Numren inom parentes är avsedda för intern [!DNL Adobe]-användning.)
+
+## [!DNL Target Standard/Premium] 25.5.3 (22 maj 2025)
+
+Den här versionen innehåller följande korrigeringar och uppdateringar:
+
+* Ett problem har korrigerats där funktionen Sök efter namn i listan [!UICONTROL Activities] inte fungerade korrekt med flerordsfrågor. (TGT-52529)
+* Ett problem som förhindrade att upplevelser från [!UICONTROL Automated Personalization] (AP)-aktiviteter exkluderades har korrigerats. (TGT-52383)
+* Ett problem har korrigerats där alternativet [!UICONTROL Contains] saknades i [!UICONTROL Filter Rules] vid hantering av innehåll i AP-aktiviteter. (TGT-52384)
+* Korrigerade en rapportinkonsekvens i [!UICONTROL Automated Personalization] (AP)-aktiviteter, specifikt relaterat till hur standarderbjudanden spåras och rapporteras med hjälp av `optionLocalId`-värden från [!DNL Target]:s interna system.
+* Korrigerade ett problem där QA-länkar inte kunde leverera den avsedda aktivitetsupplevelsen. (TGT-52163)
+* Ett problem har korrigerats där användare med [!UICONTROL Approver] behörigheter felaktigt blockerades från redigering av aktiva aktiviteter och ett felmeddelande om nekad åtkomst mottogs. (TGT-52416)
+* Ett problem har korrigerats där målgruppsförbättringar inte kunde visas för vissa aktiviteter i det uppdaterade användargränssnittet för [!DNL Target]. (TGT-52057)
+* Korrigerade ett problem som medförde att målgruppsförbättringar och aktivitetspubliker hämtades i det uppdaterade användargränssnittet. (TGT-52158)
+* Korrigerade ett problem där generering av ad hoc-erbjudanden resulterade i dubbla erbjudanden. (TGT-51938)
+* Korrigerade ett problem som blockerade uppdateringar av erbjudanden och felaktigt visade ett fel av typen&quot;Ogiltig användare&quot;. (TGT-52361)
+* Ett problem som gjorde att befintliga aktiviteter inte kunde sparas har korrigerats. Felet &quot;Ogiltigt användarindata&quot; utlöstes. (TGT-52422)
+* Korrigerade ett problem som blockerade redigering av befintliga HTML-erbjudanden och utlöste ett fel av typen&quot;Ogiltig användarinmatning&quot; vid sparande, även när inga kodändringar gjordes. (TGT-52351)
+* Korrigerade ett fel som gjorde att [!DNL Target] inte kunde identifiera tecknet&quot;#&quot; i webbplatsens URL. (TGT-52093)
+* Korrigerade ett problem som förhindrade redigering av [!DNL Recommendations] aktiviteter för att lägga till eller uppdatera kampanjer, vilket orsakade fel vid sparande och dubblettkampanjer. (TGT-52343)
+* Korrigerade ett problem som förhindrade ändringar av villkor eller design i [!DNL Recommendations]-aktiviteter, vilket resulterade i ett &quot;ogiltigt JSON: okänt egenskapsnamn&quot;-fel. (TGT-52375)
+* Ett problem har korrigerats där sekvensvillkor inte kunde visas korrekt i [!UICONTROL Visual Experience Composer] (VEC) för [!DNL Recommendations]-aktiviteter. (TGT-52435)
+* Ett problem har korrigerats där vyer inte identifierades korrekt på SPA-sidor när [!DNL Adobe Experience Platform Web SDK] användes. (TGT-52106)
+* Ett problem har korrigerats där ODS-information (On-Device Decisioning) inte sparades korrekt trots att den ingick i batchdriftens nyttolast. (TGT-52406)
+* Ett `audienceMetadata`-fält har lagts till i aktiviteter, vilket gör att det kan läsas och uppdateras under redigeringen. (TGT-51004)
+* Ett felmeddelande har lagts till för att varna användare när en målgruppstid är ogiltig. (TGT52522)
+* Aktivitetsstrukturen har uppdaterats med stöd för duplicerade målgrupper av olika typer. (TGT-51200)
 
 ## [!DNL Adobe Target] [!DNL AI Assistant] (16 maj 2025)
 
@@ -71,8 +97,8 @@ Den här versionen innehåller följande korrigeringar och uppdateringar:
 
 | Resurs | Information |
 |--- |--- |
-| [Versionsinformation: Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=sv-SE) | Information om ändringarna i respektive version av Platform Web SDK. |
-| Versionsinformation för [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=sv-SE){target=_blank} | Information om ändringar i varje version av JavaScript-biblioteket [!DNL Adobe Target] at.js. |
+| [Versionsinformation: Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=en) | Information om ändringarna i respektive version av Platform Web SDK. |
+| Versionsinformation för [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | Information om ändringar i varje version av JavaScript-biblioteket [!DNL Adobe Target] at.js. |
 
 ## Dokumentationsändringar, Versionsinformation om tidigare versioner och Experience Cloud Versionsinformation
 
@@ -82,7 +108,7 @@ Förutom anteckningarna för varje release finns det ytterligare information i f
 |--- |--- |
 | [Dokumentationsändringar](/help/main/r-release-notes/doc-change.md) | Visa detaljerad information om uppdateringar av den här guiden som inte ingår i versionsinformationen. |
 | [Versionsinformation för tidigare versioner](/help/main/r-release-notes/release-notes-for-previous-releases.md). | Visa information om nya funktioner och förbättringar i tidigare versioner av Target Standard och Target Premium. |
-| [Versionsinformation för Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=sv-SE){target=_blank} | Läs den senaste versionsinformationen om Adobe Experience Cloud lösningar. |
+| [Versionsinformation för Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target=_blank} | Läs den senaste versionsinformationen om Adobe Experience Cloud lösningar. |
 
 ## Förhandsversionsinformation {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
