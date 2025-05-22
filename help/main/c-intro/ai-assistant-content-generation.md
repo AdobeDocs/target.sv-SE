@@ -3,13 +3,13 @@ keywords: hjälpmedel;artificiell intelligensassistent;innehållsgenerering;inne
 description: Lär dig hur du skapar innehåll med  [!DNL AI Assistant].
 title: Hur använder jag  [!DNL AI Assistant] in [!DNL Target] för att generera innehåll?
 feature: Overview
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=sv-SE#beta newtab=true" tooltip="Vad är Beta-funktioner i  [!DNL Adobe Target]?"
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="Vad är Beta-funktioner i  [!DNL Adobe Target]?"
 hide: true
 hidefromtoc: true
 exl-id: eb6f07d8-729e-4f94-ae7a-a054bf54b030
-source-git-commit: 41889716a2793c846085d765d5e6f9db0fc70c30
+source-git-commit: 5ad564e43cd6f66e7f31072348f17e52013ed759
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '750'
 ht-degree: 0%
 
 ---
@@ -47,6 +47,8 @@ Så här skapar du text med [!DNL AI Assistant]:
 
    Om du till exempel har en säsongssemester skriver du&quot;Skriv engagerande hjältetext som annonserar en tidsbegränsad semesterförsäljning.&quot;
 
+   Se [Exempelvarianter](#variations) nedan för att se hur [!DNL AI Assistant] omvandlar en enkel prompt till en låst, längre annonskopia för ett spännande nytt äventyr.
+
 1. Klicka på ikonen **[!UICONTROL Text Settings]** för att ange textens ton och kommunikationsstrategi.
 
    * **Kommunikationsstrategi**: Välj den kommunikationsstil som passar bäst för den genererade texten.
@@ -73,8 +75,21 @@ Så här skapar du text med [!DNL AI Assistant]:
    * Klicka på ikonen Tummen nedåt ( ![Tummen nedåt ](/help/main/assets/icons/ThumbDown.svg) ) för att tala om för [!DNL AI Assistant] att du inte gillar variationen.
    * Klicka på ikonen [!UICONTROL Report Results] ( ![Rapportera resultat ](/help/main/assets/icons/Flag.svg) ) för att rapportera ett problem till [!DNL AI Assistant].
 
+## Exempelvariationer {#variations}
+
+Att ändra hjälttexten är bara början. Med [!DNL AI Assistant] i [!DNL Target] är du inte begränsad till grundläggande redigeringar. Ni kan skapa, förfina och lyfta fram innehåll i hela er upplevelse. Oavsett om du arbetar med brainstormning av varianter, optimerar meddelanden eller skapar en ny kopia i farten, använder [!DNL AI Assistant] kraften i generativ AI för att hjälpa dig att skapa övertygande, slagkraftigt innehåll på några sekunder.
+
+Följande uppmaning och variationer visar styrkan hos [!DNL AI Assistant].
+
+**[!UICONTROL Prompt]**: Skriv en engagerande annons för en tredagarsresa till NYC för att besöka de främsta destinationerna.
+**[!UICONTROL Text Settings]**: FOMO, English, Persusive, Medium length.
+* **[!UICONTROL Variation 1]**: Upptäck NYC:s magi med vår exklusiva tredagarsresa! Fängsla dig i ikoner som Times Square, Central Park och Frihetsgudinnan. Häng med en mängd andra som redan har upplevt hur livlig och fin staden är som aldrig sover. Missa inte oförglömliga minnen. Boka ditt äventyr idag och bli en del av glädjen! Begränsade fläckar finns!
+* **[!UICONTROL Variation 2]**: Upptäck NYC:s magi med vår exklusiva tre-dagars rymning! Besök våra landmärken som Times Square och Central Park och uppsluka dig i matning och underhållning i världsklass. Missa inte detta oförglömliga äventyr. Spaces är begränsade, och alla bryr sig om sina fantastiska upplevelser. Boka nu och bli en del av den spänning som engagerar resenärer över hela världen!
+* **[!UICONTROL Variation 3]**: Embark på en spännande tredagars rymd till NYC, där ikoniska landmärken väntar! Upptäck Times Square&#39;s elektriska vibe, savor culinary delights in Manhattan, och fånga fantastiska vyer från Empire State Building. Slå till nu och delta i oräkneliga äventyrare som lever sina drömmar. Missa inte att skapa oförglömliga minnen i den stad som aldrig sover. Begränsade fläckar finns. Boka ditt äventyr idag!
+* **[!UICONTROL Variation 4]**: Boka ditt 3-dagars NYC-äventyr nu och upplev stadens magi som aldrig förr! Från ikoner till pärlor - alla hörn av Big Apple har något spännande. Missa inte oförglömliga stunder som andra redan njuter av. Var en del av kinden. Skydda din plats idag och skapa minnen som varar en hel livstid. Skynda dig, tomten fylls snabbt!
+
 ## Utbildningsvideor
 
 ### Skapa innehåll med AI-assistenten för innehållsgenerering
 
->[!VIDEO](https://video.tv.adobe.com/v/3434639/?learn=on&captions=swe">https://video.tv.adobe.com/v/3434639/?learn=on&captions=swe)
+>[!VIDEO](https://video.tv.adobe.com/v/3434635/?learn=on">https://video.tv.adobe.com/v/3434635/?learn=on)
