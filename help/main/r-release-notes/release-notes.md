@@ -6,9 +6,9 @@ short-description: Lär dig mer om de nya funktionerna, förbättringarna och ko
 title: Vad ingår i den aktuella versionen?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 97fd3be049ffb0f9dd27c89288a82695d86d5302
+source-git-commit: bc9a0fe1977629a00eebb2f7aafd30263c8b55af
 workflow-type: tm+mt
-source-wordcount: '1744'
+source-wordcount: '2119'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,24 @@ ht-degree: 0%
 Versionsinformationen innehåller information om funktioner, förbättringar och korrigeringar för varje [!DNL Adobe Target Standard]- och [!DNL Target Premium]-version. Versionsinformation för [!DNL Target] API:er, SDK:er, [!DNL Adobe Experience Platform Web SDK], at.js och andra plattformsändringar inkluderas också, om tillämpligt.
 
 (Numren inom parentes är avsedda för intern [!DNL Adobe]-användning.)
+
+## [!DNL Target Standard/Premium] 25.5.4 (29 maj 2025)
+
+Den här versionen innehåller följande korrigeringar och uppdateringar:
+
+* Ett problem som gjorde att URL:er inte kunde läggas till eller redigeras i QA-läge har åtgärdats. (TGT-51941)
+* En inställning för QA-lägestrafik har lagts till under [!UICONTROL Reports] > [!UICONTROL Report Settings] ( ![ikonen Rapportinställningar](/help/main/assets/icons/Setting.svg) ) för att anpassa den till funktioner från det äldre [!DNL Target]-gränssnittet. (TGT-52228 och TGT-52329)
+* Ett problem har korrigerats där den formulärbaserade aktiviteten genererade felaktiga QA-länkar. Aktivitets-URL:en/platsen innehöll en oavsiktlig &quot;1&quot; i slutet, som nu har tagits bort för att säkerställa korrekt länkning. (TGT-52355 &amp; TGT-52358)
+* Ett problem har korrigerats där den formulärbaserade aktiviteten genererade felaktiga QA-länkar. Aktivitets-URL:en innehöll en oavsedd `http://pid-ppc` i början av URL:en, som nu har tagits bort för att säkerställa korrekt länkning. (TGT-52557)
+* Ett problem har korrigerats där [!DNL Target] genererade ogiltiga QA-länkar för formulärbaserade aktiviteter. (TGT-52528 och TGT-52603)
+* Ett problem har korrigerats där en ändrad aktivitet verkade bearbetas men aldrig slutföras, och inget felmeddelande visades i [!DNL Target]. (TGT-52461)
+* Ett problem där det uppdaterade [!UICONTROL Visual Experience Composer] (VEC) inte kunde identifiera värdet `at_property` automatiskt har korrigerats. (TGT-52347)
+* Korrigerade ett problem som gjorde att två ändringar spelades in när bara en ändring förväntades efter växling mellan [!UICONTROL Browse]- och [!UICONTROL Design]-lägen i VEC när ett formulärelement interagerades. (TGT-52455)
+* Ett problem har korrigerats som gjorde att det inte gick att välja inställningen [!UICONTROL Clicked an Element] i den uppdaterade VEC-inställningen på grund av ett fel som anger att väljaren var ogiltig, redan användes eller inte synlig. (TGT-52467)
+* Ett problem har korrigerats där en [!UICONTROL Recommendation Offer]-ruta i den uppdaterade VEC orsakade att dubblettrutor (spökrutor) visades. Om du växlar mellan Experience A och B flera gånger har fler spökrutor lagts till. (TGT-52505 &amp; TGT-52519)
+* Korrigerade ett fel i det uppdaterade användargränssnittet för [!DNL Target] där ändringar i ett HTML-erbjudande som gjorts via menyn [!UICONTROL Offer] inte återspeglades i den associerade aktiviteten, och vice versa. Det här beteendet matchar nu det gamla användargränssnittet, där uppdateringarna synkroniseras korrekt mellan [!UICONTROL Offer]-menyn och aktiviteten. (TGT-52540 &amp; TGT-52541)
+* Ett problem har korrigerats där de senaste uppdateringarna av [!UICONTROL Experience Fragments] i [!UICONTROL Offers Library] inte reflekterades när de försökte använda dem i en aktivitet. (TGT-52659)
+* Korrigerade ett lokaliseringsfel i den förenklade kinesiska översättningen av ett bekräftelsemeddelande. I den tidigare versionen saknades citattecken runt platsnamnet och i stället användes ett informellt språk, i motsats till kundens formatguide. Den uppdaterade översättningen använder nu rätt interpunktion och en formell ton. (TGT-52364)
 
 ## Borttagning av version av målgränssnitt (23 maj 2025) {#toggle}
 
@@ -129,8 +147,8 @@ Den här versionen innehåller följande korrigeringar och uppdateringar:
 
 | Resurs | Information |
 |--- |--- |
-| [Versionsinformation: Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=sv-SE) | Information om ändringarna i respektive version av Platform Web SDK. |
-| Versionsinformation för [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=sv-SE){target=_blank} | Information om ändringar i varje version av JavaScript-biblioteket [!DNL Adobe Target] at.js. |
+| [Versionsinformation: Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=en) | Information om ändringarna i respektive version av Platform Web SDK. |
+| Versionsinformation för [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | Information om ändringar i varje version av JavaScript-biblioteket [!DNL Adobe Target] at.js. |
 
 ## Dokumentationsändringar, Versionsinformation om tidigare versioner och Experience Cloud Versionsinformation
 
@@ -140,7 +158,7 @@ Förutom anteckningarna för varje release finns det ytterligare information i f
 |--- |--- |
 | [Dokumentationsändringar](/help/main/r-release-notes/doc-change.md) | Visa detaljerad information om uppdateringar av den här guiden som inte ingår i versionsinformationen. |
 | [Versionsinformation för tidigare versioner](/help/main/r-release-notes/release-notes-for-previous-releases.md). | Visa information om nya funktioner och förbättringar i tidigare versioner av Target Standard och Target Premium. |
-| [Versionsinformation för Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=sv-SE){target=_blank} | Läs den senaste versionsinformationen om Adobe Experience Cloud lösningar. |
+| [Versionsinformation för Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target=_blank} | Läs den senaste versionsinformationen om Adobe Experience Cloud lösningar. |
 
 ## Förhandsversionsinformation {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
