@@ -4,9 +4,9 @@ description: Bekanta dig med användargränssnittet och hitta länkar till mer d
 title: Hur använder jag  [!DNL Target] gränssnittet?
 feature: Overview
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-source-git-commit: 41889716a2793c846085d765d5e6f9db0fc70c30
+source-git-commit: df0a0aea7348bfde9114399fd6c1131b740f3c24
 workflow-type: tm+mt
-source-wordcount: '1355'
+source-wordcount: '1463'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,20 @@ ht-degree: 0%
 # Förstå användargränssnittet för [!DNL Target]
 
 Användargränssnittet är ordnat i ett logiskt och användarvänligt format så att du får ut det mesta av [!DNL Adobe Target]. I följande korta översikt får du hjälp att bekanta dig med [!DNL Target] och länkar till mer detaljerad information och stegvisa instruktioner.
+
+>[!NOTE]
+>
+>Nytt 2025 är att [!DNL Target] introducerar ett uppdaterat användargränssnitt och [!UICONTROL Visual Experience Composer] (VEC). Klicka på följande länkar om du vill veta mer:
+>
+>* Versionsinformation för [[!DNL Target Standard/Premium] 25.2.1 (17 februari 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2): Innehåller en sammanfattning av viktiga ändringar i användargränssnittet i [!DNL Target] för [!UICONTROL Activities], [!UICONTROL Recommendations] och [!UICONTROL Visual Experience Composer] (VEC).
+>
+>* Versionsinformation för [[!DNL Target Standard/Premium] 25.1.1 (9 januari 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1): Innehåller en sammanfattning av viktiga ändringar i användargränssnittet i [!DNL Target] för [!UICONTROL Offers Library].
+>
+>* [Förstå  [!DNL Target] gränssnittet](/help/main/c-intro/understand-the-target-ui.md): Ger en kort översikt som hjälper dig att bekanta dig med [!DNL Target] och innehåller länkar till mer detaljerad information och stegvisa instruktioner.
+>
+>* [[!UICONTROL Visual Experience Composer] ändringar ](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md): [!DNL Adobe Target Standard/Premium] 25.2.1-versionen (17 februari 2015) innehåller en uppdaterad version av [!UICONTROL Visual Experience Composer] (VEC). I den här artikeln förklaras skillnaderna mellan äldre och uppdaterade versioner av VEC.
+>
+>* [[!UICONTROL Visual Experience Composer] alternativ](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md): I den här artikeln förklaras det uppdaterade VEC-gränssnittet och dess alternativ.
 
 ## [!DNL Target] gränssnittshuvud
 
