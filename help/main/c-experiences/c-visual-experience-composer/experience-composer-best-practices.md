@@ -4,7 +4,7 @@ description: Lär dig de bästa sätten att få dina upplevelser att fungera som
 title: Vad är [!UICONTROL Visual Experience Composer] bästa praxis och begränsningar?
 feature: Visual Experience Composer (VEC)
 exl-id: cf51bfec-d7fa-4ec1-a5dc-35edefefd3e4
-source-git-commit: 197aa3a0ab060481120abd0d12cdb7b581369929
+source-git-commit: 7577a4da162c94b78cceb8618eefa95cde426081
 workflow-type: tm+mt
 source-wordcount: '2512'
 ht-degree: 0%
@@ -225,7 +225,7 @@ Du kan kringgå problemet genom att komprimera upplevelsefältet och sidlisten g
 
 Tänk på följande begränsningar när du arbetar med VEC:
 
-### Hantera VEC-kompatibilitet med Chrome-tillägg för principändringar.
+### Hantera VEC-kompatibilitet med Chrome-tillägg för principändringar. {#ext}
 
 På grund av uppdaterade [V3-manifestprinciper i Google Chrome](https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3){target=_blank} kan tillägg inte längre ändra den ursprungliga DOM-filen innan den tolkas av webbläsaren. Därför kan vissa säkerhetsskript, som implementeringar av iframe-busting, blockera sidor från att läsas in i VEC.
 
