@@ -4,9 +4,9 @@ description: Lär dig de bästa sätten att få dina upplevelser att fungera som
 title: Vad är [!UICONTROL Visual Experience Composer] bästa praxis och begränsningar?
 feature: Visual Experience Composer (VEC)
 exl-id: cf51bfec-d7fa-4ec1-a5dc-35edefefd3e4
-source-git-commit: 0192f66413cc98e5e91168d0ee558f1eb66e67d8
+source-git-commit: 197aa3a0ab060481120abd0d12cdb7b581369929
 workflow-type: tm+mt
-source-wordcount: '2414'
+source-wordcount: '2512'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Om du vill aktivera Förbättrad Experience Composer på aktivitetsnivå när du
 
 ### Du kan tillåtslista vissa IP-adresser om Förbättrad Visual Experience Composer inte läses in på säkra sidor på din webbplats.
 
-Problem med att läsa in den utökade Visual Experience Composer kan lösas genom att du tillåtslista följande IP-adresser. De här IP-adresserna är för Adobe-servern som används som proxy för Enhanced Experience Composer. De behövs bara för aktivitetsredigering. Besökare på webbplatsen behöver inte tillåtslista dessa IP-adresser.
+Problem med att läsa in den utökade Visual Experience Composer kan lösas genom att du tillåtslista följande IP-adresser. De här IP-adresserna är för Adobe-servern som används som proxy för Förbättrad Experience Composer. De behövs bara för aktivitetsredigering. Besökare på webbplatsen behöver inte tillåtslista dessa IP-adresser.
 
 USA: 52.55.99.45, 54.80.158.92 och 54.204.197.253
 
@@ -43,7 +43,7 @@ Asien-Stillahavsområdet (APAC): 52.193.67.35, 54.199.198.109 och 54.199.241.57
 
 Allt som finns omedelbart inuti body-elementet ska ha ett unikt ID. Om nya element infogas i brödtexten och koden flyttas runt, är det lättare att identifiera åtminstone de överordnade elementen.
 
-Adobe Target behöver inga ID, men om du använder ID:n blir upplevelserna som skapas med upplevelsedispositionen tillförlitligare. Target använder CSS-väljare för att ändra innehållet när upplevelsen levereras. När du redigerar en upplevelse fäster Visual Experience Composer väljaren till det närmaste överordnade objektet med ett id-attribut som inte är null till det HTML-element som ändras. Det är därför inte tillrådligt att använda någon mekanism, inklusive JavaScript-bibliotek, som ställer in eller ändrar HTML ID-attribut. Även om dessa ID:n kan vara tillgängliga för Target Experience Composer för att skapa aktiviteter, kanske det ID som användes när upplevelsen skapades inte är tillgängligt när upplevelsen körs om JavaScript ändrar ID:n. Om ett ID inte är tillgängligt misslyckas väljaren som är förankrad till ID:t.
+Adobe Target behöver inga ID, men om du använder ID:n blir upplevelserna som skapas med upplevelsedispositionen tillförlitligare. Target använder CSS-väljare för att ändra innehållet när upplevelsen levereras. När du redigerar en upplevelse fäster Visual Experience Composer väljaren till det närmaste överordnade objektet med ett id-attribut som inte är null till det HTML-element som ändras. Därför är det inte tillrådligt att använda någon mekanism, inklusive JavaScript-bibliotek, som ställer in eller ändrar HTML ID-attribut. Även om dessa ID:n kan vara tillgängliga för Target Experience Composer för att skapa aktiviteter, kanske det ID som användes när upplevelsen skapades inte är tillgängligt när upplevelsen körs om JavaScript ändrar ID:n. Om ett ID inte är tillgängligt misslyckas väljaren som är förankrad till ID:t.
 
 ### Namnge CSS-klasser så att de är lätta att identifiera.
 
@@ -86,7 +86,7 @@ VEC hanterar webbplatsen bakom kulisserna med en proxyserver som uppdaterade lä
 Om du till exempel har vidtagit två åtgärder:
 
 * En klass har lagts till i Element 1
-* HTML för element 1 har redigerats
+* Redigerade HTML för Element 1
 
 Varje ändring skapar ett nytt element i Visual Experience Composer. Eftersom den andra åtgärden ändrar element 1 har den andra åtgärden inte längre något att ändra om du tar bort element 1, så ändringen fungerar inte längre.
 
@@ -126,7 +126,7 @@ Testa sidan flera gånger för att säkerställa att leveransen fungerar som fö
 
 När du använder Förbättrad Experience Composer hanteras webbplatsen bakom scenerna av en proxyserver som uppdaterar alla länk-URL:er så att de fungerar i utkastet. Om du lägger till en bastagg tolkas alla dessa URL:er av webbläsaren så att de ser brutna ut.
 
-### Viktig text på webbplatsen som kan användas för målinriktning bör behållas i HTML-kod i ett -element.
+### Viktig text på webbplatsen som kan användas för målinriktning bör finnas i HTML-koden i ett -element.
 
 Du kan t.ex. inte ange text i kundvagnen som mål i VEC om koden är som följer:
 
@@ -225,6 +225,18 @@ Du kan kringgå problemet genom att komprimera upplevelsefältet och sidlisten g
 
 Tänk på följande begränsningar när du arbetar med VEC:
 
+### Hantera VEC-kompatibilitet med Chrome-tillägg för principändringar.
+
+På grund av uppdaterade [V3-manifestprinciper i Google Chrome](https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3){target=_blank} kan tillägg inte längre ändra den ursprungliga DOM-filen innan den tolkas av webbläsaren. Därför kan vissa säkerhetsskript, som implementeringar av iframe-busting, blockera sidor från att läsas in i VEC.
+
+För att säkerställa kompatibilitet bör dessa skript inaktiveras villkorligt när sidan läses in inuti iframe [!DNL Target]. Den här processen kan utföras på ett säkert sätt genom att kontrollera om objektet `window.adobeVecExtension` finns, vilket injiceras av [!DNL Target] under VEC-inläsning.
+
+Följande kodfragment är exempel på iframe-busting-kod som kan leda till att webbsidan inte läses in i VEC:
+
+`window.top.location = window.self.location;`
+
+`top.location.href = self.location.href;`
+
 ### Du kan inte flytta ett element utanför en behållare följt av en CSS-egenskap.
 
 Ett element kan inte flyttas utanför en behållare som följs av en CSS-egenskap.
@@ -245,7 +257,7 @@ Om ett element har flyttats till en annan plats, och du väljer den överordnade
 
 Om sidan till exempel innehåller en karusell med sex bilder och du vill byta ut en bild mot den andra bilden i karusellen, fungerar inte åtgärden Växla bild.
 
-Du kan lösa problemet genom att markera den överordnade behållaren och använda åtgärden Redigera HTML för att redigera HTML i karusellen för att uppdatera bildkällan för den önskade bilden.
+Du kan lösa problemet genom att välja den överordnade behållaren och använda åtgärden Redigera HTML för att redigera HTML för karusellen för att uppdatera bildkällan för den önskade bilden.
 
 ### Det går inte att ändra storlek på bilder i en mbox.
 
@@ -255,7 +267,7 @@ Om du byter ut en bild i ett mbox-element och sedan försöker ändra storlek p�
 
 När du har bytt bild kan du inte redigera Scene7-URL:en.
 
-### Det går inte att redigera HTML-element med extern källa.
+### HTML-element med extern källa kan inte redigeras.
 
 Till exempel: video, ljudtaggar, inbäddning, iFrames, bildrutor.
 
