@@ -20,7 +20,7 @@ Med A4T-integreringen kan du:
 * Använd funktionen [Automatisk allokering](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) för beväpnade bandit för att driva trafik till vinnande upplevelser.
 * Använd algoritmen [Automatiskt mål](/help/main/c-activities/auto-target/auto-target-to-optimize.md) för maskininlärning för att välja den bästa upplevelsen för varje besökare. [!UICONTROL Auto-Target] väljer den bästa upplevelsen baserat på varje användares profil, beteende och kontext, samtidigt som ett [!DNL Adobe Analytics] målmått och de omfattande rapporterings- och analysfunktionerna i [!DNL Adobe Analytics] används.
 
-Kontrollera att du har [implementerat A4T för användning med A/B Test- och Experience Targeting-aktiviteter](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md). Om du använder `analyticsLogging = client_side` måste du också skicka värdet `sessionId` till [!DNL Analytics]. Mer information finns i [Analytics for Target-rapportering (A4T)](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html){target=_blank} i *Adobe Target Developer Guide*.
+Kontrollera att du har [implementerat A4T för användning med A/B Test- och Experience Targeting-aktiviteter](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md). Om du använder `analyticsLogging = client_side` måste du också skicka värdet `sessionId` till [!DNL Analytics]. Mer information finns i [Analytics for Target-rapportering (A4T)](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html?lang=sv-SE){target=_blank} i *Adobe Target Developer Guide*.
 
 Så här kommer du igång:
 
@@ -132,7 +132,7 @@ Vissa begränsningar och anteckningar gäller för både [!UICONTROL Auto-Alloca
 
 * När du använder [!DNL Analytics] som datakälla för en [!UICONTROL Auto-Target]-aktivitet avslutas sessionerna efter sex timmar. Konverteringar som inträffar efter sex timmar räknas inte.
 
-Mer information finns i [Attribution models and lookback windows](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html) i *Analytics Tools Guide*.
+Mer information finns i [Attribution models and lookback windows](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=sv-SE) i *Analytics Tools Guide*.
 
 ## Självstudiekurser
 
@@ -142,12 +142,12 @@ Mer information finns i [Attribution models and lookback windows](https://experi
 
 I den här självstudiekursen får du hjälp med de rekommenderade ändringarna för analys av [!UICONTROL Auto-Allocate]-aktiviteter i [!DNL Analysis Workspace].
 
-Mer information finns i [Konfigurera A4T-rapporter i Analysis Workspace för automatisk allokering av aktiviteter](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank} i *Adobe Target självstudier*.
+Mer information finns i [Konfigurera A4T-rapporter i Analysis Workspace för automatisk allokering av aktiviteter](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html?lang=sv-SE){target=_blank} i *Adobe Target självstudier*.
 
 ### Konfigurera A4T-rapporter i [!DNL Analysis Workspace] för [!UICONTROL Auto-Target]-aktiviteter
 
 I den här självstudiekursen får du hjälp med de rekommenderade ändringarna för analys av [!UICONTROL Auto-Target]-aktiviteter i [!DNL Analysis Workspace].
 
-Mer information finns i [Konfigurera A4T-rapporter i Analysis Workspace för Automatiskt mål-aktiviteter](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html){target=_blank} i *Adobe Target-självstudiekurser*.
+Mer information finns i [Konfigurera A4T-rapporter i Analysis Workspace för Automatiskt mål-aktiviteter](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=sv-SE){target=_blank} i *Adobe Target-självstudiekurser*.
 
 
