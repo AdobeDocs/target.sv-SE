@@ -4,9 +4,9 @@ description: Lär dig de bästa sätten att få dina upplevelser att fungera som
 title: Vad är [!UICONTROL Visual Experience Composer] bästa praxis och begränsningar?
 feature: Visual Experience Composer (VEC)
 exl-id: cf51bfec-d7fa-4ec1-a5dc-35edefefd3e4
-source-git-commit: 7577a4da162c94b78cceb8618eefa95cde426081
+source-git-commit: d94dad7795ef024feb19234c2a20423b074ea768
 workflow-type: tm+mt
-source-wordcount: '2512'
+source-wordcount: '2534'
 ht-degree: 0%
 
 ---
@@ -236,6 +236,14 @@ Följande kodfragment är exempel på iframe-busting-kod som kan leda till att w
 `window.top.location = window.self.location;`
 
 `top.location.href = self.location.href;`
+
+En enkel kontroll kan användas för att verifiera när en webbsida är inbäddad i [!DNL Target]. Ett kodfragment bör se ut så här:
+
+```
+if(!window.adobeVecExtension) {
+    // additional security logic
+}
+```
 
 ### Du kan inte flytta ett element utanför en behållare följt av en CSS-egenskap.
 
