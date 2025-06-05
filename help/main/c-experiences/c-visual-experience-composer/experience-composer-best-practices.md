@@ -4,9 +4,9 @@ description: Lär dig de bästa sätten att få dina upplevelser att fungera som
 title: Vad är [!UICONTROL Visual Experience Composer] bästa praxis och begränsningar?
 feature: Visual Experience Composer (VEC)
 exl-id: cf51bfec-d7fa-4ec1-a5dc-35edefefd3e4
-source-git-commit: d7ca0867314808f4d38c0de0b8c1e1f0cbf70cc0
+source-git-commit: 1f2c6bbabf0158672e5f926ffdf9662637cd8416
 workflow-type: tm+mt
-source-wordcount: '2434'
+source-wordcount: '2435'
 ht-degree: 0%
 
 ---
@@ -301,6 +301,7 @@ Tänk på följande begränsningar när du arbetar med VEC:
 
 ### Hanterar VEC-kompatibilitet med ändringar av tilläggsprincipen för [!DNL Chrome]. {#ext}
 
++++Information
 På grund av uppdaterade [V3-manifestprinciper i Google Chrome](https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3){target=_blank} kan tillägg inte längre ändra den ursprungliga DOM-filen innan den tolkas av webbläsaren. Därför kan vissa säkerhetsskript, som implementeringar av iframe-busting, blockera sidor från att läsas in i VEC.
 
 För att säkerställa kompatibilitet bör dessa skript inaktiveras villkorligt när sidan läses in inuti iframe [!DNL Target]. Den här processen kan utföras på ett säkert sätt genom att kontrollera om objektet `window.adobeVecExtension` finns, vilket injiceras av [!DNL Target] under VEC-inläsning.
