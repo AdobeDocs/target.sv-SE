@@ -1,0 +1,130 @@
+---
+keywords: målanvändargränssnitt;användargränssnitt;ui;vanliga frågor;faq
+description: Frågor och svar om det uppdaterade användargränssnittet i [!DNL Target]t.
+title: Var kan jag hitta vanliga frågor om det uppdaterade  [!DNL Target] användargränssnittet?
+feature: Overview
+hide: true
+hidefromtoc: true
+source-git-commit: 8efcbd1c610a71c9afcb6a0bb6bd31bff6876a8f
+workflow-type: tm+mt
+source-wordcount: '759'
+ht-degree: 0%
+
+---
+
+# Uppdaterat Vanliga frågor och svar om målgränssnitt
+
+Hitta svar på vanliga frågor om det uppdaterade användargränssnittet för [!DNL Adobe Target], med praktiska tips och länkar för mer information.
+
+{{updated-ui}}
+
+## Är det uppdaterade användargränssnittet tillgängligt för alla aktuella [!DNL Target]-kunder, [!UICONTROL Standard] och [!UICONTROL Premium]?
+
++++Information
+Det uppdaterade användargränssnittet är tillgängligt för alla [!DNL Target]-kunder, [!UICONTROL Standard] och [!UICONTROL Premium]. Ingen uppgraderad licens eller SKU krävs.
+
+Distributionen av det nya användargränssnittet för [!DNL Target] slutfördes den 27 maj 2025. Då har alla kunder tillgång till den senaste gränssnittsversionen.
+
+Mer information om utrullning och borttagning av den tillfälliga gränssnittsversionen finns i [Borttagning av målgränssnittsversion (23 maj 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) i *Versionsinformation för tidigare versioner*.
+
++++
+
+## Kommer den aktuella listan med fel att korrigeras innan det gamla användargränssnittet har tagits bort?
+
++++Information
+[!DNL Target]-teamet arbetar aktivt med problem som rör den nya UI-utrullningen. Uppdateringar och pågående förbättringar beskrivs i versionsinformationen.
+
+Mer information om utrullning och borttagning av den tillfälliga gränssnittsversionen finns i [Borttagning av målgränssnittsversion (23 maj 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) i *Versionsinformation för tidigare versioner*.
+
++++
+
+## Kan kunder ansöka om att användargränssnittets version ska behållas för sina konton om de föredrar att behålla det gamla användargränssnittet?
+
++++Information
+Användargränssnittsversionen är en tillfällig funktion som gör att du kan växla mellan det uppdaterade [!DNL Target]-användargränssnittet och den äldre versionen med en växlingsknapp. Det här alternativet är endast tillgängligt under den sista fasen av UI-utrullningen. När utrullningen är klar tas den bort och alla användare övergår permanent till det uppdaterade användargränssnittet den 22 juni 2025.
+
+Det finns flera begränsningar för att använda växlingsknappen för användargränssnittsversionen, inklusive synlighet för nya aktiviteter, redigering av befintliga aktiviteter och konsekvens i aktivitetsinformationen.
+
+Mer information om utrullning och borttagning av den tillfälliga gränssnittsversionen finns i [Borttagning av målgränssnittsversion (23 maj 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) i *Versionsinformation för tidigare versioner*.
+
+++++
+
+## Kan [!DNL Adobe] fördröja migreringen till det uppdaterade användargränssnittet tills den fullständiga utrullningen är klar?
+
++++Information
+[!DNL Target] erbjuder inte möjlighet att fördröja eller anpassa tidpunkten för gränssnittsmigreringarna. Kunderna övergår i faser och utrullningsschemat hanteras av [!DNL Adobe]. Information om de senaste uppdateringarna finns i versionsinformationen.
+
+Det finns flera begränsningar för att använda växlingsknappen för användargränssnittsversionen, inklusive synlighet för nya aktiviteter, redigering av befintliga aktiviteter och konsekvens i aktivitetsinformationen.
+
+Mer information om utrullning och borttagning av den tillfälliga gränssnittsversionen finns i [Borttagning av målgränssnittsversion (23 maj 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) i *Versionsinformation för tidigare versioner*.
+
++++
+
+## Hur vet jag om en aktivitet har skapats eller redigerats i det gamla användargränssnittet eller i det uppdaterade användargränssnittet?
+
++++Information
+Aktiviteter som skapas eller redigeras i det uppdaterade användargränssnittet följer samma guidade trestegsarbetsflöde och kan innehålla gränssnittsspecifika metadata eller formatering som inte finns i äldre aktiviteter. Även om det inte finns någon synlig tagg eller etikett i gränssnittet, kan skillnader i layout, struktur eller tillgängliga alternativ (till exempel förbättrade funktioner för målinriktning eller förhandsvisning) visa vilket gränssnitt som användes. Detaljerad identifiering finns i aktivitetens ändringshistorik eller i implementeringsloggarna.
+
++++
+
+## Vad är det för skillnad mellan att skapa erbjudanden i det gamla jämfört med det uppdaterade användargränssnittet? Krävs ytterligare attribut?
+
++++Information
+Muti, hjälp behövs.
+
++++
+
+## Vad hände med länkarna för förhandsgranskning av erbjudanden i det uppdaterade användargränssnittet?
+
++++Information
+Muti, hjälp behövs.
+
++++
+
+## Jag måste inaktivera [!UICONTROL Enhanced Experience Composer] när jag redigerar befintliga aktiviteter med det uppdaterade användargränssnittet. Har [!DNL Adobe] observerat liknande beteende med andra kunder?
+
++++Information
+Muti, hjälp behövs.
+
++++
+
+## Kan du hänvisa mig till de nya IP-adresserna för tillåtelselistning?
+
++++Information
+Mer information om IP-adresser som du kan tillåtslista finns i följande artiklar:
+
+* **Förbättrad Experience Composer (EEC)**: Se [EEG läser inte in en intern QA-URL som inte är tillgänglig på offentlig IP](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md#section_D29E96911D5C401889B5EACE267F13CF) i *Felsökning av problem som rör Förbättrad Experience Composer*
+* **[!UICONTROL Recommendations]**: Se [IP-adresser som används av rekommendationsservrar för flödeshantering](/help/main/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md).
+
++++
+
+## Vi har fått problem med att Bläddra inte fungerar eller tillåter oss att bläddra. Har [!DNL Adobe] observerat liknande beteende med andra kunder?
+
++++Information
+Muti, hjälp behövs.
+
++++
+
+### Återställs miljön som standard till mellanlagring i det nya gränssnittet för rekommendationer?
+
++++Information
+Muti, hjälp behövs.
+
++++
+
+## Hur komplicerad är det att ansluta [!DNL Adobe Analytics] eller [!DNL Customer Journey Analytics] till [!DNL Target]?
+
++++Information
+Integrering av [!DNL Adobe Analytics] (AA) eller [!DNL Customer Journey Analytics] (CJA) med [!DNL Target] kan variera från måttlig till avancerad insats, beroende på den aktuella konfigurationen. Om du använder [!DNL Adobe Experience Platform] och har implementerat [!DNL Platform Web SDK] blir integreringen smidigare. Äldre implementeringar som använder at.js eller AppMeasurement kan dock kräva ytterligare konfiguration, inklusive:
+
+* Aktivera [Analytics för Target-integrering (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md)
+* Integrera [[!DNL Target] rapportering i [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md).
+* Mappa rapportsviter och datavyer
+* Säkerställ enhetlig identitetsupplösning (ECID)
+* Validera inställningar för datainsamling och dataattribuering
+
++++
+
+
+
+
