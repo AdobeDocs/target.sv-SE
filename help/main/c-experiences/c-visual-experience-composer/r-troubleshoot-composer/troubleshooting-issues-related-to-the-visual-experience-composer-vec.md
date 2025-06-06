@@ -4,9 +4,9 @@ description: Lär dig hur du felsöker problem i [!UICONTROL Visual Experience C
 title: Hur felsöker jag problem relaterade till [!UICONTROL Visual Experience Composer]?
 feature: Visual Experience Composer (VEC)
 exl-id: ca251025-25e8-4e56-9b59-81310fc763c1
-source-git-commit: 7c0d0154b81fbd3f89a82b31cd18541a7f0ea1a7
+source-git-commit: ef5df0ae37ca1d07c0e51c06ed78739b2d2983fc
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '1009'
 ht-degree: 0%
 
 ---
@@ -17,14 +17,18 @@ Visningsproblem kan ibland uppstå i [!DNL Adobe Target] [!UICONTROL Visual Expe
 
 ## När jag öppnar min webbplats i [!UICONTROL Visual Experience Composer] läses inte [!DNL Target]-biblioteken in. (endast VEC) {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
 
++++Information
 [!DNL Target] lägger till två parametrar (`mboxEdit=1` och `mboxDisable=1`) när webbplatsen öppnas i [!UICONTROL Visual Experience Composer].
 
 Om din webbplats (särskilt Single Page Apps) trimmar parametrar eller tar bort dem när du navigerar från en sida till en annan (utan att behöva läsa in en sida på nytt), bryts [!DNL Target]-funktionen och [!DNL Target]-biblioteken läses inte in.
 
 Undvik problemet genom att se till att du inte trimmar eller tar bort de här två parametrarna.
 
++++
+
 ## Min sida öppnas inte i EEG eller laddas långsamt. Aktiviteter och upplevelser läses in långsamt i VEC. (endast VEC) {#section_71E7601BE9894E3DA3A7FBBB72B6B0C1}
 
++++Information
 Flera problem kan påverka sidprestanda i [!UICONTROL Target]-funktionsdispositioner. Några vanliga problem är:
 
 * Det finns ingen mbox på sidan.
@@ -44,7 +48,6 @@ Om varken [!UICONTROL Visual Experience Composer] eller [!UICONTROL Enhanced Exp
 >[!NOTE]
 >
 >Utöver följande information kan du använda [[!DNL Adobe Target] [!UICONTROL Visual Editing Helper]-tillägget ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) för [!DNL Google Chrome].
-
 
 >[!NOTE]
 >
@@ -105,19 +108,22 @@ Om varken [!UICONTROL Visual Experience Composer] eller [!UICONTROL Enhanced Exp
 
 Öppna [!DNL Target] när du har konfigurerat ett tillägg. Dina sidor ska nu läsas in i [!UICONTROL Visual Experience Composer], även om [!UICONTROL Enhanced Experience Composer] är inaktiverad.
 
++++
+
 ## Min sida visas inte i VEC (endast VEC) {#does-not-load}
 
++++Information
 * Bästa kompatibilitet med VEC säkerställs av den senaste versionen av tillägget: [[!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper extension]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md).
 
   Verifiera om du använder den senaste versionen genom att gå till [!UICONTROL Extensions] > [!UICONTROL Manage Extensions] och sedan klicka på [!UICONTROL Details].
 
 * [!UICONTROL Visual Experience Composer] kräver redigeringsbibliotek för att kunna utföra ändringar på webbsidan. Dessa bibliotek är inbäddade i at.js-biblioteket och hämtas av tillägget från [!DNL Adobe] servrar varje gång VEC används.
 
-  Tillägget hämtar biblioteket at.js oavsett om at.js eller [!DNL Adobe Experience Platform Web SDK] redan ingår på sidan.
+  Tillägget hämtar at.js-biblioteket oavsett om at.js eller [!DNL Adobe Experience Platform Web SDK] redan ingår på sidan.
 
   Kontrollera att inga ogiltiga ändringar har lagts till i de at.js-huvuden som konfigurerats i avsnittet [!UICONTROL Administration] > [!UICONTROL Implementation].
 
-* Kontrollera att webbsidan inte blockerar begäranden som är obligatoriska för inläsning när de är inbäddade i en iFrame. Detta inkluderar användning av CSP-direktiv för ramöverordnade eller anpassad JS-kod som är inbäddad på kundens webbplats, meta HTML-taggar eller rubriken för x-frame-options.
+* Kontrollera att webbsidan inte blockerar begäranden som är obligatoriska för inläsning när de är inbäddade i en iFrame. Detta inkluderar användning av CSP-direktiv för ramöverordnade eller anpassad JS-kod som är inbäddad på kundens webbplats, HTML-metataggar eller rubriken för x-frame-options.
 
 * Kontrollera att webbsidans JavaScript inte stör författarbiblioteken. Använd inte eller inkludera filer med följande reserverade namn:
 
@@ -137,14 +143,22 @@ Om varken [!UICONTROL Visual Experience Composer] eller [!UICONTROL Enhanced Exp
 * Du angav en ogiltig URL.
 * Om webbplatsen inte kan läsas in i VEC, eller om den fungerar oväntat, är en möjlig åtgärd att acceptera cookies på webbplatsen i webbläsaren innan du försöker läsa in webbplatsen i [!DNL Target].
 
-## VEC-värdet visas som brutet när jag använder bläddringsläge. (endast VEC) {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
++++
 
-Om du använder bläddringsläget och har åtkomst till en URL som inte har [!DNL Target] bibliotek implementerat ([ at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html?lang=sv-SE){target=_blank} eller [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=sv-SE){target=_blank}) eller som innehåller en bildrutebusterrubrik, visas VEC som brutet. På grund av säkerhetsproblem i webbläsaren kan [!DNL Target] inte komma åt den URL som du navigerade till eller så uppdateras inte VEC-URL:en korrekt om sidan läses in.
+## VEC visas som brutet när jag använder läget [!UICONTROL Browse]. (endast VEC) {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
+
++++Information
+Om du använder läget [!UICONTROL Browse] och har åtkomst till en URL som inte har [!DNL Target] bibliotek implementerat ([ at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html){target=_blank} eller [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}) eller som innehåller ett bildrutebusterhuvud, visas VEC-uttrycket som brutet. På grund av säkerhetsproblem i webbläsaren kan [!DNL Target] inte komma åt den URL som du navigerade till eller så uppdateras inte VEC-URL:en korrekt om sidan läses in.
 
 Problemet inträffar eftersom VEC läser in webbsidan i en `<iframe>`. De aktuella säkerhetsmekanismerna i webbläsare förhindrar att användargränssnittet i [!DNL Target] kommer åt elementen i den angivna bildrutan på grund av principen för samma ursprung. Webbläsare blockerar skript som försöker komma åt en bildruta med en annan ursprung och som innehåller information som `location.href`.
 
-Du måste använda det nya [hjälptillägget för visuell redigering](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) (rekommenderas) eller det [gamla tillägget](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) för att mata in biblioteket [!DNL Target] på sidorna för att kunna bläddra optimalt.
+Du måste använda det nya tillägget [Hjälp för visuell redigering](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) för att kunna mata in biblioteket [!DNL Target] på sidorna för att kunna bläddra optimalt.
+
++++
 
 ## Problem orsakade av CSS-konflikter i [!UICONTROL Visual Experience Composer]
 
++++Information
 Kontrollera om det finns några CSS-filer som kan påverka synligheten när webbsidan läses in i redigeraren. Om du till exempel använder egenskapen `overflow: hidden` i sidbrödtexten kan det leda till rullningsproblem eller utlösa klickhändelser som kan störa menyn för redigering.
+
++++
