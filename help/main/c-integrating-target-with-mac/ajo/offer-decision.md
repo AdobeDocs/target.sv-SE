@@ -1,12 +1,12 @@
 ---
-keywords: alternativ för visuell upplevelsedisposition;alternativ för upplevelsedisposition;alternativ för upplevelsedisposition;beslut om erbjudande;offer decisioning;ajo;reseoptimering
+keywords: alternativ för visuell upplevelsedisposition;alternativ för upplevelsedisposition;alternativ för upplevelsedisposition;beslut om erbjudande;ajo;reseoptimering
 description: Lär dig hur du lägger till ett erbjudandebeslut som skapats i [!DNL Adobe Journey Optimizer]  till en aktivitet.
 title: Hur använder jag erbjudandebeslut?
 feature: Integrations
 exl-id: cec46d5c-bb5e-4cc9-8785-370f158d3f8e
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: d31c9a6f47ea73342cfb638600f351ade4be7013
 workflow-type: tm+mt
-source-wordcount: '938'
+source-wordcount: '887'
 ht-degree: 0%
 
 ---
@@ -19,19 +19,19 @@ Lägg till offertbeslut som har skapats i [!DNL Adobe Journey Optimizer] till [!
 
 Mer information om [!DNL Adobe Journey Optimizer] och erbjudandebeslut finns i följande avsnitt i *[!DNL Journey Optimizer]*-dokumentationen:
 
-* [Kom igång med Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html?lang=sv-SE)
+* [Kom igång med Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html)
 
-* [Om beslutshantering](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html?lang=sv-SE)
+* [Om beslutshantering](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html)
 
 ## Förutsättningar
 
 Om du vill använda erbjudandebeslut i [!DNL Target] behöver du följande:
 
-* [!DNL Adobe Target Standard] eller [!DNL Adobe Target Premium] implementerat med [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=sv-SE){target=_blank}.
+* [!DNL Adobe Target Standard] eller [!DNL Adobe Target Premium] som har implementerats med [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}.
 
   Funktionen är inte tillgänglig vid implementering av [!DNL Target] med at.js eller andra [!DNL Target] SDK:er.
 
-* [!DNL Adobe Journey Optimizer Ultimate] (AJO + Offer decisioning) eller [!DNL Adobe Experience Platform] och programtjänsttillägget [!UICONTROL Offer Decisioning].
+* [!DNL Adobe Journey Optimizer Ultimate] (AJO + Offer Decisioning) eller [!DNL Adobe Experience Platform] och programtjänsttillägget [!UICONTROL Offer Decisioning].
 
 ## Exempel på användningsområden
 
@@ -64,29 +64,27 @@ I [!DNL Adobe Journey Optimizer] kan du skapa ett personligt startsidans hjälte
    >
    >Du kan också skapa en upplevelse som använder [!UICONTROL Offer Decisions] i [[!UICONTROL Form-Based Experience Composer]](/help/main/c-experiences/form-experience-composer.md).
 
-1. Klicka på **[!UICONTROL Insert Before]**, **[!UICONTROL Insert After]** eller **[!UICONTROL Replace Content]** och klicka sedan på **[!UICONTROL Offer Decision]**.
+1. Klicka på **[!UICONTROL Replace Content]** och sedan på **[!UICONTROL Offer Decision]**.
 
    Alternativet [!UICONTROL Offer Decision] är endast tillgängligt när du redigerar eller skapar [ manuella [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) - eller [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT)-aktiviteter. Det här alternativet är inte tillgängligt för andra aktivitetstyper. Vilka alternativ som är tillgängliga på menyn varierar beroende på vilket element som är markerat.
 
    ![Alternativ-menyn i Visual Experience Composer](assets/options-menu.png)
 
-1. Välj önskad sandlåda och placering i dialogrutan **[!UICONTROL Add Offer Decision]**.
+1. Markera önskad sandlåda i fältet **[!UICONTROL Add Offer Decision]** till höger om VEC och klicka sedan på Välj erbjudande.placering.
 
-   Med en [sandlåda](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/overview.html?lang=sv-SE){target=_blank} i [!DNL Adobe Experience Platform] kan du partitionera instansen i virtuella miljöer. Du kan till exempel ha en produktionsmiljö och en staging-miljö. En [placering](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/create-components/creating-placements.html?lang=sv-SE){target=_blank} i [!DNL Adobe Journey Optimizer] hjälper till att se till att rätt erbjudandeinnehåll visas på rätt plats.
+   Med en [sandlåda](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/overview.html){target=_blank} i [!DNL Adobe Experience Platform] kan du partitionera instansen i virtuella miljöer. Du kan till exempel ha en produktionsmiljö och en staging-miljö. En [placering](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/create-components/creating-placements.html){target=_blank} i [!DNL Adobe Journey Optimizer] säkerställer att rätt erbjudandeinnehåll visas på rätt plats.
 
    ![Listrutorna Sandlåda och Placeringar i dialogrutan Lägg till erbjudandebeslut](/help/main/c-integrating-target-with-mac/ajo/assets/sandbox-placement.png)
 
-1. Välj önskat erbjudande och klicka sedan på **[!UICONTROL Create]**.
+1. Välj önskat erbjudande och välj erbjudande och klicka sedan på **[!UICONTROL Add]**.
 
-   ![Valt erbjudandebeslut i dialogrutan Lägg till erbjudande](assets/offer-decision.png)
+   ![Välj beslutsdialogruta för erbjudande](/help/main/c-integrating-target-with-mac/ajo/assets/select-offer-decision.png)
 
-   Din webbplats visas i VEC där du kan se det nya erbjudandebeslutet i rutan [!UICONTROL Modifications] till höger. Du kan hovra över ändringen och klicka på ikonen [!UICONTROL Preview] för att undersöka beslutet om erbjudandet.
+   Din webbplats visas i VEC där du kan se erbjudandebeslutet som nyligen har skapats i [!UICONTROL Modifications]-spåret. Du kan klicka på ett erbjudande under [!UICONTROL Offer Preview] längst ned på [!UICONTROL Offer Decision] för att undersöka erbjudandebeslutet.
 
-   ![Ikon för förhandsgranskning](assets/preview-icon.png)
+   <!--You can examine the various offers contained in the offer by clicking the appropriate icon at the bottom of the [!UICONTROL Offer Preview] dialog box, including the fallback offer. A fallback offer is the default offer displayed when a visitor is not eligible for any of the personalized offers in the collection.-->
 
-   Du kan undersöka de olika erbjudandena genom att klicka på lämplig ikon längst ned i dialogrutan [!UICONTROL Offer Preview], inklusive reserverbjudandet. Ett reserverbjudande är standarderbjudande som visas när en besökare inte är berättigad till något av de personaliserade erbjudandena i samlingen.
-
-   ![Förhandsgranska erbjudande](assets/offer-preview.png)
+   ![Förhandsgranska erbjudande](assets/offer-preview2.png)
 
 1. Slutför skapandet av aktiviteten genom att slutföra [!UICONTROL Targeting]- och [!UICONTROL Goals & Settings]-stegen i det guidade arbetsflödet i tre delar.
 
@@ -94,13 +92,11 @@ I [!DNL Adobe Journey Optimizer] kan du skapa ett personligt startsidans hjälte
    >
    >Om du vill vara säker på att aktiviteten [!DNL Target] är anpassad kontrollerar du att de aktuella start-/slutdatumen för aktiviteten är synkroniserade med startdatumet/slutdatumet för erbjudandebeslutet i [!DNL Adobe Journey Optimizer]. Om [!DNL Target] start-/slutdatum ligger utanför erbjudandebeslutets start-/slutdatumintervall visas standardinnehållet för [!DNL Target] för besökarna.
 
-   ![Meddelande om beslutsvarning](/help/main/c-integrating-target-with-mac/ajo/assets/offer-decision-warning.png)
-
 ## Anteckningar och begränsningar
 
 Tänk på följande när du arbetar med offertbeslut:
 
-* Integreringen av offera decisioningen fungerar för [!DNL Target] implementeringar baserat på [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=sv-SE){target=_blank}. Den här funktionen är inte tillgänglig vid implementering av [!DNL Target] med at.js eller andra [!DNL Target] SDK:er.
+* Faktisk integrering av erbjudandebeslut fungerar för [!DNL Target] implementeringar baserat på [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}. Den här funktionen är inte tillgänglig vid implementering av [!DNL Target] med at.js eller andra [!DNL Target] SDK:er.
 
 * Integrationen [!DNL Target]/[!DNL Adobe Journey Optimizer] stöder endast [ manuella [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types)- och [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT)-aktiviteter. Den här funktionen är inte tillgänglig för andra aktivitetstyper.
 
