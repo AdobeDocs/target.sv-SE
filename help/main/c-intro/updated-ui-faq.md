@@ -5,21 +5,31 @@ title: Var kan jag hitta vanliga frågor om det uppdaterade  [!DNL Target] anvä
 feature: Overview
 hide: true
 hidefromtoc: true
-source-git-commit: 5f41bcebce4e103fada006f53cd3ccd297769d0d
+source-git-commit: b29614680b27c9c33f11eed85d8ab4feebc28b0d
 workflow-type: tm+mt
-source-wordcount: '770'
+source-wordcount: '901'
 ht-degree: 0%
 
 ---
 
-# Uppdaterat Vanliga frågor och svar om målgränssnitt
+# [!DNL Target] Vanliga frågor och svar om gränssnittsuppdatering
 
-Hitta svar på vanliga frågor om det uppdaterade användargränssnittet för [!DNL Adobe Target], med praktiska tips och länkar för mer information.
+Nytt 2025 är att det uppdaterade användargränssnittet för [!DNL Adobe Target] ger en smidig, intuitiv upplevelse som är utformad för att förbättra användbarheten och effektiviteten i alla roller. Vanliga frågor och svar om det nya [!DNL Target]-gränssnittet och [!UICONTROL Visual Experience Composer]-gränssnittet (VEC), inklusive navigeringsändringar, funktionsplatser och borttagning av den tillfälliga gränssnittsversionen. Vare sig du är marknadsförare, utvecklare eller administratör kan du med de här vanliga frågorna få en smidig övergång och få ut det mesta av det uppdaterade användargränssnittet.
 
 ## Var finns mer information om det uppdaterade användargränssnittet för [!DNL Target]?
 
 +++Information
-{{updated-ui}}
+Följande resurser innehåller information om det uppdaterade användargränssnittet för [!DNL Target]:
+
+* Versionsinformation för [[!DNL Target Standard/Premium] 25.2.1 (17 februari 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2): Innehåller en sammanfattning av viktiga ändringar i användargränssnittet i [!DNL Target] för [!UICONTROL Activities], [!UICONTROL Recommendations] och [!UICONTROL Visual Experience Composer] (VEC).
+
+* Versionsinformation för [[!DNL Target Standard/Premium] 25.1.1 (9 januari 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1): Innehåller en sammanfattning av viktiga ändringar i användargränssnittet i [!DNL Target] för [!UICONTROL Offers Library].
+
+* [Förstå  [!DNL Target] gränssnittet](/help/main/c-intro/understand-the-target-ui.md): Ger en kort översikt som hjälper dig att bekanta dig med [!DNL Target] och innehåller länkar till mer detaljerad information och stegvisa instruktioner.
+
+* [[!UICONTROL Visual Experience Composer] ändringar ](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md): [!DNL Adobe Target Standard/Premium] 25.2.1-versionen (17 februari 2015) innehåller en uppdaterad version av [!UICONTROL Visual Experience Composer] (VEC). I den här artikeln förklaras skillnaderna mellan äldre och uppdaterade versioner av VEC.
+
+* [[!UICONTROL Visual Experience Composer] alternativ](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md): I den här artikeln förklaras det uppdaterade VEC-gränssnittet och dess alternativ.
 
 +++
 
@@ -50,7 +60,7 @@ Användargränssnittsversionen är en tillfällig funktion som gör att du kan v
 
 Det finns flera begränsningar för att använda växlingsknappen för användargränssnittsversionen, inklusive synlighet för nya aktiviteter, redigering av befintliga aktiviteter och konsekvens i aktivitetsinformationen.
 
-Mer information om utrullning och borttagning av den tillfälliga gränssnittsversionen finns i [Borttagning av målgränssnittsversion (23 maj 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) i *Versionsinformation för tidigare versioner*.
+Mer information finns i [Växla borttagning av version av målgränssnitt (23 maj 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) i *Versionsinformation för tidigare versioner*.
 
 ++++
 
@@ -61,7 +71,7 @@ Mer information om utrullning och borttagning av den tillfälliga gränssnittsve
 
 Det finns flera begränsningar för att använda växlingsknappen för användargränssnittsversionen, inklusive synlighet för nya aktiviteter, redigering av befintliga aktiviteter och konsekvens i aktivitetsinformationen.
 
-Mer information om utrullning och borttagning av den tillfälliga gränssnittsversionen finns i [Borttagning av målgränssnittsversion (23 maj 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) i *Versionsinformation för tidigare versioner*.
+Mer information finns i [Växla borttagning av version av målgränssnitt (23 maj 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) i *Versionsinformation för tidigare versioner*.
 
 +++
 
