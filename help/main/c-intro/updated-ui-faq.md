@@ -5,9 +5,9 @@ title: Var kan jag hitta vanliga frågor om det uppdaterade  [!DNL Target] anvä
 feature: Overview
 hide: true
 hidefromtoc: true
-source-git-commit: bd39f65366e131fe92061430fd11a47d471851d8
+source-git-commit: 83a649b01adfe503af2bf38c0b47844ee00ecb37
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '989'
 ht-degree: 0%
 
 ---
@@ -117,13 +117,6 @@ Mer information om IP-adresser som du kan tillåtslista finns i följande artikl
 
 * **Förbättrad Experience Composer (EEC)**: Se [EEG läser inte in en intern QA-URL som inte är tillgänglig på offentlig IP](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md#section_D29E96911D5C401889B5EACE267F13CF) i *Felsökning av problem som rör Förbättrad Experience Composer*
 * **[!UICONTROL Recommendations]**: Se [IP-adresser som används av rekommendationsservrar för flödeshantering](/help/main/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md).
-
-+++
-
-## Vi har fått problem med att [!UICONTROL Browse] inte fungerar eller tillåter oss att bläddra. Har [!DNL Adobe] observerat liknande beteende med andra kunder?
-
-+++Information
-Muti, hjälp behövs.
 
 +++
 
