@@ -5,7 +5,7 @@ title: Var kan jag hitta vanliga frågor om det uppdaterade  [!DNL Target] anvä
 feature: Overview
 hide: true
 hidefromtoc: true
-source-git-commit: b29614680b27c9c33f11eed85d8ab4feebc28b0d
+source-git-commit: b43d852a077bad7dfcc6ab39b7865bd20d77d539
 workflow-type: tm+mt
 source-wordcount: '901'
 ht-degree: 0%
@@ -120,7 +120,7 @@ Muti, hjälp behövs.
 
 +++
 
-### Återställs miljön som standard till mellanlagring i det nya gränssnittet för rekommendationer?
+## Återställs miljön som standard till mellanlagring i det nya gränssnittet för rekommendationer?
 
 +++Information
 Muti, hjälp behövs.
