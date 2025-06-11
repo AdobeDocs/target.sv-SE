@@ -5,9 +5,9 @@ title: Var kan jag hitta vanliga frågor om det uppdaterade  [!DNL Target] anvä
 feature: Overview
 hide: true
 hidefromtoc: true
-source-git-commit: b43d852a077bad7dfcc6ab39b7865bd20d77d539
+source-git-commit: bd39f65366e131fe92061430fd11a47d471851d8
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '1012'
 ht-degree: 0%
 
 ---
@@ -60,6 +60,11 @@ Användargränssnittsversionen är en tillfällig funktion som gör att du kan v
 
 Det finns flera begränsningar för att använda växlingsknappen för användargränssnittsversionen, inklusive synlighet för nya aktiviteter, redigering av befintliga aktiviteter och konsekvens i aktivitetsinformationen.
 
+>[!NOTE]
+>
+>Kunder med specialfall som behöver ha kvar denna länk efter den 22 juni kan kontakta Adobe kundtjänst för att få hjälp.
+
+
 Mer information finns i [Växla borttagning av version av målgränssnitt (23 maj 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) i *Versionsinformation för tidigare versioner*.
 
 ++++
@@ -85,21 +90,23 @@ Aktiviteter som skapas eller redigeras i det uppdaterade användargränssnittet 
 ## Vad är det för skillnad mellan att skapa erbjudanden i det gamla jämfört med det uppdaterade användargränssnittet? Krävs ytterligare attribut?
 
 +++Information
-Muti, hjälp behövs.
+Användargränssnittet [!UICONTROL Offer Library] kräver konsekventa attributdefinitioner för alla erbjudanden. När du skapar ett erbjudande som bara innehåller en aktivitet (ad hoc) måste användaren även ange ett erbjudandenamn. Den här informationen visas i [!UICONTROL Form-based Experience Composer], vilket gör det enklare att identifiera erbjudanden utan att behöva granska koden eller innehållet.
 
 +++
 
 ## Vad hände med länkarna för förhandsgranskning av erbjudanden i det uppdaterade användargränssnittet?
 
 +++Information
-Muti, hjälp behövs.
+[!UICONTROL Experience Fragment] förhandsgranskningslänkar är tillgängliga i [!UICONTROL Quick Info]-porten, som visas när du klickar på informationsikonen ( ![informationsikonen ](/help/main/assets/icons/InfoOutline.svg) ) för det valda fragmentet.
 
 +++
 
 ## Jag måste inaktivera [!UICONTROL Enhanced Experience Composer] när jag redigerar befintliga aktiviteter med det uppdaterade användargränssnittet. Har [!DNL Adobe] observerat liknande beteende med andra kunder?
 
 +++Information
-Muti, hjälp behövs.
+Ja. När du använder [!DNL Adobe Experience Cloud] [!DNL Visual Editing Helper extension] kan du behöva inaktivera [!UICONTROL Enhanced Experience Composer] (EEC).
+
+Mer information finns i [Hjälptillägg för visuell redigering](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md).
 
 +++
 
@@ -113,7 +120,7 @@ Mer information om IP-adresser som du kan tillåtslista finns i följande artikl
 
 +++
 
-## Vi har fått problem med att Bläddra inte fungerar eller tillåter oss att bläddra. Har [!DNL Adobe] observerat liknande beteende med andra kunder?
+## Vi har fått problem med att [!UICONTROL Browse] inte fungerar eller tillåter oss att bläddra. Har [!DNL Adobe] observerat liknande beteende med andra kunder?
 
 +++Information
 Muti, hjälp behövs.
@@ -123,7 +130,9 @@ Muti, hjälp behövs.
 ## Återställs miljön som standard till mellanlagring i det nya gränssnittet för rekommendationer?
 
 +++Information
-Muti, hjälp behövs.
+Miljöer är nu standard för den senaste som används av kunden. Använd väljaren [!UICONTROL Environment] i det övre högra hörnet av användargränssnittet i [!UICONTROL Catalog Search] om du vill växla mellan miljöer.
+
+![Miljöväxel](/help/main/c-intro/assets/environmnent.png)
 
 +++
 
