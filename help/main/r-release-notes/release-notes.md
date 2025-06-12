@@ -6,9 +6,9 @@ short-description: Lär dig mer om de nya funktionerna, förbättringarna och ko
 title: Vad ingår i den aktuella versionen?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 3dab3c070eecb415136d880ab1a4326dfe8856d8
+source-git-commit: 1d72a708ce68d34a603f750010caa4eb68290f7a
 workflow-type: tm+mt
-source-wordcount: '1174'
+source-wordcount: '1701'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,38 @@ ht-degree: 0%
 Versionsinformationen innehåller information om funktioner, förbättringar och korrigeringar för varje [!DNL Adobe Target Standard]- och [!DNL Target Premium]-version. Versionsinformation för [!DNL Target] API:er, SDK:er, [!DNL Adobe Experience Platform Web SDK], at.js och andra plattformsändringar inkluderas också, om tillämpligt.
 
 (Numren inom parentes är avsedda för intern [!DNL Adobe]-användning.)
+
+## [!DNL Target Standard/Premium] 25.6.2 (12 juni 2025)
+
+Den här versionen innehåller följande korrigeringar och uppdateringar:
+
+* En [ny artikel med vanliga frågor och svar](/help/main/c-intro/updated-ui-faq.md) har lagts till som åtgärdar vanliga frågor om det uppdaterade [!DNL Target] användargränssnittet och [!UICONTROL Visual Experience Composer] (VEC).
+* Ett problem har korrigerats där regeln [!UICONTROL URL - does not contain] i [!UICONTROL Page Delivery] inte fungerade, vilket gör att innehåll kan visas även när det borde ha blockerats. (TGT-52754)
+* Ett problem har korrigerats där [!UICONTROL Page Delivery] felaktigt visade felmeddelandet: &quot;Duplicerade sidadresser tillåts inte. (TGT-52765)
+* Korrigerade ett problem där målgrupper för [!UICONTROL Page Delivery] URL:er som innehåller upplevelsefragment skapades med # felaktigt tillagt. (TGT-52786)
+* Ett problem har korrigerats där [!DNL Target]-gränssnittet inte svarade när en aktivitet kopierades och inställningarna för redigering på sidan [!UICONTROL Goals and Settings] ändrades. (TGT-52797)
+* Korrigerade ett fel i den uppdaterade [!UICONTROL Visual Experience Composer] (VEC) som felaktigt tillät omdirigering av ytterligare en sida i en [!UICONTROL A/B Test]-aktivitet till samma URL. (TGT-51838)
+* Ett problem har korrigerats där ändringar av mätvärden på sidan [!UICONTROL Goals and Settings] inte sparades när en aktivitet redigerades. (TGT-52799)
+* Ett problem har korrigerats där tillägg av en ny upplevelse medan webbredigeraren fortfarande lästes in orsakade att den nya upplevelsen duplicerade innehåll från den tidigare upplevelsen. (TGT-51397)
+* Möjligheten att använda anpassad kod utanför `<head>`-taggen återställdes, vilket är en funktion som tidigare fanns i det äldre målgränssnittet. (TGT-52304 &amp; TGT-52300)
+* Onödig validering togs bort när standardarbetsytan valdes när aktiviteten skapades. Obligatorisk egenskapsvalidering gäller inte längre för standardarbetsytan, men finns kvar för icke-standardarbetsytor. (TGT-52449)
+* Korrigerade ett problem i den uppdaterade [!UICONTROL Visual Experience Composer] (VEC) där `triggerView()` anrop inte kunde identifieras. (TGT-52575)
+* Korrigerade ett fel i den uppdaterade [!UICONTROL Visual Experience Composer] (VEC) som gjorde att användare inte kunde lägga till ändringar i SPA-vyer ([!UICONTROL Single Page Application]). (TGT-52556)
+* Ett problem i det uppdaterade användargränssnittet för [!DNL Target] som gjorde att kunderna inte kunde visa erbjudandeinformationen har åtgärdats. (TGT-52607)
+* Ett problem har korrigerats där uppdateringar av erbjudanden i [!UICONTROL Offers Library] inte återspeglades i den uppdaterade versionen av [!UICONTROL Visual Experience Composer] (VEC). (TGT-52637)
+* Ett problem som gjorde att offertavsnittet inte kunde visas korrekt när en aktivitet skapades har åtgärdats. (TGT-52773)
+* Valideringen har lagts till för att säkerställa att alla `optionLocalIds` som refereras i `optionGroups` finns i alternativarrayen. Ogiltiga referenser tas automatiskt bort när aktiviteten skapas. (TGT-52687)
+* Ett problem har korrigerats där rapporteringsgrupper och undantag inte behölls efter att ett nytt erbjudande lagts till. (TGT-52728)
+* Ett problem har korrigerats där aktiviteter utan knappen [!UICONTROL Activity QA] visade en tom alternativväljare. (TGT-52733)
+* Korrigerade ett problem där QA-länkar inte kunde återge innehåll korrekt. (TGT-52718)
+* Ett problem har korrigerats där det inte gick att ersätta ett element med ett upplevelsefragment på rätt sätt i QA-miljön. (TGT-52762)
+* Korrigerade ett fel i den uppdaterade [!UICONTROL Visual Experience Composer] (VEC) som orsakade felet &quot;Ogiltig inmatning&quot; när användare försökte lägga till upplevelsefragment. (TGT-52701)
+* Korrigerade ett problem där spärrmetoden Redigera publik verkade tom vid redigering av målgruppsanpassning i den uppdaterade [!UICONTROL Visual Experience Composer] (VEC). (TGT-52749)
+* Ett meddelande har lagts till som informerar användare när en entitet inte är tillgänglig på den valda arbetsytan. (TGT-52767)
+* Ett problem har korrigerats där användargränssnittet inte kunde tillåta manuell tilldelning av ett miljö-ID till ett villkor. I stället används ID:t för värdgruppen [!UICONTROL Product Catalog Search] som standard. Med den här korrigeringen säkerställs att villkorsändringar nu tillämpas i alla miljöer, inte bara som standard. (TGT-52817)
+* Ett problem har korrigerats där alternativet [!UICONTROL Download Recommendations data] saknades för [!UICONTROL Experience Targeting] (XT)-aktiviteter med rekommendationer. (TGT-52730 &amp; TGT-52756)
+
+
 
 ## [!DNL Target Standard/Premium] 25.6.1 (6 juni 2025)
 
@@ -86,8 +118,8 @@ När utrullningen är klar tas växlingsknappen bort och alla användare överg�
 
 | Resurs | Information |
 |--- |--- |
-| [Versionsinformation: Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=sv-SE) | Information om ändringarna i respektive version av Platform Web SDK. |
-| Versionsinformation för [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=sv-SE){target=_blank} | Information om ändringar i varje version av JavaScript-biblioteket [!DNL Adobe Target] at.js. |
+| [Versionsinformation: Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=en) | Information om ändringarna i respektive version av Platform Web SDK. |
+| Versionsinformation för [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | Information om ändringar i varje version av JavaScript-biblioteket [!DNL Adobe Target] at.js. |
 
 ## Dokumentationsändringar, Versionsinformation om tidigare versioner och Experience Cloud Versionsinformation
 
@@ -97,7 +129,7 @@ Förutom anteckningarna för varje release finns det ytterligare information i f
 |--- |--- |
 | [Dokumentationsändringar](/help/main/r-release-notes/doc-change.md) | Visa detaljerad information om uppdateringar av den här guiden som inte ingår i versionsinformationen. |
 | [Versionsinformation för tidigare versioner](/help/main/r-release-notes/release-notes-for-previous-releases.md). | Visa information om nya funktioner och förbättringar i tidigare versioner av Target Standard och Target Premium. |
-| [Versionsinformation för Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=sv-SE){target=_blank} | Läs den senaste versionsinformationen om Adobe Experience Cloud lösningar. |
+| [Versionsinformation för Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target=_blank} | Läs den senaste versionsinformationen om Adobe Experience Cloud lösningar. |
 
 ## Förhandsversionsinformation {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
