@@ -5,16 +5,16 @@ title: Vilka är de olika tecknen, storleken och andra gränserna i  [!DNL Adobe
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: cc7d3b4752c6dba50a8643bfbc475045221d9ca8
+source-git-commit: 09874362863144992c69d4b79a935c9d9a769dc1
 workflow-type: tm+mt
-source-wordcount: '1704'
+source-wordcount: '1734'
 ht-degree: 0%
 
 ---
 
 # Gränser
 
-Teckengränser och andra begränsningar (erbjudandestorlek, målgrupper, profiler, värden, parametrar etc.) som påverkar aktiviteter och andra element i [!DNL Adobe Target].
+Teckengränser och andra begränsningar (erbjudandestorlek, målgrupper, profiler, värden, parametrar osv.) som påverkar aktiviteter och andra element i [!DNL Adobe Target].
 
 >[!NOTE]
 >
@@ -84,9 +84,9 @@ Teckengränser och andra begränsningar (erbjudandestorlek, målgrupper, profile
 
   Batch Mbox-begäranden bearbetas sekventiellt, vilket ökar den totala svarstiden för varje iteration. Ju fler kryssrutor på gruppbegäran, desto fler svarstider kan förväntas, och därför kan timeout-fel uppstå. Om upplevelseåtergivning blockeras på dessa batchbegäranden med hög fördröjning kan fördröjningen leda till en försämrad användarupplevelse när användarna väntar på att upplevelserna ska återges.
 
-* **Gräns**: 60 MB HTTP-POST för innehållsleveransbegäranden för [!DNL Target].
+* **Limit**: 60 MB HTTP POST body size for [!DNL Target] content delivery requests.
 
-  Om du överskrider 60 MB på HTTP-POSTENS brödtextstorlek för en [!DNL Target]-innehållsleveransbegäran får du en svarsfelkod `HTTP 413 Request Entity Too Large`.
+  Om du överskrider 60 MB på HTTP POST-brödtextstorleken för en [!DNL Target]-innehållsleveransbegäran resulterar det i en svarsfelkod `HTTP 413 Request Entity Too Large`.
 
 * **Rekommenderad gräns**: 50 meddelanden per [!DNL Target] batchbegäran om leverans.
 
@@ -143,9 +143,9 @@ Teckengränser och andra begränsningar (erbjudandestorlek, målgrupper, profile
 
 ## excludeIds {#excludedid}
 
-* **Gräns**: 5 kB för begäranden om POST. 2 083 tecken minus längden på URL:en för GET-begäranden.
+* **Gräns**: 5 kB för POST-begäranden. 2 083 tecken minus längden på URL:en för GET-begäranden.
 
-  För GET-förfrågningar gäller att även om gränsen för backend är 5 kB så är den realistiska gränsen 2 083 tecken minus den aktuella URL-längden eftersom Microsoft Internet Explorer begränsar URL:en till 2 083 tecken.
+  För GET-begäranden gäller att även om gränsen på backend är 5 kB, eftersom Microsoft Internet Explorer begränsar URL:en till 2 083 tecken, är den realistiska gränsen 2 083 tecken minus URL:ens aktuella längd.
 
 ## Erfarenheter
 
@@ -205,7 +205,7 @@ Teckengränser och andra begränsningar (erbjudandestorlek, målgrupper, profile
 
   Om du använder API:t för gruppleverans är gränsen 50 mbox per batch-begäran.
 
-  Om du använder API:t för gruppleverans i SDK för mobila tjänster är begränsningen 50 mbox-parametrar, 50 profilparametrar och 50 för andra parametertyper begränsningar för själva API:t. Det går inte att skicka en begäran som innehåller fler än dessa nummer med API:t för gruppleverans. Om en begäran innehåller fler än dessa begränsningar returnerar API:t följande felmeddelande:
+  Om du använder API:t för gruppleverans i Mobile Services SDK är gränsen på 50 mbox-parametrar, 50 profilparametrar och 50 för andra parametertyper begränsningar för själva API:t. Det går inte att skicka en begäran som innehåller fler än dessa nummer med API:t för gruppleverans. Om en begäran innehåller fler än dessa begränsningar returnerar API:t följande felmeddelande:
 
   &quot;Antalet mboxParameters får inte överskrida 50.&quot;
 
@@ -259,7 +259,7 @@ Teckengränser och andra begränsningar (erbjudandestorlek, målgrupper, profile
 
 Följande storleksbegränsningar gäller för erbjudanden:
 
-* 1024 kB för erbjudanden från HTML.
+* 1 024 kB för HTML.
 * 1 024 kB (för varje upplevelse) för visuella erbjudanden från användargränssnittet.
 * 1 024 kB från API:t.
 
@@ -285,7 +285,7 @@ Följande storleksbegränsningar gäller för erbjudanden:
 
 * **Rekommenderad gräns för totalt antal profilskript per konto**: 2 000
 
-* **Recommendations för att begränsa komplexiteten i profilskript**: Profilskript kan köra ett begränsat antal instruktioner. Mer information finns i [God praxis](/help/main/c-target/c-visitor-profile/profile-parameters.md#best) i *Profilattribut*.
+* **Rekommendationer för att begränsa komplexiteten i profilskript**: Profilskript kan köra ett begränsat antal instruktioner. Mer information finns i [God praxis](/help/main/c-target/c-visitor-profile/profile-parameters.md#best) i *Profilattribut*.
 
 ## Egenskaper
 
@@ -294,6 +294,10 @@ Följande storleksbegränsningar gäller för erbjudanden:
 ## Rapportera målgrupper/segment
 
 * **Gräns**: 50 rapportmålgrupper/segment per aktivitet.
+
+## sessionID
+
+Sessions-ID kan vara vilken utskrivbar sträng som helst, förutom blanksteg, frågetecken ( ? ), klammerparenteser ( { } ) eller ett snedstreck ( / ). Det ska vara mellan 1 och 128 tecken långt.
 
 ## Skriptprofilens indataruta i användargränssnittet för [!DNL Target]
 
