@@ -6,9 +6,9 @@ short-description: Lär dig mer om de nya funktionerna, förbättringarna och ko
 title: Vad ingår i den aktuella versionen?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 1d72a708ce68d34a603f750010caa4eb68290f7a
+source-git-commit: d87f1fbe78512363d4fe30935cbb4f2556b4a06b
 workflow-type: tm+mt
-source-wordcount: '1701'
+source-wordcount: '1935'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,28 @@ ht-degree: 0%
 Versionsinformationen innehåller information om funktioner, förbättringar och korrigeringar för varje [!DNL Adobe Target Standard]- och [!DNL Target Premium]-version. Versionsinformation för [!DNL Target] API:er, SDK:er, [!DNL Adobe Experience Platform Web SDK], at.js och andra plattformsändringar inkluderas också, om tillämpligt.
 
 (Numren inom parentes är avsedda för intern [!DNL Adobe]-användning.)
+
+## Uppdaterat: [!DNL Target] Inaktuell version av användargränssnittet (17 juni 2025) {#revised}
+
+Från och med den 17 juni 2025 bör alla IMS-organisationer ha aktiverats för det uppdaterade användargränssnittet för [!DNL Target], antingen för specifika användare eller för hela organisationen, för att börja testa den nya upplevelsen.
+
+På grund av nyligen identifierade problem, som främst gäller komplexa kundanpassningar, har [!DNL Target]-teamet justerat tidslinjen för borttagning:
+
+* **30 juni 2025**: [Uppdaterat [!DNL Target] gränssnitt](/help/main/c-intro/understand-the-target-ui.md) blir standardupplevelsen för alla IMS-organisationer som har aktiverat alternativet för gränssnittsversion.
+
+   * Kunder som för närvarande ser det gamla användargränssnittet kommer som standard att se det uppdaterade användargränssnittet vid inloggning.
+   * Användargränssnittets versionsknapp är fortfarande tillgänglig till och med slutet av juli så att användare kan växla tillbaka vid behov.
+
+  >[!IMPORTANT]
+  >
+  > [!DNL Adobe] rekommenderar starkt att det uppdaterade [!DNL Target]-gränssnittet används. Växla bara tillbaka till det gamla användargränssnittet om ett problem med blockering inträffar. Se [[!DNL Target] Borttagning av versionsinformation för användargränssnitt (23 maj 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) i versionsinformationen för tidigare versioner för viktig information om växlingsknappen.
+
+* **15 juli till 30 juli 2025**: Användargränssnittets versionsväxel inaktiveras permanent i faser. Påverkade IMS-organisationer kan inte längre återgå till det gamla användargränssnittet.
+
+   * Undantag kommer att ses över från fall till fall.
+   * Förseningar av avaktiveringen ges endast kortvarigt (några dagar) medan blockerarproblem åtgärdas.
+
+Kontakta [Adobe kundtjänst](/help/main/cmp-resources-and-contact-information.md#/help/main/cmp-resources-and-contact-information.md) om du har några frågor eller om du förväntar dig problem under den här övergången.
 
 ## [!DNL Target Standard/Premium] 25.6.2 (12 juni 2025)
 
@@ -49,8 +71,6 @@ Den här versionen innehåller följande korrigeringar och uppdateringar:
 * Ett problem har korrigerats där användargränssnittet inte kunde tillåta manuell tilldelning av ett miljö-ID till ett villkor. I stället används ID:t för värdgruppen [!UICONTROL Product Catalog Search] som standard. Med den här korrigeringen säkerställs att villkorsändringar nu tillämpas i alla miljöer, inte bara som standard. (TGT-52817)
 * Ett problem har korrigerats där alternativet [!UICONTROL Download Recommendations data] saknades för [!UICONTROL Experience Targeting] (XT)-aktiviteter med rekommendationer. (TGT-52730 &amp; TGT-52756)
 
-
-
 ## [!DNL Target Standard/Premium] 25.6.1 (6 juni 2025)
 
 Den här versionen innehåller följande korrigeringar och uppdateringar:
@@ -76,7 +96,11 @@ Den här versionen innehåller följande korrigeringar och uppdateringar:
 * Korrigerade ett lokaliseringsfel på koreanskt språk där tidigare översättningar använde tecken utanför det grundläggande flerspråkiga planet. Den uppdaterade översättningen använder lämpliga tecken som förmedlar den avsedda innebörden korrekt. (TGT-52508 &amp; TGT-52509)
 * Korrigerade ett lokaliseringsfel på koreanskt språk där översättningen för &quot;date&quot; var inkonsekvent när start- och slutdatum för en aktivitet valdes. (TGT-52510)
 
-## Borttagning av version av målgränssnitt (23 maj 2025) {#toggle}
+## [!DNL Target]-användargränssnittsversion växlar bort (23 maj 2025) {#toggle}
+
+>[!IMPORTANT]
+>
+>Teamet [!DNL Target] har justerat tidslinjen för att växla borttagning av gränssnittsversion. Mer information finns i [Uppdaterad: [!DNL Target] Borttagning av gränssnittsversion (17 juni 2025)](#revised).
 
 Det nya [!DNL Target]-användargränssnittet kommer att vara klart den 27 maj 2025 **.** Då har alla kunder tillgång till den senaste gränssnittsversionen.
 
@@ -118,8 +142,8 @@ När utrullningen är klar tas växlingsknappen bort och alla användare överg�
 
 | Resurs | Information |
 |--- |--- |
-| [Versionsinformation: Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=sv-SE) | Information om ändringarna i respektive version av Platform Web SDK. |
-| Versionsinformation för [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=sv-SE){target=_blank} | Information om ändringar i varje version av JavaScript-biblioteket [!DNL Adobe Target] at.js. |
+| [Versionsinformation: Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=en) | Information om ändringarna i respektive version av Platform Web SDK. |
+| Versionsinformation för [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | Information om ändringar i varje version av JavaScript-biblioteket [!DNL Adobe Target] at.js. |
 
 ## Dokumentationsändringar, Versionsinformation om tidigare versioner och Experience Cloud Versionsinformation
 
@@ -129,7 +153,7 @@ Förutom anteckningarna för varje release finns det ytterligare information i f
 |--- |--- |
 | [Dokumentationsändringar](/help/main/r-release-notes/doc-change.md) | Visa detaljerad information om uppdateringar av den här guiden som inte ingår i versionsinformationen. |
 | [Versionsinformation för tidigare versioner](/help/main/r-release-notes/release-notes-for-previous-releases.md). | Visa information om nya funktioner och förbättringar i tidigare versioner av Target Standard och Target Premium. |
-| [Versionsinformation för Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=sv-SE){target=_blank} | Läs den senaste versionsinformationen om Adobe Experience Cloud lösningar. |
+| [Versionsinformation för Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target=_blank} | Läs den senaste versionsinformationen om Adobe Experience Cloud lösningar. |
 
 ## Förhandsversionsinformation {#section_5D588F0415A2435B851A4D0113ACA3A0}
 

@@ -3,9 +3,9 @@ keywords: målanvändargränssnitt;användargränssnitt;ui;vanliga frågor;faq
 description: Frågor och svar om det uppdaterade användargränssnittet i [!DNL Target]t.
 title: Var kan jag hitta vanliga frågor om det uppdaterade  [!DNL Target] användargränssnittet?
 feature: Overview
-source-git-commit: 3dab3c070eecb415136d880ab1a4326dfe8856d8
+source-git-commit: d87f1fbe78512363d4fe30935cbb4f2556b4a06b
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '1031'
 ht-degree: 0%
 
 ---
@@ -13,6 +13,13 @@ ht-degree: 0%
 # [!DNL Target] Vanliga frågor och svar om gränssnittsuppdatering
 
 Nytt 2025 är att det uppdaterade användargränssnittet för [!DNL Adobe Target] ger en smidig, intuitiv upplevelse som är utformad för att förbättra användbarheten och effektiviteten i alla roller. Vanliga frågor och svar om det nya [!DNL Target]-gränssnittet och [!UICONTROL Visual Experience Composer]-gränssnittet (VEC), inklusive navigeringsändringar, funktionsplatser och borttagning av den tillfälliga gränssnittsversionen. Vare sig du är marknadsförare, utvecklare eller administratör kan du med de här vanliga frågorna få en smidig övergång och få ut det mesta av det uppdaterade användargränssnittet.
+
+## Har tidslinjen för borttagning av versionsväxeln för målgränssnittet uppdaterats.
+
++++Information
+Ja. Den nya tidslinjen och viktig information finns i [Uppdaterad: [!DNL Target] Borttagning av gränssnittsversion (17 juni 2025)](/help/main/r-release-notes/release-notes.md#revised).
+
++++
 
 ## Var finns mer information om det uppdaterade användargränssnittet för [!DNL Target]?
 
@@ -60,8 +67,7 @@ Det finns flera begränsningar för att använda växlingsknappen för användar
 
 >[!NOTE]
 >
->Kunder med specialfall som behöver ha kvar denna länk efter den 22 juni kan kontakta Adobe kundtjänst för att få hjälp.
-
+>Kunder med specialfall som behöver ha kvar denna länk efter den 22 juni kan kontakta Adobe kundtjänst för att få hjälp. Mer information finns i [Uppdaterad: [!DNL Target] Borttagning av gränssnittsversion (17 juni 2025)](/help/main/r-release-notes/release-notes.md#revised).
 
 Mer information finns i [Växla borttagning av version av målgränssnitt (23 maj 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) i *Versionsinformation för tidigare versioner*.
 
