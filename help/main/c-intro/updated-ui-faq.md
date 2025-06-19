@@ -3,7 +3,8 @@ keywords: målanvändargränssnitt;användargränssnitt;ui;vanliga frågor;faq
 description: Frågor och svar om det uppdaterade användargränssnittet i [!DNL Target]t.
 title: Var kan jag hitta vanliga frågor om det uppdaterade  [!DNL Target] användargränssnittet?
 feature: Overview
-source-git-commit: d87f1fbe78512363d4fe30935cbb4f2556b4a06b
+exl-id: 75db4791-ca51-472d-99dd-583f7a74b222
+source-git-commit: 05a4358e0115d7bfd13ec715a0e7eb96f1f2265b
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 0%
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 Nytt 2025 är att det uppdaterade användargränssnittet för [!DNL Adobe Target] ger en smidig, intuitiv upplevelse som är utformad för att förbättra användbarheten och effektiviteten i alla roller. Vanliga frågor och svar om det nya [!DNL Target]-gränssnittet och [!UICONTROL Visual Experience Composer]-gränssnittet (VEC), inklusive navigeringsändringar, funktionsplatser och borttagning av den tillfälliga gränssnittsversionen. Vare sig du är marknadsförare, utvecklare eller administratör kan du med de här vanliga frågorna få en smidig övergång och få ut det mesta av det uppdaterade användargränssnittet.
 
-## Har tidslinjen för borttagning av versionsväxeln för målgränssnittet uppdaterats.
+## Har tidslinjen för borttagning av växling för målanvändargränssnittsversion uppdaterats?
 
 +++Information
 Ja. Den nya tidslinjen och viktig information finns i [Uppdaterad: [!DNL Target] Borttagning av gränssnittsversion (17 juni 2025)](/help/main/r-release-notes/release-notes.md#revised).
@@ -145,7 +146,3 @@ Integrering av [!DNL Adobe Analytics] (AA) eller [!DNL Customer Journey Analytic
 * Validera inställningar för datainsamling och dataattribuering
 
 +++
-
-
-
-
