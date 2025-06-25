@@ -4,16 +4,16 @@ description: Lär dig hur du i  [!DNL Adobe Target] kan spåra klick på ett ele
 title: Vad är Click Tracking?
 feature: Success Metrics
 exl-id: 9181424b-179e-49fc-b760-b764a0c3458a
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 43d2484e57b1e2d292cf65c041fb9f5f49b2084c
 workflow-type: tm+mt
-source-wordcount: '895'
+source-wordcount: '858'
 ht-degree: 0%
 
 ---
 
 # Klickspårning
 
-Med [!DNL Adobe Target] kan du spåra klick på ett element som ett framgångsmått.
+Med [!DNL Adobe Target] kan du spåra klick på ett element som ett framgångsmått. Klickspårning avser processen att övervaka och spela in användarinteraktioner, speciellt klickningar, för element på en webbsida eller i en upplevelse. Detta är en viktig del av att mäta engagemang och resultat i A/B-tester, multivariata tester och personaliseringsaktiviteter.
 
 >[!NOTE]
 >
@@ -30,43 +30,33 @@ Med [!DNL Adobe Target] kan du spåra klick på ett element som ett framgångsm�
 
    I avsnittet *Överväganden* nedan finns tips om hur du väljer element.
 
-1. Klicka på **[!UICONTROL Save]** högst upp på skärmen för att spara dina val.
+1. Klicka på **[!UICONTROL Done]** högst upp på skärmen för att spara dina val.
 
 När en aktivitetsdeltagare klickar på ett markerat element räknas det klicket som en konvertering.
 
 ## Panelen Markerade element {#selected-elements}
 
-För [!UICONTROL A/B Test]-, [!UICONTROL Experience Targeting] (XT)-, [!UICONTROL Automated Personalization] (AP)- och [!UICONTROL Multivariate Test] (MVT)-aktiviteter listar en [!UICONTROL Selected Elements]-panel de markerade elementen för klickspårning till höger.
+För [!UICONTROL A/B Test]-, [!UICONTROL Experience Targeting] (XT)-, [!UICONTROL Automated Personalization] (AP)- och [!UICONTROL Multivariate Test] (MVT)-aktiviteter listar en [!UICONTROL Selected Elements]-panel de markerade elementen för klickspårning på den vänstra sidan.
 
 ![Panelen Markerade element](/help/main/c-activities/r-success-metrics/assets/selected-elements.png)
 
-Det finns flera åtgärder som kan användas när du hovrar över ett element på panelen [!UICONTROL Selected Elements]. I följande tabell beskrivs varje åtgärd som kan utföras på ett element:
+Det finns flera åtgärder som kan användas när du klickar på ett element på panelen [!UICONTROL Tracked Components]. I följande tabell beskrivs varje åtgärd som kan utföras på ett element:
 
 | Åtgärd | Beskrivning |
 | --- | --- |
-| Information | Visar elementtypen och den fullständiga DOM-sökvägen till väljaren. |
-| Redigera | Gör att du kan redigera CSS-väljaren. |
-| Ta bort | Tar bort elementet. |
+| [!UICONTROL Tracked actions] | Visar elementåtgärden. |
+| [!UICONTROL CSS selector] | Gör att du kan redigera CSS-väljaren. |
+| [!DNL Delete] | Tar bort elementet. |
 
 ### Lägg till element
 
-Om du redan känner till DOM-sökvägen till väljaren kan du lägga till den manuellt genom att klicka på plusikonen högst upp på panelen.
-
-![Ikonen Lägg till element](/help/main/c-activities/r-success-metrics/assets/add-element.png)
-
-### Popup för markerade element
-
-När du har markerat flera element för klickspårning kan du klicka på länken [!UICONTROL Elements Selected] i aktivitetens [!UICONTROL Goals & Settings] -steg för att se den fullständiga listan över element som har markerats för klickspårning. Listan innehåller den fullständiga DOM-sökvägen för elementet som hjälper dig att validera att det markerade elementet ska användas för klickspårning.
-
-![Element markerade länken](/help/main/c-activities/r-success-metrics/assets/elements-selected-link.png)
+Om du redan känner till DOM-sökvägen till väljaren kan du lägga till den manuellt genom att klicka på ikonen [!UICONTROL Add Component] längst upp på panelen.
 
 ## Överväganden {#considerations}
 
 Det finns flera saker att tänka på när du markerar element:
 
 * DOM-sökvägsfunktionen är tillgänglig när du ställer in klickspårning. När du klickar på ett element på sidan visas VEC-alternativmenyn. Dessutom visas motsvarande DOM-sökväg längst ned på sidan. Du kan använda DOM-sökvägen för att snabbt visa information om det markerade elementet (typ, ID och klass) och flytta upp eller ned DOM-sökvägen för att markera det önskade elementet.
-
-  ![DOM-banillustration](/help/main/c-activities/r-success-metrics/assets/click-tracking-dom.png)
 
   Precis som när du skapar upplevelser i steg 1 i arbetsflödet för att skapa aktiviteter kan du välja ett element med DOM-sökvägsväljaren längst ned på sidan. När du väljer ett element från DOM-sökvägen visas motsvarande element i VEC som&quot;Markerat&quot;. Om du vill avmarkera ett markerat element kan du klicka på elementet igen i DOM-banväljaren eller klicka på rutan Markerat i VEC.
 
@@ -87,7 +77,7 @@ Det finns flera saker att tänka på när du markerar element:
   | $ | Dollar-tecken |
   | `[ ]` | Fyrkantiga parenteser |
 
-* Om du använder [!DNL at.js] klickspårning och du även använder [!DNL Analytics]-AppMeasurement, avbryts alla andra klickhändelsehanterare av klickspårning av [!DNL at.js]. Därför körs aldrig AppMeasurementets klickningshanterare.
+* Om du använder [!DNL at.js] klickspårning och även använder [!DNL Analytics] AppMeasurement, avbryts alla andra klickhändelsehanterare av klickspårning av [!DNL at.js]. Därför körs aldrig AppMeasurement klickningshanterare.
 
   [!DNL at.js] har specialhantering för klickspårning när det underliggande elementet är en `A` (link)-tagg eller `FORM` -tagg.
 
