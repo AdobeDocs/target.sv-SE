@@ -1,22 +1,22 @@
 ---
 keywords: hjälpmedel;artificiell intelligensassistent;innehållsgenerering;innehållsaccelerator;innehållsgenerering;generera innehåll
-description: Lär dig hur du skapar innehåll med  [!DNL AI Assistant].
-title: Hur använder jag  [!DNL AI Assistant] in [!DNL Target] för att generera innehåll?
+description: Lär dig hur du skapar engagerande innehåll med  [!DNL AI Assistant].
+title: Hur använder jag  [!DNL AI Assistant] in [!DNL Target] för att generera engagerande innehåll?
 feature: Overview
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=sv-SE#beta newtab=true" tooltip="Vad är Beta-funktioner i  [!DNL Adobe Target]?"
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="Vad är Beta-funktioner i  [!DNL Adobe Target]?"
 hide: true
 hidefromtoc: true
 exl-id: eb6f07d8-729e-4f94-ae7a-a054bf54b030
-source-git-commit: 5ad564e43cd6f66e7f31072348f17e52013ed759
+source-git-commit: 37f599913a2b80b4ece1bf69ba3b21f54f44d18a
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '762'
 ht-degree: 0%
 
 ---
 
 # Använd [!DNL AI Assistant] i [!DNL Adobe Target] för innehållsgenerering
 
-Använd [!DNL AI Assistant] i [!DNL Adobe Target] för att förbättra effektiviteten i dina aktiviteter genom att skräddarsy textutdrag och välja bilder med hjälp av artificiell intelligens (AI) som talar direkt till din publik, vilket ökar engagemanget och interaktionen.
+Använd [!DNL AI Assistant] i [!DNL Adobe Target] för att förbättra effektiviteten i dina aktiviteter genom att anpassa textutdrag så att de kan användas i upplevelser med hjälp av artificiell intelligens (AI) som talar direkt till din målgrupp, vilket ökar engagemanget, interaktionen och konverteringen.
 
 Använd kraften hos [!DNL AI Assistant] i [!DNL Adobe Target] för att höja ditt aktivitetsinnehåll, som drivs av generativ AI.
 
@@ -29,7 +29,7 @@ Använd kraften hos [!DNL AI Assistant] i [!DNL Adobe Target] för att höja dit
 
 ## Generera text
 
-Så här skapar du text med [!DNL AI Assistant]:
+Så här skapar du engagerande text med [!DNL AI Assistant]:
 
 1. I [[!DNL Target] [!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) (VEC) klickar du på ikonen **[!UICONTROL Show Content Assistant]** ( ![Visa innehållsassistenten](/help/main/assets/icons/MagicWand.svg) ) till höger i VEC-gränssnittet.
 
@@ -52,8 +52,13 @@ Så här skapar du text med [!DNL AI Assistant]:
 1. Klicka på ikonen **[!UICONTROL Text Settings]** för att ange textens ton och kommunikationsstrategi.
 
    * **Kommunikationsstrategi**: Välj den kommunikationsstil som passar bäst för den genererade texten.
+
+     Alternativen är: [!UICONTROL None], [!UICONTROL Urgent], [!UICONTROL FOMO] (Avslöjad från saknad), [!UICONTROL Social Proof], [!UICONTROL Scarcity], [!UICONTROL Incentive], [!UICONTROL Exclusivity], [!UICONTROL Gameification], [!UICONTROL Informative] och [!UICONTROL Education & Insights].
+
    * **Språk**: Välj önskat språk för texten. [!DNL AI Assistant] finns för närvarande endast på engelska.
    * **Ton**: Textens ton ska tolkas som målgruppen. Oavsett om du vill låta informativ, spännande, lekfull eller övertygande kan [!DNL AI Assistant] anpassa meddelandet efter det.
+
+     Alternativen är: [!UICONTROL None], [!UICONTROL Professional], [!UICONTROL Empathetic], [!UICONTROL Humorous], [!UICONTROL Exciting], [!UICONTROL Inspirational], [!UICONTROL Persuasive], [!UICONTROL Friendly], [!UICONTROL Formal], [!UICONTROL Apologetic], [!UICONTROL Assertive], [!UICONTROL  Story Telling] och [!UICONTROL Conversational].
 
 1. Använd skjutreglaget för att välja textlängd ([!UICONTROL Shorter Text] till [!UICONTROL Larger Text]).
 
@@ -67,9 +72,9 @@ Så här skapar du text med [!DNL AI Assistant]:
 
    ![AI-assistenten med genererad text](/help/main/c-intro/assets/ai-text-done.png)
 
-1. (Villkorligt) Klicka på ikonen Ångra ( ![Ångra-ikonen](/help/main/assets/icons/Undo.svg) ) om du vill ångra ändringarna.
+1. (Villkorligt) Klicka på ikonen [!UICONTROL Undo] ( ![ Ångra-ikonen ](/help/main/assets/icons/Undo.svg) ) om du vill ångra ändringarna.
 
-1. (Valfritt) Ge feedback till AI-assistenten.
+1. (Valfritt) Ge feedback till [!DNL AI Assistant].
 
    * Klicka på ikonen för att visa upp reglaget ( ![Retuschera uppåt ](/help/main/assets/icons/ThumbUp.svg) ) för att tala om för [!DNL AI Assistant] att du gillar variationen.
    * Klicka på ikonen Tummen nedåt ( ![Tummen nedåt ](/help/main/assets/icons/ThumbDown.svg) ) för att tala om för [!DNL AI Assistant] att du inte gillar variationen.
@@ -92,4 +97,4 @@ Följande uppmaning och variationer visar styrkan hos [!DNL AI Assistant].
 
 ### Skapa innehåll med AI-assistenten för innehållsgenerering
 
->[!VIDEO](https://video.tv.adobe.com/v/3434639/?learn=on&captions=swe">https://video.tv.adobe.com/v/3434639/?learn=on&captions=swe)
+>[!VIDEO](https://video.tv.adobe.com/v/3434635/?learn=on">https://video.tv.adobe.com/v/3434635/?learn=on)
