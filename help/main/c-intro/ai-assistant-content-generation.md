@@ -3,22 +3,20 @@ keywords: hjälpmedel;artificiell intelligensassistent;innehållsgenerering;inne
 description: Lär dig hur du skapar engagerande innehåll med  [!DNL AI Assistant].
 title: Hur använder jag  [!DNL AI Assistant] in [!DNL Target] för att generera engagerande innehåll?
 feature: Overview
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=sv-SE#beta newtab=true" tooltip="Vad är Beta-funktioner i  [!DNL Adobe Target]?"
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="Vad är Beta-funktioner i  [!DNL Adobe Target]?"
 hide: true
 hidefromtoc: true
 exl-id: eb6f07d8-729e-4f94-ae7a-a054bf54b030
-source-git-commit: 37f599913a2b80b4ece1bf69ba3b21f54f44d18a
+source-git-commit: a2441f9bb2ffed981e1541c58a16f11f4f3a3f90
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '740'
 ht-degree: 0%
 
 ---
 
 # Använd [!DNL AI Assistant] i [!DNL Adobe Target] för innehållsgenerering
 
-Använd [!DNL AI Assistant] i [!DNL Adobe Target] för att förbättra effektiviteten i dina aktiviteter genom att anpassa textutdrag så att de kan användas i upplevelser med hjälp av artificiell intelligens (AI) som talar direkt till din målgrupp, vilket ökar engagemanget, interaktionen och konverteringen.
-
-Använd kraften hos [!DNL AI Assistant] i [!DNL Adobe Target] för att höja ditt aktivitetsinnehåll, som drivs av generativ AI.
+Öka engagemang och konverteringar i [!DNL Adobe Target] med [!DNL AI Assistant]. Utnyttja generativ AI för att skapa personaliserad, slagkraftig text som får genklang hos er målgrupp och lyfter upp ert aktivitetsinnehåll.
 
 ## Förutsättningar
 
@@ -55,10 +53,13 @@ Så här skapar du engagerande text med [!DNL AI Assistant]:
 
      Alternativen är: [!UICONTROL None], [!UICONTROL Urgent], [!UICONTROL FOMO] (Avslöjad från saknad), [!UICONTROL Social Proof], [!UICONTROL Scarcity], [!UICONTROL Incentive], [!UICONTROL Exclusivity], [!UICONTROL Gameification], [!UICONTROL Informative] och [!UICONTROL Education & Insights].
 
-   * **Språk**: Välj önskat språk för texten. [!DNL AI Assistant] finns för närvarande endast på engelska.
+   * **Språk**: Välj önskat språk för texten.
+
+     [!DNL AI Assistant] finns för närvarande endast på engelska.
+
    * **Ton**: Textens ton ska tolkas som målgruppen. Oavsett om du vill låta informativ, spännande, lekfull eller övertygande kan [!DNL AI Assistant] anpassa meddelandet efter det.
 
-     Alternativen är: [!UICONTROL None], [!UICONTROL Professional], [!UICONTROL Empathetic], [!UICONTROL Humorous], [!UICONTROL Exciting], [!UICONTROL Inspirational], [!UICONTROL Persuasive], [!UICONTROL Friendly], [!UICONTROL Formal], [!UICONTROL Apologetic], [!UICONTROL Assertive], [!UICONTROL &#x200B; Story Telling] och [!UICONTROL Conversational].
+     Alternativen är: [!UICONTROL None], [!UICONTROL Professional], [!UICONTROL Empathetic], [!UICONTROL Humorous], [!UICONTROL Exciting], [!UICONTROL Inspirational], [!UICONTROL Persuasive], [!UICONTROL Friendly], [!UICONTROL Formal], [!UICONTROL Apologetic], [!UICONTROL Assertive], [!UICONTROL  Story Telling] och [!UICONTROL Conversational].
 
 1. Använd skjutreglaget för att välja textlängd ([!UICONTROL Shorter Text] till [!UICONTROL Larger Text]).
 
@@ -97,4 +98,4 @@ Följande uppmaning och variationer visar styrkan hos [!DNL AI Assistant].
 
 ### Skapa innehåll med AI-assistenten för innehållsgenerering
 
->[!VIDEO](https://video.tv.adobe.com/v/3434639/?learn=on&captions=swe">https://video.tv.adobe.com/v/3434639/?learn=on&captions=swe)
+>[!VIDEO](https://video.tv.adobe.com/v/3434635/?learn=on">https://video.tv.adobe.com/v/3434635/?learn=on)
