@@ -58,7 +58,7 @@ Så här skapar du engagerande text med [!DNL AI Assistant]:
    * **Språk**: Välj önskat språk för texten. [!DNL AI Assistant] finns för närvarande endast på engelska.
    * **Ton**: Textens ton ska tolkas som målgruppen. Oavsett om du vill låta informativ, spännande, lekfull eller övertygande kan [!DNL AI Assistant] anpassa meddelandet efter det.
 
-     Alternativen är: [!UICONTROL None], [!UICONTROL Professional], [!UICONTROL Empathetic], [!UICONTROL Humorous], [!UICONTROL Exciting], [!UICONTROL Inspirational], [!UICONTROL Persuasive], [!UICONTROL Friendly], [!UICONTROL Formal], [!UICONTROL Apologetic], [!UICONTROL Assertive], [!UICONTROL  Story Telling] och [!UICONTROL Conversational].
+     Alternativen är: [!UICONTROL None], [!UICONTROL Professional], [!UICONTROL Empathetic], [!UICONTROL Humorous], [!UICONTROL Exciting], [!UICONTROL Inspirational], [!UICONTROL Persuasive], [!UICONTROL Friendly], [!UICONTROL Formal], [!UICONTROL Apologetic], [!UICONTROL Assertive], [!UICONTROL &#x200B; Story Telling] och [!UICONTROL Conversational].
 
 1. Använd skjutreglaget för att välja textlängd ([!UICONTROL Shorter Text] till [!UICONTROL Larger Text]).
 
