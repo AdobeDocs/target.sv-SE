@@ -4,9 +4,9 @@ description: Lär dig mer om de nya funktionerna, förbättringarna och korriger
 title: Vilka nya funktioner och förbättringar ingår i den kommande [!DNL Target] versionen?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 926a045e5bcebc8d094ea41a6c1b7c59568a35ab
+source-git-commit: 2f49a957979b4acaac7060f530b26861e1e774c9
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '581'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Den här artikeln innehåller förhandsversionsinformation för kommande [!DNL Adobe Target]-versioner, inklusive SDK, API:er och JavaScript-bibliotek.
 
-**Senast uppdaterad: 26 juni 2025**
+**Senast uppdaterad: 27 juni 2025**
 
 >[!NOTE]
 >
@@ -33,6 +33,7 @@ Den här versionen innehåller följande korrigeringar och uppdateringar:
 * Ett problem har korrigerats där ändringar som gjorts i variantupplevelser (till exempel upplevelse B) i en [!UICONTROL A/B Test]-aktivitet inte sparades. Efter att ha bytt mellan upplevelser försvinner ändringarna till varianten. Problemet påverkade inte kontrollupplevelsen. (TGT-52664)
 * Ett problem har korrigerats där vissa kunder inte kunde skapa eller spara aktiviteter, medan andra kunde utföra samma åtgärder utan problem. Problemet var inkonsekvent mellan konton.(TGT-52842)
 * Ett problem har korrigerats där användare i det uppdaterade VEC inte kunde flytta ändringar till [!UICONTROL Page Load event], en funktion som fanns i det gamla användargränssnittet. (TGT-52617)
+* Korrigerade ett problem i det uppdaterade användargränssnittet där [!UICONTROL page load] händelser inte var synliga i [!DNL Target] när ändringar skapades. Uppdateringar tillämpades bara på vyer. (TGT-52604)
 * Ett problem som förhindrade att vissa aktivitetsändringar visades korrekt i den uppdaterade VEC har åtgärdats. (TGT-52818)
 * Ett null-pekarundantag som inträffade när rapportdata hämtades för [!UICONTROL Automated Personalization] (AP)-aktiviteter har åtgärdats. (TGT-52362)
 * Ett problem har korrigerats som förhindrade att information på erbjudandenivå visas i .CSV-filen för [!UICONTROL Automated Personalization] (AP)-aktiviteter. (TGT-52675)
@@ -49,7 +50,7 @@ Den här versionen innehåller följande korrigeringar och uppdateringar:
 | Resurs | Information |
 |--- |--- |
 | [Versionsinformation: Adobe Target Platform Experience Web SDK]&#x200B;(https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=e n) | Information om ändringarna i respektive version av Platform Web SDK. |
-| Versionsinformation för [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=sv-SE){target=_blank} | Information om ändringar i varje version av JavaScript-biblioteket [!DNL Adobe Target] at.js. |
+| Versionsinformation för [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | Information om ändringar i varje version av JavaScript-biblioteket [!DNL Adobe Target] at.js. |
 
 ## Förhandsversionsinformation {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
