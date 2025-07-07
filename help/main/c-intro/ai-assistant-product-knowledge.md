@@ -4,7 +4,7 @@ description: Lär dig hur du får [!DNL Target] produktkunskap med [!DNL AI Assi
 title: Hur använder jag  [!DNL AI Assistant] in [!DNL Target] för att få produktinformation?
 feature: Overview
 exl-id: 48a6a9d3-07e8-4858-b15b-48d182161a76
-source-git-commit: 3e2682acdf8c7be86285c901ddcdae0f43b647f2
+source-git-commit: 1615dcf80643a1391a3b1fbad8e8378ff2785fd3
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 0%
@@ -36,7 +36,7 @@ Så här kommer du åt [!DNL AI Assistant] för produktinformation:
 
 Så här kommer du åt [!DNL AI Assistant] för produktinformation:
 
-1. Klicka på **[!DNL AI Assistant]-ikonen** i det övre högra hörnet av användargränssnittet i [!DNL Target].
+1. Klicka på [!DNL Target]-ikonen **[!DNL AI Assistant]i det övre högra hörnet av användargränssnittet i**.
 
    ![AI Assistant-ikon](/help/main/c-intro/assets/ai-assistant-icon.png)
 
@@ -66,10 +66,10 @@ Så här kommer du åt [!DNL AI Assistant] för produktinformation:
 
 Läs mer om [!DNL Adobe Experience Platform] program från [!DNL AI Assistant].
 
->[!VIDEO](https://video.tv.adobe.com/v/3441028/?learn=on&#x26;enablevpops&captions=swe)
+>[!VIDEO](https://video.tv.adobe.com/v/3441024/?learn=on&#x26;enablevpops)
 
 ### Validera svar från AI Assistant
 
 Lär dig hur du verifierar och validerar svaren som [!DNL AI Assistant] i [!DNL Adobe Experience Platform] tillhandahåller.
 
->[!VIDEO](https://video.tv.adobe.com/v/3441742/?learn=on&#x26;enablevpops&captions=swe)
+>[!VIDEO](https://video.tv.adobe.com/v/3441738/?learn=on&#x26;enablevpops)
