@@ -4,9 +4,9 @@ description: Frågor och svar om det uppdaterade användargränssnittet i [!DNL 
 title: Var kan jag hitta vanliga frågor om det uppdaterade  [!DNL Target] användargränssnittet?
 feature: Overview
 exl-id: 75db4791-ca51-472d-99dd-583f7a74b222
-source-git-commit: 05a4358e0115d7bfd13ec715a0e7eb96f1f2265b
+source-git-commit: 107770a27a80943db858729ce1cb3dceeda22dfb
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '953'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Nytt 2025 är att det uppdaterade användargränssnittet för [!DNL Adobe Target
 ## Har tidslinjen för borttagning av växling för målanvändargränssnittsversion uppdaterats?
 
 +++Information
-Ja. Den nya tidslinjen och viktig information finns i [Uppdaterad: [!DNL Target] Borttagning av gränssnittsversion (17 juni 2025)](/help/main/r-release-notes/release-notes.md#revised).
+Ja. Den nya tidslinjen och viktig information finns i [Tidskänsliga uppdateringar som du behöver känna till](/help/main/r-release-notes/release-notes.md#time-sensitive).
 
 +++
 
@@ -44,9 +44,7 @@ Följande resurser innehåller information om det uppdaterade användargränssni
 +++Information
 Det uppdaterade användargränssnittet är tillgängligt för alla [!DNL Target]-kunder, [!UICONTROL Standard] och [!UICONTROL Premium]. Ingen uppgraderad licens eller SKU krävs.
 
-Distributionen av det nya användargränssnittet för [!DNL Target] slutfördes den 27 maj 2025. Då har alla kunder tillgång till den senaste gränssnittsversionen.
-
-Mer information om utrullning och borttagning av den tillfälliga gränssnittsversionen finns i [Borttagning av målgränssnittsversion (23 maj 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) i *Versionsinformation för tidigare versioner*.
+Mer information om utrullning och borttagning av den tillfälliga gränssnittsversionen finns i [Tidskänsliga uppdateringar som du behöver känna till](/help/main/r-release-notes/release-notes.md#time-sensitive).
 
 +++
 
@@ -55,22 +53,18 @@ Mer information om utrullning och borttagning av den tillfälliga gränssnittsve
 +++Information
 [!DNL Target]-teamet arbetar aktivt med problem som rör den nya UI-utrullningen. Uppdateringar och pågående förbättringar beskrivs i versionsinformationen.
 
-Mer information om utrullning och borttagning av den tillfälliga gränssnittsversionen finns i [Borttagning av målgränssnittsversion (23 maj 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) i *Versionsinformation för tidigare versioner*.
+Mer information om utrullning och borttagning av den tillfälliga gränssnittsversionen finns i [Tidskänsliga uppdateringar som du behöver känna till](/help/main/r-release-notes/release-notes.md#time-sensitive).
 
 +++
 
 ## Kan kunder ansöka om att användargränssnittets version ska behållas för sina konton om de föredrar att behålla det gamla användargränssnittet?
 
 +++Information
-Användargränssnittsversionen är en tillfällig funktion som gör att du kan växla mellan det uppdaterade [!DNL Target]-användargränssnittet och den äldre versionen med en växlingsknapp. Det här alternativet är endast tillgängligt under den sista fasen av UI-utrullningen. När utrullningen är klar tas den bort och alla användare övergår permanent till det uppdaterade användargränssnittet den 22 juni 2025.
+Användargränssnittsversionen är en tillfällig funktion som gör att du kan växla mellan det uppdaterade [!DNL Target]-användargränssnittet och den äldre versionen med en växlingsknapp. Det här alternativet är endast tillgängligt under den sista fasen av UI-utrullningen. När utrullningen är klar tas växlingsknappen bort och alla användare övergår permanent till det uppdaterade användargränssnittet.
 
 Det finns flera begränsningar för att använda växlingsknappen för användargränssnittsversionen, inklusive synlighet för nya aktiviteter, redigering av befintliga aktiviteter och konsekvens i aktivitetsinformationen.
 
->[!NOTE]
->
->Kunder med specialfall som behöver ha kvar denna länk efter den 22 juni kan kontakta Adobe kundtjänst för att få hjälp. Mer information finns i [Uppdaterad: [!DNL Target] Borttagning av gränssnittsversion (17 juni 2025)](/help/main/r-release-notes/release-notes.md#revised).
-
-Mer information finns i [Växla borttagning av version av målgränssnitt (23 maj 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) i *Versionsinformation för tidigare versioner*.
+Mer information finns i [Tidskänsliga uppdateringar som du behöver känna till](/help/main/r-release-notes/release-notes.md#time-sensitive).
 
 ++++
 
@@ -81,7 +75,7 @@ Mer information finns i [Växla borttagning av version av målgränssnitt (23 ma
 
 Det finns flera begränsningar för att använda växlingsknappen för användargränssnittsversionen, inklusive synlighet för nya aktiviteter, redigering av befintliga aktiviteter och konsekvens i aktivitetsinformationen.
 
-Mer information finns i [Växla borttagning av version av målgränssnitt (23 maj 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) i *Versionsinformation för tidigare versioner*.
+Mer information finns i [Tidskänsliga uppdateringar som du behöver känna till](/help/main/r-release-notes/release-notes.md#time-sensitive).
 
 +++
 
