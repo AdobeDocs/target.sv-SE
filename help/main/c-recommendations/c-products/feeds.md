@@ -2,12 +2,12 @@
 keywords: rekommendationsfeed;feed;SAINT;ftp;csv;klassificeringar;analysklassificeringar
 description: Lär dig hur feeds importerar entiteter till  [!DNL Adobe Target] [!DNL Recommendations] med hjälp av CSV-filer,  [!DNL Google Product Search] feed-formatet och [!DNL Analytics] produktklassificeringar.
 title: Hur använder jag [!UICONTROL Feeds] i [!DNL Target Recommendations]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=sv-SE#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Recommendations
 exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+source-git-commit: 5a8b4006a2c43c9cac2d22e7663aa21043f98d9a
 workflow-type: tm+mt
-source-wordcount: '2417'
+source-wordcount: '2613'
 ht-degree: 0%
 
 ---
@@ -121,11 +121,11 @@ Om du har en befintlig [!DNL Google Product Feed] kan du använda den som import
 >
 >Det krävs inte att [!DNL Google]-data används. [!DNL Recommendations] använder samma format som [!DNL Google]. Du kan använda den här metoden för att överföra data som du har och använda de tillgängliga schemafunktionerna. Du måste dock behålla de fördefinierade attributnamnen [!DNL Google] när du konfigurerar filen.
 
-De flesta återförsäljare överför produkter till [!DNL Google], så när en besökare använder produktsökningen [!DNL Google] visas deras produkter. [!DNL Recommendations] följer specifikationen [!DNL Google] exakt för entitetsfeeds. Entitetsfeeds kan skickas till [!DNL Recommendations] via .xml, .txt eller .tsv, och du kan använda de [attribut som definieras av Google](https://support.google.com/merchants/answer/188494?hl=en&amp;topic=2473824&amp;ctx=topic#US). Resultaten är sökbara på [[!DNL Google] shoppingsidorna](https://www.google.com/prdhp).
+De flesta återförsäljare överför produkter till [!DNL Google], så när en besökare använder produktsökningen [!DNL Google] visas deras produkter. [!DNL Recommendations] följer specifikationen [!DNL Google] exakt för entitetsfeeds. Entitetsfeeds kan skickas till [!DNL Recommendations] via .xml, .txt eller .tsv, och du kan använda de [attribut som definieras av Google](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US). Resultaten är sökbara på [[!DNL Google] shoppingsidorna](https://www.google.com/prdhp).
 
 >[!NOTE]
 >
->Metoden POST måste tillåtas på den server som är värd för feed-innehållet [!DNL Google].
+>POST-metoden måste vara tillåten på servern som är värd för feed-innehållet [!DNL Google].
 
 Eftersom [!DNL Recommendations] användare redan har konfigurerat .xml- eller .txt-feeds att skicka till [!DNL Google] via URL eller FTP, accepterar entitetsflödena produktdata och använder dem för att skapa rekommendationskatalogen. Ange var denna feed finns och rekommendationsservern hämtar data.
 
@@ -212,7 +212,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 ### [!DNL Analytics] produktklassificeringar {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-Produktklassificeringen [!DNL Adobe Analytics] är den enda klassificeringen som är tillgänglig för rekommendationer. Mer information om den här klassificeringsfilen finns i [Om klassificeringar](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=sv-SE) i guiden *Analyskomponenter*. Det är möjligt att inte all information du behöver för rekommendationer finns tillgänglig i den aktuella implementeringen, så följ den här användarhandboken om du vill lägga till i klassificeringsfilen.
+Produktklassificeringen [!DNL Adobe Analytics] är den enda klassificeringen som är tillgänglig för rekommendationer. Mer information om den här klassificeringsfilen finns i [Om klassificeringar](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) i guiden *Analyskomponenter*. Det är möjligt att inte all information du behöver för rekommendationer finns tillgänglig i den aktuella implementeringen, så följ den här användarhandboken om du vill lägga till i klassificeringsfilen.
 
 >[!IMPORTANT]
 >
@@ -298,6 +298,7 @@ Följande är möjliga statusvärden för en feed:
 | [!UICONTROL Downloading Feed File] | [!DNL Target] hämtar feed-filen. |
 | [!UICONTROL Importing Items] | [!DNL Target] importerar objekt från feed-filen. |
 | Feed importerades *time* | [!DNL Target] har importerat feed-filen till innehållsleveranssystemet. Ändringar av objektattribut har gjorts i innehållsleveranssystemet och kommer snart att återspeglas i levererade rekommendationer. Om du inte ser de förväntade ändringarna kan du försöka igen och uppdatera sidan med rekommendationer.<br>Obs!<ul><li>Om ändringar i ett objekts attribut leder till att ett objekt utesluts från rekommendationerna, återspeglas uteslutningen omedelbart. Om ett objekt nyligen har lagts till, eller om attributändringar resulterar i att ett objekt *inte längre* utesluts från rekommendationer, återspeglas det inte förrän nästa algoritmuppdatering, som sker inom 24 timmar.</li><li>När den här statusen visas kanske inte uppdateringarna visas i användargränssnittet för [!UICONTROL Catalog Search] än. En separat status visas i [!UICONTROL Catalog Search] som anger den senaste gången den sökbara katalogen uppdaterades.</li></ul> |
+| Partiell import misslyckades | Tidigare, när alla rader inte överfördes, markerades feeden fortfarande som lyckad. Det innebär att det går att skapa ett falskt intryck av att alla rader har överförts som feed.<P>Här följer ett scenario där du kan stöta på en partiell feed-import:<ul><li>Du överförde en feed-fil för produktionsmiljön, till exempel 100 rader.</li><li>Flödet körde och överförde 80 av dessa rader och släppte 20 rader på grund av felaktig formatering, fältet överskred tecken osv.</li><li>Feed markerades som lyckad i användargränssnittet, vilket ger ett intryck av att alla 100 rader har överförts.</li><li>Du förväntar dig en del av de 20 produkterna när du levererar en aktivitet, men det händer inte.</li><li> Du är frågad nu eftersom du har överfört den feed som innehåller produktinformationen för produkterna i fråga. Du kan inte se det i backend-objektet när du frågar via Entity API, som anger att det inte finns i backend-objektet.</li></ul>För att ta bort den här förvirringen har meddelandet förbättrats så att du kan se exakt vad som hände med feeden. I stället för att markera den som lyckad markeras den nu som partiell import misslyckades. |
 | [!UICONTROL Failed to Index] | Indexåtgärden misslyckades. Försök igen. |
 | [!UICONTROL Server Not Found] | FTP- eller URL-platserna är ogiltiga eller går inte att nå på annat sätt. |
 
@@ -338,7 +339,7 @@ Statusen ska vara gul eftersom indexet ska ha körts för ungefär en dag och en
 
 I följande videofilmer finns mer information om de begrepp som beskrivs i den här artikeln.
 
-### Förstå feeds i Recommendations (3:01) ![Märket Översikt](/help/main/assets/overview.png)
+### Förstå feeds i rekommendationer (3:01) ![märket Översikt](/help/main/assets/overview.png)
 
 Den här videon innehåller följande information:
 
