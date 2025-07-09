@@ -1,12 +1,12 @@
 ---
 keywords: felsökning;vanliga frågor;vanliga frågor;Vanliga frågor;Vanliga frågor;mål;målgrupper
-description: Visa vanliga frågor (FAQs) om målinriktning för upplevelser och målgrupper som används i Adobe [!DNL Target] aktiviteter.
+description: Visa vanliga frågor (FAQs) om upplevelseanpassning och målgrupper som används i Adobe [!DNL Target] aktiviteter.
 title: Var kan jag hitta frågor och svar om mål och målgrupper?
 feature: Audiences
 exl-id: f829bd4a-852a-4eb1-85d1-89e74c14b37e
-source-git-commit: 6df7df69e54730d4c63bd17a33c12484e2bbdc92
+source-git-commit: cf7f18b5fd9647bbecda2e6b6419c3a927708bd6
 workflow-type: tm+mt
-source-wordcount: '955'
+source-wordcount: '973'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ Tänk på följande URL:
 
 ### Målgrupps-URL
 
-Om du vill använda målgrupps-URL när du skapar en aktivitet, klickar du på kugghjulsikonen på sidan Erfarenheter (steg ett av de guidade arbetsflödena i tre steg), klickar på Sidleverans och anger önskad URL.
+Om du vill använda målgrupps-URL:en när du skapar en aktivitet, klickar du på **[!UICONTROL Experiences]** på sidan **[!UICONTROL Configure]** (steg ett av de guidade arbetsflödena i tre steg), klickar på ikonen ![Konfigurera ](/help/main/assets/icons/Setting.svg) , klickar på **[!UICONTROL Page Delivery]** och anger sedan önskad URL.
 
 ![URL för sidleverans](/help/main/c-target/c-troubleshooting-targets-and-audiences/assets/activity-url.png)
 
@@ -41,7 +41,7 @@ Målgrupps-URL och URL-mål som lagts till via [!UICONTROL Template Rules] utvä
 
 ### URL-mål {#url-targeting}
 
-Om du vill använda URL-mål när du skapar en målgrupp klickar du på [!UICONTROL Add Rule], klickar på [!UICONTROL Site Pages], väljer ett alternativ i den första listrutan ([!UICONTROL Current Page], [!UICONTROL Previous Page] eller [!UICONTROL Landing Page]), väljer [!UICONTROL URL] i den andra listrutan, anger en utvärderare och anger önskad URL.
+Om du vill använda URL-adress när du skapar en målgrupp klickar du på dra **[!UICONTROL Site Pages]** och släpper den i rutan [!UICONTROL Create Audiences], klickar på **[!UICONTROL Site Pages]**, väljer ett alternativ i den första listrutan ([!UICONTROL Current Page], [!UICONTROL Previous Page] eller [!UICONTROL Landing Page]), väljer [!UICONTROL URL] i den andra listrutan, anger en utvärderare och anger önskad URL.
 
 ![Webbplatssidor > Aktuell sida > URL](/help/main/c-target/c-troubleshooting-targets-and-audiences/assets/site-url.png)
 
@@ -80,11 +80,9 @@ Som standard fördelas trafiken jämnt mellan upplevelserna. Du kan dock ange pr
 
 Användaren kvalificerar sig för den första upplevelsen/målgruppen som visas på aktivitetens [!UICONTROL Target]-sida.
 
-I följande exempel kvalificerar en användare från Kalifornien som använder en Windows-enhet sig för både Experience A (Windows-publik) och Experience C (California-publik). Den här användaren visas Experience A eftersom den visas i listan ovanför Experience C på målsidan.
+Anta till exempel att upplevelsen/publiken listar Windows som Experience A, iOS som Experience B och Kalifornien som Experience C. En användare från Kalifornien som använder en Windows-enhet kvalificerar sig för både Experience A (Windows-publik) och Experience C (California-publik). Den här användaren visas Experience A eftersom den visas i listan ovanför Experience C på målsidan.
 
-![audiences_order image](assets/audiences_order.png)
-
-## Varför skiljer sig namnen för samma målgrupp i [!DNL Target], Adobe Audience Manager (AAM) och Audience Library i bastjänsterna? {#section_F67E61A607B6444C8DAA4F99C3E95AED}
+## Varför skiljer sig namnen för samma målgrupp i [!DNL Target], Adobe Audience Manager (AAM) och Audience Library i bastjänsterna åt? {#section_F67E61A607B6444C8DAA4F99C3E95AED}
 
 Målgruppsnamn i [!DNL Target] är unika, men i [!DNL AAM] och [!DNL Audience Library] kan du ha samma namn för flera målgrupper (om de finns i olika mappar). När [!DNL Target] påträffar ett målgruppsnamn som motsvarar en [!DNL AAM] eller [!DNL Audience Library] målgrupp, lägger [!DNL Target] till &quot;#&lt;tal>&quot; i namnet.
 
