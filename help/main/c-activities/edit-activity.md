@@ -1,23 +1,23 @@
 ---
 keywords: aktiviteter;aktivitet;aktivitetstyper;redigera aktivitet;redigera;utkast
-description: Lär dig olika sätt att redigera en befintlig aktivitet i Adobe Target, inklusive att spara en aktivitet i ett utkast.
+description: Lär dig mer om olika sätt att redigera en befintlig aktivitet, inklusive att spara en aktivitet i ett utkast.
 title: Hur redigerar jag en aktivitet eller sparar som utkast?
 feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
-source-git-commit: cdd2a3995ef5b386afd45fed17c490ab9e6864fa
+source-git-commit: 9d9caa1d0d17f2126352d60f2ff1c09bfe87125e
 workflow-type: tm+mt
-source-wordcount: '1011'
+source-wordcount: '1010'
 ht-degree: 0%
 
 ---
 
-# Redigera en aktivitet eller spara som utkast
+# Redigera en aktivitet eller spara som ett utkast
 
-Lär dig hur du redigerar befintliga aktiviteter i [!DNL Adobe Target], inklusive hur du sparar ändringar som utkast. I den här artikeln beskrivs de olika metoder som är tillgängliga i [!DNL Target]-gränssnittet för att ändra aktiviteter, oavsett om du uppdaterar upplevelser, justerar målinriktningsregler eller konfigurerar mål, samtidigt som du ser till att ändringarna sparas på ett säkert sätt före aktiveringen.
+Lär dig hur du redigerar befintliga aktiviteter i [!DNL Adobe Target], inklusive hur du sparar ändringar som utkast. I den här artikeln beskrivs de olika metoder som är tillgängliga i gränssnittet [!DNL Target] för att ändra aktiviteter. Oavsett om ni uppdaterar upplevelser, justerar målinriktningsregler eller konfigurerar mål, ser Target till att era ändringar sparas på ett säkert sätt före aktiveringen.
 
 [!DNL Target] innehåller olika platser i användargränssnittet där du kan redigera befintliga aktiviteter. Processen varierar beroende på vilken metod du väljer.
 
-## Redigera en aktivitet genom att använda hovringsknappen på aktivitetssidan {#section_29EE2ECA6B88473A8F9AC5600FFBB174}
+## Redigera en aktivitet genom att använda ikonen hovring [!UICONTROL More Actions] på aktivitetssidan {#section_29EE2ECA6B88473A8F9AC5600FFBB174}
 
 1. På sidan **[!UICONTROL Activities]** klickar du på ikonen **[!UICONTROL More Actions]** ( ![ikonen Fler åtgärder](/help/main/assets/icons/MoreSmall.svg) ) bredvid den aktivitet som du vill redigera och sedan på [!UICONTROL **Redigera**].
 
@@ -32,7 +32,7 @@ Lär dig hur du redigerar befintliga aktiviteter i [!DNL Adobe Target], inklusiv
    * **[!UICONTROL Save & Close]:** Klicka **[!UICONTROL Save and Close]** om du vill spara ändringarna och visa aktivitetens [!UICONTROL Overview]-sida.
    * **Spara:** Klicka på ikonen **[!UICONTROL More Actions]** ( ![ikonen Fler åtgärder](/help/main/assets/icons/MoreSmallListVert.svg) ) och välj sedan **[!UICONTROL Save]** om du vill spara ändringarna och stanna kvar i VEC där du kan fortsätta göra ändringarna. Vänta tills sparandet är klart innan du gör ytterligare ändringar. VEC läses in igen med de uppdaterade ändringarna när sparandet är slutfört.
 
-## Redigera en aktivitet genom att öppna aktiviteten genom att klicka på aktivitetens namn på sidan [!UICONTROL Activities] {#section_176180DAD17E40CEA441903F39E0AA1C}
+## Redigera en aktivitet genom att klicka på dess namn på sidan [!UICONTROL Activities] {#section_176180DAD17E40CEA441903F39E0AA1C}
 
 1. Om du vill undvika att behöva stega dig igenom arbetsflödet klickar du på önskad aktivitet på sidan [!UICONTROL Activities] för att öppna den, väljer ett alternativ i listrutan **[!UICONTROL Edit Activity]** och väljer sedan önskat alternativ.
 
@@ -63,7 +63,7 @@ När du skapar en ny aktivitet som ännu inte har sparats, eller du redigerar en
 
 Du kan spara en aktivitet i utkastläge om aktivitetsinställningarna har startats men inte är klara att köras.
 
-1. Skapa ny aktivitet eller redigera en befintlig aktivitet som är i utkastform.
+1. Skapa en ny aktivitet eller redigera en befintlig aktivitet som är i utkastform.
 1. Välj önskat alternativ från delningsknappen:
 
    ![Spara utkast](/help/main/c-activities/assets/save_draft.png)
