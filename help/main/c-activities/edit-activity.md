@@ -4,61 +4,48 @@ description: Lär dig olika sätt att redigera en befintlig aktivitet i Adobe Ta
 title: Hur redigerar jag en aktivitet eller sparar som utkast?
 feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
-source-git-commit: e458793e4d0110d97f3f5124cbe6e54520d3f0e9
+source-git-commit: cdd2a3995ef5b386afd45fed17c490ab9e6864fa
 workflow-type: tm+mt
-source-wordcount: '1169'
+source-wordcount: '1011'
 ht-degree: 0%
 
 ---
 
 # Redigera en aktivitet eller spara som utkast
 
-Information om olika sätt att redigera en befintlig aktivitet i [!DNL Adobe Target], inklusive att spara en aktivitet i formulärutkast.
+Lär dig hur du redigerar befintliga aktiviteter i [!DNL Adobe Target], inklusive hur du sparar ändringar som utkast. I den här artikeln beskrivs de olika metoder som är tillgängliga i [!DNL Target]-gränssnittet för att ändra aktiviteter, oavsett om du uppdaterar upplevelser, justerar målinriktningsregler eller konfigurerar mål, samtidigt som du ser till att ändringarna sparas på ett säkert sätt före aktiveringen.
 
-Target innehåller olika platser i användargränssnittet där du kan redigera befintliga aktiviteter. Processen varierar beroende på vilken metod du väljer.
+[!DNL Target] innehåller olika platser i användargränssnittet där du kan redigera befintliga aktiviteter. Processen varierar beroende på vilken metod du väljer.
 
 ## Redigera en aktivitet genom att använda hovringsknappen på aktivitetssidan {#section_29EE2ECA6B88473A8F9AC5600FFBB174}
 
-1. På sidan **[!UICONTROL Activities]** för du pekaren över aktiviteten som du vill redigera och klickar sedan på ikonen **[!UICONTROL Edit]** .
+1. På sidan **[!UICONTROL Activities]** klickar du på ikonen **[!UICONTROL More Actions]** ( ![ikonen Fler åtgärder](/help/main/assets/icons/MoreSmall.svg) ) bredvid den aktivitet som du vill redigera och sedan på [!UICONTROL **Redigera**].
 
-   ![Ikonen Redigera](/help/main/c-activities/assets/hover_edit.png)
-
-   Målet öppnar aktiviteten i Visual Experience Composer (VEC) och du ser sidan [!UICONTROL Experiences] (det första steget i det guidade arbetsflödet i tre steg).
+   Målet öppnar aktiviteten i [!UICONTROL Visual Experience Composer] (VEC) och du ser sidan [!UICONTROL Experiences] (det första steget i det guidade arbetsflödet i tre steg).
 
 1. Redigera aktiviteten efter behov med [VEC-alternativen](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
-1. Klicka på delningsknappen för att gå vidare till nästa steg eller för att spara aktiviteten.
+1. Klicka på **[!UICONTROL Next]** för att gå vidare till nästa steg och gör sedan nödvändiga ändringar.
 
-   ![Dela knapp](/help/main/c-activities/assets/edit_split_button_2.png)
+1. När du kommer till sidan **Mål och inställningar** har du följande alternativ:
 
-   * **Nästa:** Om du vill redigera en annan sida i trestegsarbetsflödet klickar du på **[!UICONTROL Next]** för att gå vidare till önskat steg. I bilden ovan visas till exempel steget [!UICONTROL Targeting] när du klickar på [!UICONTROL Next].
-   * **Spara och stäng:** Gör önskade ändringar i det aktuella steget, klicka på listrutan på delningsknappen och välj sedan **[!UICONTROL Save and Close]** för att spara ändringarna och visa aktivitetens [!UICONTROL Overview]-sida.
-   * **Spara:** Gör önskade ändringar i ett steg, klicka på listrutan på delningsknappen och välj sedan **[!UICONTROL Save]** för att spara ändringarna och stanna kvar på det steget där du kan fortsätta göra ändringarna. Vänta tills sparandet är klart innan du gör ytterligare ändringar. VEC läses in igen med de uppdaterade ändringarna när sparandet är slutfört.
+   * **[!UICONTROL Save & Close]:** Klicka **[!UICONTROL Save and Close]** om du vill spara ändringarna och visa aktivitetens [!UICONTROL Overview]-sida.
+   * **Spara:** Klicka på ikonen **[!UICONTROL More Actions]** ( ![ikonen Fler åtgärder](/help/main/assets/icons/MoreSmallListVert.svg) ) och välj sedan **[!UICONTROL Save]** om du vill spara ändringarna och stanna kvar i VEC där du kan fortsätta göra ändringarna. Vänta tills sparandet är klart innan du gör ytterligare ändringar. VEC läses in igen med de uppdaterade ändringarna när sparandet är slutfört.
 
-## Redigera en aktivitet genom att öppna aktiviteten genom att klicka på aktivitetens namn på aktivitetssidan {#section_176180DAD17E40CEA441903F39E0AA1C}
+## Redigera en aktivitet genom att öppna aktiviteten genom att klicka på aktivitetens namn på sidan [!UICONTROL Activities] {#section_176180DAD17E40CEA441903F39E0AA1C}
 
-1. Om du vill undvika att behöva stega dig igenom arbetsflödet klickar du på önskad aktivitet på aktivitetssidan för att öppna den och väljer sedan ett alternativ i listrutan **[!UICONTROL Edit Activity]**.
+1. Om du vill undvika att behöva stega dig igenom arbetsflödet klickar du på önskad aktivitet på sidan [!UICONTROL Activities] för att öppna den, väljer ett alternativ i listrutan **[!UICONTROL Edit Activity]** och väljer sedan önskat alternativ.
 
-   ![Listrutan Redigera aktivitet](/help/main/c-activities/assets/edit_activity.png)
+   * **Redigera upplevelser:** Går direkt till sidan [!UICONTROL Experiences] (det första steget i det guidade arbetsflödet i tre steg).
+   * **Redigera mål**: Går direkt till sidan [!UICONTROL Targeting] (det andra steget i det guidade arbetsflödet i tre steg).
+   * **[!UICONTROL Goals & Settings]**: Går direkt till sidan [!UICONTROL Goals & Settings] (det tredje steget i det guidade arbetsflödet i tre steg).
 
-1. Välj önskat alternativ:
+1. Gör önskade ändringar och spara sedan aktiviteten.
 
-   * **Redigera upplevelser:** Går direkt till sidan [!UICONTROL Experiences] (det första steget i det guidade arbetsflödet). Gör önskade ändringar och använd sedan knappen Dela (se ovan) för att spara aktiviteten.
+   * **[!UICONTROL Save & Close]:** Klicka **[!UICONTROL Save and Close]** om du vill spara ändringarna och visa aktivitetens [!UICONTROL Overview]-sida.
+   * **Spara:** Klicka på ikonen **[!UICONTROL More Actions]** ( ![ikonen Fler åtgärder](/help/main/assets/icons/MoreSmallListVert.svg) ) och välj sedan **[!UICONTROL Save]** om du vill spara ändringarna och stanna kvar i VEC där du kan fortsätta göra ändringarna. Vänta tills sparandet är klart innan du gör ytterligare ändringar. VEC läses in igen med de uppdaterade ändringarna när sparandet är slutfört.
 
-      * Klicka på **[!UICONTROL Save & Close]** om du vill spara ändringarna och visa aktivitetens översiktssida.
-      * Klicka på **[!UICONTROL Save]** om du vill spara ändringarna och fortsätta där du kan fortsätta göra ändringarna. Vänta tills sparandet är klart innan du gör ytterligare ändringar. VEC läses in igen med de uppdaterade ändringarna när sparandet är slutfört.
-
-   * **Redigera mål:** Går direkt till sidan [!UICONTROL Targeting] (det andra steget i det guidade arbetsflödet). Gör önskade ändringar och använd sedan knappen Dela (se ovan) för att spara aktiviteten.
-
-      * Klicka på **[!UICONTROL Save & Close]** om du vill spara ändringarna och visa aktivitetens översiktssida.
-      * Klicka på **[!UICONTROL Save]** om du vill spara ändringarna och fortsätta där du kan fortsätta göra ändringarna. Vänta tills sparandet är klart innan du gör ytterligare ändringar. VEC läses in igen med de uppdaterade ändringarna när sparandet är slutfört.
-
-   * **Redigera mål och inställningar:** Går direkt till sidan [!UICONTROL Goals & Settings] (det sista steget i det guidade arbetsflödet). Gör önskade ändringar och använd sedan knappen Dela (se ovan) för att spara aktiviteten.
-
-      * Klicka på **[!UICONTROL Save & Close]** om du vill spara ändringarna och visa aktivitetens översiktssida.
-      * Klicka på **[!UICONTROL Save]** om du vill spara ändringarna och fortsätta där du kan fortsätta göra ändringarna. Vänta tills sparandet är klart innan du gör ytterligare ändringar. VEC läses in igen med de uppdaterade ändringarna när sparandet är slutfört.
-
-## Arbeta med äldre aktiviteter som skapats i Recommendations Classic {#classic}
+## Arbeta med äldre aktiviteter skapade i [!DNL Recommendations Classic] {#classic}
 
 I listan [!UICONTROL Activities] visas aktiviteter som har skapats i olika källor, bland annat [!DNL Recommendations Classic]. Följande åtgärder är tillgängliga när du arbetar med äldre aktiviteter som skapats i [!DNL Recommendations Classic]:
 
@@ -72,7 +59,7 @@ Du kan inte redigera en [!DNL Recommendations]-aktivitet direkt. Om du vill redi
 
 ## Spara en aktivitet i utkastet {#section_968CD7A63027432EBD8FAE3A0F7404C3}
 
-När du skapar en ny aktivitet som ännu inte har sparats, eller du redigerar en aktivitet som tidigare har sparats i ett utkast, visas alternativet Spara utkast i delningsknappen.
+När du skapar en ny aktivitet som ännu inte har sparats, eller du redigerar en aktivitet som tidigare har sparats i ett utkast, visas alternativen för [!UICONTROL Save Draft] i delningsknappen.
 
 Du kan spara en aktivitet i utkastläge om aktivitetsinställningarna har startats men inte är klara att köras.
 
@@ -97,7 +84,7 @@ Om du är en del av en flernationell organisation kan du ha en arbetsyta för di
 
 Mer information om arbetsytor och funktionerna för Enterprise-användarbehörigheter finns i [Enterprise-användarbehörigheter](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838).
 
-Om Enterprise-användarbehörigheter är aktiverade i din miljö kan du kopiera aktiviteter till samma arbetsyta eller till en annan arbetsyta. Du kan för närvarande inte flytta en aktivitet från en arbetsyta till en annan. Om du vill kopiera en aktivitet till en annan arbetsyta går du till sidan [!UICONTROL Activities], håller pekaren över den aktivitet du vill kopiera, klickar på ikonen [!UICONTROL Copy] och väljer sedan önskad arbetsyta i listrutan.
+Om Enterprise-användarbehörigheter är aktiverade i din miljö kan du kopiera aktiviteter till samma arbetsyta eller till en annan arbetsyta. Du kan för närvarande inte flytta en aktivitet från en arbetsyta till en annan. Om du vill kopiera en aktivitet till en annan arbetsyta går du till sidan [!UICONTROL Activities] och klickar på ikonen **[!UICONTROL More Actions]** ( ![ikonen Fler åtgärder](/help/main/assets/icons/MoreSmall.svg) ) bredvid den aktivitet som du vill kopiera. Klicka sedan på [!UICONTROL **Kopiera**].
 
 Tänk på följande när du använder kopiera/redigera-funktionen med arbetsytor:
 
