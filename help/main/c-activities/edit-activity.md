@@ -4,9 +4,9 @@ description: Lär dig mer om olika sätt att redigera en befintlig aktivitet, in
 title: Hur redigerar jag en aktivitet eller sparar som utkast?
 feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
-source-git-commit: 9d9caa1d0d17f2126352d60f2ff1c09bfe87125e
+source-git-commit: fd368ba4a59c855fe9fc7c4bada4d93fcda006f0
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '925'
 ht-degree: 0%
 
 ---
@@ -92,11 +92,3 @@ Tänk på följande när du använder kopiera/redigera-funktionen med arbetsytor
 * När du kopierar en aktivitet till en annan arbetsyta kopieras aktiviteten till den andra arbetsytan utan att den öppnas i flödet där aktiviteten skapas. När aktiviteten har kopierats visas ett meddelande som anger att aktiviteten har kopierats och innehåller en länk för att öppna den nya aktiviteten.
 
 Om din miljö inte har funktionen Enterprise-användarbehörigheter aktiverad, öppnas alla aktiviteter i redigeringsläget innan de kopieras.
-
-## God praxis
-
-* Det bästa sättet är att försöka uppdatera aktiviteten med samma metod (UI eller API) som användes för att skapa aktiviteten från början.
-
-  Aktiviteter som skapats med användargränssnittet för [!DNL Target] bör uppdateras via användargränssnittet för [!DNL Target]. Aktiviteter som skapas via API ska uppdateras via API. Om du ursprungligen skapade en aktivitet med API, till exempel, men sedan redigerar aktiviteten via användargränssnittet i [!DNL Target], uppdateras inte alla ändringar. Alla ändringar lagras på serverdelen och kan uppdateras genom att du gör ett annat API-anrop.
-
-
