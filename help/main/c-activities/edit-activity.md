@@ -1,19 +1,19 @@
 ---
-keywords: aktiviteter;aktivitet;aktivitetstyper;redigera aktivitet;redigera;utkast
-description: Lär dig mer om olika sätt att redigera en befintlig aktivitet, inklusive att spara en aktivitet i ett utkast.
-title: Hur redigerar jag en aktivitet eller sparar som utkast?
+keywords: aktiviteter;aktivitet;aktivitetstyper;redigera aktivitet;redigera
+description: Lär dig mer om olika sätt att redigera en befintlig aktivitet.
+title: Hur redigerar jag en aktivitet?
 feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
-source-git-commit: fd368ba4a59c855fe9fc7c4bada4d93fcda006f0
+source-git-commit: c445775bc96623f9742f648a82ed9b4e64bd463a
 workflow-type: tm+mt
-source-wordcount: '925'
+source-wordcount: '769'
 ht-degree: 0%
 
 ---
 
-# Redigera en aktivitet eller spara som ett utkast
+# Redigera en aktivitet
 
-Lär dig hur du redigerar befintliga aktiviteter i [!DNL Adobe Target], inklusive hur du sparar ändringar som utkast. I den här artikeln beskrivs de olika metoder som är tillgängliga i gränssnittet [!DNL Target] för att ändra aktiviteter. Oavsett om ni uppdaterar upplevelser, justerar målinriktningsregler eller konfigurerar mål, ser Target till att era ändringar sparas på ett säkert sätt före aktiveringen.
+Lär dig redigera befintliga aktiviteter i [!DNL Adobe Target]. I den här artikeln beskrivs de olika metoder som är tillgängliga i gränssnittet [!DNL Target] för att ändra aktiviteter. Oavsett om du uppdaterar upplevelser, justerar målinriktningsregler eller konfigurerar mål, säkerställer [!DNL Target] att dina ändringar sparas på ett säkert sätt före aktiveringen.
 
 [!DNL Target] innehåller olika platser i användargränssnittet där du kan redigera befintliga aktiviteter. Processen varierar beroende på vilken metod du väljer.
 
@@ -59,18 +59,7 @@ Du kan inte redigera en [!DNL Recommendations]-aktivitet direkt. Om du vill redi
 
 ## Spara en aktivitet i utkastet {#section_968CD7A63027432EBD8FAE3A0F7404C3}
 
-När du skapar en ny aktivitet som ännu inte har sparats, eller du redigerar en aktivitet som tidigare har sparats i ett utkast, visas alternativen för [!UICONTROL Save Draft] i delningsknappen.
-
-Du kan spara en aktivitet i utkastläge om aktivitetsinställningarna har startats men inte är klara att köras.
-
-1. Skapa en ny aktivitet eller redigera en befintlig aktivitet som är i utkastform.
-1. Välj önskat alternativ från delningsknappen:
-
-   ![Spara utkast](/help/main/c-activities/assets/save_draft.png)
-
-   * **Nästa:** Om du vill redigera en annan sida i trestegsarbetsflödet klickar du på **[!UICONTROL Next]** för att gå vidare till önskat steg.
-   * **Spara utkast och stäng:** Gör önskade ändringar i det aktuella steget, klicka på listrutan på delningsknappen och välj sedan **[!UICONTROL Save Draft and Close]** för att spara ändringarna och visa aktivitetens [!UICONTROL Overview]-sida.
-   * **Spara utkast:** Gör önskade ändringar i ett steg, klicka på listrutan på delningsknappen och välj sedan **[!UICONTROL Save Draft]** för att spara ändringarna och stanna kvar på det steget.
+Funktionen Spara som utkast är inte längre tillgänglig. Mer information finns i *[!UICONTROL Status]* under [Tillämpa filter på aktivitetslistan](/help/main/c-activities/activities.md#filters).
 
 ## Kopiera/redigera en aktivitet när du använder arbetsytor {#section_45A92E1DD3934523B07E71EF90C4F8B6}
 

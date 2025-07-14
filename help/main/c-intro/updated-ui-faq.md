@@ -4,9 +4,9 @@ description: Frågor och svar om det uppdaterade användargränssnittet i [!DNL 
 title: Var kan jag hitta vanliga frågor om det uppdaterade  [!DNL Target] användargränssnittet?
 feature: Overview
 exl-id: 75db4791-ca51-472d-99dd-583f7a74b222
-source-git-commit: 107770a27a80943db858729ce1cb3dceeda22dfb
+source-git-commit: c445775bc96623f9742f648a82ed9b4e64bd463a
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: '988'
 ht-degree: 0%
 
 ---
@@ -76,6 +76,15 @@ Mer information finns i [Tidskänsliga uppdateringar som du behöver känna till
 Det finns flera begränsningar för att använda växlingsknappen för användargränssnittsversionen, inklusive synlighet för nya aktiviteter, redigering av befintliga aktiviteter och konsekvens i aktivitetsinformationen.
 
 Mer information finns i [Tidskänsliga uppdateringar som du behöver känna till](/help/main/r-release-notes/release-notes.md#time-sensitive).
+
++++
+
+## Är lägena [!UICONTROL Save as Draft] och [!UICONTROL Syncing] fortfarande tillgängliga?
+
++++Information
+
+
+Med de senaste uppdateringarna av användargränssnittet är tillstånden [!UICONTROL Save as Draft] och [!UICONTROL Syncing] inte längre tillgängliga. Mer information finns i Status under [Använda filter i aktivitetslistan](/help/main/c-activities/activities.md#filters) i *[!UICONTROL Activities overview]*.
 
 +++
 
