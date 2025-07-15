@@ -1,12 +1,12 @@
 ---
-keywords: aktiviteter;aktivitet;aktivitetstyper;redigera aktivitet;redigera
+keywords: aktiviteter;aktivitet;aktivitetstyper;redigera aktivitet;redigera;kopiera
 description: Lär dig mer om olika sätt att redigera en befintlig aktivitet.
 title: Hur redigerar jag en aktivitet?
 feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
-source-git-commit: c445775bc96623f9742f648a82ed9b4e64bd463a
+source-git-commit: caf431736f1e59473d3d5e564ab71088545837b7
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '889'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,24 @@ Om Enterprise-användarbehörigheter är aktiverade i din miljö kan du kopiera 
 
 Tänk på följande när du använder kopiera/redigera-funktionen med arbetsytor:
 
-* När du kopierar en aktivitet inom samma arbetsyta öppnas det första steget i skapandeflödet för den nyligen kopierade aktiviteten i redigeringsläge.
-* När du kopierar en aktivitet till en annan arbetsyta kopieras aktiviteten till den andra arbetsytan utan att den öppnas i flödet där aktiviteten skapas. När aktiviteten har kopierats visas ett meddelande som anger att aktiviteten har kopierats och innehåller en länk för att öppna den nya aktiviteten.
+* Om du kopierar en aktivitet inom samma arbetsyta eller från standardarbetsytan till en icke-standardarbetsyta, öppnas Aktivitetsguiden automatiskt. I kopior som omfattar flera arbetsytor kanske du bara behöver uppdatera aktivitetsegenskaperna.
+* När en aktivitet kopieras från en icke-standardarbetsyta till en annan arbetsyta (oavsett om den är standard eller inte) öppnas Aktivitetsguiden och vissa manuella indata krävs för att slutföra installationen:
+   * **[!UICONTROL Properties]**: Egenskaperna kan skilja sig åt mellan arbetsytorna. Den här situationen kan utlösa en varning:
 
-Om din miljö inte har funktionen Enterprise-användarbehörigheter aktiverad, öppnas alla aktiviteter i redigeringsläget innan de kopieras.
+      * I [!UICONTROL Form-Based Experience Composer] visas varningar direkt i användargränssnittet för omedelbar synlighet.
+
+        ![Formulärbaserad arbetsyta - varning](/help/main/c-activities/assets/form-based-warning.png)
+
+      * I VEC visas varningar när du klickar på [!UICONTROL Configure] > [!UICONTROL Properties].
+
+        ![vec-warning](/help/main/c-activities/assets/vec-warning.png)
+
+        Lös problemet genom att klicka på [!UICONTROL Add/Remove] så att endast de egenskaper som är tillgängliga i målarbetsytan visas för markering.
+
+   * **Publiker och erbjudanden**: Alla målgrupper och erbjudanden från den ursprungliga arbetsytan måste ersättas. Du kan också kopiera dem från [!UICONTROL Audiences]- eller [!UICONTROL Offers]-sidorna och sedan välja lämpliga objekt från motsvarande lista i aktiviteten.
+
+   * **Obligatoriska manuella ändringar**: Alla nödvändiga manuella ändringar sammanfattas i det sista steget ([!UICONTROL Save & Close]). En popup-meny visar en lista över enheter som behöver uppdateras, vilket gör att alla nödvändiga justeringar görs innan aktivitetsinställningarna slutförs.
+
+     ![Workspace-valideringsvarning](/help/main/c-activities/assets/work-space-validation.png)
+
+Om miljön inte har funktionen [!UICONTROL Enterprise User Permissions] aktiverad öppnas alla aktiviteter i redigeringsläge innan de kopieras.
