@@ -4,9 +4,9 @@ description: Lär dig mer om olika sätt att redigera en befintlig aktivitet.
 title: Hur redigerar jag en aktivitet?
 feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
-source-git-commit: cf7bc0f9ce72d5a170db76f5a932b196d4e1ddb0
+source-git-commit: 34633032385f848dcc87fe1bc8cd025e42bcc3e9
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '883'
 ht-degree: 0%
 
 ---
@@ -67,13 +67,13 @@ Med en arbetsyta kan en organisation tilldela en viss uppsättning användare ti
 
 >[!NOTE]
 >
->Arbetsytor är en del av de egenskaper och behörigheter som är tillgängliga som en del av lösningen [!DNL Target Premium]. De är inte tillgängliga i [!DNL Target Standard] utan en [!DNL Target Premium]-licens.
+>Arbetsytor är en del av de [!UICONTROL Properties and Permissions]-funktioner som är tillgängliga som en del av lösningen [!DNL Target Premium]. De är inte tillgängliga i [!DNL Target Standard] utan en [!DNL Target Premium]-licens.
 
 Om du är en del av en flernationell organisation kan du ha en arbetsyta för dina europeiska webbsidor, egenskaper eller webbplatser och en annan arbetsyta för dina amerikanska webbsidor, egenskaper eller webbplatser. Om du är en del av en organisation med flera varumärken kan du ha en separat arbetsyta för varje varumärke.
 
 Mer information om arbetsytor och funktionerna för Enterprise-användarbehörigheter finns i [Enterprise-användarbehörigheter](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838).
 
-Om Enterprise-användarbehörigheter är aktiverade i din miljö kan du kopiera aktiviteter till samma arbetsyta eller till en annan arbetsyta. Du kan för närvarande inte flytta en aktivitet från en arbetsyta till en annan. Om du vill kopiera en aktivitet till en annan arbetsyta går du till sidan [!UICONTROL Activities] och klickar på ikonen **[!UICONTROL More Actions]** ( ![Fler åtgärder-ikon](/help/main/assets/icons/MoreSmall.svg) ) bredvid aktiviteten som du vill kopiera. Klicka sedan på [!UICONTROL **Kopiera**] eller **[!UICONTROL Edit]**.
+Om du har [!UICONTROL Enterprise User Permissions] aktiverat i din miljö kan du kopiera aktiviteter till samma arbetsyta eller till en annan arbetsyta. Du kan för närvarande inte flytta en aktivitet från en arbetsyta till en annan. Om du vill kopiera en aktivitet till en annan arbetsyta går du till sidan [!UICONTROL Activities] och klickar på ikonen **[!UICONTROL More Actions]** ( ![ikonen Fler åtgärder](/help/main/assets/icons/MoreSmall.svg) ) bredvid den aktivitet som du vill kopiera. Klicka sedan på [!UICONTROL **Kopiera**].
 
 Tänk på följande när du använder kopiera/redigera-funktionen med arbetsytor:
 
