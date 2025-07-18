@@ -4,9 +4,9 @@ description: Lär dig mer om framgångsmått som hjälper dig att avgöra hur fr
 title: Vad är Success Metrics?
 feature: Success Metrics
 exl-id: 38d5314d-4950-4106-a058-0d221faf5a24
-source-git-commit: ad26684d40ccb5239a345da73adfa924a04189ef
+source-git-commit: a34d40bef584bfa941731df718cb402c658f5d28
 workflow-type: tm+mt
-source-wordcount: '1367'
+source-wordcount: '1362'
 ht-degree: 0%
 
 ---
@@ -33,8 +33,8 @@ Följande framgångsmått kan konfigureras i avsnittet [!UICONTROL Reporting Set
 
 | Resultatmått | Mätningsmetod | Definition |
 |--- |--- |--- |
-| [!UICONTROL Con]version | Konverteringsbaserad | Konverteringen är när en besökare utför en åtgärd på din webbplats som du har definierat, till exempel <ul><li>Visad sida</li><li>Visad mbox</li><li>Klicka på ett element</li></ul>En konvertering kan räknas en gång per besökare eller varje gång en besökare slutför en konvertering. |
-| [!UICONTROL Revenue] | Konverteringsbaserad | Intäkter från besöket. Du kan bara välja ett intäktsmått:<ul><li>Visad mbox</li></ul>Mer information om ändringar i det uppdaterade [!DNL Target]-användargränssnittet, som det gäller resultatmått, finns i [Gränssnittsändringar relaterade till framgångsmått ](#changes) nedan. |
+| [!UICONTROL Conversion] | Konverteringsbaserad | Konverteringen är när en besökare utför en åtgärd på din webbplats som du har definierat, till exempel <ul><li>Visad sida</li><li>Visad mbox</li><li>Klicka på ett element</li></ul>En konvertering kan räknas en gång per besökare eller varje gång en besökare slutför en konvertering. |
+| [!UICONTROL Revenue] | Konverteringsbaserad | Intäkter från besöket. Du kan bara välja ett intäktsmått:<ul><li>Visad mbox</li></ul>Mer information om ändringar i det uppdaterade [!DNL Target]-användargränssnittet, som det gäller resultatvärden, finns i [Uppdaterade  [!DNL Target] gränssnittsändringar](#changes) nedan. |
 | [!UICONTROL Engagement] | Engagement-based | Engagemang som genererats av besöket. Du kan välja mellan följande interaktionsmått:<UL><li>Sidvyer: Varje unikt besök räknas som en konvertering.</li><li>[!UICONTROL Custom Scoring]: Sammanställd poäng baserad på det värde som tilldelats till sidor som besökts på webbplatsen, från den punkt besökaren först ser aktivitetens första [!DNL Target] -visningsbegäran.</li>[!DNL Time on Site]: Den tid som har tillbringats i besöket (i sekunder) från den punkt där besökaren ser aktivitetens första [!DNL Target] -begäran till den sista sidans inläsning med en begäran i sessionen.</UL> |
 
 För interaktionsbaserade mätvärden (till skillnad från för konverteringsbaserade och intäktsbaserade mätvärden) måste besökarna omkvalificera sig för aktiviteten vid varje besök för att öka antalet för den sessionen. Det associerade måttet börjar öka efter omkvalificering och stannar i slutet av varje besökares session. En session avslutas efter 30 minuters inaktivitet. Därför ser du inga resultat direkt under testningen, men alla resultat från den sessionen är tillgängliga inom några minuter efter att sessionen avslutats.
@@ -111,11 +111,11 @@ Välj önskat beteende:
 
   När ett framgångsmått är inställt på ökning för varje intryck, räknar [!DNL Target] besökaren igen varje gång besökaren besöker det här framgångsmåttet. [!DNL Target] återställer sedan måttet för framgång till 0 så att det kan räkna med nästa intryck. Om ett annat mått kräver att det här måttet har setts först, kommer [!DNL Target] alltså aldrig ihåg att användaren har sett det första måttet.
 
-## Uppdaterade ändringar av målanvändargränssnittet
+## Uppdaterade [!DNL Target] gränssnittsändringar {#changes}
 
 [[!DNL Target Standard/Premium] 25.2.1-utgåvan](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2), som startades den 17 februari 2015, introducerade uppdaterade användargränssnitt för [!DNL Target] och [!UICONTROL Visual Experience Composer] (VEC). I det här avsnittet beskrivs de viktigaste skillnaderna mellan det gamla och uppdaterade användargränssnittet, särskilt eftersom de gäller att konfigurera och hantera framgångsmått.
 
-### Gränssnittsändringar relaterade till [!UICONTROL Revenue] framgångsmått {#changes}
+### Gränssnittsändringar relaterade till [!UICONTROL Revenue] framgångsmått
 
 Listrutan [!DNL Target] har tagits bort i det uppdaterade [!UICONTROL Default View for Reporting]-gränssnittet. Det här fältet var överflödigt eftersom det tidigare sparade standardrapportvyn under [!DNL Overview] > [!UICONTROL Reports] i det gamla användargränssnittet.
 
