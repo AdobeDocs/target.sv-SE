@@ -556,7 +556,7 @@ Mer information om at.js-versioner finns i [at.js versionsinformation](https://e
 
 ### [!DNL Target] rapporterar i [!DNL Adobe Customer Journey Analytics] (8 maj 2024)
 
-Integrationen mellan [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/customer-journey-analytics){target=_blank} och [!DNL Target] ger kraftfulla analys- och tidsbesparande verktyg för optimeringsprogrammet.
+Integrationen mellan [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/sv/docs/customer-journey-analytics){target=_blank} och [!DNL Target] ger kraftfulla analys- och tidsbesparande verktyg för optimeringsprogrammet.
 
 De främsta fördelarna med att använda [!DNL Customer Journey Analytics] som rapportkälla för [!DNL Target] är:
 
