@@ -4,9 +4,9 @@ description: Frågor och svar om det uppdaterade användargränssnittet i [!DNL 
 title: Var kan jag hitta vanliga frågor om det uppdaterade  [!DNL Target] användargränssnittet?
 feature: Overview
 exl-id: 75db4791-ca51-472d-99dd-583f7a74b222
-source-git-commit: c445775bc96623f9742f648a82ed9b4e64bd463a
+source-git-commit: c8cbf4998c304910a63e31acc3ec93a04ac652ae
 workflow-type: tm+mt
-source-wordcount: '988'
+source-wordcount: '1084'
 ht-degree: 0%
 
 ---
@@ -79,11 +79,29 @@ Mer information finns i [Tidskänsliga uppdateringar som du behöver känna till
 
 +++
 
-## Är lägena [!UICONTROL Save as Draft] och [!UICONTROL Syncing] fortfarande tillgängliga?
+## Kan jag komprimera [!UICONTROL Components]- och [!UICONTROL Modifications]-skenorna så att jag kan förstora panelen [!UICONTROL Design]? {#collapse}
 
 +++Information
 
+Ja, du kan komprimera båda skenorna så att du kan expandera arbetsytan i [!UICONTROL Design] för att göra redigeringen enklare. Så här:
 
+>[!NOTE]
+>
+>Ikonen [!UICONTROL Show Components] ( ![Visa komponentikonen](/help/main/assets/icons/Add.svg) ) och ikonen [!UICONTROL Show Modifications] ( ![Visa ändringslinjen](/help/main/assets/icons/History.svg) ) fungerar som växlar för att visa lämpliga alternativ.
+
+**Komprimera [!UICONTROL Components] rälen**
+
+Om du vill komprimera [!UICONTROL Components]-rälen och förstora arbetsytan i [!UICONTROL Design] medan [!UICONTROL Components]-rälen är öppen klickar du på ikonen ( ![Visa komponenter ](/help/main/assets/icons/Add.svg) ).
+
+**Komprimera [!UICONTROL Modifications] rälen**
+
+Klicka på ikonen [!UICONTROL Modifications] ( [!UICONTROL Design]Visa ändringslinjen [!UICONTROL Modifications] ) om du vill komprimera [!UICONTROL Show Modifications]-rälen och förstora arbetsytan i ![ medan ](/help/main/assets/icons/History.svg)-rälen är öppen.
+
++++
+
+## Är lägena [!UICONTROL Save as Draft] och [!UICONTROL Syncing] fortfarande tillgängliga?
+
++++Information
 Med de senaste uppdateringarna av användargränssnittet är tillstånden [!UICONTROL Save as Draft] och [!UICONTROL Syncing] inte längre tillgängliga. Mer information finns i Status under [Använda filter i aktivitetslistan](/help/main/c-activities/activities.md#filters) i *[!UICONTROL Activities overview]*.
 
 +++

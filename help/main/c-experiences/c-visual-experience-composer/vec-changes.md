@@ -4,9 +4,9 @@ description: Förstå ändringarna i Visual Experience Composer (VEC) i Adobe Ta
 title: Vilka ändringar införs i den nya Visual Experience Composer (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 4c7a5657-93d9-4355-9d2b-c992b36bcb50
-source-git-commit: b1bde455f686c34e7a5184868ce63db0b74e2af7
+source-git-commit: c8cbf4998c304910a63e31acc3ec93a04ac652ae
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '876'
 ht-degree: 0%
 
 ---
@@ -43,11 +43,23 @@ Du kan lägga till ett antal komponenter på webbsidan och redigera dem efter be
 
 Om du vill lägga till en ny komponent drar du komponenten från [!UICONTROL Components]-listen som du vill infoga över ett befintligt sidelement på arbetsytan i [!UICONTROL Design]. Välj sedan att infoga komponenten före eller efter det markerade elementet.
 
+>[!NOTE]
+>
+>Om du ser [!UICONTROL Modifications]-rälen i det här området i stället för [!UICONTROL Components]-rälen klickar du på ikonen **[!UICONTROL Show Components]** ( ![Visa komponentikonen ](/help/main/assets/icons/Add.svg) ). Ikonen [!UICONTROL Show Components] ( ![Visa komponentikonen](/help/main/assets/icons/Add.svg) ) och ikonen [!UICONTROL Show Modifications] ( ![Visa ändringslinjen](/help/main/assets/icons/History.svg) ) fungerar som växlar för att visa lämpliga alternativ.
+>
+>Om du vill komprimera [!UICONTROL Components]-rälen och förstora arbetsytan i [!UICONTROL Design] medan [!UICONTROL Components]-rälen är öppen klickar du på ikonen ( ![Visa komponenter ](/help/main/assets/icons/Add.svg) ).
+
 ### [!UICONTROL Modifications] spår
 
-Klicka på ikonen [!UICONTROL Show Modifications] ( ![Visa ändringslinjen](/help/main/assets/icons/History.svg) ) i [!UICONTROL Components]-listen för att öppna [!UICONTROL Modifications]-listen. Rälen [!UICONTROL Modifications] ändrade position från höger sida till vänster på arbetsytan för redigering.
+Klicka på ikonen [!UICONTROL Modifications] ( [!UICONTROL Show Modifications]Visa ändringslinjen![ ) i ](/help/main/assets/icons/History.svg)-listen för att öppna [!UICONTROL Components]-listen. Rälen [!UICONTROL Modifications] ändrade position från höger sida till vänster på arbetsytan för redigering.
 
 ![Räler för ändringar](/help/main/c-experiences/c-visual-experience-composer/assets/modifications-panel.png)
+
+>[!NOTE]
+>
+>Ikonen [!UICONTROL Show Components] ( ![Visa komponentikonen](/help/main/assets/icons/Add.svg) ) och ikonen [!UICONTROL Show Modifications] ( ![Visa ändringslinjen](/help/main/assets/icons/History.svg) ) fungerar som växlar för att visa lämpliga alternativ.
+>
+>Klicka på ikonen [!UICONTROL Modifications] ( [!UICONTROL Design]Visa ändringslinjen [!UICONTROL Modifications] ) om du vill komprimera [!UICONTROL Show Modifications]-rälen och förstora arbetsytan i ![ medan ](/help/main/assets/icons/History.svg)-rälen är öppen.
 
 Rälen [!UICONTROL Modifications] visar alla ändringar som har gjorts på sidan i VEC och gör att du kan göra ytterligare ändringar (till exempel CSS-väljare, Mbox och anpassad kod).
 
