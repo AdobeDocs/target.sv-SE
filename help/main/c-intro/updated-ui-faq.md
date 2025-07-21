@@ -4,9 +4,9 @@ description: Frågor och svar om det uppdaterade användargränssnittet i [!DNL 
 title: Var kan jag hitta vanliga frågor om det uppdaterade  [!DNL Target] användargränssnittet?
 feature: Overview
 exl-id: 75db4791-ca51-472d-99dd-583f7a74b222
-source-git-commit: c8cbf4998c304910a63e31acc3ec93a04ac652ae
+source-git-commit: b91abbd3b7418fd4d1444d96f160c3d9017f3bf8
 workflow-type: tm+mt
-source-wordcount: '1084'
+source-wordcount: '1112'
 ht-degree: 0%
 
 ---
@@ -79,11 +79,11 @@ Mer information finns i [Tidskänsliga uppdateringar som du behöver känna till
 
 +++
 
-## Kan jag komprimera [!UICONTROL Components]- och [!UICONTROL Modifications]-skenorna så att jag kan förstora panelen [!UICONTROL Design]? {#collapse}
+## Kan jag komprimera [!UICONTROL Components]-, [!UICONTROL Modifications]- och [!UICONTROL Properties]-skenorna så att jag kan förstora [!UICONTROL Design]-panelen? {#collapse}
 
 +++Information
 
-Ja, du kan komprimera båda skenorna så att du kan expandera arbetsytan i [!UICONTROL Design] för att göra redigeringen enklare. Så här:
+Ja, du kan komprimera de här skenorna så att du kan expandera arbetsytan i [!UICONTROL Design] för att göra redigeringen enklare. Så här:
 
 >[!NOTE]
 >
@@ -96,6 +96,10 @@ Om du vill komprimera [!UICONTROL Components]-rälen och förstora arbetsytan i 
 **Komprimera [!UICONTROL Modifications] rälen**
 
 Klicka på ikonen [!UICONTROL Modifications] ( [!UICONTROL Design]Visa ändringslinjen [!UICONTROL Modifications] ) om du vill komprimera [!UICONTROL Show Modifications]-rälen och förstora arbetsytan i ![ medan ](/help/main/assets/icons/History.svg)-rälen är öppen.
+
+**Komprimera [!UICONTROL Properties] rälen**
+
+Klicka på ikonen [!UICONTROL Properties] ( [!UICONTROL Design]egenskapsikonen [!UICONTROL Show/Hide Properties] ) till höger om listen om du vill komprimera eller visa ![-rälen om du vill komprimera ](/help/main/assets/icons/Propertie.svg)-rälen och förstora arbetsytan i [!UICONTROL Properties].
 
 +++
 
