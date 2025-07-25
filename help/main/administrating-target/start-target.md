@@ -5,9 +5,9 @@ title: Var kommer jag igång med att administrera [!DNL Target]?
 feature: Administration & Configuration
 role: Admin
 exl-id: b60236da-20ae-4bab-b261-6a33d2f70e23
-source-git-commit: e2954a6d93041712a141a7029a964e596c80f8be
+source-git-commit: 614fd89c9746ce55f502debd5b689c34de400ae5
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '436'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ Den här artikeln innehåller de första stegen som [!DNL Adobe Target]-administ
 
 ## Få inbjudan till [!DNL Target] {#task_3E0817630774431983FAA3D2CB2E75BD}
 
-En systemadministratör i [!DNL Adobe Admin Console] måste lägga till dig som en användare i [!DNL Target] genom att bjuda in dig. Systemadministratören bör sedan lägga till dig i en eller flera rollspecifika grupper. Båda dessa åtgärder utförs i [[!DNL Adobe Admin Console]](https://adminconsole.adobe.com).
+En systemadministratör i [!DNL Adobe Admin Console] måste lägga till dig som en användare i [!DNL Target] genom att bjuda in dig. Systemadministratören bör sedan lägga till dig i en eller flera rollspecifika produktprofiler (användargrupper). Båda dessa åtgärder utförs i [Adobe Admin Console](https://adminconsole.adobe.com).
 
-Mer information finns i [Hantera Experience Cloud-användare och -produkter](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=sv-SE) i hjälpen för *Experience Cloud och bastjänster*.
+Mer information finns i [Hantera användargrupper](https://helpx.adobe.com/enterprise/using/users.html).
 
 Du får ett e-postmeddelande med en inbjudan när systemadministratören har utfört de här stegen.
 
