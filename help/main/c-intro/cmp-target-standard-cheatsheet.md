@@ -1,39 +1,63 @@
 ---
 keywords: Target Standard;faq;Vanliga frågor;kalkylblad;kalkylblad
-description: Se en lista med vanliga frågor och svar om Adobe Target funktioner, samt information och länkar för mer information.
+description: Utforska en lista med vanliga frågor om hur du använder funktionerna i  [!DNL Target], tillsammans med information och länkar för mer information.
 title: Var kan jag hitta svar på Mina optimerings- och Personalization-frågor?
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: 21d31fdf145f7c74be717885c15b35c3d1d61ed9
+source-git-commit: 6304cafb00916491cbeab0299f527df56da30ee6
 workflow-type: tm+mt
-source-wordcount: '2623'
+source-wordcount: '2693'
 ht-degree: 0%
 
 ---
 
 # Vanliga frågor om måloptimering och personalisering
 
-En lista med vanliga frågor om hur du använder funktionerna i [!DNL Adobe Target], tillsammans med information och länkar för mer information.
+Utforska svar på vanliga frågor om hur du använder [!DNL Adobe Target]-funktioner. Lär dig optimera dina experiment, personalisera upplevelser och få tillgång till användbara resurser med direktlänkar för djupare insikter.
 
 ## Allmän information {#section_CE5713B5AAC341C9A75586C107797FA3}
 
+**Var hittar jag information om det uppdaterade [!DNL Target] användargränssnittet och [!UICONTROL Visual Experience Composer] (VEC)?**
+
++++Se information
+
+Användargränssnittet är ordnat i ett logiskt och användarvänligt format så att du får ut det mesta av [!DNL Target]. I följande korta översikt får du hjälp att bekanta dig med [!DNL Target] och VEC och länkar till mer detaljerad information och stegvisa instruktioner.
+
+Mer information finns i [Förstå  [!DNL Target] användargränssnittet](/help/main/c-intro/understand-the-target-ui.md).
+
++++
+
 **Hur kan jag se hur andra kunder har utnyttjat [!DNL Target] för att få bättre resultat?**
 
-Här är bara några av våra [nöjda kunder](https://www.adobe.com/in/marketing-cloud/target/resources.html#x). Se hur kunder som ni har utnyttjat Target för att förbättra optimering och personalisering för att nå affärsmålen.
++++Se information
+Utforska [framgångsberättelser från ](https://www.adobe.com/in/marketing-cloud/target/resources.html#x) om hur organisationer använder [!DNL Target] för att öka optimeringen, personalisera upplevelser och uppnå mätbara affärsresultat.
 
-Observera att vissa av dessa fallstudier har använt funktioner från Adobe Target Premium.
++++
 
 **Var kan jag läsa om de senaste [!DNL Target] funktionerna?**
 
-Läs [Versionsinformationen](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) om du vill veta mer om den senaste versionen. Information om alla våra [tidigare utgåvor](/help/main/r-release-notes/release-notes-for-previous-releases.md) finns också tillgänglig online.
++++Se information
+Håll dig uppdaterad med [!DNL Target] versioner.
+
+* **Senaste versionen**: Se [[!DNL Target] versionsinformationen (aktuell)](/help/main/r-release-notes/release-notes.md) för mer information om nya funktioner, förbättringar och felkorrigeringar.
+* **Kommande versioner**: Besök [[!DNL Target] versionsinformation (förhandsversion)](/help/main/r-release-notes/target-release-notes.md) om du vill förhandsgranska vad som kommer härnäst.
+* **Tidigare versioner**: Bläddra i [Versionsinformation för tidigare versioner](/help/main/r-release-notes/release-notes-for-previous-releases.md) om du vill se historiska uppdateringar och ändringar.
+
++++
 
 **Har [!DNL Adobe] en community/forum där jag kan hitta svar och mer information om [!DNL Target]?**
 
-Ta en titt på [Target Community Forum](/help/main/cmp-resources-and-contact-information.md#concept_9C203A8AED054DFFA9A504811DB6BA42) där vi hjälper kunder, men ännu viktigare är att vi tycker om Adobe Target-yrkesverksamma som du själv kan hjälpa varandra. Ett communityn och forumets framgång är trots allt beroende av att medlemmarna aktivt deltar. Bli en del av communityn och bidra och sök svar på dina frågor.
++++Se information
+Anslut till andra [!DNL Target]-yrkesverksamma i [målcommunityforumet](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community){target=_blank}. Dela med dig av dina kunskaper, ställ frågor och samarbeta med andra som använder [!DNL Target] för att driva personalisering och experimenterande. Ett livskraftigt samhälle är beroende av aktivt deltagande. Era insikter och upplevelser kan hjälpa andra att lyckas. Hoppa in, bidra och hitta de svar du behöver.
+
++++
 
 **Vilka webbläsare stöder [!DNL Target]?**
 
-Läs matrisen [Webbläsare](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=sv-SE){target=_blank} som stöds om du vill ha mer information. Observera att det finns två aspekter: gränssnittsstödet i Target Standard/Premium Experience Cloud och webbläsarstödet för slutanvändare på datorer/enheter.
++++Se information
+Läs matrisen [Webbläsare](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html){target=_blank} som stöds om du vill ha mer information. Observera att det finns två aspekter: gränssnittsstöd för [!DNL Target Standard/Premium] och webbläsarstöd för slutanvändare på stationära datorer/enheter.
+
++++
 
 ## Verksamhet {#section_CB95B3BF9934445DB98E8A7E22FC2CF6}
 
@@ -155,7 +179,7 @@ Använd procentallokeringskontrollerna som är tillgängliga från [Steg 2 i det
 Se följande aspekter av produkten:
 
 * [Analyser för mål (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [Kundattribut](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=sv-SE)
+* [Kundattribut](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 * [Målgrupper](/help/main/c-integrating-target-with-mac/mmp.md)
 
 ## Erfarenheter {#section_5959536B8D6A4BEA8FAA1273338F3451}
@@ -252,7 +276,7 @@ Se följande aspekter av produkten:
 
 * [Analyser för mål (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 
-* [Kundattribut](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=sv-SE)
+* [Kundattribut](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 
 * [Målgrupper](/help/main/c-integrating-target-with-mac/mmp.md)
 
@@ -303,4 +327,4 @@ Vi beklagar att du har problem. Gå till [Felsökningsmål](/help/main/r-trouble
 
 **Var kan jag läsa mer om mål-API:er?**
 
-Vi har utförlig dokumentation om API:er. Se [dokumentation för leverans-API:er, NodeJS SDK och rekommendationer-API:er](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=sv-SE){target=_blank}.
+Vi har utförlig dokumentation om API:er. Se [dokumentation för leverans-API:er, NodeJS SDK och rekommendationer-API:er](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}.
