@@ -117,7 +117,7 @@ Där *μ<sub>v</sub>* och *μ<sub>v0</sub>* är medelvärdet av *ν* respektive 
 
 <p style="text-align:center;"><img width="150px" src="img/standard_error_diff.png"></p>
 
-Där *σ<sup>2</sup><sub>v</sub>* och *σ<sup>2</sup><sub>v<sub>0</sub></sub>* är skillnaderna mellan två upplevelser *ν* och *ν<sub>0</sub>* respektive *N<sub>v</sub>* och *N<sub> 8}v<sub>0</sub></sub>* är exempelstorlekar för *ν* respektive *ν<sub>0</sub>*.
+Där *σ<sup>2</sup><sub>v</sub>* och *σ<sup>2</sup><sub>v<sub>0</sub></sub>* är skillnaderna mellan två upplevelser *ν* och *ν<sub>0</sub>* respektive *N<sub>v</sub>* och *N<sub> 8&rbrace;v<sub>0</sub></sub>* är exempelstorlekar för *ν* respektive *ν<sub>0</sub>*.
 
 För Welchs t-test beräknas frihetsgraden enligt följande:
 
