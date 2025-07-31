@@ -4,9 +4,9 @@ description: Lär dig mer om de statistiska beräkningar som används i manuella
 title: Hur kan jag lära mig mer om de statistiska beräkningar som används i [!UICONTROL A/B Test] aktiviteter?
 feature: Reports
 exl-id: 5f7377b9-0567-4b6f-8968-4696b2088d0a
-source-git-commit: bb95d160940737e23022d70cbe56567f79cbf255
+source-git-commit: 18f8ccd3edfda635c3f47bd67ff0b7a516748fa8
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1143'
 ht-degree: 0%
 
 ---
@@ -50,6 +50,8 @@ Här,
 Konfidensintervallet för konverteringsgraden definieras intuitivt som ett intervall av möjliga konverteringsgrader som överensstämmer med underliggande data.
 
 När du kör experiment är konverteringsgraden för en viss upplevelse en *uppskattning* av konverteringsgraden &quot;true&quot;. För att kvantifiera osäkerheten i den här uppskattningen använder [!DNL Target] ett konfidensintervall. [!DNL Target] rapporterar alltid ett 95-procentigt konfidensintervall, vilket innebär att i slutet inkluderar 95 % av de beräknade konfidensintervallen den verkliga konverteringsgraden för upplevelsen.
+
+Ett&quot;konfidensnummer&quot; rapporteras också bredvid den nuvarande ledande eller vinnande upplevelsen. Den här siffran rapporteras bara tills den ledande upplevelsen [!UICONTROL Confidence] når minst 60 %. Om det finns två upplevelser i aktiviteten representerar den här siffran konfidensnivån att upplevelsen fungerar bättre än den andra. Om det finns mer än två upplevelser i aktiviteten representerar den här siffran den konfidensnivå som upplevelsen fungerar bättre än den definierade&quot;Kontroll&quot;-upplevelsen. Om&quot;Kontroll&quot;-upplevelsen vinner rapporteras ingen siffra för&quot;förtroende&quot;.
 
 Ett 95 % konfidensintervall för konverteringsgraden *μ<sub>ν</sub>* definieras som värdeintervallet:
 
@@ -115,7 +117,7 @@ Där *μ<sub>v</sub>* och *μ<sub>v0</sub>* är medelvärdet av *ν* respektive 
 
 <p style="text-align:center;"><img width="150px" src="img/standard_error_diff.png"></p>
 
-Där *σ<sup>2</sup><sub>v</sub>* och *σ<sup>2</sup><sub>v<sub>0</sub></sub>* är skillnaderna mellan två upplevelser *ν* och *ν<sub>0</sub>* respektive *N<sub>v</sub>* och *N* 8&rbrace;v<sub>0 </sub></sub>*är exempelstorlekar för*&#x200B;ν<sub> respektive *ν<sub>0</sub>*.
+Där *σ<sup>2</sup><sub>v</sub>* och *σ<sup>2</sup><sub>v<sub>0</sub></sub>* är skillnaderna mellan två upplevelser *ν* och *ν<sub>0</sub>* respektive *N<sub>v</sub>* och *N<sub> 8}v<sub>0</sub></sub>* är exempelstorlekar för *ν* respektive *ν<sub>0</sub>*.
 
 För Welchs t-test beräknas frihetsgraden enligt följande:
 
