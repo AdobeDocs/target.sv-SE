@@ -55,7 +55,7 @@ Anslut till andra [!DNL Target]-yrkesverksamma i [målcommunityforumet](https://
 **Vilka webbläsare stöder [!DNL Target]?**
 
 +++Se information
-Läs matrisen [Webbläsare](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html){target=_blank} som stöds om du vill ha mer information. Observera att det finns två aspekter: gränssnittsstöd för [!DNL Target Standard/Premium] och webbläsarstöd för slutanvändare på stationära datorer/enheter.
+Läs matrisen [Webbläsare](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=sv-SE){target=_blank} som stöds om du vill ha mer information. Observera att det finns två aspekter: gränssnittsstöd för [!DNL Target Standard/Premium] och webbläsarstöd för slutanvändare på stationära datorer/enheter.
 
 +++
 
@@ -233,7 +233,7 @@ Använd procentallokeringskontrollerna som är tillgängliga från [Steg 2 i det
 Se följande aspekter av produkten:
 
 * [Analyser för mål (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [Kundattribut](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
+* [Kundattribut](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=sv-SE)
 * [Målgrupper](/help/main/c-integrating-target-with-mac/mmp.md)
 
 +++
@@ -380,7 +380,7 @@ Använd kraften i [formulärbaserade aktiviteter](/help/main/c-experiences/form-
 Se följande aspekter av produkten:
 
 * [Analyser för mål (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [Kundattribut](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
+* [Kundattribut](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=sv-SE)
 * [Målgrupper](/help/main/c-integrating-target-with-mac/mmp.md)
 
 +++
@@ -454,6 +454,6 @@ Vi beklagar att du har problem. Gå till [Felsökningsmål](/help/main/r-trouble
 **Var kan jag läsa mer om [!DNL Target] API:er?**
 
 +++Se information
-Vi har utförlig dokumentation om API:er. Se [dokumentation för leverans-API:er, NodeJS SDK och rekommendationer-API:er](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}.
+Vi har utförlig dokumentation om API:er. Se [dokumentation för leverans-API:er, NodeJS SDK och rekommendationer-API:er](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=sv-SE){target=_blank}.
 
 +++
