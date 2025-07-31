@@ -4,9 +4,9 @@ description: Utforska en lista med vanliga frågor om hur du använder funktione
 title: Var kan jag hitta svar på Mina optimerings- och Personalization-frågor?
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: 6304cafb00916491cbeab0299f527df56da30ee6
+source-git-commit: 2e993336859f096f5685e2929041f83db216d3b8
 workflow-type: tm+mt
-source-wordcount: '2693'
+source-wordcount: '2678'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ Anslut till andra [!DNL Target]-yrkesverksamma i [målcommunityforumet](https://
 **Vilka webbläsare stöder [!DNL Target]?**
 
 +++Se information
-Läs matrisen [Webbläsare](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=sv-SE){target=_blank} som stöds om du vill ha mer information. Observera att det finns två aspekter: gränssnittsstöd för [!DNL Target Standard/Premium] och webbläsarstöd för slutanvändare på stationära datorer/enheter.
+Läs matrisen [Webbläsare](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html){target=_blank} som stöds om du vill ha mer information. Observera att det finns två aspekter: gränssnittsstöd för [!DNL Target Standard/Premium] och webbläsarstöd för slutanvändare på stationära datorer/enheter.
 
 +++
 
@@ -63,92 +63,132 @@ Läs matrisen [Webbläsare](https://experienceleague.adobe.com/docs/target-dev/d
 
 **Kan jag utföra en statistiskt rigorös aktivitet för att hitta en vinnande och förlorande upplevelse när jag använder en kontrollupplevelse?**
 
++++Se information
 Använd [A/B-testning](/help/main/c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977) (alternativet Manuell målanpassning) tillsammans med [Beräkna provstorlek](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_286EB6E671184239BB1552F0387DAEB5) för bästa resultat.
+
++++
 
 **Hur vet jag när en aktivitet ska stoppas?**
 
-Om du stoppar aktiviteter för tidigt kan det leda till felaktiga slutsatser. Observera [vanliga fallgropar och se till att du undviker dem](/help/main/c-activities/t-test-ab/common-ab-testing-pitfalls.md#section_DF01A97275E44CA5859D825E0DE2F49F). Se även [Hur länge ska du köra ett A/B-test](/help/main/c-activities/t-test-ab/sample-size-determination.md)?
++++Se information
+Om du stoppar aktiviteter för tidigt kan det leda till felaktiga slutsatser. Var medveten om [vanliga fallgropar och hur du undviker dem](/help/main/c-activities/t-test-ab/common-ab-testing-pitfalls.md#section_DF01A97275E44CA5859D825E0DE2F49F). Se även [Hur länge ska du köra ett A/B-test](/help/main/c-activities/t-test-ab/sample-size-determination.md)?
 
-**Hur utför jag en aktivitet om tidsfönstret är litet?**
++++
 
-**Kan jag optimera för mitt mål när jag testar?**
+**Hur kan jag utföra en aktivitet om tidsfönstret är litet och kan jag optimera för mitt mål när jag testar?**
 
-Använd våra [rapporter för att fastställa den vinnande upplevelsen](/help/main/c-activities/automated-traffic-allocation/determine-winner.md#concept_5741A89ED7224E1285A3BC34B2CCD0F9).
++++Se information
+Se [rapporter för att fastställa den vinnande upplevelsen](/help/main/c-activities/automated-traffic-allocation/determine-winner.md#concept_5741A89ED7224E1285A3BC34B2CCD0F9).
+
++++
 
 **Kan jag utföra en aktivitet med en nivå av personalisering som en integrerad del av aktiviteten?**
 
-Ta en titt på alternativet [Automatiskt mål](/help/main/c-activities/auto-target/auto-target-to-optimize.md).
++++Se information
+Ta en titt på aktivitetstypen [Automatiskt mål](/help/main/c-activities/auto-target/auto-target-to-optimize.md).
+
++++
 
 **Hur vet jag vilken typ av aktivitet som passar mina behov bäst?**
 
-Läs [Målaktivitetshandboken](/help/main/c-activities/target-activities-guide.md#concept_D974B0918EB74B3B8CB07ACD32BF37A1) om du vill veta mer om de scenarier där vart och ett av de alternativ som tillhandahålls av Adobe Target passar bäst.
++++Se information
+Läs [Målaktivitetshandboken](/help/main/c-activities/target-activities-guide.md#concept_D974B0918EB74B3B8CB07ACD32BF37A1) om du vill veta mer om scenarierna där vart och ett av alternativen från [!DNL Target] passar.
 
 Se även till att [rekommendera aktiviteter](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0) tas i beaktande.
 
++++
+
 **Hur kan jag identifiera vilka kombinationer av element på min sida som bidrar till dess framgång och i vilken utsträckning varje element bidrar?**
 
++++Se information
 Ta en titt på våra [fullständiga fakultetsmultivariata (MVT) aktiviteter](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md#concept_628695CDC71B449B8DCC2F5654C11499) med Elementbidragsanalys för att se om de uppfyller dina behov.
 
 Observera att trafikbehovet ökar med MVT-aktiviteter.
 
-**Kan jag köra en aktivitet som omfattar flera sidor där sidstrukturen är annorlunda?**
++++
 
-**Kan jag tillämpa erbjudanden på olika platser (till exempel utcheckningskanalen)?**
+**Kan jag köra en aktivitet som sträcker sig över flera sidor där sidstrukturen är annorlunda? Kan jag tillämpa erbjudanden på olika platser (till exempel utcheckningskanalen)?**
 
-Testa funktionen [Flersidig aktivitet](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) som gör att du kan använda flera sidor i upplevelser.
++++Se information
+Testa den [flersidiga aktivitetsfunktionen](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) som gör att du kan använda flera sidor i upplevelser.
+
++++
 
 **Hur kan jag se till att en användare aldrig går in i aktiviteten igen när ett mål (primär eller sekundär) har uppnåtts och i stället ser en annan aktivitet gå framåt?**
 
++++Se information
 Detta är enkelt att uppnå genom att använda alternativet [Avancerade inställningar](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_E2FE441AFB324E498793ABB025ED9974) som är tillgängligt för alla mål. Du kan välja vad som ska hända när användaren har nått målet och hur du vill att räkningen ska ökas.
 
 I det här fallet kan du alltså välja &quot;Ökningsantal, Frigör användare och fält från återinträde&quot; tillsammans med &quot;Standardinnehåll/annat aktivitetsinnehåll&quot; för att uppnå målet. Se även andra alternativ.
 
-**Jag har skapat flera mål i min aktivitet. Kan jag skapa en kedja av mål som en kanal för rapportering och analys?**
++++
 
-**Jag vill till exempel överväga mål B när användaren har uppnått mål A så att jag kan spåra nummer för en viss tratt.**
+**Jag har skapat flera mål i min aktivitet. Kan jag skapa en kedja av mål som en kanal för rapportering och analys? Jag vill till exempel överväga mål B när användaren har uppnått mål A så att jag kan spåra nummer för en viss tratt.**
 
-Target har ett robust sätt att uppnå detta med vår funktion Metrics Dependency. [lägg bara till beroenden till andra framgångsmått](/help/main/c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B). Du har alternativ som &quot;Nekat&quot; och &quot;Inte nått&quot; tillsammans med möjlighet att kombinera mätvärden på flera sätt för att skapa valfri kombination.
++++Se information
+[!DNL Target] har ett robust sätt att uppnå detta med vår [!UICONTROL Metrics Dependency]-funktion. [lägg bara till beroenden till andra framgångsmått](/help/main/c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B). Du har alternativ som &quot;Nekat&quot; och &quot;Inte nått&quot; tillsammans med möjlighet att kombinera mätvärden på flera sätt för att skapa valfri kombination.
+
++++
 
 **Hur kan jag vara tydlig med hur jag konfigurerar en aktivitet för att uppnå mina mål?**
 
++++Se information
 Det är här som [mål](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC) kommer in.
 
-Börja med att veta vad du vill optimera. Är det Intäkter, konvertering eller engagemang? Var och en av dessa alternativ är tillgängliga i målavsnittet. Och för vart och ett av dessa kan du ytterligare definiera vilken åtgärd en användare skulle vidta på din webbplats för att kvalificera att målet har uppnåtts.
+Börja med att veta vad du vill optimera. Är det [!UICONTROL Revenue], [!UICONTROL Conversion] eller [!UICONTROL Engagement]? Var och en av dessa alternativ är tillgängliga i målavsnittet. Och för vart och ett av dessa kan du ytterligare definiera vilken åtgärd en användare skulle vidta på din webbplats för att kvalificera att målet har uppnåtts.
 
-Detta är möjligt med inställningen Primärt mål i steg 3 i det guidade arbetsflödet med tre delar. Du kan även lägga till ytterligare mål som kan hjälpa dig att få bättre rapporter
+Detta är möjligt med inställningen [!UICONTROL Primary Goal] i steg 3 i det guidade arbetsflödet med tre delar. Ni kan också lägga till ytterligare mål, som kan hjälpa er att få bättre rapporter.
+
++++
 
 **Kan jag schemalägga en aktivitet att starta och sluta vid en fast tidpunkt?**
 
-Använd funktionen [Schemaläggning i steget Mål och inställningar](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC) i det tredelade aktivitetsarbetsflödet genom att ange start- och slutdatum.
++++Se information
+Använd funktionen [Schemaläggning i steget [!UICONTROL Goals & Settings]](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC) i arbetsflödet med tre delars aktivitet genom att ange start- och slutdatum.
 
-Kom ihåg att aktivera aktiviteten. Endast aktiva aktiviteter följer angivet schema. När slutdatumet har nåtts försätts aktiviteten i tillståndet Avslutat.
+Kom ihåg att aktivera aktiviteten. Endast aktiva aktiviteter följer angivet schema. När slutdatumet har nåtts försätts aktiviteten i läget [!UICONTROL Ended].
+
++++
 
 **Kan jag ändra till bara [!UICONTROL Targeting] -steget och inte gå igenom hela det guidade trestegsarbetsflödet för redigering?**
 
-Det kan du enkelt göra genom att [direkt skriva in önskat steg från sidan Aktivitetsöversikt](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0) och sedan avsluta det steget med alternativet Spara och stäng.
++++Se information
+Du kan enkelt göra det genom att [skriva in det önskade steget direkt från [!UICONTROL Activity Overview] sidan ](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0) och sedan avsluta det steget med alternativet [!UICONTROL Save and Close] .
+
++++
 
 **Kan jag fortsätta med ett visst steg, fortsätta att ändra aktiviteten (erbjudandetext eller anpassad kod till exempel) och sedan utföra QA på en annan flik?**
 
-Detta är också möjligt. [Använd bara alternativet Spara för att göra stegvisa ändringar utan att lämna steget](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0).
++++Se information
+Detta är möjligt. [Använd bara alternativet [!UICONTROL Save] för att göra stegvisa ändringar utan att lämna steget](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0).
+
++++
 
 **Hur kan jag förhandsgranska och göra en kvalitetskontroll av en aktivitet som jag nyss skapade?**
 
++++Se information
 Använd vår [kraftfulla QA-lägesfunktion](/help/main/c-activities/c-activity-qa/activity-qa.md) för att utföra QA. Du kan dela länkar med ditt QA-team och även testa aktiviteten från början till slut, inklusive rapportering, för att vara helt säker på att den fungerar som den ska och som den har testats när aktiviteten är aktiv.
+
++++
 
 **Hur kan jag använda [!DNL Target]s beslutsförmåga för att ta emot en upplevelse/ett erbjudande som kan användas i SPA-program (Single Page Applications) eller integreringar på serversidan?**
 
++++Se information
 Använd kraften i [formulärbaserade aktiviteter](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) med [JSON-erbjudanden](/help/main/c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D) för att uppnå ditt mål.
 
-**Jag har konfigurerat två aktiviteter. Hur vet jag vilken besökare som kommer att träffa?**
++++
 
 **Kan jag ange prioritetsordning för några aktiviteter?**
 
-Använd inställningen Prioritet som finns i steg 3 i det guidade arbetsflödet för tre delar (Mål och inställningar) för att [definiera aktiviteternas prioritet](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC).
++++Se information
+Använd inställningen [!UICONTROL Priority] som är tillgänglig i steg 3 i det guidade arbetsflödet i [!DNL Target] tre delar (Mål och inställningar) för att [definiera aktiviteternas prioritet](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC).
 
 Det finns två alternativ:
 
 * Standard, med tre nivåer (låg/Medium/hög)
-* Anpassad, med ett intervall från 0 till 999. För Anpassad aktiverar du funktionen Finkorniga prioriteringar (Administration > Visuell Experience Composer).
+* Anpassad, med ett intervall från 0 till 999. Aktivera funktionen [!UICONTROL Fine-Grained Priorities] ([!UICONTROL Administration] > [!UICONTROL Visual Experience Composer]) för Anpassad.
+
++++
 
 ## Målgrupper {#section_FA6314777ABC46D8B198D6F388051460}
 
@@ -179,7 +219,7 @@ Använd procentallokeringskontrollerna som är tillgängliga från [Steg 2 i det
 Se följande aspekter av produkten:
 
 * [Analyser för mål (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [Kundattribut](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=sv-SE)
+* [Kundattribut](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 * [Målgrupper](/help/main/c-integrating-target-with-mac/mmp.md)
 
 ## Erfarenheter {#section_5959536B8D6A4BEA8FAA1273338F3451}
@@ -276,7 +316,7 @@ Se följande aspekter av produkten:
 
 * [Analyser för mål (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 
-* [Kundattribut](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=sv-SE)
+* [Kundattribut](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 
 * [Målgrupper](/help/main/c-integrating-target-with-mac/mmp.md)
 
@@ -327,4 +367,4 @@ Vi beklagar att du har problem. Gå till [Felsökningsmål](/help/main/r-trouble
 
 **Var kan jag läsa mer om mål-API:er?**
 
-Vi har utförlig dokumentation om API:er. Se [dokumentation för leverans-API:er, NodeJS SDK och rekommendationer-API:er](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=sv-SE){target=_blank}.
+Vi har utförlig dokumentation om API:er. Se [dokumentation för leverans-API:er, NodeJS SDK och rekommendationer-API:er](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}.
