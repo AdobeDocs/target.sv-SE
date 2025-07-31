@@ -4,9 +4,9 @@ description: Lär dig mer om olika sätt att redigera en befintlig aktivitet.
 title: Hur redigerar jag en aktivitet?
 feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
-source-git-commit: 34633032385f848dcc87fe1bc8cd025e42bcc3e9
+source-git-commit: 53bac4b1e778fb760a37e7287e0d8dbbe3a56b47
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '956'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Lär dig redigera befintliga aktiviteter i [!DNL Adobe Target]. I den här artik
 
 1. På sidan **[!UICONTROL Activities]** klickar du på ikonen **[!UICONTROL More Actions]** ( ![ikonen Fler åtgärder](/help/main/assets/icons/MoreSmall.svg) ) bredvid den aktivitet som du vill redigera och sedan på [!UICONTROL **Redigera**].
 
-   Målet öppnar aktiviteten i [!UICONTROL Visual Experience Composer] (VEC) och du ser sidan [!UICONTROL Experiences] (det första steget i det guidade arbetsflödet i tre steg).
+   [!DNL Target] öppnar aktiviteten i [!UICONTROL Visual Experience Composer] (VEC) och du ser sidan [!UICONTROL Experiences] (det första steget i det guidade arbetsflödet i tre steg).
 
 1. Redigera aktiviteten efter behov med [VEC-alternativen](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
@@ -44,22 +44,6 @@ Lär dig redigera befintliga aktiviteter i [!DNL Adobe Target]. I den här artik
 
    * **[!UICONTROL Save & Close]:** Klicka **[!UICONTROL Save and Close]** om du vill spara ändringarna och visa aktivitetens [!UICONTROL Overview]-sida.
    * **Spara:** Klicka på ikonen **[!UICONTROL More Actions]** ( ![ikonen Fler åtgärder](/help/main/assets/icons/MoreSmallListVert.svg) ) och välj sedan **[!UICONTROL Save]** om du vill spara ändringarna och stanna kvar i VEC där du kan fortsätta göra ändringarna. Vänta tills sparandet är klart innan du gör ytterligare ändringar. VEC läses in igen med de uppdaterade ändringarna när sparandet är slutfört.
-
-## Arbeta med äldre aktiviteter skapade i [!DNL Recommendations Classic] {#classic}
-
-I listan [!UICONTROL Activities] visas aktiviteter som har skapats i olika källor, bland annat [!DNL Recommendations Classic]. Följande åtgärder är tillgängliga när du arbetar med äldre aktiviteter som skapats i [!DNL Recommendations Classic]:
-
-* [!UICONTROL Activate]
-* [!UICONTROL Deactivate]
-* [!UICONTROL Archive]
-* [!UICONTROL Copy]
-* [!UICONTROL Delete]
-
-Du kan inte redigera en [!DNL Recommendations]-aktivitet direkt. Om du vill redigera aktiviteten bör du skapa en kopia av aktiviteten med [!DNL Target Premium] och sedan spara den nyligen skapade aktiviteten. Den nyligen skapade aktiviteten kan redigeras efter behov.
-
-## Spara en aktivitet i utkastet {#section_968CD7A63027432EBD8FAE3A0F7404C3}
-
-Funktionen Spara som utkast är inte längre tillgänglig. Mer information finns i *[!UICONTROL Status]* under [Tillämpa filter på aktivitetslistan](/help/main/c-activities/activities.md#filters).
 
 ## Kopiera/redigera en aktivitet när du använder arbetsytor {#section_45A92E1DD3934523B07E71EF90C4F8B6}
 
@@ -91,10 +75,38 @@ Tänk på följande när du använder kopiera/redigera-funktionen med arbetsytor
 
         Lös problemet genom att klicka på [!UICONTROL Add/Remove] så att endast de egenskaper som är tillgängliga i målarbetsytan visas för markering.
 
-   * **Publiker och erbjudanden**: Alla målgrupper och erbjudanden från den ursprungliga arbetsytan måste ersättas. Du kan också kopiera dem från [!UICONTROL Audiences]- eller [!UICONTROL Offers]-sidorna och sedan välja lämpliga objekt från motsvarande lista i aktiviteten.
+   * **Publiker och erbjudanden**: När en aktivitet kopieras till en ny arbetsyta dupliceras alla associerade målgrupper och erbjudanden från den ursprungliga arbetsytan med formatet `Entity Name Copy <Date>`.
 
-   * **Obligatoriska manuella ändringar**: Alla nödvändiga manuella ändringar sammanfattas i det sista steget ([!UICONTROL Save & Close]). En popup-meny visar en lista över enheter som behöver uppdateras, vilket gör att alla nödvändiga justeringar görs innan aktivitetsinställningarna slutförs.
+     Beteendeinformation:
 
-     ![Workspace-valideringsvarning](/help/main/c-activities/assets/work-space-validation.png)
+      * Kopierade målgrupper och erbjudanden visas inte i listorna [!UICONTROL Audiences] och [!UICONTROL Offers] förrän aktiviteten har sparats och öppnats igen.
+      * Dessa entiteter kan inte redigeras direkt efter kopiering. Kunder kan se tomt innehåll i VEC för dessa objekt under den inledande redigeringssessionen.
+      * Kunder kan vid behov ersätta kopierade målgrupper eller erbjudanden med andra från målarbetsytan.
 
-Om miljön inte har funktionen [!UICONTROL Enterprise User Permissions] aktiverad öppnas alla aktiviteter i redigeringsläge innan de kopieras.
+     Denna process ger smidigare funktioner för arbete på flera arbetsytor samtidigt som flexibiliteten för anpassning bibehålls.
+
+     När du kopierar en aktivitet måste kombinerade målgrupper, icke-målgrupper och erbjudanden som inte har sparats på den aktuella arbetsytan eller standardarbetsytan ersättas manuellt.
+
+     Genom att manuellt ersätta dessa kombinerade målgrupper, målgrupper och erbjudanden säkerställs att endast giltiga, tillgängliga enheter används i den kopierade aktiviteten och att fel förhindras vid redigering eller leverans.
+
+     ![Varningsmeddelande](/help/main/c-activities/assets/copy.png)
+
+>[!NOTE]
+>
+>Om miljön inte har funktionen [!UICONTROL Enterprise User Permissions] aktiverad öppnas alla aktiviteter i redigeringsläge innan de kopieras.
+
+## Spara en aktivitet i utkastet {#section_968CD7A63027432EBD8FAE3A0F7404C3}
+
+Funktionen [!UICONTROL Save as Draft] är inte längre tillgänglig. Mer information finns i *[!UICONTROL Status]* under [Tillämpa filter på aktivitetslistan](/help/main/c-activities/activities.md#filters).
+
+## Arbeta med äldre aktiviteter skapade i [!DNL Recommendations Classic] {#classic}
+
+I listan [!UICONTROL Activities] visas aktiviteter som har skapats i olika källor, bland annat [!DNL Recommendations Classic]. Följande åtgärder är tillgängliga när du arbetar med äldre aktiviteter som skapats i [!DNL Recommendations Classic]:
+
+* [!UICONTROL Activate]
+* [!UICONTROL Deactivate]
+* [!UICONTROL Archive]
+* [!UICONTROL Copy]
+* [!UICONTROL Delete]
+
+Du kan inte redigera en [!DNL Recommendations]-aktivitet direkt. Om du vill redigera aktiviteten bör du skapa en kopia av aktiviteten med [!DNL Target Premium] och sedan spara den nyligen skapade aktiviteten. Den nyligen skapade aktiviteten kan redigeras efter behov.
