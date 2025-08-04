@@ -2,13 +2,13 @@
 keywords: versionsinformation;nya funktioner;utgåvor;uppdateringar;uppdatering;release;förbättring;förbättringar;korrigeringar;felkorrigeringar;uppdateringar;aktuella uppdateringar
 description: Lär dig mer om de nya funktionerna, förbättringarna och korrigeringarna i den aktuella versionen av  [!DNL Adobe Target], inklusive SDK:er, API:er och JavaScript-bibliotek.
 landing-page-description: Lär dig mer om de nya funktionerna, förbättringarna och korrigeringarna i den aktuella versionen av  [!DNL Adobe Target].
-short-description: Lär dig mer om de nya funktionerna, förbättringarna och korrigeringarna i den aktuella versionen av  [!DNL Adobe Target].
+short-description: Lär dig mer om de nya funktionerna, förbättringarna och korrigeringarna i den aktuella versionen av  [!DNL Target].
 title: Vad ingår i den aktuella versionen?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 265108dbb0a459e1b111fda01a35042170f05562
+source-git-commit: f00cec3194863bb7187d4cdc91c39a87b624e9bd
 workflow-type: tm+mt
-source-wordcount: '4383'
+source-wordcount: '4816'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ Följande information beskriver de begränsningar som du bör vara medveten om n
 
 * **Synlighet för nya aktiviteter**: Aktiviteter som har skapats i det uppdaterade användargränssnittet visas inte om du växlar tillbaka till det gamla användargränssnittet.
 * **Redigera befintliga aktiviteter**: Ändringar som gjorts i befintliga aktiviteter (som ursprungligen skapades i det äldre användargränssnittet) när det uppdaterade användargränssnittet används publiceras på webbplatsen. Dessa uppdateringar visas dock inte i det gamla användargränssnittet om du byter tillbaka. Där visas bara de senaste uppdateringarna från det gamla användargränssnittet.
-* **Enhetlig aktivitetsinformation**: De senaste ändringarna, oavsett vilket användargränssnitt du använder, visas på den aktiva webbplatsen. Det gamla användargränssnittet visar dock bara de senaste ändringarna som gjorts i den versionen. Den här situationen kan orsaka förvirring om aktiviteter som redigeras i det uppdaterade användargränssnittet ser annorlunda ut än i det äldre användargränssnittet.
+* **Enhetlig aktivitetsinformation**: De senaste ändringarna, oavsett vilket användargränssnitt du använder, visas på din aktiva webbplats. Det gamla användargränssnittet visar dock bara de senaste ändringarna som gjorts i den versionen. Den här situationen kan orsaka förvirring om aktiviteter som redigeras i det uppdaterade användargränssnittet ser annorlunda ut än i det äldre användargränssnittet.
 
 #### Fler resurser att lära sig om det uppdaterade användargränssnittet
 
@@ -72,6 +72,66 @@ Följande information beskriver de begränsningar som du bör vara medveten om n
 * [Förstå  [!DNL Target] gränssnittet](/help/main/c-intro/understand-the-target-ui.md): Ger en kort översikt som hjälper dig att bekanta dig med [!DNL Target] och innehåller länkar till mer detaljerad information och stegvisa instruktioner.
 * [[!UICONTROL Visual Experience Composer] ändringar ](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md): [!DNL Adobe Target Standard/Premium] 25.2.1-versionen (17 februari 2015) innehåller en uppdaterad version av [!UICONTROL Visual Experience Composer] (VEC). I den här artikeln förklaras skillnaderna mellan äldre och uppdaterade versioner av VEC.
 * [[!UICONTROL Visual Experience Composer] alternativ](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md): I den här artikeln förklaras det uppdaterade VEC-gränssnittet och dess alternativ.
+
++++
+
+## [!DNL Target Standard/Premium] 25.7.4 (1 augusti 2025)
+
+Den här versionen löser problem som nyligen inträffat, främst orsakade av komplexa kundanpassningar, och innehåller följande korrigeringar och förbättringar:
+
+**Aktiviteter**
+
++++Se information
+* Ett problem har korrigerats där en kund påträffade ett fel av typen &quot;Ogiltig användarinmatning&quot; vid försök att spara en aktiv aktivitet, även utan att göra några ändringar. GraphQL-svaret indikerar ett duplicerat LocalId-problem. (TGT-53329 &amp; TGT-53373 &amp; TGT-53195)
+* Ett problem som gjorde att det inte gick att skapa en omdirigeringsupplevelse i det uppdaterade VEC har åtgärdats. Omdirigerings-URL:en ignorerades och originalsidan visades i stället. (TGT-53306)
+
++++
+
+**Lokalisering**
+
++++Se information
+* Ett lokaliseringsfel i modala [!UICONTROL Create Criteria] har korrigerats. När du valde alternativet &quot;mellan följande värden&quot; i listrutan [!UICONTROL Choose Price Rule] togs strängen &quot;to&quot; bort i avsnittet [!UICONTROL Inclusion Rules]. (TGT-49754)
+* Ett lokaliseringsfel med strängen [!UICONTROL All host groups] i listrutan [!UICONTROL Environment] i guiden Skapa feeds har korrigerats. (TGT-46737)
+
++++
+
+**QA**
+
++++Se information
+* Korrigerade ett problem där QA-miljön inte kunde läsa in data på flera flikar, vilket gjorde gränssnittet oanvändbart. (TGT-53377)
+* Ett problem som gjorde att en aktivitet i QA-miljön inte kunde skapas har åtgärdats. Processen omdirigerades till sidan [!UICONTROL Activities] i stället för att slutföras. (TGT-53328)
+
++++
+
+**Rekommendationer**
+
++++Se information
+* Ett problem har korrigerats där hovring över operanden för&quot;djuplärande&quot; när en samling skapades i [!DNL Recommendations] orsakade att sidan kraschade. (TGT-53305)
+* Ett problem har korrigerats där filterförslagen i [!UICONTROL Catalog Search] i det uppdaterade användargränssnittet var felaktiga. (TGT-52007)
+* Ett problem har korrigerats i användargränssnittet för [!DNL Recommendations] där filtret Operander visas när operatorerna &quot;value is present&quot; eller &quot;value is not present&quot; används, även om det ska döljas. (TGT-53012)
+
++++
+
+**Visual Experience Composer (VEC)**
+
++++Se information
+* Ett problem har korrigerats när en användare klickar på [!UICONTROL Manage Content] och sedan klickar på [!UICONTROL Done] när en Automated Personalization-aktivitet (AP) redigeras. Sidan är tom och svarar inte. (TGT-53047 &amp; TGT-52993)
+* Ett problem har korrigerats där sidans krasch orsakades av att konverteringsmåttet [!UICONTROL Viewed an mbox] valdes under [!UICONTROL Goals & Settings]. (TGT-53346, TGT-53343 och TGT-53348)
+* Ett problem har korrigerats där funktionen [!UICONTROL Redirect to URL] inte fungerar som förväntat. Ingen omdirigering sker ens med giltiga URL:er. (TGT-53307)
+
++++
+
+**Arbetsytor**
+
++++Se information
+* Ett problem har korrigerats vid kopiering av aktiviteter mellan arbetsytor som orsakade dubblettposter av typen &quot;Audience Copy&quot; och ID-konflikter. Målgrupper kopieras nu med unika ID:n, arbetsytekontext och rekursiv hantering för kombinerade målgrupper (upp till 5 nivåer). (TGT-53081)
+* Ett problem har korrigerats när arbetsytan är inställd på [!UICONTROL All Workspaces]. Om du kopierar en aktivitet som redan finns i standardarbetsytan uppstår ett felaktigt fel:
+
+  &quot;Minst en egenskap bör inkluderas för icke-standardarbetsytor.&quot;
+
+  Eftersom kopian finns i standardarbetsytan behöver du inte ange någon egenskap. Försök att lägga till en egenskap och spara resulterar i ett andra fel:
+
+  &quot;Ogiltig användarinmatning&quot;
 
 +++
 
@@ -137,7 +197,6 @@ På grund av nyligen identifierade problem, som främst gäller komplexa kundanp
 **Visual Experience Composer (VEC)**
 
 +++Se information
-
 * Korrigerade ett fel i VEC där en ändring av en vy orsakade duplicering och utlöste ett fel av typen&quot;Ogiltig användarinmatning&quot;. (TGT-52886)
 * Ett problem med funktionen [!UICONTROL Undo] för alternativen [!UICONTROL Insert Before] och [!UICONTROL Insert After] har korrigerats vid konfiguration av bilderbjudanden i VEC.
 
@@ -191,7 +250,7 @@ På grund av nyligen identifierade problem, som främst gäller komplexa kundanp
 
 +++
 
-**[!UICONTROL Analytics for Target] (A4T)**
+**[!UICONTROL Analytics for Target](A4T)**
 
 +++Se information
 * Ett problem har korrigerats när kunder visade rapporter för specifika aktiviteter på sidan [!UICONTROL Goals & Settings]. Länken [!UICONTROL View in Analytics] pekar felaktigt på QA-miljön i stället för produktionsmiljön. (TGT-53163)
@@ -230,7 +289,7 @@ På grund av nyligen identifierade problem, som främst gäller komplexa kundanp
 
 +++
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+**[!UICONTROL Visual Experience Composer](VEC)**
 
 +++Se information
 * Löste ett problem på sidan [!UICONTROL Goals & Settings] där väljare som används i flera upplevelser inte markerades konsekvent som valda. (TGT-53062)
@@ -281,7 +340,7 @@ På grund av nyligen identifierade problem, som främst gäller komplexa kundanp
 
 +++
 
-**[!UICONTROL Analytics for Target] (A4T)**
+**[!UICONTROL Analytics for Target](A4T)**
 
 +++Se information
 * Ett problem har korrigerats där kopiering av en befintlig aktivitet och ändring av rapportkällan till [!DNL Adobe Analytics] (A4T) skulle resultera i ett felaktigt indatafel. Felet utlöstes när vissa måttåtgärder som är inkompatibla med [!DNL Analytics]-rapportering, som `restart_same_experience`, `restart_random_experience` och `restart_new_experience`, behålls från den ursprungliga aktiviteten. (TGT-52900)
@@ -338,7 +397,7 @@ På grund av nyligen identifierade problem, som främst gäller komplexa kundanp
 
 +++
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+**[!UICONTROL Visual Experience Composer](VEC)**
 
 +++Se information
 * Ett problem har åtgärdats där en ändring av en vy skulle medföra att vyn dupliceras och att aktiviteten returnerade ett &quot;Ogiltigt indatafel från användaren&quot;. Med den här korrigeringen säkerställs att vyändringarna tillämpas på rätt sätt utan att utlösa duplicerings- eller valideringsfel. (TGT-52886)
@@ -371,8 +430,8 @@ På grund av nyligen identifierade problem, som främst gäller komplexa kundanp
 
 | Resurs | Information |
 |--- |--- |
-| [Versionsinformation: Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=sv-SE) | Information om ändringarna i respektive version av Platform Web SDK. |
-| Versionsinformation för [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=sv-SE){target=_blank} | Information om ändringar i varje version av JavaScript-biblioteket [!DNL Adobe Target] at.js. |
+| [Versionsinformation: Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=en) | Information om ändringarna i respektive version av Platform Web SDK. |
+| Versionsinformation för [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | Information om ändringar i varje version av JavaScript-biblioteket [!DNL Adobe Target] at.js. |
 
 ## Dokumentationsändringar, Versionsinformation om tidigare versioner och Experience Cloud Versionsinformation
 
@@ -382,7 +441,7 @@ Förutom anteckningarna för varje release finns det ytterligare information i f
 |--- |--- |
 | [Dokumentationsändringar](/help/main/r-release-notes/doc-change.md) | Visa detaljerad information om uppdateringar av den här guiden som inte ingår i versionsinformationen. |
 | [Versionsinformation för tidigare versioner](/help/main/r-release-notes/release-notes-for-previous-releases.md). | Visa information om nya funktioner och förbättringar i tidigare versioner av Target Standard och Target Premium. |
-| [Versionsinformation för Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=sv-SE){target=_blank} | Läs den senaste versionsinformationen om Adobe Experience Cloud lösningar. |
+| [Versionsinformation för Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target=_blank} | Läs den senaste versionsinformationen om Adobe Experience Cloud lösningar. |
 
 ## Förhandsversionsinformation {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
