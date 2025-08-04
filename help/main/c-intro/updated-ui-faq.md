@@ -4,9 +4,9 @@ description: Frågor och svar om det uppdaterade användargränssnittet i [!DNL 
 title: Var kan jag hitta vanliga frågor om det uppdaterade  [!DNL Target] användargränssnittet?
 feature: Overview
 exl-id: 75db4791-ca51-472d-99dd-583f7a74b222
-source-git-commit: b91abbd3b7418fd4d1444d96f160c3d9017f3bf8
+source-git-commit: 91059ceb8cc0fd4e7aa72f347ffd1584999ed264
 workflow-type: tm+mt
-source-wordcount: '1112'
+source-wordcount: '1361'
 ht-degree: 0%
 
 ---
@@ -76,6 +76,35 @@ Mer information finns i [Tidskänsliga uppdateringar som du behöver känna till
 Det finns flera begränsningar för att använda växlingsknappen för användargränssnittsversionen, inklusive synlighet för nya aktiviteter, redigering av befintliga aktiviteter och konsekvens i aktivitetsinformationen.
 
 Mer information finns i [Tidskänsliga uppdateringar som du behöver känna till](/help/main/r-release-notes/release-notes.md#time-sensitive).
+
++++
+
+## Hur hanterar den uppdaterade VEC-funktionen alternativen för att ordna om, ändra storlek, flytta, dölja och ta bort och hur skiljer sig dessa alternativ från den gamla VEC-versionen? {#options}
+
++++Information
+**[!UICONTROL Rearrange*]*: I den gamla VEC-funktionen användes en övertäckning för att låta användare flytta ett element inom samma grupp. Rörelsen begränsades till att ändra ordningen mellan element på samma nivå.
+
+I den uppdaterade VEC-funktionen effektiviseras den genom åtgärder som går framåt och bakåt. Med de här kontrollerna justeras ett elements position i layouten, både vågrätt och lodrätt, genom att det flyttas framåt eller bakåt i staplingsordningen.
+
+**Ändra storlek**: Funktionen [!UICONTROL Resize] finns i panelen [!UICONTROL Properties] under avsnittet [!UICONTROL Size]. Användare kan justera ett elements bredd och höjd direkt. Avancerade inställningar:
+
+* Kontroller för min-/maxbredd och höjd
+* Beteendeinställningar för spill.
+* Alternativ för objektpassning för mediaelement
+
+De här verktygen ger exakt kontroll över elementets dimensioner och layoutbeteende.
+
+**Flytta**: Alternativet [!UICONTROL Move] finns i panelen [!UICONTROL Properties] under avsnittet [!UICONTROL Position]. Med det här alternativet kan användare:
+
+* Ange elementets position (till exempel absolut, relativ, fast)
+* Definiera z-index för lager
+* Välja en placeringstyp
+
+Den uppdaterade [!UICONTROL Properties]-rälen har även stöd för anpassade infogade format, vilket ger flexibilitet när förinställda alternativ inte uppfyller layoutbehoven.
+
+**[!UICONTROL Hide]**: Funktionen [!UICONTROL Hide] finns på panelen [!UICONTROL Properties]. När du har markerat ett element klickar du på [!UICONTROL Hide Element] för att ta bort det från vyn utan att ta bort det. Detta är användbart när du vill hantera synlighet under design eller förhandsgranskning.
+
+**[!UICONTROL Remove]**: Funktionen [!UICONTROL Remove] är tillgänglig via panelen [!UICONTROL Properties]. När du har markerat ett element klickar du på Ta bort element för att ta bort det från sidan. Den här åtgärden tar bort elementet permanent från layouten.
 
 +++
 
