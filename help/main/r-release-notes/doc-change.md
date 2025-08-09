@@ -21,7 +21,7 @@ På den här sidan visas viktiga ändringar i produktdokumentationen för [!DNL 
 
 | Datum | Ämne | Ändringar |
 |--- |--- |--- |
-| 5 augusti | [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank} | Flyttade hela *Adobe Experience Platform Web SDK* -artiklar från guiden *Datainsamling* för att samla all information om [!DNL Target] i en enda utvecklarguide. Det gör att innehållet är ordnat och lättare att referera till. |
+| 5 augusti | [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/sv/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank} | Flyttade hela *Adobe Experience Platform Web SDK* -artiklar från guiden *Datainsamling* för att samla all information om [!DNL Target] i en enda utvecklarguide. Det gör att innehållet är ordnat och lättare att referera till. |
 | 4 augusti | [[!DNL Target] versionsinformation (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionsinformation för version [!DNL Target Standard/Premium] 25.7.4 har lagts till. |
 |  | [[!DNL Target] Vanliga frågor och svar om gränssnittsuppdatering](/help/main/c-intro/updated-ui-faq.md#options) | Följande frågor och svar lades till:&quot;Hur hanterar den uppdaterade VEC-funktionen alternativen för att ordna om, ändra storlek, flytta, dölja och ta bort och hur skiljer sig dessa alternativ från den gamla VEC-versionen?&quot; |
 | 29 juli | [Redigera en aktivitet](/help/main/c-activities/edit-activity.md#section_45A92E1DD3934523B07E71EF90C4F8B6) | Uppdatera avsnittet Publiker och erbjudanden under *Kopiera/redigera en aktivitet när du använder arbetsytor*. |
