@@ -4,9 +4,9 @@ description: Lär dig mer om olika sätt att redigera en befintlig aktivitet.
 title: Hur redigerar jag en aktivitet?
 feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
-source-git-commit: 53bac4b1e778fb760a37e7287e0d8dbbe3a56b47
+source-git-commit: b46ff78a9145e2e837a849d72adc4a7fb8797d00
 workflow-type: tm+mt
-source-wordcount: '956'
+source-wordcount: '962'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ Tänk på följande när du använder kopiera/redigera-funktionen med arbetsytor
 
         Lös problemet genom att klicka på [!UICONTROL Add/Remove] så att endast de egenskaper som är tillgängliga i målarbetsytan visas för markering.
 
-   * **Publiker och erbjudanden**: När en aktivitet kopieras till en ny arbetsyta dupliceras alla associerade målgrupper och erbjudanden från den ursprungliga arbetsytan med formatet `Entity Name Copy <Date>`.
+   * **Publiker och erbjudanden**: När en aktivitet kopieras till en ny arbetsyta dupliceras alla associerade [!DNL Target] - eller ad hoc-målgrupper och erbjudanden från den ursprungliga arbetsytan med formatet `<Entity Name> Copy <Date>` för [!DNL Target] målgrupper och för ad hoc-erbjudanden `<Entity Name>` .
 
      Beteendeinformation:
 
@@ -85,9 +85,9 @@ Tänk på följande när du använder kopiera/redigera-funktionen med arbetsytor
 
      Denna process ger smidigare funktioner för arbete på flera arbetsytor samtidigt som flexibiliteten för anpassning bibehålls.
 
-     När du kopierar en aktivitet måste kombinerade målgrupper, icke-målgrupper och erbjudanden som inte har sparats på den aktuella arbetsytan eller standardarbetsytan ersättas manuellt.
+     När du kopierar en aktivitet måste målgrupper och erbjudanden som inte har sparats på den aktuella arbetsytan eller standardarbetsytan ersättas manuellt.
 
-     Genom att manuellt ersätta dessa kombinerade målgrupper, målgrupper och erbjudanden säkerställs att endast giltiga, tillgängliga enheter används i den kopierade aktiviteten och att fel förhindras vid redigering eller leverans.
+     Ersätta dessa målgrupper manuellt och erbjudanden säkerställer att endast giltiga, tillgängliga enheter används i den kopierade aktiviteten och förhindrar fel under redigering eller leverans.
 
      ![Varningsmeddelande](/help/main/c-activities/assets/copy.png)
 
