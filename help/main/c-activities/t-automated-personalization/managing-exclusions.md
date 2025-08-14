@@ -2,7 +2,7 @@
 keywords: deduplicera;tillåt dubbletter;utelämna dubbletterbjudanden;automatiserad personalisering;tillåt inte dubbletterbjudanden;exkludera;standardinnehåll;
 description: Hantera undantag i [!UICONTROL Automated Personalization] (AP)-aktiviteter.
 title: Hur hanterar jag undantag i [!UICONTROL Automated Personalization] aktiviteter?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=sv-SE#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: d9e9f2a2-5914-4b81-acae-eaf388646652
