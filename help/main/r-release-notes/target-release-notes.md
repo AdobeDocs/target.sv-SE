@@ -4,9 +4,9 @@ description: Lär dig mer om de nya funktionerna, förbättringarna och korriger
 title: Vilka nya funktioner och förbättringar ingår i den kommande [!DNL Target] versionen?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: d09e02db4ea94671e2450d1748b07def932916d9
+source-git-commit: 1a5c47277bfd5eb1c90887728540bbc3b0433d77
 workflow-type: tm+mt
-source-wordcount: '1378'
+source-wordcount: '173'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Den här artikeln innehåller förhandsversionsinformation för kommande [!DNL Adobe Target]-versioner, inklusive SDK, API:er och JavaScript-bibliotek.
 
-**Senast uppdaterad: 24 juli 2025**
+**Senast uppdaterad: 14 augusti 2025**
 
 >[!NOTE]
 >
@@ -25,63 +25,14 @@ Den här artikeln innehåller förhandsversionsinformation för kommande [!DNL A
 >
 >* Utfärdandenumren inom parentes är avsedda för intern [!DNL Adobe]-användning.
 
-## [!DNL Target Standard/Premium] 25.8.2 (14 augusti 2025)
-
-Den här versionen innehåller följande korrigeringar och uppdateringar:
-
-**[!UICONTROL Activities]**
-
-+++Se detaljer
-* **Ett problem med aktivitetsinläsning i det uppdaterade [!DNL Target] användargränssnittet** har korrigerats i det uppdaterade användargränssnittet i [!DNL Target] där vissa aktiviteter inte kunde läsas in vid redigering. Det här problemet gjorde att kunderna lämnade användarna på en obegränsad inläsningsskärm. Problemet påverkade flera aktiviteter och rapporterades inträffa inkonsekvent mellan olika kunder. Med den här korrigeringen läses de påverkade aktiviteterna in korrekt, vilket ger smidig redigering och minskar störningarna i aktivitetsarbetsflödena. (TGT-53209)
-* **Ett fel vid sparande i aktivitetsskapandeprocessen på grund av `optionLocalId` validering** har korrigerats: Ett fel i aktivitetsskapandeprocessen som gjorde att kunder inte kunde spara ändringar på grund av ett serverdelsvalideringsfel har korrigerats: `OptionLocalIdReferentialIntegrity.ABActivity - Invalid optionLocalIds:` Detta problem uppstod när specifika element i en aktivitet ändrades, vilket resulterade i en misslyckad sparningsåtgärd. Korrigeringen ser till att `optionLocalId`-referenser nu valideras korrekt, vilket gör att kunder kan spara aktiviteter utan att detta fel påträffas. (TGT-53293)
-* **Korrigerad krasch i process för att skapa aktivitet på grund av ogiltiga alternativreferenser vid växling av sidor**: Korrigerade ett fel i processen för att skapa aktivitet som gjorde att användargränssnittet kraschade efter växling av sidor tre gånger under redigering. Kraschen utlöstes av ogiltiga alternativreferenser, vilket resulterade i konsolfel som &quot;Option with localId &#39;7&#39; not found.&quot; Med den här uppdateringen kan kunderna nu växla mellan sidor och tillämpa ändringar utan att stöta på systemfel eller avbrott. (TGT-53295)
-* **Ett fel vid sparande i aktivitetsskapandeprocessen som orsakades av ogiltig användarinmatning vid redigering av upplevelser** har korrigerats i aktivitetsskapandeprocessen där kunderna inte kunde spara ändringar i en aktivitet på grund av ett ogiltigt användarinmatningsfel. Felet uppstod när upplevelser i det uppdaterade användargränssnittet ändrades, vilket förhindrar att uppdateringar implementeras. Aktiviteten kan nu sparas utan avbrott så att kunderna kan redigera och publicera. (TGT-53267)
-* **Ett inläsningsproblem i en aktivitetsskapandeprocess som blockerade redigering i det uppdaterade användargränssnittet** har korrigerats: ett fel i aktivitetsskapandeprocessen där kunderna inte kunde redigera aktiviteter i det uppdaterade användargränssnittet på grund av en kontinuerlig inläsningsskärm har åtgärdats. Kunder kan nu öppna och ändra aktiviteter utan att stöta på inläsningsfel. (TGT-53415)
-
-+++
-
-**Upplevelsefragment (XF)**
-
-+++Se detaljer
-* **Ett problem har korrigerats i aktivitetsskapandeprocessen som tillät oavsiktlig HTML-redigering av AEM-exporterade fragment**: Korrigerade ett fel i aktivitetsskapandeprocessen som gjorde att kunder kunde redigera HTML för [!DNL Experience Fragments] (XF) som exporterades från [!DNL Adobe Experience Manager] (AEM) i [!DNL Target]. Detta beteende var oavsiktligt eftersom XF:er ska förbli låsta för redigering när de har publicerats från AEM. Korrigeringen ser till att alternativet&quot;Redigera HTML&quot; inte längre är tillgängligt för AEM-exporterade fragment, vilket bevarar innehållets integritet och förväntade styrning. (TGT-53286)
-
-+++
-
-**QA-läge**
-
-+++Se detaljer
-* **Korrigerat problem i aktivitetsskapandeprocessen där inledande mellanslag i URL:er orsakade brutna QA-länkar**: Korrigerade ett fel i aktivitetsskapandeprocessen där inledande mellanslag i aktivitets-URL:en inte trimmades korrekt när de sparades. Detta orsakade ogiltiga QA-länkar och felaktig formatering i serverdelen. Efter uppdateringen sparas URL:er nu korrekt, vilket förhindrar brutna länkar och förbättrar tillförlitligheten i QA-arbetsflöden för kunder. (TGT-53427)
-
-+++
-
-**[!UICONTROL Recommendations]**
-
-+++Se detaljer
-* **Korrigerat problem i katalogsökgränssnittet där avancerad sökning inte gav några förslag**: Korrigerade ett fel i det nya [!UICONTROL Catalog Search]-gränssnittet där [!UICONTROL Advanced Search]-funktionen inte gav några förslag. Användarna måste ange exakta värden med exakt stavning, vilket gör sökningen krånglig och felbenägen. Med den här korrigeringen ger [!UICONTROL Advanced Search] nu relevanta förslag när användare skriver, vilket förbättrar användbarheten och minskar friktionen vid sökning av produkter. (TGT-52008)
-* **Flera användargränssnittsproblem och filtreringsproblem har åtgärdats för att förbättra svarstiderna och entitetsinteraktionen**: Flera problem har åtgärdats, bl.a. bristande svarstider för villkorsinformation på enheter med liten skärm, brist på resultat när du valde Alla värdgrupper i miljöfiltret samt oförmåga att interagera med entiteter som inte har något namn. Dessa korrigeringar förbättrar användbarheten i olika skärmstorlekar, säkerställer korrekt filtrering och möjliggör fullständig interaktion med alla produktenheter, vilket förbättrar den övergripande upplevelsen för användarna. (TGT-52992)
-* **Saknade produkt-ID:n i vyn Rekommendationer har korrigerats när aktiviteten skapades**: Ett problem i [!DNL Recommendations]-processen där produkt-ID:n saknades i skärmen med produktinformation har korrigerats, vilket gör det svårt för kunder att kopiera eller referera till produkt-ID:n under arbetsflöden. Produkt-ID:n visas nu tydligt i detaljvyn, vilket ger bättre synlighet och stöd för effektivare produkthantering för kunder. (TGT-51964)
-* **Ett problem har korrigerats i aktivitetsskapandeprocessen där produktmeddelanden inte kunde visas i rekommendationsvyn**: Korrigerade ett fel i aktivitetsskapandeprocessen där [!UICONTROL Message] -kolumnen i [!DNL Recommendations]-vyn inte visade produktdata trots att meddelanden fanns. Kunderna var tvungna att ta bort kolumnen manuellt och lägga till den på nytt för att tillfälligt visa innehållet, som ofta skulle försvinna igen vid bläddring eller sökning. Den här uppdateringen återställer konsekvent synlighet för produktmeddelanden, vilket förbättrar katalognavigering och arbetsflöden för granskning. (TGT-52777)
-* **Ett problem i aktivitetsskapandeprocessen där alternativet Alla värdgrupper returnerades inga resultat i rekommendationsvyn** har korrigerats i aktivitetsskapandeprocessen där det inte gick att få några resultat när miljön Alla värdgrupper valdes i vyn [!DNL Recommendations]. Kunderna kan nu visa produktdata i alla värdgrupper som förväntat, vilket förbättrar synligheten och filtreringsnoggrannheten under aktivitetsinställningarna. (TGT-53006)
-* **Ett problem i aktivitetsskapandeprocessen där växling mellan framhävning inte kvarstod efter att** sparats har korrigerats: Ett fel i aktivitetsskapandeprocessen där inaktiveringen av växling mellan framhävning och aktivitetsinställningar inte kvarstod efter att aktivitetsinställningarna sparats har åtgärdats. Kunder som försökte ta bort frontkampanjen återaktiverades när aktiviteten granskades, vilket förhindrade en korrekt anpassning. Med den här uppdateringen kan ändringar sparas på ett tillförlitligt sätt, vilket ger kunderna full kontroll över kampanjinställningarna. (TGT-53215)
-
-+++
-
-**Visual Experience Composer (VEC)**
-
-+++Se detaljer
-* **Åtgärdad inläsning av aktivitet och [!UICONTROL Cancel] knappproblem i process för att skapa aktivitet**: Korrigerade ett fel i processen för att skapa aktivitet där vissa aktiviteter inte kunde läsas in, vilket medförde att kunderna inte kunde komma åt ändringarna. Dessutom svarade inte knappen [!UICONTROL Cancel], vilket förhindrar kunder från att stoppa inläsningen eller avsluta redigeringsvyn. Med den här korrigeringen kan du nu läsa in aktiviteter tillförlitligt och knappen [!UICONTROL Cancel] fungerar som förväntat, vilket förbättrar den övergripande stabiliteten och användarupplevelsen i Visual Experience Composer. (VEC)(TGT-53218)
-* **Ett problem med växling av upplevelser i det uppdaterade VEC-gränssnittet som blockerade redigering och inaktiverade [!UICONTROL Cancel] button** har åtgärdats i det uppdaterade VEC-gränssnittet där ändringar inte lästes in när de växlade mellan upplevelser i en XT-aktivitet (Experience Targeting). Kunderna kunde inte redigera upplevelser utöver den som de ursprungligen angav, och knappen [!UICONTROL Cancel] saknades eller svarade inte. Den här korrigeringen ser till att ändringar nu läses in korrekt i alla upplevelser och att knappen [!UICONTROL Cancel] fungerar tillförlitligt, även utan tillägget Helper, vilket förbättrar redigeringsarbetsflödena och minskar frustrationen. (TGT-53256)
-* **Ett problem med vita skärmar när du växlade mellan flera upplevelser i en process som skapats med aktivitet har åtgärdats**: Ett problem där växling mellan olika upplevelser orsakade en vita skärm har korrigerats. Dessutom har ett problem korrigerats i processen där kunderna skapade en vitskärm när de försökte ändra flera upplevelser i en aktivitet. Detta problem uppstod efter att ändringar gjorts i två upplevelser och sedan valt en tredje upplevelse, vilket förhindrar ytterligare redigeringar. Uppdateringen säkerställer smidiga övergångar mellan upplevelserna, så att kunderna kan göra ändringar utan avbrott. (TGT-53266)
-* **Ett problem har korrigerats i VEC där anpassade kodändringar inte sparades på ett tillförlitligt sätt under redigeringssessioner**: Ett problem har korrigerats där anpassade kodändringar som gjorts i VEC (Visual Experience Composer) inte sparades på ett tillförlitligt sätt i ett enda försök. Kunder rapporterade att ändringar, som formatuppdateringar eller HTML-redigering, ibland saknades på webbplatsen och i QA-URL:er, även efter att ha använt både [!UICONTROL Edit Content]- och [!UICONTROL Save]-knapparna. Den här regressionen har åtgärdats och säkerställer att alla anpassade kodändringar bevaras som förväntat mellan redigeringssessionerna.** (TGT-53418)
-
-+++
+[!DNL Target Standard/Premium] 25.8.2 (14 augusti 2025) är live. Mer information finns i [[!DNL Target] versionsinformation (aktuell)](/help/main/r-release-notes/release-notes.md).
 
 ## Ytterligare versionsinformation
 
 | Resurs | Information |
 |--- |--- |
 | [Versionsinformation: Adobe Target Platform Experience Web SDK]&#x200B;(https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=e n) | Information om ändringarna i respektive version av Platform Web SDK. |
-| Versionsinformation för [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=sv-SE){target=_blank} | Information om ändringar i varje version av JavaScript-biblioteket [!DNL Adobe Target] at.js. |
+| Versionsinformation för [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | Information om ändringar i varje version av JavaScript-biblioteket [!DNL Adobe Target] at.js. |
 
 ## Förhandsversionsinformation {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
