@@ -1,59 +1,21 @@
 ---
-keywords: deduplicera;tillåta dubbletter;exkludera dubblerade erbjudanden;automatiserad personalisering;Tillåt inte dubblerade erbjudanden;exkludera;standardinnehåll;exkluderingsgrupp;
+keywords: deduplicera;tillåt dubbletter;utelämna dubbletterbjudanden;automatiserad personalisering;tillåt inte dubbletterbjudanden;exkludera;standardinnehåll;
 description: Hantera undantag i [!UICONTROL Automated Personalization] (AP)-aktiviteter.
 title: Hur hanterar jag undantag i [!UICONTROL Automated Personalization] aktiviteter?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=sv-SE#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: d9e9f2a2-5914-4b81-acae-eaf388646652
-source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
+source-git-commit: c5016d212edafa908b8755044e73d28167e20e8a
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '652'
 ht-degree: 0%
 
 ---
 
 # Hantera undantag
 
-Hantera undantag genom att skapa exkluderingsgrupper, exkludera dubblerade erbjudanden, exkludera specifika upplevelser och exkludera standardinnehåll i [!UICONTROL Automated Personalization] (AP)-aktiviteter i [!DNL Adobe Target].
-
-## Skapa exkluderingsgrupper {#task_AAAA6C7239A84F7696C8492F04B575A2}
-
-Skapa exkluderingsgrupper i [!UICONTROL Automated Personalization] (AP)-aktiviteter för att se till att upplevelser med de angivna erbjudandena automatiskt utesluts.
-
-Uteslutningsgrupper är ett bra sätt att se till att inkompatibla erbjudanden inte visas på samma plats på olika platser. Anta till exempel att du har två erbjudanden: ett för en rabatt på 20 % för alla varor och det andra för en rabatt på 15 %. Ni vill aldrig att dessa två erbjudanden ska presenteras för besökare i samma upplevelse. Om du lägger till dessa två erbjudanden i en exkluderingsgrupp kan du se till att detta aldrig blir fallet.
-
-Du kan också begränsa vilka målgrupper som kan se specifika erbjudanden i AP-aktiviteter. Mer information finns i [Automated Personalization Target-erbjudanden](/help/main/c-activities/t-automated-personalization/ap-target-offers.md).
-
-**Så här skapar du en exkluderingsgrupp:**
-
-1. När du [skapar eller redigerar en AP-aktivitet](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) klickar du på ikonen **[!UICONTROL Manage Content]** ( ![ikonen Hantera innehåll](/help/main/assets/icons/Experience.svg) ).
-
-   Dialogrutan [!UICONTROL Manage Content] visas.
-
-1. Klicka på fliken **[!UICONTROL Experiences]**.
-
-1. Klicka på **[!UICONTROL Exclusion Groups]** i dialogrutan [!UICONTROL Manage Content].
-
-   ![Hantera innehåll > dialogrutan Uteslutningsgrupper](/help/main/c-activities/t-automated-personalization/assets/exclusion_group_create-new.png)
-
-   Om du tidigare har skapat exkluderingsgrupper visas de i listan. Om du ännu inte har skapat någon exkluderingsgrupp uppmanas du att skapa en.
-
-1. Klicka på **[!UICONTROL Create Exclusion Group.]**
-
-   ![Dialogrutan Skapa exkluderingsgrupp](/help/main/c-activities/t-automated-personalization/assets/exclusion_group_create_dialog-new.png)
-
-1. (Obligatoriskt) Ange ett beskrivande namn för exkluderingsgruppen.
-
-   Ett beskrivande namn hjälper dig eller andra att snabbt hitta och förstå en grupps syfte.
-
-1. Leta reda på och markera de erbjudanden du vill lägga till i exkluderingsgruppen.
-
-   Du kan välja flera erbjudanden från samma plats i en exkluderingsgrupp.
-
-1. Klicka på **[!UICONTROL Save]**.
-
-Erbjudandena i exkluderingsgruppen exkluderas automatiskt från samma upplevelser som går framåt.
+Hantera undantag genom att exkludera dubblerade erbjudanden, exkludera specifika upplevelser och exkludera standardinnehåll i [!UICONTROL Automated Personalization] (AP)-aktiviteter i [!DNL Adobe Target].
 
 ## Exkludera dubbletterbjudanden {#concept_4EF78013F80E48EFA024AE0274C9F037}
 
@@ -61,7 +23,7 @@ Förhindra att erbjudanden från erbjudandebiblioteket dupliceras när de använ
 
 Du kan till exempel ha en aktivitet med sex platser på en sida med tolv erbjudanden. Det finns en risk för att samma erbjudande kan placeras på en eller flera platser i aktiviteten. Den här funktionen förhindrar att dubbletterbjudanden visas samtidigt på olika platser inom samma aktivitet.
 
-Klicka på **[!UICONTROL Configure]**-kugghjulsalternativet > **[!UICONTROL Duplicate Offers]** och sedan på **[!UICONTROL Allow Duplicates]** eller **[!UICONTROL Disallow Duplicates]**.
+Klicka på ikonen **[!UICONTROL Configure]** > **[!UICONTROL Duplicate Offers]** och sedan på **[!UICONTROL Allow Duplicates]** eller **[!UICONTROL Disallow Duplicates]**.
 
 ![Alternativ för duplicerade erbjudanden](/help/main/c-activities/t-automated-personalization/assets/duplicate_offers-new.png)
 
@@ -71,7 +33,7 @@ Undanta specifika upplevelser om du vill utesluta vissa erbjudandekombinationer 
 
 Det kan finnas vissa kombinationer som inte fungerar tillsammans, eller så kanske du begränsar antalet testade upplevelser för att minska trafikkraven för din aktivitet.
 
-1. Klicka på **Hantera innehåll** i rubrikfältet när du [skapar eller redigerar en AP-aktivitet](/help/main/c-activities/t-automated-personalization/create-ap-activity.md).
+1. Klicka på [Hantera innehåll](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) i rubrikfältet när du **skapar eller redigerar en AP-aktivitet**.
 
    ![Länken Hantera innehåll](/help/main/c-activities/t-automated-personalization/assets/manage-content.png)
 
