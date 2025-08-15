@@ -33,11 +33,11 @@ Den här versionen innehåller följande uppdateringar och korrigeringar:
 
 +++Se detaljer
 * **Korrigerat problem i gränssnittet för Recs där CSV-hämtning med anpassade villkor returnerade 404-fel**: Ett problem där kunderna inte kunde hämta CSV-filen med anpassade villkor i processen för att skapa aktivitet har korrigerats.
-* **Inkonsekvent inläsning av bilder i[!UICONTROL Catalog Search]** har korrigerats: Ett problem där miniatyrbilder och bilder i [!UICONTROL  Catalog Search] inte lästes in konsekvent i processen där aktiviteten skapades har åtgärdats. Det gick inte att visa bilder om inte kolumnen &quot;Miniatyrbilds-URL&quot; var synlig och vissa produktbilder lästes in delvis eller inte alls efter navigerings- eller sökåtgärder. (TGT-52778)
+* **Inkonsekvent inläsning av bilder i[!UICONTROL Catalog Search]** har korrigerats: Ett problem där miniatyrbilder och bilder i [!UICONTROL &#x200B; Catalog Search] inte lästes in konsekvent i processen där aktiviteten skapades har åtgärdats. Det gick inte att visa bilder om inte kolumnen &quot;Miniatyrbilds-URL&quot; var synlig och vissa produktbilder lästes in delvis eller inte alls efter navigerings- eller sökåtgärder. (TGT-52778)
 
 +++
 
-**[!UICONTROL Visual Experience Composer](VEC)**
+**[!UICONTROL Visual Experience Composer] (VEC)**
 
 +++Se detaljer
 * **Korrigerat problem i aktivitetsskapandeprocessen som blockerade progression till [!UICONTROL Targeting] steg i AP-aktiviteter**: Korrigerade ett fel i aktivitetsskapandeprocessen där kunderna inte kunde fortsätta till [!UICONTROL Targeting] step in [!UICONTROL Automated Personalization] -aktiviteterna (AP) om inte två platser lades till. Detta beteende skilde sig från den tidigare upplevelsen, där en enda plats med flera erbjudanden var tillräckligt. Kravet har korrigerats, vilket gör att kunderna kan fortsätta använda inställningar för en plats som en del av sina AP-arbetsflöden. (TGT-53426)
