@@ -19,7 +19,7 @@ Innan du bestämmer dig för att använda den här integreringen ska du gå igen
 
 >[!NOTE]
 >
->Den här artikeln gäller endast för at.js-implementeringar. Mer information om hur du implementerar [!UICONTROL Analytics for Target] (A4T) med [!DNL Adobe Experience Platform Web SDK] finns i [Adobe Analytics for Target-loggning (A4T) i Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/a4t/overview-a4t.html){target=_blank}.
+>Den här artikeln gäller endast för at.js-implementeringar. Mer information om hur du implementerar [!UICONTROL Analytics for Target] (A4T) med [!DNL Adobe Experience Platform Web SDK] finns i [Adobe Analytics for Target-loggning (A4T) i Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/a4t/overview-a4t.html?lang=sv-SE){target=_blank}.
 
 ## Implementeringskrav {#section_A0D2EF18033D4C3997B08A6EBB34C17A}
 
