@@ -96,4 +96,4 @@ Mer information finns i [Kom igång med det nya rapporteringsgränssnittet](http
 >[!MORELIKETHIS]
 >
 >[Arbeta med webbdesignern](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank} i *Journey Optimizer-dokumentationen*
->>[Skapa en kampanj](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank} i *Journey Optimizer Tutorials*
+>&#x200B;>[Skapa en kampanj](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank} i *Journey Optimizer Tutorials*

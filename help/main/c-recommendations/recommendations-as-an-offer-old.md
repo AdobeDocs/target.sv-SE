@@ -55,7 +55,7 @@ Om du vill komma igång skapar du en [!UICONTROL A/B Test]- eller [!UICONTROL Ex
 
 1. Klicka på **[!UICONTROL Create Criteria]** eller välj ett befintligt [villkor](/help/main/c-recommendations/c-algorithms/algorithms.md) och klicka sedan på **[!UICONTROL Next]** för att visa dialogrutan [!UICONTROL Select Design].
 
-1. Klicka på **[!UICONTROL Create Design]** eller markera en befintlig [design](/help/main/c-recommendations/c-design-overview/design-overview.md) och klicka sedan på **[!UICONTROL  Next]**.
+1. Klicka på **[!UICONTROL Create Design]** eller markera en befintlig [design](/help/main/c-recommendations/c-design-overview/design-overview.md) och klicka sedan på **[!UICONTROL &#x200B; Next]**.
 
 1. Ange följande i dialogrutan [!UICONTROL Options]:
 

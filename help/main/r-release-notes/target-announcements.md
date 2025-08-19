@@ -160,7 +160,7 @@ Mobilupplevelser är grunden för innovation inom hur marknadsförings- och tekn
 
 ### Chef&#39;s Collection: Recept for Personalization (30 augusti 2022)
 
-Gå med i [!DNL Adobe Target] [!DNL]teamet och få nya idéer om hur du kan få ut så mycket som möjligt av Target. Baserat på vår senaste e-bok &quot;Chef&#39;s Collection: Ideas for Personalization&quot;.
+Gå med i [!DNL Adobe Target] teamet och få nya idéer om hur du kan få ut så mycket som möjligt av Target. Baserat på vår senaste e-bok &quot;Chef&#39;s Collection: Ideas for Personalization&quot;.
 
 * [Länkar för inspelning](https://video.tv.adobe.com/v/346970/){target=_blank}
 
