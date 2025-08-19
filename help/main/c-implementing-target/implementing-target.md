@@ -20,7 +20,7 @@ Innan du börjar använda [!DNL Adobe Target] måste du implementera den på din
 
 {{permissions-update}}
 
-[Adobe Target Developer Guide](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank} innehåller information som du behöver känna till innan du implementerar [!DNL Target].
+[Adobe Target Developer Guide](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=sv-SE){target=_blank} innehåller information som du behöver känna till innan du implementerar [!DNL Target].
 
 På utvecklarportalen finns information om följande implementeringstyper:
 
@@ -31,11 +31,11 @@ På utvecklarportalen finns information om följande implementeringstyper:
 * **Mobilappar**: Information som hjälper dig att implementera med [!DNL Adobe Experience Platform Mobile] SDK:er.
 * **E-post**: Information som hjälper dig att implementera [!DNL Target] i e-postmeddelanden.
 
-Mer information finns i [Adobe Target Developer Guide](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}.
+Mer information finns i [Adobe Target Developer Guide](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=sv-SE){target=_blank}.
 
 >[!NOTE]
 >
->All information som tidigare ingick i avsnittet *Implementera mål* i den här handboken (*Adobe Target Practitioner-handboken*) finns nu med i [Utvecklarhandbok](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}.
+>All information som tidigare ingick i avsnittet *Implementera mål* i den här handboken (*Adobe Target Practitioner-handboken*) finns nu med i [Utvecklarhandbok](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=sv-SE){target=_blank}.
 
 
 

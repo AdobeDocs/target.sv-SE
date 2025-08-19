@@ -2,7 +2,7 @@
 keywords: egen design;snabbhet;decimal;komma;anpassa design
 description: Lär dig hur du använder designspråket  [!DNL Velocity] med öppen källkod för att anpassa rekommendationsdesigner i  [!DNL Target] Rekommendationer.
 title: Hur anpassar jag en design snabbt?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=sv-SE#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Recommendations
 exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
 source-git-commit: eba9e0b02ce74fea127d2cb2d08d04dcd2da2d76

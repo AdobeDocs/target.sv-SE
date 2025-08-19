@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Innan du börjar använda [!DNL Adobe Target] måste du implementera den på din webbplats.
 
-[Adobe Target Developer Guide](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank} innehåller information som du behöver känna till innan du implementerar [!DNL Target].
+[Adobe Target Developer Guide](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=sv-SE){target=_blank} innehåller information som du behöver känna till innan du implementerar [!DNL Target].
 
 På utvecklarportalen finns information om följande implementeringstyper:
 
@@ -33,4 +33,4 @@ På utvecklarportalen finns information om följande implementeringstyper:
 * Rapporterings-API.
 * Rekommendations-API:er.
 
-Mer information finns i [Översikt över mål-API](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/before-implement/considerations-before-you-implement-target.html){target=_blank} i [Adobe Target Developer Guide](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=en){target=_blank}.
+Mer information finns i [Översikt över mål-API](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/before-implement/considerations-before-you-implement-target.html?lang=sv-SE){target=_blank} i [Adobe Target Developer Guide](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=sv-SE){target=_blank}.

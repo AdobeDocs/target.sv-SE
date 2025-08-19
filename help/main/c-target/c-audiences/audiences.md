@@ -21,7 +21,7 @@ Målgrupperna används överallt där målgruppsanpassning finns tillgänglig. N
 * [Skapa en aktivitetsspecifik målgrupp](/help/main/c-target/creating-activity-only-audience.md) och ange den som mål
 * [Kombinera flera målgrupper](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) för att skapa en ad hoc-målgrupp
 
-Du kan också använda målgruppsdata som samlats in av [!DNL Adobe Analytics] för målinriktning och personalisering i realtid i [!DNL Target] och andra [!DNL Adobe Experience Cloud]-program. Se [Experience Cloud-målgrupper](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) i handboken *Experience Cloud Central Interface Components*.
+Du kan också använda målgruppsdata som samlats in av [!DNL Adobe Analytics] för målinriktning och personalisering i realtid i [!DNL Target] och andra [!DNL Adobe Experience Cloud]-program. Se [Experience Cloud-målgrupper](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=sv-SE) i handboken *Experience Cloud Central Interface Components*.
 
 Det finns två typer av målgrupper i [!DNL Target]:
 

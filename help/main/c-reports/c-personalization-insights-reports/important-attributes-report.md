@@ -2,7 +2,7 @@
 keywords: Målgruppsanpassning;AP-rapporter;automatiserade personaliseringsrapporter;auto target;auto target;auto target report;auto target report;personalization;insights;faq;Vanliga frågor;viktiga attribut
 description: Lär dig hur du använder rapporten [!UICONTROL Important Attributes] som visar de viktigaste attributen som påverkade personaliseringsmodellen och deras relativa betydelse.
 title: Vilken är den viktiga attributrapporten?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=sv-SE#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
 source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
@@ -92,13 +92,13 @@ Det finns flera orsaker till varför [!UICONTROL Personalization Insights]-rappo
 
 Ett attribut är information om en besökare eller hans eller hennes specifika besök som används av personaliseringsalgoritmerna för att lära sig att personalisera trafik. Ett attribut kan till exempel vara webbläsartyp, plats, tidpunkt på besöksdagen och så vidare.
 
-Mer information om vilka attribut [!DNL Target] använder i sina anpassningsmodeller finns i [Datainsamling för Target&#39;s Personalization Algorithms](/help/main/c-activities/t-automated-personalization/ap-data.md). Mer information om hur du överför nya attribut till Target för användning i Target-personaliseringsmodeller finns i [Metoder för att hämta data till Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}.
+Mer information om vilka attribut [!DNL Target] använder i sina anpassningsmodeller finns i [Datainsamling för Target&#39;s Personalization Algorithms](/help/main/c-activities/t-automated-personalization/ap-data.md). Mer information om hur du överför nya attribut till Target för användning i Target-personaliseringsmodeller finns i [Metoder för att hämta data till Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=sv-SE){target=_blank}.
 
 ### Jag ser ett eller flera attribut som jag inte vill att modellen ska använda för utbildning. Kan jag ta bort dessa attribut från utbildningsmodellen? {#models-api}
 
 Med [!UICONTROL Models API], som även kallas Blockeringslista API, kan användare visa och hantera listan med attribut (som också kallas funktioner) som används i maskininlärningsmodeller för [!UICONTROL Automated Personalization]- (AP) och [!UICONTROL Auto-Target] (AT)-aktiviteter. Om du vill utesluta ett eller flera attribut från att användas av modellerna för AP- eller AT-aktiviteter kan du använda API:t för modeller för att lägga till dessa attribut i blockeringslista.
 
-Mer information finns i [Översikt över API:t för modeller](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html){target=_blank} i *Adobe Target Developer Guide*. Information om hur du använder API:t för att blockera attribut finns i [Models API](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api-overview.html){target=_blank}.
+Mer information finns i [Översikt över API:t för modeller](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html?lang=sv-SE){target=_blank} i *Adobe Target Developer Guide*. Information om hur du använder API:t för att blockera attribut finns i [Models API](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api-overview.html?lang=sv-SE){target=_blank}.
 
 ### Är informationen i [!UICONTROL Automated Segments]- och [!UICONTROL Important Attributes]-rapporterna densamma som i CSV-nedladdningen?
 

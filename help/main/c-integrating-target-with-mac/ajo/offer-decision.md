@@ -19,9 +19,9 @@ Lägg till offertbeslut som har skapats i [!DNL Adobe Journey Optimizer] till [!
 
 Mer information om [!DNL Adobe Journey Optimizer] och erbjudandebeslut finns i följande avsnitt i *[!DNL Journey Optimizer]*-dokumentationen:
 
-* [Kom igång med Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html)
+* [Kom igång med Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html?lang=sv-SE)
 
-* [Om beslutshantering](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html)
+* [Om beslutshantering](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html?lang=sv-SE)
 
 ## Förutsättningar
 
@@ -72,7 +72,7 @@ I [!DNL Adobe Journey Optimizer] kan du skapa ett personligt startsidans hjälte
 
 1. Markera önskad sandlåda i fältet **[!UICONTROL Add Offer Decision]** till höger om VEC och klicka sedan på Välj erbjudande.placering.
 
-   Med en [sandlåda](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/overview.html){target=_blank} i [!DNL Adobe Experience Platform] kan du partitionera instansen i virtuella miljöer. Du kan till exempel ha en produktionsmiljö och en staging-miljö. En [placering](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/create-components/creating-placements.html){target=_blank} i [!DNL Adobe Journey Optimizer] säkerställer att rätt erbjudandeinnehåll visas på rätt plats.
+   Med en [sandlåda](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/overview.html?lang=sv-SE){target=_blank} i [!DNL Adobe Experience Platform] kan du partitionera instansen i virtuella miljöer. Du kan till exempel ha en produktionsmiljö och en staging-miljö. En [placering](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/create-components/creating-placements.html?lang=sv-SE){target=_blank} i [!DNL Adobe Journey Optimizer] säkerställer att rätt erbjudandeinnehåll visas på rätt plats.
 
    ![Listrutorna Sandlåda och Placeringar i dialogrutan Lägg till erbjudandebeslut](/help/main/c-integrating-target-with-mac/ajo/assets/sandbox-placement.png)
 

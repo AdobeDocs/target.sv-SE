@@ -35,7 +35,7 @@ Några exempel på hur du skulle kunna använda undantag är:
 
 1. Klicka på **[!UICONTROL Recommendations]** > **[!UICONTROL Exclusions]** för att visa listan över befintliga undantag.
 
-   Antalet objekt som rapporteras för varje undantag i listvyn [!UICONTROL Exclusions] är antalet produkter som matchar reglerna för undantaget i den konfigurerade standardrekommendationerna [värdgrupp](/help/main/administrating-target/hosts.md) (miljö). Mer information om hur du ändrar standardvärdgruppen finns i [Planera och implementera [!DNL Recommendations]](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations){target=_blank} i *Adobe Target Developer Guide* .
+   Antalet objekt som rapporteras för varje undantag i listvyn [!UICONTROL Exclusions] är antalet produkter som matchar reglerna för undantaget i den konfigurerade standardrekommendationerna [värdgrupp](/help/main/administrating-target/hosts.md) (miljö). Mer information om hur du ändrar standardvärdgruppen finns i [Planera och implementera [!DNL Recommendations]](https://experienceleague.adobe.com/sv/docs/target-dev/developer/recommendations){target=_blank} i *Adobe Target Developer Guide* .
 
 1. (Villkorligt) Klicka på ikonen **[!UICONTROL Show Filters]** ( ![Visa filterikon](/help/main/assets/icons/Filter.svg) ) och välj sedan önskad [miljö](/help/main/administrating-target/environments.md) i listrutan **[!UICONTROL Environment]** när du skapar (eller uppdaterar) ett undantag för att förhandsvisa innehållet i undantaget i den miljön. Som standard visas resultat från standardvärdgruppen.
 

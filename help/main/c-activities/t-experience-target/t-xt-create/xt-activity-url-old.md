@@ -23,7 +23,7 @@ ht-degree: 0%
    >
    >Som standard öppnar VEC- eller [formulärbaserad Experience Composer](/help/main/c-experiences/form-experience-composer.md) den sida som anges i [inställningarna för Visual Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md). Du kan ange en annan sida när du skapar en aktivitet.
    >
-   >Om du anger en URL för en webbplats som inte innehåller ett [[!DNL Target]  at.js JavaScript-bibliotek eller  [!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html){target=_blank} kan du inte välja sidelement.
+   >Om du anger en URL för en webbplats som inte innehåller ett [[!DNL Target]  at.js JavaScript-bibliotek eller  [!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=sv-SE){target=_blank} kan du inte välja sidelement.
 
 1. (Villkorligt) Om du vill visa en annan sida efter att VEC har öppnats klickar du på **[!UICONTROL Configure]**, väljer **[!UICONTROL Page Delivery]** och anger sedan URL:en i fältet [!UICONTROL URL].
 

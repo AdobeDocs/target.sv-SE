@@ -111,7 +111,7 @@ Med Adobe Experience Cloud Debugger är det snabbt och enkelt att förstå hur T
 
 Mer information finns i utbildningsvideorna nedan:
 
-Mer detaljerad information finns i [Felsöka at.js med Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html){target=_blank}.
+Mer detaljerad information finns i [Felsöka at.js med Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html?lang=sv-SE){target=_blank}.
 
 ## De viktigaste säljarna visas inte i rekommendationerna {#section_3920C857270A406C80BE6CBAC8221ECD}
 
@@ -127,7 +127,7 @@ Target har inte längre stöd för IE 8.
 
 ## Målcookie har inte angetts {#section_77AFEB541C0B495EB67E29A4475DF960}
 
-Om din webbplats har en underdomän, till exempel [!DNL us.domain.com], men du behöver en målcookie som är inställd på [!DNL domain.com] (i stället för på [!DNL us.domain.com]), måste du åsidosätta inställningen `cookieDomain`. Mer information finns i [targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank}.
+Om din webbplats har en underdomän, till exempel [!DNL us.domain.com], men du behöver en målcookie som är inställd på [!DNL domain.com] (i stället för på [!DNL us.domain.com]), måste du åsidosätta inställningen `cookieDomain`. Mer information finns i [targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html?lang=sv-SE){target=_blank}.
 
 ## Målinnehållet flimrar eller visas inte om ett element också ingår i Adobe Experience Manager personalisering. {#section_9E1DABEB75AB431FB9F09887E6DD07D3}
 

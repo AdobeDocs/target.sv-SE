@@ -48,7 +48,7 @@ I [!DNL Analytics] finns flera dimensioner och mått tillgängliga efter att A4T
 * [!UICONTROL Activity Impressions] - Matchar [!UICONTROL Entrants]-talet i [!DNL Target]-rapporten.
 * [!UICONTROL Activity Conversions] - Matchar [!UICONTROL Custom Conversions]-talet i [!DNL Target]-rapporten.
 
-I [!DNL Analysis Workspace] använder du panelen [!UICONTROL Analytics for Target] för att analysera dina [!DNL Target]-aktiviteter och -upplevelser med lyft och självförtroende. Mer information finns i [Analytics for Target (A4T) Panel ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html) i *Analytics Tools Guide*.
+I [!DNL Analysis Workspace] använder du panelen [!UICONTROL Analytics for Target] för att analysera dina [!DNL Target]-aktiviteter och -upplevelser med lyft och självförtroende. Mer information finns i [Analytics for Target (A4T) Panel ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=sv-SE) i *Analytics Tools Guide*.
 
 >[!IMPORTANT]
 >
@@ -89,7 +89,7 @@ Om du till exempel optimerar till sidvisningar per besökare, kan du exportera e
 1. Klicka på **[!UICONTROL Tools]** > **[!UICONTROL Data Warehouse]**.
 1. Fyll i fälten på fliken **[!UICONTROL Data Warehouse Request]**.
 
-   Mer information om de olika fälten finns i&quot;Data Warehouse Descriptions&quot; i [Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html).
+   Mer information om de olika fälten finns i&quot;Data Warehouse Descriptions&quot; i [Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html?lang=sv-SE).
 
    | Fält | Instruktioner |
    |--- |--- |
@@ -109,5 +109,5 @@ Om du till exempel optimerar till sidvisningar per besökare, kan du exportera e
 
 Mer information om [!DNL Data Warehouse] finns i följande länkar i hjälpdokumentationen för [!DNL Analytics]:
 
-* [Skapa en Data Warehouse-förfrågan](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html)
-* [Data Warehouse bästa praxis](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html)
+* [Skapa en Data Warehouse-förfrågan](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html?lang=sv-SE)
+* [Data Warehouse bästa praxis](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html?lang=sv-SE)

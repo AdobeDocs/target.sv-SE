@@ -135,7 +135,7 @@ Välj den miljö (värdgrupp) som ska användas för rapporten. Mer information 
 
 >[!NOTE]
 >
->Om din organisation använder [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target=_blank} (AEP) för att skicka mätdata till [!DNL Target] bör miljön i AEP Datastream matcha miljön i rapportinställningarna för [!DNL Target].
+>Om din organisation använder [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=sv-SE){target=_blank} (AEP) för att skicka mätdata till [!DNL Target] bör miljön i AEP Datastream matcha miljön i rapportinställningarna för [!DNL Target].
 
 ### Återställ rapportdata
 

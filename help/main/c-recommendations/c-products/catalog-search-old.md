@@ -2,7 +2,7 @@
 keywords: katalogsökning;katalog;sökning;exkludering;samling;filter
 description: Lär dig hur du använder sökfunktionen i katalogen Recommendations Catalog Search för att hitta produkter eller innehåll, skapa samlingar eller undantag, ta bort objekt från katalogen med mera.
 title: Hur använder jag sökningen i katalogen Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=sv-SE#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Recommendations
 exl-id: 925fea97-e2c5-4883-84e3-fd357a8ee8d9
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c

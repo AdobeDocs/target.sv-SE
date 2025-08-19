@@ -1,7 +1,7 @@
 ---
 keywords: entitet;entitetsattribut;skicka information till rekommendationer;beteendedata;dataräknare;definiera relativ URL;visa lagernivå;definiera pris;definiera vinstmarginal;anpassade attribut
 description: Lär dig hur du använder entitetsattribut för att skicka produkt- eller innehållsinformation till  [!DNL Target] rekommendationer.
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=sv-SE#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 title: Hur använder jag entitetsattribut?
 feature: Recommendations
 exl-id: 4ed5fad3-b8b6-4675-a741-9f85cf73fcf1
@@ -31,7 +31,7 @@ I allmänhet ser visningsinformationsrutan ut som i följande exempel om du anv�
 
 >[!NOTE]
 >
->Om du använder at.js 2.*x*, `mboxCreate` (som i följande exempel) stöds inte längre. Om du vill skicka produkt- eller innehållsinformation till [!DNL Recommendations] med at.js 2.*x*, använd [targetPageParams](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparams.html){target=_blank}. Se till exempel [Planera och implementera rekommendationer](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
+>Om du använder at.js 2.*x*, `mboxCreate` (som i följande exempel) stöds inte längre. Om du vill skicka produkt- eller innehållsinformation till [!DNL Recommendations] med at.js 2.*x*, använd [targetPageParams](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparams.html?lang=sv-SE){target=_blank}. Se till exempel [Planera och implementera rekommendationer](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=sv-SE){target=_blank}.
 
 ```javascript
 <div class="mboxDefault"></div><script language="JavaScript1.2"> 

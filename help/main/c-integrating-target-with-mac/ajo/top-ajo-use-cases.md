@@ -2,7 +2,7 @@
 keywords: optimering;personalisering;adobe-reseoptimering;ajo;användningsfall;scenarier;webb;kodbaserad
 description: Lär dig implementera de bästa användningsområdena för optimering i Adobe Journey Optimizer för maximal effekt.
 title: Top Optimization Use Case in [!DNL Adobe Journey Optimizer] - web and code-based channel
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="Vad är Beta-funktioner i  [!DNL Adobe Target]?"
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=sv-SE#beta newtab=true" tooltip="Vad är Beta-funktioner i  [!DNL Adobe Target]?"
 feature: Integrations
 hide: true
 hidefromtoc: true
@@ -22,7 +22,7 @@ Lär dig hur du implementerar de bästa användningsexemplen för optimering i [
 
 För följande användningsområden behöver du följande:
 
-* [Adobe Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/get-started){target=_blank}.
+* [Adobe Journey Optimizer](https://experienceleague.adobe.com/sv/docs/journey-optimizer/using/get-started/get-started){target=_blank}.
 * Dessa användningsfall kräver ingen [!DNL Adobe Target]-licens. De här användningsexemplen visar hur du utför välkända uppgifter i [!DNL Target] med [!DNL Journey Optimizer], så att du kan utforska och uppnå samma resultat med [!DNL Journey Optimizer].
 
 ## Användningsexempel

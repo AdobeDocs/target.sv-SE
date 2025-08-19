@@ -108,7 +108,7 @@ Om du till exempel optimerar till sidvisningar per besökare, kan du exportera e
 1. Klicka på **[!UICONTROL Tools]** > **[!UICONTROL Data Warehouse]**.
 1. Fyll i fälten på fliken **[!UICONTROL Data Warehouse Request]**.
 
-   Mer information om de olika fälten finns i&quot;Data Warehouse Descriptions&quot; i [Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html).
+   Mer information om de olika fälten finns i&quot;Data Warehouse Descriptions&quot; i [Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html?lang=sv-SE).
 
    | Fält | Instruktioner |
    |--- |--- |
@@ -128,8 +128,8 @@ Om du till exempel optimerar till sidvisningar per besökare, kan du exportera e
 
 Mer information om [!DNL Data Warehouse] finns i följande länkar i hjälpdokumentationen för [!DNL Analytics]:
 
-* [Skapa en Data Warehouse-förfrågan](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html)
-* [Data Warehouse bästa praxis](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html)
+* [Skapa en Data Warehouse-förfrågan](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html?lang=sv-SE)
+* [Data Warehouse bästa praxis](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html?lang=sv-SE)
 
 ## Räkningsmetod {#concept_EC19BC897D66411BABAF2FA27BCE89AA}
 

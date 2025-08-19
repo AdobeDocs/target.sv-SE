@@ -18,7 +18,7 @@ Det här avsnittet innehåller svar på frågor som ofta ställs om att visa rap
 ## Kan jag visa mina [!DNL Target] aktivitetsdata i [!DNL Analysis Workspace]? {#workspace}
 
 +++Svar
-Du kan använda [!DNL Analysis Workspace] för att analysera dina [!DNL Target]-aktiviteter och -upplevelser. Med [Analytics for Target panel](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html) kan du se hur mycket du kan uppnå och lita på att det finns så många som tre framgångsmått. Du kan också fördjupa dig i tabeller och visualiseringar.
+Du kan använda [!DNL Analysis Workspace] för att analysera dina [!DNL Target]-aktiviteter och -upplevelser. Med [Analytics for Target panel](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=sv-SE) kan du se hur mycket du kan uppnå och lita på att det finns så många som tre framgångsmått. Du kan också fördjupa dig i tabeller och visualiseringar.
 
 Om du vill ha mer information och exempel öppnar du [Självstudiekursen ](https://spark.adobe.com/page/Lo3Spm4oBOvwF/) Analytics &amp; Target: Best Practices for Analysis, som finns i [!UICONTROL Adobe Experience League].
 
@@ -74,7 +74,7 @@ Tänk på följande:
 * Ovanstående mått utlöses när en användare kvalificerar sig för en aktivitet och innehållet returneras från [!DNL Target]. Det behöver inte innebära att användaren såg erbjudandet. Om en aktivitetsupplevelse är under förskjutningen och användaren inte rullar nedåt på sidan, så betjänades erbjudandet av [!DNL Target] men inte av användaren.
 * [!UICONTROL Activity Impressions] (mätt med [!DNL Target]) och [!UICONTROL Instances] (mätt med [!DNL Analytics]) är lika, om det inte finns flera mbox-anrop på samma sida i samma aktivitet. Detta gör att flera [!UICONTROL Activity Impressions] räknas, men bara en [!UICONTROL Instance].
 
-Mer information finns i [Konfigurera A4T-rapporter i Analysis Workspace för Automatiskt mål-aktiviteter](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html) i *Adobe Target-självstudiekurser*.
+Mer information finns i [Konfigurera A4T-rapporter i Analysis Workspace för Automatiskt mål-aktiviteter](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=sv-SE) i *Adobe Target-självstudiekurser*.
 
 +++
 
@@ -83,7 +83,7 @@ Mer information finns i [Konfigurera A4T-rapporter i Analysis Workspace för Aut
 +++Svar
 [!DNL Reports & Analytics] tillämpar en attribueringsmodell med samma tryckning på aktivitetsavtryck och aktivitetskonverteringar, medan [!DNL Analysis Workspace] visar rådatamätningar, som kan visas som inflaterade på grund av att dimensionen [!DNL Target] är beständig.
 
-Om du vill utvärdera exakta [!UICONTROL Activity Impressions]- och [!UICONTROL Activity Conversions]-mått i [!DNL Analysis Workspace] kontrollerar du att båda mätvärdena har [!UICONTROL Same Touch] attribueringsmodeller. Du kan använda modeller genom att klicka på kugghjulet för kolumninställningar, aktivera [!UICONTROL Non-default attribution models] och sedan välja [!UICONTROL Same Touch]. Läs mer om attribuering i [Översikt över attribut-IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution.html) i *Analysverktygshandboken*.
+Om du vill utvärdera exakta [!UICONTROL Activity Impressions]- och [!UICONTROL Activity Conversions]-mått i [!DNL Analysis Workspace] kontrollerar du att båda mätvärdena har [!UICONTROL Same Touch] attribueringsmodeller. Du kan använda modeller genom att klicka på kugghjulet för kolumninställningar, aktivera [!UICONTROL Non-default attribution models] och sedan välja [!UICONTROL Same Touch]. Läs mer om attribuering i [Översikt över attribut-IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution.html?lang=sv-SE) i *Analysverktygshandboken*.
 
 +++
 
@@ -149,7 +149,7 @@ Användaren kommer sedan tillbaka den 1 april, besöker ytterligare fem sidor oc
 
 Eftersom båda upplevelserna sågs före konverteringen får de båda&quot;kredit&quot; för ordern. Men det var bara en order som gjordes i systemet, och det är det som syns. För [!DNL Target]-rapportering, eftersom du inte placerar en [!DNL Target]-aktivitet mot en annan aktivitet för att se vilken som är mest framgångsrik, spelar det ingen roll att alla aktiviteter som användaren såg fick kredit. Du jämför resultaten av två objekt i den enskilda aktiviteten. Det är inte möjligt för en användare att se olika upplevelser i samma aktivitet, så du behöver inte bekymra dig om korskontaminering av orderkrediter.
 
-Mer information finns i [Konverteringsvariabler (eVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html)) i *Administratörshandboken för analyser*.
+Mer information finns i [Konverteringsvariabler (eVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html?lang=sv-SE)) i *Administratörshandboken för analyser*.
 
 +++
 
@@ -221,7 +221,7 @@ Här följer några saker du bör tänka på när du visar [!DNL Analytics] rapp
 Så här visar du aktivitetsavtryck i [!DNL Analysis Workspace]:
 
 1. Klicka på [!DNL Target] i användargränssnittet för **[!UICONTROL View in Analytics]**.
-1. Lägg till kolumnen **[!UICONTROL Activity Impressions]** i rapporten [[!DNL Analytics Workspace]](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html){target=_blank}.
+1. Lägg till kolumnen **[!UICONTROL Activity Impressions]** i rapporten [[!DNL Analytics Workspace]](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=sv-SE){target=_blank}.
 1. Klicka på ikonen **[!UICONTROL Activity Impressions]** i kolumnen [!UICONTROL Gear].
 1. Klicka på **[!UICONTROL Use non-default attribution model]**.
 1. Välj **[!UICONTROL Same Touch Model]** > **[!UICONTROL Apply]**.

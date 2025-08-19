@@ -39,7 +39,7 @@ I [!UICONTROL List View] klickar du på miniatyrbilden till vänster om listan f
 
 Den här videon innehåller information om hur du hanterar innehåll.
 
-* Anslutning mellan [Experience Cloud-resursbiblioteket](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html) och målinnehållsbiblioteket
+* Anslutning mellan [Experience Cloud-resursbiblioteket](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html?lang=sv-SE) och målinnehållsbiblioteket
 * Anpassade HTML-erbjudanden
 * Anpassat HTML-erbjudande i Visual Experience Composer
 

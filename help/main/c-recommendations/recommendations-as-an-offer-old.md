@@ -2,7 +2,7 @@
 keywords: Rekommendationer;erbjudande
 description: Lär dig hur du använder Adobe Recommendations som ett erbjudande i A/B-tester (inklusive Automatisk allokering och Automatiskt mål) och Experience Targeting-aktiviteter (XT).
 title: Hur använder jag rekommendationer som erbjudande i andra aktivitetstyper?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=sv-SE#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Recommendations
 hide: true
 hidefromtoc: true

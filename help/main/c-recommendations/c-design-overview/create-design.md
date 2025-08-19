@@ -2,7 +2,7 @@
 keywords: rekommendationsdesign;skapa design;kopiera design
 description: Lär dig hur du skapar en  [!DNL Target Recommendations] design med en standarddesign eller genom att skapa en anpassad design som passar sidans layout bäst.
 title: Hur skapar jag en design i rekommendationer?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=sv-SE#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Recommendations
 exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c

@@ -2,7 +2,7 @@
 keywords: Rekommendationer;Inställningar;namn;mål;prioritet;varaktighet;rapporteringsinställningar;andra metadata
 description: Lär dig hur du konfigurerar inställningarna som används för att beskriva och styra en rekommendationsaktivitet i Adobe Target.
 title: Hur konfigurerar jag aktivitetsinställningar för rekommendationer?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=sv-SE#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Recommendations
 exl-id: 77bb14fc-342d-41cd-8084-e21067f277af
 source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c

@@ -2,7 +2,7 @@
 keywords: Rekommendationer;rekommendationsalgoritmer;rekommendationer aktivitet;rekommendationer klassiska
 description: Granska informationen för att förstå skillnaderna mellan de tidigare aktiviteterna Recommendations Classic och Recommendations i [!DNL Target] Premium.
 title: Vad är skillnaden mellan rekommendationer klassiska och rekommendationer i [!DNL Target] Premium?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=sv-SE#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Recommendations
 exl-id: 07548155-9548-4870-b886-6cb4ff37a0bd
 source-git-commit: 07062b7df75300bd7558a24da5121df454520e42

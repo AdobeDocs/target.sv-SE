@@ -50,7 +50,7 @@ Så här anger du standardmiljön för rapportering:
 >
 >[!DNL Recommendations] användare måste återskapa sin beteendedatabas och produktdatabas om värdar byter värdgrupper.
 >
->Om du anger en [standardmiljö i en [!DNL Adobe Experience Platform] datastream](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=en#target){target=_blank} åsidosätter den här inställningen inställningen inställningen i [!DNL Target].
+>Om du anger en [standardmiljö i en [!DNL Adobe Experience Platform] datastream](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=sv-SE#target){target=_blank} åsidosätter den här inställningen inställningen inställningen i [!DNL Target].
 
 ## Ändra namnet på en miljö {#section_9F5F94285F8E495E9CE69810CE94CA08}
 
