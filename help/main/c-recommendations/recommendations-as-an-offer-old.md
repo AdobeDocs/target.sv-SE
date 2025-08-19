@@ -2,7 +2,7 @@
 keywords: Rekommendationer;erbjudande
 description: Lär dig hur du använder Adobe Recommendations som ett erbjudande i A/B-tester (inklusive Automatisk allokering och Automatiskt mål) och Experience Targeting-aktiviteter (XT).
 title: Hur använder jag rekommendationer som erbjudande i andra aktivitetstyper?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=sv-SE#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Recommendations
 hide: true
 hidefromtoc: true
@@ -55,7 +55,7 @@ Om du vill komma igång skapar du en [!UICONTROL A/B Test]- eller [!UICONTROL Ex
 
 1. Klicka på **[!UICONTROL Create Criteria]** eller välj ett befintligt [villkor](/help/main/c-recommendations/c-algorithms/algorithms.md) och klicka sedan på **[!UICONTROL Next]** för att visa dialogrutan [!UICONTROL Select Design].
 
-1. Klicka på **[!UICONTROL Create Design]** eller markera en befintlig [design](/help/main/c-recommendations/c-design-overview/design-overview.md) och klicka sedan på **[!UICONTROL &#x200B; Next]**.
+1. Klicka på **[!UICONTROL Create Design]** eller markera en befintlig [design](/help/main/c-recommendations/c-design-overview/design-overview.md) och klicka sedan på **[!UICONTROL  Next]**.
 
 1. Ange följande i dialogrutan [!UICONTROL Options]:
 
@@ -67,7 +67,7 @@ Om du vill komma igång skapar du en [!UICONTROL A/B Test]- eller [!UICONTROL Ex
 
 ## Redigera konfigurationen för ett rekommendationserbjudande
 
-1. Klicka på ikonen **[!UICONTROL Edit]** ( ![redigeringsikonen ](/help/main/assets/icons/Edit.svg) ) bredvid [!UICONTROL Criteria Name], [!UICONTROL Design Name] eller [!UICONTROL Collection Name] i [!UICONTROL Recommendation]-listen för att ändra elementet.
+1. Klicka på ikonen [!UICONTROL Recommendation] ( **[!UICONTROL Edit]** redigeringsikonen ![ ) bredvid ](/help/main/assets/icons/Edit.svg), [!UICONTROL Criteria Name] eller [!UICONTROL Design Name] i [!UICONTROL Collection Name]-listen för att ändra elementet.
 
 ## Ta bort ett rekommendationer
 

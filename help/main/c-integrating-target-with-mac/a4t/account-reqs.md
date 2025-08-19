@@ -28,13 +28,13 @@ Utför följande uppgifter i [!DNL Adobe Experience Cloud] [Admin Console](https
 
 Dina [!DNL Analytics]- och [!DNL Target]-användarkonton måste länkas till din Adobe ID.
 
-Mer information finns i [Organisationer och kontolänkning](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=sv-SE).
+Mer information finns i [Organisationer och kontolänkning](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=en).
 
 ### Konfigurera Experience Cloud-gruppmedlemskap
 
 Du måste vara medlem i en eller flera [!DNL Experience Cloud]-grupper som har åtkomst till [!DNL Analytics] och [!DNL Target].
 
-Mer information finns i [Hantera användare och produkter i Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=sv-SE).
+Mer information finns i [Hantera Experience Cloud-användare och -produkter](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
 ## Adobe Analytics {#section_8F404FDE9A634534AB0AA4CB3075582B}
 
@@ -48,7 +48,7 @@ Om du vill använda A4T på en viss rapportserie måste du ha tillgång till den
 
    Följande bild är ett exempel på en produktprofil som har tillgång till alla rapportsviter:
 
-   ![Behörighetsfliken Admin Console](/help/main/c-integrating-target-with-mac/a4t/assets/permissions-tab.png)
+   ![Admin Console Permission tab](/help/main/c-integrating-target-with-mac/a4t/assets/permissions-tab.png)
 
 1. Konfigurera åtkomst till gruppen [!UICONTROL Web Services Access].
 

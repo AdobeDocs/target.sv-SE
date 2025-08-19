@@ -1,5 +1,5 @@
 ---
-keywords: Recommendations
+keywords: Rekommendationer
 description: Utforska vanliga scenarier som visar hur ändringar som gjorts på sidan i Visual Experience Composer (VEC) påverkar Adobe Target förmåga att visa en upplevelse.
 title: Vad är några vanliga scenarier för sidändring?
 feature: Visual Experience Composer (VEC)

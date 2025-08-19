@@ -1,6 +1,6 @@
 ---
 keywords: formulärbaserad upplevelsedisposition;formulärbaserad disposition;förbättringar
-description: Lär dig hur du använder Adobe [!DNL Target] formulärbaserad Experience Composer för att skapa upplevelser som inte är visuella. Använd den här dispositionen när VEC inte är tillgängligt eller inte kan användas.
+description: Lär dig hur du använder den formulärbaserade Adobe [!DNL Target] Experience Composer för att skapa upplevelser som inte är visuella. Använd den här dispositionen när VEC inte är tillgängligt eller inte kan användas.
 title: Hur använder jag den formulärbaserade Experience Composer?
 feature: Form-based Experience Composer
 exl-id: d06a271b-f058-4c83-af75-da2a29774967
@@ -56,7 +56,7 @@ Om du skapar en [!UICONTROL Recommendations]-aktivitet finns det inga upplevelse
 
 1. Ange innehållet för den innehållstyp som du valde.
 
-   **Erbjudande om byte av HTML:** Välj ett HTML-erbjudande.
+   **Ändra HTML-erbjudande:** Välj ett HTML-erbjudande.
 
    **Erbjudande om ändring av bild:** Välj en bild som har sparats i innehållsbiblioteket i Target.
 
@@ -79,7 +79,7 @@ Om du skapar en [!UICONTROL Recommendations]-aktivitet finns det inga upplevelse
    1. Klicka på [!UICONTROL Offers] och välj sedan fliken [!UICONTROL Code Offers].
    1. Klicka på [!UICONTROL Create] > [!UICONTROL HTML Offer].
    1. Skriv ett erbjudandenamn.
-   1. Skriv eller klistra in HTML-koden i rutan Kod.
+   1. Skriv eller klistra in din HTML-kod i rutan Kod.
    1. Klicka på [!UICONTROL Save].
 
    **Skapa JSON-erbjudande:**
@@ -92,9 +92,9 @@ Om du skapar en [!UICONTROL Recommendations]-aktivitet finns det inga upplevelse
 
    **Lägg till rekommendation:**
 
-   För en Recommendations-aktivitet visas alternativet [!UICONTROL Add Recommendation] i listrutan Innehåll. Klicka på **[!UICONTROL Add Recommendation]** och välj sedan sidtyp. Följ sedan de vanliga stegen som definierats i gränssnittet för att [skapa en Recommendations-aktivitet](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md).
+   För en rekommendationsaktivitet ger listrutan Innehåll alternativet [!UICONTROL Add Recommendation]. Klicka på **[!UICONTROL Add Recommendation]** och välj sedan sidtyp. Följ sedan de vanliga stegen som definierats i gränssnittet för att [skapa en rekommendationsaktivitet](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md).
 
-   När du väljer Recommendations-villkor i den formulärbaserade Experience Composer finns det nu en direktlänk till det valda kriteriekortet så att du snabbt och enkelt kan redigera villkoren.
+   När du väljer rekommendationskriterier i den formulärbaserade Experience Composer finns det nu en direktlänk till det valda kriteriekortet så att du snabbt och enkelt kan redigera villkoren.
 
    ![change_conditions image](assets/change_criteria.png)
 
@@ -104,7 +104,7 @@ Om du skapar en [!UICONTROL Recommendations]-aktivitet finns det inga upplevelse
 
    **Beslut om att lägga till erbjudande:**
 
-   Lägg till ett erbjudande som skapats i [!DNL Adobe Journey Optimizer] (AJO) till en [!DNL Adobe Target]-aktivitet för att presentera det bästa dynamiska erbjudandet och upplevelsen för besökarna på din webbplats eller på din mobilwebbplats med hjälp av offer decisioning. Det här alternativet är endast tillgängligt för manuella [!UICONTROL A/B Test]- och [!UICONTROL Experience Targeting] (XT)-aktiviteter.
+   Lägg till ett erbjudande som skapats i [!DNL Adobe Journey Optimizer] (AJO) till en [!DNL Adobe Target]-aktivitet för att presentera det bästa dynamiska erbjudandet och upplevelsen för besökarna på din webbplats eller på din mobilwebbplats med hjälp av offertbeslut. Det här alternativet är endast tillgängligt för manuella [!UICONTROL A/B Test]- och [!UICONTROL Experience Targeting] (XT)-aktiviteter.
 
    Mer information finns i [Använda offertbeslut](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md).
 
@@ -113,7 +113,7 @@ Om du skapar en [!UICONTROL Recommendations]-aktivitet finns det inga upplevelse
 
 * [Skapa ett A/B-test](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
 * [Skapa en aktivitet för målinriktad upplevelse](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
-* [Skapa en Recommendations-aktivitet](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
+* [Skapa en rekommendationsaktivitet](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
 
 ## Utbildningsvideo: Formulärbaserad disposition ![Tutorial badge](/help/main/assets/tutorial.png)
 

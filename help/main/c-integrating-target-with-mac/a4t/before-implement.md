@@ -19,7 +19,7 @@ Innan du bestämmer dig för att använda den här integreringen ska du gå igen
 
 >[!NOTE]
 >
->Den här artikeln gäller endast för at.js-implementeringar. Mer information om hur du implementerar [!UICONTROL Analytics for Target] (A4T) med [!DNL Adobe Experience Platform Web SDK] finns i [Adobe Analytics for Target-loggning (A4T) i Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/a4t/overview-a4t.html?lang=sv-SE){target=_blank}.
+>Den här artikeln gäller endast för at.js-implementeringar. Mer information om hur du implementerar [!UICONTROL Analytics for Target] (A4T) med [!DNL Adobe Experience Platform Web SDK] finns i [Adobe Analytics for Target-loggning (A4T) i Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/a4t/overview-a4t.html){target=_blank}.
 
 ## Implementeringskrav {#section_A0D2EF18033D4C3997B08A6EBB34C17A}
 
@@ -31,7 +31,7 @@ Den här A4T-integreringen kräver att du implementerar följande biblioteksvers
 
 >[!NOTE]
 >
->Följande krav listar de *minimum*-versioner av at.js som behövs för att implementera A4T. [!DNL Target]-teamet underhåller endast två versioner av [!DNL at.js] - den aktuella versionen och den andra senaste versionen. Uppgradera [!DNL at.js] efter behov för att kontrollera att du kör en version som stöds. Mer information om vad som finns i respektive version finns i [at.js Versionsinformation](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=sv-SE){target=_blank}.
+>Följande krav listar de *minimum*-versioner av at.js som behövs för att implementera A4T. [!DNL Target]-teamet underhåller endast två versioner av [!DNL at.js] - den aktuella versionen och den andra senaste versionen. Uppgradera [!DNL at.js] efter behov för att kontrollera att du kör en version som stöds. Mer information om vad som finns i respektive version finns i [at.js Versionsinformation](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
 
 ### Krav krävs om *inte* använder omdirigeringserbjudanden med A4T
 
@@ -83,7 +83,7 @@ Latensökningen börjar efter att du har implementerat besökar-ID-tjänsten [!D
 
 Alla [!DNL Target] anrop som används av en A4T-aktivitet för att leverera innehåll eller registrera målmåttet måste ha en motsvarande [!DNL Analytics]-träff som delar det kompletterande ID:t för A4T för att fungera korrekt.
 
-Träffar som innehåller data från [!DNL Analytics] och [!DNL Target] innehåller ett extra data-ID. Du kan se det här ID:t i [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=sv-SE) som parametern `sdid`. Till exempel: `sdid=2F3C18E511F618CC-45F83E994AEE93A0`. Detta ID genereras när som helst när följande kriterier finns på plats:
+Träffar som innehåller data från [!DNL Analytics] och [!DNL Target] innehåller ett extra data-ID. Du kan se det här ID:t i [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html) som parametern `sdid`. Till exempel: `sdid=2F3C18E511F618CC-45F83E994AEE93A0`. Detta ID genereras när som helst när följande kriterier finns på plats:
 
 * Tjänsten för besökar-ID är implementerad
 

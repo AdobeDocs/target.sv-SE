@@ -1,8 +1,8 @@
 ---
 keywords: rekommendationer, algoritmer;modellutbildning;modellvisning;innehållsleverans;objektbaserad;användarbaserad;popularitetsbaserad;kundbaserad;kundbaserad;anpassade kriterier
 description: Lär dig mer om algoritmerna som används i  [!DNL Target Recommendations], inklusive modellutbildning och modellservning.
-title: Var kan jag lära mig om vetenskapen bakom Target's Recommendations Algorithms?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=sv-SE#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
+title: Var kan jag lära mig mer om vetenskapen bakom Target rekommendationer algoritmer?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
@@ -57,7 +57,7 @@ Om
 
 ![Formel för den visade/köpta algoritmen](assets/formula.png)
 
-ska inte objekt B rekommenderas med objekt A. Fullständig information om likhetsberäkningen för loggsannolikhetsgrad anges [i denna PDF](/help/main/c-recommendations/c-algorithms/assets/log-likelihood-ratios-recommendation-algorithms.pdf).
+ska inte objekt B rekommenderas med objekt A. Fullständig information om den här likhetsberäkningen för loggsannolikhetsgrad finns [i denna PDF](/help/main/c-recommendations/c-algorithms/assets/log-likelihood-ratios-recommendation-algorithms.pdf).
 
 Det logiska flödet för den faktiska algoritmimplementeringen visas i följande schematiska diagram:
 
@@ -65,7 +65,7 @@ Det logiska flödet för den faktiska algoritmimplementeringen visas i följande
 
 Här följer information om de här stegen:
 
-* **Indata**: Beteendedata, i form av visningar och köp av besökare som samlats in när du [implementerar Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=sv-SE){target=_blank} eller från [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
+* **Indata**: Beteendedata, i form av visningar och köp av besökare som samlats in när du [implementerar Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} eller från [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
 
 * **Modellutbildning**:
 
@@ -73,7 +73,7 @@ Här följer information om de här stegen:
    * **Beräkning av likhet för objekt**: Detta är det grundläggande beräkningssteget: beräkning av likhet för sannolikhetsgrad för logg mellan alla förslagsobjektpar och rangordning av objekt med detta likhetsresultat.
    * **Offlinefiltrering**: Slutligen tillämpas alla andra tillämpliga dynamiska filter (till exempel dynamiska kategoriundantag). Efter det här steget cachelagras förberäknade rekommendationer globalt så att de kan användas.
 
-* **Modellhantering**: Recommendations-innehåll levereras från [!DNL Target] [Edge-nätverk](/help/main/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934). När mbox-begäranden görs till [!DNL Target] och det fastställs att rekommendationsinnehåll ska levereras till sidan, tolkas begäran om lämplig [objektnyckel](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#keys) för rekommendationsalgoritmen antingen från begäran eller slås upp från användarprofilen, och används sedan för att hämta de rekommendationer som beräknats i föregående steg. Ytterligare dynamiska filter tillämpas nu, innan rätt [design](/help/main/c-recommendations/c-design-overview/create-design.md) återges.
+* **Modellhantering**: Rekommendationsinnehåll levereras från [!DNL Target]s [globala Edge-nätverk](/help/main/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934). När mbox-begäranden görs till [!DNL Target] och det fastställs att rekommendationsinnehåll ska levereras till sidan, tolkas begäran om lämplig [objektnyckel](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#keys) för rekommendationsalgoritmen antingen från begäran eller slås upp från användarprofilen, och används sedan för att hämta de rekommendationer som beräknats i föregående steg. Ytterligare dynamiska filter tillämpas nu, innan rätt [design](/help/main/c-recommendations/c-design-overview/create-design.md) återges.
 
 ## Likhet i innehåll
 
@@ -89,7 +89,7 @@ I den här typen av algoritm anses två objekt vara relaterade om deras namn och
 
 Här följer information om de här stegen:
 
-* **Indatadata**: Enligt beskrivningen ovan baseras den här algoritmen enbart på katalogdata (som har importerats till [!DNL Target] via en [katalogfeed, entitets-API:t eller från siduppdateringar](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=sv-SE){target=_blank}.
+* **Indatadata**: Enligt beskrivningen ovan baseras den här algoritmen enbart på katalogdata (som har importerats till [!DNL Target] via en [katalogfeed, entitets-API:t eller från siduppdateringar](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
 
 * **Modellutbildning**:
 
@@ -119,7 +119,7 @@ Algoritmer är:
 
 De senaste tilläggen till gruppen [!DNL Target] med rekommendationsalgoritmer är [!UICONTROL Recommended For You] och en serie Cart-baserade rekommendationer-algoritmer. Båda typerna av algoritmer använder tekniker för samarbete vid filtrering för att skapa individuella objektbaserade rekommendationer. Sedan används flera objekt i användarens webbläsarhistorik (för [!UICONTROL Recommended For You]), eller användarens aktuella kundvagn (för kundvagnsrekommendationer) för att hämta de här objektbaserade rekommendationerna, som sedan sammanfogas för att utgöra den slutliga listan med rekommendationer. Observera att det finns många varianter av personaliserade rekommendationsalgoritmer. Valet av en flernyckelalgoritm innebär att rekommendationer är omedelbart tillgängliga efter det att en besökare har en webbläsarhistorik och rekommendationer kan uppdateras för att svara på den senaste besökarfunktionen.
 
-Dessa algoritmer bygger på de grundläggande filtertekniker för samarbete som beskrivs i det objektbaserade rekommendationsavsnittet, men innehåller även hyperparameterjustering för att fastställa optimal likhet mellan objekten. Algoritmen utför en kronologisk delning av beteendedata för varje användare, och utbildar rekommendationsmodeller på tidigare data samtidigt som man försöker förutsäga objekt som en användare tittar på eller köper senare. Likhetsmåttet som ger den optimala [medelprecisionen](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)) väljs sedan.
+Dessa algoritmer bygger på de grundläggande filtertekniker för samarbete som beskrivs i det objektbaserade rekommendationsavsnittet, men innehåller även hyperparameterjustering för att fastställa optimal likhet mellan objekten. Algoritmen utför en kronologisk delning av beteendedata för varje användare, och utbildar rekommendationsmodeller på tidigare data samtidigt som man försöker förutsäga objekt som en användare tittar på eller köper senare. Likhetsmåttet som ger den optimala [medelprecisionen]&#x200B;(https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)) väljs sedan.
 
 Logiken i modellutbildning och poängsättning visas i följande diagram:
 
@@ -127,7 +127,7 @@ Logiken i modellutbildning och poängsättning visas i följande diagram:
 
 Här följer information om de här stegen:
 
-* **Indata**: Detta är identiskt med CF-metoder (object-item collaborative filtering). [!UICONTROL Both Recommended For You]- och Cart-baserade algoritmer använder beteendedata, i form av visningar och köp av användare som samlats in när du [implementerar Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=sv-SE){target=_blank} eller från [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
+* **Indata**: Detta är identiskt med CF-metoder (object-item collaborative filtering). [!UICONTROL Both Recommended For You] och Cart-baserade algoritmer använder beteendedata, i form av visningar och köp av användare som samlats in när du [implementerar Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} eller från [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
 
 * **Modellutbildning**:
 
@@ -139,7 +139,7 @@ Här följer information om de här stegen:
 
   ![Formel som visar beräkning av utbildning](assets/formula4.png)
 
-   * **Utvärdering av objektlikhetsmodell**: Modellutvärderingen görs genom att rekommendationerna som genererades i föregående steg utförs och prognoser görs på testdatauppsättningen. Onlinebedömningsfasen härleds genom att varje användares objektanvändning i testdatauppsättningen ordnas kronologiskt och sedan görs 100 rekommendationer för ordnade deluppsättningar av objekt i ett försök att förutse efterföljande vyer och inköp. Ett mått för informationshämtning, [Medelhög precision](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)), används för att utvärdera kvaliteten hos dessa rekommendationer. Detta mätresultat tar hänsyn till rekommendationsordningen och prioriterar relevanta poster högre upp i listan över rekommendationer, som är en viktig egenskap för rangordningssystem.
+   * **Utvärdering av objektlikhetsmodell**: Modellutvärderingen görs genom att rekommendationerna som genererades i föregående steg utförs och prognoser görs på testdatauppsättningen. Onlinebedömningsfasen härleds genom att varje användares objektanvändning i testdatauppsättningen ordnas kronologiskt och sedan görs 100 rekommendationer för ordnade deluppsättningar av objekt i ett försök att förutse efterföljande vyer och inköp. Ett mått för informationshämtning, [Medelhög precision]&#x200B;(https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)), används för att utvärdera kvaliteten hos dessa rekommendationer. Detta mätresultat tar hänsyn till rekommendationsordningen och prioriterar relevanta poster högre upp i listan över rekommendationer, som är en viktig egenskap för rangordningssystem.
    * **Modellval**: Efter offlineutvärdering markeras modellen som har den högsta genomsnittliga precisionen och alla rekommendationer för enskilda objekt beräknas för den.
    * **Offlinefiltrering**: Det sista steget i modellträningen är att tillämpa tillämpliga dynamiska filter. Efter det här steget cachelagras förberäknade rekommendationer globalt så att de kan användas.
 

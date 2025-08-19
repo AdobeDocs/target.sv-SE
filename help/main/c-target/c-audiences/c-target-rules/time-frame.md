@@ -6,7 +6,7 @@ feature: Audiences
 exl-id: 814d545d-baee-4f8b-a2ed-ed68fceaeb7f
 source-git-commit: 0e4698935b90cc0236abe6a47a6183c7fd2a7b20
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Om du till exempel använder funktionen [för kombinerade ad hoc-målgrupper](/h
    >
    >Tänk på följande:
    >
-   >* Tidszonen för Start-/slutdatum visas som GMT +/- NN:NN, där NN är förskjutningen från GMT och återspeglar tidszonen på kontonivå i stället för besökarens tidszon. Kaliforniens tidszon skulle till exempel visas som GMT -08:00.
+   >* Tidszonen för Start-/slutdatum visas som GMT +/- NN:NN, där NN:NN är förskjutningen från GMT och återspeglar tidszonen på kontonivå i stället för besökarens tidszon. Kaliforniens tidszon skulle till exempel visas som GMT -08:00.
    >
    >* [!DNL Target]-målgrupper tar inte hänsyn till DST-ändringar (Daylight Saving Time). Du måste spara om målgrupperna manuellt för att kunna ta hänsyn till DST-ändringar.
 
@@ -47,7 +47,7 @@ Om du till exempel använder funktionen [för kombinerade ad hoc-målgrupper](/h
 
    >[!NOTE]
    >
-   >Tidszonen för [!UICONTROL Week and Day Parting] visas som GMT +/- NN:NN, där NN är förskjutningen från GMT och återspeglar tidszonen på kontonivå i stället för besökarens tidszon. Kaliforniens tidszon för Pacific Daylight Time skulle till exempel visas som GMT -07:00.
+   >Tidszonen för [!UICONTROL Week and Day Parting] visas som GMT +/- NN:NN, där NN:NN är förskjutningen från GMT och återspeglar tidszonen på kontonivå i stället för besökarens tidszon. Kaliforniens tidszon för Pacific Daylight Time skulle till exempel visas som GMT -07:00.
 
 1. (Valfritt) Ange ytterligare regler för målgruppen.
 

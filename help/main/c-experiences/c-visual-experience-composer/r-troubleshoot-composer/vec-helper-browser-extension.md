@@ -29,11 +29,11 @@ VEC Helper-webbläsaren är ett [!DNL Chrome]-tillägg. Det här tillägget är 
 * Webbplatsen ligger i en iframe.
 * at.js-biblioteket är ännu inte implementerat på webbplatsen.
 * Kundens QA- eller stage-sajt är inte tillgänglig för omvärlden (webbplatsen är intern).
-* Det finns vissa begränsningar när du försöker använda VEC för att öppna en webbplats som använder [Service Workers](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API){target=_blank} (SW).
+* Det finns för närvarande vissa begränsningar när du försöker använda VEC för att öppna en webbplats som använder [Service Workers](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API){target=_blank} (SW).
 
 En SWF-fil är en webbteknik som kan användas för att avlyssna begäranden för den domän som de är installerade på av en webbsida. Programvaran överlever sidbesöket och aktiverar sig själv vid efterföljande besök. Svartvyn avgör vilka förfrågningar som går igenom och vilka som fångas upp och hanteras från ett cacheminne istället.
 
-SWF-filen kan styra cachelagringen. Den kan cachelagra själva webbsidan, statiska resurser som JS, CSS, IMG, AJAX, deras innehåll och deras svarshuvuden, inklusive de som tas bort av vårt [måltillägg för VEC-hjälpen](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md), som X-Frame-Options: SAMEORIGIN, CSP (Content-Security-Policy) eller Set-Cookie.
+SWF-filen kan styra cachelagringen. Den kan cachelagra själva webbsidan, statiska resurser som JS, CSS, IMG, AJAX-begäranden, deras innehåll och deras svarshuvuden, inklusive de som tas bort av [måltillägget för VEC-hjälp](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md), som X-Frame-Options: SAMEORIGIN, CSP (Content-Security-Policy) eller Set-Cookie.
 
 Tyvärr får de Chrome-API:er för tillägg som fångar upp webbförfrågningar inte de förfrågningar som fångats upp och hanterats av en SWF-fil. Tillägget kan därför inte åtgärda sidhuvuden och cookies om webbsidesbegäran hanterades från ett cacheminne av en SWF-fil eftersom webbsidan inte läses in i VEC på grund av X-Frame-Options eller CSP-rubriker som också cache-lagrades.
 

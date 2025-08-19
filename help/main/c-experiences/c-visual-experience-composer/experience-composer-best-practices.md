@@ -21,14 +21,14 @@ Nedan följer god praxis när du använder VEC:
 
 ### Placera at.js-referensen högst upp i avsnittet `<head>` på sidan.
 
-+++Se information
++++Se detaljer
 Om du även använder [!UICONTROL Visitor API Service] placerar du besökar-API-skriptet ovanför at.js.
 
 +++
 
 ### Du kan aktivera [!UICONTROL Enhanced Experience Composer] på kontonivån (aktiverad för alla aktiviteter som skapas i kontot) eller på den enskilda aktivitetsnivån.
 
-+++Se information
++++Se detaljer
 Om du vill aktivera [!UICONTROL Enhanced Experience Composer] på kontonivån klickar du på [!UICONTROL [!UICONTROL Administration] > [!UICONTROL Visual Experience Composer]] och växlar sedan [!UICONTROL Enable Enhanced Experience Composer] till På-positionen.
 
 Om du vill aktivera [!UICONTROL Enhanced Experience Composer] på aktivitetsnivå när du skapar en aktivitet i [!UICONTROL Visual Experience Composer] klickar du på [!UICONTROL Configure > [!UICONTROL Page Delivery]] och växlar sedan [!UICONTROL Enable Enhanced Experience Composer] till På-position.
@@ -37,7 +37,7 @@ Om du vill aktivera [!UICONTROL Enhanced Experience Composer] på aktivitetsniv�
 
 ### Du kan tillåtslista vissa IP-adresser om [!UICONTROL Enhanced Experience Composer] inte läses in på säkra sidor på din webbplats.
 
-+++Se information
++++Se detaljer
 Problem med att läsa in [!UICONTROL Enhanced Experience Composer] kan åtgärdas genom att du tillåtslista följande IP-adresser. Dessa IP-adresser är för [!DNL Adobe] servrar som används för proxyn [!UICONTROL Enhanced Experience Composer]. De behövs bara för aktivitetsredigering. Besökare på webbplatsen behöver inte tillåtslista dessa IP-adresser.
 
 Mer information finns i [EEG läser inte in en intern QA-URL som inte är tillgänglig på offentlig IP](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) i *Felsökning av problem med Förbättrad Experience Composer*.
@@ -376,7 +376,7 @@ När du har bytt bild kan du inte redigera Scene7-URL:en.
 ### Det går inte att redigera HTML-element med en extern källa.
 
 +++Information
-Exempel: Video, ljudtaggar, embed, iFrames, frames.
+Till exempel: video, ljudtaggar, inbäddning, iFrames, bildrutor.
 
 +++
 

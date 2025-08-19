@@ -1,8 +1,8 @@
 ---
-keywords: Recommendations;Recommendations-kriterier;rekommendationsalgoritmer;rekommendationer-aktivitet;kriterier;rekommendationer målinriktning;recs
-description: Lär dig mer om Recommendations-aktiviteter i Adobe [!DNL Target] som automatiskt visar innehåll som kan intressera dina kunder baserat på tidigare användaraktivitet eller andra algoritmer.
-title: Vad är  [!DNL Target] Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=sv-SE#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
+keywords: Rekommendationer;Rekommendationskriterier;rekommendationer, algoritmer;rekommendationer, aktivitet;kriterier;rekommendationer målinriktning;recs
+description: Läs mer om rekommendationsaktiviteter i Adobe [!DNL Target] som automatiskt visar innehåll som kan intressera dina kunder baserat på tidigare användaraktivitet eller andra algoritmer.
+title: Vad är  [!DNL Target] rekommendationer?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Recommendations
 exl-id: 0d986e17-bc99-4c08-a963-7f9a6619609a
 source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 ---
 
-# Recommendations
+# Rekommendationer
 
 [!DNL Adobe Target Recommendations]-aktiviteter visar automatiskt produkter, tjänster eller innehåll som kan intressera dina besökare baserat på tidigare användaraktivitet, inställningar eller andra kriterier. [!DNL Target Recommendations] hjälper besökaren att dirigera till relevanta objekt som de annars kanske inte känner till. Med [!DNL Recommendations] kan du ge besökarna relevant innehåll vid rätt tidpunkt och på rätt plats.
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 >
 >[!DNL Recommendations] aktiviteter är tillgängliga som en del av [Target Premium-lösningen](/help/main/c-intro/intro.md#premium). De är inte tillgängliga i [!DNL Target Standard] utan en [!DNL Target Premium]-licens.
 >
->Om du för närvarande har [!DNL Recommendations Classic] kan du läsa [Recommendations Classic jämfört med Recommendations Activity i Target Premium](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md#concept_A80223EF66634EA380580C2823A581C5) för mer information om de två lösningarna.
+>Om du för närvarande har [!DNL Recommendations Classic] kan du läsa [Rekommendationer, klassiska och Rekommendationer, aktiviteter i Target Premium](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md#concept_A80223EF66634EA380580C2823A581C5) om du vill ha mer information om de två lösningarna.
 
 [!DNL Recommendations] hjälper dig att optimera och anpassa realtidsförslag för olika kanaler, appar, sidor, e-postmeddelanden och andra leveransalternativ för att öka engagemanget och konverteringsgraden samtidigt som du minskar hanteringen.
 
@@ -60,7 +60,7 @@ Innan du börjar använda [!DNL Recommendations] kan det vara bra att bekanta si
 | Designer | Designer definierar utseendet på rekommendationerna i en [!DNL Recommendations]-aktivitet, till exempel en rad, kolumn, tabell eller rutnät. Bilden högst upp i den här artikeln visar en design på 4 x 1. Mer information finns i [Skapa en design](/help/main/c-recommendations/c-design-overview/create-design.md). |
 | Platser | Platser avser ett visst innehållsområde på en webbsida, i en mobilapp eller i ett e-postmeddelande där du utför en aktivitet i personaliserings- och optimeringssyfte. |
 | Målgrupper | Målgrupper är grupper med liknande aktivitetsdeltagare som kommer att se en riktad verksamhet. En målgrupp är en grupp människor med samma egenskaper, till exempel en ny besökare, en återkommande besökare eller återkommande besökare från mellanvästern. Med funktionen Målgrupp kan ni rikta olika innehåll och upplevelser till specifika målgrupper för att optimera er digitala marknadsföring genom att visa rätt budskap till rätt personer vid rätt tidpunkt. Mer information finns i [Publiker](/help/main/c-target/target.md). |
-| Recommendations som erbjudande | En funktion som gör att du kan ta med rekommendationer i A/B-tester (inklusive Automatisk allokering och Automatiskt mål) och XT-aktiviteter (Experience Target). Mer information finns i [Recommendations som erbjudande](/help/main/c-recommendations/recommendations-as-an-offer.md). |
+| Rekommendationer som ett erbjudande | En funktion som gör att du kan ta med rekommendationer i A/B-tester (inklusive Automatisk allokering och Automatiskt mål) och XT-aktiviteter (Experience Target). Mer information finns i [Rekommendationer som ett erbjudande](/help/main/c-recommendations/recommendations-as-an-offer.md). |
 
 ## Utbildningsvideo: Aktivitetstyper ![Översikt ](/help/main/assets/overview.png)
 
@@ -72,8 +72,8 @@ I den här videon förklaras de aktivitetstyper som är tillgängliga i [!DNL Ta
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-## Adobe Target Basics Webinar: Introduktion till Recommendations ![Tutorial badge](/help/main/assets/tutorial.png) {#intro-to-recs}
+## Adobe Target Basics Webinar: Introduktion till rekommendationer ![Tutorial badge](/help/main/assets/tutorial.png) {#intro-to-recs}
 
-Webbseminariet *Introduktion till Recommendations* innehåller en fördjupad genomgång av hur du kan utnyttja värdet för [!DNL Adobe Target Recommendations]. Ta reda på hur den här [!DNL Target]-aktiviteten automatiskt visar produkter eller innehåll som kan intressera dina kunder genom att optimera realtidsförslag baserat på tidigare besök. Gå vidare till användargränssnittet för [!DNL Target] för att få en stegvis översikt över hur du skapar en [!DNL Recommendations]-aktivitet.
+Webbseminariet *Introduktion till rekommendationer* innehåller en fördjupad genomgång av hur du kan utnyttja värdet för [!DNL Adobe Target Recommendations]. Ta reda på hur den här [!DNL Target]-aktiviteten automatiskt visar produkter eller innehåll som kan intressera dina kunder genom att optimera realtidsförslag baserat på tidigare besök. Gå vidare till användargränssnittet för [!DNL Target] för att få en stegvis översikt över hur du skapar en [!DNL Recommendations]-aktivitet.
 
-[Introduktion till Recommendations](https://adobecustomersuccess.adobeconnect.com/p8gt31drhs3e/?OWASP_CSRFTOKEN=4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)
+[Introduktion till rekommendationer](https://adobecustomersuccess.adobeconnect.com/p8gt31drhs3e/?OWASP_CSRFTOKEN=4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)

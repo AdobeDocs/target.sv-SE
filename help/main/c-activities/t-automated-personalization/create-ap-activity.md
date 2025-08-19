@@ -2,7 +2,7 @@
 keywords: automatiserad personalisering;ap
 description: Lär dig hur du skapar en [!UICONTROL Automated Personalization]-aktivitet (AP) med [!UICONTROL Visual Experience Composer].
 title: Hur skapar jag en [!UICONTROL Automated Personalization]-aktivitet?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=sv-SE#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Automated Personalization
 exl-id: eadc2bbc-310b-479f-b75b-253e8d7aa812
 source-git-commit: 9cc1eb4c5c95ea51bc0a1fc9e89b245a18c9914b
@@ -18,7 +18,7 @@ Skapa en [!UICONTROL Automated Personalization]-aktivitet (AP) i [!DNL Adobe Tar
 
 Arbetsflödet för [!UICONTROL Automated Personalization]-aktivitet (AP) i [!DNL Target] skiljer sig från arbetsflödet för andra aktivitetstyper.
 
-1. Klicka på **[!UICONTROL Create Activity]** > **[!UICONTROL Automated Personalization]** i listan [!DNL Target] [!UICONTROL Activities].
+1. Klicka på [!DNL Target] > [!UICONTROL Activities] i listan **[!UICONTROL Create Activity]** **[!UICONTROL Automated Personalization]**.
 
 1. Om du vill använda [!UICONTROL Visual Experience Composer] (VEC) klickar du på **[!UICONTROL Visual]**.
 
@@ -32,7 +32,7 @@ Arbetsflödet för [!UICONTROL Automated Personalization]-aktivitet (AP) i [!DNL
 
 1. (Villkorligt) [Välj en arbetsyta](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 
-1. Ange din [aktivitets-URL](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md) i rutan **[!UICONTROL Enter Activity URL]**.
+1. Ange din **[!UICONTROL Enter Activity URL]** aktivitets-URL[ i rutan ](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md).
 
    Om ditt konto är [konfigurerat med en standard-URL](/help/main/administrating-target/visual-experience-composer-set-up.md) visas den URL:en som standard. Du kan ändra från standardadressen till en annan URL-adress om det behövs.
 

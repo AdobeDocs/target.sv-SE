@@ -19,15 +19,15 @@ Lägg till offertbeslut som har skapats i [!DNL Adobe Journey Optimizer] till [!
 
 Mer information om [!DNL Adobe Journey Optimizer] och erbjudandebeslut finns i följande avsnitt i *[!DNL Journey Optimizer]*-dokumentationen:
 
-* [Kom igång med Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html?lang=sv-SE)
+* [Kom igång med Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html)
 
-* [Om beslutshantering](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html?lang=sv-SE)
+* [Om beslutshantering](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html)
 
 ## Förutsättningar
 
 Om du vill använda erbjudandebeslut i [!DNL Target] behöver du följande:
 
-* [!DNL Adobe Target Standard] eller [!DNL Adobe Target Premium] som har implementerats med [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=sv-SE){target=_blank}.
+* [!DNL Adobe Target Standard] eller [!DNL Adobe Target Premium] som har implementerats med [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}.
 
   Funktionen är inte tillgänglig vid implementering av [!DNL Target] med at.js eller andra [!DNL Target] SDK:er.
 
@@ -72,7 +72,7 @@ I [!DNL Adobe Journey Optimizer] kan du skapa ett personligt startsidans hjälte
 
 1. Markera önskad sandlåda i fältet **[!UICONTROL Add Offer Decision]** till höger om VEC och klicka sedan på Välj erbjudande.placering.
 
-   Med en [sandlåda](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/overview.html?lang=sv-SE){target=_blank} i [!DNL Adobe Experience Platform] kan du partitionera instansen i virtuella miljöer. Du kan till exempel ha en produktionsmiljö och en staging-miljö. En [placering](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/create-components/creating-placements.html?lang=sv-SE){target=_blank} i [!DNL Adobe Journey Optimizer] säkerställer att rätt erbjudandeinnehåll visas på rätt plats.
+   Med en [sandlåda](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/overview.html){target=_blank} i [!DNL Adobe Experience Platform] kan du partitionera instansen i virtuella miljöer. Du kan till exempel ha en produktionsmiljö och en staging-miljö. En [placering](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/create-components/creating-placements.html){target=_blank} i [!DNL Adobe Journey Optimizer] säkerställer att rätt erbjudandeinnehåll visas på rätt plats.
 
    ![Listrutorna Sandlåda och Placeringar i dialogrutan Lägg till erbjudandebeslut](/help/main/c-integrating-target-with-mac/ajo/assets/sandbox-placement.png)
 
@@ -96,7 +96,7 @@ I [!DNL Adobe Journey Optimizer] kan du skapa ett personligt startsidans hjälte
 
 Tänk på följande när du arbetar med offertbeslut:
 
-* Faktisk integrering av erbjudandebeslut fungerar för [!DNL Target] implementeringar baserat på [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=sv-SE){target=_blank}. Den här funktionen är inte tillgänglig vid implementering av [!DNL Target] med at.js eller andra [!DNL Target] SDK:er.
+* Faktisk integrering av erbjudandebeslut fungerar för [!DNL Target] implementeringar baserat på [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}. Den här funktionen är inte tillgänglig vid implementering av [!DNL Target] med at.js eller andra [!DNL Target] SDK:er.
 
 * Integrationen [!DNL Target]/[!DNL Adobe Journey Optimizer] stöder endast [ manuella [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types)- och [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT)-aktiviteter. Den här funktionen är inte tillgänglig för andra aktivitetstyper.
 

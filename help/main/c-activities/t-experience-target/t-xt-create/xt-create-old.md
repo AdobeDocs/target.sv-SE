@@ -23,7 +23,7 @@ Mer information om [!UICONTROL Experience Targeting], ett användningsscenario o
 
 **Så här skapar du en [!UICONTROL Experience Targeting]-aktivitet:**
 
-1. Klicka på **[!UICONTROL Create Activity]** > **[!UICONTROL Experience Targeting]** i listan [!UICONTROL Activities].
+1. Klicka på [!UICONTROL Activities] > **[!UICONTROL Create Activity]** i listan **[!UICONTROL Experience Targeting]**.
 
    ![Skapa aktivitet > Upplevelsemål](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt_select-1.png)
 

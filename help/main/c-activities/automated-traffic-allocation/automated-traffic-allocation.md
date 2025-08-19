@@ -33,7 +33,7 @@ I sådana tester använder de flesta produkter, inklusive [!DNL Target], en [Wel
 
 [!UICONTROL Auto-Allocate] utför alla implicita jämförelser mellan upplevelser och skapar en&quot;true&quot;-vinnare. Det finns ingen uppfattning om&quot;kontroll&quot; i testet.
 
-[!UICONTROL Auto-Allocate] tilldelar nya besökare på ett intelligent sätt till upplevelser tills konfidensintervallet för den bästa upplevelsen inte överlappar konfidensintervallet för någon annan upplevelse. Vanligtvis kan den här processen generera falskt positiva resultat, men [!UICONTROL Auto-Allocate] använder konfidensintervall baserat på [Bernstein Inequality](https://en.wikipedia.org/wiki/Bernstein_inequalities_%28probability_theory%29){target=_blank} som kompenserar för upprepade utvärderingar. I nuläget finns det en sann vinnare. När [!UICONTROL Auto-Allocate] stoppas, förutsatt att det inte finns något stort tidsberoende för besökarna som kommer till sidan, finns det minst 95 % chans att [!UICONTROL Auto-Allocate] returnerar en upplevelse vars verkliga svar inte är sämre än 1 % (relativt) mindre än det verkliga svaret för den vinnande upplevelsen.
+[!UICONTROL Auto-Allocate] tilldelar nya besökare på ett intelligent sätt till upplevelser tills konfidensintervallet för den bästa upplevelsen inte överlappar konfidensintervallet för någon annan upplevelse. Vanligtvis kan den här processen generera falskt positiva resultat, men [!UICONTROL Auto-Allocate] använder konfidensintervall baserat på [Bernstein Innequality](https://en.wikipedia.org/wiki/Bernstein_inequalities_%28probability_theory%29){target=_blank} som kompenserar för upprepade utvärderingar. I nuläget finns det en sann vinnare. När [!UICONTROL Auto-Allocate] stoppas, förutsatt att det inte finns något stort tidsberoende för besökarna som kommer till sidan, finns det minst 95 % chans att [!UICONTROL Auto-Allocate] returnerar en upplevelse vars verkliga svar inte är sämre än 1 % (relativt) mindre än det verkliga svaret för den vinnande upplevelsen.
 
 ## När [!UICONTROL Auto-Allocate] ska användas jämfört med [!UICONTROL A/B Test] eller [!UICONTROL Automated Personalization] aktiviteter {#section_3F73B0818A634E4AAAA60A37B502BFF9}
 
@@ -83,7 +83,7 @@ Bilden visar hur den trafik som tilldelats varje upplevelse fortskrider under fl
 >
 >Om en aktivitet bara har två upplevelser får båda upplevelserna samma trafik tills [!DNL Target] hittar en vinnande upplevelse med 75 % förtroende. Då fördelas två tredjedelar av trafiken till vinnaren och en tredjedel till förloraren. När upplevelsen når 95 % av förtroendet tilldelas vinnaren 90 % av trafiken och 10 % tilldelas förloraren. [!DNL Target] skickar alltid viss trafik till den&quot;förlorade&quot; upplevelsen för att undvika falskt positiva resultat i slutet (d.v.s. upprätthålla utforskande).
 
-När en [!UICONTROL Auto-Allocate]-aktivitet har aktiverats tillåts inte följande åtgärder från gränssnittet Taget:
+När en [!UICONTROL Auto-Allocate]-aktivitet har aktiverats tillåts inte följande åtgärder från gränssnittet Ta[!DNL]get:
 
 * Växla läget&quot;Trafikallokering&quot; till&quot;Manuell&quot;
 * Ändra målmåttstyp

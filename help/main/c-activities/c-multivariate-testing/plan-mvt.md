@@ -19,13 +19,13 @@ MVT kräver tillräcklig trafik för att generera användbara resultat. Innan du
 
 Elementen ska vara oberoende av varandra. Testa till exempel inte layouten och innehållet i samma test.
 
-Undersök HTML-koden för de sidor som du vill testa. Se till att elementen i HTML på din webbplats inte har dubbla DOM ID:n. Duplicerade ID:n kan leda till att samma innehåll levereras till mer än en plats.
+Undersök HTML-koden för de sidor som du vill testa. Se till att HTML-elementen på din webbplats inte har dubbla DOM ID:n. Duplicerade ID:n kan leda till att samma innehåll levereras till mer än en plats.
 
 Planera att testa de element på sidan som kan ge betydande resultat. En banderoll eller en hjältebild kommer till exempel att leda till fler konverteringar än en sidfotsändring. Om du tar med mindre inflytelserika element i testet ökar bara mängden trafik och den tid som krävs för att testa de mer framträdande elementen på sidan.
 
-Innan du skapar testet bör du skapa det innehåll du vill testa. Förstå skillnaderna i innehåll för varje erbjudande och skapa bilder, text och HTML som du förväntar dig att använda i testet.
+Innan du skapar testet bör du skapa det innehåll du vill testa. Förstå skillnaderna i innehåll för varje erbjudande och skapa bilder, text och HTML-erbjudanden som du förväntar dig att använda i testet.
 
-## Utbildningsvideo: Skapa multivariata tester (9:25) ![Självstudiekurs](/help/main/assets/tutorial.png)
+## Utbildningsvideo: Skapa multivariata tester (9:25) ![Självstudiekurs ](/help/main/assets/tutorial.png)
 
 I den här videon visas hur du planerar och skapar ett multivariata test med hjälp av det guidade arbetsflödet i [!DNL Target] i tre steg.
 

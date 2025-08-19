@@ -1,7 +1,7 @@
 ---
 keywords: rekommendationsdesign;mall;skapa design;leverans;utdata
-description: Lär dig hur du använder designer i Adobe [!DNL Target] Recommendations för att definiera hur rekommendationer ska visas på en sida (1X4, 1X6, 2X2 och så vidare).
-title: Hur använder jag designen i Recommendations?
+description: Lär dig hur du använder designer i Adobe [!DNL Target] Rekommendationer för att definiera hur rekommendationer ska visas på en sida (1X4, 1X6, 2X2 o.s.v.).
+title: Hur använder jag designen i rekommendationerna?
 feature: Recommendations
 exl-id: 348b1d77-49c9-4a6b-ba85-7ba051713d5b
 source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0

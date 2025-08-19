@@ -30,7 +30,7 @@ Låt oss anta att du arbetar för ett möbelföretag och har överfört två kun
 
 Du kan skapa en målgrupp som definieras som att benägenheten att köpa möbler för matsalar är större än benägenheten att köpa möbler för vardagsrum. [!DNL Target] skulle sedan dynamiskt jämföra poängen för matsalen och livsrummets benägenhet för en viss besökare för att avgöra om besökaren uppfyller kraven för den här målgruppen.
 
-Mer information finns i [Metoder för att hämta data till målet](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=sv-SE){target=_blank}.
+Mer information finns i [Metoder för att hämta data till målet](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}.
 
 ## Skapa en målgrupp för profilattributsjämförelse {#section_7A62FD47D5C74C3EBC3417ACDBB85013}
 
@@ -45,7 +45,7 @@ Mer information finns i [Metoder för att hämta data till målet](https://exper
 
    ![Propensitetspoäng 2](assets/propensity_score_2.png)
 
-1. Välj **[!UICONTROL Attribute]** i listrutan **[!UICONTROL Choose Comparison Type]**.
+1. Välj **[!UICONTROL Choose Comparison Type]** i listrutan **[!UICONTROL Attribute]**.
 
    Jämförelsetypen för&quot;statiskt värde&quot; gör att du kan jämföra din besökarprofils attribut med specifika värden.
 

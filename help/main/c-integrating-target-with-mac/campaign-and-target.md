@@ -1,6 +1,6 @@
 ---
 keywords: Översikt och referens
-description: Lär dig hur du använder Adobe [!DNL Target]  med Adobe Campaign för att optimera e-postinnehåll.
+description: Lär dig hur du använder Adobe [!DNL Target] med Adobe Campaign för att optimera e-postinnehåll.
 title: Hur integrerar jag [!DNL Target] med Adobe Campaign?
 feature: Integrations
 exl-id: 605b8fe4-e32f-43bc-9131-245008b655e1

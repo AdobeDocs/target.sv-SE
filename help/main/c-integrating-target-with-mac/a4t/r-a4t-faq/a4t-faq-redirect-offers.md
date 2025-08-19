@@ -63,7 +63,7 @@ Tänk på följande:
 ## Varför räknas ibland sidvisningar på originalsidan och på omdirigeringssidan? {#section_B8F6CC2190B84CF08D945E797C5AF07B}
 
 +++Svar
-När du använder at.js version 1.6.3 eller senare är det inte något problem att räkna sidvisningar på båda sidorna. Detta konkurrensvillkor påverkar endast kunder som använder tidigare versioner. Target-teamet har två versioner av at.js: den aktuella versionen och den andra senaste versionen. Uppgradera at.js efter behov för att kontrollera att du kör en [version som stöds](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=sv-SE){target=_blank}.
+När du använder at.js version 1.6.3 eller senare är det inte något problem att räkna sidvisningar på båda sidorna. Detta konkurrensvillkor påverkar endast kunder som använder tidigare versioner. Target-teamet har två versioner av at.js: den aktuella versionen och den andra senaste versionen. Uppgradera at.js efter behov för att kontrollera att du kör en [version som stöds](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
 
 Om du använder en tidigare version av at.js som inte stöds finns det en risk för att ett konkurrensvillkor kan uppstå som kan få Analytics-anropet att utlösas innan omdirigeringen körs på den första sidan. Detta kan leda till att sidvisningar på den ursprungliga sidan och på omdirigeringssidan räknas. Detta resulterar i en extra sidvy på den första sidan, där besökaren aldrig riktigt &quot;såg&quot; den första sidan.
 
@@ -123,7 +123,7 @@ Om du använder A4T och omdirigeringserbjudanden lägger Target till parametrarn
 
 På grund av den här dubbla kodningen när besökar-API:t försöker avkoda värdet `adobe_mc_sdid` kan det inte extrahera SDID-värdet och generera ett nytt SDID. Den här processen leder till att felaktiga SDID-värden skickas till Target och Analytics, och du ser en ojämn delning för omdirigeringar i Analytics-rapporter.
 
-Adobe rekommenderar att du pratar med IT-teamet för att säkerställa att `adobe_mc_ref` och `adobe_mc_sdid` tillåtslista så att dessa värden inte förändras på något sätt.
+Adobe rekommenderar att du pratar med din IT-avdelning för att säkerställa att `adobe_mc_ref` och `adobe_mc_sdid` tillåtslista så att dessa värden inte förändras på något sätt.
 
 +++
 
@@ -138,10 +138,10 @@ Med [!DNL at.js] version 0.9.6 (eller senare) och [!DNL AppMeasurement.js] 2.1 (
 
 +++
 
-## Kan jag använda anpassade omdirigeringserbjudanden från HTML? {#section_E49F9A83A286488C8F1098A040203D7E}
+## Kan jag använda anpassade omdirigeringserbjudanden från HTML eller andra program? {#section_E49F9A83A286488C8F1098A040203D7E}
 
 +++Svar
-Nej, du måste använda ett inbyggt omdirigeringserbjudande för aktiviteter som använder [!DNL Analytics] som rapportkälla (A4T). Från [!DNL Target]-perspektivet är erbjudanden från HTML ogenomskinliga: [!DNL Target] kan inte veta att en viss del av HTML innehåller JavaScript som initierar en omdirigering.
+Nej, du måste använda ett inbyggt omdirigeringserbjudande för aktiviteter som använder [!DNL Analytics] som rapportkälla (A4T). Från [!DNL Target]-perspektivet är HTML-erbjudanden ogenomskinliga: [!DNL Target] vet inte om en viss del av HTML innehåller JavaScript som initierar en omdirigering.
 
 +++
 
@@ -163,9 +163,9 @@ Ja, [[!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-
 
 +++
 
-### Kan jag använda anpassade omdirigeringserbjudanden/omdirigeringserbjudanden för HTML med [!DNL Platform Web SDK]?
+### Kan jag använda anpassade omdirigeringserbjudanden/omdirigeringserbjudanden från HTML med [!DNL Platform Web SDK]?
 
 +++Svar
-Nej, du måste använda ett inbyggt omdirigeringserbjudande för aktiviteter som använder A4T. Från [!DNL Target]-perspektivet är erbjudandena från HTML ogenomskinliga. [!DNL Target] kan inte veta att en viss del av HTML innehåller JavaScript som initierar en omdirigering.
+Nej, du måste använda ett inbyggt omdirigeringserbjudande för aktiviteter som använder A4T. Från [!DNL Target]-perspektivet är HTML-erbjudanden ogenomskinliga. [!DNL Target] vet inte om en viss del av HTML innehåller JavaScript som initierar en omdirigering.
 
 +++

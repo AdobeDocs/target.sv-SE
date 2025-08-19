@@ -2,7 +2,7 @@
 keywords: beteendedatakälla;analys;rekommendationer;kriterier;produktvariabler
 description: Lär dig hur du använder  [!DNL Adobe Analytics]  som beteendedatakälla för att använda vybaserade och/eller inköpsbaserade beteendedata från [!DNL Analytics] in [!DNL Target Recommendations].
 title: Hur använder jag [!DNL Adobe Analytics] med [!DNL Target Recommendations]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=sv-SE#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Recommendations
 exl-id: d2b7e840-9546-4a8e-bec4-1ebea5a79672
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
@@ -49,7 +49,7 @@ Ett [!DNL Target Recommendations]-exempelformat fungerar som guide för vilka al
 >
 >Om det är en innehållsplats måste respektive innehållskomponenter behandlas som&quot;produkter&quot; och tillhörande attribut om innehållet måste skickas som attribut. Sådana attribut kan vara författarnamn, publiceringsdatum, innehållstitel, publiceringsmånad och så vidare. Företaget bör besluta om huruvida det är fråga om en viss kategori, eller en viss typ av kategori, baserat på ärendekraven.
 
-Mer information om hur du ställer in produktvariabler finns i [products](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html?lang=sv-SE) i guiden *Implementera Adobe Analytics*. Vissa av anteckningarna i den dokumentationen måste hanteras av det team som distribuerar den (exempel: Kategori). Du bör alltid rådfråga [!DNL Adobe] innan du utför den här aktiviteten.
+Mer information om hur du ställer in produktvariabler finns i [products](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html) i guiden *Implementera Adobe Analytics*. Vissa av anteckningarna i den dokumentationen måste hanteras av det team som distribuerar den (exempel: Kategori). Du bör alltid rådfråga [!DNL Adobe] innan du utför den här aktiviteten.
 
 ### Överväganden
 

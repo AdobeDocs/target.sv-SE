@@ -19,7 +19,7 @@ Förutom aktiviteten [!UICONTROL Auto-Allocate] [!UICONTROL A/B Test] (beskrivs 
 
 Skapa en [!UICONTROL Auto-Allocate]-aktivitet:
 
-1. Klicka på **[!UICONTROL Create Activity]** > **[!UICONTROL A/B Test]** i listan **[!UICONTROL Activities]**.
+1. Klicka på **[!UICONTROL Activities]** > **[!UICONTROL Create Activity]** i listan **[!UICONTROL A/B Test]**.
 
    ![Listrutan Skapa aktivitet](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/ab_select-new.png)
 

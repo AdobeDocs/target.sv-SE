@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Egna parametrar är mbox-parametrar i [!DNL Adobe Target]. Om du skickar några mbox-parametrar till mbox, eller använder funktionen `targetPageParams`, visas dessa parametrar här för att användas i målgrupper.
 
-Mer information finns i [Skicka parametrar till en global mbox](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html?lang=sv-SE){target=_blank}.
+Mer information finns i [Skicka parametrar till en global mbox](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank}.
 
 När du skapar en anpassad målgrupp baserat på en mbox-parameter uppmanar `mboxParameter` dig inte längre att ange `mboxName`. Nu är mbox-namnet valfritt. Med den här ändringen kan du använda parametrar från flera rutor eller referera till en parameter som ännu inte har registrerats på kanten.
 
@@ -60,7 +60,7 @@ När du skapar en anpassad målgrupp baserat på en mbox-parameter uppmanar `mbo
 1. (Valfritt) Ange ytterligare regler för målgruppen.
 1. Klicka på **[!UICONTROL Done]**.
 
-Publiken har popup-kortet [&#128279;](/help/main/c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780) för definitionsinformation som visar parameternamnet i avsnittet **[!UICONTROL Rules]**. Det finns ingen referens till mbox som används för filtrering.
+Publiken har popup-kortet [ för ](/help/main/c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780)definitionsinformation som visar parameternamnet i avsnittet **[!UICONTROL Rules]**. Det finns ingen referens till mbox som används för filtrering.
 
 >[!NOTE]
 >

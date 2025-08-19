@@ -108,14 +108,14 @@ Om du till exempel optimerar till sidvisningar per besökare, kan du exportera e
 1. Klicka på **[!UICONTROL Tools]** > **[!UICONTROL Data Warehouse]**.
 1. Fyll i fälten på fliken **[!UICONTROL Data Warehouse Request]**.
 
-   Mer information om de olika fälten finns i Data Warehouse Descriptions i [Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html?lang=sv-SE).
+   Mer information om de olika fälten finns i&quot;Data Warehouse Descriptions&quot; i [Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html).
 
    | Fält | Instruktioner |
    |--- |--- |
    | Namn på begäran | Ange ett namn för din begäran. |
-   | Rapportdatum | Ange en tidsperiod och granularitet.<br>Som bästa praxis bör du välja högst en timme eller en dag med data för din första begäran.  Datan Warehouse tar längre tid att bearbeta längre tid än vad som begärts, så det är alltid en god vana att först begära data om en liten tidsperiod för att vara säker på att filen returnerar det förväntade resultatet. Gå sedan till Request Manager, duplicera din begäran och be om fler data vid andra gången. Om du växlar granularitet till något annat än &quot;Inget&quot; ökar filstorleken drastiskt.<br>![Data Warehouse](/help/main/c-reports/assets/datawarehouse.png) |
+   | Rapportdatum | Ange en tidsperiod och granularitet.<br>Som bästa praxis bör du välja högst en timme eller en dag med data för din första begäran.  Data Warehouse-filer tar längre tid att bearbeta längre tid än vad som begärts, så det är alltid en god vana att först begära data från en liten tidsperiod för att vara säker på att filen returnerar det förväntade resultatet. Gå sedan till Request Manager, duplicera din begäran och be om fler data vid andra gången. Om du växlar granularitet till något annat än &quot;Inget&quot; ökar filstorleken drastiskt.<br>![Data Warehouse](/help/main/c-reports/assets/datawarehouse.png) |
    | Tillgängliga segment | Använd ett segment efter behov. |
-   | Uppdelningar | Välj önskade mått: Standard är förberett (OTB), medan Custom innehåller eVars &amp; Props. Vi rekommenderar att du använder&quot;besökar-ID&quot; om information på besökar-ID-nivå behövs, i stället för&quot;Experience Cloud Visitor-ID&quot;.<ul><li>Besökar-ID är det sista ID som används av Analytics. Det blir antingen ett ID (om kunden är äldre) eller ett MID (om kunden är ny eller rensad på cookies sedan besökar-ID-tjänsten för MC startades).</li><li>Experience Cloud Visitor-ID kommer endast att anges för kunder som är nya eller rensade cookies sedan besöks-ID-tjänsten startades.</li></ul> |
+   | Uppdelningar | Välj önskade mått: Standard är förberett (OTB), medan Custom innehåller eVars &amp; Props. Vi rekommenderar att du använder&quot;besökar-ID&quot; om information på besökar-ID-nivå behövs, i stället för&quot;Experience Cloud Visitor-ID&quot;.<ul><li>Besökar-ID är det sista ID som används av Analytics. Det blir antingen ett ID (om kunden är äldre) eller ett MID (om kunden är ny eller rensad på cookies sedan besökar-ID-tjänsten för MC startades).</li><li>Experience Cloud Visitor ID kommer endast att anges för kunder som är nya eller rensade cookies sedan besöks-ID-tjänsten startades.</li></ul> |
    | Mått | Välj önskade mätvärden. Standard är OTB, medan Anpassad innehåller anpassade händelser. |
    | Förhandsgranska rapport | Granska inställningarna innan du schemalägger rapporten.<br>![Data Warehouse 2](/help/main/c-reports/assets/datawarehouse2.png) |
    | Schemalägg leverans | Ange en e-postadress som filen ska skickas till, ge filen ett namn och välj sedan [!UICONTROL Send Immediately].<br>Obs! Filen kan levereras via FTP under [!UICONTROL Advanced Delivery Options]<br>![Schemalägg leverans](/help/main/c-reports/assets/datawarehouse3.png). |
@@ -128,8 +128,8 @@ Om du till exempel optimerar till sidvisningar per besökare, kan du exportera e
 
 Mer information om [!DNL Data Warehouse] finns i följande länkar i hjälpdokumentationen för [!DNL Analytics]:
 
-* [Skapa en begäran om Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html?lang=sv-SE)
-* [Bästa praxis för Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html?lang=sv-SE)
+* [Skapa en Data Warehouse-förfrågan](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html)
+* [Data Warehouse bästa praxis](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html)
 
 ## Räkningsmetod {#concept_EC19BC897D66411BABAF2FA27BCE89AA}
 
@@ -146,7 +146,7 @@ Räkningsmetod stöds för följande aktivitetstyper:
 
   För MVT-elementets bidragsrapport stöder inte Target aktivitetsexponeringar för intäktsmätningstyper.
 
-* Recommendations
+* Rekommendationer
 
 Endast standardmetoden för antal besök (Besök) stöds för närvarande för Automated Personalization-aktiviteter (AP).
 
@@ -176,7 +176,7 @@ A/B-tester är experiment för att jämföra medelvärdet av vissa företagsvär
 
 ### Mer information
 
-När A/B-tester körs online tilldelas varje användare/besökare slumpmässigt till en enskild variant. Därefter gör vi mätningar av de affärsmått som är av intresse (t.ex. konverteringar, order, intäkter osv.) för besökare i varje variant. Det statistiska testet vi använder testar sedan hypotesen att det genomsnittliga affärsvärdet (t.ex. konverteringsgrad, order per användare, intäkter per användare osv.) är lika för kontrollen och en given alternativ variant.
+När A/B-tester körs online tilldelas varje användare/besökare slumpmässigt till en enskild variant. Därefter gör vi mätningar av de ekonomiska nyckeltal (t.ex. konverteringar, order, intäkter osv.) som besökarna i varje variant har. Det statistiska testet vi använder testar sedan hypotesen att det genomsnittliga affärsmåttet (t.ex. konverteringsgrad, order per användare, intäkt per användare osv.) är lika för kontrollen och en given alternativ variant.
 
 Även om själva affärsmätningen kan fördelas enligt viss godtycklig fördelning, bör fördelningen av medelvärdet för detta mätvärde (inom varje variant) konvergera till en normal fördelning via [kärnbegränsningsteorem](https://en.wikipedia.org/wiki/Central_limit_theorem). Observera att även om det inte finns någon garanti för hur snabbt denna provdistribution av medelvärdet kommer att konvergera till normal, är detta normalt med tanke på besökarnas omfattning vid onlinetestning.
 

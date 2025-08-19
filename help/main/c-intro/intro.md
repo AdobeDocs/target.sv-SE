@@ -90,7 +90,7 @@ Artiklar i [!DNL Target]-guider som beskriver Beta-funktioner innehåller Beta-m
 
 >[!IMPORTANT]
 >
->[!DNL Recommendations Classic] är en äldre produkt och är inte längre licensierad till nya kunder. Uppgradera till [!DNL Recommendations] aktiviteter som är tillgängliga i [!DNL Adobe Target Premium] för att få bästa möjliga [!DNL Recommendations]-upplevelse. Se beskrivningen ovan.
+>[!DNL Recommendations Classic] är en äldre produkt och är inte längre licensierad till nya kunder. Uppgradera till [!DNL Recommendations] aktiviteter som är tillgängliga i [!DNL Recommendations] för att få bästa möjliga [!DNL Adobe Target Premium]-upplevelse. Se beskrivningen ovan.
 
 [!DNL Recommendations Classic] visar automatiskt produkter eller innehåll som kan intressera dina kunder baserat på tidigare användaraktivitet på din webbplats. Rekommendationer hjälper kunderna att dirigera till objekt de annars kanske inte känner till, vilket förbättrar försäljningen som genereras på er webbplats.
 
@@ -102,7 +102,7 @@ Bygg ditt optimerings- och personaliseringsprogram på [!DNL Adobe Target] med d
 
 [Adobe Target Welcome Kit](/help/main/c-intro/target-welcome-kit.md)
 
-## Utbildningsvideo: Aktivitetstyper (9:03) ![Märket Översikt](/help/main/assets/overview.png)
+## Utbildningsvideo: Aktivitetstyper (9:03) ![Översikt ](/help/main/assets/overview.png)
 
 I följande video förklaras vilka aktivitetstyper som är tillgängliga i [!DNL Target Standard/Premium] och hur det guidade arbetsflödet i [!DNL Target] i tre steg kan hjälpa dig att uppnå dina webbplatsmål.
 

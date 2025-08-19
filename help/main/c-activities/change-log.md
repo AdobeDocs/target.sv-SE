@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Logg för aktivitetsändring
 
-[!DNL Adobe Target] [!UICONTROL Change Log] registrerar aktivitetsåtgärder, inklusive vad som ändrats, vem som gjort ändringarna och när de inträffade. Sidan [!UICONTROL Change Log] fylls i från [[!UICONTROL Audi Query API]](https://experienceleague.adobe.com/sv/docs/experience-platform/landing/governance-privacy-security/audit-logs/audit-api/overview){target=_blank} för realtidsinsikter.
+[!DNL Adobe Target] [!UICONTROL Change Log] registrerar aktivitetsåtgärder, inklusive vad som ändrats, vem som gjort ändringarna och när de inträffade. Sidan [!UICONTROL Change Log] fylls i från [[!UICONTROL Audi Query API]](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/audit-api/overview){target=_blank} för realtidsinsikter.
 
 Så här kommer du åt sidan [!UICONTROL Change Log]:
 

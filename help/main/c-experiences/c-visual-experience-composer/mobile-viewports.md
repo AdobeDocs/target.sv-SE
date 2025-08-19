@@ -98,7 +98,7 @@ Om webbplatsen inte är responsiv kan du använda Mobile Web Composer för att v
 Konfigurera mobila visningsrutor som du vill göra tillgängliga när du skapar dina upplevelser.
 
 1. Klicka på **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]**.
-1. Klicka på **[!UICONTROL Add]** i avsnittet **[!UICONTROL Mobile viewports configuration]**.
+1. Klicka på **[!UICONTROL Mobile viewports configuration]** i avsnittet **[!UICONTROL Add]**.
 
    ![Lägg till visningsruta](/help/main/c-experiences/c-visual-experience-composer/assets/viewpoert_add.png)
 
@@ -137,7 +137,7 @@ Konfigurera mobila visningsrutor som du vill göra tillgängliga när du skapar 
 Lägg till mobila visningsrutor i dina [!DNL Target]-aktiviteter för att skapa responsiva upplevelser för mobila skärmar.
 
 1. Skapa den [önskade aktiviteten](/help/main/c-activities/activities.md).
-1. Klicka på kugghjulsikonen **[!UICONTROL Settings]** i [!UICONTROL Visual Experience Composer] (VEC) och välj sedan **[!UICONTROL Add Mobile Viewports]**.
+1. Klicka på kugghjulsikonen [!UICONTROL Visual Experience Composer] i **[!UICONTROL Settings]** (VEC) och välj sedan **[!UICONTROL Add Mobile Viewports]**.
 
    ![Alternativet Lägg till mobila visningsrutor](/help/main/c-experiences/c-visual-experience-composer/assets/add-mobile-viewports.png)
 
@@ -163,7 +163,7 @@ Lägg till mobila visningsrutor i dina [!DNL Target]-aktiviteter för att skapa 
 
 I följande videofilmer finns mer information om de begrepp som beskrivs i den här artikeln.
 
-### Visual Experience Composer (2 av 2) (7:29) ![brickan Översikt](/help/main/assets/overview.png)
+### Visual Experience Composer (2 av 2) (7:29) ![Märket Översikt](/help/main/assets/overview.png)
 
 I följande demovideo finns information om hur du använder Visual Experience Composer för att arbeta med mobila visningsrutor:
 
@@ -178,6 +178,6 @@ I följande demovideo finns information om hur du använder Visual Experience Co
 
 ### Kontoinställningar i Adobe Target ![brickan Översikt](/help/main/assets/overview.png)
 
-Den här videon innehåller information om hur du ställer in mobila visningsrutor, med början vid 4:40 i videon.
+Den här videon innehåller information om hur du konfigurerar mobila visningsrutor, med början vid 4:40 i videon.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17379)

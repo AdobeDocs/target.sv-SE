@@ -29,7 +29,7 @@ Eftersom besökarspecifika inställningar, beteenden, status kan lagras i besök
 
 * `mboxCreate("landingpage"`, `"profile.keyword=World Cup");`
 
-* Erbjudandekod för HTML: `Get your ${profile.keyword} information here!`
+* HTML-erbjudandekod: `Get your ${profile.keyword} information here!`
 * Besökaren ser: Hämta information om World Cup här!
 
 Följande värden kan vara &quot;token replace&quot;:
@@ -73,7 +73,7 @@ När `testAttribute` inte finns eller är tom, &quot;Alla objekt!&quot; är skri
 
 `${user.testAttribute default="All Items!" show_blank="true"}`
 
-Du kan också visa värden för escape och unescape. Om värdet till exempel har en apostrof kan du undvika värdet så att det inte bryter JavaScript på sidan. (Erbjudandena skrivs i JavaScript, så en enda apostrof kan blandas ihop för en offert.) Exempel:
+Du kan också visa värden för escape och unescape. Om värdet till exempel har en apostrof kan du undvika värdet så att det inte bryter JavaScript på sidan. (Erbjudandena skrivs i JavaScript, så en enda apostrof kan blandas ihop för en offert.) Till exempel:
 
 `${user.encodedValue encode="unescape"}`
 

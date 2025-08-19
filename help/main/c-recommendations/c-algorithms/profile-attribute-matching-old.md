@@ -1,8 +1,8 @@
 ---
 keywords: inkluderingsregler;inklusionskriterier;rekommendationer;befordran;kampanjer;dynamisk filtrering;dynamisk;profilattributsmatchning
-description: Lär dig hur du filtrerar dynamiskt i Adobe [!DNL Target] Recommendations genom att jämföra objekt (entiteter) med ett värde i användarens profil.
-title: Hur filtrerar jag efter matchning av profilattribut i Recommendations-aktiviteter?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=sv-SE#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
+description: Lär dig hur du filtrerar dynamiskt i Adobe [!DNL Target] Rekommendationer genom att jämföra objekt (entiteter) med ett värde i användarens profil.
+title: Hur filtrerar jag efter matchning av profilattribut i rekommendationsaktiviteter?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Recommendations
 exl-id: d4b837af-771b-41b4-982b-f9f08e4753f2
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
@@ -65,10 +65,10 @@ Anta att du har skapat ett profilskript för att spåra och räkna antalet gång
 
 Om besökaren sedan kommer tillbaka till hemsidan, kommer han eller hon att se filtrerade rekommendationer baserat på om användaren klickade på fler små fans eller stora fans.
 
-Recommendations bygger på en webbplats där fler små fans finns:
+Rekommendationer som bygger på att man ser fler små fans på webbplatsen:
 
 ![rekommendationer för små fans](/help/main/c-recommendations/c-algorithms/assets/small-fans.png)
 
-Recommendations bygger på fler stora fans på webbplatsen:
+Rekommendationer som bygger på mer stora fans på webbplatsen:
 
 ![rekommendationer för stora fans](/help/main/c-recommendations/c-algorithms/assets/large-fans.png)

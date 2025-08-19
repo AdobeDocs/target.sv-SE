@@ -1,6 +1,6 @@
 ---
 keywords: Mål;rapporter;rapportinställningar;extrema order;extrema värden
-description: Lär dig hur du exkluderar extrema värden från att påverka rapporter i Adobe [!DNL Target] så att några ovanliga order inte påverkar dina aktivitetsresultat.
+description: Lär dig hur du utesluter extrema värden från att påverka rapporter i Adobe [!DNL Target] så att några ovanliga order inte påverkar dina aktivitetsresultat.
 title: Hur utesluter jag extrema värden i rapporter?
 feature: Reports
 exl-id: fd2d0c18-62c0-41e0-800c-b2ae123f0e74

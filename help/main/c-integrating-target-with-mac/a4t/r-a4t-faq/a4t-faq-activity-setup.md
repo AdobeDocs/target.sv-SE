@@ -54,8 +54,8 @@ När en aktivitet skapas skickar [!DNL Target] en klassificeringsfil till [!DNL 
 +++Svar
 Du kan ändra dina [!UICONTROL Reporting Settings]-alternativ i [!UICONTROL Administration].
 
-1. Klicka på **[!UICONTROL Administration]** i [!DNL Target].
-1. Klicka på **[!UICONTROL Select per Activity]** i listrutan **[!UICONTROL Experience Cloud solution used for reporting]**.
+1. Klicka på [!DNL Target] i **[!UICONTROL Administration]**.
+1. Klicka på **[!UICONTROL Experience Cloud solution used for reporting]** i listrutan **[!UICONTROL Select per Activity]**.
 
 ![bild per aktivitet](assets/select-per-activity.png)
 

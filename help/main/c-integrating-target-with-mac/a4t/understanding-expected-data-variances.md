@@ -11,7 +11,7 @@ ht-degree: 0%
 
 ---
 
-# Förväntade datavariationer mellan Adobe [!DNL Target] och Adobe Analytics när A4T användes och inte användes
+# Dataavvikelser mellan Adobe [!DNL Target] och Adobe Analytics förväntades när A4T användes och inte användes
 
 Information om förväntade dataavvikelser mellan [!DNL Target] och Adobe [!DNL Analytics] när *använder* och *inte* med Analytics som Reporting Source (A4T). A4T minskar datavariansen avsevärt.
 
@@ -25,7 +25,7 @@ Här följer några scenarier där du kan få en förväntad datavariation:
 
   Om ett omdirigeringstest har ställts in i Target för att dela upp trafik 50/50 (eller 25/25/25/25 och så vidare), är det inte säkert att användarbeteendet delas jämnt. Om du ser en ojämn delning innebär det helt enkelt att en grupp användare inte kunde genomföra ett Analytics-anrop på landningssidan mer än vad de andra grupperna gjorde. Det här misslyckandet med att köra Analytics-anropet för en grupp gjorde att Target-träffen för den användaren uteslöts, vilket skapade ojämnheten.
 
-  Adobe hoppas kunna ta itu med denna fråga i framtiden när Adobe team arbetar mot A4T på Adobe Experience Platform. Adobe team avgör hur de olika händelserna ska hanteras vid olika tidpunkter på sidan.
+  Adobe hoppas kunna lösa detta problem i framtiden när Adobe team arbetar mot A4T på Adobe Experience Platform. Adobe team avgör hur de olika händelserna ska hanteras vid olika tidpunkter på sidan.
 
 ## Datavarians förväntades när *inte använder* A4T {#expected-not-using-a4t}
 

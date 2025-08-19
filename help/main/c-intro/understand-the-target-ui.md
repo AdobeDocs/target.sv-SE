@@ -191,7 +191,7 @@ Klicka på fliken **[!UICONTROL Recommendations]** för att komma åt [!DNL Targ
 
 [!UICONTROL Recommendations]-aktiviteter visar automatiskt produkter eller innehåll som kan intressera dina kunder baserat på tidigare användaraktivitet eller andra algoritmer. Rekommendationer hjälper kunderna att hänvisa till relevanta objekt som de annars kanske inte känner till.
 
-Mer information om [!UICONTROL Recommendations] i [!DNL Target] finns i [Rekommendationer](/help/main/c-recommendations/recommendations.md) och om användargränssnittet i [!UICONTROL Recommendations].
+Mer information om [ i ](/help/main/c-recommendations/recommendations.md) finns i [!UICONTROL Recommendations]Rekommendationer[!DNL Target] och om användargränssnittet i [!UICONTROL Recommendations].
 
 ## Administration
 

@@ -2,7 +2,7 @@
 keywords: felsökning;vanliga frågor;Vanliga frågor;Vanliga frågor;Vanliga frågor;Automatisk personalisering;kontroll;standardupplevelse;bästa praxis
 description: Utforska en lista med vanliga frågor och svar om [!UICONTROL Automated Personalization]-aktiviteter (AP) i [!UICONTROL Adobe Target].
 title: Hur hittar jag vanliga frågor om [!UICONTROL Automated Personalization] aktiviteter?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=sv-SE#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Automated Personalization
 exl-id: 2bf62cc1-1781-4021-a400-2884e0bae893
 source-git-commit: 336da9dd876243a0eea662b4604a8fc1e6a69b1a
@@ -18,7 +18,7 @@ Läs följande frågor och svar när du arbetar med [!UICONTROL Automated Person
 
 ## Kan jag ange en specifik upplevelse som ska användas som kontroll i en [!UICONTROL Automated Personalization]-aktivitet?
 
-+++Se information
++++Se detaljer
 
 Du kan välja en upplevelse som ska användas som en kontroll när du skapar en [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md) - (AP) eller [Automatiskt mål](/help/main/c-activities/auto-target/auto-target-to-optimize.md) (AT)-aktivitet.
 
@@ -30,7 +30,7 @@ Mer information finns i [Använd en specifik upplevelse som kontroll](/help/main
 
 ## Hur kan jag jämföra [!UICONTROL Automated Personalization] med en standardupplevelse? {#section_46C1A620A2384C2C8392D6716DD18495}
 
-+++Se information
++++Se detaljer
 
 Det finns inget környckelsalternativ för att jämföra [!UICONTROL Automated Personalization] med en standardupplevelse. Om det finns ett standarderbjudande eller en standardupplevelse som en del av den övergripande aktiviteten kan du lösa problemet genom att klicka på [!UICONTROL Control]-segmentet i rapporter och leta reda på det erbjudandet i den rapport som skapas. Den konverteringsgrad som registreras för det här erbjudandet kan användas för att jämföra konverteringsgraden för hela segmentet &quot;Slumpskog&quot;. Detta hjälper till att jämföra hur datorn fungerar jämfört med standarderbjudandet.
 
@@ -38,7 +38,7 @@ Det finns inget környckelsalternativ för att jämföra [!UICONTROL Automated P
 
 ## Vilka är de bästa sätten att konfigurera en [!UICONTROL Automated Personalization]-aktivitet? {#section_E155B26282BE49B58EA2683413D11DE6}
 
-+++Se information
++++Se detaljer
 
 * Om du vill anpassa en sida med lägre trafik eller vill göra strukturella ändringar av den upplevelse du personaliserar bör du överväga att använda en [!UICONTROL Auto-Target]-aktivitet i stället för [!UICONTROL Automated Personalization]. Se [Automatiskt mål](/help/main/c-activities/auto-target/auto-target-to-optimize.md).
 * Överväg att slutföra en [!UICONTROL A/B Test]-aktivitet mellan erbjudandena och platserna som du planerar att använda i din [!UICONTROL Automated Personalization]-aktivitet för att se till att platsen och erbjudandena påverkar optimeringsmålet. Om en [!UICONTROL A/B Test]-aktivitet inte visar på någon större skillnad, kommer [!UICONTROL Automated Personalization] troligtvis inte att generera någon lyft.
@@ -74,7 +74,7 @@ Det finns inget környckelsalternativ för att jämföra [!UICONTROL Automated P
 
 ## Vilka är några begränsningar i [!UICONTROL Automated Personalization]? {#section_08BA09ED51B547299963C94FE6417CFA}
 
-+++Se information
++++Se detaljer
 
 [!DNL Target] har en hård gräns på 30 000 upplevelser, men fungerar som bäst när färre än 10 000 upplevelser skapas.
 
@@ -86,7 +86,7 @@ Mer information om teckenbegränsningar och andra begränsningar (erbjudandestor
 
 ## Hur implementeras målgruppsanpassning på erbjudandenivå? {#section_9D7A86EA93D74E9B8C81072A681263A4}
 
-+++Se information
++++Se detaljer
 
 När varje besökare anländer bestäms de möjliga erbjudandena som besökaren kan se av reglerna för målinriktning på erbjudandenivå. Algoritmen väljer sedan det erbjudande som modellen förutspår har den bästa förväntade intäkten eller möjligheten till konvertering från dessa erbjudanden. Anpassa erbjudandet påverkar effekten av [!DNL Target] maskininlärningsalgoritmer och bör därför användas så sparsamt som möjligt.
 
@@ -94,7 +94,7 @@ När varje besökare anländer bestäms de möjliga erbjudandena som besökaren 
 
 ## Varför visas inte min [!UICONTROL Automated Personalization]-aktivitet som lyft? {#section_BFA07C8C258F45318F73A461B8F32737}
 
-+++Se information
++++Se detaljer
 
 Det krävs fyra faktorer för att en [!UICONTROL Automated Personalization]-aktivitet ska kunna generera lyft:
 
@@ -111,7 +111,7 @@ Mer information finns i [Felsökning av Automated Personalization](/help/main/c-
 
 ## Hur tilldelar [!UICONTROL Automated Personalization] min aktivitets trafik? {#section_4369364F77804E0D9B78BEE551DA5659}
 
-+++Se information
++++Se detaljer
 
 [!UICONTROL Automated Personalization] dirigerar besökare till den upplevelse som har det högsta prognostiserade framgångsmåttet baserat på de senaste [Slumpmässig skog](/help/main/c-activities/t-automated-personalization/algo-random-forest.md)-modellerna som skapats för varje modell. Denna prognos baseras på besökarens specifika information och besökskontext.
 
@@ -121,7 +121,7 @@ Anta till exempel att en [!UICONTROL Automated Personalization]-aktivitet har tv
 
 ## När ska jag stoppa min [!UICONTROL Automated Personalization]-aktivitet? {#section_C51F3DAB8887463BB147373F6FE06B93}
 
-+++Se information
++++Se detaljer
 
 [!UICONTROL Automated Personalization] kan användas som&quot;alltid aktiverad&quot;-personalisering som ständigt optimeras. I synnerhet för omogna innehåll finns det ingen anledning att stoppa din [!UICONTROL Automated Personalization]-aktivitet. Om du vill göra omfattande ändringar av innehållet som inte liknar erbjudandena i din [!UICONTROL Automated Personalization]-aktivitet är det bästa sättet att starta en ny aktivitet. Genom att starta en ny aktivitet kan andra användare granska rapporter för att inte förväxla eller relatera tidigare resultat med annat innehåll.
 
@@ -129,7 +129,7 @@ Anta till exempel att en [!UICONTROL Automated Personalization]-aktivitet har tv
 
 ## Hur länge ska jag vänta på att modeller ska byggas? {#section_6F6A5A9DB3564BE6B22FFEDFA5B29619}
 
-+++Se information
++++Se detaljer
 
 Hur lång tid det tar för modeller att bygga in din aktivitet beror vanligtvis på trafiken till de valda aktivitetsplatserna och hur framgångsrik aktiviteten är. Använd [Trafikberäkning](/help/main/c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) för att fastställa hur lång tid det förväntas ta för modeller att bygga in din aktivitet.
 
@@ -137,7 +137,7 @@ Hur lång tid det tar för modeller att bygga in din aktivitet beror vanligtvis 
 
 ## En modell har skapats i min [!UICONTROL Automated Personalization]-aktivitet. Är besöken till den upplevelsen personaliserade? {#section_51EA953C6D1D4A3185FC9DD290D66621}
 
-+++Se information
++++Se detaljer
 
 Nej, det måste finnas minst två modeller i din aktivitet för att personaliseringen ska kunna börja.
 
@@ -145,7 +145,7 @@ Nej, det måste finnas minst två modeller i din aktivitet för att personaliser
 
 ## När kan jag se resultaten av min [!UICONTROL Automated Personalization]-aktivitet? {#section_05DB5ACAE6AD429C9510766A7268EE2C}
 
-+++Se information
++++Se detaljer
 
 Du kan börja titta på resultaten av din [!UICONTROL Automated Personalization]-aktivitet efter att du har minst två upplevelser med modeller byggda (grön bock) för upplevelsen som har modeller skapade.
 
@@ -153,7 +153,7 @@ Du kan börja titta på resultaten av din [!UICONTROL Automated Personalization]
 
 ## Hur kan jag minska tiden som behövs för att modeller ska kunna byggas in i min [!UICONTROL Automated Personalization]-aktivitet? {#section_CCB8CEE98DAA40BA93AADCD596C48D82}
 
-+++Se information
++++Se detaljer
 
 Granska din aktivitetskonfiguration och se om det finns några ändringar du vill göra för att förbättra hastigheten som modellerna bygger på.
 
@@ -166,7 +166,7 @@ Granska din aktivitetskonfiguration och se om det finns några ändringar du vil
 
 ## Varför ser besökare upplevelser för en [!UICONTROL Automated Personalization]-aktivitet som de inte ska se? {#section_41CECEAE0881446A8D9F3B016857914B}
 
-+++Se information
++++Se detaljer
 
 [!UICONTROL Automated Personalization] aktiviteter utvärderas en gång per session. Om det finns aktiva sessioner som har kvalificerat sig för en viss upplevelse och nu har nya erbjudanden lagts till, kommer besökarna att se det nya innehållet tillsammans med tidigare visade erbjudanden. Eftersom dessa besökare tidigare var kvalificerade för dessa upplevelser, ser de fortfarande de upplevelserna under sessionen. Om du vill utvärdera det här vid varje sidbesök bör du ändra till aktivitetstypen [!UICONTROL Experience Targeting] (XT).
 
@@ -174,7 +174,7 @@ Granska din aktivitetskonfiguration och se om det finns några ändringar du vil
 
 ## Kan jag ändra målmåttet genom en [!UICONTROL Automated Personalization]-aktivitet? {#change-metric}
 
-+++Se information
++++Se detaljer
 
 [!DNL Adobe] rekommenderar inte att du ändrar målmåttet genom en aktivitet. Även om det går att ändra målmåttet under en aktivitet med användargränssnittet för [!DNL Target] bör du alltid starta en ny aktivitet. [!DNL Adobe] garanterar inte vad som händer om du ändrar målmåttet i en aktivitet efter att den har körts.
 
@@ -184,7 +184,7 @@ Den här rekommendationen gäller [!UICONTROL Auto-Allocate], [!UICONTROL Auto-T
 
 ## Kan jag använda alternativet [!UICONTROL Reset Report Data] när jag kör en [!UICONTROL Automated Personalization]-aktivitet?
 
-+++Se information
++++Se detaljer
 
 [!DNL Adobe] rekommenderar inte att du använder alternativet [!UICONTROL Reset Report Data] för [!UICONTROL Automated Personalization]-aktiviteter. Även om synliga rapportdata tas bort, tas inte alla utbildningsposter bort från modellen [!UICONTROL Automated Personalization]. Skapa en ny aktivitet och inaktivera den ursprungliga aktiviteten i stället för att använda alternativet [!UICONTROL Reset Report Data] för [!UICONTROL Automated Personalization]-aktiviteter. Den här vägledningen gäller även för [!UICONTROL Auto-Allocate]- och [!UICONTROL Auto-Target]-aktiviteter.
 
@@ -192,7 +192,7 @@ Den här rekommendationen gäller [!UICONTROL Auto-Allocate], [!UICONTROL Auto-T
 
 ## Hur bygger [!UICONTROL Automated Personalization] modeller med hänsyn till miljöer?
 
-+++Se information
++++Se detaljer
 
 En modell är byggd för att identifiera den personaliserade strategins prestanda jämfört med slumpvis betjänad trafik jämfört med att skicka all trafik till den övergripande vinnande upplevelsen. Den här modellen hanterar endast träffar och konverteringar i standardmiljön.
 

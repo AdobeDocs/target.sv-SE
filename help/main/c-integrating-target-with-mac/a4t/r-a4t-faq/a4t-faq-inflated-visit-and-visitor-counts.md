@@ -18,7 +18,7 @@ Det här avsnittet innehåller svar på frågor som ofta ställs om inflaterade 
 ## Jag ser en topp i besök. Hur vet jag om de här besöken orsakas av partiella dataträffar? {#section_28506672C6224ED18AC74F6A02F6F811}
 
 +++Svar
-Du kan kontakta [Adobe kundtjänst](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) om du vill hämta en rapport om partiella data. Den här informationen är inte tillgänglig direkt i användargränssnittet för [!DNL Analytics].
+Du kan kontakta [Adobe kundtjänst](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) för att hämta en rapport om partiella data. Den här informationen är inte tillgänglig direkt i användargränssnittet för [!DNL Analytics].
 
 +++
 

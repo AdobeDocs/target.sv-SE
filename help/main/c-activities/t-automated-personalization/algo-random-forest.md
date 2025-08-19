@@ -2,7 +2,7 @@
 keywords: slumpskog;beslutsträd;ap;Automated Personalization
 description: Lär dig hur  [!DNL Adobe Target]  använder algoritmen Slumpmässig skog i både [!UICONTROL Automated Personalization] (AP) och [!UICONTROL Auto-Target] aktiviteter.
 title: Hur använder  [!DNL Target] algoritmen Slumpmässig skog?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=sv-SE#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Automated Personalization
 exl-id: 07a89525-4071-4434-ac96-c59a4f4422ad
 source-git-commit: d5b24f298ae405d57c2ba639082cbe99c4e358fd

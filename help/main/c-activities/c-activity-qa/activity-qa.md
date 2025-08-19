@@ -29,7 +29,7 @@ Med [!UICONTROL Activity QA] kan du testa dina [!DNL Target]-aktiviteter fullst�
 
 ## Åtkomst till och delning av en QA-URL {#section_1C59BAA247B247BDB125D1BE8EAD4547}
 
-1. Klicka på **[!UICONTROL Activity QA]** på sidan [!UICONTROL Overview] för en aktivitet.
+1. Klicka på [!UICONTROL Overview] på sidan **[!UICONTROL Activity QA]** för en aktivitet.
 
 1. Konfigurera följande inställningar:
 
@@ -71,7 +71,7 @@ Om din webbplats har .js 1.*x* distribuerad, förutom att använda [Target QA-bo
 
 ### [!DNL Adobe Experience Platform Web SDK]
 
-Om [[!UICONTROL Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=sv-SE){target=_blank} har distribuerats på din webbplats kan du tvinga dig ut manuellt genom att läsa in en sida på din webbplats med parametern `at_qa_mode` med ett tomt värde. Exempel:
+Om [[!UICONTROL Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} har distribuerats på din webbplats kan du tvinga dig ut manuellt genom att läsa in en sida på din webbplats med parametern `at_qa_mode` med ett tomt värde. Exempel:
 
 `https://www.mysite.com/?at_qa_mode=`
 
@@ -84,7 +84,7 @@ Om [[!UICONTROL Platform Web SDK]](https://experienceleague.adobe.com/docs/targe
 * Aktiviteter som importerats till [!DNL Target Standard/Premium] (till exempel från [!DNL Target Classic]) stöder inte QA-URL:er.
 * I [!UICONTROL Auto-Allocate]- och [!UICONTROL Recommendations]-aktiviteter påverkas inte modellen av de besök som gjorts i [!UICONTROL Activity QA].
 * Om du angav &quot;URL is&quot; när du skapade aktiviteten [förfiningar i den formulärbaserade dispositionen](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) eller [sidleveransalternativen i Visual Experience Composer)](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81) fungerar inte QA-URL:en eftersom [!UICONTROL Activity QA] lägger till URL-parametrar. Du löser det här problemet genom att klicka på QA-URL:en för att gå till webbplatsen, ta bort de tillagda parametrarna från URL:en och sedan läsa in den nya URL:en.
-* Om du har .js 1.Läget *x*, [!UICONTROL Activity QA] är inte tilltalande om du använder Safari eller en annan webbläsare som blockerar cookies från tredje part. I dessa fall måste du lägga till förhandsgranskningsparametrarna i varje URL som du navigerar till. Detsamma gäller om du har implementerat [CNAME](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html?lang=sv-SE){target=_blank}.
+* Om du har .js 1.Läget *x*, [!UICONTROL Activity QA] är inte tilltalande om du använder Safari eller en annan webbläsare som blockerar cookies från tredje part. I dessa fall måste du lägga till förhandsgranskningsparametrarna i varje URL som du navigerar till. Detsamma gäller om du har implementerat [CNAME](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html){target=_blank}.
 * Om en aktivitet använder flera upplevelsemålgrupper (till exempel en amerikansk och brittisk webbplats som ingår i samma aktivitet) genereras inte QA-länkar för de fyra kombinationerna (Experience A/US Site, Experience A/UK Site, Experience B/US Site, Experience B/UK Site). Endast två QA-länkar (Experience A och Experience B) skapas, och användarna måste kvalificera sig för att rätt målgrupp ska kunna se sidan. En brittisk QA-person kan inte se den amerikanska webbplatsen.
 * Alla `at_preview`-parametrar och värden är redan URL-kodade. För det mesta fungerar allt som förväntat. Vissa kunder måste dock läsa in utjämnare eller webbservrar som försöker koda frågesträngsparametrarna igen.
 
@@ -111,9 +111,9 @@ Om [[!UICONTROL Platform Web SDK]](https://experienceleague.adobe.com/docs/targe
 
 [!DNL Target] har stöd för följande JavaScript-bibliotek:
 
-* [at.js 1.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=sv-SE)
-* [at.js 2.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=sv-SE)
-* [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=sv-SE)
+* [at.js 1.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
+* [at.js 2.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
+* [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html)
 
 I följande tabell visas de olika aktivitetstyperna och om [!UICONTROL Activity QA]-läget stöds för varje bibliotek:
 

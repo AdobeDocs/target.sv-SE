@@ -7,7 +7,7 @@ exl-id: 649eaf48-210c-4192-b727-53f0d146a1e2
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
 source-wordcount: '153'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -17,7 +17,7 @@ Se utbildningsvideor som hjälper dig att få ut mesta möjliga av Target Standa
 
 Videoklipp finns i följande kategorier:
 
-* Experience Cloud och allmänna funktioner
+* Experience Cloud och General Capabilities
 * Skapa aktiviteter
 * Målgrupper och målinriktning
 * Resurshantering
@@ -29,14 +29,14 @@ Videoklipp finns i följande kategorier:
 
 Utbildningsvideor är inbäddade i relevanta ämnen i den här handboken. Klicka på videobilden för att spela upp videon utan att lämna hjälpen.
 
-## Adobe [!DNL Target] - Tutorials och video
+## Adobe [!DNL Target] - självstudiekurser och videoklipp
 
-En samling instruktionsvideor och självstudiekurser som visar vilka funktioner i Target som finns på sidan [Adobe Target Experience League](https://guided.adobe.com/#recommended/solutions/target).
+En samling instruktionsvideor och självstudiekurser som visar vilka funktioner i Target som finns på sidan [Adobe Target Experience League](https://guided.adobe.com/#recommended/solutions/target) .
 
-![Experience League-videofilmer](/help/main/c-intro/assets/experience-league.png)
+![Experience League-videor](/help/main/c-intro/assets/experience-league.png)
 
-## Adobe [!DNL Target] Tutorials {#tutorials}
+## Adobe [!DNL Target] Självstudiekurser {#tutorials}
 
-Videointroduktioner till [!DNL Target] koncept och verktyg finns på sidan [Adobe Target Tutorials](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=sv-SE).
+Videointroduktioner till [!DNL Target] koncept och verktyg finns på sidan [Adobe Target-självstudiekurser](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html).
 
-![Adobe Target Tutorials](/help/main/c-intro/assets/adobe-target-tutorials-new.png)
+![Adobe Target-självstudiekurser](/help/main/c-intro/assets/adobe-target-tutorials-new.png)

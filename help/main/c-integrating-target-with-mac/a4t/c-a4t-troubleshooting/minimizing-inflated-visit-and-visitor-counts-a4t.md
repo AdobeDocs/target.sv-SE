@@ -22,7 +22,7 @@ Information som hjälper dig att minimera effekterna av uppblåst besök och bes
 >
 >Dessutom har flera JavaScript-bibliotek uppdaterats för att minimera antalet inflaterade räkningar. Adobe rekommenderar att du uppgraderar till följande biblioteksversioner (eller nyare):
 >
->* Experience Cloud Visitor ID-tjänst: visitorAPI.js version 2.3.0 eller senare.
+>* Experience Cloud Visitor ID Service: visitorAPI.js version 2.3.0 eller senare.
 >* Adobe Analytics: appMeasurement.js version 2.1.
 >* Adobe Target: at.js version 0.9.6 eller senare (utom version 1.1.0 om du använder omdirigeringserbjudanden med A4T).
 
@@ -32,7 +32,7 @@ När [!DNL Adobe Analytics] används för att mäta [!DNL Target] aktiviteter (k
 
 ## Varför gjorde Adobe den här ändringen? {#section_92380A4BD69E4B8886692DD27540C92A}
 
-Adobe sätter sig vid datakvalitet och -kvalitet. När taggen [!DNL Target] utlöses, men inte taggen [!DNL Analytics] , spelar Analytics in &quot;part data&quot; (kallas ibland &quot;unstitched hits&quot;). De osydda träffarna fångas inte av [!DNL Analytics] om det inte fanns någon [!DNL Target]-aktivitet. Även om denna del av data i [!DNL Analytics]-rapportering ger ytterligare information, skapar den också inkonsekvens med historiska data från perioder när det inte fanns några [!DNL Target]-aktiviteter som kördes. Den här situationen kan orsaka problem för [!DNL Analytics]-användare som analyserar trender över tid. För att säkerställa datakonsekvens i [!DNL Analytics] utesluter Adobe alla partiella data.
+Adobe fokuserar på datakvalitet och -kvalitet. När taggen [!DNL Target] utlöses, men inte taggen [!DNL Analytics] , spelar Analytics in &quot;part data&quot; (kallas ibland &quot;unstitched hits&quot;). De osydda träffarna fångas inte av [!DNL Analytics] om det inte fanns någon [!DNL Target]-aktivitet. Även om denna del av data i [!DNL Analytics]-rapportering ger ytterligare information, skapar den också inkonsekvens med historiska data från perioder när det inte fanns några [!DNL Target]-aktiviteter som kördes. Den här situationen kan orsaka problem för [!DNL Analytics]-användare som analyserar trender över tid. För att säkerställa datakonsekvens i [!DNL Analytics] utesluter Adobe alla partiella data.
 
 ## Vad bidrar till delar av data? {#section_C9C906BEAA7D44DAB9D3C03932A2FEB8}
 
@@ -42,9 +42,9 @@ De identifierade orsakerna till partiella data är bland annat följande:
 
 * **Feljusterade rapportpaket-ID (implementering):** Rapportsviten som angavs under aktivitetsinställningarna matchar inte rapportsviten på sidan där testet levereras. Data kan inte förenas på [!DNL Analytics]-servrar, så det ser ut som partiella data.
 * **Långsamma sidor:** [!DNL Target] anrop är längst upp på sidan och [!DNL Analytics] anrop är vanligtvis längst ned på sidan. Om sidan läses in långsamt ökar det sannolikheten för att en besökare lämnar sidan efter att [!DNL Target]-anropet har utlösts, men före [!DNL Analytics]-anropet. Långsamma sidor kan vara särskilt problematiska på mobilwebbplatser där anslutningarna ofta är långsammare.
-* **Sidfel:** Om det finns JavaScript-fel eller andra scenarier där varje kontaktyta inte utlöses (Experience Cloud ID-tjänst, mål och analys), delresultat av data.
+* **Sidfel:** Om det finns JavaScript-fel eller andra scenarier där varje kontaktyta inte utlöses (Experience Cloud ID-tjänst, mål och analys), ger delvisa data.
 * **Omdirigeringserbjudanden i [!DNL Target] aktivitet:** För omdirigeringserbjudanden i aktiviteter som använder A4T måste implementeringen uppfylla vissa minimikrav. Dessutom finns det viktig information som du måste känna till. Mer information finns i [Omdirigeringserbjudanden - A4T - frågor och svar](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_FA9384C2AA9D41EDBCE263FFFD1D9B58).
-* **Gamla versioner av biblioteken:** Adobe har under det senaste året gjort flera förbättringar i JavaScript-biblioteken ( [!DNL appMeasurement.js], `at.js` och `visitorAPI.js`) för att säkerställa att data skickas så effektivt som möjligt. Mer information om implementeringskrav finns i [Innan du implementerar](/help/main/c-integrating-target-with-mac/a4t/before-implement.md#concept_046BC89C03044417A30B63CE34C22543).
+* **Gamla versioner av biblioteken:** Under det senaste året har Adobe gjort flera förbättringar av JavaScript-biblioteken ( [!DNL appMeasurement.js], `at.js` och `visitorAPI.js`) för att säkerställa att data skickas så effektivt som möjligt. Mer information om implementeringskrav finns i [Innan du implementerar](/help/main/c-integrating-target-with-mac/a4t/before-implement.md#concept_046BC89C03044417A30B63CE34C22543).
 
 ## Vilka är de bästa sätten att minska partiella data? {#section_065C38501527451C8058278054A1818D}
 
@@ -71,7 +71,7 @@ I de flesta fall sammanfogas en [!DNL Target]-träff med en [!DNL Analytics]-tr�
 
 **Deldataträffar:** Användare finns ibland inte kvar på en sida tillräckligt länge för att skicka ett [!DNL Analytics]-anrop, men [!DNL Target] har ett korrekt MCID. Det här scenariot resulterar i partiella dataträffar (träffar utan sidvy [!DNL Analytics]). Om de här användarna kommer tillbaka till din webbplats och visar en sida med [!DNL Analytics] kod räknas de som återkommande besökare. Dessa träffar skulle ha gått förlorade om du bara hade [!DNL Analytics] kod på sidan. Vissa kunder vill inte ha data för de här träffarna eftersom de fyller upp vissa mätvärden (besök) och tömmer andra mätvärden (sidvisningar per besök, tid per besök och så vidare). Du kan även se besök utan sidvisningar. Det finns dock fortfarande giltiga skäl att behålla dessa data.
 
-Om du vill minimera träffar med delar av data kan du få sidan att läsas in snabbare, uppdatera till de senaste versionerna av biblioteken eller skapa en [virtuell rapportsvit](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=sv-SE) som utesluter dessa träffar. Stegvisa instruktioner finns i [Skapa virtuella rapportsviter](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=sv-SE) i *Handboken för analyskomponenter*.
+Om du vill minimera träffar med delar av data kan du få sidan att läsas in snabbare, uppdatera till de senaste versionerna av biblioteken eller skapa en [virtuell rapportsvit](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) som utesluter dessa träffar. Stegvisa instruktioner finns i [Skapa virtuella rapportsviter](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) i *Handboken för analyskomponenter*.
 
 Följande bild visar segmentdefinitionen för den virtuella rapportsviten:
 
@@ -92,7 +92,7 @@ När du skapar den virtuella rapportsviten anger du följande konfiguration för
 
 **Överblivna träffar:** I färre situationer finns användarna inte kvar på sidan tillräckligt länge för ett Analytics-anrop och Target fick inget korrekt MCID. Det här är vad Adobe definierar som &quot;föräldralösa&quot; träffar. Dessa träffar representerar kunder som sällan återvänder och som får besökarna att öka antalet besökare på ett felaktigt sätt.
 
-Om du vill minimera dessa &quot;överblivna&quot; träffar kan du skapa en [virtuell rapportsvit](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=sv-SE) som utesluter dessa träffar, vilket förklaras ovan.
+Om du vill minimera dessa &quot;överblivna&quot; träffar kan du skapa en [virtuell rapportsvit](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) som utesluter dessa träffar, vilket förklaras ovan.
 
 ## Vad innebär detta för min [!DNL Target]-rapportering? {#section_AAD354C722BE46D4875507F0FCBA5E36}
 

@@ -94,7 +94,7 @@ Du kan överväga att använda mallregler för att återge samma aktivitet i hel
 
 1. Klicka på **[!UICONTROL Add Template Rule]** > **[!UICONTROL Domain]**.
 
-1. Välj **[!UICONTROL Contains]** i listrutan **[!UICONTROL Choose evaluator]** och ange sedan domänen.
+1. Välj **[!UICONTROL Choose evaluator]** i listrutan **[!UICONTROL Contains]** och ange sedan domänen.
 
    ![Domänen innehåller](/help/main/c-experiences/c-visual-experience-composer/assets/domain-template-rule.png)
 

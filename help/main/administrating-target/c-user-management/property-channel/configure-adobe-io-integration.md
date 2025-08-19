@@ -1,8 +1,8 @@
 ---
 keywords: integration;roller;användarbehörigheter;Admin Console
-description: Lär dig hur du ger integreringar med Adobe I/O tillgång till alla arbetsytor med önskad roll i Adobe Target.
+description: Lär dig hur du ger befintliga Adobe I/O-integreringar åtkomst till alla arbetsytor med önskad roll i Adobe Target.
 title: Hur ger jag Adobe I/O åtkomst till arbetsytor och tilldelar roller?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=sv-SE#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Administration & Configuration
 role: Admin
 exl-id: 62f6399f-c590-470c-ac3b-e0c84db63112
@@ -13,35 +13,35 @@ ht-degree: 0%
 
 ---
 
-# Ge Adobe I/O integreringar åtkomst till arbetsytor och tilldela roller
+# Ge Adobe I/O-integreringar åtkomst till arbetsytor och tilldela roller
 
 [!UICONTROL Enterprise Permissions] tillåter [!DNL Target]-kunder att använda en enda organisation, men dela in den i arbetsytor för sina olika team eller arbetsflöden.
 
 >[!NOTE]
 >
->Egenskaper och behörigheter är tillgängliga som en del av lösningen [Target Premium](/help/main/c-intro/intro.md#premium). De är inte tillgängliga i [!DNL Target Standard] utan en [!DNL Target Premium]-licens.
+>Egenskaper och behörigheter är tillgängliga som en del av [Target Premium](/help/main/c-intro/intro.md#premium) -lösningen. De är inte tillgängliga i [!DNL Target Standard] utan en [!DNL Target Premium]-licens.
 
-Funktionen [!UICONTROL Enterprise Permissions] underlättar effektiv skalning av optimeringsprogram mellan olika team. Även om funktionen var tillgänglig i [!DNL Target]-gränssnittet saknade Admin-API:erna motsvarande stöd fram till tidigare år 2019. I versionen från [!DNL Target] februari 2019 uppdaterade Adobe Admin API:erna så att du kan använda integrationskontot för att komma åt alla arbetsytor som skapats i organisationen. Tidigare var Admin API:er begränsade till endast standardarbetsytan, men uppdateringen från februari 2019 gav åtkomst till alla arbetsytor med [!UICONTROL Approver]-åtkomst.
+Funktionen [!UICONTROL Enterprise Permissions] underlättar effektiv skalning av optimeringsprogram mellan olika team. Även om funktionen var tillgänglig i [!DNL Target]-gränssnittet saknade Admin-API:erna motsvarande stöd fram till tidigare år 2019. I versionen från [!DNL Target] februari 2019 uppdaterade Adobe Admin API:erna så att du kan använda integrationskontot för att få tillgång till alla arbetsytor som skapats i organisationen. Tidigare var Admin API:er begränsade till endast standardarbetsytan, men uppdateringen från februari 2019 gav åtkomst till alla arbetsytor med [!UICONTROL Approver]-åtkomst.
 
 Med versionen från [!DNL Target] september 2019 ger [!DNL Target] [!UICONTROL Enterprise Permissions] kunderna följande åtkomstkontroller:
 
 * Du kan välja vilka arbetsytor som integreringen kan användas på
-* Du kan använda en roll för integreringen av Adobe I/O: [!UICONTROL Approver], [!UICONTROL Editor] eller [!UICONTROL Observer].
+* Du kan använda en roll för Adobe I/O-integreringen: [!UICONTROL Approver], [!UICONTROL Editor] eller [!UICONTROL Observer].
 
 Uppdateringen stöder följande användningsexempel:
 
-* Bevilja integreringsåtkomst för Adobe I/O till alla arbetsytor med rollen [!UICONTROL Observer] för rapportering utan behörighet att skapa eller redigera resurser.
-* Ge integreringen av Adobe I/O åtkomst till utvalda arbetsytor med lämplig roll så att ett centralt team kan göra API-drivna ändringar på bara ett fåtal arbetsytor.
+* Ge Adobe I/O-integreringsåtkomst till alla arbetsytor med rollen [!UICONTROL Observer] för rapportering utan behörighet att skapa eller redigera resurser.
+* Ge integreringen av Adobe I/O åtkomst till utvalda arbetsytor med rätt roll så att ett centralt team kan göra API-drivna ändringar på bara några få arbetsytor.
 * Låt varje team som äger arbetsytan ha en egen integrering när teamet är redo att utforska API:er och välja rollen i enlighet med detta.
 * Blanda och matcha ovanstående scenarier.
 
-**Åtgärd krävs**: De kunder som för närvarande använder API:er för CRUD-åtgärder på resurser (aktiviteter, målgrupper, erbjudanden och rapporter) på alla arbetsytor måste ge sin befintliga Adobe I/O-integration åtkomst till alla arbetsytor med den önskade rollen utifrån användningsfallet. Du kan göra det genom att markera varje [!DNL Target] [!UICONTROL Product Profile] i [!DNL Adobe Admin Console] och lägga till integreringen/integrationerna på fliken [!UICONTROL Integration]. Före versionen från september användes alla integreringar med [!UICONTROL Approver]-åtkomst, oavsett vilket alternativ som gjordes i listrutan [!UICONTROL Product Role]. Du kan nu välja önskad roll.
+**Åtgärd krävs**: De kunder som för närvarande använder API:er för CRUD-åtgärder på resurser (aktiviteter, målgrupper, erbjudanden och rapporter) på alla arbetsytor måste ge sin befintliga Adobe I/O-integration åtkomst till alla arbetsytor med den önskade rollen beroende på användningsfall. Du kan göra det genom att markera varje [!DNL Target] [!UICONTROL Product Profile] i [!DNL Adobe Admin Console] och lägga till integreringen/integrationerna på fliken [!UICONTROL Integration]. Före versionen från september användes alla integreringar med [!UICONTROL Approver]-åtkomst, oavsett vilket alternativ som gjordes i listrutan [!UICONTROL Product Role]. Du kan nu välja önskad roll.
 
 >[!NOTE]
 >
 >Om den här åtgärden inte utförs kommer åtkomstkontrollerna att aktiveras efter den [!DNL Target] september 2019, och du kommer att se åtkomsten till endast standardarbetsytan om det är så du är konfigurerad. Det finns ingen negativ reaktion på att upprätta integreringar i förväg. Ju tidigare du gör den här ändringen, desto bättre. Beroende på antalet arbetsytor i organisationen tar den här processen bara några klick för att lägga till en befintlig integrering i arbetsytor med den önskade rollen.
 
-**Om du vill ge Adobe I/O-integreringar åtkomst till arbetsytor och tilldela roller:**
+**Så här ger du Adobe I/O-integreringar åtkomst till arbetsytor och tilldelar roller:**
 
 1. Öppna **[Adobe Admin Console](https://adminconsole.adobe.com)**.
 

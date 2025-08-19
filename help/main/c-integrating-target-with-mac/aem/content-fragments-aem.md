@@ -39,15 +39,15 @@ Mer information om AEM [!UICONTROL Content Fragments] och [!UICONTROL Experience
 
 ## Krav {#requirements}
 
-Du måste använda [[!DNL AEM] as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=sv-SE){target=_blank}. Din kontorepresentant kan se till att du uppfyller kraven för den här funktionen:
+Du måste använda [[!DNL AEM] as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html){target=_blank}. Din kontorepresentant kan se till att du uppfyller kraven för den här funktionen:
 
 Kontakta [Adobe Target kundtjänst](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) om du vill aktivera integreringen och ge dig autentiseringsinformation.
 
 ## Konfigurerar och arbetar med [!UICONTROL Content Fragments] i [!DNL AEM] {#section_745C8EFE29F547A2958FDBF61A5ADF7B}
 
-Om du vill exportera [!UICONTROL Content Fragments] för användning i [!DNL Target]-aktiviteter måste du utföra några preliminära steg i AEM. Mer information finns i [Exportera innehållsfragment till Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/content-fragments-target.html?lang=sv-SE){target=_blank} i *Experience Manager as a Cloud Service-dokumentationen*.
+Om du vill exportera [!UICONTROL Content Fragments] för användning i [!DNL Target]-aktiviteter måste du utföra några preliminära steg i AEM. Mer information finns i [Exportera innehållsfragment till Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/content-fragments-target.html){target=_blank} i *Experience Manager as a Cloud Service-dokumentationen*.
 
-Mer information om att utforma, skapa, strukturera och publicera [!UICONTROL Content Fragments] finns i [[!UICONTROL Content Fragments]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/content-fragments.html?lang=sv-SE){target=_blank} och [Arbeta med innehållsfragment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments.html?lang=sv-SE){target=_blank} i [Experience Manager as a Cloud Service-dokumentationen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/home.html?lang=sv-SE){target=_blank}.
+Mer information om att utforma, skapa, strukturera och publicera [!UICONTROL Content Fragments] finns i [[!UICONTROL Content Fragments]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/content-fragments.html?lang=en){target=_blank} och [Arbeta med innehållsfragment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments.html){target=_blank} i [Experience Manager as a Cloud Service-dokumentationen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/home.html){target=_blank}.
 
 ## Använder [!UICONTROL Content Fragments] i [!DNL Target] aktiviteter {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
 

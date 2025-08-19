@@ -17,7 +17,7 @@ Kombinera flera målgrupper (inklusive [!DNL Adobe Experience Cloud], [!DNL Adob
 
 >[!NOTE]
 >
->[!DNL Adobe Experience Platform]-källan är tillgänglig för alla [!DNL Target]-kunder som använder [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=sv-SE){target=_blank}. Publiker som är tillgängliga från [!DNL Adobe Experience Platform] kan användas som de är eller kombineras med befintliga målgrupper, vilket förklaras i det här avsnittet.
+>[!DNL Adobe Experience Platform]-källan är tillgänglig för alla [!DNL Target]-kunder som använder [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=en){target=_blank}. Publiker som är tillgängliga från [!DNL Adobe Experience Platform] kan användas som de är eller kombineras med befintliga målgrupper, vilket förklaras i det här avsnittet.
 >
 >Mer information finns i [Använda målgrupper från Adobe Experience Platform](/help/main/c-target/c-audiences/audiences.md#aep).
 
@@ -83,7 +83,7 @@ Du kan skapa en ad hoc-målgrupp på aktivitetens [!UICONTROL Target]-sida under
 
 Du kan skapa en ad hoc-målgrupp på aktivitetens [!UICONTROL Goals & Settings]-sida som ska användas för målinriktning mot mätvärden. Om du till exempel vill skapa mål baserat på konvertering med en kombinerad målgrupp:
 
-1. När du redigerar eller skapar en [aktivitet](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) väljer du **[!UICONTROL Conversion]** som framgångsmått på sidan **[!UICONTROL Goals & Settings]** och sedan **[!UICONTROL Viewed an Mbox]** som åtgärd.
+1. När du redigerar eller skapar en [aktivitet](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) väljer du **[!UICONTROL Goals & Settings]** som framgångsmått på sidan **[!UICONTROL Conversion]** och sedan **[!UICONTROL Viewed an Mbox]** som åtgärd.
 1. Markera önskad mbox i fältet **[!UICONTROL Search mbox]**.
 
    ![combin_multiple_audiences4 image](assets/combine_multiple_audiences4.png)
@@ -99,7 +99,7 @@ Du kan skapa en ad hoc-målgrupp på aktivitetens [!UICONTROL Goals & Settings]-
 
 Du kan skapa en kombinerad ad ad hoc-målgrupp på aktivitetens [!UICONTROL Goals & Settings]-sida som ska användas för rapportering.
 
-1. När du redigerar eller skapar en [aktivitet](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) klickar du på ikonen **[!UICONTROL Add Audience]** under [!UICONTROL Audiences for Reporting] på sidan [!UICONTROL Choose Audience] för att visa sidan **[!UICONTROL Goals & Settings]**.
+1. När du redigerar eller skapar en [aktivitet](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) klickar du på ikonen **[!UICONTROL Goals & Settings]** under **[!UICONTROL Add Audience]** på sidan [!UICONTROL Audiences for Reporting] för att visa sidan [!UICONTROL Choose Audience].
 
    ![combin_multiple_audiences6 image](assets/combine_multiple_audiences6.png)
 

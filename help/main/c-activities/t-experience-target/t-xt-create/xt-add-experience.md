@@ -102,7 +102,7 @@ I den här videon beskrivs hur A/B-testning går till nästa nivå med [!UICONTR
 
 ### Aktivitetstyper (9:03)
 
-I den här videon förklaras de aktivitetstyper som är tillgängliga i [!DNL Target]. [!UICONTROL Experience Targeting] diskuteras från 17:15.
+I den här videon förklaras de aktivitetstyper som är tillgängliga i [!DNL Target]. [!UICONTROL Experience Targeting] diskuteras med början vid 5:15.
 
 * Beskriv de typer av aktiviteter som ingår i [!DNL Adobe Target]
 * Välj lämplig aktivitetstyp för att uppnå dina mål

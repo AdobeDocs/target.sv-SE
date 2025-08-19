@@ -37,11 +37,11 @@ När du använder [!UICONTROL Auto-Allocate] visar [!DNL Target] ett emblem hög
 
 Mer information finns i [Översikt över automatisk allokering](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md).
 
-## Beräkna provstorlek för Adobe [!DNL Target] {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
+## Beräkna exempelstorlek för Adobe [!DNL Target] {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
 
 Om du väljer att använda en manuell [!UICONTROL A/B Test]-aktivitet i stället för [!UICONTROL Auto-Allocate] kan du med [!DNL Target]-beräkningen ta reda på vilken provstorlek som behövs för att testet ska lyckas. Ett manuellt A/B-test är ett fast horisonttest, så beräkningsverktyget är användbart. Det är valfritt att använda beräkningsverktyget för en [!UICONTROL Auto-Allocate]-aktivitet eftersom [!UICONTROL Auto-Allocate] deklarerar en vinnare åt dig. Beräkningsverktyget ger en ungefärlig uppskattning av den samplingsstorlek som behövs. Fortsätt läsa om du vill ha mer information om hur du använder beräkningsverktyget.
 
-Gå till [!DNL Adobe Target] [Beräkna provstorlek](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=sv-SE) innan du konfigurerar A/B-testet.
+Gå till [!DNL Adobe Target] [Beräkna provstorlek](https://experienceleague.adobe.com/tools/calculator/testcalculator.html) innan du konfigurerar A/B-testet.
 
 ![Beräkna exempelstorlek för Adobe Target](/help/main/c-activities/t-test-ab/assets/sample_size_calculator-new.png)
 

@@ -25,7 +25,7 @@ Testet använder Bonferroni-korrigeringen för att korrigera för flera jämför
 
 Trafikberäkningsverktyget ger även feedback som talar om för dig om du har tillräckligt med trafik för det test du har utformat för att lyckas.
 
-1. Klicka på ikonen **[!UICONTROL Traffic]** i [!UICONTROL Visual Experience Composer].
+1. Klicka på ikonen [!UICONTROL Visual Experience Composer] i **[!UICONTROL Traffic]**.
 
    Trafikberäkningsverktyget öppnas. Du kan klicka på ikonen **[!UICONTROL Traffic]** igen om du vill dölja trafikuppskattningen.
 

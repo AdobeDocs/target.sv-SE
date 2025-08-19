@@ -2,7 +2,7 @@
 keywords: rekommendation;säkerhetskopia;säkerhetskopiera
 description: Lär dig hur du använder rekommendationer för säkerhetskopiering i Adobe [!DNL Target Recommendations].
 title: Hur använder jag en rekommendation för säkerhetskopiering i  [!DNL Target Recommendations]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=sv-SE#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Recommendations
 exl-id: 070aa8ef-5691-4106-b5cf-45eb9f6f334c
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c

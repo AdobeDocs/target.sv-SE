@@ -35,6 +35,6 @@ Den andra tabellen innehåller en rapport på erbjudandenivå. Den visar konvert
 
 ## Utbildningsvideo: Skapa ett MVT-test
 
-I den här videon visas hur du skapar ett multivariata test med hjälp av det guidade arbetsflödet i [!DNL Target] i tre steg. Platsbidragsrapporten beskrivs från och med 08:45.
+I den här videon visas hur du skapar ett multivariata test med hjälp av det guidade arbetsflödet i [!DNL Target] i tre steg. Platsbidragsrapporten beskrivs från och med :45.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17395)

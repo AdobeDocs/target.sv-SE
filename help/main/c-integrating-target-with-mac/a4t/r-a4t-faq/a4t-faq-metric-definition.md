@@ -1,12 +1,12 @@
 ---
 keywords: frågor och svar;vanliga frågor;analys för mål;a4T;mått;måttdefinitioner
-description: Hitta svar på frågor om måttdefinitioner och användning av Analytics för  [!DNL Target] (A4T). Med A4T kan du använda Analytics-rapportering med Adobe [!DNL Target] -aktiviteter.
+description: Hitta svar på frågor om måttdefinitioner och användning av Analytics för  [!DNL Target] (A4T). Med A4T kan du använda Analytics-rapportering med Adobe [!DNL Target] aktiviteter.
 title: Var hittar jag information om metriska definitioner med A4T?
 feature: Analytics for Target (A4T)
 exl-id: 97442622-ba6d-46f8-bfac-72638875d889
 source-git-commit: aff96eca1380f4274dba0c1567f6e41d42f4b5ab
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '351'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ För andra aktiviteter än A4T kan du använda [Avancerade inställningar](/help
 
 +++
 
-## Vad är beräknade mätvärden och hur ersätter de SiteCatalysten:Den händelseruta jag använde tidigare? {#section_D59F4719E6B94758A2187427C17F8EF3}
+## Vad är beräknade mätvärden och hur ersätter de den SiteCatalyst:Event-mbox som jag använde tidigare? {#section_D59F4719E6B94758A2187427C17F8EF3}
 
 +++Svar
 Med beräknade mätvärden kan du skapa anpassade mätvärden som är härledda från segment eller matematiska beräkningar. Tidigare, när du kanske använde mbox `SiteCatlayst:Event` där `evar27=shoes` och händelsen är `purchase`, skulle du nu skapa ett segment där `evar27=shoes` och sedan skapa ett beräknat mått där händelsen är `purchase` med segmentet tillämpat. Dessa mätvärden kan skapas när som helst, även efter att aktiviteten pågår. De kan sedan användas på alla rapporter i Analytics.

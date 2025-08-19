@@ -51,7 +51,7 @@ När ni kommer på idén med testning bör ni tänka på att ni borde kunna för
 
 ## Planera din aktivitet med aktivitetsplaneraren
 
-Vi har inkluderat [Adobe Target aktivitetsplanerare](/help/main/assets/activity-planner.pdf) som ett fristående PDF som du kan spara och använda om och om igen. Klicka på länken om du vill visa filen PDF. Högerklicka för att hämta PDF-filen.
+Vi har inkluderat [Adobe Target aktivitetsplanerare](/help/main/assets/activity-planner.pdf) som en fristående PDF som du kan spara och använda om och om igen. Klicka på länken för att visa PDF-filen. Högerklicka för att ladda ned PDF-filen.
 
 För att kunna utföra en effektiv aktivitet måste du fylla i varje område i planeringsområdet. Använd det här verktyget när du och andra brainstormar idéer för testning och personalisering.
 

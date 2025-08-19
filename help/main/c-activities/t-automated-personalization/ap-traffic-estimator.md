@@ -2,7 +2,7 @@
 keywords: trafikskattare;automatiserad personalisering;ap;uppskattning av trafik
 description: Använd [!UICONTROL Traffic Estimator] för att utvärdera om du har tillräckligt med trafik för att en [!UICONTROL Automated Personalization]-aktivitet ska lyckas.
 title: Hur mycket trafik krävs för en lyckad [!UICONTROL Automated Personalization]-aktivitet?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=sv-SE#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Automated Personalization
 exl-id: 11f9e239-700b-45cd-bf77-39f7f8967a2e
 source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
@@ -24,7 +24,7 @@ Kom ihåg att [!DNL Target] skickar upplevelser slumpmässigt tills personaliser
 
 ## Använda Traffic Estimator
 
-1. Klicka på ikonen **[!UICONTROL Traffic]** ( ![Trafikberäkning](/help/main/assets/icons/Gauge2.svg) ) i det övre vänstra hörnet på [!UICONTROL Experiences]-sidan [!UICONTROL Experiences] i [!UICONTROL Visual Experience Composer] i en [!UICONTROL Automated Personalization] -aktivitet.
+1. Klicka på ikonen [!UICONTROL Experiences] ( [!UICONTROL Visual Experience Composer]Trafikberäkning[!UICONTROL Automated Personalization] ) i det övre vänstra hörnet på **[!UICONTROL Traffic]**-sidan ![ i ](/help/main/assets/icons/Gauge2.svg) i en [!UICONTROL Experiences] -aktivitet.
 
    [!UICONTROL Traffic Estimator] öppnas.
 

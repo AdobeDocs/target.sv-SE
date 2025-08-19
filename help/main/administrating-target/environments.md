@@ -7,7 +7,7 @@ role: Admin
 exl-id: 820a116a-15f9-4ba0-94f3-8e35aa0f90da
 source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '653'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Klicka **[!UICONTROL Administration]** > **[!UICONTROL Environments]** om du vil
 
 ## Lägga till en miljö {#section_32097D0993724DF3A202D164D3F18674}
 
-1. Klicka på **[!UICONTROL Add Environment]** i listan [!UICONTROL Environments].
+1. Klicka på [!UICONTROL Environments] i listan **[!UICONTROL Add Environment]**.
 1. Ange ett beskrivande namn för miljön.
 1. Ange önskat aktivt läge för miljön: [!UICONTROL Active Activities] eller [!UICONTROL Active and Inactive Activities].
 
@@ -50,11 +50,11 @@ Så här anger du standardmiljön för rapportering:
 >
 >[!DNL Recommendations] användare måste återskapa sin beteendedatabas och produktdatabas om värdar byter värdgrupper.
 >
->Om du anger en [standardmiljö i en [!DNL Adobe Experience Platform] datastream](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=sv-SE#target){target=_blank} åsidosätter den här inställningen inställningen inställningen i [!DNL Target].
+>Om du anger en [standardmiljö i en [!DNL Adobe Experience Platform] datastream](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=en#target){target=_blank} åsidosätter den här inställningen inställningen inställningen i [!DNL Target].
 
 ## Ändra namnet på en miljö {#section_9F5F94285F8E495E9CE69810CE94CA08}
 
-1. Klicka på ikonen **[!UICONTROL Edit]** i listan [!UICONTROL Environment].
+1. Klicka på ikonen [!UICONTROL Environment] i listan **[!UICONTROL Edit]**.
 1. Ändra miljönamnet.
 1. Klicka på **[!UICONTROL Save]**.
 
@@ -62,14 +62,14 @@ Så här anger du standardmiljön för rapportering:
 
 Du kan ta bort en miljö när den inte längre behövs.
 
-1. Klicka på ikonen **[!UICONTROL Delete]** i listan [!UICONTROL Environment].
+1. Klicka på ikonen [!UICONTROL Environment] i listan **[!UICONTROL Delete]**.
 1. Klicka på **[!UICONTROL Delete]** för att bekräfta borttagningen.
 
 >[!NOTE]
 >
 >Du kan inte ta bort miljön [!UICONTROL Production], men du kan byta namn på den.
 
-## [!BADGE Premium]{type=Positive url="/help/main/c-intro/intro.md#premium newtab=true" tooltip="Se vad som ingår i Target Premium."}
+## [!BADGE Premium]{type=Positive url="/help/main/c-intro/intro.md#premium newtab=true" tooltip="Se vad som ingår i Target Premium."} Rekommendationer: filtersamlingar och undantag per miljö (värdgrupp)
 
 Du kan förhandsgranska innehållet i Recommendations-samlingar och undantag för en vald miljö (värdgrupp).
 

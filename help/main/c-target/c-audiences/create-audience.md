@@ -39,7 +39,7 @@ Följande regel riktar sig till exempel till besökare som använder antingen [!
 
    ![audiences_list image](assets/audiences_list.png)
 
-1. Klicka på **[!UICONTROL Create Audience]** i listan [!UICONTROL Audiences].
+1. Klicka på [!UICONTROL Audiences] i listan **[!UICONTROL Create Audience]**.
 
    eller
 

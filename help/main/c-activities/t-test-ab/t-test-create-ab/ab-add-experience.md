@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Mer information om upplevelser finns i [Erfarenheter](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D).
 
-1. Klicka på ikonen [!UICONTROL Add] ( ![Lägg till ikon ](/help/main/assets/icons/Add.svg) ) högst upp i rutan [!UICONTROL Experiences] på sidan **[!UICONTROL Experiences]** i VEC-fönstret.
+1. Klicka på ikonen **[!UICONTROL Experiences]** ( [!UICONTROL Add]Lägg till ikon ![ ) högst upp i rutan ](/help/main/assets/icons/Add.svg) på sidan [!UICONTROL Experiences] i VEC-fönstret.
 
    VEC visar två flikar till vänster när du har skapat en ny aktivitet: Experience A och Experience B. Experience A är kontrollupplevelsen. Ni kan lägga till flera upplevelser i testet.
 
@@ -74,4 +74,4 @@ Du kan kopiera en upplevelse i en [!UICONTROL A/B Test] så att du kan göra min
 
 ## Ta bort en upplevelse
 
-1. Klicka på ikonen **[!UICONTROL More]** ( ![Mer ikon](/help/main/assets/icons/MoreSmall.svg) ) bredvid en upplevelse i rutan **[!UICONTROL Experiences]** och klicka sedan på **[!UICONTROL Delete]** för att bekräfta åtgärden. **[!UICONTROL Delete]**
+1. Klicka på ikonen **[!UICONTROL Experiences]** ( **[!UICONTROL More]** Mer ikon![ ) bredvid en upplevelse i rutan ](/help/main/assets/icons/MoreSmall.svg) och klicka sedan på **[!UICONTROL Delete]** för att bekräfta åtgärden. **[!UICONTROL Delete]**

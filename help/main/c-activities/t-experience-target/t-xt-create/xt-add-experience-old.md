@@ -88,7 +88,7 @@ Du kan klicka på ikonen [!UICONTROL Edit] (den lodräta ellipsen) för en upple
 
 ## Ta bort en upplevelse
 
-Klicka på den lodräta ellipsen > **[!UICONTROL Delete]** på sidan **[!UICONTROL Experiences]** (det första steget i det guidade arbetsflödet i tre steg).
+Klicka på den lodräta ellipsen > **[!UICONTROL Experiences]** på sidan **[!UICONTROL Delete]** (det första steget i det guidade arbetsflödet i tre steg).
 
 ![Ta bort upplevelse](/help/main/c-activities/t-experience-target/t-xt-create/assets/delete-experience.png)
 
@@ -96,7 +96,7 @@ Klicka på den lodräta ellipsen > **[!UICONTROL Delete]** på sidan **[!UICONTR
 
 Du kan kopiera en upplevelse i en [!UICONTROL Experience Targeting]-aktivitet så att du kan göra mindre ändringar i den utan att behöva återskapa hela upplevelsen.
 
-Klicka på den lodräta ellipsen > **[!UICONTROL Duplicate]** på sidan **[!UICONTROL Experiences]** (det första steget i det guidade arbetsflödet i tre steg).
+Klicka på den lodräta ellipsen > **[!UICONTROL Experiences]** på sidan **[!UICONTROL Duplicate]** (det första steget i det guidade arbetsflödet i tre steg).
 
 ![Dubblettupplevelse](/help/main/c-activities/t-experience-target/t-xt-create/assets/duplicate_experience-new.png)
 
@@ -116,7 +116,7 @@ I den här videon beskrivs hur A/B-testning går till nästa nivå med [!UICONTR
 
 ### Aktivitetstyper (9:03)
 
-I den här videon förklaras de aktivitetstyper som är tillgängliga i [!DNL Target]. [!UICONTROL Experience Targeting] diskuteras från 17:15.
+I den här videon förklaras de aktivitetstyper som är tillgängliga i [!DNL Target]. [!UICONTROL Experience Targeting] diskuteras med början vid 5:15.
 
 * Beskriv de typer av aktiviteter som ingår i [!DNL Adobe Target]
 * Välj lämplig aktivitetstyp för att uppnå dina mål

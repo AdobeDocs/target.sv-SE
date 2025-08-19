@@ -1,6 +1,6 @@
 ---
 keywords: Profilskript;profilskriptattribut;ömsesidigt uteslutande aktiviteter
-description: Lär dig hur du använder profilattribut för att ställa in tester i Adobe [!DNL Target]  som jämför flera aktiviteter men inte låter samma besökare delta i varje aktivitet.
+description: Lär dig hur du använder profilattribut för att konfigurera tester i Adobe [!DNL Target]  som jämför flera aktiviteter men inte låter samma besökare delta i varje aktivitet.
 title: Kan jag använda profilskript för att testa aktiviteter som utesluter varandra?
 feature: Audiences
 exl-id: b0b23887-3339-411e-9f5c-64f9d1ba778c

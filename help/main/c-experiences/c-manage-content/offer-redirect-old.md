@@ -1,6 +1,6 @@
 ---
 keywords: omdirigeringserbjudande;skapa omdirigeringserbjudande;lägg till html-erbjudande;Skicka alla URL-parametrar i omdirigering;Pass mboxSessionId i omdirigering (behövs endast när omdirigeringen går till en annan domän)
-description: Lär dig hur du skapar omdirigeringserbjudanden i Adobe [!DNL Target]  för att få en webbläsare att dirigera om till en ny sida.
+description: Lär dig hur du skapar omdirigeringserbjudanden i Adobe [!DNL Target]  så att en webbläsare dirigeras om till en ny sida.
 title: Hur skapar jag omdirigeringserbjudanden?
 feature: Experiences and Offers
 exl-id: b7b960cb-5057-455b-8fab-86dd37343a04

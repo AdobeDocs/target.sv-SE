@@ -24,6 +24,6 @@ Följande avsnitt innehåller mer information:
 - [Livslängd för besökarprofil](visitor-profile-lifetime.md)
 - [Profilattribut](profile-parameters.md)
 - [Kategoritillhörighet](category-affinity.md)
-- [Kundattribut](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=sv-SE)
+- [Kundattribut](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 - [Profilsynkronisering i realtid för mbox3rdPartyID](3rd-party-id.md)
 - [Profil och variabel ordlista](variables-profiles-parameters-methods.md)

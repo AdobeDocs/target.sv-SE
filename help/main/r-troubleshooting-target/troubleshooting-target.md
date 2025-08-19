@@ -52,9 +52,9 @@ Följande avsnitt innehåller felsökningsinformation om aktiviteter, åtskilda 
 * [Felsökning av multivariata tester](/help/main/c-activities/c-multivariate-testing/best-practices.md)
 * [Uppskatta den trafik som krävs för ett lyckat test](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md)
 
-### Recommendations
+### Rekommendationer
 
-* [RECOMMENDATIONS FAQ](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md)
+* [Rekommendationer - frågor och svar](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md)
 * [Vanliga frågor om design](/help/main/c-recommendations/c-design-overview/template-faq.md)
 
 ## Analyser och integrering med [!DNL Target] (A4T)
@@ -70,7 +70,7 @@ Följande avsnitt innehåller felsökningsinformation om aktiviteter, åtskilda 
    * [Måttdefinitioner - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md)
    * [Dela mått, segment och rapporter - A4T FAQ](/help/main/c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
    * [Klassificeringar - A4T - vanliga frågor](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md)
-   * [Äldre SiteCatalyst till Test &amp; Target-integrering - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
+   * [Integrering mellan äldre SiteCatalyst och Test &amp; Target - Vanliga frågor om A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
 
 ## Målgrupper och mål
 
@@ -96,7 +96,7 @@ Följande avsnitt innehåller felsökningsinformation om aktiviteter, åtskilda 
 
 ## Global mbox
 
-* [Global mbox](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html?lang=sv-SE)
+* [Global mbox](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html)
 
 ## Värdar/miljöer
 
@@ -108,23 +108,23 @@ Följande avsnitt innehåller felsökningsinformation om implementering av Targe
 
 ### Allmän implementering
 
-* [Webbläsare som stöds](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=sv-SE)
-* [Använda molnbaserade instanser med Target](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targeting-using-cloud-based-instances.html?lang=sv-SE)
+* [Webbläsare som stöds](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html)
+* [Använda molnbaserade instanser med Target](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targeting-using-cloud-based-instances.html)
 
 ### Globala mboxes
 
-* [Vanliga frågor om den globala mbox](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html?lang=sv-SE)
+* [Vanliga frågor om den globala mbox](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html)
 
 ### at.js
 
-* [at.js - frågor och svar](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html?lang=sv-SE)
-* [Felsöka at.js med Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html?lang=sv-SE)
-* Versionsinformation för [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=sv-SE)
+* [at.js - frågor och svar](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html)
+* [Felsöka at.js med Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html)
+* Versionsinformation för [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html)
 * &quot;Office Hours&quot;, en video som leds av Adobe kundtjänstteam.
 
 ## Mobilappar
 
-* [Mål för mobilappar - frågor och svar](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/mobile-faq.html?lang=sv-SE)
+* [Mål för mobilappar - frågor och svar](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/mobile-faq.html)
 
 ## Rapportering
 
@@ -133,11 +133,11 @@ Följande avsnitt innehåller felsökningsinformation om implementering av Targe
 
 ## Sökmotoroptimering (SEO)
 
-* [Anpassad testning för sökmotoroptimering (SEO)](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=sv-SE)
+* [Anpassad testning för sökmotoroptimering (SEO)](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
 
 ## Säkerhet
 
-* [CSP-direktiv (Content Security Policy)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/content-security-policy.html?lang=sv-SE)
+* [CSP-direktiv (Content Security Policy)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/content-security-policy.html)
 
 ## Systemstatus
 

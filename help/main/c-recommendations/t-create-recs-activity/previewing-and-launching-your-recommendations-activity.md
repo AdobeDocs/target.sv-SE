@@ -1,7 +1,7 @@
 ---
-keywords: Recommendations;erbjudande;förhandsvisa;starta;status;villkor;algoritm
-description: Lär dig hur du förhandsgranskar din Adobe [!DNL Target] Recommendations-aktivitet för att se till att resultat är tillgängliga innan du startar aktiviteten.
-title: Hur förhandsgranskar och startar jag en Recommendations-aktivitet?
+keywords: Rekommendationer;erbjudande;förhandsvisa;starta;status;villkor;algoritm
+description: Lär dig hur du förhandsgranskar din Adobe [!DNL Target] Rekommendationsaktivitet för att se till att resultat finns tillgängliga innan du startar aktiviteten.
+title: Hur förhandsgranskar och startar jag en rekommendationsaktivitet?
 feature: Recommendations
 exl-id: 60391778-4d48-4c41-a7c5-fedcfabf2530
 source-git-commit: 75ab3bff7064c8f7df14a42422373cb64d96150a
@@ -11,17 +11,17 @@ ht-degree: 0%
 
 ---
 
-# Förhandsgranska och starta din Recommendations-aktivitet
+# Förhandsgranska och starta aktiviteten Rekommendationer
 
-När du har skapat din [!UICONTROL Recommendations]-, [!UICONTROL A/B Test]- eller [!UICONTROL Experience Targeting] (XT)-aktivitet som innehåller [Recommendations-erbjudanden](/help/main/c-recommendations/recommendations-as-an-offer.md), vill du förhandsgranska dina rekommendationer för att se till att resultaten är tillgängliga innan du startar aktiviteten. [!DNL Target Recommendations] erbjuder flera sätt att förhandsgranska dina rekommendationer.
+När du har skapat din [!UICONTROL Recommendations]-, [!UICONTROL A/B Test]- eller [!UICONTROL Experience Targeting] (XT)-aktivitet som innehåller [rekommendationer ](/help/main/c-recommendations/recommendations-as-an-offer.md) vill du förhandsgranska dina rekommendationer för att se till att resultaten är tillgängliga innan du startar aktiviteten. [!DNL Target Recommendations] erbjuder flera sätt att förhandsgranska dina rekommendationer.
 
-## Kontrollerar Recommendations-algoritmstatus
+## Kontrollera algoritmstatus för rekommendationer
 
 När en aktivitet har skapats kör [!DNL Recommendations] en algoritm för att generera rekommendationer. Den här algoritmen kan ta några timmar att köra.
 
-Du kan kontrollera om algoritmen har körts färdigt i översiktsdiagrammet [!UICONTROL Activity], där villkorsstatusen listas. Följande bild visar statusen i aktivitetsdiagrammet på [!UICONTROL Overview]-sidan för en [!DNL Recommendations]-aktivitet:
+Du kan kontrollera om algoritmen har körts färdigt i översiktsdiagrammet [!UICONTROL Activity], där villkorsstatusen listas. Följande bild visar statusen i aktivitetsdiagrammet på [!DNL Recommendations]-sidan för en [!UICONTROL Overview]-aktivitet:
 
-![Översikt över Recommendations-aktivitet](/help/main/c-recommendations/t-create-recs-activity/assets/recs-overview-new.png)
+![Översikt över aktiviteten Rekommendationer](/help/main/c-recommendations/t-create-recs-activity/assets/recs-overview-new.png)
 
 Statusresultaten är följande:
 
@@ -53,7 +53,7 @@ Om villkoret använder [!DNL Adobe Analytics] som beteendedatakälla beror tiden
 >
 >[!UICONTROL Recently Viewed Items] kräver att ingen offlinealgoritm körs och resultaten är omedelbart tillgängliga. [!UICONTROL Top Viewed]- och [!UICONTROL Top Sellers]-algoritmer som baseras på mbox-data ger i allmänhet resultat mycket snabbt på grund av den enklare beräkning som krävs. Detta kan vara bra alternativ när du vill förhandsgranska en designändring eller bekräfta att beteendedata samlas in korrekt.
 
-## Använda QA-länkar för att förhandsgranska Recommendations
+## Använda QA-länkar för att förhandsgranska rekommendationer
 
 När algoritmen har resultat klara kan du förhandsgranska dessa resultat med funktionen [QA link](/help/main/c-activities/c-activity-qa/activity-qa.md) i [!DNL Adobe Target]. QA-länkar är tillgängliga i avsnittet [!UICONTROL Activity Location] på översiktssidan för [!UICONTROL Activity]:
 
@@ -95,7 +95,7 @@ För andra algoritmtyper som baseras på ett nyckelvärde, till exempel [!UICONT
 >
 >Resultathämtningar är inte tillgängliga för aktiviteter som innehåller en [!UICONTROL User-Based Recommendations]-algoritm. Resultathämtningar är inte tillgängliga för villkor som använder rekommendationslogiken [!UICONTROL Recently-Viewed Items].
 
-## Aktivera din Recommendations-aktivitet
+## Aktivera aktiviteten Rekommendationer
 
 Klicka på listrutepilen Status på fliken [!UICONTROL Activity Overview] och välj sedan **[!UICONTROL Activate]**.
 
@@ -105,7 +105,7 @@ Efter några sekunder till några minuter växlar statusen till [!UICONTROL Live
 
 Du kan även inaktivera eller arkivera aktiviteten med samma nedrullningsbara lista.
 
-## Undvik avbrott vid ändring av Recommendations-inställningar
+## Undvika avbrott när du ändrar inställningar för rekommendationer
 
 Om du ändrar [!DNL Recommendations] samlingar, villkor, kampanjer eller designinställningar i en aktiv aktivitet kan algoritmresultaten bli ogiltiga och algoritmens status ändras till [!UICONTROL Results Not Ready].
 

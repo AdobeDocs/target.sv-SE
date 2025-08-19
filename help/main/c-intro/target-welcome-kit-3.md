@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Kapitel 3: Utveckla dina idéer om testning och personalisering
 
-För den första aktiviteten kan du testa något superenkelt som att ändra färg eller kopiera på en åtgärdsknapp. Bara för att bli blöt. På lång sikt kommer ni dock att vilja skapa en formell, upprepningsbar process för att komma fram till idéer för testning och personalisering som hjälper er att utveckla ert optimerings- och personaliseringsprogram. I följande sex steg beskrivs en beprövad process för att göra just det, tillsammans med information om vad du ska göra i varje steg.
+För den första aktiviteten kan du testa något superenkelt som att ändra färg eller kopiera på en call to action-knapp. Bara för att bli blöt. På lång sikt kommer ni dock att vilja skapa en formell, upprepningsbar process för att komma fram till idéer för testning och personalisering som hjälper er att utveckla ert optimerings- och personaliseringsprogram. I följande sex steg beskrivs en beprövad process för att göra just det, tillsammans med information om vad du ska göra i varje steg.
 
 ![Interaktivt utförande av optimering och Personalization strategidiagram](/help/main/c-intro/assets/six-steps.png)
 
@@ -50,7 +50,7 @@ Gör detta genom att:
 * Fylla i och godkänna färdiga designer för aktivitetsupplevelser.
 * Dokumentationskrav för aktiviteten [!DNL Target], inklusive kriterier för testregistrering, rapporteringsmått och upplevelseändringar.
 
-Använd aktivitetsplaneraren, som finns senare i välkomstpaketet, för att dokumentera aktivitetens detaljer, inklusive de mätvärden du ska använda för att mäta aktivitetsprestanda, till exempel klick på en åtgärdsknapp, videostarter eller genererade intäkter. Ta med skärmbilder eller bilder av de upplevelsedesigner du tänker testa eller personalisera.
+Använd aktivitetsplaneraren, som finns senare i välkomstpaketet, för att dokumentera aktivitetens detaljer, inklusive de mått du kommer att använda för att mäta aktivitetsprestanda, som att klicka på en call to action-knapp, starta videoklipp eller generera intäkter. Ta med skärmbilder eller bilder av de upplevelsedesigner du tänker testa eller personalisera.
 
 ## Steg 4: Skapa och kör
 

@@ -1,5 +1,5 @@
 ---
-keywords: alternativ för visuell upplevelsedisposition;alternativ för upplevelsedisposition;alternativ för upplevelser;redigera text;redigera html;redigera text/html;redigera bakgrundsfärg;bakgrundsfärg;infoga element;redigera länk;länk för att redigera disposition;redigera CSS-klass;css-klass;swap offer swap;swap image;remove item remove;item remove;item hide;item hide;flytta element;move move;element;resize element;element) expandera markering;navigera till den här länken;navigera länk;navigera;navigera;länk;ångra;gör om;göra om;anpassade händelser;webbkomponenter;erbjudandebeslut;offer decisioning
+keywords: alternativ för visuell upplevelsedisposition;alternativ för upplevelsedisposition;alternativ för upplevelser;redigera text;redigera html;redigera text/html;redigera bakgrundsfärg;bakgrundsfärg;infoga element;redigera länk;länk för att redigera disposition;redigera CSS-klass;css-klass;swap offer swap;swap image;remove item remove;item remove;item hide;item hide;flytta element;move move;element;resize element;element) expandera markering;navigera till den här länken;navigera länk;navigera;navigera;länk;ångra;gör om;göra om;anpassade händelser;webbkomponenter;erbjudandebeslut;erbjudandebeslut
 description: Utforska de tillgängliga alternativen i  [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC).
 title: Hur använder jag alternativen för [!UICONTROL Visual Experience Composer] (VEC)?
 feature: Visual Experience Composer (VEC)
@@ -31,9 +31,9 @@ Följande alternativ är tillgängliga:
 
 Ändra HTML-koden för elementet, till exempel texten för ett textområde, en knapp eller en länk.
 
-Förutom HTML-kod kan du redigera och mata in anpassad JavaScript.
+Förutom HTML-kod kan du redigera och injicera anpassad JavaScript.
 
-Flera formateringsalternativ för formaterad text är tillgängliga när du redigerar text och HTML för [!UICONTROL A/B]- och [!UICONTROL Experience Targeting]-aktiviteter. Du kan välja ett teckensnitt, välja ett teckensnittsformat, ändra textjustering och andra standardalternativ för textformatering. När du ändrar HTML kan du växla mellan kodvyn och den avancerade redigeringsvyn för HTML.
+Flera formateringsalternativ för formaterad text är tillgängliga när du redigerar text och HTML för [!UICONTROL A/B]- och [!UICONTROL Experience Targeting]-aktiviteter. Du kan välja ett teckensnitt, välja ett teckensnittsformat, ändra textjustering och andra standardalternativ för textformatering. När du ändrar HTML kan du växla mellan kodvyn och redigeringsvyn för HTML.
 
 Följande HTML5-taggar kan kapslas:
 
@@ -46,7 +46,7 @@ Följande HTML5-taggar kan kapslas:
 
 ### [!UICONTROL Background Color]
 
-Använd färgväljaren för att välja eller konfigurera en bakgrundsfärg. Du kan välja en färgruta och justera den med hjälp av RGB-värden eller färghexkoder. Det röda krysset i färgväljaren gör bakgrunden genomskinlig.
+Använd färgväljaren för att välja eller konfigurera en bakgrundsfärg. Du kan välja en färgruta och justera den med RGB-värden eller färghexkoder. Det röda krysset i färgväljaren gör bakgrunden genomskinlig.
 
 **Obs!** Det här alternativet är inte tillgängligt för ett element där en bakgrundsbild har angetts.
 
@@ -178,7 +178,7 @@ De blå punkterna på huvudpanelen och bredvid varje alternativ på de olika avs
    * [!UICONTROL Blur]
    * [!UICONTROL Opacity]
    * [!UICONTROL Invert]
-*[!UICONTROL &#x200B; Hue-rotate]
+*[!UICONTROL  Hue-rotate]
    * [!UICONTROL Saturate]
 
 * **[!UICONTROL CSS Editor]**
@@ -217,7 +217,7 @@ Följande alternativ är tillgängliga:
 
 ### [!UICONTROL Offer Decision]
 
-Lägg till ett [erbjudande som skapats i [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=sv-SE){target=_blank} för att presentera det bästa erbjudandet och upplevelsen för dina kunder med hjälp av offer decisioning.
+Lägg till ett [erbjudande som skapats i [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} för att presentera det bästa erbjudandet och upplevelsen för dina kunder genom att fatta beslut om erbjudandet.
 
 **Obs!** Det här alternativet är endast tillgängligt när du redigerar eller skapar [manuella [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) - eller [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT)-aktiviteter. Det här alternativet är inte tillgängligt för andra aktivitetstyper.
 
@@ -229,7 +229,7 @@ Lägg till vilket element som helst på sidan förutom att ändra befintligt inn
 
 Markera ett element på sidan, klicka sedan på [!UICONTROL Insert Before] och välj om du vill infoga en bild, HTML eller text. Det infogade elementet visas före det markerade elementet.
 
-Det infogade elementets beteende beror på sidans struktur, CSS och andra sidkonfigurationsalternativ. Du måste ange HTML för att sidan ska visas korrekt. Testa alltid sidan när du har infogat ett objekt för att se till att den visas som förväntat.
+Det infogade elementets beteende beror på sidans struktur, CSS och andra sidkonfigurationsalternativ. Giltig HTML krävs för att sidan ska visas korrekt. Testa alltid sidan när du har infogat ett objekt för att se till att den visas som förväntat.
 
 [!UICONTROL Recommendations] stöder [!UICONTROL Insert Before] innehållet i DIV-, SECTION- och Article-taggar.
 
@@ -237,7 +237,7 @@ Det infogade elementets beteende beror på sidans struktur, CSS och andra sidkon
 
 ### Rekommendation
 
-Inkludera rekommendationer i A/B-tester (inklusive Automatisk allokering och Automatiskt mål) och XT-aktiviteter (Experience Target). Mer information finns i [Recommendations som erbjudande](/help/main/c-recommendations/recommendations-as-an-offer.md).
+Inkludera rekommendationer i A/B-tester (inklusive Automatisk allokering och Automatiskt mål) och XT-aktiviteter (Experience Target). Mer information finns i [Rekommendationer som ett erbjudande](/help/main/c-recommendations/recommendations-as-an-offer.md).
 
 ### [!UICONTROL Experience Fragment]
 
@@ -249,7 +249,7 @@ Följande alternativ är tillgängliga:
 
 ### [!UICONTROL Offer Decision]
 
-Lägg till ett [erbjudande som skapats i [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=sv-SE){target=_blank} för att presentera det bästa erbjudandet och upplevelsen för dina kunder med hjälp av offer decisioning.
+Lägg till ett [erbjudande som skapats i [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} för att presentera det bästa erbjudandet och upplevelsen för dina kunder genom att fatta beslut om erbjudandet.
 
 **Obs!** Det här alternativet är endast tillgängligt när du redigerar eller skapar [manuella [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) - eller [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT)-aktiviteter. Det här alternativet är inte tillgängligt för andra aktivitetstyper.
 
@@ -261,7 +261,7 @@ Lägg till vilket element som helst på sidan förutom att ändra befintligt inn
 
 Markera ett element på sidan, klicka sedan på [!UICONTROL Insert After] och välj om du vill infoga en bild, HTML eller text. Det infogade elementet visas efter det markerade elementet.
 
-Det infogade elementets beteende beror på sidans struktur, CSS och andra sidkonfigurationsalternativ. Du måste ange HTML för att sidan ska visas korrekt. Testa alltid sidan när du har infogat ett objekt för att se till att den visas som förväntat.
+Det infogade elementets beteende beror på sidans struktur, CSS och andra sidkonfigurationsalternativ. Giltig HTML krävs för att sidan ska visas korrekt. Testa alltid sidan när du har infogat ett objekt för att se till att den visas som förväntat.
 
 [!UICONTROL Recommendations] stöder [!UICONTROL Insert After] innehållet i DIV-, SECTION- och Article-taggar.
 
@@ -269,7 +269,7 @@ Det infogade elementets beteende beror på sidans struktur, CSS och andra sidkon
 
 ### Rekommendation
 
-Inkludera rekommendationer i A/B-tester (inklusive Automatisk allokering och Automatiskt mål) och XT-aktiviteter (Experience Target). Mer information finns i [Recommendations som erbjudande](/help/main/c-recommendations/recommendations-as-an-offer.md).
+Inkludera rekommendationer i A/B-tester (inklusive Automatisk allokering och Automatiskt mål) och XT-aktiviteter (Experience Target). Mer information finns i [Rekommendationer som ett erbjudande](/help/main/c-recommendations/recommendations-as-an-offer.md).
 
 ### [!UICONTROL Experience Fragment]
 
@@ -281,7 +281,7 @@ Följande alternativ är tillgängliga:
 
 ### [!UICONTROL Offer Decision]
 
-Lägg till ett [erbjudande som skapats i [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=sv-SE){target=_blank} för att presentera det bästa erbjudandet och upplevelsen för dina kunder med hjälp av offer decisioning.
+Lägg till ett [erbjudande som skapats i [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} för att presentera det bästa erbjudandet och upplevelsen för dina kunder genom att fatta beslut om erbjudandet.
 
 **Obs!** Det här alternativet är endast tillgängligt när du redigerar eller skapar [manuella [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) - eller [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT)-aktiviteter. Det här alternativet är inte tillgängligt för andra aktivitetstyper.
 
@@ -289,9 +289,9 @@ Mer information finns i [Använda offertbeslut](/help/main/c-integrating-target-
 
 ### [!UICONTROL Image]
 
-Välj en annan bild i innehållsbiblioteket. De bilder som är tillgängliga för växling omfattar de bilder som har överförts till resursmappen Experience Cloud eller som har överförts till innehållsbiblioteket i Target.
+Välj en annan bild i innehållsbiblioteket. De bilder som är tillgängliga för växling omfattar de bilder som har överförts till Experience Cloud resursmapp eller överförts till innehållsbiblioteket i Target.
 
-När den inledande aktiviteten skapas är den URL som visas inte den URL som används för leverans. Vid aktivitetssynkronisering uppdateras den URL:en till en Scene7-produktionswebbadress.
+När den inledande aktiviteten skapas är den URL som visas inte den URL som används för leverans. När aktiviteten synkroniseras uppdateras URL:en till en produktionsscen7-URL.
 
 Den inledande URL:en kan till exempel se ut som i följande exempel:
 
@@ -301,9 +301,9 @@ Efter aktivitetssynkronisering kan leverans-URL:en se ut som i följande exempel
 
 `http://s7d2.scene7.com/is/image/TargetTest/Aug_MBM?tm=1470768352933&fit=constrain&hei=173&wid=300`
 
-Recommendations stöder Ersätt med i DIV-, SECTION- och Article-taggar.
+Rekommendationer har stöd för Ersätt med i DIV-, SECTION- och Article-taggar.
 
-**Obs!** Byte av bilder kräver ett Adobe Scene7 Publishing System-konto.
+**Obs!** Om du vill byta bild måste du ha ett Adobe Scene7 Publishing System-konto.
 
 ### [!UICONTROL HTML Offer]
 
@@ -315,7 +315,7 @@ Ett HTML-erbjudande kan vara upp till 256 kB.
 
 ### Rekommendation
 
-Inkludera rekommendationer i A/B-tester (inklusive Automatisk allokering och Automatiskt mål) och XT-aktiviteter (Experience Target). Mer information finns i [Recommendations som erbjudande](/help/main/c-recommendations/recommendations-as-an-offer.md).
+Inkludera rekommendationer i A/B-tester (inklusive Automatisk allokering och Automatiskt mål) och XT-aktiviteter (Experience Target). Mer information finns i [Rekommendationer som ett erbjudande](/help/main/c-recommendations/recommendations-as-an-offer.md).
 
 ### [!UICONTROL Experience Fragment]
 
@@ -371,7 +371,7 @@ Markera det överordnade elementet förutom det ursprungligen markerade elemente
 
 ## Överväganden {#considerations}
 
-* Om ett erbjudande innehåller HTML finns mer information i&quot;How at.js renders offers with HTML content&quot; i [How at.js works](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=sv-SE){target=_blank}.
+* Om ett erbjudande innehåller HTML-innehåll kan du läsa&quot;How at.js renders offers with HTML content&quot; i [How at.js works](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank} för mer information.
 
 ## Stöd för anpassade element {#custom}
 
@@ -379,9 +379,9 @@ VEC har stöd för [webbkomponenter](https://developer.mozilla.org/en-US/docs/We
 
 >[!NOTE]
 >
->VEC-stöd för anpassade element stöds i [at.js version](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=sv-SE){target=_blank} 2.7.0 (eller senare){target=_blank}. Kontrollera att rätt version är distribuerad på webbplatsen. Om du använder hjälptillägget [Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) måste det också ha den version av at.js som krävs distribuerad. De VEC-alternativ som beskrivs ovan är inte synliga och tillgängliga för användning med versioner av at.js som inte stöds.
+>VEC-stöd för anpassade element stöds i [at.js version](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} 2.7.0 (eller senare){target=_blank}. Kontrollera att rätt version är distribuerad på webbplatsen. Om du använder hjälptillägget [Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) måste det också ha den version av at.js som krävs distribuerad. De VEC-alternativ som beskrivs ovan är inte synliga och tillgängliga för användning med versioner av at.js som inte stöds.
 >
->VEC-stöd för anpassade element stöds för närvarande inte med [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=sv-SE){target=_blank}.
+>VEC-stöd för anpassade element stöds för närvarande inte med [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}.
 
 De flesta VEC-åtgärder stöds för anpassade händelser och i anpassade händelser, med följande undantag:
 

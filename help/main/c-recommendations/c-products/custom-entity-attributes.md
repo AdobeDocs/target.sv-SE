@@ -2,7 +2,7 @@
 keywords: entitetsattribut med flera värden;attribut för anpassade entiteter;giltig JSON;entitetsattributvärde;JSON-matris;flervärd;flervärd
 description: Lär dig hur du använder anpassade entitetsattribut för ett eller flera värden för att definiera ytterligare information om objekt i din Adobe [!DNL Target] Recommendations-katalog.
 title: Hur använder jag anpassade entitetsattribut?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=sv-SE#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
@@ -127,7 +127,7 @@ Du kan skicka flervärdesattribut med leverans-API:t i en mbox-parameter som ett
   }
 ```
 
-Mer information om hur du använder enhets-API:erna Delivery och Save finns i [Adobe Recommendations API-dokumentationen](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=sv-SE){target=_blank}.
+Information om hur du använder enhets-API:erna Delivery och Save finns i [Adobe Recommendations API-dokumentationen](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
 
 ## Använda operatorer med attribut för flera värden {#section_83C2288A805242D9A02EBC4F07DEE945}
 

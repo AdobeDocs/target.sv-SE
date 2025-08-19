@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Eftersom en [!UICONTROL Multivariate Test] i [!DNL Adobe Target] jämför flera upplevelser på en sida är det bra att förhandsgranska sidan med varje upplevelse.
 
-1. Klicka på **[!UICONTROL Preview]** i [!UICONTROL Visual Experience Composer] (VEC).
+1. Klicka på [!UICONTROL Visual Experience Composer] i **[!UICONTROL Preview]** (VEC).
 
    En lista över alla upplevelser visas.
 

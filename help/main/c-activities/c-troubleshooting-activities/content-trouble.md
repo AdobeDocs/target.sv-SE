@@ -74,9 +74,9 @@ En del av informationen innehåller matchade och omatchade segment- och mål-ID:
 * **Omatchad**: Begäran kvalificerades inte i det här anropet för dessa segment eller mål.
 * **Matchad**: Begäran kvalificerad för de angivna segmenten eller målen.
 
-**Använda mboxTrace på rekommendationssidor**: Om du lägger till mboxTrace som en frågeparameter på sidor med rekommendationer ersätts Recommendations-designen på sidan med ett mboxTrace-informationsfönster, som visar detaljerad information om dina rekommendationer, bland annat:
+**Använda mboxTrace på rekommendationssidor**: Om du lägger till mboxTrace som en frågeparameter på sidor med rekommendationer ersätts designen Recommendations på sidan med ett mboxTrace-informationsfönster, som visar detaljerad information om dina rekommendationer, bland annat:
 
-* Recommendations returnerade jämfört med begärda rekommendationer
+* Rekommendationer som returnerats jämfört med rekommendationer som begärts
 * Nyckeln som används och om den genererar rekommendationer
 * Villkorsgenererade rekommendationer jämfört med rekommendationer för säkerhetskopiering
 * Villkorskonfiguration
@@ -85,7 +85,7 @@ En del av informationen innehåller matchade och omatchade segment- och mål-ID:
 
 Du behöver inte inkludera `=console`, `=json` eller `=window` i frågeparametern. När du är klar med informationen för mboxTrace lägger du till `=disable` och trycker på **[!UICONTROL Enter]** för att återgå till det normala visningsläget.
 
-Webbplatsens normala funktion och utseende påverkas inte av mboxTrace. Besökarna ser din vanliga Recommendations-design.
+Webbplatsens normala funktion och utseende påverkas inte av mboxTrace. Besökarna ser din vanliga rekommendationsdesign.
 
 ## mboxDebug {#mboxdebug}
 
@@ -107,13 +107,13 @@ Om du vill använda mboxDebug lägger du till en mboxDebug-parameter i slutet av
 
 ## Adobe Experience Cloud Debugger {#section_A2798ED3A431409690A4BE08A1BFCF17}
 
-Med Adobe Experience Cloud Debugger är det snabbt och enkelt att förstå hur Target-implementeringen fungerar. Du kan snabbt visa bibliotekskonfigurationen, granska förfrågningar för att se till att dina anpassade parametrar skickas korrekt, aktivera konsolloggning och inaktivera alla Target-förfrågningar. Logga in på Experience Cloud och använd det kraftfulla MboxTrace-verktyget för att granska din aktivitet och dina målgruppskvalifikationer liksom din besökarprofil.
+Med Adobe Experience Cloud Debugger är det snabbt och enkelt att förstå hur Target-implementeringen fungerar. Du kan snabbt visa bibliotekskonfigurationen, granska förfrågningar för att se till att dina anpassade parametrar skickas korrekt, aktivera konsolloggning och inaktivera alla Target-förfrågningar. Logga in i Experience Cloud så kan du använda det kraftfulla MboxTrace-verktyget för att kontrollera din aktivitet och dina målgruppskvalifikationer liksom din besökarprofil.
 
 Mer information finns i utbildningsvideorna nedan:
 
-Mer detaljerad information finns i [Felsöka at.js med Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html?lang=sv-SE){target=_blank}.
+Mer detaljerad information finns i [Felsöka at.js med Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html){target=_blank}.
 
-## De största säljarna visas inte i Recommendations {#section_3920C857270A406C80BE6CBAC8221ECD}
+## De viktigaste säljarna visas inte i rekommendationerna {#section_3920C857270A406C80BE6CBAC8221ECD}
 
 Anropet *`SiteCatalyst: purchase`* kan inte användas för trafikdata för inköpsalgoritmen. Använd *`orderConfirmPage`*-anropet i stället.
 
@@ -127,13 +127,13 @@ Target har inte längre stöd för IE 8.
 
 ## Målcookie har inte angetts {#section_77AFEB541C0B495EB67E29A4475DF960}
 
-Om din webbplats har en underdomän, till exempel [!DNL us.domain.com], men du behöver en målcookie som är inställd på [!DNL domain.com] (i stället för på [!DNL us.domain.com]), måste du åsidosätta inställningen `cookieDomain`. Mer information finns i [targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html?lang=sv-SE){target=_blank}.
+Om din webbplats har en underdomän, till exempel [!DNL us.domain.com], men du behöver en målcookie som är inställd på [!DNL domain.com] (i stället för på [!DNL us.domain.com]), måste du åsidosätta inställningen `cookieDomain`. Mer information finns i [targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank}.
 
 ## Målinnehållet flimrar eller visas inte om ett element också ingår i Adobe Experience Manager personalisering. {#section_9E1DABEB75AB431FB9F09887E6DD07D3}
 
-Om ett DOM-element är en del av Adobe Experience Manager (AEM) personalisering, och en Target-aktivitet, kan målinnehållet flimra eller inte visas.
+Om ett DOM-element är en del av Adobe Experience Manager (AEM) personalisering och en Target-aktivitet kan Target-innehåll flimra eller inte visas.
 
-För att åtgärda detta kan du inaktivera AEM på sidor där Target körs.
+För att åtgärda detta kan du inaktivera AEM-personalisering på sidor där Target körs.
 
 ## Omdirigerings- och fjärrerbjudanden levereras inte på grund av en ogiltig URL. {#section_7D09043B687F43B39DAEDF17D00375AC}
 
@@ -149,7 +149,7 @@ Du kan kontrollera [!DNL Target]-svaret i webbläsaren eller med mboxTrace. Mer 
 
 ## [!DNL Target] begäranden utlöses inte på min webbplats.
 
-at.js utlöser inte Target-begäranden om du använder en ogiltig doctype. at.js kräver dokumenttypen HTML 5.
+at.js utlöser inte Target-begäranden om du använder en ogiltig doctype. at.js kräver HTML 5 doctype.
 
 ## Se till att [!DNL Target] aktiviteter hanterar URL:er med frågesträngsparametrar korrekt. {#query-strings}
 

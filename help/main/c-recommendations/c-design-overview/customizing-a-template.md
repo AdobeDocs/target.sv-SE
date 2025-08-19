@@ -1,8 +1,8 @@
 ---
 keywords: egen design;snabbhet;decimal;komma;anpassa design
-description: Lär dig hur du använder designspråket  [!DNL Velocity] med öppen källkod för att anpassa rekommendationsdesign i [!DNL Target] Recommendations.
+description: Lär dig hur du använder designspråket  [!DNL Velocity] med öppen källkod för att anpassa rekommendationsdesigner i  [!DNL Target] Rekommendationer.
 title: Hur anpassar jag en design snabbt?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=sv-SE#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Recommendations
 exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
 source-git-commit: eba9e0b02ce74fea127d2cb2d08d04dcd2da2d76
@@ -210,7 +210,7 @@ Resultatet är en design som följande, där nyckelobjektet visas i en kolumn.
 
 ![rec_key-bild](assets/rec_key.png)
 
-När du skapar din [!DNL Recommendations]-aktivitet visas en slumpmässig produkt i [!UICONTROL Visual Experience Composer] (VEC) om nyckelobjektet hämtas från besökarens profil, till exempel&quot;senast köpta objekt&quot;. [!DNL Target] Detta beror på att en profil inte är tillgänglig när du designar aktiviteten. När besökarna visar sidan visas det förväntade nyckelobjektet.
+När du skapar din [!DNL Recommendations]-aktivitet visas en slumpmässig produkt i [!DNL Target] (VEC) om nyckelobjektet hämtas från besökarens profil, till exempel&quot;senast köpta objekt&quot;. [!UICONTROL Visual Experience Composer] Detta beror på att en profil inte är tillgänglig när du designar aktiviteten. När besökarna visar sidan visas det förväntade nyckelobjektet.
 
 ## Utföra ersättningar i ett strängvärde {#section_01F8C993C79F42978ED00E39956FA8CA}
 
@@ -240,9 +240,9 @@ Följande kod är ett fullständigt villkorligt exempel på ett försäljningspr
 
 ## Anpassa mallstorleken och kontrollera om det finns tomma värden {#default}
 
-Med hjälp av ett [!DNL Velocity]-skript för att styra dynamisk storleksanpassning av enhetsvisningen får följande mall ett 1:N-resultat för att undvika att skapa tomma HTML-element när det inte finns tillräckligt med matchande entiteter som returnerats från [!DNL Recommendations]. Det här skriptet är bäst för scenarier när det inte går att förvränga säkerhetskopieringsrekommendationer och [!UICONTROL Partial Template Rendering] är aktiverat.
+Med hjälp av ett [!DNL Velocity]-skript för att styra dynamisk storleksanpassning av enhetsvisningen får följande mall ett 1:N-resultat för att undvika att skapa tomma HTML-element när det inte finns tillräckligt med matchande entiteter returnerade från [!DNL Recommendations]. Det här skriptet är bäst för scenarier när det inte går att förvränga säkerhetskopieringsrekommendationer och [!UICONTROL Partial Template Rendering] är aktiverat.
 
-Följande HTML-fragment ersätter den befintliga HTML-delen i standarddesignen 4x2 (CSS inkluderas inte här av förenklingsskäl):
+Följande HTML-utdrag ersätter den befintliga HTML-delen i 4x2-standarddesignen (CSS inkluderas inte här, av tydlighetsskäl):
 
 * Om det finns en femte entitet infogar skriptet en avslutande div och öppnar en ny rad med `<div class="at-table-row">`.
 * Med 4x2 blir det maximala resultatet åtta, men det kan anpassas för mindre eller större listor genom att ändra `$count <=8`.

@@ -18,7 +18,7 @@ Det här avsnittet innehåller svar på frågor som ofta ställs om att visa rap
 ## Kan jag visa mina [!DNL Target] aktivitetsdata i [!DNL Analysis Workspace]? {#workspace}
 
 +++Svar
-Du kan använda [!DNL Analysis Workspace] för att analysera dina [!DNL Target]-aktiviteter och -upplevelser. Med [Analytics for Target panel](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=sv-SE) kan du se hur mycket du kan uppnå och lita på att det finns så många som tre framgångsmått. Du kan också fördjupa dig i tabeller och visualiseringar.
+Du kan använda [!DNL Analysis Workspace] för att analysera dina [!DNL Target]-aktiviteter och -upplevelser. Med [Analytics for Target panel](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html) kan du se hur mycket du kan uppnå och lita på att det finns så många som tre framgångsmått. Du kan också fördjupa dig i tabeller och visualiseringar.
 
 Om du vill ha mer information och exempel öppnar du [Självstudiekursen ](https://spark.adobe.com/page/Lo3Spm4oBOvwF/) Analytics &amp; Target: Best Practices for Analysis, som finns i [!UICONTROL Adobe Experience League].
 
@@ -33,10 +33,10 @@ Ett segment kan också läggas i lager direkt i friformstabellen, men observera 
 
 +++
 
-## Vilken Attribution IQ används i [!DNL Analysis Workspace]?
+## Vilken Attribution IQ-modell används i [!DNL Analysis Workspace]?
 
 +++Svar
-När du använder [!DNL Target] aktivitetsavtryck och konverteringar i [!DNL Analysis Workspace] är Attribution IQ&quot;Same Touch&quot; standardmodellen som används för mätvärdena för att säkerställa korrekt räkning. Den här modellen fungerar bra i 99 % av fallen. Du kan dock åsidosätta den här standardtilldelningen i Attribution IQ.
+När du använder [!DNL Target] aktivitetsavtryck och konverteringar i [!DNL Analysis Workspace] är Attribution IQ-modellen Same Touch standardmodellen som används för mätvärdena för att säkerställa korrekt räkning. Den här modellen fungerar bra i 99 % av fallen. Du kan dock åsidosätta standardtilldelningen i Attribution IQ.
 
 +++
 
@@ -49,7 +49,7 @@ När du segmenterar för att en aktivitet ska finnas i en träff får du alla up
 
 +++
 
-## Varför kan jag inte komma åt [!UICONTROL Advanced Settings] när jag konfigurerar [!UICONTROL Goal Metrics]?
+## Varför kan jag inte komma åt [!UICONTROL Goal Metrics] när jag konfigurerar [!UICONTROL Advanced Settings]?
 
 +++Svar
 För aktiviteter som använder [!DNL Analytics] som rapportkälla (A4T) använder målmåttet inställningarna [!UICONTROL Increment Count & Keep User in Activity] och [!UICONTROL On Every Impression]. Dessa inställningar är *inte* konfigurerbara.
@@ -74,7 +74,7 @@ Tänk på följande:
 * Ovanstående mått utlöses när en användare kvalificerar sig för en aktivitet och innehållet returneras från [!DNL Target]. Det behöver inte innebära att användaren såg erbjudandet. Om en aktivitetsupplevelse är under förskjutningen och användaren inte rullar nedåt på sidan, så betjänades erbjudandet av [!DNL Target] men inte av användaren.
 * [!UICONTROL Activity Impressions] (mätt med [!DNL Target]) och [!UICONTROL Instances] (mätt med [!DNL Analytics]) är lika, om det inte finns flera mbox-anrop på samma sida i samma aktivitet. Detta gör att flera [!UICONTROL Activity Impressions] räknas, men bara en [!UICONTROL Instance].
 
-Mer information finns i [Konfigurera A4T-rapporter i Analysis Workspace för Automatiskt mål-aktiviteter](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=sv-SE) i *Adobe Target Tutorials*.
+Mer information finns i [Konfigurera A4T-rapporter i Analysis Workspace för Automatiskt mål-aktiviteter](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html) i *Adobe Target-självstudiekurser*.
 
 +++
 
@@ -83,7 +83,7 @@ Mer information finns i [Konfigurera A4T-rapporter i Analysis Workspace för Aut
 +++Svar
 [!DNL Reports & Analytics] tillämpar en attribueringsmodell med samma tryckning på aktivitetsavtryck och aktivitetskonverteringar, medan [!DNL Analysis Workspace] visar rådatamätningar, som kan visas som inflaterade på grund av att dimensionen [!DNL Target] är beständig.
 
-Om du vill utvärdera exakta [!UICONTROL Activity Impressions]- och [!UICONTROL Activity Conversions]-mått i [!DNL Analysis Workspace] kontrollerar du att båda mätvärdena har [!UICONTROL Same Touch] attribueringsmodeller. Du kan använda modeller genom att klicka på kugghjulet för kolumninställningar, aktivera [!UICONTROL Non-default attribution models] och sedan välja [!UICONTROL Same Touch]. Läs mer om attribuering i [Översikt över attribut-IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution.html?lang=sv-SE) i *Analysverktygshandboken*.
+Om du vill utvärdera exakta [!UICONTROL Activity Impressions]- och [!UICONTROL Activity Conversions]-mått i [!DNL Analysis Workspace] kontrollerar du att båda mätvärdena har [!UICONTROL Same Touch] attribueringsmodeller. Du kan använda modeller genom att klicka på kugghjulet för kolumninställningar, aktivera [!UICONTROL Non-default attribution models] och sedan välja [!UICONTROL Same Touch]. Läs mer om attribuering i [Översikt över attribut-IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution.html) i *Analysverktygshandboken*.
 
 +++
 
@@ -110,11 +110,11 @@ Om klassificeringen gjordes för den aktiviteten, och du fortfarande ser en ospe
 +++Svar
 Variabeln [!DNL Target] som skickas till [!DNL Analytics] har en 90-dagars standardförfalloperiod. Den här förfalloperioden kan justeras av kundtjänst om det behövs. Den här inställningen är global för alla aktiviteter, så den bör inte justeras för ett fall.
 
-[!DNL Target] variabler kan skickas till [!DNL Analytics] efter förfalloperioden eftersom förfallotiden är 90 dagar, men bara om användaren aldrig ser någon annan A4T-aktiverad [!DNL Target]-aktivitet. Om en användare kommer tillbaka till webbplatsen dag 45 och ser en annan aktivitet, har A4T eVar-värdet återställts till 90 dagar. Det innebär att den första kampanjen från dag 1 nu kan vara beständig i upp till 45 + 90 = 135 dagar. Om användaren kommer tillbaka kan du komma till den punkt där du ser mätvärden som skickats till [!DNL Analytics] i din rapportering från mycket äldre aktiviteter. När användare tar bort cookies och inte återvänder till webbplatsen, försvinner siffrorna i aktiviteten, men du kan fortfarande se dem.
+[!DNL Target] variabler kan skickas till [!DNL Analytics] efter förfalloperioden eftersom förfallotiden är 90 dagar, men bara om användaren aldrig ser någon annan A4T-aktiverad [!DNL Target]-aktivitet. Om en användare kommer tillbaka till webbplatsen dag 45 och ser en annan aktivitet, har hela A4T eVar-värdet återställts till 90 dagar. Det innebär att den första kampanjen från dag 1 nu kan vara beständig i upp till 45 + 90 = 135 dagar. Om användaren kommer tillbaka kan du komma till den punkt där du ser mätvärden som skickats till [!DNL Analytics] i din rapportering från mycket äldre aktiviteter. När användare tar bort cookies och inte återvänder till webbplatsen, försvinner siffrorna i aktiviteten, men du kan fortfarande se dem.
 
 Det innebär att aktiviteter fortsätter att få sidvisningar, besök och så vidare i upp till 90 dagar efter att aktiviteten avslutas för besökare som blev en del av aktiviteten medan den var aktiv. Om du däremot tittar på måttet [!UICONTROL Activity Impressions] bör du inte se några visningar efter att aktiviteten har avslutats.
 
-Detta är normalt och förväntat beteende. A4T-variabeln fungerar som vilken annan eVar som helst - värdet associeras med användaren tills det når förfallotidsperioden (90 dagar). Om en aktivitet bara är aktiv i två veckor är därför värdet fortfarande associerat med användaren under minst de kommande 90 dagarna.
+Detta är normalt och förväntat beteende. A4T-variabeln fungerar på samma sätt som andra eVar-variabler. Värdet associeras med användaren tills det når förfallotidsperioden (90 dagar). Om en aktivitet bara är aktiv i två veckor är därför värdet fortfarande associerat med användaren under minst de kommande 90 dagarna.
 
 Bästa praxis är att endast visa rapporter för den aktiviteten för den tidsperiod som aktiviteten var aktiv. Datumen bör anges korrekt som standard när du visar aktiviteten i [!DNL Analytics], så om du inte manuellt har förlängt datumet bör det inte vara något problem ur rapportsynpunkt.
 
@@ -139,7 +139,7 @@ Användaren kommer tillbaka den 1 mars och ser en ny aktivitet, ABC. Användaren
 | XYZ | 1 | 15 | 3 | 1 |
 | ABC | 1 | 5 | 1 | 1 |
 
-Användaren kommer sedan tillbaka den 1 april, besöker ytterligare fem sidor och gör ett köp. Förfallodatumet på 90 dagar för det första eVarna återställs den 1 april, så du ser det när du rapporterar. Och alla Target-aktiviteter som användaren ser får kredit för konverteringen, men det totala antalet konverteringar tas bort:
+Användaren kommer sedan tillbaka den 1 april, besöker ytterligare fem sidor och gör ett köp. 90-dagars förfallotid för det första eVar-värdet återställs den 1 april, så du ser det i rapporter. Och alla Target-aktiviteter som användaren ser får kredit för konverteringen, men det totala antalet konverteringar tas bort:
 
 | Aktivitetsnamn | Instanser (Impressions) | Sidvyer | Besök | Unika besökare | Beställningar |
 |--- |--- |--- |--- |--- |--- |
@@ -149,7 +149,7 @@ Användaren kommer sedan tillbaka den 1 april, besöker ytterligare fem sidor oc
 
 Eftersom båda upplevelserna sågs före konverteringen får de båda&quot;kredit&quot; för ordern. Men det var bara en order som gjordes i systemet, och det är det som syns. För [!DNL Target]-rapportering, eftersom du inte placerar en [!DNL Target]-aktivitet mot en annan aktivitet för att se vilken som är mest framgångsrik, spelar det ingen roll att alla aktiviteter som användaren såg fick kredit. Du jämför resultaten av två objekt i den enskilda aktiviteten. Det är inte möjligt för en användare att se olika upplevelser i samma aktivitet, så du behöver inte bekymra dig om korskontaminering av orderkrediter.
 
-Mer information finns i [Konverteringsvariabler (eVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html?lang=sv-SE)) i *Administratörshandboken för analyser*.
+Mer information finns i [Konverteringsvariabler (eVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html)) i *Administratörshandboken för analyser*.
 
 +++
 
@@ -220,9 +220,9 @@ Här följer några saker du bör tänka på när du visar [!DNL Analytics] rapp
 
 Så här visar du aktivitetsavtryck i [!DNL Analysis Workspace]:
 
-1. Klicka på **[!UICONTROL View in Analytics]** i användargränssnittet för [!DNL Target].
-1. Lägg till kolumnen **[!UICONTROL Activity Impressions]** i rapporten [[!DNL Analytics Workspace]](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=sv-SE){target=_blank}.
-1. Klicka på ikonen [!UICONTROL Gear] i kolumnen **[!UICONTROL Activity Impressions]**.
+1. Klicka på [!DNL Target] i användargränssnittet för **[!UICONTROL View in Analytics]**.
+1. Lägg till kolumnen **[!UICONTROL Activity Impressions]** i rapporten [[!DNL Analytics Workspace]](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html){target=_blank}.
+1. Klicka på ikonen **[!UICONTROL Activity Impressions]** i kolumnen [!UICONTROL Gear].
 1. Klicka på **[!UICONTROL Use non-default attribution model]**.
 1. Välj **[!UICONTROL Same Touch Model]** > **[!UICONTROL Apply]**.
 

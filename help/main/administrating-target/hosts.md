@@ -69,7 +69,7 @@ Du kan skapa en tillåtelselista som anger värdar (domäner) som har behörighe
 
 Så här skapar du en tillåtelselista:
 
-1. Klicka på **[!UICONTROL Authorize Hosts]** i listan [!UICONTROL Hosts].
+1. Klicka på [!UICONTROL Hosts] i listan **[!UICONTROL Authorize Hosts]**.
 1. Aktivera växlingsknappen **[!UICONTROL Enable Authorized Hosts for content delivery]**.
 1. Lägg till önskade värdar i rutan **[!UICONTROL Host contains]** efter behov.
 
@@ -85,7 +85,7 @@ Om en [!DNL Target]-begäran görs på en obehörig värd, svarar samtalet med `
 
 >[!IMPORTANT]
 >
->**Bästa säkerhetsrutiner**: Om du använder funktionen för lådor i [!DNL Target] styr det här tillåtelselista även listan över domäner som [redirectors](https://experienceleague.adobe.com/docs/target-dev/developer/implement-email/working-with-redirectors.html?lang=sv-SE){target=_blank} kan navigera till. Se till att du lägger till domäner som du vill omdirigera till när du använder ubox som en del av implementeringen. Om tillåtelselista inte anges kan [!DNL Adobe] inte verifiera omdirigerings-URL:erna och skydda mot potentiella skadliga omdirigeringar.
+>**Bästa säkerhetsrutiner**: Om du använder funktionen för lådor i [!DNL Target] styr det här tillåtelselista även listan över domäner som [redirectors](https://experienceleague.adobe.com/docs/target-dev/developer/implement-email/working-with-redirectors.html){target=_blank} kan navigera till. Se till att du lägger till domäner som du vill omdirigera till när du använder ubox som en del av implementeringen. Om tillåtelselista inte anges kan [!DNL Adobe] inte verifiera omdirigerings-URL:erna och skydda mot potentiella skadliga omdirigeringar.
 >
 >Tillåtelselista har företräde framför miljöer. Ta bort alla värdar innan du använder funktionen tillåtelselista, så visas bara de värdar som tillåts av tillåtelselista i din värdlista. Du kan sedan flytta värdarna till den önskade miljön.
 
@@ -103,7 +103,7 @@ Du kan också skapa ett blockeringslista som anger värdar (domäner) som inte k
 
 Du kan ta bort en värd när den inte längre behövs.
 
-1. Klicka på ikonen **[!UICONTROL Delete]** ( ![Ta bort ikon](/help/main/assets/icons/DeleteOutline.svg) ) i listan [!UICONTROL Hosts].
+1. Klicka på ikonen [!UICONTROL Hosts] ( **[!UICONTROL Delete]** Ta bort ikon![ ) i listan ](/help/main/assets/icons/DeleteOutline.svg).
 1. Klicka på **[!UICONTROL Delete]** för att bekräfta borttagningen.
 
 >[!NOTE]

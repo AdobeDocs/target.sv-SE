@@ -13,9 +13,9 @@ ht-degree: 0%
 
 # Integrera med [!DNL Real-Time Customer Data Platform]
 
-[!DNL Real-Time Customer Data Platform] (RTCDP) som bygger på [!DNL Adobe Experience Platform] hjälper företag att samla in kända och anonyma data från flera olika företagskällor. Med RTCDP kan ni skapa kundprofiler som kan användas för att leverera personaliserade kundupplevelser i alla kanaler och enheter i realtid.
+[!DNL Adobe Experience Platform] (RTCDP) som bygger på [!DNL Real-Time Customer Data Platform] hjälper företag att samla in kända och anonyma data från flera olika företagskällor. Med RTCDP kan ni skapa kundprofiler som kan användas för att leverera personaliserade kundupplevelser i alla kanaler och enheter i realtid.
 
-Mer information om RTCDP finns i [Real-Time Customer Data Platform - översikt](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=sv-SE){target=_blank}.
+Mer information om RTCDP finns i [Real-Time Customer Data Platform - översikt](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html){target=_blank}.
 
 ## Viktiga funktioner
 
@@ -63,7 +63,7 @@ I följande tabell visas segmentutvärderingstiden för händelser som kommer fr
 
 ## Använd målgrupper från [!DNL Adobe Experience Platform] {#aep}
 
-Om du använder [målgrupper](/help/main/c-target/c-audiences/audiences.md) som skapats i [!DNL Adobe Experience Platform] får du mer omfattande kunddata som leder till mer slagkraftig personalisering. [Real-Time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=sv-SE){target=_blank} (RTCDP), som bygger på [!DNL Adobe Experience Platform], hjälper företag att samla in kända och anonyma data från flera olika företagskällor. Med den här processen kan ni skapa kundprofiler som kan användas för att leverera personaliserade kundupplevelser över alla kanaler och enheter i realtid.
+Om du använder [målgrupper](/help/main/c-target/c-audiences/audiences.md) som skapats i [!DNL Adobe Experience Platform] får du mer omfattande kunddata som leder till mer slagkraftig personalisering. [Real-Time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html){target=_blank} (RTCDP), som bygger på [!DNL Adobe Experience Platform], hjälper företag att samla in kända och anonyma data från flera olika företagskällor. Med den här processen kan ni skapa kundprofiler som kan användas för att leverera personaliserade kundupplevelser över alla kanaler och enheter i realtid.
 
 Genom att ansluta [!DNL Target] till [!DNL Real-Time Customer Data Platform] kan kunderna berika sin webbpersonalisering. Med den här integreringen kan du låsa upp nya segment som tidigare inte var tillgängliga för [!DNL Target] för att aktivera millisekundanpassning i realtid på den första sidan av en kunds webbbesök. Genom att använda målgrupper och profilattribut som skapats i [!DNL Adobe Experience Platform] kan du utöka de tillgängliga datapunkterna för bättre personalisering.
 
@@ -91,7 +91,7 @@ Som onlinemarkör vill du att AEP/Unified Profile ska dela attributvärden med [
 
 Så här skapar du ett JSON-erbjudande om att dela AEP/Unified Profile-attribut med [!DNL Target]:
 
-1. Välj **[!UICONTROL Adobe Experience Platform]** i listan **[!UICONTROL Select a source]** när du [skapar ett JSON-erbjudande](/help/main/c-experiences/c-manage-content/create-json-offer.md).
+1. Välj [ i listan ](/help/main/c-experiences/c-manage-content/create-json-offer.md) när du **[!UICONTROL Select a source]** skapar ett JSON-erbjudande **[!UICONTROL Adobe Experience Platform]**.
 1. Välj önskad sandlåda i listan **[!UICONTROL Select a profile sandbox name]**.
 1. Välj önskade attribut i listan **[!UICONTROL Select a profile attribute]**.
 1. (Valfritt) Välj önskade värden i listan **[!UICONTROL Insert a default value]**.
@@ -105,12 +105,12 @@ Följande bild visar att två profilattribut: `loyalty.tier` och `loyalty.points
 
 Mer information finns i följande avsnitt:
 
-* [Destinationsversionsinformation](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=sv-SE#destinations){target=_blank} i *Adobe Experience Platform versionsinformation*
-* [Konfigurera anpassningsmål för samma sida och nästa sida-anpassning](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html?lang=sv-SE){target=_blank} i guiden *Destinationsöversikt*.
-* [Adobe Target-anslutning](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=sv-SE){target=_blank} i guiden *Destinationsöversikt*
-* [Mappa attribut](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-profile-request-destinations.html?lang=sv-SE#map-attributes){target=_blank} i guiden *Målöversikt*.
-* [Aktivera målgrupper för kantanpassningsmål](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html?lang=sv-SE){target=_blank} i guiden *Målöversikt*.
-* [Anpassa samma sida och nästa sida via  [!DNL Adobe Target] och anpassade Personalization-mål](https://experienceleague.adobe.com/docs/experience-platform/destinations/destinations-faq.html?lang=sv-SE#same-next-page-personalization){target=_blank} under Vanliga frågor och svar i guiden *Översikt över destinationer*.
+* [Destinationsversionsinformation](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=en#destinations){target=_blank} i *Adobe Experience Platform versionsinformation*
+* [Konfigurera anpassningsmål för samma sida och nästa sida-anpassning](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html){target=_blank} i guiden *Destinationsöversikt*.
+* [Adobe Target-anslutning](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html){target=_blank} i guiden *Destinationsöversikt*
+* [Mappa attribut](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-profile-request-destinations.html?lang=en#map-attributes){target=_blank} i guiden *Målöversikt*.
+* [Aktivera målgrupper för kantanpassningsmål](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html){target=_blank} i guiden *Målöversikt*.
+* [Anpassa samma sida och nästa sida via  [!DNL Adobe Target] och anpassade Personalization-mål](https://experienceleague.adobe.com/docs/experience-platform/destinations/destinations-faq.html?lang=en#same-next-page-personalization){target=_blank} under Vanliga frågor och svar i guiden *Översikt över destinationer*.
 
 ## Videor och blogginlägg {#videos-blogs}
 
@@ -120,7 +120,7 @@ I följande videofilmer och blogginlägg finns mer information om förbättrad p
 
 Lär dig hur du kan personalisera nästa träff med [!DNL Real-Time Customer Data Platform] och [!DNL Adobe Target]. Med [!DNL Adobe Target]-destinationen i [!DNL Real-Time CDP] kan du använda [!DNL Experience Platform]-segment i [!DNL Adobe Target] för samma sidanpassning och nästa sidanpassning med stöd för styrning och sekretess.
 
-Mer information finns i [Nästa-träffs-personalisering med Real-Time CDP och Adobe Target](https://experienceleague.adobe.com/docs/platform-learn/tutorials/experience-cloud/next-hit-personalization.html?lang=sv-SE){target=_blank} i handboken *Platform Tutorials*.
+Mer information finns i [Nästa-träffs-personalisering med Real-Time CDP och Adobe Target](https://experienceleague.adobe.com/docs/platform-learn/tutorials/experience-cloud/next-hit-personalization.html){target=_blank} i handboken *Platform Tutorials*.
 
 >[!VIDEO](https://video.tv.adobe.com/v/340091?quality=12&learn=on)
 
@@ -128,25 +128,25 @@ Mer information finns i [Nästa-träffs-personalisering med Real-Time CDP och Ad
 
 Lär dig hur du konfigurerar [!DNL Adobe Target]-målet i [!DNL Real-Time Customer Data Platform] så att du kan börja skicka segment och profilattribut från [!DNL Real-Time CDP] till [!DNL Target].
 
->[!VIDEO](https://video.tv.adobe.com/v/3449797/?learn=on&captions=swe)
+>[!VIDEO](https://video.tv.adobe.com/v/3418799/?learn=on)
 
 ### Video: Aktivera segment och profilattribut
 
 Lär dig hur du aktiverar segment och profilattribut från [!DNL Adobe Real-Time Customer Data Platform] till [!DNL Adobe Target] för att visa personaliserat innehåll i realtid på dina webbplatser, mobilappar och andra digitala egenskaper.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447359/?learn=on&captions=swe)
+>[!VIDEO](https://video.tv.adobe.com/v/3419036/?learn=on)
 
 ### Video: Använd [!DNL Real-Time CDP] segment i [!DNL Target]
 
 Lär dig hur du använder [!DNL Real-Time Customer Data Platform] segment i [!DNL Adobe Target] för att leverera personaliserade upplevelser på din webbplats och i dina mobilappar.
 
->[!VIDEO](https://video.tv.adobe.com/v/3446831/?learn=on&captions=swe)
+>[!VIDEO](https://video.tv.adobe.com/v/3419149/?learn=on)
 
 ### Video: Använd [!DNL Real-Time CDP]-profilattribut i [!DNL Adobe Target]
 
 Lär dig hur du använder [!DNL Adobe Real-Time Customer Data Platform]-profilattribut i [!DNL Adobe Target] för att leverera personaliserade upplevelser på din webbplats och i dina mobilappar.
 
->[!VIDEO](https://video.tv.adobe.com/v/3451897/?learn=on&captions=swe)
+>[!VIDEO](https://video.tv.adobe.com/v/3419318/?learn=on)
 
 ### [!DNL Adobe Target] blogg och video: Förbättrad personalisering för samma sida
 

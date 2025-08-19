@@ -104,7 +104,7 @@ Följande avsnitt innehåller information som hjälper dig att använda en kateg
 
 ### Skapa en målgrupp som använder kategoritillhörighet {#section_A27C600BBA664FE7A74F8FE076B78F40}
 
-1. Klicka på **[!UICONTROL Create Audience]** i listan **[!UICONTROL Audiences]**.
+1. Klicka på **[!UICONTROL Audiences]** i listan **[!UICONTROL Create Audience]**.
 
    eller
 

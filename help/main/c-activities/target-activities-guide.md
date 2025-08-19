@@ -1,6 +1,6 @@
 ---
 keywords: aktivitetsguide;aktiviteter;aktivitet;aktivitetstyper;aktivitetsåtgärder
-description: Hämta ett interaktivt PDF som beskriver de olika aktivitetstyperna i  [!DNL Adobe Target].
+description: Hämta en interaktiv PDF som beskriver de olika aktivitetstyperna i  [!DNL Adobe Target].
 title: Vilka aktivitetstyper är tillgängliga i  [!DNL Target]?
 feature: Activities
 exl-id: fa62592d-230a-4388-94bb-d9bc3bdfe973
@@ -13,13 +13,13 @@ ht-degree: 0%
 
 # [!DNL Target] aktivitetstyper
 
-Hämta ett interaktivt PDF som beskriver de olika aktivitetstyperna i [!DNL Adobe Target].
+Hämta en interaktiv PDF som beskriver de olika aktivitetstyperna i [!DNL Adobe Target].
 
 >[!NOTE]
 >
->Om du vill få en så bra upplevelse som möjligt och dela med andra hämtar du den interaktiva [Adobe Target Activity Guide PDF](/help/main/assets/activities_guide_82817.pdf).
+>Om du vill få en så bra upplevelse som möjligt och dela med andra hämtar du [Adobe Target Activity Guide PDF](/help/main/assets/activities_guide_82817.pdf).
 >
->Den här artikeln innehåller ingen information om [[!UICONTROL Recommendations] aktiviteter](/help/main/c-recommendations/recommendations.md). Du kan dock inkludera rekommendationer inuti [!UICONTROL A/B Test]-, [!UICONTROL Auto-Allocate]-, [!UICONTROL Auto-Target]- och [!UICONTROL Experience Targeting] (XT)-aktiviteter. Mer information finns i [Recommendations som erbjudande](/help/main/c-recommendations/recommendations-as-an-offer.md). Den här funktionen kräver att du har en [Target Premium-licens](/help/main/c-intro/intro.md#premium).
+>Den här artikeln innehåller ingen information om [[!UICONTROL Recommendations] aktiviteter](/help/main/c-recommendations/recommendations.md). Du kan dock inkludera rekommendationer inuti [!UICONTROL A/B Test]-, [!UICONTROL Auto-Allocate]-, [!UICONTROL Auto-Target]- och [!UICONTROL Experience Targeting] (XT)-aktiviteter. Mer information finns i [Rekommendationer som ett erbjudande](/help/main/c-recommendations/recommendations-as-an-offer.md). Den här funktionen kräver att du har en [Target Premium-licens](/help/main/c-intro/intro.md#premium).
 
 ## Vad gör den? {#section_4ECAACC68723402EB3649033190E1BBC}
 

@@ -1,8 +1,8 @@
 ---
 keywords: samling;Riktning
 description: Lär dig hur du använder produktsamlingar eller objekt i  [!DNL Target Recommendations].
-title: Hur använder jag samlingar i Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=sv-SE#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
+title: Hur använder jag samlingar i rekommendationer?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Recommendations
 exl-id: e62f501b-3521-4456-9ea1-e4b8a2b478c6
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
@@ -46,7 +46,7 @@ Skapa en samling för att ordna de produkter eller det innehåll som du vill vis
 
    ![Hovringsikoner: redigera, kopiera och ta bort](/help/main/c-recommendations/c-products/assets/hover-icons.png)
 
-   Antalet objekt som rapporteras för varje samling i listvyn [!UICONTROL Collections] är antalet produkter som matchar reglerna för den samlingen i den konfigurerade standardvärdgruppen [Recommendations](/help/main/administrating-target/hosts.md) (miljö). Se [Inställningar](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=sv-SE){target=_blank} om du vill ändra standardvärdgruppen.
+   Antalet objekt som rapporteras för varje samling i listvyn [!UICONTROL Collections] är antalet produkter som matchar reglerna för den samlingen i den konfigurerade standardrekommendationerna [värdgrupp](/help/main/administrating-target/hosts.md) (miljö). Se [Inställningar](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} om du vill ändra standardvärdgruppen.
 
 1. Klicka på **[!UICONTROL Create Collection]**.
 
@@ -88,11 +88,11 @@ Du kan kopiera en befintlig samling för att skapa en dubblettsamling som du sed
 
 Observera att samlingar är tillgängliga för hela kontot. Tänk på detta innan du tar bort en samling. Borttagna samlingar kan inte återställas.
 
-## Använda en samling i en Recommendations-aktivitet
+## Använd en samling i en rekommendationsaktivitet
 
 1. Skapa en samling med någon av metoderna ovan.
 
-1. Klicka på **[!UICONTROL Activities]** och [skapa en ny Recommendations](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md)-aktivitet eller redigera en befintlig aktivitet.
+1. Klicka på **[!UICONTROL Activities]** och [skapa en ny Rekommendationer](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md)-aktivitet eller redigera en befintlig aktivitet.
 
 1. När du har valt ett villkor och en design visas sidan [!UICONTROL Options] där du valde önskad samling.
 
@@ -102,7 +102,7 @@ Observera att samlingar är tillgängliga för hela kontot. Tänk på detta inna
 
    ![Ändra samlingsalternativ](/help/main/c-recommendations/c-products/assets/change-collection.png)
 
-## Utbildningsvideo: Skapa samlingar och undantag i Recommendations (7:05) ![Självstudiekurs](/help/main/assets/tutorial.png)
+## Utbildningsvideo: Skapa samlingar och undantag i rekommendationer (7:05) ![Självstudiekurs](/help/main/assets/tutorial.png)
 
 Den här videon innehåller följande information:
 

@@ -2,7 +2,7 @@
 keywords: automatiserad personalisering;erbjudanden;mål;målgrupp;målinriktningsregler;målinriktning
 description: Lär dig att rikta enskilda erbjudanden till specifika målgrupper med hjälp av en [!UICONTROL Automated Personalization]-aktivitet (AP) i  [!DNL Adobe Target].
 title: Hur kan jag rikta in mig på [!UICONTROL Automated Personalization] erbjudanden?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=sv-SE#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: 633308dd-437b-4525-a7f8-69656c7d89be

@@ -21,11 +21,11 @@ Du kan personalisera upplevelser med [!DNL Target] data direkt när du packar up
 
 Du kan till exempel koppla inköpsdata från ditt butikssystem till en besökarprofil. Det gör du genom att skapa en CSV-fil med upp till 200 offlinevariabler och antingen överföra den direkt till [!DNL Adobe Experience Cloud] via en filöverföring, eller genom att använda FTP som värd och schemalägga att filen uppdateras regelbundet. När dina kundattribut finns i [!DNL Adobe Experience Cloud] kan du mappa dem till [!DNL Experience Cloud] lösningar som [!DNL Adobe Analytics] och [!DNL Target] där de är tillgängliga för analys, testning och personalisering.
 
-I [Anpassade attribut](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/working-with-customer-attributes.html?lang=sv-SE) finns stegvisa instruktioner.
+I [Anpassade attribut](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/working-with-customer-attributes.html) finns stegvisa instruktioner.
 
 **Bra att veta**: Eftersom [!DNL Target] är en öppen och agnostisk plattform som fungerar bra med olika tekniker kan du lägga till CRM-data eller inköpt data på många olika sätt. Det innebär att du kan välja en metod som fungerar bäst för din organisation.
 
-Mer information finns i [Metoder för att hämta data till Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=sv-SE){target=_blank}.
+Mer information finns i [Metoder för att hämta data till Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}.
 
 ## Tips 2: Gör djupare personalisering genom att blanda [!DNL Target] målgrupper med andra Adobe Experience Cloud-målgrupper.
 

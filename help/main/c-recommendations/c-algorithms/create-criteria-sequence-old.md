@@ -1,8 +1,8 @@
 ---
 keywords: villkorssekvens;flera kriterier;algoritmer;kriterier;rekommendationer-kriterier;sekvens;gränsantal returnerade objekt;platshållarnivåkontroll;plats
-description: Lär dig hur du ställer in sekvenser på upp till fem villkor för att få bättre kontroll över objekten som visas i dina aktiviteter i Adobe [!DNL Target] Recommendations.
-title: Hur skapar jag villkorssekvenser i Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=sv-SE#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
+description: Lär dig hur du ställer in sekvenser på upp till fem villkor för att få bättre kontroll över objekten som visas i dina Adobe [!DNL Target] Rekommendationsaktiviteter.
+title: Hur skapar jag villkorssekvenser i rekommendationer?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Recommendations
 exl-id: 5366c86c-7685-478b-a621-9b3f24296ab7
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
@@ -37,7 +37,7 @@ Du skapar villkorssekvenser från skärmen [!UICONTROL Create Criteria Sequence]
 
 Det finns flera sätt att nå skärmen [!UICONTROL Create Criteria Sequence]. Vissa skärmalternativ varierar beroende på hur du kommer till skärmen.
 
-* Klicka på **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria Sequence]** på biblioteksskärmen **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]**. Kriterier som du skapar här blir automatiskt tillgängliga för alla [!UICONTROL Recommendations]-aktiviteter.
+* Klicka på **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]** på biblioteksskärmen **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria Sequence]**. Kriterier som du skapar här blir automatiskt tillgängliga för alla [!UICONTROL Recommendations]-aktiviteter.
 * När du skapar en [!UICONTROL Recommendations]-aktivitet klickar du på **[!UICONTROL Create New]** > **[!UICONTROL Create Criteria Sequence]** på skärmen Välj villkor. Du kan välja att spara din nya villkorssekvens för användning med andra [!UICONTROL Recommendations]-aktiviteter.
 * När du redigerar en [!UICONTROL Recommendations]-aktivitet klickar du i en [!UICONTROL Recommendations Location]-ruta på sidan och väljer sedan **[!UICONTROL Change Criteria]**. På skärmen [!UICONTROL Select Criteria] klickar du på **[!UICONTROL Create New]** > **[!UICONTROL Create Criteria Sequence]**. Du kan spara dina nya villkor och använda dem med andra [!UICONTROL Recommendations]-aktiviteter.
 
@@ -51,7 +51,7 @@ Följande steg förutsätter att du kommer åt skärmen [!UICONTROL Create Crite
 
 1. Fyll i informationen i avsnittet [Grundläggande information](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#info).
 
-1. Klicka på **[!UICONTROL Add Criteria]** i avsnittet **[!UICONTROL Criteria Sequence]**.
+1. Klicka på **[!UICONTROL Criteria Sequence]** i avsnittet **[!UICONTROL Add Criteria]**.
 
    Sekvensordningen definierar i vilken ordning en design fylls. Om Villkor 1 inte har tillräckligt många rekommendationer för att fylla din design fylls de återstående platserna med villkor 2 och så vidare.
 
@@ -87,7 +87,7 @@ Följande steg förutsätter att du kommer åt skärmen [!UICONTROL Create Crite
 
    Mer information om alternativ för rekommendationslogik finns i [Villkor](/help/main/c-recommendations/c-algorithms/algorithms.md).
 
-## Utbildningsvideo: Skapa villkor i Recommendations (12:33) ![Tutorial badge](/help/main/assets/tutorial.png)
+## Utbildningsvideo: Skapa villkor i rekommendationer (12:33) ![Självstudiekurs](/help/main/assets/tutorial.png)
 
 Den här videon innehåller följande information:
 

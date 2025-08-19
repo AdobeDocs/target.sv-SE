@@ -52,7 +52,7 @@ För aktiviteter som skapats i tidigare versioner av [!DNL Target] konverteras [
 
 ### [!UICONTROL Duration]
 
-Aktiviteten kan starta när den har godkänts eller du kan ange ett specifikt datum och en viss tid. Aktiviteten kan också avslutas när den är inaktiverad eller du kan ange ett datum och en tid då aktiviteten ska sluta. Tidsväljaren använder en 24-timmarsklocka, där 00:00 är midnatt. Tidszonen är inställd på den tidszon som har konfigurerats i webbläsaren. Om du vill använda en annan tidszon anger du en annan tidszon för webbläsaren och startar om webbläsaren.
+Aktiviteten kan starta när den har godkänts eller du kan ange ett specifikt datum och en viss tid. Aktiviteten kan också avslutas när den är inaktiverad eller du kan ange ett datum och en tid då aktiviteten ska sluta. Tidsväljaren använder en 24-timmars klocka, där 00:00 är midnatt. Tidszonen är inställd på den tidszon som har konfigurerats i webbläsaren. Om du vill använda en annan tidszon anger du en annan tidszon för webbläsaren och startar om webbläsaren.
 
 ## [!UICONTROL Reporting Settings] {#section_13119392051044FBA6387D9B3B1C43CF}
 
@@ -76,7 +76,7 @@ När du väljer [!DNL Analytics] som rapportkälla för [!DNL Target] (A4T) väl
 
 [!DNL Analytics for Target] (A4T) kräver en spårningsserver för att rapportera resultaten korrekt. En standardspårningsserver visas i fältet [!UICONTROL Tracking Server]. Om du använder mer än en spårningsserver måste du ta med rätt spårningsserver i det här fältet. Mer information finns i [Använda en analysspårningsserver](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823).
 
-**[!DNL Adobe Customer Journey Analytics]**: Mer information om integrationen mellan [!DNL Adobe Customer Journey Analytics] och [!DNL Target] finns i [[!DNL Target] Rapportera i  [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md).
+**[!DNL Adobe Customer Journey Analytics]**: Mer information om integrationen mellan [[!DNL Target]  och  [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) finns i [!DNL Adobe Customer Journey Analytics]Rapportera i [!DNL Target].
 
 ### [!UICONTROL Goal Metric]
 

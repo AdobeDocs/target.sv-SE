@@ -110,7 +110,7 @@ Följande frågor ställs ofta om geoanpassning:
 
 ### Hur anger jag latitud och longitud?
 
-+++Se information
++++Se detaljer
 * Värdet för latitud och longitud ska vara ett numeriskt värde i grader.
 * Värdet för latitud och longitud kan ha en maxprecision på fem decimaler.
 * Värdet för latitud måste vara mellan -90 och 90.
@@ -120,21 +120,21 @@ Följande frågor ställs ofta om geoanpassning:
 
 ### Hur fungerar geoanpassning för mobila enheter?
 
-+++Se information
++++Se detaljer
 De flesta mobilenhetsanvändare får tillgång till innehåll via WiFi, vilket innebär att [!DNL Target]s IP-baserade geomål är lika exakt som på en dator. Celltornbaserade anslutningar kan vara mindre exakta eftersom besökarens IP-adress baseras på tornet där signalen hämtas. Vissa problem med geografisk plats för mobila enheter kan lösas med [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
 
 +++
 
 ### Hur hanterar geo besökare från AOL?
 
-+++Se information
++++Se detaljer
 På grund av hur AOL proxies sin trafik kan [!DNL Target] bara rikta sig till dem på landsnivå. En kampanj som riktar sig till Frankrike riktar sig till exempel till AOL-användare i Frankrike. Men en kampanj som riktar sig till Paris har inte lyckats nå AOL-användare i Paris. Om du avser att särskilt rikta in dig på AOL-användare kan du ställa in regionfältet på &quot;aol&quot;. Faktum är att ni kan inrikta er på användare av AOL genom att ange två målinriktningsvillkor: landet matchar exakt&quot;USA&quot; och regionen matchar&quot;aol&quot;.
 
 +++
 
 ### Vilken platsgranularitet har geoanpassning?
 
-+++Se information
++++Se detaljer
 * Land - globalt
 * Stat/provins/region - global
 * Ort - global
@@ -146,7 +146,7 @@ På grund av hur AOL proxies sin trafik kan [!DNL Target] bara rikta sig till de
 
 ### Hur testar jag mina aktiviteter som om jag är en användare som kommer från en annan plats?
 
-+++Se information
++++Se detaljer
 * **at.js 1.*x***: Du kan åsidosätta din IP-adress med en IP-adress från en annan plats och använda parametern `mboxOverride.browserIp url`. Om ditt företag till exempel befinner sig i Storbritannien, men din globala kampanj riktar sig till besökare i Auckland i Nya Zeeland, använder du den här URL-adressen under förutsättning att `60.234.0.39` är en IP-adress i Auckland:
 
   `https://www.mycompany.com?mboxOverride.browserIp=60.234.0.39`
@@ -163,14 +163,14 @@ På grund av hur AOL proxies sin trafik kan [!DNL Target] bara rikta sig till de
 
 ### Hur är områden, som Puerto Rico och Hong Kong, mappade till strukturen för geografisk anpassning?
 
-+++Se information
++++Se detaljer
 Puerto Rico, Hong Kong och andra territorier behandlas som separata&quot;Country&quot;-värden.
 
 +++
 
 ### Fångar [!DNL Target] (och lagrar) information som Postnummer när aktiviteten är inriktad på geo-location-målinriktning?
 
-+++Se information
++++Se detaljer
 Nej, [!DNL Target] använder endast geo-data under sessionen, och sedan ignoreras data.
 
 +++

@@ -1,8 +1,8 @@
 ---
 keywords: rekommendationsdesign;skapa design;kopiera design
 description: Lär dig hur du skapar en  [!DNL Target Recommendations] design med en standarddesign eller genom att skapa en anpassad design som passar sidans layout bäst.
-title: Hur skapar jag en design i Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=sv-SE#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
+title: Hur skapar jag en design i rekommendationer?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Recommendations
 exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
@@ -48,7 +48,7 @@ Du kan skapa en design baserad på en standarddesign eller skapa en egen design.
 
    Dialogrutan [!UICONTROL Create Design] visas.
 
-1. Skriv in en **[!UICONTROL &#x200B; Name]** och en förhandsvisningsbild som du vill visa på designkortet.
+1. Skriv in en **[!UICONTROL  Name]** och en förhandsvisningsbild som du vill visa på designkortet.
 
    När du använder en standarddesign visas designnamnet och kopian i fältet **[!UICONTROL Content Name]**. Du kan redigera namnet. Du kan också välja en bild som ska visas på designkortet.
 
@@ -56,7 +56,7 @@ Du kan skapa en design baserad på en standarddesign eller skapa en egen design.
 
    I rekommendationsdesignen används designspråket Velocity med öppen källkod. Information om hastighet finns på [https://velocity.apache.org](https://velocity.apache.org) och i [Anpassa en design med Snabb](/help/main/c-recommendations/c-design-overview/customizing-a-template.md).
 
-   En design kan vara HTML eller icke-HTML. Som standard är HTML-designer omslutna av en `<div>`-tagg som tillåter klickspårning i en webbmiljö. Designer som inte är HTML är avsedda för andra miljöer än webbmiljöer där klickspårning inte är möjlig. Dra [!UICONTROL HTML Design]-växeln till avmarkeringspositionen om du vill använda kod som inte är HTML.
+   En design kan vara HTML eller icke-HTML. Som standard kapslas HTML Designs med taggen `<div>` så att klickspårning kan användas i en webbmiljö. Designer från andra program än HTML är avsedda för icke-webbaserade miljöer där klickspårning inte är möjlig. Dra [!UICONTROL HTML Design]-växeln till avmarkeringspositionen om du vill använda kod som inte är från HTML.
 
    >[!NOTE]
    >
@@ -96,7 +96,7 @@ I följande exempel visas hur JSON-svar kan returneras när en aktivitet konfigu
 
 1. Skapa en design i [!UICONTROL Design library] eller i det formulärbaserade arbetsflödet. Om du försöker skapa en design i arbetsflödet [!UICONTROL Visual Experience Composer] (VEC) kan du inte skapa något annat än en HTML-design, som är inkapslad i en `<div>` för klickningsspårning.
 
-1. Se till att alternativet &quot;HTML Design&quot; är inaktiverat:
+1. Kontrollera att alternativet&quot;HTML Design&quot; är avaktiverat:
 
    ![html_design_toggle-bild](assets/html_design_toggle.png)
 
@@ -156,8 +156,8 @@ I följande exempel visas hur JSON-svar kan returneras när en aktivitet konfigu
 
    | Parameter | Värde |
    |--- |--- |
-   | `[YOUR_CLIENT_CODE]` | Målklientkod (finns på /help/target/products.html#recsSettings > Recommendations API Token > Klientkod). |
-   | `[YOUR_MBOX_NAME]` | Det namn du har valt i avsnittet &quot;locations&quot; i den formulärbaserade Recommendations, i det här fallet Sample_Recs_Response. |
+   | `[YOUR_CLIENT_CODE]` | Målklientkod (finns på /help/target/products.html#recsSettings > Recommendations API-token > Klientkod). |
+   | `[YOUR_MBOX_NAME]` | Det namn du har valt i avsnittet &quot;locations&quot; i de formulärbaserade rekommendationerna, i det här fallet Sample_Recs_Response. |
    | `[ENTITY_ID` | `entity.id` för ett objekt i katalogen. |
    | `[AT_PROPERTY_TOKEN]` | (Valfritt) Lägg till om du har valt en egenskap (ingår i Enterprise Permissions) under aktivitetsinställningarna. |
 
@@ -313,7 +313,7 @@ Du kan också skicka ytterligare information i svaret. Följande kodfil är ett 
     }  
 ```
 
-## Utbildningsvideo: Skapa anpassade designer i Recommendations (3:20) ![Översikt](/help/main/assets/overview.png)
+## Utbildningsvideo: Skapa anpassade designer i rekommendationer (3:20) ![Översikt ](/help/main/assets/overview.png)
 
 Den här videon innehåller följande information:
 

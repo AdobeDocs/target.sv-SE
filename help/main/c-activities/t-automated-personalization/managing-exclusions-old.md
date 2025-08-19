@@ -2,7 +2,7 @@
 keywords: deduplicera;tillåta dubbletter;exkludera dubblerade erbjudanden;automatiserad personalisering;Tillåt inte dubblerade erbjudanden;exkludera;standardinnehåll;exkluderingsgrupp;
 description: Hantera undantag i  [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP)-aktiviteter. Skapa exkluderingsgrupper och exkludera dubblerade erbjudanden, specifika upplevelser och standardinnehåll.
 title: Hur hanterar jag undantag i [!UICONTROL Automated Personalization] aktiviteter?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=sv-SE#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: d9e9f2a2-5914-4b81-acae-eaf388646652
@@ -27,11 +27,11 @@ Du kan också begränsa vilka målgrupper som kan se specifika erbjudanden i AP-
 
 **Så här skapar du en exkluderingsgrupp:**
 
-1. Klicka på **[!UICONTROL Manage Content]** i rubrikfältet när du [skapar eller redigerar en AP-aktivitet](/help/main/c-activities/t-automated-personalization/create-ap-activity.md).
+1. Klicka på [ i rubrikfältet när du ](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)skapar eller redigerar en AP-aktivitet **[!UICONTROL Manage Content]**.
 
    ![Länken Hantera innehåll](/help/main/c-activities/t-automated-personalization/assets/manage-content.png)
 
-1. Klicka på **[!UICONTROL Exclusion Groups]** i dialogrutan [!UICONTROL Manage Content].
+1. Klicka på [!UICONTROL Manage Content] i dialogrutan **[!UICONTROL Exclusion Groups]**.
 
    ![Hantera innehåll > dialogrutan Uteslutningsgrupper](/help/main/c-activities/t-automated-personalization/assets/exclusion_group_create-new.png)
 
@@ -69,7 +69,7 @@ Undanta specifika upplevelser om du vill utesluta vissa erbjudandekombinationer 
 
 Det kan finnas vissa kombinationer som inte fungerar tillsammans, eller så kanske du begränsar antalet testade upplevelser för att minska trafikkraven för din aktivitet.
 
-1. Klicka på **Hantera innehåll** i rubrikfältet när du [skapar eller redigerar en AP-aktivitet](/help/main/c-activities/t-automated-personalization/create-ap-activity.md).
+1. Klicka på [Hantera innehåll](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) i rubrikfältet när du **skapar eller redigerar en AP-aktivitet**.
 
    ![Länken Hantera innehåll](/help/main/c-activities/t-automated-personalization/assets/manage-content.png)
 

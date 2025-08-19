@@ -2,7 +2,7 @@
 keywords: upplevelse;kontrollera;automatiserad personalisering;automatisk målanpassning
 description: Lär dig hur du väljer en upplevelse som ska användas som en kontroll när du skapar en [!UICONTROL Automated Personalization] (AP) eller [!UICONTROL Auto-Target]-aktivitet i  [!DNL Adobe Target].
 title: Hur kan jag använda en specifik upplevelse som kontroll i en [!UICONTROL Automated Personalization]-aktivitet?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=sv-SE#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Automated Personalization, Auto-Target
 solution: Target,Analytics
 exl-id: a0a36ace-3cba-4d8d-9bbd-e35204ff6453
@@ -34,7 +34,7 @@ Det finns två alternativ för din kontroll i dina [!UICONTROL Automated Persona
 
    ![Kontrollpanelen](/help/main/c-activities/t-automated-personalization/assets/control.png)
 
-1. Välj [!UICONTROL Random Experience] i listrutan [!UICONTROL Control] eller välj önskad upplevelse som du vill använda för kontrollen.
+1. Välj [!UICONTROL Control] i listrutan [!UICONTROL Random Experience] eller välj önskad upplevelse som du vill använda för kontrollen.
 
 1. Klicka på kontrollen [!UICONTROL Traffic Allocation] och ange sedan önskad trafikallokering för kontrollupplevelsen och andra upplevelser.
 

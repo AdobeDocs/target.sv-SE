@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Mer information om upplevelser finns i [Erfarenheter](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D).
 
-1. Klicka på **[!UICONTROL Add Experience]** på sidan **[!UICONTROL Experiences]** i VEC.
+1. Klicka på **[!UICONTROL Experiences]** på sidan **[!UICONTROL Add Experience]** i VEC.
 
    ![Lägg till upplevelsealternativ](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/add-experience.png)
 
@@ -87,13 +87,13 @@ Mer information om upplevelser finns i [Erfarenheter](/help/main/c-experiences/e
 
 Du kan kopiera en upplevelse i en [!UICONTROL A/B Test] så att du kan göra mindre ändringar i den utan att behöva skapa om upplevelsen från grunden.
 
-1. Klicka på ikonen för lodrät ellips > **[!UICONTROL Duplicate]** på sidan **[!UICONTROL Experiences]** (det första steget i det guidade arbetsflödet i tre steg).
+1. Klicka på ikonen för lodrät ellips > **[!UICONTROL Experiences]** på sidan **[!UICONTROL Duplicate]** (det första steget i det guidade arbetsflödet i tre steg).
 
    ![Alternativet Duplicera upplevelse](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/duplicate-experience.png)
 
 ## Ta bort en upplevelse
 
-1. Klicka på ikonen för lodrät ellips > **[!UICONTROL Duplicate]** på sidan **[!UICONTROL Experiences]** (det första steget i det guidade arbetsflödet i tre steg).
+1. Klicka på ikonen för lodrät ellips > **[!UICONTROL Experiences]** på sidan **[!UICONTROL Duplicate]** (det första steget i det guidade arbetsflödet i tre steg).
 
    ![Ta bort upplevelsealternativ](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/delete-experience.png)
 

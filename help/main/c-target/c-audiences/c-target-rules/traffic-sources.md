@@ -20,7 +20,7 @@ Du kan till exempel ange mål baserat på besökarens webbläsare, sökmotor ell
 Du kan kombinera flera trafikkällor för att skapa en komplex målarregel.
 
 1. I gränssnittet [!DNL Target] klickar du på **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
-1. &#x200B;
+1. 
    1. Namnge målgruppen och lägg till en valfri beskrivning.
 1. Dra och släpp **[!UICONTROL Traffic Sources]** i rutan för målgruppsbyggaren.
 

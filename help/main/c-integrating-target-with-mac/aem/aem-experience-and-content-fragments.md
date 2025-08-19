@@ -26,7 +26,7 @@ Med [!DNL Target] kan du leverera personaliserade upplevelser i stor skala baser
 ## Överväganden
 
 Tänk på följande när du arbetar med AEM [!UICONTROL Experience Fragments] och [!UICONTROL Content Fragments] i [!DNL Target]:
-* Dessa funktioner kräver att du är en [!DNL Adobe Experience Manager] (AEM) kund. Kontrollera att du uppfyller kraven för varje fragmenttyp: [Experience Fragment](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md#requirements) eller [Content Fragment](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md#requirements).
+* Dessa funktioner kräver att du är [!DNL Adobe Experience Manager]-kund (AEM). Kontrollera att du uppfyller kraven för varje fragmenttyp: [Experience Fragment](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md#requirements) eller [Content Fragment](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md#requirements).
 * [!UICONTROL Experience Fragments] och [!UICONTROL Content Fragments] är tillgängliga för följande aktivitetstyper:
 
    * [[!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md)
@@ -47,4 +47,4 @@ Tänk på följande när du arbetar med AEM [!UICONTROL Experience Fragments] oc
 
 [!DNL Adobe Experience Manager] [!UICONTROL Experience Fragments] och [!UICONTROL Content Fragments] kan se likadana ut på ytan, men varje fragmenttyp spelar nyckelroller i olika användningsfall.
 
-Mer information om hur [!UICONTROL Experience Fragments] och [!UICONTROL Content Fragments] liknar varandra finns i [Förstå [!UICONTROL Content Fragments] och [!UICONTROL Experience Fragments]](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/content-fragments/understand-content-fragments-and-experience-fragments.html?lang=sv-SE){target=_blank} i [AEM Sites-handboken om videor och självstudiekurser](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/overview.html?lang=sv-SE){target=_blank}.
+Mer information om hur [!UICONTROL Experience Fragments] och [!UICONTROL Content Fragments] liknar varandra finns i [Förstå [!UICONTROL Content Fragments] och [!UICONTROL Experience Fragments]](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/content-fragments/understand-content-fragments-and-experience-fragments.html){target=_blank} i [AEM Sites-handboken om videor och självstudiekurser](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/overview.html){target=_blank}.

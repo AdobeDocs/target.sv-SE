@@ -1,6 +1,6 @@
 ---
 keywords: inspelningspoäng;poäng
-description: Lär dig mer om Capture Score Engagement-måttet i Adobe [!DNL Target]  som beräknar en sammanställd poäng baserad på värdet som tilldelats de sidor som besöks på webbplatsen.
+description: Lär dig mer om Capture Score Engagement-måttet i Adobe [!DNL Target]  som beräknar en sammanställd poäng baserad på värdet som tilldelats de besökta sidorna på webbplatsen.
 title: Vad är mätvärdet för Capture Score?
 feature: Success Metrics
 exl-id: 3446cdef-7ee0-40dd-bf17-27def56668d4
@@ -33,7 +33,7 @@ Du kan tilldela ett värde till en sida på webbplatsen baserat på vad sidan ä
 
 Det finns två metoder för att tilldela en spets till en sida:
 
-* Skapa en parameter med namnet `mboxPageValue` i [!DNL Target]-begäran.
+* Skapa en parameter med namnet [!DNL Target] i `mboxPageValue`-begäran.
 
   Exempel: `('global_mbox', 'mboxPageValue=10');`
 

@@ -2,7 +2,7 @@
 keywords: rekommendationsfeed;feed;SAINT;ftp;csv;klassificeringar;analysklassificeringar
 description: Lär dig hur feeds importerar entiteter till  [!DNL Adobe Target] [!DNL Recommendations] med hjälp av CSV-filer,  [!DNL Google Product Search] feed-formatet och [!DNL Analytics] produktklassificeringar.
 title: Hur använder jag [!UICONTROL Feeds] i [!DNL Target Recommendations]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=sv-SE#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Recommendations
 exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
 source-git-commit: 5a8b4006a2c43c9cac2d22e7663aa21043f98d9a
@@ -212,7 +212,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 ### [!DNL Analytics] produktklassificeringar {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-Produktklassificeringen [!DNL Adobe Analytics] är den enda klassificeringen som är tillgänglig för rekommendationer. Mer information om den här klassificeringsfilen finns i [Om klassificeringar](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=sv-SE) i guiden *Analyskomponenter*. Det är möjligt att inte all information du behöver för rekommendationer finns tillgänglig i den aktuella implementeringen, så följ den här användarhandboken om du vill lägga till i klassificeringsfilen.
+Produktklassificeringen [!DNL Adobe Analytics] är den enda klassificeringen som är tillgänglig för rekommendationer. Mer information om den här klassificeringsfilen finns i [Om klassificeringar](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) i guiden *Analyskomponenter*. Det är möjligt att inte all information du behöver för rekommendationer finns tillgänglig i den aktuella implementeringen, så följ den här användarhandboken om du vill lägga till i klassificeringsfilen.
 
 >[!IMPORTANT]
 >
@@ -323,15 +323,15 @@ Titta på följande exempel:
 
 **Exempel 1:**
 
-* Dag ett: dagliga foderprocesser klockan 9.00 PST.
-* Dag två: klockan är 23.30 och maten har inte gått sedan i går klockan 9.00.
+* Dag ett: dagliga foderprocesser klockan 9:00 PST.
+* Dag två: klockan är 23.00 och matningen har inte gått sedan i går kl. 9:30.:00
 
 Statusen bör vara gul eftersom indexet borde ha körts för cirka 6,5 timmar sedan. 6,5 timmar +24 är 127% av matningsfönstret.
 
 **Exempel 2:**
 
-* 1 januari: månatliga feed-processer klockan 9:00 PST.
-* 3 februari: klockan är 10.00 och maten har inte gått på en månad, en dag och en timme sedan.
+* 1 januari: månatliga feed-processer kl. 9:00 PST.
+* 3 februari: klockan är 10:00 och matningen har inte gått på en månad, en dag och en timme sedan.
 
 Statusen ska vara gul eftersom indexet ska ha körts för ungefär en dag och en timme sedan. Även om detta endast är (31+(1/25))/30 = 1,03 % av frekvensinställningen, överskred det maximala antalet endagsfördröjningar.
 
@@ -339,7 +339,7 @@ Statusen ska vara gul eftersom indexet ska ha körts för ungefär en dag och en
 
 I följande videofilmer finns mer information om de begrepp som beskrivs i den här artikeln.
 
-### Förstå feeds i rekommendationer (3:01) ![märket Översikt](/help/main/assets/overview.png)
+### Förstå feeds i rekommendationer (3:01) ![Märket Översikt](/help/main/assets/overview.png)
 
 Den här videon innehåller följande information:
 

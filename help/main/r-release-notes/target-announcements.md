@@ -76,7 +76,7 @@ Varför ska du vara med?
 
 Leverera engagerande kundupplevelser för att öka konverteringsgraden. Är ditt företag redo för högsäsong? Delta i oss och få tillgång till experttips om hur du kan uppnå optimala prestanda och maximal avkastning den här gången.
 
-+++Se information
++++Se detaljer
 
 Följ John Magnusson, Adobe Customer Success Manager och Katherine Klein, Director - MarTech &amp; AdTech Solutions, Macy&#39;s Inc. Följ oss för att lära oss strategier som avsevärt påverkar beredskapen inför högsäsong.
 
@@ -111,7 +111,7 @@ Utnyttja företagets förmåga att leverera personalisering som presenteras av A
 
 Viktiga analysrapporter tyder på att företag som är ledande inom personalisering genererar 40 procent mer intäkter än sina motsvarigheter. För att möta efterfrågan på nya, relevanta och extremt personaliserade upplevelser med varje klick behöver marknadsförarna rätt ramverk och strategi på plats. Gå med i det här webbinariet och Adobe experter för att lära dig hur ni kan använda datadrivna ramverk för att bygga upp organisationens personaliseringsprogram och driva framgångar.
 
-* [Inspelningslänk](https://event.on24.com/wcc/r/4217828/9C1E092251A62DF896221FB5A91437D4){target=_blank}
+* [Länkar för inspelning](https://event.on24.com/wcc/r/4217828/9C1E092251A62DF896221FB5A91437D4){target=_blank}
 
 ### Finjustera AI-Powered Personalization: Nya funktioner i [!DNL Adobe Target] (11 oktober 2022)
 
@@ -128,7 +128,7 @@ Vi är glada över att kunna dela med oss av viktiga och banbrytande nyheter om 
   Under den här sessionen kan du lära dig hur du kan höja konverteringsgraden genom att utnyttja de nya funktionerna i [!DNL Adobe Target] när vi diskuterar:
 
    * Förbättrade modellkontroller i [!UICONTROL Automated Personalization]- och [!UICONTROL Auto-Target]-aktiviteter
-   * Låser upp möjligheten att utvärdera profilattribut och högvärdessegment från [!DNL Real-Time Customer Data Platform] för [!DNL Adobe]
+   * Låser upp möjligheten att utvärdera profilattribut och högvärdessegment från [!DNL Adobe] för [!DNL Real-Time Customer Data Platform]
    * Hur varumärken kan leverera snabbare hastigheter och beslut genom att finjustera sina AI-baserade algoritmer
    * Unika användningsexempel för personalisering från 1 till 1
 
@@ -160,7 +160,7 @@ Mobilupplevelser är grunden för innovation inom hur marknadsförings- och tekn
 
 ### Chef&#39;s Collection: Recept for Personalization (30 augusti 2022)
 
-Gå med i [!DNL Adobe Target] teamet och få nya idéer om hur du kan få ut så mycket som möjligt av Target. Baserat på vår senaste e-bok &quot;Chef&#39;s Collection: Ideas for Personalization&quot;.
+Gå med i [!DNL Adobe Target] [!DNL]teamet och få nya idéer om hur du kan få ut så mycket som möjligt av Target. Baserat på vår senaste e-bok &quot;Chef&#39;s Collection: Ideas for Personalization&quot;.
 
 * [Länkar för inspelning](https://video.tv.adobe.com/v/346970/){target=_blank}
 

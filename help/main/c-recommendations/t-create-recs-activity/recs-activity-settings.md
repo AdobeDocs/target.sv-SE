@@ -1,8 +1,8 @@
 ---
-keywords: Recommendations;Inställningar;namn;mål;prioritet;varaktighet;rapporteringsinställningar;andra metadata
-description: Lär dig hur du konfigurerar inställningarna som används för att beskriva och styra en Recommendations-aktivitet i Adobe Target.
-title: Hur konfigurerar jag aktivitetsinställningar för Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=sv-SE#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
+keywords: Rekommendationer;Inställningar;namn;mål;prioritet;varaktighet;rapporteringsinställningar;andra metadata
+description: Lär dig hur du konfigurerar inställningarna som används för att beskriva och styra en rekommendationsaktivitet i Adobe Target.
+title: Hur konfigurerar jag aktivitetsinställningar för rekommendationer?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Recommendations
 exl-id: 77bb14fc-342d-41cd-8084-e21067f277af
 source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 ---
 
-# Recommendations aktivitetsinställningar
+# Inställningar för aktiviteten Rekommendationer
 
 Information om de inställningar du kan använda för att beskriva och kontrollera en [!UICONTROL Recommendations]-aktivitet i [!DNL Adobe Target].
 
@@ -49,7 +49,7 @@ Prioriteten används om flera aktiviteter tilldelas till samma plats med samma m
 
 Ange aktivitetens varaktighet.
 
-Aktiviteten kan starta när den är aktiverad eller du kan ange ett specifikt datum och en viss tid. Aktiviteten kan också avslutas när den är inaktiverad eller du kan ange ett datum och en tid. Tidsväljaren använder en 24-timmarsklocka, där 00:00 är midnatt. Tidszonen är inställd på den tidszon som har konfigurerats i webbläsaren. Om du vill använda en annan tidszon anger du en annan tidszon för webbläsaren och startar om webbläsaren.
+Aktiviteten kan starta när den är aktiverad eller du kan ange ett specifikt datum och en viss tid. Aktiviteten kan också avslutas när den är inaktiverad eller du kan ange ett datum och en tid. Tidsväljaren använder en 24-timmars klocka, där 00:00 är midnatt. Tidszonen är inställd på den tidszon som har konfigurerats i webbläsaren. Om du vill använda en annan tidszon anger du en annan tidszon för webbläsaren och startar om webbläsaren.
 
 ## Rapportinställningar
 
@@ -69,7 +69,7 @@ Aktiviteten kan starta när den är aktiverad eller du kan ange ett specifikt da
 
   [!DNL Analytics for Target] (A4T) kräver en spårningsserver för att rapportera resultaten korrekt. En standardspårningsserver visas i fältet [!UICONTROL Tracking Server]. Om du använder mer än en spårningsserver måste du ta med rätt spårningsserver i det här fältet. Mer information finns i [Använda en analysspårningsserver](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823).
 
-  **[!DNL Adobe Customer Journey Analytics]**: Mer information om integrationen mellan [!DNL Adobe Customer Journey Analytics] och [!DNL Target] finns i [[!DNL Target] Rapportera i  [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md).
+  **[!DNL Adobe Customer Journey Analytics]**: Mer information om integrationen mellan [[!DNL Target]  och  [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) finns i [!DNL Adobe Customer Journey Analytics]Rapportera i [!DNL Target].
 
 * **Målmått:** Välj det framgångsmått som avgör om aktiviteten lyckas eller inte.
 * **Ytterligare mått:** Konfigurera ytterligare framgångsmått som ska användas i dina rapporter.
@@ -79,7 +79,7 @@ Aktiviteten kan starta när den är aktiverad eller du kan ange ett specifikt da
 
 Skriv anteckningar om din aktivitet.
 
-## Utbildningsvideo: Aktivitetsinställningar (3:02) ![Tutorial badge](/help/main/assets/tutorial.png)
+## Utbildningsvideo: Aktivitetsinställningar (3:02) ![Självstudiekurs ](/help/main/assets/tutorial.png)
 
 Den här videon innehåller information om aktivitetsinställningar.
 

@@ -1,6 +1,6 @@
 ---
 keywords: Visual Experience Composer;VEC;carousel
-description: Lär dig hur du skapar en karusell som kan redigeras i Adobe [!DNL Target] Visual Experience Composer (VEC).
+description: Lär dig skapa en karusell som kan redigeras i Adobe [!DNL Target] Visual Experience Composer (VEC).
 title: Hur skapar jag Carousel i Visual Experience Composer?
 feature: Visual Experience Composer (VEC)
 exl-id: 50bc11d2-c9fc-4b53-8218-49842b59269a
@@ -17,7 +17,7 @@ I det här avsnittet visas hur du skapar en karusell som kan redigeras i [!DNL A
 
 När du använder stegen nedan vet [!DNL Target] alltid att den valda bildrutan kommer att ha väljaren för rätt bildruta, även om den ändras i Visual Experience Composer efter några sekunder.
 
-1. Skapa statiska platshållare för HTML.
+1. Skapa statiska HTML-platshållare.
 
    ```html
    <ul>

@@ -55,7 +55,7 @@ Multivariata tester kan användas tillsammans med A/B-tester för att optimera s
 
 * Använd ett MVT-test för att avgöra vilket element som är viktigast och följ sedan upp med ett mer fokuserat A/B-test på det elementet.
 
-  När antalet olika upplevelser överstiger fem och sträcker sig över två eller fler element är det en bra idé att överväga ett MVT-test innan du kör A/B-testerna. MVT-testet visar vilka områden på sidan som mest sannolikt förbättrar konverteringen. Det här är de element som en marknadsförare ska fokusera på. MVT-testet kan till exempel visa att uppmaningen att vidta åtgärder är den viktigaste faktorn för att uppnå dina mål. När du har fastställt vilka element och vilket innehåll som är mest användbart för att du ska kunna uppnå dina mål, kan du köra ett A/B-test för att förfina resultatet ytterligare. Du kan t.ex. testa två specifika bilder mot varandra eller jämföra ordalydelsen eller färgerna i en uppmaning. Genom att följa ett MVT-test med ett eller flera A/B-tester kan du fastställa vilket innehåll som är bäst för de resultat du vill ha.
+  När antalet olika upplevelser överstiger fem och sträcker sig över två eller fler element är det en bra idé att överväga ett MVT-test innan du kör A/B-testerna. MVT-testet visar vilka områden på sidan som mest sannolikt förbättrar konverteringen. Det här är de element som en marknadsförare ska fokusera på. MVT-testet kan till exempel visa att call to action är den viktigaste faktorn för att nå dina mål. När du har fastställt vilka element och vilket innehåll som är mest användbart för att du ska kunna uppnå dina mål, kan du köra ett A/B-test för att förfina resultatet ytterligare. Du kan till exempel testa två specifika bilder mot varandra eller jämföra ordalydelsen eller färgerna i en call to action. Genom att följa ett MVT-test med ett eller flera A/B-tester kan du fastställa vilket innehåll som är bäst för de resultat du vill ha.
 
 ## Överväganden {#section_979FE3F398654C1EA1C86E7DBC9A8DAD}
 
@@ -92,7 +92,7 @@ I följande videofilmer finns mer information om de begrepp som beskrivs i den h
 
 ### Aktivitetstyper (9:03) ![Märket Översikt](/help/main/assets/overview.png)
 
-I den här översiktsvideon förklaras vilka aktivitetstyper som är tillgängliga i [!DNL Target]. Multivariata tester behandlas från 4:20.
+I den här översiktsvideon förklaras vilka aktivitetstyper som är tillgängliga i [!DNL Target]. Multivariata tester diskuteras med början vid 4:20.
 
 * Beskriv de typer av aktiviteter som ingår i [!DNL Adobe Target]
 * Välj lämplig aktivitetstyp för att uppnå dina mål
@@ -100,9 +100,9 @@ I den här översiktsvideon förklaras vilka aktivitetstyper som är tillgängli
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-### Skapa multivariata tester (9:25) ![Självstudiemärke](/help/main/assets/tutorial.png)
+### Skapar multivariata tester (9:25) ![Självstudiemärke](/help/main/assets/tutorial.png)
 
-I den här videon förklaras hur du förstår, planerar och skapar ett multivariat-test med hjälp av det guidade arbetsflödet i tre steg för Target.
+I den här videon förklaras hur du förstår, planerar och skapar ett multivariat-test med hjälp av det guidade arbetsflödet i tre steg för [!DNL]Target.
 
 * Definiera och utforma ett multivariat test
 * Skapa ett multivariata test

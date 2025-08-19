@@ -22,7 +22,7 @@ Tips som hjälper dig att förbättra prestanda, undvika problem och korrigera k
   En banderoll eller en hjältebild kommer till exempel att leda till fler konverteringar än en sidfotsändring. Om du tar med mindre inflytelserika platser i ditt test ökar bara mängden trafik och den tid som krävs för att testa de mer framträdande platserna på sidan.
 * Förbered sidvariationerna i förväg.
 
-  Var uppmärksam på skillnaderna i innehåll för varje erbjudande och skapa bilder, text och HTML som du förväntar dig att använda i MVT-testet.
+  Var uppmärksam på skillnaderna i innehåll för varje erbjudande och skapa bilder, text och HTML-erbjudanden som du förväntar dig att använda i MVT-testet.
 
 ## Skapa {#section_C59C722CA82E48ABA58A4A7FA758F193}
 
@@ -53,7 +53,7 @@ Tips som hjälper dig att förbättra prestanda, undvika problem och korrigera k
 
 ## Följ upp {#section_1C44A767F6AB4441A3EAA8AC995F46B0}
 
-* Även om [!DNL Target] tillåter dig att redigera en aktiv aktivitet kan du återställa testet om du redigerar en pågående aktivitet. Rapporterna kanske inte känner igen vissa ändringar. Det är tryggt att ändra erbjudandena på HTML endast i erbjudandebiblioteket.
+* Även om [!DNL Target] tillåter dig att redigera en aktiv aktivitet kan du återställa testet om du redigerar en pågående aktivitet. Rapporterna kanske inte känner igen vissa ändringar. Det är säkert att bara ändra HTML erbjudanden i erbjudandebiblioteket.
 
   Specifika åtgärder som återställer namn och rapporter för upplevelser är:
 
@@ -65,4 +65,4 @@ Tips som hjälper dig att förbättra prestanda, undvika problem och korrigera k
 
 * Genom att följa ett MVT-test med ett eller flera A/B-tester kan du fastställa vilket innehåll som är bäst för de resultat du vill ha.
 
-  När du har fastställt vilka platser och vilket innehåll som är mest användbart för att du ska kunna uppnå dina mål, kan du köra ett A/B-test för att förfina resultaten ytterligare. Om du till exempel vet vilka platser som är viktigast testar du två specifika bilder mot varandra eller jämför ordalydelsen eller färgerna i en uppmaning.
+  När du har fastställt vilka platser och vilket innehåll som är mest användbart för att du ska kunna uppnå dina mål, kan du köra ett A/B-test för att förfina resultaten ytterligare. Om du till exempel vet vilka platser som är viktigast testar du två specifika bilder mot varandra eller jämför ordalydelsen eller färgerna i en call to action.

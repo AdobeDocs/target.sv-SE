@@ -3,7 +3,7 @@ keywords: hjälpmedel;artificiell intelligensassistent;innehållsgenerering;inne
 description: Lär dig hur du skapar engagerande innehåll med  [!DNL AI Assistant].
 title: Hur använder jag  [!DNL AI Assistant] in [!DNL Target] för att generera engagerande innehåll?
 feature: Overview
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=sv-SE#beta newtab=true" tooltip="Vad är Beta-funktioner i  [!DNL Adobe Target]?"
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="Vad är Beta-funktioner i  [!DNL Adobe Target]?"
 hide: true
 hidefromtoc: true
 exl-id: eb6f07d8-729e-4f94-ae7a-a054bf54b030
@@ -59,7 +59,7 @@ Så här skapar du engagerande text med [!DNL AI Assistant]:
 
    * **Ton**: Textens ton ska tolkas som målgruppen. Oavsett om du vill låta informativ, spännande, lekfull eller övertygande kan [!DNL AI Assistant] anpassa meddelandet efter det.
 
-     Alternativen är: [!UICONTROL None], [!UICONTROL Professional], [!UICONTROL Empathetic], [!UICONTROL Humorous], [!UICONTROL Exciting], [!UICONTROL Inspirational], [!UICONTROL Persuasive], [!UICONTROL Friendly], [!UICONTROL Formal], [!UICONTROL Apologetic], [!UICONTROL Assertive], [!UICONTROL &#x200B; Story Telling] och [!UICONTROL Conversational].
+     Alternativen är: [!UICONTROL None], [!UICONTROL Professional], [!UICONTROL Empathetic], [!UICONTROL Humorous], [!UICONTROL Exciting], [!UICONTROL Inspirational], [!UICONTROL Persuasive], [!UICONTROL Friendly], [!UICONTROL Formal], [!UICONTROL Apologetic], [!UICONTROL Assertive], [!UICONTROL  Story Telling] och [!UICONTROL Conversational].
 
 1. Använd skjutreglaget för att välja hur länge du vill att texten ska vara, från kortare till längre.
 
@@ -100,4 +100,4 @@ Följande uppmaning och variationer visar styrkan hos [!DNL AI Assistant].
 
 ### Skapa innehåll med AI-assistenten för innehållsgenerering
 
->[!VIDEO](https://video.tv.adobe.com/v/3434639/?learn=on&captions=swe">https://video.tv.adobe.com/v/3434639/?learn=on&captions=swe)
+>[!VIDEO](https://video.tv.adobe.com/v/3434635/?learn=on">https://video.tv.adobe.com/v/3434635/?learn=on)

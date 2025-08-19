@@ -36,7 +36,7 @@ Om du vill referera till en URL för en offentlig bild direkt i ett erbjudande e
 
 Observera att lagrings-URL:en och de slutliga publicerings-URL:erna för bilder från [!DNL Dynamic Media] är olika och att du måste *INTE* skapa erbjudanden med hjälp av lagringslänken för bilder, eftersom leveransen inte fungerar i sådana fall. Du måste använda bilderbjudandefunktionen enligt anvisningarna i vår hjälpdokumentation.
 
-To integrate with [!DNL Dynamic Media Classic] ([!DNL Scene7]), you need to specify the following information.
+Om du vill integrera med [!DNL Dynamic Media Classic] ([!DNL Scene7]) måste du ange följande information.
 
 1. Klicka på **[!UICONTROL Administration]** > **[!UICONTROL Scene7 Configuration]**.
 

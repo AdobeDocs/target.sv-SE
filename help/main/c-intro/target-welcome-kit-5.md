@@ -29,7 +29,7 @@ Digitala marknadsförare inser intuitivt att befintliga kunder är mer värdeful
 
 ## Idea 3: Testa webbplatsens design.
 
-Kör flera tester av webbplatsens design för att öka användarkonverteringen och engagemanget. Först ska vi titta på de viktigaste åtgärder besökarna försöker utföra och testa saker som olika sätt att skicka en uppmaning till åtgärder och olika färger på en CTA-knapp som kan göra det enklare för dem att slutföra dessa åtgärder.
+Kör flera tester av webbplatsens design för att öka användarkonverteringen och engagemanget. Börja med att titta på de viktigaste åtgärder besökarna försöker utföra och testa saker som olika sätt att skicka en uppmaning till åtgärder och olika CTA-knappfärger som kan göra det enklare för dem att slutföra åtgärderna.
 
 Överväg att förenkla designen genom att ta bort vissa element helt från webbplatsen. Testa till exempel att ta bort den traditionella vänstra eller högra produktkategorilistan på hemsidan (och andra sidor) och låt kunderna förlita sig på sökning för att hitta produkter. Om förändringen inte ger någon mätbar effekt på konverteringarna tar du bort navigeringen och frigör utrymme för designelement som kan leda till ännu högre engagemang och konverteringar.
 
@@ -49,7 +49,7 @@ Om besökare som hänvisas till dig från Google skickas till innehåll som har 
 
 Ta till exempel med rekommendationer på en produktinformationssida för att visa besökare som såg en produkt som inte finns i lager som liknar, personaliserade rekommendationer eller nyligen visade objekt baserat på besökarens beteende och kategoritillhörighet. Användarna kan visa dessa med ett enda klick, vilket ger dig ytterligare en möjlighet att engagera dem på din webbplats eller att de kan göra ett köp.
 
-![Recommendations illustration](/help/main/c-intro/assets/recs-illustration.png)
+![Rekommendationer, illustration](/help/main/c-intro/assets/recs-illustration.png)
 
 ## Idea 7: Införliva de ekonomiska beteendena i testerna.
 

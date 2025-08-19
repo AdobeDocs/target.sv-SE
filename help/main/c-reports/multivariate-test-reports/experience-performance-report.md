@@ -35,6 +35,6 @@ Under diagrammet visas hur många deltagare som såg varje upplevelse, samt anna
 
 ## Utbildningsvideo: Skapa ett MVT-test ![självstudiekursetikett](/help/main/assets/tutorial.png)
 
-I den här videon visas hur du skapar ett multivariata test med det guidade arbetsflödet i tre steg för Target. Experience Performance-rapporten beskrivs från och med 8:20.
+I den här videon visas hur du skapar ett multivariata test med det guidade arbetsflödet i tre steg för Target. Experience Performance-rapporten beskrivs med början vid 8:20.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17395)

@@ -128,7 +128,7 @@ I följande videofilmer finns mer information om de begrepp som beskrivs i den h
 
 ### Kontorstid: Visuell Experience Composer ![Självstudiekurs](/help/main/assets/tutorial.png)
 
-Den här videon är en inspelning av [Kontorstid](/help/main/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7), ett projekt som leds av kundtjänstteamet på Adobe.
+Den här videon är en inspelning av [Kontorstid](/help/main/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7), ett initiativ som leds av Adobe kundtjänstteam.
 
 * Hur VEC fungerar
 * Hur man undviker vanliga problem med VEC

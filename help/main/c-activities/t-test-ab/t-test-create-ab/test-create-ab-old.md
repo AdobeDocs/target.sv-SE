@@ -23,7 +23,7 @@ Använd [!UICONTROL Visual Experience Composer] (VEC) i [!DNL Adobe Target] för
 
 Så här skapar du en manuell [!UICONTROL A/B Test]-aktivitet:
 
-1. Klicka på **[!UICONTROL Create Activity]** > **[!UICONTROL A/B Test]** i listan **[!UICONTROL Activities]**.
+1. Klicka på **[!UICONTROL Activities]** > **[!UICONTROL Create Activity]** i listan **[!UICONTROL A/B Test]**.
 
    ![Listrutan Skapa aktivitet](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/ab_select-new.png)
 
@@ -43,11 +43,11 @@ Så här skapar du en manuell [!UICONTROL A/B Test]-aktivitet:
    >
    >Felsökningsinformation om VEC finns i [Felsökning av Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md) om du har problem.
 
-1. (Villkorligt) Om du är [Target Premium-kund](/help/main/c-intro/intro.md#premium) väljer du en [arbetsyta](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) i listrutan **[!UICONTROL Choose Workspace]** .
+1. (Villkorligt) Om du är [Target Premium-kund](/help/main/c-intro/intro.md#premium) väljer du en **[!UICONTROL Choose Workspace]** arbetsyta[ i listrutan ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) .
 
    Alternativet [[!UICONTROL Choose Workplace]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) i föregående bild är en [Target Premium](/help/main/c-intro/intro.md)-funktion som kanske inte visas om din organisation har en [!UICONTROL Target Standard]-licens.
 
-1. Ange din [aktivitets-URL](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md) i rutan **[!UICONTROL Enter Activity URL]** och klicka sedan på **[!UICONTROL Create]**.
+1. Ange din **[!UICONTROL Enter Activity URL]** aktivitets-URL[ i rutan ](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md) och klicka sedan på **[!UICONTROL Create]**.
 
    Om ditt konto är [konfigurerat med en standard-URL](/help/main/administrating-target/visual-experience-composer-set-up.md) visas den URL:en som standard. Du kan ändra från standardadressen till en annan URL-adress om det behövs.
 

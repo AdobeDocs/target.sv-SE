@@ -1,7 +1,7 @@
 ---
 keywords: undantag
-description: Lär dig hur du skapar undantag i Adobe [!DNL Target] Recommendations för att förhindra att produkter eller innehåll rekommenderas för besökare.
-title: Hur använder jag undantag i Recommendations-aktiviteter?
+description: Lär dig hur du skapar undantag i Adobe [!DNL Target] Rekommendationer som förhindrar att produkter eller innehåll rekommenderas för besökare.
+title: Hur använder jag undantag i rekommendationer?
 feature: Recommendations
 exl-id: e41487c7-6d47-4958-8e4b-616a2ad56b3c
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
@@ -37,7 +37,7 @@ Några exempel på hur du skulle kunna använda undantag är:
 
    ![exclusions_list image](assets/exclusions_list.png)
 
-   Antalet objekt som rapporteras för varje undantag i listvyn [!UICONTROL Exclusions] är antalet produkter som matchar reglerna för undantaget i den konfigurerade standardvärdgruppen [Recommendations](/help/main/administrating-target/hosts.md) (miljö). Se [Inställningar](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=sv-SE){target=_blank} om du vill ändra standardvärdgruppen.
+   Antalet objekt som rapporteras för varje undantag i listvyn [!UICONTROL Exclusions] är antalet produkter som matchar reglerna för undantaget i den konfigurerade standardrekommendationerna [värdgrupp](/help/main/administrating-target/hosts.md) (miljö). Se [Inställningar](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} om du vill ändra standardvärdgruppen.
 
 1. Klicka på **[!UICONTROL Create Exclusion]**.
 
@@ -75,7 +75,7 @@ Du kan kopiera ett befintligt undantag för att skapa ett duplicerat undantag so
 
 Observera att det finns undantag för hela kontot. Tänk på detta innan du tar bort ett undantag. Borttagna undantag kan inte återställas.
 
-## Utbildningsvideo: Skapa samlingar och undantag i Recommendations (7:05) ![Självstudiekurs](/help/main/assets/tutorial.png)
+## Utbildningsvideo: Skapa samlingar och undantag i rekommendationer (7:05) ![Självstudiekurs](/help/main/assets/tutorial.png)
 
 Den här videon innehåller följande information:
 

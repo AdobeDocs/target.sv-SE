@@ -1,6 +1,6 @@
 ---
 keywords: välkomstpaket;målvälkomstpaket;introduktion;komma igång
-description: Har du inte använt Adobe Target tidigare? Kom snabbt igång med välkomstpaketet för Adobe [!DNL Target] .
+description: Har du inte använt Adobe Target tidigare? Kom snabbt igång med Adobe [!DNL Target] Welcome Kit.
 title: Hur kommer jag igång med Target?
 feature: Overview
 exl-id: bb2cc1ca-8be7-425c-b551-59084b6416c3

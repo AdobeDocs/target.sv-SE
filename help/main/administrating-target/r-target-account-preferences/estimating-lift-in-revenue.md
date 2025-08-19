@@ -20,7 +20,7 @@ Använd [!DNL Adobe Target] för att uppskatta den intäktsökning du skulle upp
 >
 >Uppskattad lyft är inte tillgänglig för [!UICONTROL Experience Targeting] (XT) aktiviteter just nu.
 
-Den uppskattade lyftfunktionen är inaktiverad som standard. Den kan aktiveras i dina kontoinställningar. Det är bara användare av Experience Cloud Admin som kan aktivera eller inaktivera den här funktionen. Om den uppskattade höjden är inaktiverad visas inte motsvarande fält i gränssnittet. Om du inaktiverar funktionen går det inte att förlora data, inklusive data som används för dina uppskattningar. Beräkningarna baseras på data som samlas in oavsett om funktionen är aktiverad eller inte.
+Den uppskattade lyftfunktionen är inaktiverad som standard. Den kan aktiveras i dina kontoinställningar. Endast Experience Cloud Admin-användare kan aktivera eller inaktivera den här funktionen. Om den uppskattade höjden är inaktiverad visas inte motsvarande fält i gränssnittet. Om du inaktiverar funktionen går det inte att förlora data, inklusive data som används för dina uppskattningar. Beräkningarna baseras på data som samlas in oavsett om funktionen är aktiverad eller inte.
 
 >[!IMPORTANT]
 >

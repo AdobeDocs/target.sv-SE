@@ -1,7 +1,7 @@
 ---
 keywords: multivalue;attributes;recommendations;multi-value;multivalue;multi-value
 description: Lär dig hur du arbetar med ett flervärdesfält i [!DNL Target Recommendations] med hjälp av särskilda flervärdesoperatorer.
-title: Kan jag använda attribut med flera värden i Recommendations?
+title: Kan jag använda attribut med flera värden i rekommendationer?
 feature: Recommendations
 exl-id: 82018a9a-0983-458c-9387-3602dab4409b
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c

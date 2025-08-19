@@ -1,6 +1,6 @@
 ---
 keywords: välkomstpaket;målvälkomstpaket;introduktion;komma igång
-description: Lär dig av andras misstag så att du inte gör samma misstag när du använder Adobe [!DNL Target]  som en del av din test- och personaliseringsstrategi.
+description: Lär dig av andras misstag så att du inte gör samma misstag när du använder Adobe [!DNL Target]  som en del av din testnings- och personaliseringsstrategi.
 title: Vad är vanliga fel när  [!DNL Target]  används och hur kan jag undvika dem?
 feature: Overview
 exl-id: 17f379bd-81d7-4f4e-b08d-aee42fe5e81f

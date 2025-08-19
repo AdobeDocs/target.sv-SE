@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Använd QA-URL:er med leverans på serversidan i [!DNL Adobe Target] för att utföra enkel QA för hela aktiviteten med förhandsgranskningslänkar som aldrig ändras, målgruppsanpassning som tillval och QA-rapportering som förblir segmenterad från liveaktivitetsdata.
 
-Standardimplementeringen av Activity QA har stöd för att skicka `qa_mode` parametrar via `pageUrl` parametrar. Den här metoden är praktisk för standard-/ajax-anrop av [!DNL Target]. För anrop från server till server är detta emellertid inte det bästa sättet för ett Mobile SDK-fall när `pageUrl` inte är tillgängligt.
+Standardimplementeringen av Activity QA har stöd för att skicka `qa_mode` parametrar via `pageUrl` parametrar. Den här metoden är praktisk för standard-/ajax-anrop av [!DNL Target]. För serversamtal är detta emellertid inte det bästa sättet för ett Mobile SDK-ärende när `pageUrl` inte är tillgängligt.
 
 I följande kodexempel visas Activity QA i ett anrop på serversidan:
 

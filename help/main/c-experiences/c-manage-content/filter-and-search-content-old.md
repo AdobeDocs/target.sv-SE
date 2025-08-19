@@ -1,6 +1,6 @@
 ---
 keywords: innehållsbibliotek;resurser;sökning;filter
-description: Lär dig hur du söker efter kod och bilderbjudanden i biblioteket Adobe [!DNL Target] Erbjudanden.
+description: Lär dig hur du söker efter kod och bilderbjudanden i Adobe [!DNL Target] Erbjudandebiblioteket.
 title: Hur söker jag efter innehåll i offertbiblioteket?
 feature: Experiences and Offers
 exl-id: 68ff0da5-4556-493e-b6b3-7bcbba320d57

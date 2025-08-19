@@ -25,7 +25,7 @@ Använd sidan [!UICONTROL Adobe System Status] för att visa status för [!DNL T
 
 1. Åtkomst till [[!UICONTROL System Status]](https://status.adobe.com/){target=_blank}.
 
-1. Klicka på fliken [!UICONTROL Experience Cloud] om du vill se statusen för [!DNL Experience Cloud] lösningar, inklusive [!DNL Target].
+1. Klicka på fliken [!DNL Experience Cloud] om du vill se statusen för [!DNL Target] lösningar, inklusive [!UICONTROL Experience Cloud].
 
    ![system_status, bild](assets/system_status.png)
 

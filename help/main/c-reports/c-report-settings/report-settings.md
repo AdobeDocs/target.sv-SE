@@ -34,7 +34,7 @@ Du kan också konfigurera rapporten för en enskild aktivitet efter behov och se
 
    De tillgängliga inställningarna, inklusive mått, datumintervall, målgrupper, avancerade inställningar och så vidare, förklaras nedan.
 
-1. Klicka på ikonen **[!UICONTROL More Options]** ( ![ikonen Fler alternativ](/help/main/assets/icons/MoreSmallListVert.svg) ) > **[!UICONTROL Save as New]** bredvid **[!UICONTROL Target Preset]**.
+1. Klicka på ikonen **[!UICONTROL Target Preset]** ( **[!UICONTROL More Options]** ikonen Fler alternativ![ ) > ](/help/main/assets/icons/MoreSmallListVert.svg) bredvid **[!UICONTROL Save as New]**.
 
    Dialogrutan [!UICONTROL Create Preset] visas.
 
@@ -135,7 +135,7 @@ Välj den miljö (värdgrupp) som ska användas för rapporten. Mer information 
 
 >[!NOTE]
 >
->Om din organisation använder [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=sv-SE){target=_blank} (AEP) för att skicka mätdata till [!DNL Target] bör miljön i AEP-dataströmmen matcha miljön i rapportinställningarna för [!DNL Target].
+>Om din organisation använder [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target=_blank} (AEP) för att skicka mätdata till [!DNL Target] bör miljön i AEP Datastream matcha miljön i rapportinställningarna för [!DNL Target].
 
 ### Återställ rapportdata
 
@@ -230,9 +230,9 @@ Det finns fyra lägen för [!UICONTROL Auto-Target]-aktiviteter: [!UICONTROL Dai
 
 Standardordningen som diagrammet ritas i är följande:
 
-* **[!UICONTROL A/B Test] (inklusive [!UICONTROL Auto-Allocate] och [!UICONTROL Automated Personalization])**: Den ordning i vilken upplevelsen skapas, i fallande ordning.
-* **[!UICONTROL Experience Targeting] (XT)**: Upplevelseordning i aktiviteten.
-* **[!UICONTROL Multivariate Test] (MVT)**: Alfabetiskt efter upplevelsenamn.
+* **[!UICONTROL A/B Test](inklusive [!UICONTROL Auto-Allocate] och [!UICONTROL Automated Personalization])**: Den ordning i vilken upplevelsen skapas, i fallande ordning.
+* **[!UICONTROL Experience Targeting](XT)**: Upplevelseordning i aktiviteten.
+* **[!UICONTROL Multivariate Test](MVT)**: Alfabetiskt efter upplevelsenamn.
 * **[!UICONTROL Recommendations]**: Den ordning i vilken upplevelsen skapas, i fallande ordning.
 
 När du arbetar med alternativen för [!UICONTROL Counting Methodology] bör du tänka på följande:

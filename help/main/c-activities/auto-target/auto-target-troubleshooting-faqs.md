@@ -2,7 +2,7 @@
 keywords: automatiskt mål;mål;trafikallokering;vanliga frågor;frågor;felsökning;felsökning;trafik
 description: Utforska felsökningsämnen och Vanliga frågor om [!UICONTROL Auto-Target]-aktiviteter.
 title: Hur felsöker jag [!UICONTROL Auto-Target] aktiviteter?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=sv-SE#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Auto-Target
 exl-id: 934f738e-560a-4847-9608-432ecfa2afe7
 source-git-commit: 3e8c2d77f300bf0e2ca83a53d30e7b9eee48894e
@@ -37,7 +37,7 @@ Ta del av följande frågor och svar när du arbetar med [!UICONTROL Auto-Target
 
 ### Rekommenderar [!UICONTROL Adobe] att du använder [!UICONTROL Auto Target] med en delning av 90(Kontroll)/10(Mål) tills modellerna har byggts?
 
-+++Svar
++++Svar 
 Din optimala trafikallokeringsdelning beror på vad du vill uppnå.
 
 Om målet är att personalisera så mycket trafik som möjligt kan ni behålla 90 % riktad tilldelning och 10 % kontroll över aktivitetens livstid. Om målet är att köra ett experiment där personaliserade algoritmer jämförs med kontrollen, är en delning på 50/50 bäst under aktivitetens livstid.

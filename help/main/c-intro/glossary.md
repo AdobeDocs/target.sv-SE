@@ -120,7 +120,7 @@ Visar om besökaren inte uppfyller kraven för testet eller om standardinnehåll
 
 **design**
 
-Mallaktiverat HTML som visar de rekommenderade objekten på webbsidan. En design definierar utseendet på rekommendationerna i en Recommendations-aktivitet.
+Mallaktiverad HTML som visar rekommenderade objekt på webbsidan. En design definierar utseendet på rekommendationerna i en Recommendations-aktivitet.
 
 **varaktighet**
 
@@ -132,7 +132,7 @@ Kan vara en del av alla typer av tester eller aktiviteter. Ingen ytterligare pro
 
 **dynamisk mbox**
 
-Gör att RIA-program (Rich Internet Applications) kan hantera HTML efter att sidan redan har lästs in med hjälp av tekniker som DHTML och AJAX.
+Gör det möjligt för RIA-program (Rich Internet Applications) att ändra HTML efter att sidan redan har lästs in med hjälp av tekniker som DHTML och AJAX.
 
 **dynamiskt erbjudande**
 
@@ -154,7 +154,7 @@ Ett sätt att formellt administrera åtkomst för användare i hela företaget t
 
 **entitetsattribut**
 
-Egna parametrar som används för att skicka produkt- eller innehållsinformation till Recommendations.
+Anpassade parametrar som används för att skicka produkt- eller innehållsinformation till rekommendationer.
 
 **entrant**
 
@@ -328,7 +328,7 @@ Ett rapportfilter som används för att visa rapporter som relaterar till ett vi
 
 **enkelsidigt program**
 
-Ett enkelsidigt program (SPA) är ett webbprogram eller en webbplats som passar på en enda webbsida och ger en smidigare användarupplevelse, ungefär som ett skrivbordsprogram.
+Ett SPA-program (single page application) är ett webbprogram eller en webbplats som passar på en enda webbsida och ger en smidigare användarupplevelse, ungefär som ett skrivbordsprogram.
 
 **framgångsmått**
 
@@ -362,7 +362,7 @@ En besökare är en person som har åtkomst till din webbplats. En besökare utv
 
 **Visual Experience Composer**
 
-I Target Standard är det ett WYSIWYG-användargränssnitt där du enkelt kan skapa och testa personaliserade upplevelser och erbjudanden i webbplatskontexten. Du kan skapa upplevelser och erbjudanden för Target-aktiviteter genom att dra och släppa, byta och ändra layouten och innehållet på en webbsida (eller ett erbjudande).
+I Target Standard är WYSIWYG ett användargränssnitt där du enkelt kan skapa och testa personaliserade upplevelser och erbjudanden i webbplatskontexten. Du kan skapa upplevelser och erbjudanden för Target-aktiviteter genom att dra och släppa, byta och ändra layouten och innehållet på en webbsida (eller ett erbjudande).
 
 ## B {#section_62E7B598DBB34ECABAF4EF913B0895EC}
 

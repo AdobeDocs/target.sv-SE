@@ -27,7 +27,7 @@ När en besökare hamnar på en sida där du har konfigurerat en aktivitet, avg�
 
 Om besökaren identifieras som en del av en målpublik avgör [!DNL Target] vilken upplevelse som ska visas, baserat på de kriterier som fastställdes när aktiviteten skapades.
 
-## Utbildningsvideo: Aktivitetsmål (2:13) ![Självstudiemärke](/help/main/assets/tutorial.png)
+## Utbildningsvideo: Aktivitetsmål (2:13) ![Tutorial badge](/help/main/assets/tutorial.png)
 
 Den här videon innehåller information om hur du konfigurerar målgruppsanpassning och målgrupper.
 

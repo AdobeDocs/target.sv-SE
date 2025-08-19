@@ -2,7 +2,7 @@
 keywords: felsökning;vanliga frågor;Vanliga frågor;Vanliga frågor;Vanliga frågor;rekommendationer;specialtecken;attributvikt;innehållets likhet
 description: Visa en lista med vanliga frågor och svar om [!DNL Target Recommendations] aktiviteter.
 title: Var hittar jag frågor och svar om  [!DNL Recommendations]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=sv-SE#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 source-git-commit: 18f6c06aa06e9526ee65bd3cc0f9b552c91c10e7
@@ -103,7 +103,7 @@ Om platsen som du använder det här villkoret på inte innehåller kategori-ID:
 
 Om du använder en plats där kategori-ID finns i rutan innehåller kriterieväljaren alla tillämpliga villkor.
 
-[!DNL Target] har en inställning för [Inkompatibla filtervillkor](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=sv-SE){target=_blank} som styr intelligent filtrering av algoritmväljaren.
+[!DNL Target] har en inställning för [Inkompatibla filtervillkor](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} som styr intelligent filtrering av algoritmväljaren.
 
 >[!NOTE]
 >

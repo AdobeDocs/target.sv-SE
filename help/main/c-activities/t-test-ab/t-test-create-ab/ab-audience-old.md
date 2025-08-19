@@ -19,7 +19,7 @@ Publiken avgör vilka webbplatsbesökare som är registrerade i din [!DNL Adobe 
 >
 >Förutom att välja en befintlig målgrupp kan ni kombinera flera målgrupper för att skapa ad hoc-målgrupper i stället för att skapa en ny målgrupp. Mer information finns i [Kombinera flera målgrupper](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
 
-1. Klicka på ikonen **[!UICONTROL Edit]** (den lodräta ellipsen) i rutan [!UICONTROL Audience] och klicka sedan på **[!UICONTROL Replace Audience]**.
+1. Klicka på ikonen [!UICONTROL Audience] (den lodräta ellipsen) i rutan **[!UICONTROL Edit]** och klicka sedan på **[!UICONTROL Replace Audience]**.
 
    ![Ersätt publik, alternativ](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/replace-audience.png)
 
@@ -58,7 +58,7 @@ Publiken avgör vilka webbplatsbesökare som är registrerade i din [!DNL Adobe 
 
 I följande videofilmer finns mer information om de begrepp som beskrivs i den här artikeln.
 
-### Använda målgrupper i Adobe Target (6:21) ![märket Översikt](/help/main/assets/overview.png)
+### Använda målgrupper i Adobe Target (6:21) ![Märket Översikt](/help/main/assets/overview.png)
 
 I den här videon förklaras hur du använder målgrupper i [!DNL Target Standard/Premium].
 

@@ -28,8 +28,8 @@ En viktig skillnad mellan plugin-program och svarstoken är att plugin-program l
 
 | SDK | Föreslagna åtgärder |
 |--- |--- |
-| [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=sv-SE){target=_blank} | Kontrollera att du använder Platform Web SDK version 2.6.0 eller senare. Information om hur du hämtar den senaste versionen av Platform Web SDK finns i [Installera SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=sv-SE){target=_blank} i översiktshandboken *Platform Web SDK*. Information om de nya funktionerna i de olika versionerna av Platform Web SDK finns i [Versionsinformation](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=sv-SE) i översiktshandboken för *Platform Web SDK*. |
-| [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=sv-SE){target=_blank} | Kontrollera att du använder at.js version 1.1 eller senare. Information om hur du hämtar den senaste versionen av at.js finns i [Hämta på.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=sv-SE){target=_blank}. Mer information om nya funktioner i varje version av at.js finns i [at.js Versionsinformation](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=sv-SE){target=_blank}.<br>Kunder som använder at.js uppmuntras att använda svarstoken och gå bort från plugin-program. Vissa plugin-program som förlitar sig på interna metoder som fanns i mbox.js (som nu är inaktuellt), men inte i at.js, levereras men misslyckas. |
+| [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} | Kontrollera att du använder Platform Web SDK version 2.6.0 eller senare. Information om hur du hämtar den senaste versionen av Platform Web SDK finns i [Installera SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html){target=_blank} i översiktshandboken *Platform Web SDK*. Information om de nya funktionerna i de olika versionerna av Platform Web SDK finns i [Versionsinformation](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html) i översiktshandboken för *Platform Web SDK*. |
+| [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank} | Kontrollera att du använder at.js version 1.1 eller senare. Information om hur du hämtar den senaste versionen av at.js finns i [Hämta på.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=en){target=_blank}. Mer information om nya funktioner i varje version av at.js finns i [at.js Versionsinformation](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.<br>Kunder som använder at.js uppmuntras att använda svarstoken och gå bort från plugin-program. Vissa plugin-program som förlitar sig på interna metoder som fanns i mbox.js (som nu är inaktuellt), men inte i at.js, levereras men misslyckas. |
 
 ## Använda svarstoken {#section_A9E141DDCBA84308926E68D05FD2AC62}
 
@@ -37,8 +37,8 @@ En viktig skillnad mellan plugin-program och svarstoken är att plugin-program l
 
    Mer information:
 
-   * **Platform Web SDK**: See [Install the SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=sv-SE) in the *Platform Web SDK overview* guide.
-   * **at.js**: See [Download at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=sv-SE){target=_blank}.
+   * **Platform Web SDK**: Se [Installera SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) i översiktshandboken *Platform Web SDK*.
+   * **at.js**: Se [Hämta på.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html){target=_blank}.
 
 1. I [!DNL Target] klickar du på **[!UICONTROL Administration]** > **[!UICONTROL Response Tokens]**.
 
@@ -48,21 +48,21 @@ En viktig skillnad mellan plugin-program och svarstoken är att plugin-program l
 
    | Typ | Parameter | Anteckningar |
    |--- |--- |--- |
-   | Built-in Profiles | `profile.activeActivities` | Returns an array of the `activityIds` the visitor is qualified for. It increments as users are qualified. For example, on a page with two [!DNL Target] requests delivering two different activities, the second request includes both activities. |
+   | Inbyggda profiler | `profile.activeActivities` | Returnerar en matris för `activityIds` som besökaren är kvalificerad för. Det ökar efterhand som användarna kvalificerar sig. På en sida med två [!DNL Target]-begäranden som levererar två olika aktiviteter, innehåller den andra begäran till exempel båda aktiviteterna. |
    |  | `profile.isFirstSession` | Returnerar &quot;true&quot; eller &quot;false&quot;. |
    |  | `profile.isNewSession` | Returnerar &quot;true&quot; eller &quot;false&quot;. |
    |  | `profile.daysSinceLastVisit` | Returnerar antalet dagar sedan besökarens senaste besök. |
    |  | `profile.tntId` | Returnerar besökarens tntID |
    |  | `profile.marketingCloudVisitorId` | Returnerar besökarens Experience Cloud Visitor-ID. |
    |  | `profile.thirdPartyId` | Returnerar besökarens tredjeparts-ID. |
-   |  | `profile.categoryAffinity` | Returns the visitor&#39;s favorite category. |
-   |  | `profile.categoryAffinities` | Returns an array of the visitor&#39;s top 5 categories as strings. |
-   | Aktivitet | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`offer.name`<br>`offer.id` | Details of the current activity.<br> Note that values for offer parameters are evaluated on the experience level. |
+   |  | `profile.categoryAffinity` | Returnerar besökarens favoritkategori. |
+   |  | `profile.categoryAffinities` | Returnerar en array med besökarens fem populäraste kategorier som strängar. |
+   | Aktivitet | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`offer.name`<br>`offer.id` | Information om den aktuella aktiviteten.<br> Observera att värden för erbjudandeparametrar utvärderas på upplevelsenivå. |
    | Geo | `geo.country`<br>`geo.state`<br>`geo.city`<br>`geo.zip`<br>`geo.dma`<br>`geo.domainName`<br>`geo.ispName`<br>`geo.connectionSpeed`<br>`geo.mobileCarrier` | Mer information om hur du använder geomål i aktiviteter finns i [Geo](/help/main/c-target/c-audiences/c-target-rules/geo.md). |
    | Trafikallokeringsmetod <br> (Gäller endast för [!UICONTROL Auto-Target]- och [!UICONTROL Automated Personalization]-aktiviteter.) | `experience.trafficAllocationId` | Returnerar 0 om en besökare har fått en upplevelse av att vara i&quot;kontrolltrafik&quot; och 1 om en besökare har fått en upplevelse av den&quot;riktade&quot; trafikfördelningen. |
    |  | `experience.trafficAllocationType` | Returnera&quot;control&quot; eller&quot;target&quot;. |
 
-   User profile attributes and Customer Attributes also display in the list.
+   Attribut för användarprofiler och kundattribut visas också i listan.
 
    >[!NOTE]
    >
@@ -147,7 +147,7 @@ I följande svarsexempel läggs en [!DNL Platform Web SDK] anpassad händelsehan
 
 ### ![at.js-märket](/help/main/assets/atjs.png) at.js med anpassade händelser
 
-Använd anpassade [ at.js-händelser](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/atjs-custom-events.html?lang=sv-SE){target=_blank} för att lyssna efter [!DNL Target]-svaret och läsa svarstoken.
+Använd anpassade [ at.js-händelser](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/atjs-custom-events.html?lang=en){target=_blank} för att lyssna efter [!DNL Target]-svaret och läsa svarstoken.
 
 I följande kodexempel läggs en anpassad [!DNL at.js]-händelsehanterare till direkt på HTML-sidan:
 
@@ -188,9 +188,9 @@ Plugin-program och svarstoken är tillgängliga parallellt, men plugin-program k
 
 **Levereras svarstoken via alla [!DNL Target] svar eller endast via [!DNL Target] svar som levererar en aktivitet?**
 
-Response tokens are delivered only through [!DNL Target] responses delivering an activity.
+Svarstoken levereras endast via [!DNL Target] svar som levererar en aktivitet.
 
-**My [!DNL Target Classic] plugin included JavaScript. Hur replikerar jag funktionaliteten med hjälp av svarstoken?**
+**Mitt [!DNL Target Classic]-plugin-program innehåller JavaScript. Hur replikerar jag funktionaliteten med hjälp av svarstoken?**
 
 När du migrerar till svarstoken måste den här typen av JavaScript finnas i din kodbas- eller tagghanteringslösning. Du kan utlösa den här koden med [!DNL Platform Web SDK] eller [!DNL at.js] anpassade händelser och skicka svarstokenvärden till dina JavaScript-funktioner.
 
@@ -208,11 +208,11 @@ Svarstoken extraherar information från användarprofiler och skickar sedan info
 
 **Jag har bytt namn på mitt profilskript, men varför är token som använder skriptet fortfarande aktiv med det gamla namnet?**
 
-Som nämnts ovan fungerar svarstoken på den profilinformation som har sparats för användare. Även om du har bytt namn på ditt profilskript kommer användare som har besökt din webbplats att spara det gamla profilskriptvärdet i sina profiler. Token fortsätter att hämta det gamla värdet som redan har sparats i användarprofilerna. If you now want to deliver content on the new name, you must toggle off the previous token and toggle on the new token.
+Som nämnts ovan fungerar svarstoken på den profilinformation som har sparats för användare. Även om du har bytt namn på ditt profilskript kommer användare som har besökt din webbplats att spara det gamla profilskriptvärdet i sina profiler. Token fortsätter att hämta det gamla värdet som redan har sparats i användarprofilerna. Om du nu vill leverera innehåll med det nya namnet måste du inaktivera den tidigare variabeln och aktivera den nya variabeln.
 
-**If my attributes have changed, when are they be removed from the list?**
+**Om mina attribut har ändrats, när tas de bort från listan?**
 
-[!DNL Target] performs a refresh of attributes at regular intervals. Any attribute that is not toggled on is removed during the next refresh. However, if you have an attribute that was toggled on and has been removed, that script is not removed from the attribute list until you toggle it off. As an example, you removed a profile script that was used as a token. [!DNL Target] removes only the toggled-off attributes from the list when they are deleted or renamed.
+[!DNL Target] utför en uppdatering av attribut med regelbundna intervall. Alla attribut som inte är aktiverade tas bort under nästa uppdatering. Om du har ett attribut som har aktiverats och tagits bort tas det skriptet inte bort från attributlistan förrän du har inaktiverat det. Du tog till exempel bort ett profilskript som användes som token. [!DNL Target] tar bara bort de inaktiverade attributen från listan när de tas bort eller byter namn.
 
 ## Skicka data till Google Analytics
 
@@ -224,7 +224,7 @@ Google Analytics kan skickas via Platform Web SDK version 2.6.0 (eller senare) g
 
 >[!NOTE]
 >
->Make sure the response token key value pair are under the `alloy("sendEvent"` object.
+>Kontrollera att svarstokennyckelvärdepar finns under objektet `alloy("sendEvent"`.
 
 ```javascript
 <script async src="https://www.googletagmanager.com/gtag/js?id=TAG_ID"></script>
@@ -256,7 +256,7 @@ Google Analytics kan skickas via Platform Web SDK version 2.6.0 (eller senare) g
 </script>
 ```
 
-### ![at.js badge](/help/main/assets/atjs.png) Sending data to Google Analytics via at.js {#section_04AA830826D94D4EBEC741B7C4F86156}
+### ![at.js-märket](/help/main/assets/atjs.png) Skicka data till Google Analytics via at.js {#section_04AA830826D94D4EBEC741B7C4F86156}
 
 Google Analytics kan skicka data via at.js genom att lägga till följande kod på HTML-sidan:
 

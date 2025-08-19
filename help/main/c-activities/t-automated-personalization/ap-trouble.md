@@ -2,7 +2,7 @@
 kewords: Automated Personalization;ap;troublshoot;troubleshooting;model;lift
 description: Utforska potentiella utmaningar som du kan ställas inför när du använder [!UICONTROL Automated Personalization] (AP)-aktiviteter i Adobe Target, tillsammans med förslag på lösningar.
 title: Hur felsöker jag [!UICONTROL Automated Personalization] aktiviteter?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=sv-SE#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Automated Personalization
 exl-id: bc23e5db-5b65-44be-be45-c972287a64e7
 source-git-commit: 2cb2c2b68f6487d1af41ecc7e73750afa1ad85f9
@@ -18,7 +18,7 @@ Ibland blir aktiviteterna inte som förväntat. Här är några potentiella utma
 
 ## Min [!UICONTROL Automated Personalization]-aktivitet tar för lång tid att skapa modeller. {#section_20028B204DBB4D77A324BA193434AEE2}
 
-+++Se information
++++Se detaljer
 
 Det finns flera ändringar av aktivitetsinställningarna som kan minska den förväntade tiden att skapa modeller, inklusive antalet upplevelser i din [!UICONTROL Automated Personalization]-aktivitet, trafiken till din webbplats och det valda framgångsmåttet.
 
@@ -33,7 +33,7 @@ Det finns flera ändringar av aktivitetsinställningarna som kan minska den för
 
 ## Min [!UICONTROL Automated Personalization]-aktivitet genererade ingen lyft. {#section_8900BC8968474438B8092F7A94C0C6CF}
 
-+++Se information
++++Se detaljer
 
 Det finns flera faktorer som krävs för att en [!UICONTROL Automated Personalization]-aktivitet ska kunna generera lyft:
 
@@ -48,7 +48,7 @@ Det finns flera faktorer som krävs för att en [!UICONTROL Automated Personaliz
 
 ## Aktivitets-URL:en för [!UICONTROL Automated Personalization] visar erbjudandeinnehåll på felaktiga sidor. {#section_82A224406DBF4107B05204BEFBBE458C}
 
-+++Se information
++++Se detaljer
 
 I [!UICONTROL Automated Personalization] läggs URL- och malltestreglerna till i [!DNL Target]-begärandebegränsningen (till exempel target-global-mbox), där de bara utvärderas en gång. När en användare kvalificerar sig för en aktivitet utvärderas inte målinriktningsreglerna på målförfrågansnivå. Målgruppen läggs dock till i reglerna för målinriktning mot plats.
 
@@ -58,7 +58,7 @@ I [!UICONTROL Automated Personalization] läggs URL- och malltestreglerna till i
 
 ## Alla mätvärden som är beroende av ett konverteringsmått konverteras aldrig. {#section_076D1F44298C4E4A849AC52F5A33214D}
 
-+++Se information
++++Se detaljer
 
 Detta förväntas.
 
@@ -70,7 +70,7 @@ Det finns till exempel en aktivitet med ett konverteringsmått (C1) och ett ytte
 
 ## Mina upplevelse-URL:er fungerar inte som förväntat. {#section_7B08DA1F30AA483E9406336DAF361BA4}
 
-+++Se information
++++Se detaljer
 
 * Om du inte kan se förhandsvisningen på den nya fliken (på grund av webbläsarens cacheminne) kan du försöka uppdatera två eller tre gånger. Du kan också kopiera länken och öppna den i en ny webbläsare eller i en ny session.
 * Generera om Experience URL-länkar om du har ändrat något innehåll och delar de nya länkarna med dina teamkamrater.

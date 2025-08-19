@@ -2,7 +2,7 @@
 keywords: miljödata;sessionsdata;geodata;geografiska data;enhetsdata;mobildata;attribut;profilattribut;personaliseringsalgoritmer;maskininlärningsalgoritmer;maskininlärningsalgoritmer
 description: Lär dig vilka data [!DNL Adobe Target] samlar in och använder för att skapa maskininlärningsalgoritmer.
 title: Vilka data samlas in för att skapa algoritmer för maskininlärning?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=sv-SE#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
 source-git-commit: fe6a7addd3854c430798fc339741c9ae6a4efc7d
@@ -38,10 +38,10 @@ I följande tabell visas kunddata som samlats in av [!UICONTROL Automated Person
 | --- | --- | --- | --- |
 | Sidparametrar | RUTA | Anpassade sidparametrar (&quot;mbox parameters&quot;) skickades i anropet till [!DNL Target]. | Anpassad - Mbox-parameter - [parameternamn] |
 | Profil för [!DNL Target] | PRO | Anpassade profilattribut överförs direkt till profilen [!DNL Target] via API- eller sidparameter och [!DNL Target]-profilskript. | Anpassad - besökarprofil - [attributnamn] |
-| Kundattribut | CRS | Kundattribut överfördes till profilen [!DNL Target] via [[!DNL Adobe Experience Cloud Customer Attributes Service]](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html?lang=sv-SE){target=_blank}. | Anpassad - besökarprofil - [attributnamn] |
+| Kundattribut | CRS | Kundattribut överfördes till profilen [!DNL Target] via [[!DNL Adobe Experience Cloud Customer Attributes Service]](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html){target=_blank}. | Anpassad - besökarprofil - [attributnamn] |
 | URL-parametrar | URL | URL och eventuella URL-parametrar för den sida som visas. | Anpassad - URL-parameter - [URL-parameter] |
 | Refererande URL | REF | Refererande URL och eventuella URL-parametrar för den refererande URL:en. | Anpassad - [Refererande URL-parameter] - [Parametervärde] |
-| [!DNL Adobe Experience Cloud] delade målgrupper | AAM | Alla målgrupper som delas med [!DNL Target] från andra [!DNL Adobe Experience Cloud]-lösningar (till exempel [!DNL Adobe Audience Manager] och [!DNL Adobe Analytics] via [[!DNL Experience Cloud Audience Library]](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=sv-SE){target=_blank}). | Anpassad - Experience Cloud-målgrupp - [målgruppsnamn] |
+| [!DNL Adobe Experience Cloud] delade målgrupper | AAM | Alla målgrupper som delas med [!DNL Target] från andra [!DNL Adobe Experience Cloud]-lösningar (till exempel [!DNL Adobe Audience Manager] och [!DNL Adobe Analytics] via [[!DNL Experience Cloud Audience Library]](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html){target=_blank}). | Anpassad - Experience Cloud-målgrupp - [målgruppsnamn] |
 | [!DNL Adobe Experience Platform Real-time CDP] målgrupper | UPS | CDP-målgrupper i realtid för plattform delade med [!DNL Target] via [!UICONTROL Destinations]. |  |
 
 
@@ -49,7 +49,7 @@ I följande tabell visas kunddata som samlats in av [!UICONTROL Automated Person
 
 Funktioner kan blockeras från [!DNL Target] maskininlärningsalgoritmer, vilket förhindrar att de används i någon [!UICONTROL Automated Personalization]- eller [!UICONTROL Auto-Target]-modell eller aktivitet.
 
-Mer information finns i [Models API (Blockeringslistning) - översikt](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html?lang=sv-SE){target=_blank} i *[!DNL Adobe Target]Utvecklarhandbok*.
+Mer information finns i [Models API (Blockeringslistning) - översikt](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html){target=_blank} i *[!DNL Adobe Target]Utvecklarhandbok*.
 
 ## Enhetsdata och mobildata {#device-mobile}
 

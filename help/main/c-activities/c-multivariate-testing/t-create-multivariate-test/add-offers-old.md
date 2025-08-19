@@ -39,7 +39,7 @@ Varje bild blir en separat upplevelse på den platsen.
 
 ## HTML-erbjudanden {#section_DF016101AFA9412C9B99862C23DE77B1}
 
-Testa olika text/HTML-erbjudanden på en plats för att avgöra vilket erbjudande som är mest lyckat.
+Testa olika alternativ i Text/HTML på en plats för att se vilket som är bäst.
 
 1. Klicka på ett Text/HTML-erbjudande på sidan och klicka sedan på **[!UICONTROL Change Text/HTML]**.
 
@@ -49,7 +49,7 @@ Testa olika text/HTML-erbjudanden på en plats för att avgöra vilket erbjudand
 
    ![Redigera erbjudanden](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/editoffers.png)
 
-   Upprepa för alla texterbjudanden/HTML som du vill inkludera.
+   Upprepa för alla ytterligare text-/HTML-erbjudanden som du vill inkludera.
 
 1. Klicka på **[!UICONTROL Save]**.
 

@@ -35,17 +35,17 @@ Varje bild blir en separat upplevelse på den platsen.
 
 ## HTML-erbjudanden {#section_DF016101AFA9412C9B99862C23DE77B1}
 
-Testa olika HTML-erbjudanden på en plats för att avgöra vilket erbjudande som är bäst.
+Testa olika HTML-erbjudanden på en plats för att se vilket erbjudande som är bäst.
 
 1. Klicka på ett HTML-erbjudande på sidan och klicka sedan på **[!UICONTROL Change HTML Offer]**.
 
-1. Klicka på **[!UICONTROL Create Offer]**, klicka på **[!UICONTROL HTML Offer]**, namnge erbjudandet, skriv in eller klistra in koden för erbjudandet HTML och klicka sedan på **[!UICONTROL Create]**.
+1. Klicka på **[!UICONTROL Create Offer]**, klicka på **[!UICONTROL HTML Offer]**, namnge erbjudandet, skriv in eller klistra in koden för HTML-erbjudandet och klicka sedan på **[!UICONTROL Create]**.
 
-   Upprepa för alla andra HTML-erbjudanden som du vill inkludera.
+   Upprepa för alla andra HTML-erbjudanden du vill inkludera.
 
 1. Klicka på **[!UICONTROL Save]**.
 
-Varje erbjudande från HTML blir en separat upplevelse på den platsen.
+Varje HTML-erbjudande blir en separat upplevelse på den platsen.
 
 ## Bästa praxis {#section_2E98C23D2F1A460FA732A31799CE6291}
 

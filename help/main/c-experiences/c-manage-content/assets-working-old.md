@@ -86,8 +86,8 @@ Följande bild visar hovringsikonerna när [!UICONTROL List View] visas. Om du v
 
 Den här videon innehåller information om hur du hanterar innehåll. (4:56)
 
-* Anslutning mellan [Experience Cloud-resursbiblioteket](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html?lang=sv-SE) och målinnehållsbiblioteket
-* Erbjudanden för anpassade HTML
+* Anslutning mellan [Experience Cloud-resursbiblioteket](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html) och målinnehållsbiblioteket
+* Anpassade HTML-erbjudanden
 * Anpassat HTML-erbjudande i Visual Experience Composer
 
 >[!VIDEO](https://video.tv.adobe.com/v/17387)

@@ -17,7 +17,7 @@ Om du använder [!DNL Adobe Analytics] som rapportkälla för [!DNL Adobe Target
 
 Du kan visa rapporter för dina aktiviteter i både [!DNL Analytics] och [!DNL Target].
 
-Om du vill få information om bästa praxis med [!DNL Analytics] för [!DNL Target] [går du till denna Adobe Spark Page](https://spark.adobe.com/page/Lo3Spm4oBOvwF/).
+[!DNL Analytics] [!DNL Target]Gå till den här Adobe Spark-sidan[ om du vill få information om bästa praxis för  för ](https://spark.adobe.com/page/Lo3Spm4oBOvwF/).
 
 ## Ökning {#section_035A62D65608423285D8A5A54731E2C5}
 
@@ -48,7 +48,7 @@ I [!DNL Analytics] finns flera dimensioner och mått tillgängliga efter att A4T
 * [!UICONTROL Activity Impressions] - Matchar [!UICONTROL Entrants]-talet i [!DNL Target]-rapporten.
 * [!UICONTROL Activity Conversions] - Matchar [!UICONTROL Custom Conversions]-talet i [!DNL Target]-rapporten.
 
-I [!DNL Analysis Workspace] använder du panelen [!UICONTROL Analytics for Target] för att analysera dina [!DNL Target]-aktiviteter och -upplevelser med lyft och självförtroende. Mer information finns i [Analytics for Target (A4T) Panel ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=sv-SE) i *Analytics Tools Guide*.
+I [!DNL Analysis Workspace] använder du panelen [!UICONTROL Analytics for Target] för att analysera dina [!DNL Target]-aktiviteter och -upplevelser med lyft och självförtroende. Mer information finns i [Analytics for Target (A4T) Panel ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html) i *Analytics Tools Guide*.
 
 >[!IMPORTANT]
 >
@@ -89,14 +89,14 @@ Om du till exempel optimerar till sidvisningar per besökare, kan du exportera e
 1. Klicka på **[!UICONTROL Tools]** > **[!UICONTROL Data Warehouse]**.
 1. Fyll i fälten på fliken **[!UICONTROL Data Warehouse Request]**.
 
-   Mer information om de olika fälten finns i Data Warehouse Descriptions i [Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html?lang=sv-SE).
+   Mer information om de olika fälten finns i&quot;Data Warehouse Descriptions&quot; i [Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html).
 
    | Fält | Instruktioner |
    |--- |--- |
    | Namn på begäran | Ange ett namn för din begäran. |
-   | Rapportdatum | Ange en tidsperiod och granularitet.<br>Som bästa praxis bör du välja högst en timme eller en dag med data för din första begäran.  Datan Warehouse tar längre tid att bearbeta längre tid än vad som begärts, så det är alltid en god vana att först begära data om en liten tidsperiod för att vara säker på att filen returnerar det förväntade resultatet. Gå sedan till Request Manager, duplicera din begäran och be om fler data vid andra gången. Om du växlar granularitet till något annat än &quot;Inget&quot; ökar filstorleken drastiskt.<br>![Data Warehouse](/help/main/c-reports/assets/datawarehouse.png) |
+   | Rapportdatum | Ange en tidsperiod och granularitet.<br>Som bästa praxis bör du välja högst en timme eller en dag med data för din första begäran.  Data Warehouse-filer tar längre tid att bearbeta längre tid än vad som begärts, så det är alltid en god vana att först begära data från en liten tidsperiod för att vara säker på att filen returnerar det förväntade resultatet. Gå sedan till Request Manager, duplicera din begäran och be om fler data vid andra gången. Om du växlar granularitet till något annat än &quot;Inget&quot; ökar filstorleken drastiskt.<br>![Data Warehouse](/help/main/c-reports/assets/datawarehouse.png) |
    | Tillgängliga segment | Använd ett segment efter behov. |
-   | Uppdelningar | Välj önskade mått: Standard är förberett (OTB), medan Custom innehåller eVars &amp; Props. Vi rekommenderar att du använder&quot;besökar-ID&quot; om information på besökar-ID-nivå behövs, i stället för&quot;Experience Cloud Visitor-ID&quot;.<ul><li>Besökar-ID är det sista ID som används av Analytics. Det blir antingen ett ID (om kunden är äldre) eller ett MID (om kunden är ny eller rensad på cookies sedan besökar-ID-tjänsten för MC startades).</li><li>Experience Cloud Visitor-ID kommer endast att anges för kunder som är nya eller rensade cookies sedan besöks-ID-tjänsten startades.</li></ul> |
+   | Uppdelningar | Välj önskade mått: Standard är förberett (OTB), medan Custom innehåller eVars &amp; Props. Vi rekommenderar att du använder&quot;besökar-ID&quot; om information på besökar-ID-nivå behövs, i stället för&quot;Experience Cloud Visitor-ID&quot;.<ul><li>Besökar-ID är det sista ID som används av Analytics. Det blir antingen ett ID (om kunden är äldre) eller ett MID (om kunden är ny eller rensad på cookies sedan besökar-ID-tjänsten för MC startades).</li><li>Experience Cloud Visitor ID kommer endast att anges för kunder som är nya eller rensade cookies sedan besöks-ID-tjänsten startades.</li></ul> |
    | Mått | Välj önskade mätvärden. Standard är OTB, medan Anpassad innehåller anpassade händelser. |
    | Förhandsgranska rapport | Granska inställningarna innan du schemalägger rapporten.<br>![Data Warehouse 2](/help/main/c-reports/assets/datawarehouse2.png) |
    | Schemalägg leverans | Ange en e-postadress som filen ska skickas till, ge filen ett namn och välj sedan [!UICONTROL Send Immediately].<br>Obs! Filen kan levereras via FTP under [!UICONTROL Advanced Delivery Options]<br>![Schemalägg leverans](/help/main/c-reports/assets/datawarehouse3.png). |
@@ -109,5 +109,5 @@ Om du till exempel optimerar till sidvisningar per besökare, kan du exportera e
 
 Mer information om [!DNL Data Warehouse] finns i följande länkar i hjälpdokumentationen för [!DNL Analytics]:
 
-* [Skapa en begäran om Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html?lang=sv-SE)
-* [Bästa praxis för Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html?lang=sv-SE)
+* [Skapa en Data Warehouse-förfrågan](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html)
+* [Data Warehouse bästa praxis](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html)

@@ -1,8 +1,8 @@
 ---
-keywords: Recommendations;intro;introduction;webbinar;demo
-description: Lär dig mer om Recommendations-aktiviteter i Adobe [!DNL Target] som automatiskt visar innehåll som kan intressera dina kunder baserat på tidigare användaraktivitet eller andra algoritmer.
-title: Vad är Recommendations aktiviteter?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=sv-SE#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
+keywords: Rekommendationer;introduktion;webbinarium;demo
+description: Läs mer om rekommendationsaktiviteter i Adobe [!DNL Target] som automatiskt visar innehåll som kan intressera dina kunder baserat på tidigare användaraktivitet eller andra algoritmer.
+title: Vad är rekommendationsaktiviteter?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Recommendations
 exl-id: bc4d9a46-ea21-4687-b8a0-7f2e1dc33ebf
 source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 ---
 
-# Introduktion till Recommendations
+# Introduktion till rekommendationer
 
-Texten i den här artikeln kommer från webbseminariet *Introduktion till Recommendations* som du kan visa i sin helhet nedan.
+Texten i den här artikeln kommer från webbinariet *Introduktion till rekommendationer* som du kan visa i sin helhet nedan.
 
-Webbseminariet *Introduktion till Recommendations* innehåller en fördjupad genomgång av hur du kan utnyttja värdet för [!DNL Adobe Target Recommendations]. Ta reda på hur den här [!DNL Target]-aktiviteten automatiskt visar produkter eller innehåll som kan intressera dina kunder genom att optimera realtidsförslag baserat på tidigare besök. Gå vidare till användargränssnittet för [!DNL Target] för att få en stegvis översikt över hur du skapar en [!DNL Recommendations]-aktivitet.
+Webbseminariet *Introduktion till rekommendationer* innehåller en fördjupad genomgång av hur du kan utnyttja värdet för [!DNL Adobe Target Recommendations]. Ta reda på hur den här [!DNL Target]-aktiviteten automatiskt visar produkter eller innehåll som kan intressera dina kunder genom att optimera realtidsförslag baserat på tidigare besök. Gå vidare till användargränssnittet för [!DNL Target] för att få en stegvis översikt över hur du skapar en [!DNL Recommendations]-aktivitet.
 
 ## Introduktion
 
@@ -57,7 +57,7 @@ Fantastiska rekommendationer bör vara relevanta och personaliserade. Det inneb�
 * **Sofistikerade modeller** för att förstå miljontals objekt i katalogen och interaktionshändelser. [!DNL Target] har sofistikerade maskininlärningsfunktioner som byggts under ett decennium av erfarenhet och vi hanterar miljarder rekommendationer per år.
 * **Användarkontext** för att se till att rekommendationerna är aktuella och relevanta för dina användare. Du vill inte rekommendera videon som någon just tittat på eller skjortan som någon just lagt till i kundvagnen. Målets omfattande användarprofil kan användas i rekommendationer för att säkerställa personalisering.
 
-## Implementera [!DNL Target] Recommendations
+## Implementera [!DNL Target] rekommendationer
 
 Börja med en strategi.
 
@@ -103,9 +103,9 @@ Därefter bör du lägga till taggar eller utnyttja befintlig [!DNL Analytics]-i
 
 ![Illustration som visar hur du fångar upp användarbeteende](/help/main/c-recommendations/assets/intro-9.png)
 
-Du måste se till att [!DNL Target] är medveten om de objekt som användarna visar och köper. Om köpet inte är relevant för ditt sammanhang kan du spåra en annan typ av konverteringshändelse, till exempel hämtning av PDF, slutförande av en enkät, prenumeration på ett nyhetsbrev, titta på en video o.s.v.
+Du måste se till att [!DNL Target] är medveten om de objekt som användarna visar och köper. Om inköpen inte är relevanta för ditt sammanhang kan du spåra en annan typ av konverteringshändelse, till exempel hämtning av en PDF, slutförande av en enkät, prenumeration på ett nyhetsbrev, titta på en video o.s.v.
 
-Om du redan använder [!DNL Target] för att köra A/B-tester på din webbplats, kanske du redan har slutfört det här steget. Om du redan använder [!DNL Adobe Analytics] för att rapportera webbplatsbesök och konverteringsbeteenden kan du använda [!DNL Analytics] som din beteendedatakälla. Annars är det enklast att konfigurera detta med en tagghanterare som taggar i [[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html?lang=sv-SE){target=_blank}. Det går också att skicka interaktioner offline eller i appen till [!DNL Target] via API:t i realtid.
+Om du redan använder [!DNL Target] för att köra A/B-tester på din webbplats, kanske du redan har slutfört det här steget. Om du redan använder [!DNL Adobe Analytics] för att rapportera webbplatsbesök och konverteringsbeteenden kan du använda [!DNL Analytics] som din beteendedatakälla. Annars är det enklast att konfigurera detta med en tagghanterare som taggar i [[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}. Det går också att skicka interaktioner offline eller i appen till [!DNL Target] via API:t i realtid.
 
 ### Få rekommendationer i rätt sammanhang
 
@@ -115,7 +115,7 @@ Skicka information om användaren och sammanhanget vid interaktionen till [!DNL 
 
 Förutom användarbeteendet i sammanställningen måste du skicka [!DNL Target] till den specifika kontext där rekommendationer visas. Detta inkluderar information om sidan och information från användarprofilen. [!DNL Target] använder den här informationen för att göra personaliserade rekommendationer. På en återförsäljarwebbplats vill du t.ex. veta vilken produkt och produktkategori besökaren tittar på just nu. Du vill också veta mer om den användaren (favoritmärke, favoritproduktkategori, lojalitetsnivå osv.). Den här informationen är viktig så att [!DNL Target] kan filtrera objekt och förbättra personaliseringen av rekommendationer.
 
-## Bygg din första Recommendations-aktivitet
+## Bygg din första rekommendationsaktivitet
 
 Vad är en [!DNL Recommendations]-aktivitet?
 
@@ -175,7 +175,7 @@ Baserat på dessa tangenter väljer du sedan önskad logik för rekommendationer
 
 [!DNL Target] innehåller en portfölj med algoritmer.
 
-![Portfolio i algoritmbild](/help/main/c-recommendations/assets/intro-15.png)
+![Portfolio av algoritmbild](/help/main/c-recommendations/assets/intro-15.png)
 
 * **Popularitetsbaserade algoritmer** innehåller De mest visade och populära säljarna.
 * **Innehållsbaserade algoritmer** innehåller innehållets likhet.
@@ -193,8 +193,8 @@ I innehållskontexten kanske du vill utesluta filmer som besökaren tidigare har
 
 ## Demo
 
-När du har slutfört de uppgifter som illustreras i rekommendationstratten som beskrivs ovan, får du din slutgiltiga rekommendation. Om du vill se en produktdemonstration i [!DNL Target] börjar demon klockan 21:00 i *Adobe Target Basics Webinar* som är länkad till nedan.
+När du har slutfört de uppgifter som illustreras i rekommendationstratten som beskrivs ovan, får du din slutgiltiga rekommendation. Om du vill se en produktdemonstration i [!DNL Target] börjar demon på 21:00 i *Adobe Target Basics Webinar* som är länkad till nedan.
 
-## Adobe [!DNL Target] Basics-webbinarium: Introduktion till Recommendations {#intro-to-recs}
+## Adobe [!DNL Target] Basics-webbinarium: Introduktion till rekommendationer {#intro-to-recs}
 
-[Introduktion till Recommendations](https://adobecustomersuccess.adobeconnect.com/p8gt31drhs3e/?OWASP_CSRFTOKEN=4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)
+[Introduktion till rekommendationer](https://adobecustomersuccess.adobeconnect.com/p8gt31drhs3e/?OWASP_CSRFTOKEN=4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)

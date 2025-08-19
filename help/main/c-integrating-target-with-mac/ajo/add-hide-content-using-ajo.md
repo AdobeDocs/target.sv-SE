@@ -2,7 +2,7 @@
 keywords: optimera;personalisering;adobe-reseoptimering;ajo;användningsfall;scenarier;lägga till innehåll;dölja innehåll;lägga till komponenter;dölja komponenter
 description: Lär dig hur du lägger till eller döljer komponenter på din webbsida med  [!DNL Adobe Journey Optimizer].
 title: Lägg till eller dölj komponenter på webbsidan i  [!DNL Adobe Journey Optimizer]
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=sv-SE#beta newtab=true" tooltip="Vad är Beta-funktioner i  [!DNL Adobe Target]?"
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="Vad är Beta-funktioner i  [!DNL Adobe Target]?"
 feature: Integrations
 hide: true
 hidefromtoc: true
@@ -32,13 +32,13 @@ Det här användningsexemplet är utformat för att visa hur du utför välkänd
 
 * Ett företag inom finanssektorn planerar att lägga till en ny avdelning på sin hemsida för snabb åtkomst till lånekalkylatorn, vilket minskar söktiden och ökar låneansökningarna.
 
-* Ett klädföretag ökade konverteringarna genom att lägga till en ny knapp på sin webbsida.
+* Ett klädföretag ökade antalet konverteringar genom att lägga till en ny call-to-action-knapp på sin webbsida.
 
 ## Steg
 
 >[!NOTE]
 >
->Instruktionerna i det här avsnittet visar de nödvändiga stegen för att ändra en bild och för att använda profilattribut för att anpassa textmeddelanden. Mer information om tillgängliga alternativ i webbdesignern [!DNL Journey Optimizer] finns i [Arbeta med webbdesignern](https://experienceleague.adobe.com/sv/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank} i *Journey Optimizer-dokumentationen*.
+>Instruktionerna i det här avsnittet visar de nödvändiga stegen för att ändra en bild och för att använda profilattribut för att anpassa textmeddelanden. Mer information om tillgängliga alternativ i webbdesignern [!DNL Journey Optimizer] finns i [Arbeta med webbdesignern](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank} i *Journey Optimizer-dokumentationen*.
 >
 >Videon längst ned på sidan är särskilt användbar.
 
@@ -56,7 +56,7 @@ Utför följande steg för att lägga till komponenter eller för att dölja kom
 
 1. I avsnittet **[!UICONTROL Properties]** anger du ett beskrivande namn och en valfri beskrivning för kampanjen.
 
-1. (Villkorligt) Klicka på **[!UICONTROL Select Audience]** i avsnittet **[!UICONTROL Audience]** och välj önskad målgrupp.
+1. (Villkorligt) Klicka på **[!UICONTROL Audience]** i avsnittet **[!UICONTROL Select Audience]** och välj önskad målgrupp.
 
    I det här fallet kan du aktivera kampanjen för [!UICONTROL All Visitors] (standardvärdet).
 
@@ -64,9 +64,9 @@ Utför följande steg för att lägga till komponenter eller för att dölja kom
 
    En webbkonfiguration, eller kanalyta, är en konfiguration som definieras av en systemadministratör. Webbkonfigurationen innehåller alla tekniska parametrar för att skicka meddelandet, som rubrikparameter, underdomän, mobilappar och så vidare.
 
-   Mer information finns i [Konfigurera kanalytor](https://experienceleague.adobe.com/sv/docs/journey-optimizer/using/configuration/channel-surfaces#set-up-channel-surfaces){target=_blank} i *Journey Optimizer-dokumentationen*.
+   Mer information finns i [Konfigurera kanalytor](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/channel-surfaces#set-up-channel-surfaces){target=_blank} i *Journey Optimizer-dokumentationen*.
 
-1. Klicka på **[!UICONTROL Edit Content]** i avsnittet **[!UICONTROL Action]** för att öppna din webbplats i webbdesignern [!DNL Journey Optimizer].
+1. Klicka på **[!UICONTROL Action]** i avsnittet **[!UICONTROL Edit Content]** för att öppna din webbplats i webbdesignern [!DNL Journey Optimizer].
 
    ![Yoga-landningssida på LUMA-webbplatsen](/help/main/c-integrating-target-with-mac/ajo/assets/luma-yoga-landing.png)
 
@@ -91,9 +91,9 @@ Klicka på knappen [!UICONTROL Reports] och klicka sedan på önskad rapportperi
 * [!UICONTROL View all time report]
 * [!UICONTROL View last 24hrs report]
 
-Mer information finns i [Kom igång med det nya rapporteringsgränssnittet](https://experienceleague.adobe.com/sv/docs/journey-optimizer/using/channel-report/report-gs-cja){target=_blank} i *Journey Optimizer-dokumentationen*.
+Mer information finns i [Kom igång med det nya rapporteringsgränssnittet](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channel-report/report-gs-cja){target=_blank} i *Journey Optimizer-dokumentationen*.
 
 >[!MORELIKETHIS]
 >
->[Arbeta med webbdesignern](https://experienceleague.adobe.com/sv/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank} i *Journey Optimizer-dokumentationen*
->[Skapa en kampanj](https://experienceleague.adobe.com/sv/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank} i *Journey Optimizer-självstudiekurser*
+>[Arbeta med webbdesignern](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank} i *Journey Optimizer-dokumentationen*
+>>[Skapa en kampanj](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank} i *Journey Optimizer Tutorials*

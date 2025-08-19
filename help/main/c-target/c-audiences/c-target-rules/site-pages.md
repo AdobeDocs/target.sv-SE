@@ -104,7 +104,7 @@ Du kan rikta in dig på besökare med [!DNL Adobe Target] som har åtkomst till 
 
    Om du väljer [!UICONTROL Current Page], [!UICONTROL Previous Page] eller [!UICONTROL Landing Page] är alternativen [!UICONTROL Domain] och [!UICONTROL Query] tillgängliga. Tänk på följande när du väljer dessa alternativ:
 
-   * **Domän:** Sidans fullständiga domän. När du anger en domän bör du använda &quot;contains&quot;. &quot;Domänen är lika med facebook.com&quot; accepterar till exempel inte `m.facebook.com` eller `www.facebook.com`. &quot;Domänen innehåller facebook.com&quot; accepterar alla varianter av facebook.com.
+   * **Domän:** Sidans fullständiga domän. När du anger en domän bör du använda &quot;contains&quot;. &quot;Domänen är lika med facebook.com&quot; accepterar inte `m.facebook.com` eller `www.facebook.com`. Domänen innehåller facebook.com accepterar alla varianter av facebook.com.
    * **Fråga:** Innehållet i URL:en efter det första frågetecknet (?).
 
      `foo.html?e0a72cb2a2c7`
@@ -125,7 +125,7 @@ Använd en:
 
   Om det här beteendet inte matchar dina krav kan du utföra någon av följande åtgärder:
 
-   * Skicka [mbox-parametrar](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html?lang=sv-SE){target=_blank} till [!DNL Target] som ska användas för målinriktningsändamål.
+   * Skicka [mbox-parametrar](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank} till [!DNL Target] som ska användas för målinriktningsändamål.
    * Använd en [A/B-testaktivitet](/help/main/c-activities/t-test-ab/test-ab.md) i stället för en landningssidaktivitet. A/B-testaktiviteter byter inte upplevelser för samma besökare.
    * Använd en [besökarprofil](/help/main/c-target/c-audiences/c-target-rules/visitor-profile.md) i stället.
 

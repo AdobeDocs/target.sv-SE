@@ -2,7 +2,7 @@
 keywords: upplevelse;kontrollera;automatiserad personalisering;automatisk målanpassning
 description: Lär dig hur du väljer en upplevelse som ska användas som en kontroll när du skapar en [!UICONTROL Automated Personalization] (AP) eller [!UICONTROL Auto-Target]-aktivitet i  [!DNL Adobe Target].
 title: Hur kan jag använda en specifik upplevelse som kontroll i en [!UICONTROL Automated Personalization]-aktivitet?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=sv-SE#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Automated Personalization, Auto-Target
 solution: Target,Analytics
 exl-id: a0a36ace-3cba-4d8d-9bbd-e35204ff6453

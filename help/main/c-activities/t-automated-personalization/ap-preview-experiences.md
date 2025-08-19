@@ -2,7 +2,7 @@
 keywords: Automated Personalization;ap;preview;exclude experience
 description: Lär dig hur du förhandsgranskar varje upplevelse i en [!UICONTROL Automated Personalization] (AP)-aktivitet med hjälp av [!UICONTROL Visual Experience Composer] (VEC).
 title: Hur kan jag förhandsgranska [!UICONTROL Automated Personalization] upplevelser i VEC?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=sv-SE#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Automated Personalization
 exl-id: b346e9cb-f4db-4777-8671-cf714bed465a
 source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Eftersom [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP)-aktiviteter jämför flera erbjudanden på en sida är det bra att förhandsgranska sidan med varje upplevelse.
 
-1. Klicka på **[!UICONTROL Preview]** i [!UICONTROL Visual Experience Composer] (VEC).
+1. Klicka på [!UICONTROL Visual Experience Composer] i **[!UICONTROL Preview]** (VEC).
 
 1. Klicka på ikonen **[!UICONTROL Show Experiences]** ( ![ ikonen Visa upplevelser ](/help/main/assets/icons/WebPages.svg) ) för att visa listan med alla upplevelser i den vänstra bildrutan.
 

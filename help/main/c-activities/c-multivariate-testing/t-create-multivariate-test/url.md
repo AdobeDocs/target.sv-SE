@@ -29,7 +29,7 @@ Aktivitets-URL:en avgör vilken sida som används i [!UICONTROL Multivariate Tes
 
    Ytterligare regler kan baseras på något av följande:
 
-   * [!UICONTROL &#x200B; URL]
+   * [!UICONTROL  URL]
    * [!UICONTROL Domain]
    * [!UICONTROL Path]
    * [!UICONTROL Hash (#) Fragment]

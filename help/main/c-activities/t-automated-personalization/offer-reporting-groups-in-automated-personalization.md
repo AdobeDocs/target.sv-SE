@@ -2,7 +2,7 @@
 keywords: automatiserad personalisering;erbjudande;rapportering;grupp;rapporteringsgrupp;ap
 description: Lär dig hur du använder rapporteringsgrupper i  [!DNL Adobe Target] [!UICONTROL Automated Personalization] aktiviteter.
 title: Kan jag använda rapporteringsgrupper för erbjudanden i [!UICONTROL Automated Personalization] aktiviteter?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=sv-SE#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Reports
 exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
 source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
@@ -33,7 +33,7 @@ Detta fungerar bra om besökarna svarar på samma sätt som alla erbjudanden i e
 
 ## Ställ in rapporteringsgrupper
 
-1. Klicka på ikonen **[!UICONTROL Manage Content]** ( ![ikonen Hantera innehåll](/help/main/assets/icons/Experience.svg) ) på sidan **[!UICONTROL Experiences]** i en AP-aktivitet.
+1. Klicka på ikonen **[!UICONTROL Experiences]** ( **[!UICONTROL Manage Content]** ikonen Hantera innehåll![ ) på sidan ](/help/main/assets/icons/Experience.svg) i en AP-aktivitet.
 1. Klicka på fliken **[!UICONTROL Offers]** högst upp i dialogrutan [!UICONTROL Manage Content].
 1. (Villkorligt) Lägg till specifika upplevelser i en rapporteringsgrupp genom att klicka på ikonen [!UICONTROL More Actions] ( ![ikonen Fler åtgärder](/help/main/assets/icons/MoreSmall.svg) ) för önskat erbjudande och sedan genom att klicka på **[!UICONTROL Reporting Group]**.
 

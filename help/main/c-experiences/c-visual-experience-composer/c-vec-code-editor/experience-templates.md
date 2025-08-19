@@ -39,7 +39,7 @@ Mallen [Banner-nedräkning](https://github.com/Adobe-Marketing-Cloud/target-expe
 
 ## Button Builder {#section_DBDD1C9A9F294FB6BABBC04B4454E59B}
 
-[Experience-mallen ](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/button) i Button Builder är en liten knapp med ett textanrop till åtgärd. Knappen är konfigurerbar och kan placeras var som helst på sidan för att lägga till ett nytt anrop till åtgärd eller ersätta en befintlig knapp med ett mer konfigurerbart alternativ.
+Mallen [för upplevelsen i Button Builder](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/button) är en liten knapp med texten call to action. Knappen är konfigurerbar och kan placeras var som helst på sidan för att lägga till en ny call to action eller ersätta en befintlig knapp med ett mer konfigurerbart alternativ.
 
 ![exp-template-button-builder image](assets/exp-template-button-builder.png)
 

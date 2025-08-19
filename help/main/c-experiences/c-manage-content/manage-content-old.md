@@ -23,7 +23,7 @@ Använd biblioteket [!UICONTROL Offers] i [!DNL Adobe Target] för att hantera d
 
    ![Sidan Erbjudanden innehåller flikarna Koderbjudanden och Bilderbjudanden](/help/main/c-experiences/c-manage-content/assets/offers-page.png)
 
-1. (Valfritt) Klicka på listrutan **[!UICONTROL Type]** om du vill filtrera erbjudanden efter typ (HTML-erbjudande, [Experience Fragments](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md), [Redirect Offer](/help/main/c-experiences/c-manage-content/offer-redirect.md), [Remote Offer](/help/main/c-experiences/c-manage-content/about-remote-offers.md), [JSON Offers](/help/main/c-experiences/c-manage-content/create-json-offer.md) och [Folders](/help/main/c-experiences/c-manage-content/create-content-folder.md)).
+1. (Valfritt) Klicka på listrutan **[!UICONTROL Type]** för att filtrera erbjudanden efter typ (HTML-erbjudande, [Experience Fragments](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md), [Redirect Offer](/help/main/c-experiences/c-manage-content/offer-redirect.md), [Remote Offer](/help/main/c-experiences/c-manage-content/about-remote-offers.md), [JSON Offers](/help/main/c-experiences/c-manage-content/create-json-offer.md) och [Folders](/help/main/c-experiences/c-manage-content/create-content-folder.md)).
 
    ![offers_filter-bild](assets/offers_filter.png)
 
@@ -69,7 +69,7 @@ Använd biblioteket [!UICONTROL Offers] i [!DNL Adobe Target] för att hantera d
 
 Du kan visa information om erbjudandedefinitioner på ett popup-kort i biblioteket [!UICONTROL Offers] utan att öppna erbjudandet.
 
-Du kan till exempel få åtkomst till följande erbjudande för ett HTML genom att klicka på informationsikonen:
+Du kan till exempel få åtkomst till följande definitionskort för ett HTML-erbjudande genom att klicka på informationsikonen:
 
 ![offer-card-html-bild](assets/offer-card-html-new.png)
 
@@ -92,7 +92,7 @@ Funktionen för erbjudandeinformation gäller inte för bilderbjudanden.
 
 This video includes information about managing offers.
 
-* Connection between the [Experience Cloud Asset Library](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html?lang=sv-SE) and the Target Content Library 
+* Connection between the [Experience Cloud Asset Library](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html) and the Target Content Library 
 * Custom HTML Offers 
 * Custom HTML Offer in the [!UICONTROL Visual Experience Composer]
 

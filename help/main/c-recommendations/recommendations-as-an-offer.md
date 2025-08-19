@@ -1,8 +1,8 @@
 ---
-keywords: Recommendations;erbjudande
+keywords: Rekommendationer;erbjudande
 description: Lär dig hur du använder Adobe Recommendations som ett erbjudande i A/B-tester (inklusive Automatisk allokering och Automatiskt mål) och Experience Targeting-aktiviteter (XT).
-title: Hur använder jag Recommendations som erbjudande i andra aktivitetstyper?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=sv-SE#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
+title: Hur använder jag rekommendationer som erbjudande i andra aktivitetstyper?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Recommendations
 exl-id: ec520555-b439-46a9-ab2d-f0981532bffb
 source-git-commit: f848c79cb95009b5810a1707d04e548a57220e12
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 ---
 
-# Recommendations som erbjudande
+# Rekommendationer som ett erbjudande
 
 Du kan nu inkludera rekommendationer inuti [!UICONTROL A/B Test] (inklusive [!UICONTROL Auto-Allocate] och [!UICONTROL Auto-Target]) och [!UICONTROL Experience Targeting] (XT) aktiviteter.
 
@@ -111,14 +111,14 @@ Det finns två sätt att ta bort ett rekommendationserbjudande:
 
 ### Visa rekommendationserbjudandets status {#status}
 
-Rekommendationserbjudandets (algoritm) status visas längst ned på sidan [!UICONTROL Overview] för A/B Test- och XT-aktiviteter som innehåller Recommendations erbjuder:
+Rekommendationserbjudandets (algoritm) status visas längst ned på sidan [!UICONTROL Overview] för A/B Test- och XT-aktiviteter som innehåller rekommendationer:
 
 * Resultatförberedda
 * Resultaten är inte klara
 * Feed-fel
 
-![Status för Recommendations-erbjudande](/help/main/c-recommendations/assets/recs-offer-status.png)
+![Status för rekommenderat erbjudande](/help/main/c-recommendations/assets/recs-offer-status.png)
 
-## Utbildningsvideo: Recommendations som erbjudande ![Översikt](/help/main/assets/overview.png)
+## Utbildningsvideo: Rekommendationer som ett erbjudande ![Översikt ](/help/main/assets/overview.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/28878)

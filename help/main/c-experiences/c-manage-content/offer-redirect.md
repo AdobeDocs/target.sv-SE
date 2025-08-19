@@ -21,7 +21,7 @@ Det kan finnas två helt olika sidor att testa i stället för att bara ändra i
 >
 > * Omdirigeringserbjudanden kan skapas på sidan [!UICONTROL Offers] > [!UICONTROL Code Offers] eller i [Forms-baserad Experience Composer](/help/main/c-experiences/form-experience-composer.md). Du kan inte skapa eller tillämpa omdirigeringserbjudanden i [!UICONTROL Visual Experience Composer] (VEC). Innehållet injiceras på [!DNL Target]-begärandeplatserna, så de här platserna passar troligtvis inte för en global [!DNL Target]-begäran.
 >
->* Du kan inte använda omdirigeringserbjudanden i AJAX (`mboxUpdate`).
+>* Du kan inte använda omdirigeringserbjudanden i AJAX-rutor (`mboxUpdate`).
 >
 >* För omdirigeringserbjudanden i aktiviteter som använder [[!UICONTROL Analytics as the reporting source]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) måste implementeringen uppfylla vissa minimikrav. Dessutom finns det viktig information som du behöver känna till. Se [Omdirigeringserbjudanden - Vanliga frågor om A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905).
 >

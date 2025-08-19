@@ -1,6 +1,6 @@
 ---
 keywords: Mått på konvertering;lyckad;konverteringsmått;sidpoängsmått;mått för sidvisningar;intäktsmått;tid på webbplatsmått;uppskattat värde;avancerade inställningar;mått på framgångar;beroende;ökning och behåll användaren i aktiviteten;Öka antal, frigör användare och Tillåt återinträde;ökning, Frigör användare och fält från återinträde
-description: Lär dig mer om framgångsmått i Adobe [!DNL Target] som hjälper dig att avgöra om en aktivitet lyckades. Exempel på framgångsmått är konvertering, intäkter, sidvyer, anpassad poängsättning och tid på webbplatsen.
+description: Lär dig mer om framgångsmått i Adobe [!DNL Target] som hjälper dig att avgöra hur framgångsrik en aktivitet är. Exempel på framgångsmått är konvertering, intäkter, sidvyer, anpassad poängsättning och tid på webbplatsen.
 title: Vad är Success Metrics?
 feature: Success Metrics
 exl-id: 38d5314d-4950-4106-a058-0d221faf5a24
@@ -57,7 +57,7 @@ Vissa mätvärden, som [!UICONTROL Custom Scoring] och [!UICONTROL Revenue Per V
 
 Använd de avancerade inställningarna för att hantera hur du mäter framgång. Du kan lägga till beroenden, välja om du vill behålla användaren i aktiviteten eller ta bort dem och om mätvärdet ska räknas en gång per deltagare eller vid varje intryck.
 
-Klicka på **[!UICONTROL vertical ellipses]** > **[!UICONTROL Advanced Settings]** om du vill komma åt alternativen för [!UICONTROL Advanced Settings].
+Klicka på [!UICONTROL Advanced Settings] > **[!UICONTROL vertical ellipses]** om du vill komma åt alternativen för **[!UICONTROL Advanced Settings]**.
 
 ![Menyn Avancerade inställningar](/help/main/c-activities/r-success-metrics/assets/advanced-settings.png)
 

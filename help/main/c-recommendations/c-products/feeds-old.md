@@ -2,7 +2,7 @@
 keywords: rekommendationsfeed;feed;SAINT;ftp;csv;klassificeringar;analysklassificeringar
 description: Lär dig hur feeds importerar entiteter till  [!DNL Adobe Target] [!DNL Recommendations] med hjälp av CSV-filer, Google produktsökningsformat och  [!DNL Analytics] produktklassificeringar.
 title: Hur använder jag [!UICONTROL Feeds] i [!DNL Target Recommendations]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=sv-SE#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Recommendations
 exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
@@ -121,11 +121,11 @@ Om du har en Google-produktfeed kan du använda den som importfil.
 >
 >Du behöver inte använda Google-data. [!DNL Recommendations] använder samma format som Google. Du kan använda den här metoden för att överföra data som du har och använda de tillgängliga schemafunktionerna. Du måste dock behålla Google fördefinierade attributnamn när du konfigurerar filen.
 
-De flesta återförsäljare överför produkter till Google, så när en besökare använder Google produktsökning visas deras produkter. [!DNL Recommendations] följer Google-specifikationen exakt för entitetsfeeds. Entitetsfeeds kan skickas till [!DNL Recommendations] via .xml, .txt eller .tsv, och du kan använda de [attribut som definieras av Google](https://support.google.com/merchants/answer/188494?hl=en&amp;topic=2473824&amp;ctx=topic#US). Resultaten är sökbara på [Google shoppingsidor](https://www.google.com/prdhp).
+De flesta återförsäljare överför produkter till Google, så när en besökare använder Google produktsökning visas deras produkter. [!DNL Recommendations] följer Google-specifikationen exakt för entitetsfeeds. Entitetsfeeds kan skickas till [!DNL Recommendations] via .xml, .txt eller .tsv, och du kan använda de [attribut som definieras av Google](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US). Resultaten är sökbara på [Google shoppingsidor](https://www.google.com/prdhp).
 
 >[!NOTE]
 >
->Metoden POST måste vara tillåten på den server som är värd för Google feed-innehåll.
+>POST-metoden måste vara tillåten på den server som är värd för Google feed-innehållet.
 
 Eftersom [!DNL Recommendations] användare redan har konfigurerat .xml- eller .txt-feeds för att skicka till Google via URL eller FTP, accepterar entitetsflödena produktdata och använder dem för att skapa rekommendationskatalogen. Ange var denna feed finns och rekommendationsservern hämtar data.
 
@@ -212,7 +212,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 ### [!DNL Analytics] produktklassificeringar {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-Produktklassificeringen [!DNL Analytics] är den enda klassificeringen som är tillgänglig för rekommendationer. Mer information om den här klassificeringsfilen finns i [Om klassificeringar](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=sv-SE) i guiden *Analyskomponenter*. Det är möjligt att inte all information du behöver för rekommendationer finns tillgänglig i den aktuella implementeringen, så följ den här användarhandboken om du vill lägga till i klassificeringsfilen.
+Produktklassificeringen [!DNL Analytics] är den enda klassificeringen som är tillgänglig för rekommendationer. Mer information om den här klassificeringsfilen finns i [Om klassificeringar](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) i guiden *Analyskomponenter*. Det är möjligt att inte all information du behöver för rekommendationer finns tillgänglig i den aktuella implementeringen, så följ den här användarhandboken om du vill lägga till i klassificeringsfilen.
 
 >[!IMPORTANT]
 >
@@ -328,15 +328,15 @@ Titta på följande exempel:
 
 **Exempel 1:**
 
-* Dag ett: dagliga foderprocesser klockan 9.00 PST.
-* Dag två: klockan är 23.30 och maten har inte gått sedan i går klockan 9.00.
+* Dag ett: dagliga foderprocesser klockan 9:00 PST.
+* Dag två: klockan är 23.00 och matningen har inte gått sedan i går kl. 9:30.:00
 
 Statusen bör vara gul eftersom indexet borde ha körts för cirka 6,5 timmar sedan. 6,5 timmar +24 är 127% av matningsfönstret.
 
 **Exempel 2:**
 
-* 1 januari: månatliga feed-processer klockan 9:00 PST.
-* 3 februari: klockan är 10.00 och maten har inte gått på en månad, en dag och en timme sedan.
+* 1 januari: månatliga feed-processer kl. 9:00 PST.
+* 3 februari: klockan är 10:00 och matningen har inte gått på en månad, en dag och en timme sedan.
 
 Statusen ska vara gul eftersom indexet ska ha körts för ungefär en dag och en timme sedan. Även om detta endast är (31+(1/25))/30 = 1,03 % av frekvensinställningen, överskred det maximala antalet endagsfördröjningar.
 
@@ -344,7 +344,7 @@ Statusen ska vara gul eftersom indexet ska ha körts för ungefär en dag och en
 
 I följande videofilmer finns mer information om de begrepp som beskrivs i den här artikeln.
 
-### Förstå feeds i Recommendations (3:01) ![Märket Översikt](/help/main/assets/overview.png)
+### Förstå feeds i rekommendationer (3:01) ![Märket Översikt](/help/main/assets/overview.png)
 
 Den här videon innehåller följande information:
 
