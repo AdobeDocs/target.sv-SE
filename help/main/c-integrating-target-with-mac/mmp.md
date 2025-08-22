@@ -1,21 +1,21 @@
 ---
 keywords: Experience Cloud-målgrupper;målgrupper
-description: Läs om hur Adobe Experience Cloud Audiences låter Experience Cloud lösningar kommunicera och dela information om besökare på webbplatser med andra Adobe-lösningar.
+description: Läs om hur Adobe Experience Cloud Audiences låter Experience Cloud-program kommunicera och utbyta information om besökare med andra Adobe-program.
 title: Hur använder jag Adobe Experience Cloud-målgrupper i Target?
 feature: Integrations
 exl-id: 4502e77d-1310-41f3-8d14-ba69692df1af
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 7f5f6d7b3804749fce8819697f17cbad74409741
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '111'
 ht-degree: 0%
 
 ---
 
 # Experience Cloud-målgrupper
 
-[!DNL Adobe Experience Cloud Audiences] ger möjlighet för [!DNL Adobe Experience Cloud] lösningar att kommunicera och dela information om besökare på webbplatser så att samma data kan användas av varje lösning.
+[!DNL Adobe Experience Cloud audiences] gör det möjligt för [!DNL Experience Cloud]-program att kommunicera och dela information om webbplatsbesökare, så att samma data kan användas av varje program.
 
-Mer information finns i [Publiker](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=sv-SE) i *Användarhandboken för bastjänster*.
+Läs mer om [Experience Cloud-målgrupper](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) (målgruppsbibliotek) i *Experience Cloud-handboken för gränssnitt och administration*.
 
 ## Video: Integrera [!DNL Target] med [!DNL Experience Cloud Audiences] (10:48)
 
