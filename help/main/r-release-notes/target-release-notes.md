@@ -4,9 +4,9 @@ description: Lär dig mer om de nya funktionerna, förbättringarna och korriger
 title: Vilka nya funktioner och förbättringar ingår i den kommande [!DNL Target] versionen?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 45ccd33be239b95d19fc611caea9482f89b02066
+source-git-commit: 65bc050a189b65af57b1258afeff497a0dafcfb5
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '282'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,14 @@ Den här artikeln innehåller förhandsversionsinformation för kommande [!DNL A
 
 Den här versionen innehåller följande uppdateringar och korrigeringar:
 
-**Visual Experience Composer (VEC)**
+**[!DNL Recommendations]**
+
++++Se detaljer
+**Gränssnittet har uppdaterats så att avancerad sökfiltrering i [!UICONTROL Product Catalog Search] är skiftlägeskänslig**: [!UICONTROL Advanced Search]-gränssnittet på [!UICONTROL Product Catalog Search]-sidan har tidigare utfört exakt skiftlägesmatchning på returnerade värden, även om både backend- och GraphQL-frågor inte var skiftlägeskänsliga. Den här inkonsekvensen orsakade förvirring och minskad söknoggrannhet. Filtreringen av [!UICONTROL Advanced Search] är nu inte skiftlägeskänslig, den justeras mot serverdelsbeteendet och förbättrar användbarheten.
+
++++
+
+**[!UICONTROL Visual Experience Composer (VEC)]**
 
 +++Se detaljer
 * **Ett problem har korrigerats där namnändringen av en plats i en [!UICONTROL Automated Personalization] (AP) eller [!UICONTROL Multivariate Test] (MVT) aktivitet inte kvarstod efter att användaren navigerat till [!UICONTROL Targeting]-steget och återvände.**-kunder kan nu redigera och spara platsnamn, och ändringarna är fortfarande synliga under hela aktivitetsskapandeprocessen. (TGT-52367)
@@ -41,7 +48,7 @@ Den här versionen innehåller följande uppdateringar och korrigeringar:
 | Resurs | Information |
 |--- |--- |
 | [Versionsinformation: Adobe Target Platform Experience Web SDK]&#x200B;(https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=e n) | Information om ändringarna i respektive version av Platform Web SDK. |
-| Versionsinformation för [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=sv-SE){target=_blank} | Information om ändringar i varje version av JavaScript-biblioteket [!DNL Adobe Target] at.js. |
+| Versionsinformation för [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | Information om ändringar i varje version av JavaScript-biblioteket [!DNL Adobe Target] at.js. |
 
 ## Förhandsversionsinformation {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
