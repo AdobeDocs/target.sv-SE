@@ -4,9 +4,9 @@ description: Hitta svar på frågor om att använda omdirigeringserbjudanden nä
 title: Var hittar jag frågor om omdirigeringserbjudanden med A4T?
 feature: Analytics for Target (A4T)
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: bb41de751246a77e71e65c11f020bc39f3105da6
 workflow-type: tm+mt
-source-wordcount: '1430'
+source-wordcount: '1431'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,27 @@ Det här avsnittet innehåller svar på frågor som ofta ställs om att använda
 
 +++Svar
 Ja, om implementeringen använder [!DNL at.js]. Implementeringen måste dock uppfylla de minimikrav som anges nedan för att kunna använda [omdirigeringserbjudanden](/help/main/c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94) i aktiviteter som använder Analytics som rapportkälla.
+
++++
+
+## ![Adobe Experience Platform Web SDK badge](/help/main/assets/platform.png) Stöder [!DNL Adobe Experience Platform Web SDK] omdirigeringserbjudanden för A4T? {#platform}
+
++++Svar
+Följande vanliga frågor och svar innehåller mer information om hur du använder A4T och omdirigeringserbjudanden med [!DNL Platform Web SDK].
+
++++
+
+### Har Analytics for Target (A4T) stöd för omdirigeringserbjudanden?
+
++++Svar
+Ja, A4T via Platform Web SDK har stöd för [omdirigeringserbjudanden](/help/main/c-experiences/c-manage-content/offer-redirect.md).
+
++++
+
+### Stöds [!UICONTROL Visual Experience Composer] (VEC) och [!UICONTROL Form-Based Experience Composer]?
+
++++Svar
+Ja, [[!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) och [[!UICONTROL Form-Based Experience Composer]](/help/main/c-experiences/form-experience-composer.md) stöds om du använder inbyggda omdirigeringserbjudanden.
 
 +++
 
@@ -63,7 +84,7 @@ Tänk på följande:
 ## Varför räknas ibland sidvisningar på originalsidan och på omdirigeringssidan? {#section_B8F6CC2190B84CF08D945E797C5AF07B}
 
 +++Svar
-När du använder at.js version 1.6.3 eller senare är det inte något problem att räkna sidvisningar på båda sidorna. Detta konkurrensvillkor påverkar endast kunder som använder tidigare versioner. Target-teamet har två versioner av at.js: den aktuella versionen och den andra senaste versionen. Uppgradera at.js efter behov för att kontrollera att du kör en [version som stöds](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=sv-SE){target=_blank}.
+När du använder at.js version 1.6.3 eller senare är det inte något problem att räkna sidvisningar på båda sidorna. Detta konkurrensvillkor påverkar endast kunder som använder tidigare versioner. Target-teamet har två versioner av at.js: den aktuella versionen och den andra senaste versionen. Uppgradera at.js efter behov för att kontrollera att du kör en [version som stöds](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
 
 Om du använder en tidigare version av at.js som inte stöds finns det en risk för att ett konkurrensvillkor kan uppstå som kan få Analytics-anropet att utlösas innan omdirigeringen körs på den första sidan. Detta kan leda till att sidvisningar på den ursprungliga sidan och på omdirigeringssidan räknas. Detta resulterar i en extra sidvy på den första sidan, där besökaren aldrig riktigt &quot;såg&quot; den första sidan.
 
@@ -142,24 +163,6 @@ Med [!DNL at.js] version 0.9.6 (eller senare) och [!DNL AppMeasurement.js] 2.1 (
 
 +++Svar
 Nej, du måste använda ett inbyggt omdirigeringserbjudande för aktiviteter som använder [!DNL Analytics] som rapportkälla (A4T). Från [!DNL Target]-perspektivet är HTML-erbjudanden ogenomskinliga: [!DNL Target] vet inte om en viss del av HTML innehåller JavaScript som initierar en omdirigering.
-
-+++
-
-## ![Adobe Experience Platform Web SDK badge](/help/main/assets/platform.png) Stöder [!DNL Adobe Experience Platform Web SDK] omdirigeringserbjudanden för A4T? {#platform}
-
-Följande vanliga frågor och svar innehåller mer information om hur du använder A4T och omdirigeringserbjudanden med [!DNL Platform Web SDK].
-
-### Har Analytics for Target (A4T) stöd för omdirigeringserbjudanden?
-
-+++Svar
-Ja, A4T via Platform Web SDK har stöd för [omdirigeringserbjudanden](/help/main/c-experiences/c-manage-content/offer-redirect.md).
-
-+++
-
-### Stöds [!UICONTROL Visual Experience Composer] (VEC) och [!UICONTROL Form-Based Experience Composer]?
-
-+++Svar
-Ja, [[!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) och [[!UICONTROL Form-Based Experience Composer]](/help/main/c-experiences/form-experience-composer.md) stöds om du använder inbyggda omdirigeringserbjudanden.
 
 +++
 
