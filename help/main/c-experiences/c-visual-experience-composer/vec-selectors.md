@@ -25,7 +25,7 @@ Du kan ange om element-ID:n som klassas eller element-ID:n ska användas i dina 
 
 >[!NOTE]
 >
->Elementklasser är tillgängliga som väljare i [!UICONTROL A/B Test]-, [!UICONTROL Automated Personalization]- och [!UICONTROL  Multivariate Test]-aktiviteter.
+>Elementklasser är tillgängliga som väljare i [!UICONTROL A/B Test]-, [!UICONTROL Automated Personalization]- och [!UICONTROL &#x200B; Multivariate Test]-aktiviteter.
 
 Mer information om när CSS-väljare ska användas och när unika ID:n ska användas finns i [Bästa metoder och begränsningar i Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6).
 
