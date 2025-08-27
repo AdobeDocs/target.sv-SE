@@ -4,10 +4,10 @@ description: En elementväljare är ett CSS-uttryck som kan identifiera ett elle
 title: Kan jag använda elementväljare i Visual Experience Composer (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: f4ddb30a-f599-4fe5-861c-2deeeb9a70dd
-source-git-commit: 52f11998149cddeb4245a0f07280562d79332a04
+source-git-commit: 51e484d54f4d318ea59fdfdb16d1ed7014abdfdb
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 1%
+source-wordcount: '427'
+ht-degree: 0%
 
 ---
 
@@ -15,23 +15,25 @@ ht-degree: 1%
 
 En elementväljare är ett CSS-uttryck som kan identifiera ett eller flera element.
 
-Grundläggande information om CSS-väljare finns i dokumentet [Selectors](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) i Mozilla Developer Network (MDN).
+Grundläggande information om CSS-väljare finns i dokumentet [Selectors](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) på *[!DNL Mozilla Developer Network]* (MDN).
 
 Du kan ange om element-ID:n som klassas eller element-ID:n ska användas i dina kontoinställningar. Klicka på **[!UICONTROL Administration > Visual Experience Composer]** och välj sedan dina önskade CSS-väljare.
 
-![css_selectors image](assets/css_selectors.png)
+* **Använd element-ID**: Inaktivera om samma ID används för flera element eller element-ID:n kan ändras vid sidinläsning.
+* **Använd elementklasser**: Inaktivera om elementklasserna på en sida kan ändras.
+* **Använd önskade väljare**: Aktivera om du vill använda unika väljare i VEC för att identifiera nyckelområden på webbplatsen.
 
 >[!NOTE]
 >
->Elementklasser är tillgängliga som väljare i A/B Test-, Automated Personalization- och Multivariate Test-aktiviteter.
+>Elementklasser är tillgängliga som väljare i [!UICONTROL A/B Test]-, [!UICONTROL Automated Personalization]- och [!UICONTROL  Multivariate Test]-aktiviteter.
 
 Mer information om när CSS-väljare ska användas och när unika ID:n ska användas finns i [Bästa metoder och begränsningar i Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6).
 
-## Så här genererar Adobe [!DNL Target] en väljare för ett element {#section_D89D954BCBFB486CA081BE183776A475}
+## Så här genererar [!DNL Target] en väljare för ett element {#section_D89D954BCBFB486CA081BE183776A475}
 
-Målet använder en enkel algoritm för att skapa en väljare. Här följer en kort beskrivning av genereringslogiken:
+[!DNL Target] använder en enkel algoritm för att skapa en väljare. Här följer en kort beskrivning av genereringslogiken:
 
-1. Om ett element har ett id, till exempel `id="container"`, är väljaren för elementet `#container`.
+1. Om ett element har ett ID, till exempel `id="container"`, är väljaren för elementet `#container`.
 
    Exempel:
 
@@ -48,9 +50,9 @@ Målet använder en enkel algoritm för att skapa en väljare. Här följer en k
    </div>
    ```
 
-1. Om ett element innehåller ett klassattribut försöker Target utnyttja den första klassen i alla klasser som finns i elementet.
+1. Om ett element innehåller ett klassattribut försöker [!DNL Target] utnyttja den första klassen i några klasser som finns i elementet.
 
-   Målet försöker tolka det överordnade elementet tills det hittar elementet `<HTML>` eller ett element med ett ID. När ett element innehåller ett id och väljaren beräknas på dess underordnade underordnade objekt, bidrar elementets id till väljaren.
+   [!DNL Target] försöker tolka det överordnade elementet tills det hittar elementet `<HTML>` eller ett element med ett ID. När ett element innehåller ett ID och väljaren beräknas på det underordnade elementet, bidrar elementets ID till väljaren.
 
    Exempel:
 
@@ -73,7 +75,7 @@ Målet använder en enkel algoritm för att skapa en väljare. Här följer en k
 
    `eq` anger för indexet att det finns ett element som har &quot;tagName=UL&quot; och den första klassen är `navigation`. Därför är `index` 0. Mer information finns i artikeln [Väljare](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) i MDN.
 
-1. Om ett element inte innehåller någon klass använder Target `tagName` för elementet och går uppåt i det överordnade elementet tills antingen elementet `<HTML>` eller ett element med ett ID hittas.
+1. Om ett element inte innehåller någon klass använder [!DNL Target] `tagName` för elementet och går uppåt i det överordnade elementet tills antingen elementet `<HTML>` eller ett element med ett ID hittas.
 
    Exempel:
 
@@ -95,5 +97,5 @@ Målet använder en enkel algoritm för att skapa en väljare. Här följer en k
 I ovanstående process:
 
 * Du kan använda valfri CSS-väljare så länge den unikt identifierar ett element i DOM.
-* Metoden ovan används av Target. Målet tillåter inte att du använder det här tillvägagångssättet. Du kan lägga till valfri väljare förutsatt att punkt 1 är sann.
-* Du kan använda valfritt attribut i väljaren. I det här dokumentet används endast klassnamn som exempel.
+* Metoden ovan används av [!DNL Target]. [!DNL Target] tillåter inte att du använder den här metoden. Du kan lägga till valfri väljare förutsatt att punkt 1 är sann.
+* Du kan använda valfritt attribut i väljaren. I det här dokumentet används endast ett klassnamn som exempel.

@@ -2,13 +2,13 @@
 keywords: inkluderingsregler;inkluderingskriterier;rekommendationer;skapa nya kriterier;befordran;kampanjer;dynamisk filtrering;dynamiska;tomma värden;ignorera filtreringsregel;statiskt filter;filter efter värde;entitetsattributmatchning;profilattributmatchning;parametermatchning;filter efter värde;statiskt filter
 description: Lär dig hur du skapar inkluderingsregler i  [!DNL Target] Rekommendationer för villkor och kampanjer.
 title: Hur använder jag regler för dynamisk och statisk inkludering i rekommendationerna?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=sv-SE#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: 49b20e75-ee55-4239-94a0-6d175e2d4811
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+source-git-commit: 51e484d54f4d318ea59fdfdb16d1ed7014abdfdb
 workflow-type: tm+mt
-source-wordcount: '1825'
+source-wordcount: '1846'
 ht-degree: 0%
 
 ---
@@ -76,6 +76,10 @@ Följande alternativ är tillgängliga för filtrering efter värde:
 Dynamiska kriterier och kampanjer är mycket kraftfullare än statiska kriterier och kampanjer och ger bättre resultat och engagemang.
 
 I följande exempel ges allmänna idéer om hur ni kan använda dynamiska kampanjer och undantag i era marknadsföringssatsningar:
+
+>[!NOTE]
+>
+>&quot;List&quot; kräver att både entiteter och profilattribut måste lagras som arrayer. En kommaavgränsad lista fungerar inte.
 
 | Operator | Exempel |
 | --- | --- |
