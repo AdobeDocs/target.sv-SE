@@ -6,9 +6,9 @@ short-description: Lär dig mer om de nya funktionerna, förbättringarna och ko
 title: Vad ingår i den aktuella versionen?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: b178785b1936cff2b55c85e41fc44f230243f849
+source-git-commit: 223a0f62bcd9a52bd9181e0a439e02164abbfec4
 workflow-type: tm+mt
-source-wordcount: '5850'
+source-wordcount: '7159'
 ht-degree: 0%
 
 ---
@@ -75,6 +75,57 @@ Följande information beskriver de begränsningar som du bör vara medveten om n
 
 +++
 
+## [!DNL Target Standard/Premium] 25.8.4 (1 september 2025)
+
+Den här versionen innehåller följande uppdateringar och korrigeringar:
+
+**[!UICONTROL Activities]**
+
++++Se detaljer
+* **Kunder kunde inte kopiera aktivitets- eller dokumentnamn från[!UICONTROL Activity Overview]**: Tidigare kunde kunderna inte kopiera namnet på en aktivitet eller det associerade erbjudandet/dokumentet direkt från [!UICONTROL Activity overview] i den uppdaterade processen för att skapa aktiviteter. Den här begränsningen påverkar användbarheten, särskilt på mindre skärmar. Kunderna kan nu enkelt kopiera både aktivitets- och dokumentnamn utan temporära lösningar. (TGT-51850)
+* **Proaktiv inmatning av förvaltade [!DNL Target] kunddata när aktiviteter skapades**: Förbättrade processen för att skapa aktivitet genom att aktivera proaktiv insamling av rapporter, innehåll och skärmbilder från [!DNL Target]-kunder. Den här förbättringen åtgärdar luckor i data som identifierats i befintliga användningsfall och hjälper till att få exaktare insikter under aktiviteten och experimentera med inställningarna. (TGT-52415)
+* **AP-aktiviteter hämtade inte modellfärdiga data i [!UICONTROL Reports] section**: Kunder som visar Automated Personalization-aktiviteter (AP) i [!UICONTROL Reports]-avsnittet kunde inte se modellfärdiga indikatorer på rapportgrupps- och erbjudandenivå. Problemet uppstod eftersom modellfärdiga data inte hämtades korrekt från backend-objektet. Funktionen har återställts och modellfärdiga data visas nu som förväntat. (TGT-53600 &amp; TGT-53601)
+* **Aktiviteter som schemalagts för framtiden visade felaktigt statusen [!UICONTROL Live] i [!UICONTROL Activity] översikten**: Kunder observerade att aktiviteter som schemalagts att starta i framtiden felaktigt markerades som [!UICONTROL Live] i översikten [!UICONTROL Activity]. Den här statusfelmatchningen löstes och schemalagda aktiviteter visas nu korrekt som [!UICONTROL Scheduled] utan att en siduppdatering krävs. (TGT-52835)
+
++++
+
+**[!UICONTROL Recommendations]**
+
++++Se detaljer
+* **Produktlistan var inte synlig i dialogrutan [!UICONTROL View Collection]:** Tidigare kunde kunderna inte se produktlistan när de visade en samling på fliken [!UICONTROL Recommendations]. Dialogrutan [!UICONTROL View Collection] visar nu de associerade produkterna korrekt, vilket förbättrar genomskinlighet och användbarhet i det uppdaterade [!UICONTROL Recommendations]-gränssnittet. (TGT-50531)
+* **Korrigerade ett problem som orsakade skiftlägeskänslig filtrering i [!UICONTROL Product Catalog Search] avancerad sökning**: Den avancerade sökfiltreringen på [!UICONTROL Product Catalog Search]-sidan ignorerar nu skiftlägeskänslighet, vilket överensstämmer med beteendet hos både backend- och GraphQL-tjänster. Denna uppdatering ger enhetliga och korrekta förslagsresultat för kunder oavsett textindrag. (TGT-53585)
+* **Avancerad sökning i det uppdaterade [!UICONTROL Product Catalog Search] användargränssnittet gav inga förslag**: Kunder som använder den avancerade sökfunktionen i det uppdaterade [!UICONTROL Product Catalog Search] användargränssnittet behövde ange exakta värden med korrekt stavning eftersom inga förslag visades. Det här problemet gjorde det svårt att hitta produkter på ett effektivt sätt. Förslag visas nu som förväntat vid avancerade sökningar. (TGT-52008)
+* **Vissa godkännare kunde inte visa produkter i[!UICONTROL Product Catalog Search]**: Kunder med [!UICONTROL Approver] behörighet kunde inte se några produkter i [!UICONTROL Product Catalog Search], trots att andra användare med identiska roller har åtkomst. Problemet uppstod på grund av en behörighetsinkonsekvens som påverkar katalogsynligheten. Alla godkännare kan nu visa produkter i avsnittet [!UICONTROL Recommendations] som förväntat. (TGT-53617)
+
++++
+
+**[!UICONTROL Reports]**
+
++++Se detaljer
+* **Rapporterna kunde inte läsas in för målgruppen på skrivbordet på grund av ett ogiltigt målgruppsnamnfel**: Kunderna påträffade ett GraphQL-fel när de försökte visa rapporter för en målgrupp i processen att skapa aktiviteter. Systemet returnerade meddelandet&quot;Ogiltigt målgruppsnamn: XXXXX&quot;, vilket förhindrar åtkomst till rapportdata. Rapporterna läses nu in korrekt för datormålgruppen. (TGT-53371)
+* **Om du växlar målgrupper på rapportsidan uppstod fel i målgränssnittet**: Kunderna påträffade fel när de valde vissa målgrupper i avsnittet [!UICONTROL Reports]. Problemet uppstod på grund av ogiltig målgruppshantering i GraphQL-anrop, vilket resulterade i oväntade fel och saknade data. Problemet har lösts och datormålgrupperna läses nu in utan fel - även när inga data är tillgängliga. (TGT-53370)
+* **[!UICONTROL Graph view]i avsnittet [!UICONTROL Reports] visade inga värden från[!DNL Analytics]**: Kunder som använder [!UICONTROL Graph view] i avsnittet om eportar påträffade saknade data, och alla värden visade sig vara noll. Problemet orsakades av felaktig datahämtning från [!UICONTROL Analytics]. [!UICONTROL Graph view] visar nu exakta värden som förväntat. (TGT-52792)
++++
+
+**[!UICONTROL Visual Experience Composer](VEC)**
+
++++Se detaljer
+* **Det gick inte att klicka på Acceptera cookies med [!UICONTROL Enhanced Experience Composer] (EEC) eftersom en funktion saknas**: Kunder rapporterade att försök att acceptera cookies via EEC resulterade i ett konsolfel: `handleclickAcceptAllButton is not defined`. Funktionen för godkännande av cookies fungerar nu som förväntat och ger en smidigare upplevelse när aktiviteter skapas i det uppdaterade användargränssnittet. (TGT-52794)
+* **Det nya EEG-gränssnittet kunde inte läsa in vissa sidor som tidigare hade stöd i det gamla användargränssnittet**: Kunder rapporterade att det nya EEG-gränssnittet inte kunde läsa in vissa sidor som var tillgängliga i det gamla användargränssnittet trots att det fanns kod för iframe-busting på webbplatsen. Den uppdaterade processen för att skapa aktivitet har nu stöd för inläsning av dessa sidor och återställer kompatibilitet för arbetsflöden som skapar aktiviteter. (TGT-53061)
+* **VEC visade en tom vita skärm när upplevelser redigerades**: Kunder från en viss klientorganisation rapporterade att VEC-skärmen blev tom när de försökte redigera upplevelser i den uppdaterade VEC-webbplatsen. Problemet påverkade både nyskapade och äldre aktiviteter och förhindrar kontinuitet i arbetsflödet. VEC läses nu in korrekt, vilket gör att kunderna kan redigera upplevelser utan avbrott. (TGT-53547)
+* **VEC kraschade och visade en tom skärm vid inläsning av vissa aktiviteter**: Kunder från en viss klientorganisation rapporterade att VEC inte kunde läsa in specifika aktiviteter. Experience Editor fastnade fortfarande i&quot;Använda initiala ändringar&quot; innan det kraschade och en tom skärm visades. Konsolfel indikerade ett fel vid läsning av odefinierade egenskaper. Redigeraren läser nu in de aktiviteter som påverkas utan fel i den uppdaterade VEC:n. (TGT-53548)
+* **Om alla datumvärden rensades med Backsteg kraschade sidan**: Kundernas schemaläggningsaktiviteter i avsnittet [!UICONTROL Goals & Settings] kraschade när Backsteg användes för att rensa alla värden från fälten [!UICONTROL Specified Date & Time]. Problemet orsakades av ett null-referensfel i datumhanteringslogiken. Sidan hanterar nu tomma datuminmatningar utan att krascha. (TGT-53624)
+* **Inga produkter visades i [!UICONTROL Product Catalog Search] på grund av en ogiltig nyttolast**: Kunder som öppnar avsnittet [!UICONTROL Recommendations] i [!UICONTROL Product Catalog Search] påträffade tomma resultat som orsakats av en ogiltig GraphQL-nyttolast. Det här serverdelsfelet förhindrade att produktdata lästes in korrekt. Produkterna visas nu som förväntat i det uppdaterade användargränssnittet. (TGT-53630)
+* **[!DNL Scene7]bilder sparades med lägre upplösning i den uppdaterade VEC**: Kunder som redigerar upplevelser i den uppdaterade VEC märkte att [!UICONTROL Scene7] bild-URL:er sparades utan upplösningsparametrar, vilket resulterade i att bilder med låg kvalitet levererades (400 × 400 istället för de avsedda 800 × 800). Bild-URL:er behåller nu rätt parametrar för att säkerställa rätt upplösning. (TGT-52631)
+* **live-aktiviteter kunde fortfarande redigeras i VEC**: Kunderna kunde komma åt redigeringsalternativ för live-aktiviteter i den uppdaterade VEC:n, vilket kunde leda till oavsiktliga ändringar. Problemet har åtgärdats genom att inaktivera redigeringsfunktionen för aktiva aktiviteter. Redigeringsknapparna är nu dolda i aktivitetslistan och översikten för redigerare, medan godkännare och andra roller inte påverkas. (TGT-53055)
+* **Avbröt avsnittet [!UICONTROL Failed] och [!UICONTROL Draft] aktiviteter i det uppdaterade VEC**: Alternativen [!UICONTROL Failed] och [!UICONTROL Draft] aktiviteter har tagits bort från det uppdaterade VEC:t. Det nya användargränssnittet stöder inte längre utkastlägen och misslyckade kampanjer lagras inte i serverdelen. Dessa alternativ är inte längre relevanta. Relaterade filter och backend-fält (till exempel `uiSyncFailed`, `errorMessage`) har också tagits bort för att effektivisera aktivitetshanteringen. (TGT-53150)
+* **Det går inte att logga in på VEC för en aktivitet**: Kunder som försöker logga in på sin webbplats via VEC omdirigerades upprepade gånger till inloggningssidan, vilket förhindrar åtkomst till aktivitetsredigering. Detta problem kunde inte reproduceras internt och kan ha relaterats till sessionshantering på plats. Inloggningsflödet har stabiliserats och kunderna kan nu komma åt VEC utan omdirigeringsfel. (TGT-53524)
+* **Om du dubbeltryckte på bakåtknappen i [!UICONTROL Browse] -läge kraschade VEC**: Kunder som navigerade i [!UICONTROL Browse]-läget i VEC upplevde krascher när de tryckte på webbläsarens bakåtknapp två gånger. Det här problemet gjorde att redigeraren låstes och krävde en uppdatering av sidan. Redigeraren hanterar nu navigeringen på ett tillförlitligt sätt utan att krascha. (GT-53568)
+* **Det gick inte att redigera aktiviteter på grund av odefinierade platsmappningar**: Kunderna påträffade ett fel när de försökte redigera aktiviteter, som orsakas av odefinierade plats-ID:n i logiken `LocationMapping.behaviorTargetedActivity`. Problemet resulterade i ett 400-fel och blockerade aktivitetsuppdateringar. Aktiviteter kan nu redigeras utan platsrelaterade valideringsfel. (TGT-53607)
+* **När aktiviteter sparades utlöstes ett ogiltigt användarindatafel**: Kunderna påträffade ett ogiltigt användarindatafel när de försökte spara aktiviteter efter att ha gjort mindre ändringar i den uppdaterade VEC:n. Felet orsakades av felmatchade platsmappningar i serverdelens valideringslogik. Det går nu att spara aktiviteter utan att utlösa platsrelaterade fel. (TGT-53603)
+
++++
+
 ## [!DNL Target Standard/Premium] 25.8.3 (21 augusti 2025)
 
 Den här versionen innehåller följande uppdateringar och korrigeringar:
@@ -88,7 +139,7 @@ Den här versionen innehåller följande uppdateringar och korrigeringar:
 
 +++
 
-**[!UICONTROL Analytics for Target] (A4T)**
+**[!UICONTROL Analytics for Target](A4T)**
 
 +++Se detaljer
 * **Ett problem har korrigerats där kunder inte kunde skriva rapportsvitnamn under processen för att skapa aktivitet**: Kunder som använder [!DNL Adobe Analytics] som rapportkälla under processen för att skapa aktivitet kunde inte skriva i listrutan [!UICONTROL Report Suite] för att söka efter specifika rapportsviter. Detta påverkade arbetsflödena för organisationer med ett stort antal rapportsviter, där manuell bläddring försenade konfigurationen avsevärt. Listrutan sorterades inte i bokstavsordning och svarade inte konsekvent på inmatningar, vilket gjorde det svårt att hitta rapportsviter som &quot;Office + Store - Webb - Produkt&quot;. Problemet har åtgärdats och kunderna kan nu söka effektivt genom att skriva namnen på rapportsviterna. (TGT-53345)
@@ -122,7 +173,7 @@ Den här versionen innehåller följande uppdateringar och korrigeringar:
 
 +++Se detaljer
 * **Ett problem i [!DNL Recommendations]-gränssnittet där CSV-hämtning med anpassade villkor returnerade 404-fel** har korrigerats där kunderna inte kunde hämta CSV-filen med anpassade villkor i processen för att skapa aktiviteter. Hämtningslänken fungerar nu korrekt, så att kunderna kan exportera anpassade villkor som förväntat. (TGT-51966)
-* **Inkonsekvent inläsning av bilder i[!UICONTROL Catalog Search]** har korrigerats: Ett problem där miniatyrbilder och bilder i [!UICONTROL &#x200B; Catalog Search] inte lästes in konsekvent i processen där aktiviteten skapades har åtgärdats. Det gick inte att visa bilder om inte kolumnen &quot;Miniatyrbilds-URL&quot; var synlig och vissa produktbilder lästes in delvis eller inte alls efter navigerings- eller sökåtgärder. Bildinläsningsbeteendet har stabiliserats och miniatyrerna visas nu tillförlitligt oavsett om kolumnerna visas eller navigeras. (TGT-52778)
+* **Inkonsekvent inläsning av bilder i[!UICONTROL Catalog Search]** har korrigerats: Ett problem där miniatyrbilder och bilder i [!UICONTROL  Catalog Search] inte lästes in konsekvent i processen där aktiviteten skapades har åtgärdats. Det gick inte att visa bilder om inte kolumnen &quot;Miniatyrbilds-URL&quot; var synlig och vissa produktbilder lästes in delvis eller inte alls efter navigerings- eller sökåtgärder. Bildinläsningsbeteendet har stabiliserats och miniatyrerna visas nu tillförlitligt oavsett om kolumnerna visas eller navigeras. (TGT-52778)
 * **Ett problem har korrigerats där redigering av en rekommendation i en duplicerad upplevelse påverkade den ursprungliga upplevelsen**: Kunderna rapporterade att en rekommendation i en duplicerad upplevelse oavsiktligt ändrade den ursprungliga upplevelsen. I synnerhet efter att ha duplicerat Experience B i processen för att skapa aktiviteter och redigerat dess design eller kriterier, återspeglades samma ändringar i den ursprungliga Experience B, trots att de var separata enheter. Dubblerade upplevelser behåller nu separata konfigurationer, vilket säkerställer att redigeringar av en upplevelse inte påverkar originalet. (TGT-53369)
 * **Ett problem har korrigerats där ändringar i en dubblerad upplevelse oavsiktligt påverkade den ursprungliga upplevelsen i en aktivitet**: Kunderna rapporterade att när de duplicerade en upplevelse i en aktivitet och tilldelar en ny publik, speglades även ändringar i den duplicerade upplevelsens design eller kriterier i den ursprungliga upplevelsen. Problemet uppstod trots att inga ändringar gjordes direkt i den ursprungliga versionen, vilket påverkade möjligheten att skapa oberoende variationer inom samma aktivitet. Processen för att skapa aktivitet isolerar nu duplicerade upplevelser korrekt och ser till att ändringar som görs i en upplevelse inte påverkar originalet. (TGT-53361)
 * **Korrigerade ett fel där [!UICONTROL Recommendation Catalog] ibland inte kunde visa fullständiga produktattributdata**: I det uppdaterade [!DNL Recommendations] användargränssnittet uppstod ett problem där vissa produktattribut, som meddelande, inte visades konsekvent i [!UICONTROL Catalog Search]-resultaten, trots att data fanns i feeden. Det här problemet innebar att kunderna måste konfigurera om kolumnsynligheten manuellt för att kunna hämta de värden som saknas. [!UICONTROL Catalog Search] visar nu alla konfigurerade attribut på ett tillförlitligt sätt, vilket eliminerar behovet av manuella kolumnåterställningar. (TGT-52769)
@@ -153,7 +204,7 @@ Den här versionen innehåller följande uppdateringar och korrigeringar:
 
 +++
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+**[!UICONTROL Visual Experience Composer](VEC)**
 
 +++Se detaljer
 * **Ett problem har korrigerats i processen för att skapa aktivitet som blockerade progression till [!UICONTROL Targeting]-steget i AP-aktiviteter**: Ett fel i processen för att skapa aktivitet där kunderna inte kunde fortsätta till [!UICONTROL Targeting]-steget i [!UICONTROL Automated Personalization]-aktiviteter (AP) har korrigerats om inte två platser lades till. Detta beteende skilde sig från den tidigare upplevelsen, där en enda plats med flera erbjudanden var tillräckligt. Kravet har korrigerats, vilket gör att kunderna kan fortsätta använda inställningar för en plats som en del av sina AP-arbetsflöden. (TGT-53426)
@@ -305,8 +356,8 @@ Den här versionen innehåller följande förbättringar och korrigeringar:
 
 | Resurs | Information |
 |--- |--- |
-| [Versionsinformation: Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=sv-SE) | Information om ändringarna i respektive version av Platform Web SDK. |
-| Versionsinformation för [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=sv-SE){target=_blank} | Information om ändringar i varje version av JavaScript-biblioteket [!DNL Adobe Target] at.js. |
+| [Versionsinformation: Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=en) | Information om ändringarna i respektive version av Platform Web SDK. |
+| Versionsinformation för [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | Information om ändringar i varje version av JavaScript-biblioteket [!DNL Adobe Target] at.js. |
 
 ## Dokumentationsändringar, Versionsinformation om tidigare versioner och Experience Cloud Versionsinformation
 
@@ -316,7 +367,7 @@ Förutom anteckningarna för varje release finns det ytterligare information i f
 |--- |--- |
 | [Dokumentationsändringar](/help/main/r-release-notes/doc-change.md) | Visa detaljerad information om uppdateringar av den här guiden som inte ingår i versionsinformationen. |
 | [Versionsinformation för tidigare versioner](/help/main/r-release-notes/release-notes-for-previous-releases.md). | Visa information om nya funktioner och förbättringar i tidigare versioner av Target Standard och Target Premium. |
-| [Versionsinformation för Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=sv-SE){target=_blank} | Läs den senaste versionsinformationen om Adobe Experience Cloud lösningar. |
+| [Versionsinformation för Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target=_blank} | Läs den senaste versionsinformationen om Adobe Experience Cloud lösningar. |
 
 ## Förhandsversionsinformation {#section_5D588F0415A2435B851A4D0113ACA3A0}
 

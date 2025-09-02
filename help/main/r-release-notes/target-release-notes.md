@@ -4,9 +4,9 @@ description: Lär dig mer om de nya funktionerna, förbättringarna och korriger
 title: Vilka nya funktioner och förbättringar ingår i den kommande [!DNL Target] versionen?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: fda279c909e2bb35e919d1bb4f4b611401a367cf
+source-git-commit: 223a0f62bcd9a52bd9181e0a439e02164abbfec4
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: '204'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Den här artikeln innehåller förhandsversionsinformation för kommande [!DNL Adobe Target]-versioner, inklusive SDK, API:er och JavaScript-bibliotek.
 
-**Senast uppdaterad: 29 augusti 2025**
+**Senast uppdaterad: 4 september 2025**
 
 >[!NOTE]
 >
@@ -27,49 +27,18 @@ Den här artikeln innehåller förhandsversionsinformation för kommande [!DNL A
 
 ## [!DNL Target Standard/Premium] 25.8.4 (1 september 2025)
 
-Den här versionen innehåller följande uppdateringar och korrigeringar:
+Den här versionen är nu live. Mer information finns i [[!DNL Target] versionsinformation (aktuell)](/help/main/r-release-notes/release-notes.md).
 
-**[!UICONTROL Activities]**
+## [!DNL Target Standard/Premium] 25.9.1 (4 september 2025)
 
-+++Se detaljer
-* **Kunder kunde inte kopiera aktivitets- eller dokumentnamn från[!UICONTROL Activity Overview]**: Tidigare kunde kunderna inte kopiera namnet på en aktivitet eller det associerade erbjudandet/dokumentet direkt från [!UICONTROL Activity Overview] i den uppdaterade processen för att skapa aktiviteter. Den här begränsningen påverkar användbarheten, särskilt på mindre skärmar. Kunderna kan nu enkelt kopiera både aktivitets- och dokumentnamn utan temporära lösningar. (TGT-51850)
-* **Proaktiv inmatning av förvaltade [!DNL Target] kunddata när aktiviteter skapades**: Förbättrade processen för att skapa aktivitet genom att aktivera proaktiv insamling av rapporter, innehåll och skärmbilder från [!DNL Target]-kunder. Den här förbättringen åtgärdar luckor i data som identifierats i befintliga användningsfall och hjälper till att få exaktare insikter under aktiviteten och experimentera med inställningarna. (TGT-52415)
-* **AP-aktiviteter hämtade inte modellfärdiga data i [!UICONTROL Reports] section**: Kunder som visar Automated Personalization-aktiviteter (AP) i [!UICONTROL Reports]-avsnittet kunde inte se modellfärdiga indikatorer på rapportgrupps- och erbjudandenivå. Problemet uppstod eftersom modellfärdiga data inte hämtades korrekt från backend-objektet. Funktionen har återställts och modellfärdiga data visas nu som förväntat. (TGT-53600 &amp; TGT-53601)
-
-+++
-
-**[!UICONTROL Recommendations]**
-
-+++Se detaljer
-* **Produktlistan var inte synlig i dialogrutan [!UICONTROL View Collection]:** Tidigare kunde kunderna inte se produktlistan när de visade en samling på fliken [!UICONTROL Recommendations]. Dialogrutan [!UICONTROL View Collection] visar nu de associerade produkterna korrekt, vilket förbättrar genomskinlighet och användbarhet i det uppdaterade gränssnittet för rekommendationer. (TGT-50531)
-* **Korrigerade ett problem som orsakade skiftlägeskänslig filtrering i [!UICONTROL Product Catalog Search] avancerad sökning**: Den avancerade sökfiltreringen på [!UICONTROL Product Catalog Search]-sidan ignorerar nu skiftlägeskänslighet, vilket överensstämmer med beteendet hos både backend- och GraphQL-tjänster. Denna uppdatering ger enhetliga och korrekta förslagsresultat för kunder oavsett textindrag. (TGT-53585)
-* **Avancerad sökning i det uppdaterade [!UICONTROL Product Catalog Search] användargränssnittet gav inga förslag**: Kunder som använder den avancerade sökfunktionen i det uppdaterade [!UICONTROL Product Catalog Search] användargränssnittet behövde ange exakta värden med korrekt stavning eftersom inga förslag visades. Det gjorde det svårt att hitta produkterna effektivt. Förslag visas nu som förväntat vid avancerade sökningar. (TGT-52008)
-
-+++
-
-**[!UICONTROL Reports]**
-
-+++Se detaljer
-* **Rapporterna kunde inte läsas in för målgruppen på skrivbordet på grund av ett ogiltigt målgruppsnamnfel**: Kunderna påträffade ett GraphQL-fel när de försökte visa rapporter för en målgrupp i processen att skapa aktiviteter. Systemet returnerade meddelandet&quot;Ogiltigt målgruppsnamn: XXXXX&quot;, vilket förhindrar åtkomst till rapportdata. Rapporterna läses nu in korrekt för datormålgruppen. (TGT-53371)
-* **Om du växlar målgrupper på rapportsidan uppstod fel i målgränssnittet**: Kunderna påträffade fel när de valde vissa målgrupper i avsnittet om portar i det uppdaterade målgränssnittet. Problemet uppstod på grund av ogiltig målgruppshantering i GraphQL-anrop, vilket resulterade i oväntade fel och saknade data. Problemet har lösts och datormålgrupperna läses nu in utan fel - även när inga data är tillgängliga. (TGT-53370)
-+++
-
-**[!UICONTROL Visual Experience Composer] (VEC)**
-
-+++Se detaljer
-* **Det gick inte att klicka på Acceptera cookies med [!UICONTROL Enhanced Experience Composer] (EEC) eftersom en funktion saknas**: Kunder rapporterade att försök att acceptera cookies via EEC resulterade i ett konsolfel: `handleclickAcceptAllButton is not defined`. Funktionen för godkännande av cookies fungerar nu som förväntat och ger en smidigare upplevelse när aktiviteter skapas i det uppdaterade användargränssnittet. (TGT-52794)
-* **Det nya EEG-gränssnittet kunde inte läsa in vissa sidor som tidigare hade stöd i det gamla användargränssnittet**: Kunder rapporterade att det nya EEG-gränssnittet inte kunde läsa in vissa sidor som var tillgängliga i det gamla användargränssnittet trots att det fanns kod för iframe-busting på webbplatsen. Den uppdaterade processen för att skapa aktivitet har nu stöd för inläsning av dessa sidor och återställer kompatibilitet för arbetsflöden som skapar aktiviteter. (TGT-53061)
-* **VEC visade en tom vita skärm när upplevelser redigerades**: Kunder från en viss klientorganisation rapporterade att VEC-skärmen blev tom när de försökte redigera upplevelser i den uppdaterade VEC-webbplatsen. Problemet påverkade både nyskapade och äldre aktiviteter och förhindrar kontinuitet i arbetsflödet. VEC läses nu in korrekt, vilket gör att kunderna kan redigera upplevelser utan avbrott. (TGT-53547)
-* **VEC kraschade och visade en tom skärm vid inläsning av vissa aktiviteter**: Kunder från en viss klientorganisation rapporterade att VEC inte kunde läsa in specifika aktiviteter. Experience Editor fastnade fortfarande i&quot;Använda initiala ändringar&quot; innan det kraschade och en tom skärm visades. Konsolfel indikerade ett fel vid läsning av odefinierade egenskaper. Redigeraren läser nu in de aktiviteter som påverkas utan fel i den uppdaterade VEC:n. (TGT-53548)
-
-+++
+Den här versionen är planerad till 4 september. Detta avsnitt uppdateras under hela veckan.
 
 ## Ytterligare versionsinformation
 
 | Resurs | Information |
 |--- |--- |
 | [Versionsinformation: Adobe Target Platform Experience Web SDK]&#x200B;(https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=e n) | Information om ändringarna i respektive version av Platform Web SDK. |
-| Versionsinformation för [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=sv-SE){target=_blank} | Information om ändringar i varje version av JavaScript-biblioteket [!DNL Adobe Target] at.js. |
+| Versionsinformation för [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | Information om ändringar i varje version av JavaScript-biblioteket [!DNL Adobe Target] at.js. |
 
 ## Förhandsversionsinformation {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
