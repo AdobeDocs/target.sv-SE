@@ -28,8 +28,8 @@ En viktig skillnad mellan plugin-program och svarstoken är att plugin-program l
 
 | SDK | Föreslagna åtgärder |
 |--- |--- |
-| [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} | Kontrollera att du använder Platform Web SDK version 2.6.0 eller senare. Information om hur du hämtar den senaste versionen av Platform Web SDK finns i [Installera SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html){target=_blank} i översiktshandboken *Platform Web SDK*. Information om de nya funktionerna i de olika versionerna av Platform Web SDK finns i [Versionsinformation](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html) i översiktshandboken för *Platform Web SDK*. |
-| [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank} | Kontrollera att du använder at.js version 1.1 eller senare. Information om hur du hämtar den senaste versionen av at.js finns i [Hämta på.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=en){target=_blank}. Mer information om nya funktioner i varje version av at.js finns i [at.js Versionsinformation](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.<br>Kunder som använder at.js uppmuntras att använda svarstoken och gå bort från plugin-program. Vissa plugin-program som förlitar sig på interna metoder som fanns i mbox.js (som nu är inaktuellt), men inte i at.js, levereras men misslyckas. |
+| [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} | Kontrollera att du använder Platform Web SDK version 2.6.0 eller senare. Information om hur du hämtar den senaste versionen av Platform Web SDK finns i [Installera SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=sv-SE){target=_blank} i översiktshandboken *Platform Web SDK*. Information om de nya funktionerna i de olika versionerna av Platform Web SDK finns i [Versionsinformation](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=sv-SE) i översiktshandboken för *Platform Web SDK*. |
+| [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=sv-SE){target=_blank} | Kontrollera att du använder at.js version 1.1 eller senare. Information om hur du hämtar den senaste versionen av at.js finns i [Hämta på.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=sv-SE){target=_blank}. Mer information om nya funktioner i varje version av at.js finns i [at.js Versionsinformation](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=sv-SE){target=_blank}.<br>Kunder som använder at.js uppmuntras att använda svarstoken och gå bort från plugin-program. Vissa plugin-program som förlitar sig på interna metoder som fanns i mbox.js (som nu är inaktuellt), men inte i at.js, levereras men misslyckas. |
 
 ## Använda svarstoken {#section_A9E141DDCBA84308926E68D05FD2AC62}
 
@@ -37,8 +37,8 @@ En viktig skillnad mellan plugin-program och svarstoken är att plugin-program l
 
    Mer information:
 
-   * **Platform Web SDK**: Se [Installera SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) i översiktshandboken *Platform Web SDK*.
-   * **at.js**: Se [Hämta på.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html){target=_blank}.
+   * **Platform Web SDK**: Se [Installera SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=sv-SE) i översiktshandboken *Platform Web SDK*.
+   * **at.js**: Se [Hämta på.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=sv-SE){target=_blank}.
 
 1. I [!DNL Target] klickar du på **[!UICONTROL Administration]** > **[!UICONTROL Response Tokens]**.
 
@@ -147,7 +147,7 @@ I följande svarsexempel läggs en [!DNL Platform Web SDK] anpassad händelsehan
 
 ### ![at.js-märket](/help/main/assets/atjs.png) at.js med anpassade händelser
 
-Använd anpassade [ at.js-händelser](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/atjs-custom-events.html?lang=en){target=_blank} för att lyssna efter [!DNL Target]-svaret och läsa svarstoken.
+Använd anpassade [ at.js-händelser](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/atjs-custom-events.html?lang=sv-SE){target=_blank} för att lyssna efter [!DNL Target]-svaret och läsa svarstoken.
 
 I följande kodexempel läggs en anpassad [!DNL at.js]-händelsehanterare till direkt på HTML-sidan:
 
