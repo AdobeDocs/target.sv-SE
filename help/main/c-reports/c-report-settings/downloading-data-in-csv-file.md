@@ -4,9 +4,9 @@ description: Lär dig hur du hämtar data från Adobe [!DNL Target] aktiviteter 
 title: Hur hämtar jag rapportdata i en CSV-fil?
 feature: Reports
 exl-id: b4387184-8730-4367-8bc3-52d8fbe2583e
-source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
+source-git-commit: e42398b8774fff57c00658636a52bd0038ad94b4
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '732'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,20 @@ Så här hämtar du data i en CSV-fil:
 
    * [!UICONTROL Export Reports to CSV]
    * [!UICONTROL Export Order Details to CSV]
+
+## Hämtningsformat för CSV för popularitet och nyckelbaserade algoritmer {#format}
+
+CSV-nedladdningsfilen återspeglar konsekvent resultat som genererats efter körning av backend-kriterier.
+
+**För popularitetsalgoritmer (icke-nyckelbaserade) innehåller filen:**
+
+* En rad med rekommendationer för säkerhetskopiering med prefixet *
+* En separat rad med rekommendationer baserade på algoritminställningar
+
+**För nyckelbaserade algoritmer innehåller filen:**
+
+* En säkerhetskopieringsrad som liknar popularitetsalgoritmer
+* Flera rader i nyckelvärdesformat, där den första posten är produkt-ID för nyckeln, följt av kommaseparerade produkt-ID:n som representerar rekommendationskandidater
 
 ## [!UICONTROL Export Report to CSV] {#section_38BD9743EB254453B5F4A0A6F2720CD3}
 
