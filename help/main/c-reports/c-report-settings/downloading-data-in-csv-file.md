@@ -4,9 +4,9 @@ description: Lär dig hur du hämtar data från Adobe [!DNL Target] aktiviteter 
 title: Hur hämtar jag rapportdata i en CSV-fil?
 feature: Reports
 exl-id: b4387184-8730-4367-8bc3-52d8fbe2583e
-source-git-commit: be02c0405133e4fc4e7f668a2b72a61b94070740
+source-git-commit: 26b0c5455e82014dab92c925ecc88bddb3947d2f
 workflow-type: tm+mt
-source-wordcount: '734'
+source-wordcount: '652'
 ht-degree: 0%
 
 ---
@@ -69,20 +69,6 @@ Rapporten [!UICONTROL Order Details] visar information om dina beställningar, i
 >
 >* Orderrapportdata innehåller fyra veckors data för standardmiljön (värdgrupp) och två veckor för alla miljöer som inte är standard.
 >* Intäktsmått som är inställda på [!UICONTROL Increment count and keep the user in the activity], loggordningsinformation endast för den första ordern som görs av samma besökare. Alla efterföljande order ökar antalet konverteringar, men lägger inte till intäkter till RPV/AOV/Sales, och inkluderas inte i [!UICONTROL Order Details]-rapporten.
-
-## Hämtningsformat för CSV för popularitetsbaserade och nyckelbaserade algoritmer {#format}
-
-CSV-nedladdningsfilen återspeglar konsekvent resultat som genererats efter körning av backend-kriterier.
-
-* **För popularitetsbaserade algoritmer (icke-nyckelbaserade) innehåller filen:**
-
-   * En rad med rekommendationer för säkerhetskopiering med * (en asterisk) som prefix
-   * En separat rad med rekommendationer baserade på algoritminställningar
-
-* **För nyckelbaserade algoritmer innehåller filen:**
-
-   * En säkerhetskopieringsrad som liknar popularitetsbaserade algoritmer
-   * Flera rader i nyckelvärdesformat, där den första posten är produkt-ID för nyckeln, följt av kommaseparerade produkt-ID:n som representerar rekommendationskandidater
 
 ## Bästa praxis
 

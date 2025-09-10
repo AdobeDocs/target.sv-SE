@@ -4,9 +4,9 @@ description: Lär dig hur du förhandsgranskar din Adobe [!DNL Target] Rekommend
 title: Hur förhandsgranskar och startar jag en rekommendationsaktivitet?
 feature: Recommendations
 exl-id: 60391778-4d48-4c41-a7c5-fedcfabf2530
-source-git-commit: 75ab3bff7064c8f7df14a42422373cb64d96150a
+source-git-commit: 26b0c5455e82014dab92c925ecc88bddb3947d2f
 workflow-type: tm+mt
-source-wordcount: '1316'
+source-wordcount: '1398'
 ht-degree: 0%
 
 ---
@@ -94,6 +94,20 @@ För andra algoritmtyper som baseras på ett nyckelvärde, till exempel [!UICONT
 >[!NOTE]
 >
 >Resultathämtningar är inte tillgängliga för aktiviteter som innehåller en [!UICONTROL User-Based Recommendations]-algoritm. Resultathämtningar är inte tillgängliga för villkor som använder rekommendationslogiken [!UICONTROL Recently-Viewed Items].
+
+### Hämtningsformat för CSV för popularitetsbaserade och nyckelbaserade algoritmer {#format}
+
+CSV-nedladdningsfilen återspeglar konsekvent resultat som genererats efter körning av backend-kriterier.
+
+* **För popularitetsbaserade algoritmer (icke-nyckelbaserade) innehåller filen:**
+
+   * En rad med rekommendationer för säkerhetskopiering med * (en asterisk) som prefix
+   * En separat rad med rekommendationer baserade på algoritminställningar
+
+* **För nyckelbaserade algoritmer innehåller filen:**
+
+   * En säkerhetskopieringsrad som liknar popularitetsbaserade algoritmer
+   * Flera rader i nyckelvärdesformat, där den första posten är produkt-ID för nyckeln, följt av kommaseparerade produkt-ID:n som representerar rekommendationskandidater
 
 ## Aktivera aktiviteten Rekommendationer
 
