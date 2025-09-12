@@ -4,9 +4,9 @@ description: Förstå ändringarna i Visual Experience Composer (VEC) i Adobe Ta
 title: Vilka ändringar införs i den nya Visual Experience Composer (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 4c7a5657-93d9-4355-9d2b-c992b36bcb50
-source-git-commit: 51e484d54f4d318ea59fdfdb16d1ed7014abdfdb
+source-git-commit: 2dabda04aabe720b28e31033052e2076e78d1376
 workflow-type: tm+mt
-source-wordcount: '876'
+source-wordcount: '873'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Du kan lägga till ett antal komponenter på webbsidan och redigera dem efter be
 
 ![Komponentspår](/help/main/c-experiences/c-visual-experience-composer/assets/components-panel.png)
 
-Om du vill lägga till en ny komponent drar du komponenten från [!UICONTROL Components]-listen som du vill infoga över ett befintligt sidelement på arbetsytan i [!UICONTROL Design]. Välj sedan att infoga komponenten före eller efter det markerade elementet.
+Om du vill lägga till en ny komponent markerar du den önskade komponenten från [!UICONTROL Components]-listen, håller pekaren över ett befintligt element på sidan och väljer sedan att infoga komponenten före eller efter det markerade elementet.
 
 >[!NOTE]
 >
