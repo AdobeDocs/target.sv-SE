@@ -4,7 +4,7 @@ description: Lär dig hur [!DNL Adobe Target] fungerar, inklusive information om
 title: Hur fungerar  [!DNL Target] ?
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-source-git-commit: c5cca9b4b95289626ade1654bb508ee9f0bf35f3
+source-git-commit: 85edad5c3adb3a7b01ee6d1eaf2c30c7596d5f92
 workflow-type: tm+mt
 source-wordcount: '2214'
 ht-degree: 0%
@@ -28,19 +28,19 @@ Några viktiga punkter:
 
 Målet kan integreras med webbplatser med [!DNL Experience Platform Web SDK] eller at.js:
 
-* **[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}**: Med det här JavaScript-biblioteket på klientsidan kan [!DNL Adobe Experience Cloud]-kunder interagera med olika tjänster via [!DNL Experience Platform Edge Network]. [!DNL Adobe] rekommenderar att nya [!DNL Target]-kunder implementerar [!DNL Experience Platform Web SDK].
-* **[at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html){target=_blank}**: Det här implementeringsbiblioteket för [!DNL Target] förbättrar sidinläsningstiderna för webbimplementeringar och erbjuder bättre alternativ för enkelsidiga program. Uppdateras ofta med nya funktioner, [!DNL Adobe] rekommenderar att alla [ at.js-användare uppdaterar till den senaste versionen ](https://experienceleague-review.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
+* **[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}**: Med det här JavaScript-biblioteket på klientsidan kan [!DNL Adobe Experience Cloud]-kunder interagera med olika tjänster via [!DNL Experience Platform Edge Network]. [!DNL Adobe] rekommenderar att nya [!DNL Target]-kunder implementerar [!DNL Experience Platform Web SDK].
+* **[at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/how-to-deployatjs){target=_blank}**: Det här implementeringsbiblioteket för [!DNL Target] förbättrar sidinläsningstiderna för webbimplementeringar och erbjuder bättre alternativ för enkelsidiga program. Uppdateras ofta med nya funktioner, [!DNL Adobe] rekommenderar att alla [ at.js-användare uppdaterar till den senaste versionen ](https://experienceleague-review.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
 
 >[!NOTE]
 >
 >mbox.js-biblioteket är en äldre implementering för [!DNL Target] och stöds inte längre efter den 31 mars 2021. Uppgradera till [!UICONTROL Experience Platform Web SDK] (standard) eller den senaste versionen av at.js.
 
-Referera [!UICONTROL Experience Platform Web SDK] eller at.js på alla sidor på webbplatsen. Lägg till exempel till ett av dessa bibliotek i det globala sidhuvudet. Du kan också använda [taggar i Adobe Experience Platform](https://experienceleague.adobe.com/sv/docs/experience-platform/tags/home){target=_blank} för att implementera [!DNL Target].
+Referera [!UICONTROL Experience Platform Web SDK] eller at.js på alla sidor på webbplatsen. Lägg till exempel till ett av dessa bibliotek i det globala sidhuvudet. Du kan också använda [taggar i Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home){target=_blank} för att implementera [!DNL Target].
 
 Följande resurser innehåller detaljerad information som kan hjälpa dig att implementera [!DNL Experience Platform Web SDK] eller at.js:
 
-* [[!DNL Adobe Experience Platform Web SDK] tillägg](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=sv-SE){target=_blank}
-* [Implementera [!DNL Target] med [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/sv/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch){target=_blank}
+* [[!DNL Adobe Experience Platform Web SDK] tillägg](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html){target=_blank}
+* [Implementera [!DNL Target] med [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch){target=_blank}
 
 Varje gång en besökare begär en sida som är optimerad för [!DNL Target] skickas en realtidsbegäran till målsystemet för att fastställa vilket innehåll som ska användas. Denna begäran görs och utförs varje gång en sida läses in, styrs av marknadsförarstyrda aktiviteter och upplevelser. Innehållet riktar sig till enskilda webbplatsbesökare, vilket maximerar svarsfrekvenserna, förvärvsfrekvensen och intäkterna. Personaliserat innehåll säkerställer att besökarna svarar, interagerar eller gör inköp.
 
@@ -172,7 +172,7 @@ Tjänsten [!DNL Target Recommendations] finns i ett [!DNL Adobe]-datacenter i Or
 >
 >[!DNL Target] saknar för närvarande ett Edge-kluster i Kina, vilket begränsar besökarprestanda för [!DNL Target]-kunder i regionen. Brandväggen och frånvaron av Edge Clusters kan påverka webbplatsupplevelserna, vilket ger långsam återgivning och sidladdningstider. Dessutom kan marknadsförarna uppleva fördröjning när de använder redigeringsgränssnittet för [!DNL Target].
 
-Du kan tillåtslista [!DNL Target] Edge Clusters om du vill. Mer information finns i [tillåtslista målkantnoder](https://experienceleague.adobe.com/sv/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank}.
+Du kan tillåtslista [!DNL Target] Edge Clusters om du vill. Mer information finns i [tillåtslista målkantnoder](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank}.
 
 ## Skyddad användarupplevelse {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
