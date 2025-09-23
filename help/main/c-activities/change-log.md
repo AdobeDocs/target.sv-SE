@@ -4,16 +4,16 @@ description: Få åtkomst till en aktivitets ändringslogg i Adobe [!DNL Target]
 title: Hur kan jag se en aktivitetsändringslogg?
 feature: Activities
 exl-id: 72a901c1-4fba-4044-b72b-393cab56b936
-source-git-commit: 51e484d54f4d318ea59fdfdb16d1ed7014abdfdb
+source-git-commit: f227e09052db168f99dc28f652c4f0ed5d220601
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '163'
 ht-degree: 0%
 
 ---
 
 # Logg för aktivitetsändring
 
-[!DNL Adobe Target] [!UICONTROL Change Log] registrerar aktivitetsåtgärder, inklusive vad som ändrats, vem som gjort ändringarna och när de inträffade. Sidan [!UICONTROL Change Log] fylls i från [[!UICONTROL Audi Query API]](https://experienceleague.adobe.com/sv/docs/experience-platform/landing/governance-privacy-security/audit-logs/audit-api/overview){target=_blank} för realtidsinsikter.
+[!DNL Adobe Target] [!UICONTROL Change Log] registrerar aktivitetsåtgärder, inklusive vad som ändrats, vem som gjort ändringarna och när de inträffade. Sidan [!UICONTROL Change Log] har fyllts i för realtidsinsikter.
 
 Så här kommer du åt sidan [!UICONTROL Change Log]:
 
@@ -24,9 +24,10 @@ Så här kommer du åt sidan [!UICONTROL Change Log]:
 
 Uppdatera sidan för att se statusändringar. Du kan även visa åtgärder som utförts i stigande eller fallande ordning genom att klicka på kolumnrubriken [!UICONTROL Date].
 
->[!MORELIKETHIS]
->
->* [Hämta granskningsloggen med den senaste författarens namn och en tidsstämpel som ändrats efter ](https://developer.adobe.com/target/administer/admin-api/#tag/Revisions){target=_blank}
->
->* [Listaktivitetsändringg](https://developer.adobe.com/target/administer/admin-api/#tag/Activities/operation/getChangelog){target=_blank}
+## API:er för målgranskningslogg
+
+* [Revisioner: Hämta granskningsloggen med den senaste författarens namn och en tidsstämpel som ändrats efter ](https://developer.adobe.com/target/administer/admin-api/#tag/Revisions){target=_blank}
+* [Listaktivitetsändringg](https://developer.adobe.com/target/administer/admin-api/#tag/Activities/operation/getChangelog){target=_blank}
+
+
 
