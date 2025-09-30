@@ -4,9 +4,9 @@ description: Upptäck hur ni kan utnyttja fjärrerbjudanden i  [!DNL Target]  f�
 title: Hur skapar jag fjärrerbjudanden?
 feature: Experiences and Offers
 exl-id: 6a5283ee-c1fb-49f7-8e7f-c23ccde26ade
-source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
+source-git-commit: 856396264c4a7b7e3370cd268e7f010092e2eae2
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: '1029'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,17 @@ Några exempel på fjärrerbjudanden är:
 ## Bästa tillvägagångssätt för att använda fjärrerbjudanden {#section_7718512D08E14121B6F6B8C38134F4BC}
 
 Bästa tillvägagångssätt för att använda fjärrerbjudanden i dina aktiviteter:
+
+* Fjärrerbjudanden stöds i:
+
+   * A/B-verksamhet
+   * XT-aktiviteter (Experience Targeting)
+   * Formulärbaserade arbetsflöden
+
+* Fjärrerbjudanden stöds inte i:
+
+   * [Premiumfunktioner](/help/main/c-intro/intro.md#premium) (Automated Personalization (AP), Automatiskt mål och rekommendationer)
+   * Multivariate Testing (MVT), eftersom VEC är beroende av, som inte stöder fjärrerbjudanden.
 
 * Om ditt erbjudande finns i samma domän som [!DNL Target]-förfrågningarna kan du med alternativet [!UICONTROL Cached] använda relativa URL:er för att beskriva din erbjudandeplats.
 

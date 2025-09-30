@@ -6,9 +6,9 @@ short-description: Lär dig mer om de nya funktionerna, förbättringarna och ko
 title: Vad ingår i den aktuella versionen?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 186bfa96c0849d9cd838b3d493c10cccfd4ff068
+source-git-commit: 405faeac7fc633a64c441edeb2a95d90d896b21d
 workflow-type: tm+mt
-source-wordcount: '4104'
+source-wordcount: '5412'
 ht-degree: 0%
 
 ---
@@ -75,6 +75,64 @@ Följande information beskriver de begränsningar som du bör vara medveten om n
 
 +++
 
+## [!DNL Target Standard/Premium] 25.9.3 (30 september 2025)
+
+Den här versionen innehåller följande förbättringar och korrigeringar.
+
++++[!UICONTROL Audiences]
+
+* **Reglerna för uteslutning av målgrupper visades felaktigt som inkludering i användargränssnittet i [!DNL Target].** Publiker som konfigurerats med undantagsregler visade sig vara inkluderade vid redigering av mål inom en aktivitet. Trots att exkluderingslogiken tillämpades korrekt under körningen kunde inte användargränssnittet återge regeln korrekt och utelämnade undantagsetiketten. Gränssnittet [!DNL Target] visar nu exkluderingsregler korrekt i både målgruppskonfigurationen och arbetsflöden för målinriktning, vilket ger tydlighet och konsekvens vid kampanjkonfigurationen. (TGT-53808)
+* **Avsnittet [!UICONTROL Targeting] indikerade inte att en målgruppsregel har angetts till exclude.** Publiker som konfigurerats med exkluderingslogik visades felaktigt som inkludering i avsnittet [!UICONTROL Targeting] i användargränssnittet som skapats med aktivitet. Trots att backend-objektet tillämpade exkluderingsregeln korrekt kunde det inte representeras visuellt i användargränssnittet, och etiketten&quot;Uteslut&quot; utelämnades, vilket orsakade förvirring under kampanjkonfigurationen. Avsnittet [!UICONTROL Targeting] visar nu tydligt exkluderingsregler, vilket säkerställer konsekvens mellan målgruppskonfigurationen och målinriktningsvisualisering. (TGT-53809)
+
++++
+
++++Lokalisering
+
+* **Korrigerade en terminologisk inkonsekvens i den förenklade kinesiska översättningen av vyn &quot;Fullständig information&quot;.**
+Tidigare översattes termen &quot;Detaljer&quot; felaktigt som &quot;详 情&quot; i språket zh_CN (Simplified Chinese), vilket bröt mot vedertagna terminologinstruktioner. Detta har korrigerats till &quot;详 细 信 息&quot; för att säkerställa överensstämmelse med termbasen. (TGT-53741)
+
++++
+
++++[!UICONTROL Recommendations]
+
+* **Det var svårt att hitta rekommendationsrutorna och välja dem i VEC.** När du har lagt till ett rekommendationserbjudande i (VEC) markerades eller rullades inte ändringen i den vänstra panelen till motsvarande rekommendationsruta på sidan. Det gjorde det svårt att hitta och redigera erbjudandet, särskilt när det är dolt under väljare eller formaterat minimalt. När du klickar på en rekommendationsändring markeras och rullas nu korrekt till det associerade elementet, vilket förbättrar användbarheten och redigeringseffektiviteten i den uppdaterade processen för att skapa aktiviteter. (TGT-52571)
+* **Rekommendationsväljarna skrevs om felaktigt efter att en aktivitet sparats.** När du lade till en rekommendation till ett element i VEC var väljaren från början korrekt, men när aktiviteten sparades och öppnades igen ändrades den till en allmän väljare. Försök att manuellt återställa den ursprungliga väljaren resulterade i valideringsfel. Rekommendationsväljarna bevaras nu korrekt efter att de sparats, vilket garanterar tillförlitlig målinriktning och redigerbarhet i den uppdaterade processen för att skapa aktiviteter. (TGT-53709)
+* **Det gick inte att redigera villkorsinnehållet när en befintlig aktivitet ändrades.** När en aktivitet redigerades inaktiverades innehållsavsnittet i [!UICONTROL Criteria], med knappar nedtonade och svarar inte. Problemet löstes genom att se till att [!UICONTROL Criteria] konfigurationer är fullt redigerbara under aktivitetsuppdateringar. Kunder kan nu ändra [!UICONTROL Criteria]-innehåll utan att behöva växla markeringar eller använda tillfälliga lösningar, vilket ökar flexibiliteten och användbarheten i den uppdaterade processen för att skapa aktiviteter. (TGT-53812)
+* **Kriterierna kunde inte redigeras i en aktivitet.** Alternativen [!UICONTROL Edit Criteria] och [!UICONTROL Remove Criteria] inaktiverades vid åtkomst av villkor från en aktivitet. Samma villkor kan dock redigeras via fliken [!UICONTROL Recommendations]. Kriterierna är nu fullt redigerbara både från aktivitetsredigeringsarbetsflödet och fliken [!UICONTROL Recommendations], vilket ger en konsekvent och effektiv redigeringsupplevelse. (TGT-53814)
+
++++
+
++++[!UICONTROL Reports]
+
+* **Generering av ad hoc-erbjudanden i A[!UICONTROL utomated Personalization]-aktiviteter orsakade inkonsekvenser i rapporteringen.** Användningen av funktionen Generera ad hoc-erbjudanden i [!UICONTROL Automated Personalization]-aktiviteter (AP) ledde till felaktig rapportering. Erbjudande-ID återanvändes i synnerhet på olika platser, vilket ledde till att rapporteringsdata skrevs fel eller skrevs över. Ad-hoc-erbjudanden genereras nu med distinkta identifierare per plats, vilket ger korrekt spårning och rapportering för alla konfigurerade upplevelser. (TGT-53757)
+* **Det gick inte att läsa in aktivitetsrapporter på grund av ett JavaScript-fel.**-kunder påträffade ett meddelande om att något gick fel vid åtkomst till fliken [!UICONTROL Reports] för vissa aktiviteter. Felet orsakades av ett JavaScript-undantag: Det går inte att läsa egenskaper för undefined (läsa indexOf), som utlöstes under GraphQL-anropet `getAnalyticsReportSummary`. Rapporterna läses nu in korrekt och felhanteringen har förbättrats för att förhindra liknande fel i det uppdaterade arbetsflödet som skapar aktiviteter. (TGT-53797)
+* **Rapporterna kraschar efter interaktion med rullningslisten.** När du klickade på rullningslisten på fliken [!UICONTROL Reports] kraschade sidan, följt av ett JavaScript-fel:
+  `SyntaxError: Failed to execute 'querySelector' on 'Element': '[data-key="a-currentcopy"hiretalent""]' is not a valid selector.` rapporter läses nu in och rullas korrekt utan att utlösa fel eller krascher. (TGT-53828)
+* **Rapporterna visade inte det primära måttet.** Det primära måttet, som konfigurerats som ett konverteringsmått med en mbox, saknades i aktivitetsrapporterna. Sökning efter metriskt namn eller mbox-namn gav inga resultat, vilket förhindrar synlighet i viktiga prestandadata. Primära mätvärden visas nu korrekt på fliken [!UICONTROL Reports], vilket ger korrekt spårning och analys av kampanjresultat. (TGT-53773)
+* **Fliken [!UICONTROL Reports] i det uppdaterade användargränssnittet kraschade när den interagerade med den vågräta rullningslisten.** Vyn [!UICONTROL Reports] kraschade ibland med ett felmeddelande om att något gick fel när den vågräta rullningslisten användes för att visa mätvärden. Rullningslisten fungerar nu på ett tillförlitligt sätt, så att kunderna kan visa och analysera all mätinformation utan att behöva använda tillfälliga lösningar som att zooma ut eller använda skiftrullning. (TGT-53824)
+
++++
+
++++[!UICONTROL Visual Experience Composer] (VEC)
+
+* **Redigeringsmenyn visades inte konsekvent när du klickade på vägbeskrivningar i VEC.**
+När du markerar HTML-element via vägbeskrivningar i (VEC) kommer redigeringsmenyn ibland att misslyckas eller försvinna snabbt, vilket gör att elementmarkeringen inte är tillförlitlig. Redigera-menyn visas nu enhetligt när du navigerar via vägbeskrivningar, vilket förbättrar arbetsflödet för elementval i den uppdaterade processen att skapa aktivitet. (TGT-52873)
+* **Det gick inte att visa snabbmenyn i VEC.** Snabbmenyn i det uppdaterade VEC-gränssnittet visades inte konsekvent när du klickade på element, vilket gör det svårt att komma åt redigeringsalternativen. Snabbmenyn visas nu på ett tillförlitligt sätt när du väljer element, vilket förbättrar redigeringsarbetsflödet och den övergripande användbarheten i den uppdaterade processen att skapa aktiviteter. (TGT-53015)
+* **Det gick inte att visa snabbmenyn för vissa element i VEC.** Snabbmenyn visades inte när specifika element valdes i den uppdaterade VEC:n, vilket gör det svårt att använda ändringarna. Snabbmenyn visas nu enhetligt för alla element som stöds, vilket förbättrar tillförlitligheten och användbarheten för redigeringen i det uppdaterade arbetsflödet som skapar aktiviteter. (TGT-53248)
+* **Snabbmenyn försvann första gången du klickar när du använder vägbeskrivningar i VEC.** Om du valde ett överordnat element via vägbeskrivningarna i VEC visades snabbmenyn snabbt och försvinner, vilket gör det svårt att komma åt redigeringsalternativen. Snabbmenyn är nu fortfarande synlig och funktionell när du navigerar bland element via vägbeskrivningar, vilket förbättrar tillförlitligheten i arbetsflödet för att välja element i den uppdaterade processen för att skapa aktivitet. (TGT-53424)
+* **Snabbmenyn visades inte för element på den översta nivån i VEC.** Om du valde element på den översta nivån, till exempel `<div>` eller `<main>` taggar, via vägbeskrivningarna i VEC, utlöstes inte snabbmenyn, vilket förhindrar ytterligare redigeringsåtgärder. Snabbmenyn visas nu konsekvent för alla element som stöds, inklusive behållare på den översta nivån, vilket förbättrar flexibiliteten och användbarheten i arbetsflödet som skapar aktiviteter. (TGT-53770)
+* **Element på en viss sida kunde inte redigeras i VEC.** Vissa element på sidan kunde inte markeras eller redigeras i den uppdaterade VEC:n. Problemet isolerades till den sidan och påverkade inte andra sidor på samma konto. Alla element på sidan kan nu markeras och redigeras som förväntat, vilket återställer alla funktioner i det aktivitetsskapande arbetsflödet. (TGT-53353)
+* **Förbättrat arbetsflöde när underordnade element visas när element väljs i VEC.** VEC visar nu underordnade element när du hovrar över eller väljer ett överordnat HTML-element för att förbättra användbarheten och precisionen när aktiviteter skapas. Tack vare den här förbättringen kan kunderna bättre förstå sidans struktur och göra exaktare ändringar, vilket effektiviserar redigeringsarbetsflödet i det uppdaterade användargränssnittet. (TGT-53416)
+* **Element i befintliga aktiviteter kunde inte redigeras med ändringsfältet.** När tidigare skapade aktiviteter redigerades gick det inte att aktivera ändringsfältet för vissa element på sidan, vilket förhindrar uppdateringar. Detta problem observerades främst i modifierade aktiviteter och var svårt att reproducera i nyskapade. Ändringsfältet visar nu konsekvent och tillåter redigering av alla element som stöds, vilket förbättrar tillförlitligheten och användbarheten i det uppdaterade arbetsflödet för att skapa aktiviteter. (TGT-53013)
+
++++
+
++++[!UICONTROL Workspaces]
+
+* **Om en aktivitet klonas till en annan arbetsyta utlöstes felet&quot;Ogiltig användarinmatning&quot;.** Ett försök att klona en aktivitet från en arbetsyta till en annan resulterade i felet&quot;InvalidProperty.Json - det okända egenskapsnamnet&quot;content&quot;.&quot; Problemet orsakades av felaktig hantering av aktivitetsmetadata under kloningsprocessen. Aktiviteter kan nu klonas över arbetsytorna utan att utlösa valideringsfel, vilket ger smidigare arbetsflöden för aktivitetsdistribution. (TGT-53731 &amp; TGT-53736)
+
++++
+
 ## [!DNL Target Standard/Premium] 25.9.2 (22 september 2025)
 
 Den här versionen innehåller följande korrigeringar och förbättringar:
@@ -83,14 +141,14 @@ Den här versionen innehåller följande korrigeringar och förbättringar:
 
 +++Se detaljer
 * **Ett problem där aktiviteter inte kunde kopieras på grund av ogiltiga målgrupps-ID har korrigerats.** Kunder som försöker kopiera aktiviteter i den uppdaterade processen för att skapa aktiviteter påträffade ett fel som orsakas av ogiltiga målgrupps-ID:n (till exempel -175272244307). Det här problemet med backend-validering förhindrade dubblering av aktiviteter inom samma arbetsyta. Problemet har lösts och aktiviteter kan nu kopieras utan målgruppsrelaterade fel. (TGT-53717)
-* **Ett problem har korrigerats där ogiltiga användarindatafel påträffades för målgrupper som bara är aktivitetsaktiva i [!UICONTROL Automated Personalization]-aktiviteterna för [!UICONTROL Manage Content] modal.**-kunder påträffade ogiltiga användarindatafel när de konfigurerade målgrupper som bara är aktivitetsspecifika i [!UICONTROL &#x200B; Manage Content] modal för AP-aktiviteter. Problemet uppstod trots att målgrupperna tidigare användes korrekt. Kombinerade målgruppskonfigurationer sparas nu korrekt utan att utlösa valideringsfel. (TGT-53749)
+* **Ett problem har korrigerats där ogiltiga användarindatafel påträffades för målgrupper som bara är aktivitetsaktiva i [!UICONTROL Automated Personalization]-aktiviteterna för [!UICONTROL Manage Content] modal.**-kunder påträffade ogiltiga användarindatafel när de konfigurerade målgrupper som bara är aktivitetsspecifika i [!UICONTROL  Manage Content] modal för AP-aktiviteter. Problemet uppstod trots att målgrupperna tidigare användes korrekt. Kombinerade målgruppskonfigurationer sparas nu korrekt utan att utlösa valideringsfel. (TGT-53749)
 
 +++
 
 **Dokumentation**
 
 +++Se detaljer
-* **Målspecifika SDK-dokumentationssidor har flyttats till Adobe Target-databasen.** Som en del av dokumentationsomstruktureringen för Web SDK har [!DNL Target]-specifikt innehåll migrerats från de allmänna SDK-dokumenten till [!DNL Adobe Target] [Utvecklarhandboken](https://experienceleague.adobe.com/sv/docs/target-dev/developer/a4t/overview-a4t?lang=en){target=_blank}. Ändringen förbättrar innehållsidentifieringen och säkerställer att lösningsspecifik vägledning upprätthålls av rätt produktgrupp. (TGT-53374)
+* **Målspecifika SDK-dokumentationssidor har flyttats till Adobe Target-databasen.** Som en del av dokumentationsomstruktureringen för Web SDK har [!DNL Target]-specifikt innehåll migrerats från de allmänna SDK-dokumenten till [!DNL Adobe Target] [Utvecklarhandboken](https://experienceleague.adobe.com/en/docs/target-dev/developer/a4t/overview-a4t?lang=en){target=_blank}. Ändringen förbättrar innehållsidentifieringen och säkerställer att lösningsspecifik vägledning upprätthålls av rätt produktgrupp. (TGT-53374)
 
 +++
 
@@ -166,7 +224,7 @@ Verifieringslogik för målanslutningar för [!DNL Target] har uppdaterats för 
 * Samma dataström-ID kan bara användas för olika anslutningar om de är konfigurerade i olika sandlådor.
 * Den här regeln gäller för alla datastream-markeringar, även när&quot;Ingen&quot; har valts.
 
-Denna uppdatering ger en konsekvent konfiguration och förhindrar konflikter mellan miljöer med flera sandlådor. Mer information finns i [Adobe Target-anslutning](https://experienceleague.adobe.com/sv/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank} i guiden *Experience Platform Destinations*.
+Denna uppdatering ger en konsekvent konfiguration och förhindrar konflikter mellan miljöer med flera sandlådor. Mer information finns i [Adobe Target-anslutning](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank} i guiden *Experience Platform Destinations*.
 
 ## [!DNL Target Standard/Premium] 25.9.1 (5 september 2025)
 
@@ -227,8 +285,8 @@ Den här versionen innehåller följande uppdateringar och korrigeringar:
 
 | Resurs | Information |
 |--- |--- |
-| [Versionsinformation: Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=sv-SE) | Information om ändringarna i respektive version av Platform Web SDK. |
-| Versionsinformation för [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=sv-SE){target=_blank} | Information om ändringar i varje version av JavaScript-biblioteket [!DNL Adobe Target] at.js. |
+| [Versionsinformation: Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=en) | Information om ändringarna i respektive version av Platform Web SDK. |
+| Versionsinformation för [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | Information om ändringar i varje version av JavaScript-biblioteket [!DNL Adobe Target] at.js. |
 
 ## Dokumentationsändringar, Versionsinformation om tidigare versioner och Experience Cloud Versionsinformation
 
@@ -238,7 +296,7 @@ Förutom anteckningarna för varje release finns det ytterligare information i f
 |--- |--- |
 | [Dokumentationsändringar](/help/main/r-release-notes/doc-change.md) | Visa detaljerad information om uppdateringar av den här guiden som inte ingår i versionsinformationen. |
 | [Versionsinformation för tidigare versioner](/help/main/r-release-notes/release-notes-for-previous-releases.md). | Visa information om nya funktioner och förbättringar i tidigare versioner av Target Standard och Target Premium. |
-| [Versionsinformation för Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=sv-SE){target=_blank} | Läs den senaste versionsinformationen om Adobe Experience Cloud lösningar. |
+| [Versionsinformation för Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target=_blank} | Läs den senaste versionsinformationen om Adobe Experience Cloud lösningar. |
 
 ## Förhandsversionsinformation {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
