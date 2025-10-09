@@ -6,7 +6,7 @@ short-description: Lär dig mer om de nya funktionerna, förbättringarna och ko
 title: Vad ingår i den aktuella versionen?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 6cba2e93d61d3044d1bf7ce2f5bb6cc1f2d71e4a
+source-git-commit: f0536e466d59fc4e3cccd61c25b7fe7f48f03954
 workflow-type: tm+mt
 source-wordcount: '4858'
 ht-degree: 0%
@@ -95,14 +95,14 @@ Den här versionen innehåller följande korrigeringar och förbättringar:
 
 +++Se detaljer
 * **Ett problem där aktiviteter inte kunde kopieras på grund av ogiltiga målgrupps-ID har korrigerats.** Kunder som försöker kopiera aktiviteter i den uppdaterade processen för att skapa aktiviteter påträffade ett fel som orsakas av ogiltiga målgrupps-ID:n (till exempel -175272244307). Det här problemet med backend-validering förhindrade dubblering av aktiviteter inom samma arbetsyta. Problemet har lösts och aktiviteter kan nu kopieras utan målgruppsrelaterade fel. (TGT-53717)
-* **Ett problem har korrigerats där ogiltiga användarindatafel påträffades för målgrupper som bara är aktivitetsaktiva i [!UICONTROL Automated Personalization]-aktiviteterna för [!UICONTROL Manage Content] modal.**-kunder påträffade ogiltiga användarindatafel när de konfigurerade målgrupper som bara är aktivitetsspecifika i [!UICONTROL &#x200B; Manage Content] modal för AP-aktiviteter. Problemet uppstod trots att målgrupperna tidigare användes korrekt. Kombinerade målgruppskonfigurationer sparas nu korrekt utan att utlösa valideringsfel. (TGT-53749)
+* **Ett problem har korrigerats där ogiltiga användarindatafel påträffades för målgrupper som bara är aktivitetsaktiva i [!UICONTROL Automated Personalization]-aktiviteterna för [!UICONTROL Manage Content] modal.**-kunder påträffade ogiltiga användarindatafel när de konfigurerade målgrupper som bara är aktivitetsspecifika i [!UICONTROL  Manage Content] modal för AP-aktiviteter. Problemet uppstod trots att målgrupperna tidigare användes korrekt. Kombinerade målgruppskonfigurationer sparas nu korrekt utan att utlösa valideringsfel. (TGT-53749)
 
 +++
 
 **Dokumentation**
 
 +++Se detaljer
-* **Målspecifika SDK-dokumentationssidor har flyttats till Adobe Target-databasen.** Som en del av dokumentationsomstruktureringen för Web SDK har [!DNL Target]-specifikt innehåll migrerats från de allmänna SDK-dokumenten till [!DNL Adobe Target] [Utvecklarhandboken](https://experienceleague.adobe.com/sv/docs/target-dev/developer/a4t/overview-a4t?lang=en){target=_blank}. Ändringen förbättrar innehållsidentifieringen och säkerställer att lösningsspecifik vägledning upprätthålls av rätt produktgrupp. (TGT-53374)
+* **Målspecifika SDK-dokumentationssidor har flyttats till Adobe Target-databasen.** Som en del av dokumentationsomstruktureringen för Web SDK har [!DNL Target]-specifikt innehåll migrerats från de allmänna SDK-dokumenten till [!DNL Adobe Target] [Utvecklarhandboken](https://experienceleague.adobe.com/en/docs/target-dev/developer/a4t/overview-a4t?lang=en){target=_blank}. Ändringen förbättrar innehållsidentifieringen och säkerställer att lösningsspecifik vägledning upprätthålls av rätt produktgrupp. (TGT-53374)
 
 +++
 
@@ -123,7 +123,7 @@ Den här versionen innehåller följande korrigeringar och förbättringar:
 **[!DNL Recommendations]**
 
 +++Se detaljer
-* **Klickspårning har återställts för [!UICONTROL Recommendations] aktiviteter som har skapats i det uppdaterade användargränssnittet.** Korrigerade ett flikproblem där [!UICONTROL Recommendations] aktiviteter skapade i det uppdaterade användargränssnittet inte kunde registrera klickspårning, vilket resulterade i noll rapporterade konverteringar. Aktiviteter som byggts i det äldre användargränssnittet spårade klickningar korrekt och rapporterade konverteringar som förväntat. Med den här korrigeringen ser du till att rekommendationsaktiviteter som skapas i det uppdaterade användargränssnittet nu innehåller rätt spårningsattribut, återställer konverteringsrapportering och anpassning till A4T-värden. (TGT-53287)
+* **Klickspårning har återställts för [!UICONTROL Recommendations] aktiviteter som har skapats i det uppdaterade användargränssnittet.** Löste ett problem där [!UICONTROL Recommendations] aktiviteter skapade i det uppdaterade användargränssnittet inte kunde registrera klickspårning, vilket resulterade i noll rapporterade konverteringar. Aktiviteter som byggts i det äldre användargränssnittet spårade klickningar korrekt och rapporterade konverteringar som förväntat. Med den här korrigeringen ser du till att rekommendationsaktiviteter som skapas i det uppdaterade användargränssnittet nu innehåller rätt spårningsattribut, återställer konverteringsrapportering och anpassning till A4T-värden. (TGT-53287)
 * **Klickspårning återställd för rekommendationsaktiviteter.** Löste ett problem där [!UICONTROL Recommendations] aktiviteter skapade i det uppdaterade användargränssnittet inte kunde registrera klickspårning, vilket resulterade i noll rapporterade konverteringar. Det gamla användargränssnittet tillämpade ett spårnings-ID (`at-track-click`) på [!UICONTROL Recommendations]-innehåll korrekt, medan det uppdaterade användargränssnittet felaktigt infogade en platshållare (`__recsClickTrackIdPlaceholder__`), vilket förhindrar serverdelsspårning. Den här korrigeringen ser till att [!DNL Recommendations]-innehåll nu innehåller rätt spårnings-ID, återställer konverteringsrapportering och justering med A4T-mått. (TGT-53496)
 * **Kraschen för samlingsredigeraren löstes i det uppdaterade användargränssnittet.** Korrigerade ett fel i det uppdaterade [!UICONTROL Visual Experience Composer] (VEC)-gränssnittet där sidan kraschade när en samling öppnades från redigeringspanelen med ett TypeError: Det går inte att läsa egenskaper för undefined (läsa customLocale). Det här felet inträffade i flera aktivitetstyper, inklusive [!UICONTROL Recommendations] och A/B-tester. (TGT-53703)
 * **Alternativ för att ta bort den valda samlingen som har återställts i VEC.** Korrigerade ett fel i VEC där användare bara kunde ersätta en markerad samling i en [!UICONTROL Recommendations]-aktivitet, men inte kunde ta bort den helt. Den här begränsningen blockerade användningsfall som kräver en ren borttagning av samlingen utan ersättning. Med den här korrigeringen introduceras ett tydligt alternativ för att ta bort den valda samlingen, vilket ger större flexibilitet i aktivitetsinställningarna och anpassning till det gamla gränssnittets beteende. (TGT-53652)
@@ -178,7 +178,7 @@ Verifieringslogik för målanslutningar för [!DNL Target] har uppdaterats för 
 * Samma dataström-ID kan bara användas för olika anslutningar om de är konfigurerade i olika sandlådor.
 * Den här regeln gäller för alla datastream-markeringar, även när&quot;Ingen&quot; har valts.
 
-Denna uppdatering ger en konsekvent konfiguration och förhindrar konflikter mellan miljöer med flera sandlådor. Mer information finns i [Adobe Target-anslutning](https://experienceleague.adobe.com/sv/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank} i guiden *Experience Platform Destinations*.
+Denna uppdatering ger en konsekvent konfiguration och förhindrar konflikter mellan miljöer med flera sandlådor. Mer information finns i [Adobe Target-anslutning](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank} i guiden *Experience Platform Destinations*.
 
 ## [!DNL Target Standard/Premium] 25.9.1 (5 september 2025)
 
@@ -239,8 +239,8 @@ Den här versionen innehåller följande uppdateringar och korrigeringar:
 
 | Resurs | Information |
 |--- |--- |
-| [Versionsinformation: Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=sv-SE) | Information om ändringarna i respektive version av Platform Web SDK. |
-| Versionsinformation för [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=sv-SE){target=_blank} | Information om ändringar i varje version av JavaScript-biblioteket [!DNL Adobe Target] at.js. |
+| [Versionsinformation: Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=en) | Information om ändringarna i respektive version av Platform Web SDK. |
+| Versionsinformation för [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | Information om ändringar i varje version av JavaScript-biblioteket [!DNL Adobe Target] at.js. |
 
 ## Dokumentationsändringar, Versionsinformation om tidigare versioner och Experience Cloud Versionsinformation
 
@@ -250,7 +250,7 @@ Förutom anteckningarna för varje release finns det ytterligare information i f
 |--- |--- |
 | [Dokumentationsändringar](/help/main/r-release-notes/doc-change.md) | Visa detaljerad information om uppdateringar av den här guiden som inte ingår i versionsinformationen. |
 | [Versionsinformation för tidigare versioner](/help/main/r-release-notes/release-notes-for-previous-releases.md). | Visa information om nya funktioner och förbättringar i tidigare versioner av Target Standard och Target Premium. |
-| [Versionsinformation för Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=sv-SE){target=_blank} | Läs den senaste versionsinformationen om Adobe Experience Cloud lösningar. |
+| [Versionsinformation för Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target=_blank} | Läs den senaste versionsinformationen om Adobe Experience Cloud lösningar. |
 
 ## Förhandsversionsinformation {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
