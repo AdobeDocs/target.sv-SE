@@ -59,7 +59,7 @@ VEC Helper-webbläsartillägget för Chrome löser problem med webbplatsinläsni
 1. Navigera till webbläsartillägget [Adobe Target VEC Helper i Chrome Web Store](https://chromewebstore.google.com/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca).
 1. Klicka på **[!UICONTROL Add to Chrome > Add Extension]**.
 1. Öppna VEC i [!DNL Target].
-1. Om du vill använda tillägget klickar du på ikonen för VEC Helper-webbläsartillägget ( ![VEC Helper-ikonen ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension.png) ) i verktygsfältet i din Chrome-webbläsare i VEC- eller [QA-läge](/help/main/c-activities/c-activity-qa/activity-qa.md) .
+1. Om du vill använda tillägget klickar du på ikonen för VEC Helper-webbläsartillägget ( ![VEC Helper-ikonen &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension.png) ) i verktygsfältet i din Chrome-webbläsare i VEC- eller [QA-läge](/help/main/c-activities/c-activity-qa/activity-qa.md) .
 1. (Villkorligt) Skjut växeln **[!UICONTROL Inject Target Libraries]** till&quot;on&quot;-positionen om webbsidan ännu inte innehåller JavaScript-biblioteket [!DNL Target] at.js.
 
    I följande bild visas VEC Helper med inställningen [!UICONTROL Inject Target Libraries] aktiverad:
