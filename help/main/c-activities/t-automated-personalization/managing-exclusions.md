@@ -2,24 +2,24 @@
 keywords: deduplicera;tillåt dubbletter;utelämna dubbletterbjudanden;automatiserad personalisering;tillåt inte dubbletterbjudanden;exkludera;standardinnehåll;
 description: Hantera undantag i [!UICONTROL Automated Personalization] (AP)-aktiviteter.
 title: Hur hanterar jag undantag i [!UICONTROL Automated Personalization] aktiviteter?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=sv-SE#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: d9e9f2a2-5914-4b81-acae-eaf388646652
-source-git-commit: e620cd189e2783ba3abbe93bb9c5000866c41b99
+source-git-commit: a68e7501fbb157a1ac5b0c0cbb3d574abdb747dd
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '482'
 ht-degree: 0%
 
 ---
 
 # Hantera undantag
 
-Hantera undantag genom att exkludera dubblerade erbjudanden, exkludera specifika upplevelser och exkludera standardinnehåll i [!UICONTROL Automated Personalization] (AP)-aktiviteter i [!DNL Adobe Target].
+Ta kontroll över din [!UICONTROL Automated Personalization] (AP)-strategi genom att bemästra undantag. Oavsett om ni förhindrar dubblerade erbjudanden, kombinationer av förfinade upplevelser eller tar bort standardinnehåll, ger uteslutningar er möjlighet att leverera tydligare och mer relevanta upplevelser som anpassar sig efter era mål och målgruppens förväntningar.
 
 ## Tillåt eller neka dubbletterbjudanden {#concept_4EF78013F80E48EFA024AE0274C9F037}
 
-Förhindra att erbjudanden från erbjudandebiblioteket dupliceras när de används på olika platser i [!UICONTROL Automated Personalization]-aktiviteter.
+Förhindra att erbjudanden från erbjudandebiblioteket dupliceras när de används på olika platser i AP-aktiviteter.
 
 Du kan till exempel ha en aktivitet med sex platser på en sida med tolv erbjudanden. Det finns en risk för att samma erbjudande kan placeras på en eller flera platser i aktiviteten. Med den här funktionen kan du förhindra att dubbletterbjudanden visas samtidigt på olika platser inom samma aktivitet.
 
@@ -27,7 +27,7 @@ Du kan till exempel ha en aktivitet med sex platser på en sida med tolv erbjuda
 
 ## Exkludera specifika upplevelser {#task_C17D36EF58AF4908B17A3D84CA6DE85A}
 
-Undanta specifika upplevelser om du vill utesluta vissa erbjudandekombinationer från din [!UICONTROL Automated Personalization]-aktivitet.
+Exkludera specifika upplevelser om du vill utesluta vissa erbjudandekombinationer från din AP-aktivitet.
 
 Det kan finnas vissa kombinationer som inte fungerar tillsammans, eller så kanske du begränsar antalet testade upplevelser för att minska trafikkraven för din aktivitet.
 
@@ -47,7 +47,7 @@ Det kan finnas vissa kombinationer som inte fungerar tillsammans, eller så kans
 
 ## Uteslut standardinnehåll {#task_DCB4528989DF4C05A3A4729E5891D18F}
 
-Ibland kanske du inte vill inkludera ditt standardinnehåll som en del av din [!UICONTROL Automated Personalization]-aktivitet. Du kan använda den här metoden om du bara vill ha ett erbjudande (som skiljer sig från ditt standardinnehåll) på en plats som en del av din AP-aktivitet.
+Ibland kanske du inte vill inkludera ditt standardinnehåll som en del av din AP-aktivitet. Du kan använda den här metoden om du bara vill ha ett erbjudande (som skiljer sig från ditt standardinnehåll) på en plats som en del av din aktivitet.
 
 Att exkludera standardinnehåll är ett bra sätt att ändra utseendet och känslan hos resten av sidan så att det passar de erbjudanden du testar med din AP-aktivitet. Anta till exempel att du vill matcha färgpaletten för erbjudandena som du testar, att du kan ändra bakgrundsfärgen för sidan och utesluta standardbakgrundsfärgen.
 
@@ -56,8 +56,9 @@ Att exkludera standardinnehåll är ett bra sätt att ändra utseendet och käns
 1. När du [skapar eller redigerar en AP-aktivitet](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) markerar du det innehåll du vill ersätta och klickar för att komma åt **[!UICONTROL Change Text/HTML]**, **[!UICONTROL Change Image Offer]** eller **[!UICONTROL Change Background Color]**. Vilka alternativ som är tillgängliga varierar beroende på typ av innehåll.
 
    ![Ändra alternativ](/help/main/c-activities/t-automated-personalization/assets/options.png)
+1. Skapa nytt innehåll.
 
-1. Skapa ditt nya innehåll och avmarkera **Inkludera** till höger om standardinnehållet (eller avmarkera standardbilden/standardvideon på skärmen [!UICONTROL Select Content]).
+1. Klicka på ikonen **[!UICONTROL More Actions]** ( ![Fler åtgärder](/help/main/assets/icons/Setting.svg) ) och klicka sedan på alternativet **Uteslut standarderbjudande/Inkludera standard**/ för att exkludera eller inkludera standarderbjudande.
 
    <!-- Depending on the content or offer type, the [!UICONTROL Include] checkbox is in a slightly different place. 
 
