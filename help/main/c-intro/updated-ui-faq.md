@@ -60,7 +60,7 @@ Följande information beskriver de begränsningar som du bör vara medveten om n
 * Versionsinformation för [[!DNL Target Standard/Premium] 25.2.1 (17 februari 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2): Innehåller en sammanfattning av viktiga ändringar i användargränssnittet i [!DNL Target] för [!UICONTROL Activities], [!UICONTROL Recommendations] och [!UICONTROL Visual Experience Composer] (VEC).
 * Versionsinformation för [[!DNL Target Standard/Premium] 25.1.1 (9 januari 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1): Innehåller en sammanfattning av viktiga ändringar i användargränssnittet i [!DNL Target] för [!UICONTROL Offers Library].
 * [Förstå  [!DNL Target] gränssnittet](/help/main/c-intro/understand-the-target-ui.md): Ger en kort översikt som hjälper dig att bekanta dig med [!DNL Target] och innehåller länkar till mer detaljerad information och stegvisa instruktioner.
-* [[!UICONTROL Visual Experience Composer] ändringar ](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md): [!DNL Adobe Target Standard/Premium] 25.2.1-versionen (17 februari 2015) innehåller en uppdaterad version av [!UICONTROL Visual Experience Composer] (VEC). I den här artikeln förklaras skillnaderna mellan äldre och uppdaterade versioner av VEC.
+* [[!UICONTROL Visual Experience Composer] ändringar &#x200B;](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md): [!DNL Adobe Target Standard/Premium] 25.2.1-versionen (17 februari 2015) innehåller en uppdaterad version av [!UICONTROL Visual Experience Composer] (VEC). I den här artikeln förklaras skillnaderna mellan äldre och uppdaterade versioner av VEC.
 * [[!UICONTROL Visual Experience Composer] alternativ](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md): I den här artikeln förklaras det uppdaterade VEC-gränssnittet och dess alternativ.
 
 +++
@@ -74,7 +74,7 @@ Följande resurser innehåller information om det uppdaterade användargränssni
 
 * [Förstå  [!DNL Target] gränssnittet](/help/main/c-intro/understand-the-target-ui.md): Ger en kort översikt som hjälper dig att bekanta dig med [!DNL Target] och innehåller länkar till mer detaljerad information och stegvisa instruktioner.
 
-* [[!UICONTROL Visual Experience Composer] ändringar ](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md): [!DNL Adobe Target Standard/Premium] 25.2.1-versionen (17 februari 2015) innehåller en uppdaterad version av [!UICONTROL Visual Experience Composer] (VEC). I den här artikeln förklaras skillnaderna mellan äldre och uppdaterade versioner av VEC.
+* [[!UICONTROL Visual Experience Composer] ändringar &#x200B;](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md): [!DNL Adobe Target Standard/Premium] 25.2.1-versionen (17 februari 2015) innehåller en uppdaterad version av [!UICONTROL Visual Experience Composer] (VEC). I den här artikeln förklaras skillnaderna mellan äldre och uppdaterade versioner av VEC.
 
 * [[!UICONTROL Visual Experience Composer] alternativ](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md): I den här artikeln förklaras det uppdaterade VEC-gränssnittet och dess alternativ.
 
@@ -161,15 +161,15 @@ Ja, du kan komprimera de här skenorna så att du kan expandera arbetsytan i [!U
 
 **Komprimera [!UICONTROL Components] rälen**
 
-Om du vill komprimera [!UICONTROL Components]-rälen och förstora arbetsytan i [!UICONTROL Design] medan [!UICONTROL Components]-rälen är öppen klickar du på ikonen ( ![Visa komponenter ](/help/main/assets/icons/Add.svg) ).
+Om du vill komprimera [!UICONTROL Components]-rälen och förstora arbetsytan i [!UICONTROL Design] medan [!UICONTROL Components]-rälen är öppen klickar du på ikonen ( ![Visa komponenter &#x200B;](/help/main/assets/icons/Add.svg) ).
 
 **Komprimera [!UICONTROL Modifications] rälen**
 
-Klicka på ikonen [!UICONTROL Modifications] ( [!UICONTROL Design]Visa ändringslinjen [!UICONTROL Modifications] ) om du vill komprimera [!UICONTROL Show Modifications]-rälen och förstora arbetsytan i ![ medan ](/help/main/assets/icons/History.svg)-rälen är öppen.
+Klicka på ikonen [!UICONTROL Modifications] ( [!UICONTROL Design]Visa ändringslinjen [!UICONTROL Modifications] ) om du vill komprimera [!UICONTROL Show Modifications]-rälen och förstora arbetsytan i ![&#x200B; medan &#x200B;](/help/main/assets/icons/History.svg)-rälen är öppen.
 
 **Komprimera [!UICONTROL Properties] rälen**
 
-Klicka på ikonen [!UICONTROL Properties] ( [!UICONTROL Design]egenskapsikonen [!UICONTROL Show/Hide Properties] ) till höger om listen om du vill komprimera eller visa ![-rälen om du vill komprimera ](/help/main/assets/icons/Propertie.svg)-rälen och förstora arbetsytan i [!UICONTROL Properties].
+Klicka på ikonen [!UICONTROL Properties] ( [!UICONTROL Design]egenskapsikonen [!UICONTROL Show/Hide Properties] ) till höger om listen om du vill komprimera eller visa ![-rälen om du vill komprimera &#x200B;](/help/main/assets/icons/Propertie.svg)-rälen och förstora arbetsytan i [!UICONTROL Properties].
 
 +++
 
@@ -197,7 +197,7 @@ Användargränssnittet [!UICONTROL Offer Library] kräver konsekventa attributde
 ## Vad hände med länkarna för förhandsgranskning av erbjudanden i det uppdaterade användargränssnittet?
 
 +++Information
-[!UICONTROL Experience Fragment] förhandsgranskningslänkar är tillgängliga i [!UICONTROL Quick Info]-porten, som visas när du klickar på informationsikonen ( ![informationsikonen ](/help/main/assets/icons/InfoOutline.svg) ) för det valda fragmentet.
+[!UICONTROL Experience Fragment] förhandsgranskningslänkar är tillgängliga i [!UICONTROL Quick Info]-porten, som visas när du klickar på informationsikonen ( ![informationsikonen &#x200B;](/help/main/assets/icons/InfoOutline.svg) ) för det valda fragmentet.
 
 +++
 
