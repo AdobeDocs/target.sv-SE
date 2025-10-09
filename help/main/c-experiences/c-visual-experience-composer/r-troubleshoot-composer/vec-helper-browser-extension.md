@@ -4,7 +4,7 @@ description: Identifiera varför vissa webbplatser kanske inte kan öppnas på e
 title: Hur använder jag hjälptillägget [!UICONTROL Visual Experience Composer] (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 3f38db69-046d-42c9-8c09-eca11d404b12
-source-git-commit: c41580bcbecf2eb2c14f13ce8e66e854c655d059
+source-git-commit: 6f4fd14a46f06c1366c02cfaf5a0cee5edbb00c4
 workflow-type: tm+mt
 source-wordcount: '1043'
 ht-degree: 0%
@@ -56,7 +56,7 @@ VEC Helper-webbläsartillägget för Chrome löser problem med webbplatsinläsni
 
 ## Hämta och installera VEC Helper-webbläsartillägget
 
-1. Navigera till webbläsartillägget [Adobe Target VEC Helper i Chrome Web Store](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak).
+1. Navigera till webbläsartillägget [Adobe Target VEC Helper i Chrome Web Store](https://chromewebstore.google.com/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca).
 1. Klicka på **[!UICONTROL Add to Chrome > Add Extension]**.
 1. Öppna VEC i [!DNL Target].
 1. Om du vill använda tillägget klickar du på ikonen för VEC Helper-webbläsartillägget ( ![VEC Helper-ikonen ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension.png) ) i verktygsfältet i din Chrome-webbläsare i VEC- eller [QA-läge](/help/main/c-activities/c-activity-qa/activity-qa.md) .
