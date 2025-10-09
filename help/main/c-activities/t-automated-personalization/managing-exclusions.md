@@ -2,13 +2,13 @@
 keywords: deduplicera;tillåt dubbletter;utelämna dubbletterbjudanden;automatiserad personalisering;tillåt inte dubbletterbjudanden;exkludera;standardinnehåll;
 description: Hantera undantag i [!UICONTROL Automated Personalization] (AP)-aktiviteter.
 title: Hur hanterar jag undantag i [!UICONTROL Automated Personalization] aktiviteter?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=sv-SE#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: d9e9f2a2-5914-4b81-acae-eaf388646652
-source-git-commit: a68e7501fbb157a1ac5b0c0cbb3d574abdb747dd
+source-git-commit: 2715e803938ee552e2c6db438ed4dbece4b6220e
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '483'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Att exkludera standardinnehåll är ett bra sätt att ändra utseendet och käns
    ![Ändra alternativ](/help/main/c-activities/t-automated-personalization/assets/options.png)
 1. Skapa nytt innehåll.
 
-1. Klicka på ikonen **[!UICONTROL More Actions]** ( ![Fler åtgärder](/help/main/assets/icons/Setting.svg) ) och klicka sedan på alternativet **Uteslut standarderbjudande/Inkludera standard**/ för att exkludera eller inkludera standarderbjudande.
+1. Klicka på ikonen **[!UICONTROL More Actions]** ( ![Fler åtgärder](/help/main/assets/icons/Setting.svg) ) och klicka sedan på alternativet **Uteslut standarderbjudande/Inkludera standarderbjudande**/ för att exkludera eller inkludera standarderbjudande.
 
    <!-- Depending on the content or offer type, the [!UICONTROL Include] checkbox is in a slightly different place. 
 
