@@ -2,12 +2,12 @@
 keywords: Rekommendationer;introduktion;webbinarium;demo
 description: Läs mer om rekommendationsaktiviteter i Adobe [!DNL Target] som automatiskt visar innehåll som kan intressera dina kunder baserat på tidigare användaraktivitet eller andra algoritmer.
 title: Vad är rekommendationsaktiviteter?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=sv-SE#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Se vad som ingår i Target Premium."
 feature: Recommendations
 exl-id: bc4d9a46-ea21-4687-b8a0-7f2e1dc33ebf
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+source-git-commit: fd0ae95b63b924471247ab7155363bf0ba1e617c
 workflow-type: tm+mt
-source-wordcount: '2086'
+source-wordcount: '2049'
 ht-degree: 0%
 
 ---
@@ -39,11 +39,11 @@ Marknadsförarna använder [!DNL Adobe Target] för att skapa personaliserade up
 * **Publicering**: Webbutgivare använder [!DNL Target Recommendations] för att rekommendera artiklar till webbplatsbesökare och öka engagemanget.
 * **Videokurser**: [!DNL Adobe Creative Cloud] använder [!DNL Target] för att rekommendera videokurser för Photoshop-användare i Photoshop-programmet.
 * **Gaming**: Spelföretag använder [!DNL Target] för att rekommendera spel och innehåll till användare på sina konsoler.
-* **B2B-försäljning**: [Företag-till-företag använder Target för att rekommendera videor, rapporter och blogginlägg till B2B-prospects, leverera nedladdningar och ge hjälp till befintliga kunder](https://theblog.adobe.com/testing-shifts-high-gear-intel).
+* **B2B-försäljning**: Företag använder Target för att rekommendera videor, rapporter och blogginlägg till B2B-prospects, leverera nedladdningar och ge hjälp till befintliga kunder.
 
 * **Resa**: [En tysk resebokare använder Target för att rekommendera hotell och mycket annat till resenärer](https://2017.summit.adobe.com/na/sessions/summit-online/online-2017/#17608).
 
-* **Detaljhandel**: [En ledande B2B-återförsäljare använder Target för att rekommendera de viktigaste kategorierna och produkterna för att returnera besökare i webbläsaren och i mobilappen](https://theblog.adobe.com/optimization-personalization-b2b-powerhouse-grainger/).
+* **Detaljhandel**: En ledande B2B-återförsäljare använder [!DNL Target] för att rekommendera de viktigaste kategorierna och produkterna för att returnera besökare i webbläsaren och i mobilappen.
 
 Det här är bara några exempel på hur kunderna använder Target för att leverera personaliserade rekommendationer.
 
@@ -105,7 +105,7 @@ Därefter bör du lägga till taggar eller utnyttja befintlig [!DNL Analytics]-i
 
 Du måste se till att [!DNL Target] är medveten om de objekt som användarna visar och köper. Om inköpen inte är relevanta för ditt sammanhang kan du spåra en annan typ av konverteringshändelse, till exempel hämtning av en PDF, slutförande av en enkät, prenumeration på ett nyhetsbrev, titta på en video o.s.v.
 
-Om du redan använder [!DNL Target] för att köra A/B-tester på din webbplats, kanske du redan har slutfört det här steget. Om du redan använder [!DNL Adobe Analytics] för att rapportera webbplatsbesök och konverteringsbeteenden kan du använda [!DNL Analytics] som din beteendedatakälla. Annars är det enklast att konfigurera detta med en tagghanterare som taggar i [[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html?lang=sv-SE){target=_blank}. Det går också att skicka interaktioner offline eller i appen till [!DNL Target] via API:t i realtid.
+Om du redan använder [!DNL Target] för att köra A/B-tester på din webbplats, kanske du redan har slutfört det här steget. Om du redan använder [!DNL Adobe Analytics] för att rapportera webbplatsbesök och konverteringsbeteenden kan du använda [!DNL Analytics] som din beteendedatakälla. Annars är det enklast att konfigurera detta med en tagghanterare som taggar i [[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}. Det går också att skicka interaktioner offline eller i appen till [!DNL Target] via API:t i realtid.
 
 ### Få rekommendationer i rätt sammanhang
 
@@ -129,9 +129,9 @@ En [!DNL Recommendations]-aktivitet består av följande komponenter:
 
 ![Illustration som visar vad som utgör en rekommendationsaktivitet: Publiker, kriterier och designer](/help/main/c-recommendations/assets/intro-12.png)
 
-[!DNL Target] innehåller 14 inbyggda målgrupper, 42 inbyggda kriterier och 10 inbyggda designmallar. Du kan anpassa vart och ett av dessa objekt eller lägga till ett eget. Vi har haft [webbinarier om att bygga målgrupper](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) i [!DNL Target]. I det här avsnittet fokuseras på att definiera villkor, som definierar vilka objekt som ska rekommenderas.
+[!DNL Target] innehåller 14 inbyggda målgrupper, 42 inbyggda kriterier och 10 inbyggda designmallar. Du kan anpassa vart och ett av dessa objekt eller lägga till ett eget.
 
-Target använder konceptet med kriteriekortet. Ett villkorskort är som ett recept för personalisering.
+[!DNL Target] använder konceptet för villkorskortet. Ett villkorskort är som ett recept för personalisering.
 
 ![Villkorskortsillustration](/help/main/c-recommendations/assets/intro-13.png)
 
@@ -194,7 +194,3 @@ I innehållskontexten kanske du vill utesluta filmer som besökaren tidigare har
 ## Demo
 
 När du har slutfört de uppgifter som illustreras i rekommendationstratten som beskrivs ovan, får du din slutgiltiga rekommendation. Om du vill se en produktdemonstration i [!DNL Target] börjar demon på 21:00 i *Adobe Target Basics Webinar* som är länkad till nedan.
-
-## Adobe [!DNL Target] Basics-webbinarium: Introduktion till rekommendationer {#intro-to-recs}
-
-[Introduktion till rekommendationer](https://adobecustomersuccess.adobeconnect.com/p8gt31drhs3e/?OWASP_CSRFTOKEN=4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)
