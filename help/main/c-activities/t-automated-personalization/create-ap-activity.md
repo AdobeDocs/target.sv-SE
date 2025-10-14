@@ -32,7 +32,7 @@ Arbetsflödet för [!UICONTROL Automated Personalization]-aktivitet (AP) i [!DNL
 
 1. (Villkorligt) [Välj en arbetsyta](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 
-1. Ange din **[!UICONTROL Enter Activity URL]** aktivitets-URL[ i rutan ](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md).
+1. Ange din **[!UICONTROL Enter Activity URL]** aktivitets-URL[&#x200B; i rutan &#x200B;](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md).
 
    Om ditt konto är [konfigurerat med en standard-URL](/help/main/administrating-target/visual-experience-composer-set-up.md) visas den URL:en som standard. Du kan ändra från standardadressen till en annan URL-adress om det behövs.
 

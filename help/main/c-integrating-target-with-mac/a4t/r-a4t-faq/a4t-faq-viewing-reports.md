@@ -20,7 +20,7 @@ Det här avsnittet innehåller svar på frågor som ofta ställs om att visa rap
 +++Svar
 Du kan använda [!DNL Analysis Workspace] för att analysera dina [!DNL Target]-aktiviteter och -upplevelser. Med [Analytics for Target panel](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=sv-SE) kan du se hur mycket du kan uppnå och lita på att det finns så många som tre framgångsmått. Du kan också fördjupa dig i tabeller och visualiseringar.
 
-Om du vill ha mer information och exempel öppnar du [Självstudiekursen ](https://spark.adobe.com/page/Lo3Spm4oBOvwF/) Analytics &amp; Target: Best Practices for Analysis, som finns i [!UICONTROL Adobe Experience League].
+Om du vill ha mer information och exempel öppnar du [Självstudiekursen &#x200B;](https://spark.adobe.com/page/Lo3Spm4oBOvwF/) Analytics &amp; Target: Best Practices for Analysis, som finns i [!UICONTROL Adobe Experience League].
 
 +++
 

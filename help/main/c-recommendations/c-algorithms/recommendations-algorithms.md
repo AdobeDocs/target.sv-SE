@@ -123,7 +123,7 @@ Dessa algoritmer bygger på de grundläggande filtertekniker för samarbete som 
 
 Logiken i modellutbildning och poängsättning visas i följande diagram:
 
-![Diagram som visar logiken i modellutbildning och poängsättning ](assets/diagram3.png)
+![Diagram som visar logiken i modellutbildning och poängsättning &#x200B;](assets/diagram3.png)
 
 Här följer information om de här stegen:
 

@@ -35,7 +35,7 @@ I det här fallet behöver ni geospecifika versioner av upplevelsen, så att ni 
 
 1. Välj upplevelsen och klicka sedan på **[!UICONTROL Configure]** > **[!UICONTROL Multiple Audiences]**.
 
-1. Klicka på ikonen **[!UICONTROL Add Audience]** ( ![ Lägg till ikon ](/help/main/assets/icons/Add.svg) ) i rutan [!UICONTROL Experience Audiences] och välj sedan den första målgrupp du vill ha. Upprepa för varje publik.
+1. Klicka på ikonen **[!UICONTROL Add Audience]** ( ![&#x200B; Lägg till ikon &#x200B;](/help/main/assets/icons/Add.svg) ) i rutan [!UICONTROL Experience Audiences] och välj sedan den första målgrupp du vill ha. Upprepa för varje publik.
 
    Om målgruppen inte finns än klickar du på [Skapa målgrupp](/help/main/c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558) och konfigurerar den.
 

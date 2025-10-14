@@ -21,7 +21,7 @@ Processen för att skapa och använda inkluderingsregler för kriterier och kamp
 
 ## Lägga till filtreringsregler i villkor {#section_CD0D74B8D3BE4A75A78C36CF24A8C57F}
 
-Klicka [ under ](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE) när du **[!UICONTROL Add Filtering Rule]** skapar villkor **[!UICONTROL Inclusion Rules]**.
+Klicka [&#x200B; under &#x200B;](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE) när du **[!UICONTROL Add Filtering Rule]** skapar villkor **[!UICONTROL Inclusion Rules]**.
 
 ![include_options_new image](assets/inclusion_options_new.png)
 

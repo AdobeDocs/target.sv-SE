@@ -91,7 +91,7 @@ Som onlinemarkör vill du att AEP/Unified Profile ska dela attributvärden med [
 
 Så här skapar du ett JSON-erbjudande om att dela AEP/Unified Profile-attribut med [!DNL Target]:
 
-1. Välj [ i listan ](/help/main/c-experiences/c-manage-content/create-json-offer.md) när du **[!UICONTROL Select a source]** skapar ett JSON-erbjudande **[!UICONTROL Adobe Experience Platform]**.
+1. Välj [&#x200B; i listan &#x200B;](/help/main/c-experiences/c-manage-content/create-json-offer.md) när du **[!UICONTROL Select a source]** skapar ett JSON-erbjudande **[!UICONTROL Adobe Experience Platform]**.
 1. Välj önskad sandlåda i listan **[!UICONTROL Select a profile sandbox name]**.
 1. Välj önskade attribut i listan **[!UICONTROL Select a profile attribute]**.
 1. (Valfritt) Välj önskade värden i listan **[!UICONTROL Insert a default value]**.

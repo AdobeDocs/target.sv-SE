@@ -26,7 +26,7 @@ Uppdatera sidan för att se statusändringar. Du kan även visa åtgärder som u
 
 ## API:er för målgranskningslogg
 
-* [Revisioner: Hämta granskningsloggen med den senaste författarens namn och en tidsstämpel som ändrats efter ](https://developer.adobe.com/target/administer/admin-api/#tag/Revisions){target=_blank}
+* [Revisioner: Hämta granskningsloggen med den senaste författarens namn och en tidsstämpel som ändrats efter &#x200B;](https://developer.adobe.com/target/administer/admin-api/#tag/Revisions){target=_blank}
 * [Listaktivitetsändringg](https://developer.adobe.com/target/administer/admin-api/#tag/Activities/operation/getChangelog){target=_blank}
 
 

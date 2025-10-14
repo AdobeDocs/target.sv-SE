@@ -147,7 +147,7 @@ I följande svarsexempel läggs en [!DNL Platform Web SDK] anpassad händelsehan
 
 ### ![at.js-märket](/help/main/assets/atjs.png) at.js med anpassade händelser
 
-Använd anpassade [ at.js-händelser](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/atjs-custom-events.html?lang=sv-SE){target=_blank} för att lyssna efter [!DNL Target]-svaret och läsa svarstoken.
+Använd anpassade [&#x200B; at.js-händelser](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/atjs-custom-events.html?lang=sv-SE){target=_blank} för att lyssna efter [!DNL Target]-svaret och läsa svarstoken.
 
 I följande kodexempel läggs en anpassad [!DNL at.js]-händelsehanterare till direkt på HTML-sidan:
 

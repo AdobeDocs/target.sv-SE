@@ -60,7 +60,7 @@ När du skapar en anpassad målgrupp baserat på en mbox-parameter uppmanar `mbo
 1. (Valfritt) Ange ytterligare regler för målgruppen.
 1. Klicka på **[!UICONTROL Done]**.
 
-Publiken har popup-kortet [ för ](/help/main/c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780)definitionsinformation som visar parameternamnet i avsnittet **[!UICONTROL Rules]**. Det finns ingen referens till mbox som används för filtrering.
+Publiken har popup-kortet [&#x200B; för &#x200B;](/help/main/c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780)definitionsinformation som visar parameternamnet i avsnittet **[!UICONTROL Rules]**. Det finns ingen referens till mbox som används för filtrering.
 
 >[!NOTE]
 >

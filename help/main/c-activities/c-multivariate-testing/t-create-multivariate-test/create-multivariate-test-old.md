@@ -117,7 +117,7 @@ Med redigeraren för peka och klicka på [!DNL Target] kan du välja valfri plat
 
 1. Klicka på **[!UICONTROL Save and Close]** för att skapa aktiviteten.
 
-## Utbildningsvideo: Skapa multivariata tester (9:25) ![Självstudiekurs ](/help/main/assets/tutorial.png)
+## Utbildningsvideo: Skapa multivariata tester (9:25) ![Självstudiekurs &#x200B;](/help/main/assets/tutorial.png)
 
 I den här videon visas hur du planerar och skapar ett multivariata test med hjälp av det guidade arbetsflödet i [!DNL Target] i tre steg.
 

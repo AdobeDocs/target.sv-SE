@@ -35,7 +35,7 @@ Tänk på följande när du arbetar med AEM [!UICONTROL Content Fragments] i [!D
 
 * Du kan endast använda [!UICONTROL Content Fragments] i [!DNL Target]-aktiviteter med [formulärbaserad Experience Composer](/help/main/c-experiences/form-experience-composer.md). Du *kan inte* förbruka [!UICONTROL Content Fragments] i [!DNL Target] aktiviteter som använder [!UICONTROL Visual Experience Composer] (VEC).
 
-Mer information om AEM [!UICONTROL Content Fragments] och [!UICONTROL Experience Fragments] finns i [ AEM [!UICONTROL Experience Fragments] och [!UICONTROL Content Fragments] översikt](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md).
+Mer information om AEM [!UICONTROL Content Fragments] och [!UICONTROL Experience Fragments] finns i [&#x200B; AEM [!UICONTROL Experience Fragments] och [!UICONTROL Content Fragments] översikt](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md).
 
 ## Krav {#requirements}
 
@@ -61,7 +61,7 @@ Du kan filtrera och söka efter [!UICONTROL HTML XFs], [!UICONTROL JSON XFs] och
 
 ![Filtrera efter innehållets fragmenttyper: HTML eller JSON i målgränssnittet](/help/main/c-integrating-target-with-mac/aem/assets/fragment-types.png)
 
-Du kan hålla markören över [!UICONTROL Experience Fragment] i listan och sedan klicka på ikonen [!UICONTROL View] ![Info ](/help/main/assets/icons/InfoOutline.svg) för att se ytterligare information om [!UICONTROL Content Fragment], inklusive dess [!UICONTROL Name], [!UICONTROL Type], [!UICONTROL Offer ID], [!UICONTROL Offer path] och senaste ändringsinformation. Klicka på [!UICONTROL [!UICONTROL View Full Details]] om du vill se aktiviteterna som refererar till det här erbjudandet.
+Du kan hålla markören över [!UICONTROL Experience Fragment] i listan och sedan klicka på ikonen [!UICONTROL View] ![Info &#x200B;](/help/main/assets/icons/InfoOutline.svg) för att se ytterligare information om [!UICONTROL Content Fragment], inklusive dess [!UICONTROL Name], [!UICONTROL Type], [!UICONTROL Offer ID], [!UICONTROL Offer path] och senaste ändringsinformation. Klicka på [!UICONTROL [!UICONTROL View Full Details]] om du vill se aktiviteterna som refererar till det här erbjudandet.
 
 Du kan endast använda [!UICONTROL Content Fragments] i [!DNL Target]-aktiviteter med [formulärbaserad Experience Composer](/help/main/c-experiences/form-experience-composer.md). Du *kan inte* förbruka [!UICONTROL Content Fragments] i [!DNL Target] aktiviteter med [Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC). [!UICONTROL Content Fragments] exporteras som JSON i [!DNL Target] och kan inte användas i aktiviteter som skapats med VEC.
 
@@ -75,7 +75,7 @@ Du kan endast använda [!UICONTROL Content Fragments] i [!DNL Target]-aktivitete
 
 **För att förbruka [!UICONTROL Content Fragments] med [!UICONTROL Form-based Experience Composer]:**
 
-1. I [!DNL Target], när du skapar eller redigerar en upplevelse i [ formulärbaserad Experience Composer](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E), markerar du den plats på sidan där du vill infoga [!DNL AEM]-innehåll och väljer sedan **[!UICONTROL Change Content Fragment]** för att visa listan [!UICONTROL Choose a Content Fragment].
+1. I [!DNL Target], när du skapar eller redigerar en upplevelse i [&#x200B; formulärbaserad Experience Composer](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E), markerar du den plats på sidan där du vill infoga [!DNL AEM]-innehåll och väljer sedan **[!UICONTROL Change Content Fragment]** för att visa listan [!UICONTROL Choose a Content Fragment].
 
    ![content_fragment_list image](/help/main/c-integrating-target-with-mac/aem/assets/choose-content-fragment.png)
 

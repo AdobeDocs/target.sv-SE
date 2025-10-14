@@ -75,13 +75,13 @@ Så här skapar du engagerande text med [!DNL AI Assistant]:
 
    ![AI-assistenten med genererad text](/help/main/c-intro/assets/ai-text-done.png)
 
-1. (Villkorligt) Klicka på ikonen [!UICONTROL Undo] ( ![ Ångra-ikonen ](/help/main/assets/icons/Undo.svg) ) om du vill ångra ändringarna.
+1. (Villkorligt) Klicka på ikonen [!UICONTROL Undo] ( ![&#x200B; Ångra-ikonen &#x200B;](/help/main/assets/icons/Undo.svg) ) om du vill ångra ändringarna.
 
 1. (Valfritt) Ge feedback till [!DNL AI Assistant].
 
-   * Klicka på ikonen för att visa upp reglaget ( ![Retuschera uppåt ](/help/main/assets/icons/ThumbUp.svg) ) för att tala om för [!DNL AI Assistant] att du gillar variationen.
-   * Klicka på ikonen Tummen nedåt ( ![Tummen nedåt ](/help/main/assets/icons/ThumbDown.svg) ) för att tala om för [!DNL AI Assistant] att du inte gillar variationen.
-   * Klicka på ikonen [!UICONTROL Report Results] ( ![Rapportera resultat ](/help/main/assets/icons/Flag.svg) ) för att rapportera ett problem till [!DNL AI Assistant].
+   * Klicka på ikonen för att visa upp reglaget ( ![Retuschera uppåt &#x200B;](/help/main/assets/icons/ThumbUp.svg) ) för att tala om för [!DNL AI Assistant] att du gillar variationen.
+   * Klicka på ikonen Tummen nedåt ( ![Tummen nedåt &#x200B;](/help/main/assets/icons/ThumbDown.svg) ) för att tala om för [!DNL AI Assistant] att du inte gillar variationen.
+   * Klicka på ikonen [!UICONTROL Report Results] ( ![Rapportera resultat &#x200B;](/help/main/assets/icons/Flag.svg) ) för att rapportera ett problem till [!DNL AI Assistant].
 
 ## Exempelvariationer {#variations}
 

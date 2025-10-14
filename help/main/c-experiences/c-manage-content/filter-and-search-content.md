@@ -22,14 +22,14 @@ Sök efter resurser efter nyckelord i biblioteket [!UICONTROL Offers] i [!DNL Ad
 
    Du kan använda listrutan för att filtrera efter [!UICONTROL Offer name], [!UICONTROL AEM Paths] eller [!UICONTROL AEM Tags].
 
-   Du kan också filtrera med alternativen [!UICONTROL Type], [!UICONTROL Source] och [!UICONTROL AEM Type] genom att klicka på ikonen [!UICONTROL Show Filters] ![Visa filter ](/help/main/assets/icons/Filter.svg) för att ytterligare förfina sökningen.
+   Du kan också filtrera med alternativen [!UICONTROL Type], [!UICONTROL Source] och [!UICONTROL AEM Type] genom att klicka på ikonen [!UICONTROL Show Filters] ![Visa filter &#x200B;](/help/main/assets/icons/Filter.svg) för att ytterligare förfina sökningen.
 
 ## Sök efter bildobjekt efter nyckelord {#section_2465A71BC95942588F586B1EC8B9E5DB}
 
 1. Klicka på **[!UICONTROL Offers]** > **[!UICONTROL Image Offers]**.
 
-1. (Valfritt) Växla mellan [!UICONTROL Card View] och [!UICONTROL List View], klicka på ikonen [!UICONTROL Card View] ( ![ ikonen för kortvyn ](/help/main/assets/icons/ViewCard.svg) ) eller på ikonen [!UICONTROL List View] ( ![ ikonen för listvyn ](/help/main/assets/icons/ViewList.svg) ) i det övre högra hörnet av [!UICONTROL Asset]-biblioteket.
-1. Klicka på ikonen **[!UICONTROL Content Only]** ( ![Endast innehåll ](/help/main/assets/icons/RailLeft.svg) ) i det övre vänstra hörnet för att visa sökrutan.
+1. (Valfritt) Växla mellan [!UICONTROL Card View] och [!UICONTROL List View], klicka på ikonen [!UICONTROL Card View] ( ![&#x200B; ikonen för kortvyn &#x200B;](/help/main/assets/icons/ViewCard.svg) ) eller på ikonen [!UICONTROL List View] ( ![&#x200B; ikonen för listvyn &#x200B;](/help/main/assets/icons/ViewList.svg) ) i det övre högra hörnet av [!UICONTROL Asset]-biblioteket.
+1. Klicka på ikonen **[!UICONTROL Content Only]** ( ![Endast innehåll &#x200B;](/help/main/assets/icons/RailLeft.svg) ) i det övre vänstra hörnet för att visa sökrutan.
 1. Skriv ett nyckelord för de resurser du vill söka efter i sökrutan och tryck sedan på [!UICONTROL Enter].
 1. (Villkorligt) Använd rutan **[!UICONTROL Filters & Options]** till vänster för att förfina sökningen.
 

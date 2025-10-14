@@ -30,7 +30,7 @@ Så här visar du [!UICONTROL Auto-Target Summary]-rapporter:
 
    * **[!UICONTROL Table View]** ( ![Tabellvyikon](/help/main/assets/icons/Table.svg) )
    * **[!UICONTROL Graph View]** ( ![Diagramvyikon](/help/main/assets/icons/GraphTrend.svg) )
-   * **[!UICONTROL Automated Segments]** ( ![Rapporten Automatiska segment ](/help/main/assets/icons/AutomatedSegment.svg) )
+   * **[!UICONTROL Automated Segments]** ( ![Rapporten Automatiska segment &#x200B;](/help/main/assets/icons/AutomatedSegment.svg) )
    * [!UICONTROL Important Attributes]** ( ![ikon för viktiga attribut](/help/main/assets/icons/ViewList.svg) )
 
 ## Tabellvy

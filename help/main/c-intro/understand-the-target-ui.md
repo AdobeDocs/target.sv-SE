@@ -57,7 +57,7 @@ Om du klickar på ikonen [!UICONTROL Help] ( ![hjälpikon](/help/main/assets/ico
 
 Panelerna [!UICONTROL Requests], [!UICONTROL Notifications] och [!UICONTROL Announcements] hjälper dig att hålla dig uppdaterad om alla saker [!DNL Adobe Target]. Proaktiva meddelanden hjälper dig att hålla dig à jour med statusen för [!DNL Adobe Experience Cloud]-lösningar och [!DNL Target]-händelser. Proaktiva meddelanden varnar dig för driftavbrott och underhållshändelser.
 
-Klicka på ikonen [!UICONTROL Notifications] ( ![Notifications icon ](/help/main/assets/icons/Bell.svg) ) i sidhuvudet för att visa meddelanden:
+Klicka på ikonen [!UICONTROL Notifications] ( ![Notifications icon &#x200B;](/help/main/assets/icons/Bell.svg) ) i sidhuvudet för att visa meddelanden:
 
 Panelen innehåller flikar för [!UICONTROL Requests], [!UICONTROL Notifications] och [!UICONTROL Announcements].
 
@@ -105,9 +105,9 @@ När någon skickar en begäran till dig om att godkänna ett objekt eller bevil
    * `Feed {target.feed.name} has failed`
    * `Feed {target.feed.name} has failed to import from source`
 
-Du kan markera enskilda meddelanden som lästa genom att hålla muspekaren över det önskade meddelandet och sedan klicka på ikonen [!UICONTROL Mark as Read] ( ![Markera som läst ](/help/main/assets/icons/CheckmarkCircle.svg) ). Du kan markera alla meddelanden som lästa eller visa alla meddelanden genom att klicka på [!UICONTROL Mark as Read] eller [!UICONTROL View All] längst ned på panelen.
+Du kan markera enskilda meddelanden som lästa genom att hålla muspekaren över det önskade meddelandet och sedan klicka på ikonen [!UICONTROL Mark as Read] ( ![Markera som läst &#x200B;](/help/main/assets/icons/CheckmarkCircle.svg) ). Du kan markera alla meddelanden som lästa eller visa alla meddelanden genom att klicka på [!UICONTROL Mark as Read] eller [!UICONTROL View All] längst ned på panelen.
 
-Du kan också ange att en påminnelse ska meddelas igen genom att hålla pekaren över ett meddelande och klicka på ikonen [!UICONTROL Snooze] ( ![Snoze ](/help/main/assets/icons/Clock.svg) ). Du kan sedan välja när du vill bli meddelad: 5 minuter, 15 minuter, en timme eller imorgon.
+Du kan också ange att en påminnelse ska meddelas igen genom att hålla pekaren över ett meddelande och klicka på ikonen [!UICONTROL Snooze] ( ![Snoze &#x200B;](/help/main/assets/icons/Clock.svg) ). Du kan sedan välja när du vill bli meddelad: 5 minuter, 15 minuter, en timme eller imorgon.
 
 #### Meddelanden
 
@@ -119,7 +119,7 @@ Mer detaljerad information finns på sidan [Adobe Status](https://status.adobe.c
 
 Så här redigerar du aviseringsinställningarna:
 
-1. Klicka på ikonen [!UICONTROL Edit Preferences] ( ![Redigera inställningar ](/help/main/assets/icons/Setting.svg) ) och klicka sedan på **[!UICONTROL Notifications]** i den vänstra listen.
+1. Klicka på ikonen [!UICONTROL Edit Preferences] ( ![Redigera inställningar &#x200B;](/help/main/assets/icons/Setting.svg) ) och klicka sedan på **[!UICONTROL Notifications]** i den vänstra listen.
 1. Under **[!UICONTROL Target]** väljer du hur du vill bli meddelad:
 
    * [!UICONTROL In-app]
@@ -191,7 +191,7 @@ Klicka på fliken **[!UICONTROL Recommendations]** för att komma åt [!DNL Targ
 
 [!UICONTROL Recommendations]-aktiviteter visar automatiskt produkter eller innehåll som kan intressera dina kunder baserat på tidigare användaraktivitet eller andra algoritmer. Rekommendationer hjälper kunderna att hänvisa till relevanta objekt som de annars kanske inte känner till.
 
-Mer information om [ i ](/help/main/c-recommendations/recommendations.md) finns i [!UICONTROL Recommendations]Rekommendationer[!DNL Target] och om användargränssnittet i [!UICONTROL Recommendations].
+Mer information om [&#x200B; i &#x200B;](/help/main/c-recommendations/recommendations.md) finns i [!UICONTROL Recommendations]Rekommendationer[!DNL Target] och om användargränssnittet i [!UICONTROL Recommendations].
 
 ## Administration
 

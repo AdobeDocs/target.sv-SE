@@ -159,7 +159,7 @@ Som standard öppnar [!UICONTROL Visual Experience Composer] (VEC) sidan som ang
 
 Om du vill visa en annan sida efter att VEC har öppnats klickar du på **[!UICONTROL Configure gear icon]** > välj **[!UICONTROL Page Delivery]** > och anger sedan önskad URL i fältet [!UICONTROL Activity URL].
 
-![Konfigurera inställningar för sidleverans ](assets/configure-page-delivery.png)
+![Konfigurera inställningar för sidleverans &#x200B;](assets/configure-page-delivery.png)
 
 Men tänk om URL:en innehåller frågesträngsparametrar? Fungerar det och visar det personaliserade innehållet? I det här scenariot kan du, oavsett vilken målgrupp du har, inkludera mallregler förutom bas-URL:en för att definiera frågeparametrarna.
 

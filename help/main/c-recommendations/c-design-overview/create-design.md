@@ -70,7 +70,7 @@ Du kan skapa en design baserad på en standarddesign eller skapa en egen design.
 
 1. Klicka på **[!UICONTROL Create Design]**.
 
-   Om du vill basera din nya anpassade design på en befintlig design klickar du på ikonen [!UICONTROL More Actions] ( ![Fler åtgärder-ikon ](/help/main/assets/icons/MoreSmallList.svg) ) för den design du vill skapa och sedan på [!UICONTROL Copy]. Du kan sedan redigera kopian för att skapa en ny anpassad design.
+   Om du vill basera din nya anpassade design på en befintlig design klickar du på ikonen [!UICONTROL More Actions] ( ![Fler åtgärder-ikon &#x200B;](/help/main/assets/icons/MoreSmallList.svg) ) för den design du vill skapa och sedan på [!UICONTROL Copy]. Du kan sedan redigera kopian för att skapa en ny anpassad design.
 
 1. Lägg till en **[!UICONTROL Name]** och en valfri förhandsvisningsbild.
 
@@ -313,7 +313,7 @@ Du kan också skicka ytterligare information i svaret. Följande kodfil är ett 
     }  
 ```
 
-## Utbildningsvideo: Skapa anpassade designer i rekommendationer (3:20) ![Översikt ](/help/main/assets/overview.png)
+## Utbildningsvideo: Skapa anpassade designer i rekommendationer (3:20) ![Översikt &#x200B;](/help/main/assets/overview.png)
 
 Den här videon innehåller följande information:
 

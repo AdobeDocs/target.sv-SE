@@ -25,7 +25,7 @@ Följande avsnitt innehåller mer information:
 
 ### Lägg till filtreringsregler i villkor
 
-1. Klicka [ under ](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE) när **[!UICONTROL Recommendations]skapar villkor[!UICONTROL Criteria] ([!UICONTROL Create Criteria] >[!UICONTROL Create Criteria]** > **[!UICONTROL Add Filtering Rule]** > **[!UICONTROL Inclusion Rules]**).
+1. Klicka [&#x200B; under &#x200B;](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE) när **[!UICONTROL Recommendations]skapar villkor[!UICONTROL Criteria] ([!UICONTROL Create Criteria] >[!UICONTROL Create Criteria]** > **[!UICONTROL Add Filtering Rule]** > **[!UICONTROL Inclusion Rules]**).
 
    ![Lägg till filtreringsregel](/help/main/c-recommendations/c-algorithms/assets/add-fitering-rule.png)
 

@@ -45,7 +45,7 @@ Det kan finnas en [!UICONTROL Unspecified]-händelserad som visas i din rapport,
 
 Vanligtvis visas den här raden om du väljer ett vanligt mått i rapporten som inte är [!DNL Target]-specifikt (till exempel [!UICONTROL Page Views], [!UICONTROL Visits], [!UICONTROL Unique Visitors] och så vidare). I det här fallet innehåller raden [!UICONTROL "Unspecified"] alla [!UICONTROL Page Views], [!UICONTROL Visits] och [!UICONTROL Unique Visitors] som inte är associerade med [!DNL Target]-aktiviteter.
 
-Den raden kommer inte att ha någon [!DNL Target]-associerad information (till exempel inga besökare, besök eller visningar). Mer information finns i [&quot;Ospecificerad&quot;,&quot;Ingen&quot;,&quot;Annan&quot; och&quot;Okänd&quot; i ](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=sv-SE) i *Analytics-anteckningar*.
+Den raden kommer inte att ha någon [!DNL Target]-associerad information (till exempel inga besökare, besök eller visningar). Mer information finns i [&quot;Ospecificerad&quot;,&quot;Ingen&quot;,&quot;Annan&quot; och&quot;Okänd&quot; i &#x200B;](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=sv-SE) i *Analytics-anteckningar*.
 
 Om du väljer ett [!DNL Target]-specifikt mått i rapporten visas inte raden [!UICONTROL "Unspecified"]. Det enda sättet att undvika att ha det i rapporten helt och hållet är att ange ett [!DNL Target]-anrop för varje begäran som skickas från den sidan, vilket inte är vanligt eller nödvändigt.
 

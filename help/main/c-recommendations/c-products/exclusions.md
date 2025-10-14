@@ -63,7 +63,7 @@ After creating a search using "id > contains," for example, you can then click [
 
 ## Redigera, kopiera eller ta bort ett undantag
 
-Klicka på ikonen Fler åtgärder ( ![Fler åtgärder ](/help/main/assets/icons/MoreSmallList.svg) ) bredvid önskat undantag i listan och klicka sedan på lämplig ikon: [!UICONTROL Edit], [!UICONTROL Copy] eller [!UICONTROL Delete].
+Klicka på ikonen Fler åtgärder ( ![Fler åtgärder &#x200B;](/help/main/assets/icons/MoreSmallList.svg) ) bredvid önskat undantag i listan och klicka sedan på lämplig ikon: [!UICONTROL Edit], [!UICONTROL Copy] eller [!UICONTROL Delete].
 
 Du kan kopiera ett befintligt undantag för att skapa ett duplicerat undantag som du sedan kan ändra. Med det här alternativet kan du skapa ett liknande undantag utan ansträngning.
 

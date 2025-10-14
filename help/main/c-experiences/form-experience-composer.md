@@ -23,9 +23,9 @@ Om du skapar en [!UICONTROL Recommendations]-aktivitet finns det inga upplevelse
 
 1. Välj **[!UICONTROL Form]** i dialogrutan [!UICONTROL Create Activity].
 
-1. (Villkorligt) Om du är [Target Premium-kund](/help/main/c-intro/intro.md#premium) väljer du en **[!UICONTROL Choose Workspace]** arbetsyta[ i listrutan ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) .
+1. (Villkorligt) Om du är [Target Premium-kund](/help/main/c-intro/intro.md#premium) väljer du en **[!UICONTROL Choose Workspace]** arbetsyta[&#x200B; i listrutan &#x200B;](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) .
 
-   Alternativet [[!UICONTROL Choose Workplace]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) är en [ Target Premium](/help/main/c-intro/intro.md)-funktion och kanske inte visas om din organisation har en [!UICONTROL Target Standard]-licens.
+   Alternativet [[!UICONTROL Choose Workplace]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) är en [&#x200B; Target Premium](/help/main/c-intro/intro.md)-funktion och kanske inte visas om din organisation har en [!UICONTROL Target Standard]-licens.
 
 1. Välj en egenskap.
 
@@ -36,7 +36,7 @@ Om du skapar en [!UICONTROL Recommendations]-aktivitet finns det inga upplevelse
    Den här skärmen är annorlunda om du skapar en [!UICONTROL Recommendations]-aktivitet. [!UICONTROL Recommendations] aktiviteter inkluderar inte upplevelser.
 
 1. &#x200B;
-   1. Klicka på ikonen **[!UICONTROL Rename]** ( ![Byt namn ](/help/main/assets/icons/MoreSmallListVert.svg) ), klicka på **[!UICONTROL Rename]**, ange ett namn för aktiviteten och klicka sedan på **[!UICONTROL Save]**.
+   1. Klicka på ikonen **[!UICONTROL Rename]** ( ![Byt namn &#x200B;](/help/main/assets/icons/MoreSmallListVert.svg) ), klicka på **[!UICONTROL Rename]**, ange ett namn för aktiviteten och klicka sedan på **[!UICONTROL Save]**.
 
    Aktivitetsnamnet får inte börja med något av följande tecken:
 

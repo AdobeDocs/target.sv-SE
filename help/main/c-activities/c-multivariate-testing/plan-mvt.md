@@ -25,7 +25,7 @@ Planera att testa de element på sidan som kan ge betydande resultat. En bandero
 
 Innan du skapar testet bör du skapa det innehåll du vill testa. Förstå skillnaderna i innehåll för varje erbjudande och skapa bilder, text och HTML-erbjudanden som du förväntar dig att använda i testet.
 
-## Utbildningsvideo: Skapa multivariata tester (9:25) ![Självstudiekurs ](/help/main/assets/tutorial.png)
+## Utbildningsvideo: Skapa multivariata tester (9:25) ![Självstudiekurs &#x200B;](/help/main/assets/tutorial.png)
 
 I den här videon visas hur du planerar och skapar ett multivariata test med hjälp av det guidade arbetsflödet i [!DNL Target] i tre steg.
 

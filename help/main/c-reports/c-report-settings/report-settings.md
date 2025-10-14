@@ -34,7 +34,7 @@ Du kan också konfigurera rapporten för en enskild aktivitet efter behov och se
 
    De tillgängliga inställningarna, inklusive mått, datumintervall, målgrupper, avancerade inställningar och så vidare, förklaras nedan.
 
-1. Klicka på ikonen **[!UICONTROL Target Preset]** ( **[!UICONTROL More Options]** ikonen Fler alternativ![ ) > ](/help/main/assets/icons/MoreSmallListVert.svg) bredvid **[!UICONTROL Save as New]**.
+1. Klicka på ikonen **[!UICONTROL Target Preset]** ( **[!UICONTROL More Options]** ikonen Fler alternativ![&#x200B; ) > &#x200B;](/help/main/assets/icons/MoreSmallListVert.svg) bredvid **[!UICONTROL Save as New]**.
 
    Dialogrutan [!UICONTROL Create Preset] visas.
 
@@ -55,12 +55,12 @@ Välj önskad förinställning i listrutan **[!UICONTROL Target Preset]**.
 
    När du har klickat på [!UICONTROL Save] efter att ha redigerat rapportens konfiguration visas en asterisk ( &#42; ) efter förinställningens namn för att ange att förinställningen har ändrats.
 
-1. Klicka på ikonen **[!UICONTROL More Options]** ( ![Fler alternativ ](/help/main/assets/icons/MoreSmallListVert.svg) ) > **[!UICONTROL Save as New]** för att skapa en ny förinställning.
+1. Klicka på ikonen **[!UICONTROL More Options]** ( ![Fler alternativ &#x200B;](/help/main/assets/icons/MoreSmallListVert.svg) ) > **[!UICONTROL Save as New]** för att skapa en ny förinställning.
 
 ### Ta bort en förinställning
 
 1. Markera den förinställning som du vill ta bort.
-1. Klicka på ikonen **[!UICONTROL More Options]** ( ![Fler alternativ ](/help/main/assets/icons/MoreSmallListVert.svg) ) > **[!UICONTROL Delete]**.
+1. Klicka på ikonen **[!UICONTROL More Options]** ( ![Fler alternativ &#x200B;](/help/main/assets/icons/MoreSmallListVert.svg) ) > **[!UICONTROL Delete]**.
 
 1. Klicka på **[!UICONTROL Delete]** igen för att bekräfta borttagningen (borttagna förinställningar kan inte återställas).
 
@@ -112,7 +112,7 @@ I rutan [!UICONTROL Date Range] visas rapportens aktuella datumintervall. Klicka
 
 Så här konfigurerar du rapportinställningar:
 
-1. Klicka på ikonen **[!UICONTROL Report Settings]** ( ![Rapportinställningar ](/help/main/assets/icons/Setting.svg) ) och gör önskade ändringar (enligt beskrivningen nedan).
+1. Klicka på ikonen **[!UICONTROL Report Settings]** ( ![Rapportinställningar &#x200B;](/help/main/assets/icons/Setting.svg) ) och gör önskade ändringar (enligt beskrivningen nedan).
 1. Klicka på **[!UICONTROL Save]** när du är klar.
 
 Beroende på den valda aktivitetstypen varierar alternativen:
@@ -151,26 +151,26 @@ Exkludera extrema värden
 
 ## Ladda ned {#section_77E65C50BAAF4AB79242DB3A8778ADEF}
 
-Klicka på ikonen **[!UICONTROL Download]** ( ![ ikonen Hämta ](/help/main/assets/icons/Download.svg) ) om du vill hämta rapportdata i ett [!DNL .csv]-format för snabb import till Excel, Access eller andra dataanalysprogram.
+Klicka på ikonen **[!UICONTROL Download]** ( ![&#x200B; ikonen Hämta &#x200B;](/help/main/assets/icons/Download.svg) ) om du vill hämta rapportdata i ett [!DNL .csv]-format för snabb import till Excel, Access eller andra dataanalysprogram.
 
 Mer information finns i [Hämta data i en CSV-fil](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md).
 
 ## Uppdatera {#section_E203729F2F314DF3856D2EE67C60B370}
 
-Klicka på ikonen **[!UICONTROL Refresh]** ( ![ Uppdatera ikon ](/help/main/assets/icons/Refresh.svg) ) om du vill uppdatera en rapports tabell- och diagramvy utan att uppdatera hela sidan, dess konfiguration eller dess datumintervall.
+Klicka på ikonen **[!UICONTROL Refresh]** ( ![&#x200B; Uppdatera ikon &#x200B;](/help/main/assets/icons/Refresh.svg) ) om du vill uppdatera en rapports tabell- och diagramvy utan att uppdatera hela sidan, dess konfiguration eller dess datumintervall.
 
 ## Fler alternativ {#section_AB1B5C695D7045A0A0AC0E2698D2E7DE}
 
-Klicka på ikonen **[!UICONTROL More Options]** ( ![ ikonen Fler alternativ ](/help/main/assets/icons/MoreSmallListVert.svg) ) för att komma åt alternativen [!UICONTROL Save as New] och [!UICONTROL Delete].
+Klicka på ikonen **[!UICONTROL More Options]** ( ![&#x200B; ikonen Fler alternativ &#x200B;](/help/main/assets/icons/MoreSmallListVert.svg) ) för att komma åt alternativen [!UICONTROL Save as New] och [!UICONTROL Delete].
 
 ## Visningsalternativ
 
 Du kan visa rapporten i olika format, beroende på aktivitetstypen. Välj önskat alternativ.
 
-* **Tabellvy**: Klicka på ikonen **[!UICONTROL Table View]** ( ![ Tabellvy ](/help/main/assets/icons/Table.svg) ) för att visa rapporten som en tabell.
-* **Diagramvy**: Klicka på ikonen **[!UICONTROL Graph View]** ( ![Diagramvy ](/help/main/assets/icons/GraphTrend.svg) ) för att visa rapporten som ett diagram.
-* **Automatiska segment**:(Endast tillgängligt för aktiviteter av typen [!UICONTROL Automated Personalization] (AP) och [!UICONTROL Auto-Target] (AT).) Klicka på ikonen **[!UICONTROL Automated Segments] ( ![Automatiska segment-ikon ](/help/main/assets/icons/AutomatedSegment.svg) ) för att visa [rapporten om automatiserade segment](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md).
-* **Viktiga attribut**: (Endast tillgängligt för [!DNL Automated Personalization] (AP) och [!UICONTROL Auto-Target] (AT) aktiviteter.) Klicka på ikonen **[!UICONTROL Important Attributes]** ( ![ Viktiga attribut ](/help/main/assets/icons/ViewList.svg) ) för att visa [ rapporten Viktiga attribut ](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md) .
+* **Tabellvy**: Klicka på ikonen **[!UICONTROL Table View]** ( ![&#x200B; Tabellvy &#x200B;](/help/main/assets/icons/Table.svg) ) för att visa rapporten som en tabell.
+* **Diagramvy**: Klicka på ikonen **[!UICONTROL Graph View]** ( ![Diagramvy &#x200B;](/help/main/assets/icons/GraphTrend.svg) ) för att visa rapporten som ett diagram.
+* **Automatiska segment**:(Endast tillgängligt för aktiviteter av typen [!UICONTROL Automated Personalization] (AP) och [!UICONTROL Auto-Target] (AT).) Klicka på ikonen **[!UICONTROL Automated Segments] ( ![Automatiska segment-ikon &#x200B;](/help/main/assets/icons/AutomatedSegment.svg) ) för att visa [rapporten om automatiserade segment](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md).
+* **Viktiga attribut**: (Endast tillgängligt för [!DNL Automated Personalization] (AP) och [!UICONTROL Auto-Target] (AT) aktiviteter.) Klicka på ikonen **[!UICONTROL Important Attributes]** ( ![&#x200B; Viktiga attribut &#x200B;](/help/main/assets/icons/ViewList.svg) ) för att visa [&#x200B; rapporten Viktiga attribut &#x200B;](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md) .
 
 ## Genomsnittligt intervall för Lyft, Lyft gränser och Bekräftelse {#section_0D87615B1D3344B3858BA494EEBC16FB}
 
@@ -185,7 +185,7 @@ Tänk på följande:
 
 ## Platsbidrag {#section_5832F126AC114AE1ABFFF4D9B904393B}
 
-Klicka på ikonen [[!UICONTROL Location Contribution]](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md) ( ![Platsbidrag ](/help/main/assets/icons/LocationContribution.svg) ) för att växla rapporten så att den visar hur mycket som bidrar till aktiviteten Multivariate Test (MVT) per plats.
+Klicka på ikonen [[!UICONTROL Location Contribution]](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md) ( ![Platsbidrag &#x200B;](/help/main/assets/icons/LocationContribution.svg) ) för att växla rapporten så att den visar hur mycket som bidrar till aktiviteten Multivariate Test (MVT) per plats.
 
 ## Erfarenheter {#section_3A450DE1FA7E43F0AAB73165EC3D1C34}
 
@@ -237,7 +237,7 @@ Standardordningen som diagrammet ritas i är följande:
 
 När du arbetar med alternativen för [!UICONTROL Counting Methodology] bör du tänka på följande:
 
-* För [[!UICONTROL Auto-Target] aktiviteter ](/help/main/c-activities/auto-target/auto-target-to-optimize.md) finns det inget alternativ för att välja &quot;Besökare&quot; som beräkningsmetod. [!UICONTROL Auto-Target] är den enda aktivitetstypen som du inte kan rita upp av besökare.
+* För [[!UICONTROL Auto-Target] aktiviteter &#x200B;](/help/main/c-activities/auto-target/auto-target-to-optimize.md) finns det inget alternativ för att välja &quot;Besökare&quot; som beräkningsmetod. [!UICONTROL Auto-Target] är den enda aktivitetstypen som du inte kan rita upp av besökare.
 * För aktiviteter som använder [Analytics som rapportkälla (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md) kan du inte rita in besökare, besök eller Impression kumulativt.
 
 ## Arbeta med diagram som har mer än 16 upplevelser i aktiviteten

@@ -29,7 +29,7 @@ Det finns två alternativ för din kontroll i dina [!UICONTROL Automated Persona
 
 ## Ange en specifik upplevelse som kontroll
 
-1. När du skapar eller redigerar en [[!UICONTROL Automated Personalization] aktivitet ](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) eller [[!UICONTROL Auto-Target] aktivitet ](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) konfigurerar du upplevelserna som du vill.
+1. När du skapar eller redigerar en [[!UICONTROL Automated Personalization] aktivitet &#x200B;](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) eller [[!UICONTROL Auto-Target] aktivitet &#x200B;](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) konfigurerar du upplevelserna som du vill.
 1. Välj önskad upplevelse som kontroll på sidan [!UICONTROL Targeting] (steg 2 i det guidade arbetsflödet i tre delar).
 1. Ange önskad trafikallokering för kontrollupplevelsen och andra upplevelser.
 

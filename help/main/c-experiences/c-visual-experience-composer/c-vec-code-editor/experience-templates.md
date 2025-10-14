@@ -21,13 +21,13 @@ Följande mallar är för närvarande tillgängliga på Adobe Marketing Cloud Gi
 
 ## Banderoll Carousel med miniatyrbilder {#section_BEEE51D47CC44A478264BBF3FEC70DAE}
 
-[Bannerkarusellen med miniatyrbilderna ](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/banner-carousel-thumbnails) är en roterande karusell som ofta används på startsidor och landningssidor eller andra startsidor med stora volymer. Denna karusell roterar inte automatiskt genom bilderna och kan interagera direkt genom att klicka på de mindre bilderna under den primära bilden.
+[Bannerkarusellen med miniatyrbilderna &#x200B;](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/banner-carousel-thumbnails) är en roterande karusell som ofta används på startsidor och landningssidor eller andra startsidor med stora volymer. Denna karusell roterar inte automatiskt genom bilderna och kan interagera direkt genom att klicka på de mindre bilderna under den primära bilden.
 
 ![exp-template-banner-carousel-thumbnails image](assets/exp-template-banner-carousel-thumbnails.png)
 
 ## Banner Carousel {#section_725D4C0C4FCD41FA92BCFC910A216E2A}
 
-Mallen [Banner Carousel Experience ](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/banner-carousel) är en roterande karusell som ofta används på startsidor och landningssidor eller andra startsidor med stora volymer. Denna karusell roterar inte automatiskt genom bilderna och kan interagera direkt genom att klicka på vänster- och högerpilarna.
+Mallen [Banner Carousel Experience &#x200B;](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/banner-carousel) är en roterande karusell som ofta används på startsidor och landningssidor eller andra startsidor med stora volymer. Denna karusell roterar inte automatiskt genom bilderna och kan interagera direkt genom att klicka på vänster- och högerpilarna.
 
 ![exp-template-banner-carousel-bild](assets/exp-template-banner-carousel.png)
 
@@ -51,7 +51,7 @@ Mallen [för upplevelsen i Button Builder](https://github.com/Adobe-Marketing-Cl
 
 ## Ljuslåda med avslutningsmetod {#section_E624C867E4CD4F2294CFC7917EFAEBD7}
 
-[Ljuslådan med upplevelsemallen Avsluta ](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/lightbox-exit-intent) är en popup-ruta med ljuslådeövertäckning som aktiveras vid avslutningsmetoden (flytta musen till övre högra delen av skärmen) och kan distribueras på alla webbegenskaper där du vill ha en sista chans att fånga uppmärksamheten.
+[Ljuslådan med upplevelsemallen Avsluta &#x200B;](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/lightbox-exit-intent) är en popup-ruta med ljuslådeövertäckning som aktiveras vid avslutningsmetoden (flytta musen till övre högra delen av skärmen) och kan distribueras på alla webbegenskaper där du vill ha en sista chans att fånga uppmärksamheten.
 
 ![exp-template-lightbox-exit image](assets/exp-template-lightbox-exit.png)
 

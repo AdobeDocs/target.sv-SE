@@ -55,7 +55,7 @@ Några exempel på hur du skulle kunna använda undantag är:
 
 ## Skapa ett undantag med avancerad sökning
 
-Du kan också skapa undantag med [!UICONTROL Advanced Search] på sidan [ Katalogsökning ](/help/main/c-recommendations/c-products/catalog-search.md#save-as) ( [!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]).
+Du kan också skapa undantag med [!UICONTROL Advanced Search] på sidan [&#x200B; Katalogsökning &#x200B;](/help/main/c-recommendations/c-products/catalog-search.md#save-as) ( [!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]).
 
 ![Spara som dialogruta](/help/main/c-recommendations/c-products/assets/save-as.png)
 

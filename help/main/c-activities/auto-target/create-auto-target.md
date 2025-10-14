@@ -34,11 +34,11 @@ Skapa en [!UICONTROL Auto-Target]-aktivitet:
    >
    >Felsökningsinformation om VEC finns i [Felsöka Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
 
-1. (Villkorligt) Om du är [Target Premium-kund](/help/main/c-intro/intro.md#premium) väljer du en **[!UICONTROL Choose Workspace]** arbetsyta[ i listrutan ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) .
+1. (Villkorligt) Om du är [Target Premium-kund](/help/main/c-intro/intro.md#premium) väljer du en **[!UICONTROL Choose Workspace]** arbetsyta[&#x200B; i listrutan &#x200B;](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) .
 
-   Alternativet [[!UICONTROL Choose Workplace]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) är en [ Target Premium](/help/main/c-intro/intro.md)-funktion och kanske inte visas om din organisation har en [!UICONTROL Target Standard]-licens.
+   Alternativet [[!UICONTROL Choose Workplace]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) är en [&#x200B; Target Premium](/help/main/c-intro/intro.md)-funktion och kanske inte visas om din organisation har en [!UICONTROL Target Standard]-licens.
 
-1. Ange din **[!UICONTROL Enter Activity URL]** aktivitets-URL[ i rutan ](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md).
+1. Ange din **[!UICONTROL Enter Activity URL]** aktivitets-URL[&#x200B; i rutan &#x200B;](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md).
 
    Om ditt konto är [konfigurerat med en standard-URL](/help/main/administrating-target/visual-experience-composer-set-up.md) visas den URL:en som standard. Du kan ändra från standardadressen till en annan URL-adress om det behövs.
 
@@ -46,7 +46,7 @@ Skapa en [!UICONTROL Auto-Target]-aktivitet:
 
    [!UICONTROL Visual Experience Composer] öppnas och sidan som anges i URL:en visas.
 
-1. Klicka på ikonen **[!UICONTROL Rename]** ( ![Byt namn ](/help/main/assets/icons/MoreSmallListVert.svg) ), klicka på **[!UICONTROL Rename]**, ange ett namn för aktiviteten och klicka sedan på **[!UICONTROL Save]**.
+1. Klicka på ikonen **[!UICONTROL Rename]** ( ![Byt namn &#x200B;](/help/main/assets/icons/MoreSmallListVert.svg) ), klicka på **[!UICONTROL Rename]**, ange ett namn för aktiviteten och klicka sedan på **[!UICONTROL Save]**.
 
    Aktivitetsnamnet får inte börja med något av följande tecken:
 
@@ -74,7 +74,7 @@ Skapa en [!UICONTROL Auto-Target]-aktivitet:
 
 1. Skapa nya upplevelser genom att ändra elementen på sidan.
 
-   [!UICONTROL Visual Experience Composer] visar två flikar till vänster när du har skapat en ny aktivitet: [!UICONTROL Experience A] och [!UICONTROL Experience B]. [!UICONTROL Experience A] är kontrollupplevelsen. Fokus ligger på fliken [!UICONTROL Experience B] som du kan ändra efter behov. [!UICONTROL Experience B] är den alternativa upplevelse som du kan lägga till i testet. Du kan lägga till flera upplevelser i testet genom att klicka på ikonen [!UICONTROL Add] ( ![ Lägg till ikon ](/help/main/assets/icons/Add.svg) ) högst upp i rutan [!UICONTROL Experiences]. Du kan också ta bort Experience A från aktiviteten om du inte vill inkludera en standardwebbplatsupplevelse som ett alternativ.
+   [!UICONTROL Visual Experience Composer] visar två flikar till vänster när du har skapat en ny aktivitet: [!UICONTROL Experience A] och [!UICONTROL Experience B]. [!UICONTROL Experience A] är kontrollupplevelsen. Fokus ligger på fliken [!UICONTROL Experience B] som du kan ändra efter behov. [!UICONTROL Experience B] är den alternativa upplevelse som du kan lägga till i testet. Du kan lägga till flera upplevelser i testet genom att klicka på ikonen [!UICONTROL Add] ( ![&#x200B; Lägg till ikon &#x200B;](/help/main/assets/icons/Add.svg) ) högst upp i rutan [!UICONTROL Experiences]. Du kan också ta bort Experience A från aktiviteten om du inte vill inkludera en standardwebbplatsupplevelse som ett alternativ.
 
    Mer information om hur du lägger till och ändrar upplevelser i [!UICONTROL Visual Experience Composer] finns i [Lägg till upplevelse](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00). Om du vill ändra upplevelse B börjar du med steg 2.
 

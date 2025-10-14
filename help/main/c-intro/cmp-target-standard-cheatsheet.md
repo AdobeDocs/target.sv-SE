@@ -30,7 +30,7 @@ Mer information finns i [Förstå  [!DNL Target] användargränssnittet](/help/m
 **Hur kan jag se hur andra kunder har utnyttjat [!DNL Target] för att få bättre resultat?**
 
 +++Se detaljer
-Utforska [framgångsberättelser från ](https://www.adobe.com/in/marketing-cloud/target/resources.html#x) om hur organisationer använder [!DNL Target] för att öka optimeringen, personalisera upplevelser och uppnå mätbara affärsresultat.
+Utforska [framgångsberättelser från &#x200B;](https://www.adobe.com/in/marketing-cloud/target/resources.html#x) om hur organisationer använder [!DNL Target] för att öka optimeringen, personalisera upplevelser och uppnå mätbara affärsresultat.
 
 +++
 
@@ -153,7 +153,7 @@ Kom ihåg att aktivera aktiviteten. Endast aktiva aktiviteter följer angivet sc
 **Kan jag ändra till bara [!UICONTROL Targeting] -steget och inte gå igenom hela det guidade trestegsarbetsflödet för redigering?**
 
 +++Se detaljer
-Du kan enkelt göra det genom att [skriva in det önskade steget direkt från [!UICONTROL Activity Overview] sidan ](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0) och sedan avsluta det steget med alternativet [!UICONTROL Save and Close] .
+Du kan enkelt göra det genom att [skriva in det önskade steget direkt från [!UICONTROL Activity Overview] sidan &#x200B;](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0) och sedan avsluta det steget med alternativet [!UICONTROL Save and Close] .
 
 +++
 
@@ -406,7 +406,7 @@ Det är här [Analyser för mål (A4T)](/help/main/c-integrating-target-with-mac
 **Kan jag utföra offlinerapporteringsberäkningar?**
 
 +++Se detaljer
-Använd alternativen [Exportera rapporter till CSV och Hämta beställningsinformation till CSV ](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md) på sidan [!UICONTROL Reports] för att hämta önskade rapportdata.
+Använd alternativen [Exportera rapporter till CSV och Hämta beställningsinformation till CSV &#x200B;](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md) på sidan [!UICONTROL Reports] för att hämta önskade rapportdata.
 
 +++
 

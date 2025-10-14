@@ -40,7 +40,7 @@ Olika besökare svarar annorlunda på erbjudandena/upplevelserna i er AP/AT-akti
 
 1. Klicka på **[!UICONTROL Reports]**.
 
-   Rapporten [Automated Personalization Summary](/help/main/c-reports/personalization-reports/reports-ap.md) eller [Auto-Target Summary](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) visas, som innehåller information om hur dina aktiviteter fungerar, vilket representeras av ikonen för första skärmen. De två extra ikonerna representerar de två [!UICONTROL Personalization Insights]-rapporterna: **[!UICONTROL Automated Segments]** ( ![rapporten Automatiska segment ](/help/main/assets/icons/AutomatedSegment.svg) ) och **[!UICONTROL Important Attributes]** ( ![ikonen Viktiga attribut](/help/main/assets/icons/ViewList.svg) ). Automatiskt mål har en extra diagramikon för den grafiska vyn i rapporten [!UICONTROL Summary].
+   Rapporten [Automated Personalization Summary](/help/main/c-reports/personalization-reports/reports-ap.md) eller [Auto-Target Summary](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) visas, som innehåller information om hur dina aktiviteter fungerar, vilket representeras av ikonen för första skärmen. De två extra ikonerna representerar de två [!UICONTROL Personalization Insights]-rapporterna: **[!UICONTROL Automated Segments]** ( ![rapporten Automatiska segment &#x200B;](/help/main/assets/icons/AutomatedSegment.svg) ) och **[!UICONTROL Important Attributes]** ( ![ikonen Viktiga attribut](/help/main/assets/icons/ViewList.svg) ). Automatiskt mål har en extra diagramikon för den grafiska vyn i rapporten [!UICONTROL Summary].
 
    >[!IMPORTANT]
    >
@@ -80,7 +80,7 @@ I följande tabell beskrivs hur du tolkar rapporten och dess element:
 
 Detta automatiserade segment definieras utifrån endast ett attribut. Besökarna i det här automatiserade segmentet såg den här AP-aktiviteten på en veckodag utanför de vanliga arbetstiderna eller på en helg.
 
-![Exempel på rapport för automatiserade segment ](/help/main/c-reports/assets/automated_segment_example_1.png)
+![Exempel på rapport för automatiserade segment &#x200B;](/help/main/c-reports/assets/automated_segment_example_1.png)
 
 **Exempel på automatiserat segment 2**
 

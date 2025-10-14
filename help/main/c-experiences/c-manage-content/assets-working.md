@@ -21,7 +21,7 @@ Identifiera de uppgifter som du kan utföra på resurser i [!UICONTROL Adobe Tar
 
    Mer information om hur du söker i [!UICONTROL Offer library] och skapar [!UICONTROL Smart Collections] finns i [Filtrera och söka efter innehåll](/help/main/c-experiences/c-manage-content/filter-and-search-content.md#concept_3B59B8F025BF4CEA82ECC5199D365276).
 
-1. (Villkorligt) För bildeffekter växlar du mellan [!UICONTROL Card View] och [!UICONTROL List View] genom att klicka på ikonen [!UICONTROL Card View] ( ![ ikonen för kortvyn ](/help/main/assets/icons/ViewCard.svg) ) eller [!UICONTROL List View]-ikonen ( ![ ikonen för listvyn ](/help/main/assets/icons/ViewList.svg) ) i det övre högra hörnet av [!UICONTROL Asset]-biblioteket.
+1. (Villkorligt) För bildeffekter växlar du mellan [!UICONTROL Card View] och [!UICONTROL List View] genom att klicka på ikonen [!UICONTROL Card View] ( ![&#x200B; ikonen för kortvyn &#x200B;](/help/main/assets/icons/ViewCard.svg) ) eller [!UICONTROL List View]-ikonen ( ![&#x200B; ikonen för listvyn &#x200B;](/help/main/assets/icons/ViewList.svg) ) i det övre högra hörnet av [!UICONTROL Asset]-biblioteket.
 
 1. Utför den önskade åtgärden enligt följande avsnitt:
 

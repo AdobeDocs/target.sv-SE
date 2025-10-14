@@ -27,7 +27,7 @@ Du kan också begränsa vilka målgrupper som kan se specifika erbjudanden i AP-
 
 **Så här skapar du en exkluderingsgrupp:**
 
-1. Klicka på [ i rubrikfältet när du ](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)skapar eller redigerar en AP-aktivitet **[!UICONTROL Manage Content]**.
+1. Klicka på [&#x200B; i rubrikfältet när du &#x200B;](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)skapar eller redigerar en AP-aktivitet **[!UICONTROL Manage Content]**.
 
    ![Länken Hantera innehåll](/help/main/c-activities/t-automated-personalization/assets/manage-content.png)
 

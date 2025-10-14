@@ -100,7 +100,7 @@ Du kan åsidosätta den här inställningen per aktivitet (klicka på kugghjulsi
 >
 >Det går inte att åsidosätta inställningen per aktivitet i [!UICONTROL Automated Personalization]- och [!UICONTROL Multivariate Testing]-aktiviteter.  Mer information om väljare finns i [Elementväljare som används i Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md).
 
-## Utbildningsvideo: Kontoinställningar (7:33) ![Översikt ](/help/main/assets/overview.png)
+## Utbildningsvideo: Kontoinställningar (7:33) ![Översikt &#x200B;](/help/main/assets/overview.png)
 
 Den här videon innehåller information om kontoinställningar.
 

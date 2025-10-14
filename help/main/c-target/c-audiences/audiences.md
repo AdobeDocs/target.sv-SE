@@ -34,7 +34,7 @@ Det finns två typer av målgrupper i [!DNL Target]:
 
 Du öppnar listan [!UICONTROL Audiences] genom att klicka på **[!UICONTROL Audiences]** i den övre menyraden:
 
-![[!UICONTROL Audiences] lista ](assets/audiences_list.png)
+![[!UICONTROL Audiences] lista &#x200B;](assets/audiences_list.png)
 
 Listan [!UICONTROL Audiences] innehåller de målgrupper som du kan använda i dina aktiviteter. Använd listan [!UICONTROL Audiences] för att skapa, redigera, duplicera, kopiera eller kombinera målgrupper. Listan visar också källan till målgruppen:
 

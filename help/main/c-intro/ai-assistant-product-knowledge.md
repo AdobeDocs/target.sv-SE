@@ -57,7 +57,7 @@ Så här kommer du åt [!DNL AI Assistant] för produktinformation:
 1. (Valfritt) Ge feedback till [!DNL AI Assistant].
 
    * Klicka på Thumbs up ( ![Thumbs up icon](/help/main/assets/icons/ThumbUp.svg) ) för att ange för [!DNL AI Assistant] att svaret är korrekt.
-   * Klicka på ikonen Tummen nedåt ( ![Tummen nedåt ](/help/main/assets/icons/ThumbDown.svg) ) för att ange för [!DNL AI Assistant] att svaret är felaktigt.
+   * Klicka på ikonen Tummen nedåt ( ![Tummen nedåt &#x200B;](/help/main/assets/icons/ThumbDown.svg) ) för att ange för [!DNL AI Assistant] att svaret är felaktigt.
    * Klicka på ikonen Rapportera resultat ( ![Ikonen Rapportera resultat](/help/main/assets/icons/Flag.svg) ) för att rapportera ett problem till [!DNL AI Assistant].
 
 ## Utbildningsvideor

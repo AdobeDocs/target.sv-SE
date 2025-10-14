@@ -66,7 +66,7 @@ I [!DNL Adobe Journey Optimizer] kan du skapa ett personligt startsidans hjälte
 
 1. Klicka på **[!UICONTROL Replace Content]** och sedan på **[!UICONTROL Offer Decision]**.
 
-   Alternativet [!UICONTROL Offer Decision] är endast tillgängligt när du redigerar eller skapar [ manuella [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) - eller [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT)-aktiviteter. Det här alternativet är inte tillgängligt för andra aktivitetstyper. Vilka alternativ som är tillgängliga på menyn varierar beroende på vilket element som är markerat.
+   Alternativet [!UICONTROL Offer Decision] är endast tillgängligt när du redigerar eller skapar [&#x200B; manuella [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) - eller [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT)-aktiviteter. Det här alternativet är inte tillgängligt för andra aktivitetstyper. Vilka alternativ som är tillgängliga på menyn varierar beroende på vilket element som är markerat.
 
    ![Alternativ-menyn i Visual Experience Composer](assets/options-menu.png)
 
@@ -98,7 +98,7 @@ Tänk på följande när du arbetar med offertbeslut:
 
 * Faktisk integrering av erbjudandebeslut fungerar för [!DNL Target] implementeringar baserat på [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}. Den här funktionen är inte tillgänglig vid implementering av [!DNL Target] med at.js eller andra [!DNL Target] SDK:er.
 
-* Integrationen [!DNL Target]/[!DNL Adobe Journey Optimizer] stöder endast [ manuella [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types)- och [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT)-aktiviteter. Den här funktionen är inte tillgänglig för andra aktivitetstyper.
+* Integrationen [!DNL Target]/[!DNL Adobe Journey Optimizer] stöder endast [&#x200B; manuella [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types)- och [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT)-aktiviteter. Den här funktionen är inte tillgänglig för andra aktivitetstyper.
 
 * Du kan inte använda [[!UICONTROL Analytics as the reporting source]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) om du använder erbjudandebeslut i en aktivitet. Välj [!DNL Target] som rapportkälla på sidan [!UICONTROL Goals and Settings] under aktivitetsinställningar om du använder offertbeslut i aktiviteten.
 

@@ -18,11 +18,11 @@ Eftersom [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP)-aktivit
 
 1. Klicka på [!UICONTROL Visual Experience Composer] i **[!UICONTROL Preview]** (VEC).
 
-1. Klicka på ikonen **[!UICONTROL Show Experiences]** ( ![ ikonen Visa upplevelser ](/help/main/assets/icons/WebPages.svg) ) för att visa listan med alla upplevelser i den vänstra bildrutan.
+1. Klicka på ikonen **[!UICONTROL Show Experiences]** ( ![&#x200B; ikonen Visa upplevelser &#x200B;](/help/main/assets/icons/WebPages.svg) ) för att visa listan med alla upplevelser i den vänstra bildrutan.
 
 1. Klicka på en specifik upplevelse i listan för att visa den upplevelsen.
 
-1. (Villkorligt) Om du vill utesluta en eller flera upplevelser från aktiviteten klickar du på ikonen **[!UICONTROL Manage Content]** ( ![ikonen Hantera innehåll ](/help/main/assets/icons/Experience.svg) ) för att visa dialogrutan [!UICONTROL Manage Content].
+1. (Villkorligt) Om du vill utesluta en eller flera upplevelser från aktiviteten klickar du på ikonen **[!UICONTROL Manage Content]** ( ![ikonen Hantera innehåll &#x200B;](/help/main/assets/icons/Experience.svg) ) för att visa dialogrutan [!UICONTROL Manage Content].
 
 1. (Villkorligt) I dialogrutan [!UICONTROL Manage Content] klickar du på ikonen **[!UICONTROL More Actions]** ( ![ikonen Fler åtgärder](/help/main/assets/icons/MoreSmallList.svg) ) bredvid den upplevelse som du vill utesluta och klickar sedan på **[!UICONTROL Exclude]**.
 

@@ -21,7 +21,7 @@ Version [!DNL Adobe Target Standard/Premium] 25.2.1 (17 februari 2015) innehåll
 
 >[!IMPORTANT]
 >
->Den uppdaterade [!UICONTROL Visual Editing Composer] kräver [!DNL Adobe Experience Cloud] [[!UICONTROL Visual Editing Helper]-tillägget ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) som är tillgängligt på [!DNL Chrome Web Store].
+>Den uppdaterade [!UICONTROL Visual Editing Composer] kräver [!DNL Adobe Experience Cloud] [[!UICONTROL Visual Editing Helper]-tillägget &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) som är tillgängligt på [!DNL Chrome Web Store].
 
 VEC visas när du skapar eller redigerar en befintlig aktivitet.
 
@@ -42,13 +42,13 @@ Du kan visa, skapa, byta namn på eller ta bort upplevelser med hjälp av spåre
 Följande alternativ är tillgängliga i [!UICONTROL Experiences]-spåret:
 
 * **Visa en upplevelse**: Om du vill visa en upplevelse klickar du på önskad upplevelse för att visa den på arbetsytan i [!UICONTROL Design].
-* **Lägg till en upplevelse**: Klicka på ikonen **[!UICONTROL Add]** ( ![Lägg till ikon ](/help/main/assets/icons/Add.svg) ) för att lägga till en ny upplevelse. Konfigurera den nya upplevelsen efter behov.
-* **Byt namn på en upplevelse**: Klicka på ikonen **[!UICONTROL Rename]** ( ![Byt namn ](/help/main/assets/icons/Rename.svg) ) för att visa dialogrutan [!UICONTROL Rename Experience]. Ange det nya namnet och klicka sedan på **[!UICONTROL Save]**.
+* **Lägg till en upplevelse**: Klicka på ikonen **[!UICONTROL Add]** ( ![Lägg till ikon &#x200B;](/help/main/assets/icons/Add.svg) ) för att lägga till en ny upplevelse. Konfigurera den nya upplevelsen efter behov.
+* **Byt namn på en upplevelse**: Klicka på ikonen **[!UICONTROL Rename]** ( ![Byt namn &#x200B;](/help/main/assets/icons/Rename.svg) ) för att visa dialogrutan [!UICONTROL Rename Experience]. Ange det nya namnet och klicka sedan på **[!UICONTROL Save]**.
 * **Duplicera, ta bort eller omdirigera en upplevelse**: Klicka på ikonen **[!UICONTROL More Actions]** ( ![ikonen Fler åtgärder](/help/main/assets/icons/MoreSmall.svg) ) och välj sedan **[!UICONTROL Duplicate]**, **[!UICONTROL Delete]** eller **[!UICONTROL Redirect to URL]**.
 
 ### Aktivitetsinställningar/konfiguration {#settings}
 
-Klicka på ikonen [!UICONTROL Configure] ( ![ ikonen Konfigurera ](/help/main/assets/icons/Setting.svg) ) som visas ovanpå arbetsytan i [!UICONTROL Design] för att visa aktivitetsegenskapsmenyn.
+Klicka på ikonen [!UICONTROL Configure] ( ![&#x200B; ikonen Konfigurera &#x200B;](/help/main/assets/icons/Setting.svg) ) som visas ovanpå arbetsytan i [!UICONTROL Design] för att visa aktivitetsegenskapsmenyn.
 
 ![Alternativ för aktivitetskonfigurationer](/help/main/c-experiences/c-visual-experience-composer/assets/configure-options.png)
 
@@ -71,7 +71,7 @@ Använd läget [!UICONTROL Browse] för att navigera på webbplatsen och för at
 
 ### [!UICONTROL Undo]/[!UICONTROL Redo]
 
-Du kan ångra ändringar som gjorts genom att klicka på ikonen [!UICONTROL Undo] ( ![Ångra-ikonen ](/help/main/assets/icons/Undo.svg) ).
+Du kan ångra ändringar som gjorts genom att klicka på ikonen [!UICONTROL Undo] ( ![Ångra-ikonen &#x200B;](/help/main/assets/icons/Undo.svg) ).
 
 ![Ångra-ikonen i VEC](/help/main/c-experiences/c-visual-experience-composer/assets/undo.png)
 
@@ -85,9 +85,9 @@ Du kan lägga till ett antal komponenter på webbsidan och redigera dem efter be
 
 >[!NOTE]
 >
->Om du ser [!UICONTROL Modifications]-rälen i det här området i stället för [!UICONTROL Components]-rälen klickar du på ikonen **[!UICONTROL Show Components]** ( ![Visa komponentikonen ](/help/main/assets/icons/Add.svg) ). Ikonen [!UICONTROL Show Components] ( ![Visa komponentikonen](/help/main/assets/icons/Add.svg) ) och ikonen [!UICONTROL Show Modifications] ( ![Visa ändringslinjen](/help/main/assets/icons/History.svg) ) fungerar som växlar för att visa lämpliga alternativ.
+>Om du ser [!UICONTROL Modifications]-rälen i det här området i stället för [!UICONTROL Components]-rälen klickar du på ikonen **[!UICONTROL Show Components]** ( ![Visa komponentikonen &#x200B;](/help/main/assets/icons/Add.svg) ). Ikonen [!UICONTROL Show Components] ( ![Visa komponentikonen](/help/main/assets/icons/Add.svg) ) och ikonen [!UICONTROL Show Modifications] ( ![Visa ändringslinjen](/help/main/assets/icons/History.svg) ) fungerar som växlar för att visa lämpliga alternativ.
 >
->Om du vill komprimera [!UICONTROL Components]-rälen och förstora arbetsytan i [!UICONTROL Design] medan [!UICONTROL Components]-rälen är öppen klickar du på ikonen ( ![Visa komponenter ](/help/main/assets/icons/Add.svg) ).
+>Om du vill komprimera [!UICONTROL Components]-rälen och förstora arbetsytan i [!UICONTROL Design] medan [!UICONTROL Components]-rälen är öppen klickar du på ikonen ( ![Visa komponenter &#x200B;](/help/main/assets/icons/Add.svg) ).
 
 Så här lägger du till en ny komponent i en upplevelse:
 
@@ -113,7 +113,7 @@ Så här lägger du till en ny komponent i en upplevelse:
 
 ### [!UICONTROL Modifications] spår
 
-Klicka på ikonen [!UICONTROL Modifications] ( [!UICONTROL Show Modifications]Visa ändringslinjen![ ) i ](/help/main/assets/icons/History.svg)-listen för att öppna [!UICONTROL Components]-listen.
+Klicka på ikonen [!UICONTROL Modifications] ( [!UICONTROL Show Modifications]Visa ändringslinjen![&#x200B; ) i &#x200B;](/help/main/assets/icons/History.svg)-listen för att öppna [!UICONTROL Components]-listen.
 
 ![Räler för ändringar](/help/main/c-experiences/c-visual-experience-composer/assets/modifications-panel.png)
 
@@ -121,11 +121,11 @@ Klicka på ikonen [!UICONTROL Modifications] ( [!UICONTROL Show Modifications]Vi
 >
 >Ikonen [!UICONTROL Show Components] ( ![Visa komponentikonen](/help/main/assets/icons/Add.svg) ) och ikonen [!UICONTROL Show Modifications] ( ![Visa ändringslinjen](/help/main/assets/icons/History.svg) ) fungerar som växlar för att visa lämpliga alternativ.
 >
->Klicka på ikonen [!UICONTROL Modifications] ( [!UICONTROL Design]Visa ändringslinjen [!UICONTROL Modifications] ) om du vill komprimera [!UICONTROL Show Modifications]-rälen och förstora arbetsytan i ![ medan ](/help/main/assets/icons/History.svg)-rälen är öppen.
+>Klicka på ikonen [!UICONTROL Modifications] ( [!UICONTROL Design]Visa ändringslinjen [!UICONTROL Modifications] ) om du vill komprimera [!UICONTROL Show Modifications]-rälen och förstora arbetsytan i ![&#x200B; medan &#x200B;](/help/main/assets/icons/History.svg)-rälen är öppen.
 
 Rälen [!UICONTROL Modifications] visar alla ändringar som har gjorts på sidan i [!UICONTROL Visual Experience Composer] (VEC) och gör att du kan göra ytterligare ändringar (till exempel CSS-väljare, Mbox och anpassad kod).
 
-Klicka på ikonen **[!UICONTROL More Options]** ( ![ ikonen Fler åtgärder ](/help/main/assets/icons/MoreSmall.svg) ) i spårhuvudet om du vill lägga till en ändring, ta bort alla ändringar eller ta bort alla ogiltiga ändringar. Klicka på [!UICONTROL Select] om du vill utföra gruppåtgärder: [!UICONTROL Apply to All Pages] eller [!UICONTROL Delete].
+Klicka på ikonen **[!UICONTROL More Options]** ( ![&#x200B; ikonen Fler åtgärder &#x200B;](/help/main/assets/icons/MoreSmall.svg) ) i spårhuvudet om du vill lägga till en ändring, ta bort alla ändringar eller ta bort alla ogiltiga ändringar. Klicka på [!UICONTROL Select] om du vill utföra gruppåtgärder: [!UICONTROL Apply to All Pages] eller [!UICONTROL Delete].
 
 Klicka på ikonen **[!UICONTROL More Options]** ( ![Fler åtgärder-ikon](/help/main/assets/icons/MoreSmall.svg) ) bredvid varje ändring för att visa dess information, ta bort ändringen eller tillämpa ändringen på fler vyer.
 
@@ -145,7 +145,7 @@ De olika [!UICONTROL Visual Experience Composer]-åtgärderna (VEC) grupperas i 
 
 >[!NOTE]
 >
->Vilka alternativ som är tillgängliga beror på vilken aktivitetstyp och vilket element du skapar eller redigerar. Mer information om hur du redigerar bilder och erbjudanden i en [!UICONTROL A/B Test]-aktivitet finns i [Redigera element med arbetsytan i [!UICONTROL Design] ](#design) nedan.
+>Vilka alternativ som är tillgängliga beror på vilken aktivitetstyp och vilket element du skapar eller redigerar. Mer information om hur du redigerar bilder och erbjudanden i en [!UICONTROL A/B Test]-aktivitet finns i [Redigera element med arbetsytan i [!UICONTROL Design] &#x200B;](#design) nedan.
 
 ### [!UICONTROL Properties] spår
 
@@ -155,7 +155,7 @@ Med [!UICONTROL Properties]-spåret kan du ändra egenskaper för markerade elem
 
 Klicka på ikonerna ovanför listen för att redigera HTML-kod eller ta bort, duplicera eller dölja element. Ändringar visas i [!UICONTROL Modifications]-rälen.
 
-Rälen [!UICONTROL Properties] kan döljas i den högra listen så att du kan dölja arbetsytan och förstora arbetsytan. Klicka på ikonen [!UICONTROL Show/Hide Properties] ( ![ egenskapsikonen ](/help/main/assets/icons/Propertie.svg) ) till höger om rälen för att komprimera eller visa [!UICONTROL Properties]-rälen.
+Rälen [!UICONTROL Properties] kan döljas i den högra listen så att du kan dölja arbetsytan och förstora arbetsytan. Klicka på ikonen [!UICONTROL Show/Hide Properties] ( ![&#x200B; egenskapsikonen &#x200B;](/help/main/assets/icons/Propertie.svg) ) till höger om rälen för att komprimera eller visa [!UICONTROL Properties]-rälen.
 
 ## Redigera element med arbetsytan [!UICONTROL Design] {#design}
 
@@ -212,7 +212,7 @@ Välj komponenter i bildrutan [!UICONTROL Components] till vänster om du vill i
 * Text (rubrik, stycke, länk).
 * Dynamisk ([rekommendation](/help/main/c-recommendations/recommendations-as-an-offer.md), [Experience Fragment](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md), HTML-erbjudande).
 
-Klicka på ikonen [!UICONTROL Show Modifications] ( ![ ikonen Visa ändringar ](/help/main/assets/icons/History.svg) ) för att visa ändringarna av upplevelsen.
+Klicka på ikonen [!UICONTROL Show Modifications] ( ![&#x200B; ikonen Visa ändringar &#x200B;](/help/main/assets/icons/History.svg) ) för att visa ändringarna av upplevelsen.
 
 Med menyn längst upp i textelementet kan du göra följande:
 
@@ -287,7 +287,7 @@ DOM-sökvägsfunktionen är också tillgänglig när du konfigurerar [klickspår
 
 * [Förstå  [!DNL Target] gränssnittet](/help/main/c-intro/understand-the-target-ui.md): Ger en kort översikt som hjälper dig att bekanta dig med [!DNL Target] och innehåller länkar till mer detaljerad information och stegvisa instruktioner.
 
-* [[!UICONTROL Visual Experience Composer] ändringar ](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md): [!DNL Adobe Target Standard/Premium] 25.2.1-versionen (17 februari 2015) innehåller en uppdaterad version av [!UICONTROL Visual Experience Composer] (VEC). I den här artikeln förklaras skillnaderna mellan äldre och uppdaterade versioner av VEC.
+* [[!UICONTROL Visual Experience Composer] ändringar &#x200B;](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md): [!DNL Adobe Target Standard/Premium] 25.2.1-versionen (17 februari 2015) innehåller en uppdaterad version av [!UICONTROL Visual Experience Composer] (VEC). I den här artikeln förklaras skillnaderna mellan äldre och uppdaterade versioner av VEC.
 
 * [[!UICONTROL Visual Experience Composer] alternativ](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md): I den här artikeln förklaras det uppdaterade VEC-gränssnittet och dess alternativ.
 

@@ -17,7 +17,7 @@ Använd mätvärden i en [!DNL Adobe Target] A/B-aktivitet för att avgöra när
 
 Mer information om framgångsmått finns i [Framgångsmått](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
 
-1. Välj ett **[!UICONTROL Reporting Settings]** framgångsmått **[!UICONTROL Goals & Settings]** i avsnittet [ på sidan ](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
+1. Välj ett **[!UICONTROL Reporting Settings]** framgångsmått **[!UICONTROL Goals & Settings]** i avsnittet [&#x200B; på sidan &#x200B;](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
 
    ![Välj framgångsmått](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/ab_metrics-new.png)
 

@@ -100,7 +100,7 @@ Du kan filtrera och söka efter [!UICONTROL HTML XFs] och [!UICONTROL JSON XFs] 
 
 ![Filtrera efter Experience Fragment-typer: HTML eller JSON i målgränssnittet](/help/main/c-integrating-target-with-mac/aem/assets/fragment-types.png)
 
-Du kan hålla markören över [!UICONTROL Experience Fragment] i listan och sedan klicka på ikonen [!UICONTROL View] ![Info ](/help/main/assets/icons/InfoOutline.svg) för att se ytterligare information om [!UICONTROL Experience Fragment], inklusive dess [!UICONTROL Name], [!UICONTROL Type], [!UICONTROL Offer ID], [!UICONTROL Offer path] och senaste ändringsinformation. Klicka på [!UICONTROL [!UICONTROL View Full Details]] om du vill se aktiviteterna som refererar till det här erbjudandet.
+Du kan hålla markören över [!UICONTROL Experience Fragment] i listan och sedan klicka på ikonen [!UICONTROL View] ![Info &#x200B;](/help/main/assets/icons/InfoOutline.svg) för att se ytterligare information om [!UICONTROL Experience Fragment], inklusive dess [!UICONTROL Name], [!UICONTROL Type], [!UICONTROL Offer ID], [!UICONTROL Offer path] och senaste ändringsinformation. Klicka på [!UICONTROL [!UICONTROL View Full Details]] om du vill se aktiviteterna som refererar till det här erbjudandet.
 
 ![Popup för information om Experience Fragment](/help/main/c-integrating-target-with-mac/aem/assets/xf-info-popup.png)
 
@@ -116,7 +116,7 @@ Du kan använda [!UICONTROL Experience Fragments] i [!DNL Target]-aktiviteter me
 
 **För att använda [!UICONTROL Experience Fragments] med VEC:**
 
-1. I [!DNL Target], när du skapar eller redigerar en upplevelse i [ Visual Experience Composer](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D), klickar du på den plats på sidan där du vill infoga [!DNL AEM]-innehåll och sedan på **[!UICONTROL Replace Content]** > **[!UICONTROL Experience Fragment]** för att visa dialogrutan [!UICONTROL Experience Fragment].
+1. I [!DNL Target], när du skapar eller redigerar en upplevelse i [&#x200B; Visual Experience Composer](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D), klickar du på den plats på sidan där du vill infoga [!DNL AEM]-innehåll och sedan på **[!UICONTROL Replace Content]** > **[!UICONTROL Experience Fragment]** för att visa dialogrutan [!UICONTROL Experience Fragment].
 
    I dialogrutan [!UICONTROL Experience Fragment] visas innehållet som skapats i [!DNL AEM] och som nu är internt tillgängligt inifrån [!DNL Target].
 
@@ -142,7 +142,7 @@ Du kan använda [!UICONTROL Experience Fragments] i [!DNL Target]-aktiviteter me
 
 **För att förbruka [!UICONTROL Experience Fragments] med [!UICONTROL Form-based Experience Composer]:**
 
-1. I [!DNL Target], när du skapar eller redigerar en upplevelse i [ formulärbaserad Experience Composer](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E), väljer du den plats på sidan där du vill infoga [!DNL AEM]-innehåll, klickar på ikonen **[!UICONTROL More Details]** ( ![Mer information ](/help/main/assets/icons/MoreSmall.svg) ) och väljer sedan **[!UICONTROL Change Experience Fragment]** för att visa dialogrutan [!UICONTROL Change Experience Fragment].
+1. I [!DNL Target], när du skapar eller redigerar en upplevelse i [&#x200B; formulärbaserad Experience Composer](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E), väljer du den plats på sidan där du vill infoga [!DNL AEM]-innehåll, klickar på ikonen **[!UICONTROL More Details]** ( ![Mer information &#x200B;](/help/main/assets/icons/MoreSmall.svg) ) och väljer sedan **[!UICONTROL Change Experience Fragment]** för att visa dialogrutan [!UICONTROL Change Experience Fragment].
 
    ![experience_fragment_list image](/help/main/c-integrating-target-with-mac/aem/assets/experience_fragment_list.png)
 

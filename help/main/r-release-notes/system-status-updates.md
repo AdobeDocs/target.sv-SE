@@ -49,6 +49,6 @@ Proaktiva meddelanden är e-postaviseringar som skickas till registrerade kunder
 
 Följande illustrationer är exempel på e-postaviseringar i förebyggande syfte:
 
-![Proaktiv avisering ](/help/main/r-release-notes/assets/proactive-notification-1.png)
+![Proaktiv avisering &#x200B;](/help/main/r-release-notes/assets/proactive-notification-1.png)
 
-![Proaktiv avisering ](/help/main/r-release-notes/assets/proactive-notification-2.png)
+![Proaktiv avisering &#x200B;](/help/main/r-release-notes/assets/proactive-notification-2.png)

@@ -79,7 +79,7 @@ Aktiviteten kan starta när den är aktiverad eller du kan ange ett specifikt da
 
 Skriv anteckningar om din aktivitet.
 
-## Utbildningsvideo: Aktivitetsinställningar (3:02) ![Självstudiekurs ](/help/main/assets/tutorial.png)
+## Utbildningsvideo: Aktivitetsinställningar (3:02) ![Självstudiekurs &#x200B;](/help/main/assets/tutorial.png)
 
 Den här videon innehåller information om aktivitetsinställningar.
 

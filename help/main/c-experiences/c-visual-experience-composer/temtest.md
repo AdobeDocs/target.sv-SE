@@ -32,7 +32,7 @@ Du kan ange sidor som innehåller ändringselementen eller tillämpa ändringen 
 
 1. Skapa eller redigera en aktivitet enligt beskrivningen i [Aktiviteter](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
 
-1. Om du vill ange vilka sidor som upplevelsen ska visas på klickar du på ikonen [!UICONTROL Visual Experience Composer] ( [!UICONTROL Configure]Konfigurera ikon![ ) i ](/help/main/assets/icons/Setting.svg) (VEC) och väljer sedan **[!UICONTROL Page Delivery]**.
+1. Om du vill ange vilka sidor som upplevelsen ska visas på klickar du på ikonen [!UICONTROL Visual Experience Composer] ( [!UICONTROL Configure]Konfigurera ikon![&#x200B; ) i &#x200B;](/help/main/assets/icons/Setting.svg) (VEC) och väljer sedan **[!UICONTROL Page Delivery]**.
 
 1. Klicka på **[!UICONTROL Add Rule]** och ange sedan villkoren för sidorna som du vill lägga till upplevelsen i.
 
@@ -88,7 +88,7 @@ Du kan överväga att använda mallregler för att återge samma aktivitet i hel
 
 1. Skapa eller redigera en aktivitet enligt beskrivningen i [Aktiviteter](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
 
-1. Om du vill ange den domän där upplevelsen visas klickar du på ikonen [!UICONTROL Visual Experience Composer] ( [!UICONTROL Configure]Konfigurera ikon![ ) i ](/help/main/assets/icons/Setting.svg) och väljer sedan **[!UICONTROL Page Delivery]**.
+1. Om du vill ange den domän där upplevelsen visas klickar du på ikonen [!UICONTROL Visual Experience Composer] ( [!UICONTROL Configure]Konfigurera ikon![&#x200B; ) i &#x200B;](/help/main/assets/icons/Setting.svg) och väljer sedan **[!UICONTROL Page Delivery]**.
 
 1. Klicka på **[!UICONTROL Add Rule]** > **[!UICONTROL Domain]**.
 

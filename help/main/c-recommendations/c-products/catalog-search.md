@@ -132,7 +132,7 @@ Keep in mind that the additional filter facets are available in the current sess
 
 Du kan ändra de aktiva kolumnerna på sidan [!UICONTROL Catalog Search].
 
-1. Klicka på ikonen **[!UICONTROL Customize Table]** ( ![Anpassa tabell ](/help/main/assets/icons/ColumnSetting.svg) ).
+1. Klicka på ikonen **[!UICONTROL Customize Table]** ( ![Anpassa tabell &#x200B;](/help/main/assets/icons/ColumnSetting.svg) ).
 
 1. Markera eller avmarkera de kolumner som du vill visa eller dölja.
 

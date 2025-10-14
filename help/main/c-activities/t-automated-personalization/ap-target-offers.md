@@ -39,7 +39,7 @@ I det här scenariot ser besökare 1 erbjudandet (eftersom besökaren kvalificer
 
 1. Välj önskade erbjudanden och välj sedan de målgrupper du vill ha för att se erbjudandet.
 
-   Om du vill ange mål för ett enskilt erbjudande klickar du på ikonen Mer information ( ![Mer info ](/help/main/assets/icons/MoreSmallList.svg) ) bredvid önskat erbjudande och sedan på **[!UICONTROL Target Audience]** för att visa dialogrutan [!UICONTROL Add Audiences] .
+   Om du vill ange mål för ett enskilt erbjudande klickar du på ikonen Mer information ( ![Mer info &#x200B;](/help/main/assets/icons/MoreSmallList.svg) ) bredvid önskat erbjudande och sedan på **[!UICONTROL Target Audience]** för att visa dialogrutan [!UICONTROL Add Audiences] .
 
    Om du vill ange mål för flera erbjudanden markerar du kryssrutorna för de önskade erbjudandena och klickar sedan på länken **[!UICONTROL Target Audience]** som visas längst ned i listan.
 

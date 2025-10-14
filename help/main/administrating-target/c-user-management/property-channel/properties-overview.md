@@ -86,7 +86,7 @@ Användare kan ingå i flera arbetsytor och kan till och med ha olika roller ino
 
 Du måste skicka arbetsytans ID för att kunna utnyttja företagsbehörigheter i [mål-API:er](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=sv-SE){target=_blank}.
 
-1. Klicka på fliken [ i ](https://adminconsole.adobe.com)Adobe Admin Console[!UICONTROL Products] och klicka sedan på produkten i den vänstra menyn för att visa PLC-listan (arbetsyta).
+1. Klicka på fliken [&#x200B; i &#x200B;](https://adminconsole.adobe.com)Adobe Admin Console[!UICONTROL Products] och klicka sedan på produkten i den vänstra menyn för att visa PLC-listan (arbetsyta).
 1. Klicka på önskad PLC(arbetsyta) och leta sedan reda på &quot;profiler&quot;-ID:t i URL:en enligt nedan.
 
    ![workspaceID](/help/main/administrating-target/c-user-management/property-channel/assets/workspace-id-newest.png)
@@ -127,13 +127,13 @@ Om du vill använda funktionen [!DNL Target] för användarbehörigheter måste 
 
 **Så här hämtar du `at_property`-parameterkoden:**
 
-1. (Villkorligt) Använd implementeringskoden som du genererade och sparade i Urklipp när du utför stegen i [4. Skapa egenskaper ](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#section_E8F2C92BE0F4466AB87604059C9CF3FD) och fortsätt till steg 2.
+1. (Villkorligt) Använd implementeringskoden som du genererade och sparade i Urklipp när du utför stegen i [4. Skapa egenskaper &#x200B;](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#section_E8F2C92BE0F4466AB87604059C9CF3FD) och fortsätt till steg 2.
 
    eller
 
    I [!DNL Target] klickar du på **[!UICONTROL Administration]** > **[!UICONTROL Properties]** för att visa listan [!UICONTROL Properties].
 
-   1. Håll muspekaren över kolumnen [!UICONTROL Last Updated] om du vill att den egenskap som ska visas ska visas och klicka på ikonen [!UICONTROL Code] ( ![Kod-ikon ](/help/main/assets/icons/Code.svg) ).
+   1. Håll muspekaren över kolumnen [!UICONTROL Last Updated] om du vill att den egenskap som ska visas ska visas och klicka på ikonen [!UICONTROL Code] ( ![Kod-ikon &#x200B;](/help/main/assets/icons/Code.svg) ).
 
       ![Kod för hovring av egenskaper](/help/main/administrating-target/c-user-management/property-channel/assets/code_property_new.png)
 

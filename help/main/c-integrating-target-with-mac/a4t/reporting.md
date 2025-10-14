@@ -17,7 +17,7 @@ Om du använder [!DNL Adobe Analytics] som rapportkälla för [!DNL Adobe Target
 
 Du kan visa rapporter för dina aktiviteter i både [!DNL Analytics] och [!DNL Target].
 
-[!DNL Analytics] [!DNL Target]Gå till den här Adobe Spark-sidan[ om du vill få information om bästa praxis för  för ](https://spark.adobe.com/page/Lo3Spm4oBOvwF/).
+[!DNL Analytics] [!DNL Target]Gå till den här Adobe Spark-sidan[&#x200B; om du vill få information om bästa praxis för  för &#x200B;](https://spark.adobe.com/page/Lo3Spm4oBOvwF/).
 
 ## Ökning {#section_035A62D65608423285D8A5A54731E2C5}
 
@@ -48,7 +48,7 @@ I [!DNL Analytics] finns flera dimensioner och mått tillgängliga efter att A4T
 * [!UICONTROL Activity Impressions] - Matchar [!UICONTROL Entrants]-talet i [!DNL Target]-rapporten.
 * [!UICONTROL Activity Conversions] - Matchar [!UICONTROL Custom Conversions]-talet i [!DNL Target]-rapporten.
 
-I [!DNL Analysis Workspace] använder du panelen [!UICONTROL Analytics for Target] för att analysera dina [!DNL Target]-aktiviteter och -upplevelser med lyft och självförtroende. Mer information finns i [Analytics for Target (A4T) Panel ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=sv-SE) i *Analytics Tools Guide*.
+I [!DNL Analysis Workspace] använder du panelen [!UICONTROL Analytics for Target] för att analysera dina [!DNL Target]-aktiviteter och -upplevelser med lyft och självförtroende. Mer information finns i [Analytics for Target (A4T) Panel &#x200B;](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=sv-SE) i *Analytics Tools Guide*.
 
 >[!IMPORTANT]
 >

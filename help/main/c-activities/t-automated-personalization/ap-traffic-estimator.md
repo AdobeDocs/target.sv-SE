@@ -24,7 +24,7 @@ Kom ihåg att [!DNL Target] skickar upplevelser slumpmässigt tills personaliser
 
 ## Använda Traffic Estimator
 
-1. Klicka på ikonen [!UICONTROL Experiences] ( [!UICONTROL Visual Experience Composer]Trafikberäkning[!UICONTROL Automated Personalization] ) i det övre vänstra hörnet på **[!UICONTROL Traffic]**-sidan ![ i ](/help/main/assets/icons/Gauge2.svg) i en [!UICONTROL Experiences] -aktivitet.
+1. Klicka på ikonen [!UICONTROL Experiences] ( [!UICONTROL Visual Experience Composer]Trafikberäkning[!UICONTROL Automated Personalization] ) i det övre vänstra hörnet på **[!UICONTROL Traffic]**-sidan ![&#x200B; i &#x200B;](/help/main/assets/icons/Gauge2.svg) i en [!UICONTROL Experiences] -aktivitet.
 
    [!UICONTROL Traffic Estimator] öppnas.
 

@@ -19,7 +19,7 @@ Eftersom en [!UICONTROL Multivariate Test] i [!DNL Adobe Target] jämför flera 
 
 1. Klicka på en specifik upplevelse i listan för att visa den upplevelsen.
 
-1. (Villkorligt) Om du vill utesluta en eller flera upplevelser från aktiviteten klickar du på ikonen **[!UICONTROL Manage Content]** ( ![ikonen Hantera innehåll ](/help/main/assets/icons/Experience.svg) ) för att visa dialogrutan [!UICONTROL Manage Content].
+1. (Villkorligt) Om du vill utesluta en eller flera upplevelser från aktiviteten klickar du på ikonen **[!UICONTROL Manage Content]** ( ![ikonen Hantera innehåll &#x200B;](/help/main/assets/icons/Experience.svg) ) för att visa dialogrutan [!UICONTROL Manage Content].
 
 1. (Villkorligt) I dialogrutan [!UICONTROL Manage Content] klickar du på ikonen **[!UICONTROL More Actions]** ( ![ikonen Fler åtgärder](/help/main/assets/icons/MoreSmallList.svg) ) bredvid den upplevelse som du vill utesluta och klickar sedan på **[!UICONTROL Exclude]**.
 

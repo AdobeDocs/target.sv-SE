@@ -60,18 +60,18 @@ Om du vill komma igång skapar du en [!UICONTROL A/B Test]- eller [!UICONTROL Ex
 1. Ange följande i dialogrutan [!UICONTROL Options]:
 
    * Välj en [samling](/help/main/c-recommendations/c-products/collections.md).
-   * Konfigurera alternativen för [Främre befordran och Bakåt ](/help/main/c-recommendations/t-create-recs-activity/adding-promotions.md) efter behov.
+   * Konfigurera alternativen för [Främre befordran och Bakåt &#x200B;](/help/main/c-recommendations/t-create-recs-activity/adding-promotions.md) efter behov.
 
 1. Klicka på **[!UICONTROL Save]**.
 1. Slutför konfigurationen av A/B-testaktiviteten eller XT-aktiviteten med det guidade arbetsflödet i tre delar.
 
 ## Redigera konfigurationen för ett rekommendationserbjudande
 
-1. Klicka på ikonen [!UICONTROL Recommendation] ( **[!UICONTROL Edit]** redigeringsikonen ![ ) bredvid ](/help/main/assets/icons/Edit.svg), [!UICONTROL Criteria Name] eller [!UICONTROL Design Name] i [!UICONTROL Collection Name]-listen för att ändra elementet.
+1. Klicka på ikonen [!UICONTROL Recommendation] ( **[!UICONTROL Edit]** redigeringsikonen ![&#x200B; ) bredvid &#x200B;](/help/main/assets/icons/Edit.svg), [!UICONTROL Criteria Name] eller [!UICONTROL Design Name] i [!UICONTROL Collection Name]-listen för att ändra elementet.
 
 ## Ta bort ett rekommendationer
 
-1. Klicka på ikonen **[!UICONTROL Delete]** ( ![ ikonen Ta bort ](/help/main/assets/icons/Delete.svg) ) högst upp på panelen [!UICONTROL Recommendation].
+1. Klicka på ikonen **[!UICONTROL Delete]** ( ![&#x200B; ikonen Ta bort &#x200B;](/help/main/assets/icons/Delete.svg) ) högst upp på panelen [!UICONTROL Recommendation].
 
 ### Visa rekommendationserbjudandets status {#status}
 

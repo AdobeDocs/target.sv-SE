@@ -25,7 +25,7 @@ Tänk på följande URL:
 
 ### Målgrupps-URL
 
-Om du vill använda målgrupps-URL:en när du skapar en aktivitet, klickar du på **[!UICONTROL Experiences]** på sidan **[!UICONTROL Configure]** (steg ett av de guidade arbetsflödena i tre steg), klickar på ikonen ![Konfigurera ](/help/main/assets/icons/Setting.svg) , klickar på **[!UICONTROL Page Delivery]** och anger sedan önskad URL.
+Om du vill använda målgrupps-URL:en när du skapar en aktivitet, klickar du på **[!UICONTROL Experiences]** på sidan **[!UICONTROL Configure]** (steg ett av de guidade arbetsflödena i tre steg), klickar på ikonen ![Konfigurera &#x200B;](/help/main/assets/icons/Setting.svg) , klickar på **[!UICONTROL Page Delivery]** och anger sedan önskad URL.
 
 ![URL för sidleverans](/help/main/c-target/c-troubleshooting-targets-and-audiences/assets/activity-url.png)
 

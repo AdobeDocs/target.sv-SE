@@ -47,7 +47,7 @@ Om varken [!UICONTROL Visual Experience Composer] eller [!UICONTROL Enhanced Exp
 
 >[!NOTE]
 >
->Utöver följande information kan du använda [[!DNL Adobe Target] [!UICONTROL Visual Editing Helper]-tillägget ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) för [!DNL Google Chrome].
+>Utöver följande information kan du använda [[!DNL Adobe Target] [!UICONTROL Visual Editing Helper]-tillägget &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) för [!DNL Google Chrome].
 
 >[!NOTE]
 >
@@ -148,7 +148,7 @@ Om varken [!UICONTROL Visual Experience Composer] eller [!UICONTROL Enhanced Exp
 ## VEC visas som brutet när jag använder läget [!UICONTROL Browse]. (endast VEC) {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
 
 +++Information
-Om du använder läget [!UICONTROL Browse] och har åtkomst till en URL som inte har [!DNL Target] bibliotek implementerat ([ at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html){target=_blank} eller [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}) eller som innehåller ett bildrutebusterhuvud, visas VEC-uttrycket som brutet. På grund av säkerhetsproblem i webbläsaren kan [!DNL Target] inte komma åt den URL som du navigerade till eller så uppdateras inte VEC-URL:en korrekt om sidan läses in.
+Om du använder läget [!UICONTROL Browse] och har åtkomst till en URL som inte har [!DNL Target] bibliotek implementerat ([&#x200B; at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html){target=_blank} eller [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}) eller som innehåller ett bildrutebusterhuvud, visas VEC-uttrycket som brutet. På grund av säkerhetsproblem i webbläsaren kan [!DNL Target] inte komma åt den URL som du navigerade till eller så uppdateras inte VEC-URL:en korrekt om sidan läses in.
 
 Problemet inträffar eftersom VEC läser in webbsidan i en `<iframe>`. De aktuella säkerhetsmekanismerna i webbläsare förhindrar att användargränssnittet i [!DNL Target] kommer åt elementen i den angivna bildrutan på grund av principen för samma ursprung. Webbläsare blockerar skript som försöker komma åt en bildruta med en annan ursprung och som innehåller information som `location.href`.
 

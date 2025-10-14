@@ -44,9 +44,9 @@ Sidan [!UICONTROL Feeds] innehåller följande kolumner:
 * **Schema**: Visar uppdateringsschemat för feed: [!UICONTROL Daily], [!UICONTROL Weekly], [!DNL Every 2 Weeks] eller [!UICONTROL Never].
 * **Senast uppdaterad**: Visar datum och tid då feeden senast uppdaterades och namnet på den person som uppdaterade feeden.
 
-Klicka på ikonen [!UICONTROL Customize Table] ( ![Anpassa tabell ](/help/main/assets/icons/ColumnSetting.svg) ) för att markera eller avmarkera kolumner som du vill visa.
+Klicka på ikonen [!UICONTROL Customize Table] ( ![Anpassa tabell &#x200B;](/help/main/assets/icons/ColumnSetting.svg) ) för att markera eller avmarkera kolumner som du vill visa.
 
-Klicka på ikonen [!UICONTROL Information] ( ![ informationsikon ](/help/main/assets/icons/InfoOutline.svg) ) för att visa ett kort som visar det senaste överföringsdatumet och feed-URL:en.
+Klicka på ikonen [!UICONTROL Information] ( ![&#x200B; informationsikon &#x200B;](/help/main/assets/icons/InfoOutline.svg) ) för att visa ett kort som visar det senaste överföringsdatumet och feed-URL:en.
 
 Klicka på ikonen [!UICONTROL More Actions] ( ![Fler åtgärder-ikon](/help/main/assets/icons/MoreSmallList.svg) ) för att komma åt följande åtgärder: [!UICONTROL Deactivate], [!DNL Edit], [!UICONTROL Copy] och [!UICONTROL Delete].
 

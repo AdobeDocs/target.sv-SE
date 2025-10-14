@@ -40,7 +40,7 @@ I olika aktiviteter är olika attribut viktigare eller mindre viktiga för hur m
 
 1. Klicka på **[!UICONTROL Reports]**.
 
-   Rapporten [Automated Personalization Summary](/help/main/c-reports/personalization-reports/reports-ap.md) eller [Auto-Target Summary](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) visas, som innehåller information om hur dina aktiviteter fungerar, vilket representeras av ikonen för första skärmen. De två extra ikonerna representerar de två [!UICONTROL Personalization Insights]-rapporterna: **[!UICONTROL Automated Segments]** ( ![rapporten Automatiska segment ](/help/main/assets/icons/AutomatedSegment.svg) ) och **[!UICONTROL Important Attributes]** ( ![ikonen Viktiga attribut](/help/main/assets/icons/ViewList.svg) ).
+   Rapporten [Automated Personalization Summary](/help/main/c-reports/personalization-reports/reports-ap.md) eller [Auto-Target Summary](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) visas, som innehåller information om hur dina aktiviteter fungerar, vilket representeras av ikonen för första skärmen. De två extra ikonerna representerar de två [!UICONTROL Personalization Insights]-rapporterna: **[!UICONTROL Automated Segments]** ( ![rapporten Automatiska segment &#x200B;](/help/main/assets/icons/AutomatedSegment.svg) ) och **[!UICONTROL Important Attributes]** ( ![ikonen Viktiga attribut](/help/main/assets/icons/ViewList.svg) ).
 
 
    Observera att [!UICONTROL Auto-Target] har en extra diagramikon för den grafiska vyn i rapporten [!UICONTROL Summary].
@@ -49,7 +49,7 @@ I olika aktiviteter är olika attribut viktigare eller mindre viktiga för hur m
    >
    >[!UICONTROL Important Attributes]-rapporten är inte tillgänglig förrän minst 15 dagar efter att du har aktiverat aktiviteten. Under den inledande perioden kommer du inte att kunna komma åt den här rapporten eller klicka på ikonen [!UICONTROL Important Attributes]. Efter 15 dagar är [!UICONTROL Important Attributes]-rapporten tillgänglig, förutsatt att det finns tillräckligt med personaliserad trafik i din aktivitet.
 
-1. Efter 15 dagar från det att aktiviteten har aktiverats klickar du på ikonen **[!UICONTROL Important Attributes]** ( ![Viktiga attribut ](/help/main/assets/icons/ViewList.svg) ).
+1. Efter 15 dagar från det att aktiviteten har aktiverats klickar du på ikonen **[!UICONTROL Important Attributes]** ( ![Viktiga attribut &#x200B;](/help/main/assets/icons/ViewList.svg) ).
 
 1. Välj önskat datumintervall.
 

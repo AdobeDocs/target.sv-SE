@@ -75,11 +75,11 @@ Med redigeraren för peka och klicka på [!DNL Target] kan du välja valfri plat
 
 1. Klicka på **[!UICONTROL Preview]** för att [förhandsgranska dina upplevelser](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md).
 
-1. Klicka på ikonen **[!UICONTROL Show Experiences]** ( ![ ikonen Visa upplevelser ](/help/main/assets/icons/WebPages.svg) ) för att visa listan med alla upplevelser i den vänstra bildrutan.
+1. Klicka på ikonen **[!UICONTROL Show Experiences]** ( ![&#x200B; ikonen Visa upplevelser &#x200B;](/help/main/assets/icons/WebPages.svg) ) för att visa listan med alla upplevelser i den vänstra bildrutan.
 
 1. Klicka på en specifik upplevelse i listan för att visa den upplevelsen.
 
-1. (Villkorligt) Om du vill utesluta en eller flera upplevelser från aktiviteten klickar du på ikonen **[!UICONTROL Manage Content]** ( ![ikonen Hantera upplevelser ](/help/main/assets/icons/Experience.svg) ) för att visa dialogrutan [!UICONTROL Manage Experiences].
+1. (Villkorligt) Om du vill utesluta en eller flera upplevelser från aktiviteten klickar du på ikonen **[!UICONTROL Manage Content]** ( ![ikonen Hantera upplevelser &#x200B;](/help/main/assets/icons/Experience.svg) ) för att visa dialogrutan [!UICONTROL Manage Experiences].
 
 1. (Villkorligt) I dialogrutan [!UICONTROL Manage Experiences] klickar du på ikonen **[!UICONTROL More Actions]** ( ![ikonen Fler åtgärder](/help/main/assets/icons/MoreSmallList.svg) ) bredvid den upplevelse som du vill utesluta och klickar sedan på **[!UICONTROL Exclude]**.
 
@@ -121,7 +121,7 @@ Med redigeraren för peka och klicka på [!DNL Target] kan du välja valfri plat
 
 1. Klicka på **[!UICONTROL Save and Close]** för att skapa aktiviteten.
 
-## Utbildningsvideo: Skapa multivariata tester (9:25) ![Självstudiekurs ](/help/main/assets/tutorial.png)
+## Utbildningsvideo: Skapa multivariata tester (9:25) ![Självstudiekurs &#x200B;](/help/main/assets/tutorial.png)
 
 I den här videon visas hur du planerar och skapar ett multivariata test med hjälp av det guidade arbetsflödet i [!DNL Target] i tre steg.
 

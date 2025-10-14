@@ -33,7 +33,7 @@ Detta fungerar bra om besökarna svarar på samma sätt som alla erbjudanden i e
 
 ## Ställ in rapporteringsgrupper
 
-1. Klicka på ikonen **[!UICONTROL Experiences]** ( **[!UICONTROL Manage Content]** ikonen Hantera innehåll![ ) på sidan ](/help/main/assets/icons/Experience.svg) i en AP-aktivitet.
+1. Klicka på ikonen **[!UICONTROL Experiences]** ( **[!UICONTROL Manage Content]** ikonen Hantera innehåll![&#x200B; ) på sidan &#x200B;](/help/main/assets/icons/Experience.svg) i en AP-aktivitet.
 1. Klicka på fliken **[!UICONTROL Offers]** högst upp i dialogrutan [!UICONTROL Manage Content].
 1. (Villkorligt) Lägg till specifika upplevelser i en rapporteringsgrupp genom att klicka på ikonen [!UICONTROL More Actions] ( ![ikonen Fler åtgärder](/help/main/assets/icons/MoreSmall.svg) ) för önskat erbjudande och sedan genom att klicka på **[!UICONTROL Reporting Group]**.
 

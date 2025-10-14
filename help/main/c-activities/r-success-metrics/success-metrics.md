@@ -59,7 +59,7 @@ Om du vill komma åt alternativen för [!UICONTROL Advanced Settings] klickar du
 
 ![Menyn Avancerade inställningar](/help/main/c-activities/r-success-metrics/assets/advanced-settings-refresh.png)
 
-Mer information om [!UICONTROL Advanced Settings]-alternativen ([!UICONTROL What will happen after a user encounters this goal] och [!UICONTROL How will the count be incremented]) finns i [Vad händer när en användare påträffar det här målmåttet ](#what-happens)?
+Mer information om [!UICONTROL Advanced Settings]-alternativen ([!UICONTROL What will happen after a user encounters this goal] och [!UICONTROL How will the count be incremented]) finns i [Vad händer när en användare påträffar det här målmåttet &#x200B;](#what-happens)?
 
 >[!NOTE]
 >

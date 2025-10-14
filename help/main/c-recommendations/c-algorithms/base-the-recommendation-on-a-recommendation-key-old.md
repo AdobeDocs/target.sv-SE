@@ -377,7 +377,7 @@ Om ditt anpassade profilattribut inte direkt matchar ett enda enhets-ID måste d
 
    [!DNL Recommendations] skapar nu en lista över de viktigaste säljarna för varje varumärke och visar besökaren rätt lista över de bästa säljarna baserat på det värde som lagras i besökarens attribut för favoritprofilen.
 
-   ![Dialogrutan Skapa nytt villkor ](/help/main/c-recommendations/c-algorithms/assets/create-new-criteria-2.png)
+   ![Dialogrutan Skapa nytt villkor &#x200B;](/help/main/c-recommendations/c-algorithms/assets/create-new-criteria-2.png)
 
 ### Senast visade objekt {#last-viewed}
 

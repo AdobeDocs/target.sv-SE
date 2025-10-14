@@ -63,7 +63,7 @@ ht-degree: 0%
 
 1. (Villkorligt) Dra-och-släpp målgruppspar och upplevelsepar när du skapar eller redigerar [!UICONTROL Experience Targeting]-aktiviteter för att ordna paren i önskad ordning.
 
-   Klicka på ikonen Ändra ordning ( ![ikonen Ändra ordning ](/help/main/assets/icons/Reorder.svg) ) för att visa kolumnen [!UICONTROL Experiences] till höger och sedan ordna om upplevelserna efter behov.
+   Klicka på ikonen Ändra ordning ( ![ikonen Ändra ordning &#x200B;](/help/main/assets/icons/Reorder.svg) ) för att visa kolumnen [!UICONTROL Experiences] till höger och sedan ordna om upplevelserna efter behov.
 
    Besökarna utvärderas utifrån upplevelser i ordning, uppifrån och ned.
 
@@ -83,7 +83,7 @@ Välj bland följande alternativ efter behov:
 
 * **[!UICONTROL Rename]**: Skriv det önskade namnet i fältet [!UICONTROL Name].
 * **[!UICONTROL Edit]**: Klicka på ikonen Redigera ( ![ikonen Redigera](/help/main/assets/icons/Edit.svg) ) och gör sedan önskade ändringar.
-* **[!UICONTROL Duplicate]**: Kopiera en upplevelse i en [!UICONTROL Experience Targeting]-aktivitet så att du kan göra mindre ändringar i den utan att behöva återskapa hela upplevelsen. Klicka på ikonen [!UICONTROL Duplicate] ( ![ikonen Duplicera ](/help/main/assets/icons/Duplicate.svg) ) och redigera sedan upplevelsen efter behov.
+* **[!UICONTROL Duplicate]**: Kopiera en upplevelse i en [!UICONTROL Experience Targeting]-aktivitet så att du kan göra mindre ändringar i den utan att behöva återskapa hela upplevelsen. Klicka på ikonen [!UICONTROL Duplicate] ( ![ikonen Duplicera &#x200B;](/help/main/assets/icons/Duplicate.svg) ) och redigera sedan upplevelsen efter behov.
 * **[!UICONTROL Delete]**: Klicka på ikonen [!UICONTROL Delete] (![Ta bort ikon](/help/main/assets/icons/Delete.svg) ) och bekräfta sedan borttagningen.
 
 ## Utbildningsvideor:

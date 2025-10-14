@@ -25,7 +25,7 @@ Testet använder Bonferroni-korrigeringen för att korrigera för flera jämför
 
 [!UICONTROL Traffic Estimator] ger även feedback som talar om för dig om du har tillräckligt med trafik för testet som ska lyckas.
 
-1. Klicka på ikonen [!UICONTROL Experiences] ( [!UICONTROL Visual Experience Composer]Trafikberäkning[!UICONTROL Multivariate] ) i det övre vänstra hörnet på **[!UICONTROL Traffic]**-sidan ![ i ](/help/main/assets/icons/Gauge2.svg) i en [!UICONTROL Experiences] -aktivitet.
+1. Klicka på ikonen [!UICONTROL Experiences] ( [!UICONTROL Visual Experience Composer]Trafikberäkning[!UICONTROL Multivariate] ) i det övre vänstra hörnet på **[!UICONTROL Traffic]**-sidan ![&#x200B; i &#x200B;](/help/main/assets/icons/Gauge2.svg) i en [!UICONTROL Experiences] -aktivitet.
 
    [!UICONTROL Traffic Estimator] öppnas.
 

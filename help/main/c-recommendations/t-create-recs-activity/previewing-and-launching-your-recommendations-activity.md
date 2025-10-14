@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Förhandsgranska och starta aktiviteten Rekommendationer
 
-När du har skapat din [!UICONTROL Recommendations]-, [!UICONTROL A/B Test]- eller [!UICONTROL Experience Targeting] (XT)-aktivitet som innehåller [rekommendationer ](/help/main/c-recommendations/recommendations-as-an-offer.md) vill du förhandsgranska dina rekommendationer för att se till att resultaten är tillgängliga innan du startar aktiviteten. [!DNL Target Recommendations] erbjuder flera sätt att förhandsgranska dina rekommendationer.
+När du har skapat din [!UICONTROL Recommendations]-, [!UICONTROL A/B Test]- eller [!UICONTROL Experience Targeting] (XT)-aktivitet som innehåller [rekommendationer &#x200B;](/help/main/c-recommendations/recommendations-as-an-offer.md) vill du förhandsgranska dina rekommendationer för att se till att resultaten är tillgängliga innan du startar aktiviteten. [!DNL Target Recommendations] erbjuder flera sätt att förhandsgranska dina rekommendationer.
 
 ## Kontrollera algoritmstatus för rekommendationer
 

@@ -137,7 +137,7 @@ Följande är orsaker till att du kan se det här felmeddelandet och åtgärda p
 
   **Åtgärd:** Tillåtslista de IP-adresser som anges ovan.
 
-* **Problem:** IP-adresserna har tillåtslista men webbplatsen stöder inte TLS version 1.2. [!DNL Target] använder för närvarande standardkonfigurationen 1.2. Före [!DNL Target] 18.4.1 (25 april 2018) hade standardkonfigurationen stöd för TLS 1.0. Mer information finns i [ TLS (Transport Layer Security) Krypteringsändringar ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=sv-SE){target=_blank} .
+* **Problem:** IP-adresserna har tillåtslista men webbplatsen stöder inte TLS version 1.2. [!DNL Target] använder för närvarande standardkonfigurationen 1.2. Före [!DNL Target] 18.4.1 (25 april 2018) hade standardkonfigurationen stöd för TLS 1.0. Mer information finns i [&#x200B; TLS (Transport Layer Security) Krypteringsändringar &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=sv-SE){target=_blank} .
 
   **Lösning:** Se följande fråga ([!UICONTROL Enhanced Visual Experience Composer] läses inte in på säkra sidor på min webbplats som använder TLS 1.2).
 
@@ -146,7 +146,7 @@ Följande är orsaker till att du kan se det här felmeddelandet och åtgärda p
 ## EEC laddas inte på säkra sidor som använder TLS 1.0. (endast EEG) {#section_C5B31E3D32A844F68E5A8153BD17551F}
 
 +++Information
-Felmeddelandet som beskrivs ovan kan visas i &quot;[!UICONTROL Enhanced Visual Experience Composer] kommer inte att läsas in på säkra sidor på min webbplats.&quot; om IP-adresserna ovan är tillåtslista men webbplatsen saknar stöd för TLS version 1.2. [!DNL Target] använder för närvarande standardkonfigurationen 1.2. Före [!DNL Target] 18.4.1 (25 april 2018) hade standardkonfigurationen stöd för TLS 1.0. Mer information finns i [ TLS (Transport Layer Security) Krypteringsändringar ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=sv-SE){target=_blank} .
+Felmeddelandet som beskrivs ovan kan visas i &quot;[!UICONTROL Enhanced Visual Experience Composer] kommer inte att läsas in på säkra sidor på min webbplats.&quot; om IP-adresserna ovan är tillåtslista men webbplatsen saknar stöd för TLS version 1.2. [!DNL Target] använder för närvarande standardkonfigurationen 1.2. Före [!DNL Target] 18.4.1 (25 april 2018) hade standardkonfigurationen stöd för TLS 1.0. Mer information finns i [&#x200B; TLS (Transport Layer Security) Krypteringsändringar &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=sv-SE){target=_blank} .
 
 Så här kontrollerar du TLS-versionen på din webbplats med Firefox (andra webbläsare har liknande steg):
 

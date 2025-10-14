@@ -320,7 +320,7 @@ Du kan också skicka ytterligare information i svaret. Följande kodfil är ett 
     }  
 ```
 
-## Utbildningsvideo: Skapa anpassade designer i rekommendationer (3:20) ![Översikt ](/help/main/assets/overview.png)
+## Utbildningsvideo: Skapa anpassade designer i rekommendationer (3:20) ![Översikt &#x200B;](/help/main/assets/overview.png)
 
 Den här videon innehåller följande information:
 

@@ -53,7 +53,7 @@ Om du vill komma igång skapar du en [!UICONTROL A/B Test]- eller [!UICONTROL Ex
 1. Ange följande i dialogrutan [!UICONTROL Options]:
 
    * Välj en [samling](/help/main/c-recommendations/c-products/collections.md).
-   * Konfigurera alternativen för [Främre befordran och Bakåt ](/help/main/c-recommendations/t-create-recs-activity/adding-promotions.md) efter behov.
+   * Konfigurera alternativen för [Främre befordran och Bakåt &#x200B;](/help/main/c-recommendations/t-create-recs-activity/adding-promotions.md) efter behov.
 
 1. Klicka på [!UICONTROL Save].
 1. Slutför konfigurationen av A/B-testaktiviteten eller XT-aktiviteten med det guidade arbetsflödet i tre delar.
@@ -119,6 +119,6 @@ Rekommendationserbjudandets (algoritm) status visas längst ned på sidan [!UICO
 
 ![Status för rekommenderat erbjudande](/help/main/c-recommendations/assets/recs-offer-status.png)
 
-## Utbildningsvideo: Rekommendationer som ett erbjudande ![Översikt ](/help/main/assets/overview.png)
+## Utbildningsvideo: Rekommendationer som ett erbjudande ![Översikt &#x200B;](/help/main/assets/overview.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/28878)

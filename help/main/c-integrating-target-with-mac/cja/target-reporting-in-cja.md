@@ -53,7 +53,7 @@ Tänk på följande information innan du använder integreringen [!DNL Customer 
 
 ## Aktivitetstyper som stöds {#supported-activities}
 
-Följande aktivitetstyper stöds när du använder JavaScript-biblioteket [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank} eller [ at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/overview){target=_blank} :
+Följande aktivitetstyper stöds när du använder JavaScript-biblioteket [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank} eller [&#x200B; at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/overview){target=_blank} :
 
 | Typ av aktivitet | Stöds? |
 |--- |--- |

@@ -43,11 +43,11 @@ Så här skapar du en manuell [!UICONTROL A/B Test]-aktivitet:
    >
    >Felsökningsinformation om VEC finns i [Felsökning av Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md) om du har problem.
 
-1. (Villkorligt) Om du är [Target Premium-kund](/help/main/c-intro/intro.md#premium) väljer du en **[!UICONTROL Choose Workspace]** arbetsyta[ i listrutan ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) .
+1. (Villkorligt) Om du är [Target Premium-kund](/help/main/c-intro/intro.md#premium) väljer du en **[!UICONTROL Choose Workspace]** arbetsyta[&#x200B; i listrutan &#x200B;](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) .
 
    Alternativet [[!UICONTROL Choose Workplace]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) i föregående bild är en [Target Premium](/help/main/c-intro/intro.md)-funktion som kanske inte visas om din organisation har en [!UICONTROL Target Standard]-licens.
 
-1. Ange din **[!UICONTROL Enter Activity URL]** aktivitets-URL[ i rutan ](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md) och klicka sedan på **[!UICONTROL Create]**.
+1. Ange din **[!UICONTROL Enter Activity URL]** aktivitets-URL[&#x200B; i rutan &#x200B;](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md) och klicka sedan på **[!UICONTROL Create]**.
 
    Om ditt konto är [konfigurerat med en standard-URL](/help/main/administrating-target/visual-experience-composer-set-up.md) visas den URL:en som standard. Du kan ändra från standardadressen till en annan URL-adress om det behövs.
 

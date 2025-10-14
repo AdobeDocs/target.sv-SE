@@ -112,7 +112,7 @@ Nu när vi har täckt vad Adobe Target Views är kan vi utnyttja detta koncept i
    <Router history={hashHistory} onUpdate={targetView} >
    ```
 
-   **Länk: [Produkter ](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=sv-SE#/products)**
+   **Länk: [Produkter &#x200B;](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=sv-SE#/products)**
 
    Låt oss titta på ett exempel som är lite mer komplicerat. Som marknadsförare vill vi personalisera produktraden genom att ändra prisetikettens färg till röd efter att en användare klickat på knappen Läs in mer.
 

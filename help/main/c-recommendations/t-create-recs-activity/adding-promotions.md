@@ -26,7 +26,7 @@ Kampanjer dedupliceras mot objekt som rekommenderas av kriterierna för din akti
 
 Du kan befordra specifika element, dynamiskt befordra element, befordra element baserat på attribut eller befordra samlingar.
 
-Alternativ för ![[!UICONTROL Front Promotion] och [!UICONTROL Back Promotion] i [!DNL Target] användargränssnittet ](assets/add_promotion_toggles.png)
+Alternativ för ![[!UICONTROL Front Promotion] och [!UICONTROL Back Promotion] i [!DNL Target] användargränssnittet &#x200B;](assets/add_promotion_toggles.png)
 
 >[!NOTE]
 >

@@ -34,7 +34,7 @@ Läs mer om hur du använder [!UICONTROL Auto-Target] för att öka lyft och int
 
 När du [skapar en A/B-aktivitet](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) med det guidade arbetsflödet i tre steg, väljer du alternativet **[!UICONTROL Auto-Target for personalized experiences]** på sidan **[!UICONTROL Targeting]** (steg 2).
 
-![Automatiskt mål för personaliserade upplevelser ](/help/main/c-activities/assets/auto-target-ui-new.png)
+![Automatiskt mål för personaliserade upplevelser &#x200B;](/help/main/c-activities/assets/auto-target-ui-new.png)
 
 Alternativet [!UICONTROL Auto-Target] i A/B-aktivitetsflödet gör att du kan anpassa maskininlärningen utifrån en uppsättning marknadsföringsdefinierade upplevelser med ett klick. [!UICONTROL Auto-Target] är utformat för att leverera maximal optimering, jämfört med traditionell A/B-testning eller [!UICONTROL Auto Allocate], genom att avgöra vilken upplevelse som ska visas för varje besökare. Till skillnad från en A/B-aktivitet där målet är att hitta en enskild vinnare, avgör [!UICONTROL Auto-Target] automatiskt den bästa upplevelsen för en viss besökare. Den bästa upplevelsen bygger på besökarens profil och annan sammanhangsbaserad information för att leverera en mycket personaliserad upplevelse.
 

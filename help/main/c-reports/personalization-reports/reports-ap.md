@@ -24,7 +24,7 @@ Specialiserade sammanfattningsrapporter är tillgängliga för användare av [!U
 
    Om du har många aktiviteter klickar du på ikonen Filter ( ![Filterikon](/help/main/assets/icons/Filter.svg) ) för att filtrera listan genom att välja alternativ i listrutorna [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type] och [!UICONTROL Activity Source] .
 
-1. (Valfritt) Klicka på ikonen **[!UICONTROL Download]** ( ![ ikonen Hämta ](/help/main/assets/icons/Download.svg) ) för att hämta sammanfattningsvyn (till exempel en jämförelse av Kontroll- och Riktad trafik) uppdelad efter alla tillgängliga framgångsmått.
+1. (Valfritt) Klicka på ikonen **[!UICONTROL Download]** ( ![&#x200B; ikonen Hämta &#x200B;](/help/main/assets/icons/Download.svg) ) för att hämta sammanfattningsvyn (till exempel en jämförelse av Kontroll- och Riktad trafik) uppdelad efter alla tillgängliga framgångsmått.
 
 [!UICONTROL Automated Personalization] innehåller följande rapporter:
 

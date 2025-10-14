@@ -24,7 +24,7 @@ Du kan överföra bilder till biblioteket [!UICONTROL Image Offers] i [!DNL Adob
 
 ## Ta bort bilderbjudanden eller mappar
 
-1. (Villkorligt) Om du vill växla mellan [!UICONTROL Card View] och [!UICONTROL List View] klickar du på ikonen för [!UICONTROL Card View] ( ![kortvyn ](/help/main/assets/icons/ViewCard.svg) ) eller på ikonen för [!UICONTROL List View] ( ![listvyn ](/help/main/assets/icons/ViewList.svg) ) i det övre högra hörnet av innehållsbiblioteket.
+1. (Villkorligt) Om du vill växla mellan [!UICONTROL Card View] och [!UICONTROL List View] klickar du på ikonen för [!UICONTROL Card View] ( ![kortvyn &#x200B;](/help/main/assets/icons/ViewCard.svg) ) eller på ikonen för [!UICONTROL List View] ( ![listvyn &#x200B;](/help/main/assets/icons/ViewList.svg) ) i det övre högra hörnet av innehållsbiblioteket.
 
 1. I [!UICONTROL Card View] håller du muspekaren över önskat bilderbjudande eller önskad mapp och klickar på ikonen **[!UICONTROL Select]** ( ![Välj ikon](/help/main/assets/icons/CheckmarkCircleOutline.svg) ) och sedan på ikonen **[!UICONTROL Delete]** ( ![Ta bort ikon](/help/main/assets/icons/DeleteOutline.svg) ).
 

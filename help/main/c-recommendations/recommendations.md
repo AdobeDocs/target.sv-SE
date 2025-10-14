@@ -62,7 +62,7 @@ Innan du börjar använda [!DNL Recommendations] kan det vara bra att bekanta si
 | Målgrupper | Målgrupper är grupper med liknande aktivitetsdeltagare som kommer att se en riktad verksamhet. En målgrupp är en grupp människor med samma egenskaper, till exempel en ny besökare, en återkommande besökare eller återkommande besökare från mellanvästern. Med funktionen Målgrupp kan ni rikta olika innehåll och upplevelser till specifika målgrupper för att optimera er digitala marknadsföring genom att visa rätt budskap till rätt personer vid rätt tidpunkt. Mer information finns i [Publiker](/help/main/c-target/target.md). |
 | Rekommendationer som ett erbjudande | En funktion som gör att du kan ta med rekommendationer i A/B-tester (inklusive Automatisk allokering och Automatiskt mål) och XT-aktiviteter (Experience Target). Mer information finns i [Rekommendationer som ett erbjudande](/help/main/c-recommendations/recommendations-as-an-offer.md). |
 
-## Utbildningsvideo: Aktivitetstyper ![Översikt ](/help/main/assets/overview.png)
+## Utbildningsvideo: Aktivitetstyper ![Översikt &#x200B;](/help/main/assets/overview.png)
 
 I den här videon förklaras de aktivitetstyper som är tillgängliga i [!DNL Target Standard/Premium]. [!DNL Recommendations] diskuteras med början vid 7:20.
 

@@ -51,7 +51,7 @@ Kontrollera att värden känns igen när en värd har lagts till i listan [!UICO
 
    Som standard placeras en nyligen identifierad värd i miljön [!UICONTROL Production]. Miljön [!UICONTROL Production] är den säkraste miljön eftersom den inte tillåter att inaktiva aktiviteter visas från dessa värdar.
 
-1. (Villkorligt) Klicka på ikonen **[!UICONTROL Move]** ( ![ flytta ikon ](/help/main/assets/icons/MoveTo.svg) ) för att flytta värden till [!UICONTROL Development], [!UICONTROL Staging] eller någon annan miljö.
+1. (Villkorligt) Klicka på ikonen **[!UICONTROL Move]** ( ![&#x200B; flytta ikon &#x200B;](/help/main/assets/icons/MoveTo.svg) ) för att flytta värden till [!UICONTROL Development], [!UICONTROL Staging] eller någon annan miljö.
 
 >[!NOTE]
 >
@@ -103,7 +103,7 @@ Du kan också skapa ett blockeringslista som anger värdar (domäner) som inte k
 
 Du kan ta bort en värd när den inte längre behövs.
 
-1. Klicka på ikonen [!UICONTROL Hosts] ( **[!UICONTROL Delete]** Ta bort ikon![ ) i listan ](/help/main/assets/icons/DeleteOutline.svg).
+1. Klicka på ikonen [!UICONTROL Hosts] ( **[!UICONTROL Delete]** Ta bort ikon![&#x200B; ) i listan &#x200B;](/help/main/assets/icons/DeleteOutline.svg).
 1. Klicka på **[!UICONTROL Delete]** för att bekräfta borttagningen.
 
 >[!NOTE]

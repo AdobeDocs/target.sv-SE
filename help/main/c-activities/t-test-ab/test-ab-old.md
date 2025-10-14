@@ -58,7 +58,7 @@ Du kan inkludera rekommendationer inuti [!UICONTROL A/B Test]-, [!UICONTROL Auto
 
 Den här funktionen kräver att du har en [Target Premium-licens](/help/main/c-intro/intro.md#premium)
 
-## Utbildningsvideo: Aktivitetstyper (9:03) ![Översikt ](/help/main/assets/overview.png)
+## Utbildningsvideo: Aktivitetstyper (9:03) ![Översikt &#x200B;](/help/main/assets/overview.png)
 
 I den här videon förklaras de aktivitetstyper som är tillgängliga i [!DNL Target Standard/Premium].
 
