@@ -118,11 +118,11 @@ Den här videon är en inspelning av [Kontorstid](/help/main/cmp-resources-and-c
 * Läs mer om de idealiska rapporterna som ska användas i Analytics
 * Svar på vanliga frågor om A4T
 
-[Kontorstimmar för analys/målintegrering (A4T)](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)
+[Kontorstimmar för analys/målintegrering (A4T)](https://helpx.adobe.com/se/customer-care-office-hours/target/analytics-target-A4T-integration.html)
 
 >[!MORELIKETHIS]
 >
 >* [Analys för  [!DNL Target] implementering](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md): Innehåller implementeringsinformation för at.js och Platform Web SDK.
 >* [Omdirigeringserbjudanden - Vanliga frågor om A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)
->* [Vad är Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html): Innehåller översiktsinformation om Platform Web SDK.
->* [Målöversikt](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html): Innehåller information som är specifik för [!DNL Target] och [!DNL Platform Web SDK].
+>* [Vad är Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=sv-SE): Innehåller översiktsinformation om Platform Web SDK.
+>* [Målöversikt](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html?lang=sv-SE): Innehåller information som är specifik för [!DNL Target] och [!DNL Platform Web SDK].

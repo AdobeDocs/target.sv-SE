@@ -33,7 +33,7 @@ Så här ställer du in profilattribut:
 
    | Parametertyp | Beskrivning |
    |--- |--- |
-   | mbox | Indata skickas direkt via sidkoden när mbox skapas. Se [Skicka parametrar till en global Mbox](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank} i *Utvecklarhandbok för mål*.<P>**Obs!**: [!DNL Target] har en gräns på 50 unika profilattribut per mbox-anrop. Om du måste skicka fler än 50 profilattribut till [!DNL Target] skickar du dem med metoden [!UICONTROL Profile Update API]. Mer information finns i [Uppdatera profiler](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html){target=_blank} i *Utvecklarhandbok för mål*. |
+   | mbox | Indata skickas direkt via sidkoden när mbox skapas. Se [Skicka parametrar till en global Mbox](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html?lang=sv-SE){target=_blank} i *Utvecklarhandbok för mål*.<P>**Obs!**: [!DNL Target] har en gräns på 50 unika profilattribut per mbox-anrop. Om du måste skicka fler än 50 profilattribut till [!DNL Target] skickar du dem med metoden [!UICONTROL Profile Update API]. Mer information finns i [Uppdatera profiler](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html?lang=sv-SE){target=_blank} i *Utvecklarhandbok för mål*. |
    | Profil | Definieras direkt med ett JavaScript-kodfragment. Dessa fragment kan lagra summor som körs, t.ex. summor som förbrukas av konsumenten, och de körs för varje mbox-begäran. Se *Profilskriptattribut* nedan. |
 
 ## Profilskriptattribut {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
@@ -176,7 +176,7 @@ Följande metoder kan användas för att felsöka profilskript:
 
 **Går det att använda profilskript för att hämta information från en sida som finns i ett datalager?**
 
-Profilskript kan inte läsa sidan direkt eftersom de körs på serversidan. Data måste skickas in via en mbox-begäran eller via andra [metoder för att hämta data till Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}. När data finns i [!DNL Target] kan profilskript läsa data som en mbox-parameter eller profilparameter.
+Profilskript kan inte läsa sidan direkt eftersom de körs på serversidan. Data måste skickas in via en mbox-begäran eller via andra [metoder för att hämta data till Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=sv-SE){target=_blank}. När data finns i [!DNL Target] kan profilskript läsa data som en mbox-parameter eller profilparameter.
 
 ## JavaScript-referens för skriptprofilsparametrar
 
