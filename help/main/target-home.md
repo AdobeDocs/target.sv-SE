@@ -4,7 +4,7 @@ title: Användarhandbok om Adobe Target Business Practitioner
 description: Lär dig hur du använder Adobe [!DNL Target] för att anpassa kundernas upplevelse och maximera intäkterna på webbplatser, mobilsajter, appar och andra digitala kanaler.
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: 3468c60fd6943df9b03025d4bd610c726a2597ab
+source-git-commit: e45ac15a60c83e35b8b2b2ba29a42727faf746df
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 0%
@@ -85,9 +85,9 @@ Marknadsförare, utvecklare, administratörer, analytiker och kvalitetstekniker.
 - [Förstå  [!DNL Target] gränssnittet](/help/main/c-intro/understand-the-target-ui.md): Gör att du kan bli bekant med [!DNL Target] och innehåller länkar för mer detaljerad information och stegvisa instruktioner.
 - [[!UICONTROL AI Assistant] översikt](/help/main/c-intro/ai-assistant.md): [!DNL AI Assistant] i A[!DNL dobe Experience Platform] är en gränssnittsfunktion som du kan använda för att navigera och förstå [!DNL Adobe Target]-koncept.
 - Integrera [!DNL Target] med [!DNL Adobe Experience Cloud]: Beskriver hur du integrerar [!DNL Target] med andra [!DNL Experience Cloud]-lösningar, inklusive [[!UICONTROL Analytics for Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T), [[!DNL Experience Cloud Audiences]](/help/main/c-integrating-target-with-mac/mmp.md) och [[!DNL Adobe Campaign]](/help/main/c-integrating-target-with-mac/campaign-and-target.md).
-- [[!DNL Adobe Target] Självstudiekurser](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=sv-SE): Tillhandahåller självstudiekurser och videoklipp som hjälper dig att få ut det mesta av [!DNL Target].
+- [[!DNL Adobe Target] Självstudiekurser](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html): Tillhandahåller självstudiekurser och videoklipp som hjälper dig att få ut det mesta av [!DNL Target].
 - [Felsökning [!DNL Target]](r-troubleshooting-target/troubleshooting-target.md): Tillhandahåller länkar till felsökningsinformation i den här handboken, inklusive information om teckenbegränsningar och andra begränsningar (erbjudandestorlek, målgrupper, profiler, värden, parametrar osv.) som påverkar aktiviteter och andra element i [!DNL Target].
-- [[!DNL Target] för mobilappar](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/overview.html?lang=sv-SE){target=_blank}: Beskriver hur [!DNL Target] kan användas för mobilappsoptimering och -personalisering.
+- [[!DNL Target] för mobilappar](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/overview.html){target=_blank}: Beskriver hur [!DNL Target] kan användas för mobilappsoptimering och -personalisering.
 - [Resurser och kontaktinformation](cmp-resources-and-contact-information.md): Tillhandahåller information om fler resurser så att du kan lära dig mer om [!DNL Target]-funktioner och hur du kan kontakta [!DNL Adobe] om du behöver hjälp.
 
 ## Marknadsförare {#marketers}
@@ -99,7 +99,7 @@ Marknadsförare, utvecklare, administratörer, analytiker och kvalitetstekniker.
 
 ## Utvecklare {#developers}
 
-- [[!UICONTROL Adobe Target Developer Guide]](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=sv-SE){target=_blank}: Den här guiden innehåller resurser och guider för [!DNL Adobe Target] -utvecklare, inklusive API- och SDK-dokumentation för implementering av [!DNL Target].
+- [[!UICONTROL Adobe Target Developer Guide]](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}: Den här guiden innehåller resurser och guider för [!DNL Adobe Target] -utvecklare, inklusive API- och SDK-dokumentation för implementering av [!DNL Target].
 
 ## [!DNL Target] och [!DNL Adobe Experience Cloud] administratörer {#admins}
 
@@ -118,5 +118,4 @@ Marknadsförare, utvecklare, administratörer, analytiker och kvalitetstekniker.
 
 | Adobe [!DNL Target]-lösningar hjälper dig | [!DNL Adobe Experience Cloud] resurser |
 |--- |--- |
-| <ul><li>[[!DNL Adobe Target] Lär dig mer och support](https://helpx.adobe.com/se/support/target.html)</li><li>[Premium [!DNL Recommendations]](c-recommendations/recommendations.md)</li><li>[[!DNL Adobe Recommendations Classic]](/help/main/assets/adobe-recommendations-classic.pdf)</li><li>[[!DNL Target] API-dokumentation](https://experienceleague.adobe.com/docs/target-dev/developer/api/target-api-overview.html?lang=sv-SE){target=_blank}</li></ul> | <ul><li>[[!UICONTROL Target Community Forum]](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community)</li><li>[[!DNL Experience Cloud] Versionsinformation](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=sv-SE)</li><li>[[!DNL Experience Cloud] Hjälp, startsida](https://helpx.adobe.com/se/support/experience-cloud.html)</li><li>[[!DNL Adobe] Utbildning och självstudiekurser](https://helpx.adobe.com/se/learning.html?promoid=KAUDK)</li></ul> |  |
-
+| <ul><li>[[!DNL Adobe Target] Lär dig mer och support](https://helpx.adobe.com/support/target.html)</li><li>[Premium [!DNL Recommendations]](c-recommendations/recommendations.md)</li><li>[[!DNL Adobe Recommendations Classic]](/help/main/assets/adobe-recommendations-classic.pdf)</li><li>[[!DNL Target] API-dokumentation](https://experienceleague.adobe.com/docs/target-dev/developer/api/target-api-overview.html){target=_blank}</li></ul> | <ul><li>[[!UICONTROL Target Community Forum]](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community)</li><li>[[!DNL Experience Cloud] Versionsinformation](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)</li><li>[[!DNL Experience Cloud] Hjälp, startsida](https://helpx.adobe.com/support/experience-cloud.html)</li><li>[[!DNL Adobe] Utbildning och självstudiekurser](https://helpx.adobe.com/learning.html?promoid=KAUDK)</li></ul> |

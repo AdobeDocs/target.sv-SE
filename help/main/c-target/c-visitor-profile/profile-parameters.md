@@ -4,7 +4,7 @@ description: Lär dig mer om besökarspecifika attribut som lagras i besökarpro
 title: Vad är profilattribut?
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-source-git-commit: 356b04745b58670b4bf39be929e785b8490d78ff
+source-git-commit: e45ac15a60c83e35b8b2b2ba29a42727faf746df
 workflow-type: tm+mt
 source-wordcount: '2426'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Så här ställer du in profilattribut:
 
    | Parametertyp | Beskrivning |
    |--- |--- |
-   | mbox | Indata skickas direkt via sidkoden när mbox skapas. Se [Skicka parametrar till en global Mbox](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html?lang=sv-SE){target=_blank} i *Utvecklarhandbok för mål*.<P>**Obs!**: [!DNL Target] har en gräns på 50 unika profilattribut per mbox-anrop. Om du måste skicka fler än 50 profilattribut till [!DNL Target] skickar du dem med metoden [!UICONTROL Profile Update API]. Mer information finns i [Uppdatera profiler](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html?lang=sv-SE){target=_blank} i *Utvecklarhandbok för mål*. |
+   | mbox | Indata skickas direkt via sidkoden när mbox skapas. Se [Skicka parametrar till en global Mbox](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank} i *Utvecklarhandbok för mål*.<P>**Obs!**: [!DNL Target] har en gräns på 50 unika profilattribut per mbox-anrop. Om du måste skicka fler än 50 profilattribut till [!DNL Target] skickar du dem med metoden [!UICONTROL Profile Update API]. Mer information finns i [Uppdatera profiler](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html){target=_blank} i *Utvecklarhandbok för mål*. |
    | Profil | Definieras direkt med ett JavaScript-kodfragment. Dessa fragment kan lagra summor som körs, t.ex. summor som förbrukas av konsumenten, och de körs för varje mbox-begäran. Se *Profilskriptattribut* nedan. |
 
 ## Profilskriptattribut {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
@@ -176,7 +176,7 @@ Följande metoder kan användas för att felsöka profilskript:
 
 **Går det att använda profilskript för att hämta information från en sida som finns i ett datalager?**
 
-Profilskript kan inte läsa sidan direkt eftersom de körs på serversidan. Data måste skickas in via en mbox-begäran eller via andra [metoder för att hämta data till Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=sv-SE){target=_blank}. När data finns i [!DNL Target] kan profilskript läsa data som en mbox-parameter eller profilparameter.
+Profilskript kan inte läsa sidan direkt eftersom de körs på serversidan. Data måste skickas in via en mbox-begäran eller via andra [metoder för att hämta data till Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}. När data finns i [!DNL Target] kan profilskript läsa data som en mbox-parameter eller profilparameter.
 
 ## JavaScript-referens för skriptprofilsparametrar
 
@@ -272,8 +272,8 @@ Alla JavaScript standardoperatorer finns och kan användas. JavaScript-operatore
 | `<=` | Samma som `<` förutom om variablerna är lika, utvärderas de till true. |
 | `>=` | Samma som `>` förutom om variablerna är lika, utvärderas de till true. |
 | `&&` | Logiskt &quot;AND&quot;-uttryck till vänster och höger om det - är bara true när båda sidorna är sanna (annars false). |
-| `||` | Logiskt &quot;OR&quot; är uttrycken till vänster och höger om det bara sant om en av sidorna är sann (annars false). |
-| `//` | Kontrollerar om källan innehåller alla element från booleska målvärden (Array source, Array target).<br>`//` extraherar delsträngen från målet (motsvarar regexp) och avkodar den `Array/*String*/ decode(String encoding, String regexp, String target)`.<br>Funktionen stöder också användning av konstanta strängvärden, gruppering (`condition1 || condition2) && condition3`) och reguljära uttryck (`/[^a-z]$/.test(landing.referring.url)`). |
+| `\|\|` | Logiskt &quot;OR&quot; är uttrycken till vänster och höger om det bara sant om en av sidorna är sann (annars false). |
+| `//` | Kontrollerar om källan innehåller alla element från booleska målvärden (Array source, Array target).<br>`//` extraherar delsträngen från målet (motsvarar regexp) och avkodar den `Array/*String*/ decode(String encoding, String regexp, String target)`.<br>Funktionen stöder också användning av konstanta strängvärden, gruppering (`condition1 \|\| condition2) && condition3`) och reguljära uttryck (`/[^a-z]$/.test(landing.referring.url)`). |
 
 ## Utbildningsvideo: Profilskript ![Självstudiekurs](/help/main/assets/tutorial.png)
 

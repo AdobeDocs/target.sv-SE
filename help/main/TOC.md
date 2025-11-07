@@ -3,7 +3,7 @@ user-guide-title: Användarhandbok om Adobe Target Business Practitioner
 breadcrumb-title: Användarhandbok om Target
 user-guide-description: Lär dig hur du skräddarsyr och personanpassar dina kunders upplevelser för att maximera intäkterna från dina webbplatser och mobilsajter, appar, sociala medier och andra digitala kanaler.
 feature-set: Target
-source-git-commit: c445775bc96623f9742f648a82ed9b4e64bd463a
+source-git-commit: e45ac15a60c83e35b8b2b2ba29a42727faf746df
 workflow-type: tm+mt
 source-wordcount: '1283'
 ht-degree: 2%
@@ -100,7 +100,7 @@ ht-degree: 2%
       + [Målrapportering i Adobe Customer Journey Analytics](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)
    + Integrera Target med Adobe Journey Optimizer (AJO) {#ajo}
       + [Använd offertbeslut](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
-      + [Integrera [!DNL Adobe Target Recommendations] och [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md) {#recs-ajo} {#hidden}
+      + [Integrera [!DNL Adobe Target Recommendations] och [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md)
       + Adobe Journey Optimizer Användningsexempel {#use-cases}
          + [De vanligaste användningsområdena för optimering i Adobe Journey Optimizer - webb- och kodbaserade kanaler](/help/main/c-integrating-target-with-mac/ajo/top-ajo-use-cases.md)
          + [Innehållsförändringar via A/B-tester i Adobe Journey Optimizer](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)

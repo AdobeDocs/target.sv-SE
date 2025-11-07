@@ -4,7 +4,7 @@ description: Använd  [!DNL Analytics] for [!DNL Target] (A4T) om du vill skapa 
 title: Vad är  [!DNL Analytics] för [!DNL Target] (A4T)?
 feature: Analytics for Target (A4T)
 exl-id: 5bb80b03-8209-4932-a838-0e11c5865133
-source-git-commit: f7bb9b5d6e96095a31f50f1976b87d9ee7b7eb51
+source-git-commit: e45ac15a60c83e35b8b2b2ba29a42727faf746df
 workflow-type: tm+mt
 source-wordcount: '1045'
 ht-degree: 0%
@@ -63,7 +63,7 @@ Följande avsnitt innehåller information om vilka aktivitetstyper som stöds n�
 | [Multivariata tester (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | Ja | Kräver mbox-baserat målmåttsmål för att få fram rapporten [!UICONTROL Element Contribution]. Rapporten [!UICONTROL Element Contribution] stöder för närvarande inte [!DNL Analytics]-mått. |
 | [Automated Personalization-aktivitet (AP)](/help/main/c-activities/t-automated-personalization/automated-personalization.md) | Nej |  |
 | [Rekommendationsaktivitet](/help/main/c-recommendations/recommendations.md) | Ja |  |
-| [Alla aktiviteter som använder ett omdirigeringserbjudande](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md) | Ja |
+| [Alla aktiviteter som använder ett omdirigeringserbjudande](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md) | Ja |  |
 
 Eftersom alla aktivitetstyper ännu inte har stöd för A4T rekommenderar vi att du behåller eller implementerar viktiga konverteringsrutor, som mbox `orderConfirmPage`.
 
@@ -118,11 +118,11 @@ Den här videon är en inspelning av [Kontorstid](/help/main/cmp-resources-and-c
 * Läs mer om de idealiska rapporterna som ska användas i Analytics
 * Svar på vanliga frågor om A4T
 
-[Kontorstimmar för analys/målintegrering (A4T)](https://helpx.adobe.com/se/customer-care-office-hours/target/analytics-target-A4T-integration.html)
+[Kontorstimmar för analys/målintegrering (A4T)](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)
 
 >[!MORELIKETHIS]
 >
 >* [Analys för  [!DNL Target] implementering](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md): Innehåller implementeringsinformation för at.js och Platform Web SDK.
 >* [Omdirigeringserbjudanden - Vanliga frågor om A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)
->* [Vad är Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=sv-SE): Innehåller översiktsinformation om Platform Web SDK.
->* [Målöversikt](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html?lang=sv-SE): Innehåller information som är specifik för [!DNL Target] och [!DNL Platform Web SDK].
+>* [Vad är Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html): Innehåller översiktsinformation om Platform Web SDK.
+>* [Målöversikt](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html): Innehåller information som är specifik för [!DNL Target] och [!DNL Platform Web SDK].

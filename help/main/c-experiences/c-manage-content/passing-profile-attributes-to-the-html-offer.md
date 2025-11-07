@@ -4,7 +4,7 @@ description: Lär dig hur du skickar dynamiska data till erbjudanden i  [!DNL Ad
 title: Hur överför jag dynamiska data till erbjudanden?
 feature: Experiences and Offers
 exl-id: b8f9c6eb-1000-41a2-aa3f-bc42c1ef5669
-source-git-commit: 2e607b92e9d3408c1e91abd4646fe8eb840f2c30
+source-git-commit: e45ac15a60c83e35b8b2b2ba29a42727faf746df
 workflow-type: tm+mt
 source-wordcount: '536'
 ht-degree: 0%

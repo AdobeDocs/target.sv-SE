@@ -4,7 +4,7 @@ description: Visa en lista med olika profiler, variabler och parametrar som är 
 title: Vilka profiler, variabler och parametrar används i  [!DNL Target]?
 feature: Audiences
 exl-id: 96ef9a56-fe76-428e-a164-c01829fdf45d
-source-git-commit: 4395caa7e40717c59067eaedff5e53776768eda9
+source-git-commit: e45ac15a60c83e35b8b2b2ba29a42727faf746df
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 0%
@@ -83,9 +83,9 @@ På den här sidan visas profiler, variabler och parametrar som är användbara 
 |--- |--- |
 | `mbox.name` |  |
 | mbox.param(&#39;param_name&#39;) |  |
-| Parametrar skickas automatiskt med varje begäran:<ul><li>mbox.param(&#39;browserHeight&#39;)</li><li>mbox.param(&#39;browserTimeOffset&#39;)</li><li>mbox.param(&#39;browserWidth&#39;)</li><li>mbox.param(&#39;colorDepth&#39;)</li><li>mbox.param(&#39;mboxXDomain&#39;)</li><li>mbox.param(&#39;mboxTime&#39;)</li><li>mbox.param(&#39;screenHeight&#39;)</li><li>mbox.param(&#39;screenWidth&#39;)</li></ul> |
-| Parametrar skickade med orderrutor:<ul><li>mbox.param(&#39;orderId&#39;)</li><li>mbox.param(&#39;orderTotal&#39;)</li><li>mbox.param(&#39;productPurchasedId&#39;)</li></ul> |
-| mbox3rdPartyId | En mbox-parameter för att synkronisera ett kund-ID till Target mboxPCID. Ett kund-ID är ett ID som ditt företag använder för att spåra besökare, till exempel ett CRM-ID, ett medlems-ID eller något liknande. Detta ID kan sedan användas för att lägga till information via profil-API:erna och [kundattribut](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=sv-SE){target=_blank}. |
+| Parametrar skickas automatiskt med varje begäran:<ul><li>mbox.param(&#39;browserHeight&#39;)</li><li>mbox.param(&#39;browserTimeOffset&#39;)</li><li>mbox.param(&#39;browserWidth&#39;)</li><li>mbox.param(&#39;colorDepth&#39;)</li><li>mbox.param(&#39;mboxXDomain&#39;)</li><li>mbox.param(&#39;mboxTime&#39;)</li><li>mbox.param(&#39;screenHeight&#39;)</li><li>mbox.param(&#39;screenWidth&#39;)</li></ul> |  |
+| Parametrar skickade med orderrutor:<ul><li>mbox.param(&#39;orderId&#39;)</li><li>mbox.param(&#39;orderTotal&#39;)</li><li>mbox.param(&#39;productPurchasedId&#39;)</li></ul> |  |
+| mbox3rdPartyId | En mbox-parameter för att synkronisera ett kund-ID till Target mboxPCID. Ett kund-ID är ett ID som ditt företag använder för att spåra besökare, till exempel ett CRM-ID, ett medlems-ID eller något liknande. Detta ID kan sedan användas för att lägga till information via profil-API:erna och [kundattribut](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html){target=_blank}. |
 | mboxPageValue | I varje mbox-anrop tilldelas sidan ett värde. |
 | mboxDebug | Används endast för felsökningsinformation. Tillagd på sid-URL:en där at.js söker efter den. |
 | mboxOverride.browserIp | Ställer in en annan region än den faktiska platsen så att du kan testa hur någonting skulle se ut på en annan plats.<br>**Obs!** Använda mboxOverride-parametrar bör bara användas när aktiviteten testas och inte i produktion. Om du använder någon av parametrarna mboxOverride kan det orsaka rapporteringsavvikelser när du använder [Analytics för Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T). Du bör använda [Aktivitets-QA-läge](/help/main/c-activities/c-activity-qa/activity-qa.md) när du testar för att se till att din aktivitet fungerar som förväntat innan du flyttar aktiviteten till din livemiljö. |

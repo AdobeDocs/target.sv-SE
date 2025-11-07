@@ -4,7 +4,7 @@ description: Hitta svar på frågor om att använda omdirigeringserbjudanden nä
 title: Var hittar jag frågor om omdirigeringserbjudanden med A4T?
 feature: Analytics for Target (A4T)
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-source-git-commit: bb41de751246a77e71e65c11f020bc39f3105da6
+source-git-commit: e45ac15a60c83e35b8b2b2ba29a42727faf746df
 workflow-type: tm+mt
 source-wordcount: '1431'
 ht-degree: 0%
@@ -84,7 +84,7 @@ Tänk på följande:
 ## Varför räknas ibland sidvisningar på originalsidan och på omdirigeringssidan? {#section_B8F6CC2190B84CF08D945E797C5AF07B}
 
 +++Svar
-När du använder at.js version 1.6.3 eller senare är det inte något problem att räkna sidvisningar på båda sidorna. Detta konkurrensvillkor påverkar endast kunder som använder tidigare versioner. Target-teamet har två versioner av at.js: den aktuella versionen och den andra senaste versionen. Uppgradera at.js efter behov för att kontrollera att du kör en [version som stöds](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=sv-SE){target=_blank}.
+När du använder at.js version 1.6.3 eller senare är det inte något problem att räkna sidvisningar på båda sidorna. Detta konkurrensvillkor påverkar endast kunder som använder tidigare versioner. Target-teamet har två versioner av at.js: den aktuella versionen och den andra senaste versionen. Uppgradera at.js efter behov för att kontrollera att du kör en [version som stöds](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
 
 Om du använder en tidigare version av at.js som inte stöds finns det en risk för att ett konkurrensvillkor kan uppstå som kan få Analytics-anropet att utlösas innan omdirigeringen körs på den första sidan. Detta kan leda till att sidvisningar på den ursprungliga sidan och på omdirigeringssidan räknas. Detta resulterar i en extra sidvy på den första sidan, där besökaren aldrig riktigt &quot;såg&quot; den första sidan.
 
@@ -110,7 +110,7 @@ Följande frågesträngsparametrar är associerade med omdirigeringserbjudanden:
 
 | Parameter | Beskrivning |
 |--- |--- |
-| `adobe_mc_sdid` | Parametern `adobe_mc_sdid` skickar SDID (Additional Data Id) och Experience Cloud Org Id från standardsidan till den nya sidan. Med dessa ID:n kan A4T&quot;sy ihop&quot; Target-begäran på standardsidan med Analytics-begäran på den nya sidan.<br>Det förväntade formatet som ska överföras i URL:en (för hybridappar eller från en app till webbplatsen eller en webbplats till en annan) är `ex. adobe_mc_sdid=SDID=123|MCORGID=123456789@AdobeOrg|TS=1498569322` |
+| `adobe_mc_sdid` | Parametern `adobe_mc_sdid` skickar SDID (Additional Data Id) och Experience Cloud Org Id från standardsidan till den nya sidan. Med dessa ID:n kan A4T&quot;sy ihop&quot; Target-begäran på standardsidan med Analytics-begäran på den nya sidan.<br>Det förväntade formatet som ska överföras i URL:en (för hybridappar eller från en app till webbplatsen eller en webbplats till en annan) är `ex. adobe_mc_sdid=SDID=123\|MCORGID=123456789@AdobeOrg\|TS=1498569322` |
 | `adobe_mc_ref` | Parametern `adobe_mc_ref` skickar den refererande URL-adressen för standardsidan till den nya sidan. När Analytics används med AppMeasurement.js version 2.1 (eller senare) används det här parametervärdet som den refererande URL:en på den nya sidan. |
 
 Parametrarna läggs automatiskt till i omdirigerings-URL:erna när de inbyggda omdirigeringserbjudandena i VEC och formulärbaserad Experience Composer används när besökar-ID-tjänsten implementeras på sidan. Om du använder din egen anpassade omdirigeringskod i VEC eller formulärbaserad disposition måste du se till att skicka de här parametrarna med din anpassade kod.
