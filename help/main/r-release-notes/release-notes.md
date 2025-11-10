@@ -6,7 +6,7 @@ short-description: Lär dig mer om de nya funktionerna, förbättringarna och ko
 title: Vad ingår i den aktuella versionen?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 5c1dda629a33fc38f51e2e3198a7ea091a369897
+source-git-commit: 693b862bc39fc3b1b7d93988bd80cdd51657354b
 workflow-type: tm+mt
 source-wordcount: '1430'
 ht-degree: 0%
@@ -79,18 +79,18 @@ Mer information finns i [[!DNL Target] Vanliga frågor om gränssnittsuppdaterin
 **[!UICONTROL Reports]**
 
 +++Se detaljer
-* **[!UICONTROL Multivariate Test] (MVT) platser och diagramrapporteringsproblem förhindrade rapportgenerering.** Löste ett problem där MVT-aktiviteter inte kunde generera [!UICONTROL Location Contribution]- och Graph-rapporter i målgränssnittet. Felet&quot;Något gick fel. Vi kan inte slutföra din begäran.&quot; Rapporterna läses nu in korrekt i användargränssnittet, vilket ger fullständig synlighet. (TGT-53654)
+* **[!UICONTROL Multivariate Test](MVT) platser och diagramrapporteringsproblem förhindrade rapportgenerering.** Löste ett problem där MVT-aktiviteter inte kunde generera [!UICONTROL Location Contribution]- och Graph-rapporter i målgränssnittet. Felet&quot;Något gick fel. Vi kan inte slutföra din begäran.&quot; Rapporterna läses nu in korrekt i användargränssnittet, vilket ger fullständig synlighet. (TGT-53654)
 * **MVT-rapporter läses inte in på grund av ett [!UICONTROL Element]-rapportfel.** Korrigerade ett fel där MVT-aktivitetsrapporter inte kunde läsas in i målgränssnittet. Felmeddelandet&quot;Elementbidragsrapporten kunde inte hämtas.&quot; Rapporterna visas nu korrekt och ger full insyn i elementens bidrag. (TGT-53691)
 * **Exportera beställningsinformation till CSV-utgåva för [!UICONTROL Experience Targeting] (XT)-aktiviteter.** Korrigerade ett problem där alternativet [!UICONTROL Export Order Details to CSV] felaktigt visades för XT-aktiviteter och returnerade en tom fil. Alternativet visas nu endast för AP-aktiviteter, vilket ger korrekt exportfunktion och förhindrar förvirring. (TGT-53798)
 
 +++
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+**[!UICONTROL Visual Experience Composer](VEC)**
 
 +++Se detaljer
 * **[!UICONTROL Delete Modification]-knappproblem förhindrade borttagning av aktivitetsändringar.** Löste ett problem där knappen [!UICONTROL Delete Modification] i användargränssnittet i [!DNL Target] inte fungerade, vilket hindrade användare från att ta bort ändringar i aktiviteter. Knappen fungerar nu som förväntat, så att ändringarna kan tas bort utan dröjsmål. (TGT-53728)
 * **Standardväljare känns inte igen i det uppdaterade användargränssnittet.** Löste ett problem i det uppdaterade användargränssnittet där önskade väljare, till exempel `data-target-component-id`, inte fanns med i CSS-väljarlistan i VEC. Användarna kan nu välja önskade attribut på ett tillförlitligt sätt i stället för dynamiskt genererade klassnamn, vilket ger en stabil målinriktning över SPA-siduppdateringarna. (TGT-53908)
-* **Justeringen av aktivitetsplatsen matchar inte mellan [!UICONTROL Edit] och [!UICONTROL Overview] sidor.** Löste ett problem där aktivitetsplatsnumreringen på sidan [!UICONTROL Overview] inte stämde överens med uppdateringar gjorda på sidan [!UICONTROL &#x200B; Edit Experience]. Platserna är nu konsekventa i båda vyerna, vilket ger korrekt justering och förhindrar att positioner saknas eller är felnumrerade. (TGT-53960 &amp; TGT-53954)
+* **Justeringen av aktivitetsplatsen matchar inte mellan [!UICONTROL Edit] och [!UICONTROL Overview] sidor.** Löste ett problem där aktivitetsplatsnumreringen på sidan [!UICONTROL Overview] inte stämde överens med uppdateringar gjorda på sidan [!UICONTROL  Edit Experience]. Platserna är nu konsekventa i båda vyerna, vilket ger korrekt justering och förhindrar att positioner saknas eller är felnumrerade. (TGT-53960 &amp; TGT-53954)
 * **Det går inte att växla tillbaka till [!UICONTROL Design]-läget i den uppdaterade VEC:n.** Löste ett problem i det uppdaterade VEC-gränssnittet där användare inte kunde växla tillbaka till [!UICONTROL Design] efter att ha navigerat till en ny sida i [!UICONTROL Browse]-läget. Växlingsknappen [!UICONTROL Design] fungerar nu korrekt så att ändringar kan tillämpas sömlöst på flera sidor. (TGT-53988 &amp; TGT-53993)
 * **Frågeparametern visas inte i aktivitetsöversikt.** Löste ett problem i det uppdaterade användargränssnittet där frågeparametrar inte visades på [!UICONTROL Overview]-sidan för aktiviteter, vilket orsakade avvikelser mellan [!UICONTROL Overview] och URL:er för sidleverans. Frågeparametrar visas nu korrekt och säkerställer att aktivitetsplatserna är helt representerade och konsekventa över olika vyer. (TGT-53701)
 
@@ -100,8 +100,8 @@ Mer information finns i [[!DNL Target] Vanliga frågor om gränssnittsuppdaterin
 
 | Resurs | Information |
 |--- |--- |
-| [Versionsinformation: Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=sv-SE) | Information om ändringarna i respektive version av Platform Web SDK. |
-| Versionsinformation för [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=sv-SE){target=_blank} | Information om ändringar i varje version av JavaScript-biblioteket [!DNL Adobe Target] at.js. |
+| [Versionsinformation: Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=en) | Information om ändringarna i respektive version av Platform Web SDK. |
+| Versionsinformation för [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | Information om ändringar i varje version av JavaScript-biblioteket [!DNL Adobe Target] at.js. |
 
 ## Dokumentationsändringar, Versionsinformation om tidigare versioner och Experience Cloud Versionsinformation
 
@@ -111,7 +111,7 @@ Förutom anteckningarna för varje release finns det ytterligare information i f
 |--- |--- |
 | [Dokumentationsändringar](/help/main/r-release-notes/doc-change.md) | Visa detaljerad information om uppdateringar av den här guiden som inte ingår i versionsinformationen. |
 | [Versionsinformation för tidigare versioner](/help/main/r-release-notes/release-notes-for-previous-releases.md). | Visa information om nya funktioner och förbättringar i tidigare versioner av Target Standard och Target Premium. |
-| [Versionsinformation för Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=sv-SE){target=_blank} | Läs den senaste versionsinformationen om Adobe Experience Cloud lösningar. |
+| [Versionsinformation för Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target=_blank} | Läs den senaste versionsinformationen om Adobe Experience Cloud lösningar. |
 
 ## Förhandsversionsinformation {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
