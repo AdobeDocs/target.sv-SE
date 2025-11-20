@@ -1,12 +1,12 @@
 ---
 user-guide-title: Användarhandbok om Adobe Target Business Practitioner
 breadcrumb-title: Användarhandbok om Target
-user-guide-description: Lär dig hur du skräddarsyr och personanpassar dina kunders upplevelser för att maximera intäkterna från dina webbplatser och mobilsajter, appar, sociala medier och andra digitala kanaler.
+user-guide-description: Upptäck hur ni kan personalisera kundupplevelser över olika webbplatser, appar och sociala kanaler för att öka intäkterna.
 feature-set: Target
-source-git-commit: e45ac15a60c83e35b8b2b2ba29a42727faf746df
+source-git-commit: cc827c129da7208ee09d257faafa65ae6e7f4cf7
 workflow-type: tm+mt
-source-wordcount: '1283'
-ht-degree: 2%
+source-wordcount: '1273'
+ht-degree: 0%
 
 ---
 
@@ -333,7 +333,7 @@ ht-degree: 2%
       + [Integrera rekommendationer med e-post](c-recommendations/c-recommendations-faq/integrating-recs-email.md)
       + [IP-adresser som används av rekommendationsservrar för flödeshantering](c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md)
       + [Rekommendationer, klassiska jämfört med rekommendationer i Target Premium](c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md)
-   + [Rekommendationer Classic-dokumentation](/help/main/c-recommendations/recommendations-classic-documentaton.md)
+   + [Rekommendationer Classic-dokumentation](/help/main/c-recommendations/recommendations-classic-documentation.md)
 + Felsök mål {#troubleshoot}
    + [Felsök mål](r-troubleshooting-target/troubleshooting-target.md)
    + [Gränser](r-troubleshooting-target/target-limits.md)
