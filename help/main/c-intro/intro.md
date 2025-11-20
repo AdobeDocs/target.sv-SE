@@ -102,7 +102,7 @@ Bygg ditt optimerings- och personaliseringsprogram på [!DNL Adobe Target] med d
 
 [Adobe Target Welcome Kit](/help/main/c-intro/target-welcome-kit.md)
 
-## Utbildningsvideo: Aktivitetstyper (9:03) ![Översikt &#x200B;](/help/main/assets/overview.png)
+## Utbildningsvideo: Aktivitetstyper (9:03) ![Översikt ](/help/main/assets/overview.png)
 
 I följande video förklaras vilka aktivitetstyper som är tillgängliga i [!DNL Target Standard/Premium] och hur det guidade arbetsflödet i [!DNL Target] i tre steg kan hjälpa dig att uppnå dina webbplatsmål.
 
