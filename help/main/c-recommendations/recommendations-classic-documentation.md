@@ -17,7 +17,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->[!DNL Recommendations Classic] är en äldre produkt och är inte längre licensierad till nya kunder. Uppgradera till [!DNL Recommendations] aktiviteter i [!DNL Recommendations]Adobe Target Premium[ för att få bästa möjliga ](/help/main/c-intro/intro.md)-upplevelse.
+>[!DNL Recommendations Classic] är en äldre produkt och är inte längre licensierad till nya kunder. Uppgradera till [!DNL Recommendations] aktiviteter i [!DNL Recommendations]Adobe Target Premium[&#x200B; för att få bästa möjliga &#x200B;](/help/main/c-intro/intro.md)-upplevelse.
 
 Rekommendationer hjälper kunderna att dirigera till objekt de annars kanske inte känner till, vilket förbättrar försäljningen som genereras på er webbplats.
 
