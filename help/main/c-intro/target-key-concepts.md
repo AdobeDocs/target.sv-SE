@@ -99,7 +99,7 @@ Publiker kan sparas för återanvändning i flera aktiviteter eller skapas för 
 |--- |--- |
 | Återanvändbara målgrupper | Återanvändbara målgrupper kan väljas för alla aktiviteter. Om du ändrar en av dessa målgrupper ändras den för alla aktiviteter som använder den. |
 | Egna segment | Anpassade segment (kallas även kampanjspecifika segment) är specifika för en kampanj i Target Classic. De skapas som en del av kampanjen och kan inte återanvändas i andra kampanjer. |
-| Delade målgrupper | Målgrupper kan delas mellan [!DNL Adobe Experience Cloud] lösningar. Se [Publiker](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) för exempel. |
+| Delade målgrupper | Målgrupper kan delas mellan [!DNL Adobe Experience Cloud] lösningar. Se [Publiker](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=sv-SE) för exempel. |
 
 Mer information om hur besökarprofilen spårar information om besökare på platsen finns i [Besökarprofiler](/help/main/c-target/c-visitor-profile/visitor-profile.md#concept_5E53D1A6DF224D7BAE76F4AE390B9DA1).
 
