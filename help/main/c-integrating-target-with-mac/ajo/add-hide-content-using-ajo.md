@@ -2,14 +2,14 @@
 keywords: optimera;personalisering;adobe-reseoptimering;ajo;användningsfall;scenarier;lägga till innehåll;dölja innehåll;lägga till komponenter;dölja komponenter
 description: Lär dig hur du lägger till eller döljer komponenter på din webbsida med  [!DNL Adobe Journey Optimizer].
 title: Lägg till eller dölj komponenter på webbsidan i  [!DNL Adobe Journey Optimizer]
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=sv-SE#beta newtab=true" tooltip="Vad är Beta-funktioner i  [!DNL Adobe Target]?"
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="Vad är Beta-funktioner i  [!DNL Adobe Target]?"
 feature: Integrations
 hide: true
 hidefromtoc: true
 exl-id: 8c4fba88-908e-4742-ac4b-bdf7f4c882db
-source-git-commit: 52f11998149cddeb4245a0f07280562d79332a04
+source-git-commit: 122484056e73f8f679312a3e776e623d905701d5
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '585'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Det här användningsexemplet är utformat för att visa hur du utför välkänd
 
 >[!NOTE]
 >
->Instruktionerna i det här avsnittet visar de nödvändiga stegen för att ändra en bild och för att använda profilattribut för att anpassa textmeddelanden. Mer information om tillgängliga alternativ i webbdesignern [!DNL Journey Optimizer] finns i [Arbeta med webbdesignern](https://experienceleague.adobe.com/sv/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank} i *Journey Optimizer-dokumentationen*.
+>Instruktionerna i det här avsnittet visar de nödvändiga stegen för att ändra en bild och för att använda profilattribut för att anpassa textmeddelanden. Mer information om tillgängliga alternativ i webbdesignern [!DNL Journey Optimizer] finns i [Arbeta med webbdesignern](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank} i *Journey Optimizer-dokumentationen*.
 >
 >Videon längst ned på sidan är särskilt användbar.
 
@@ -64,7 +64,7 @@ Utför följande steg för att lägga till komponenter eller för att dölja kom
 
    En webbkonfiguration, eller kanalyta, är en konfiguration som definieras av en systemadministratör. Webbkonfigurationen innehåller alla tekniska parametrar för att skicka meddelandet, som rubrikparameter, underdomän, mobilappar och så vidare.
 
-   Mer information finns i [Konfigurera kanalytor](https://experienceleague.adobe.com/sv/docs/journey-optimizer/using/configuration/channel-surfaces#set-up-channel-surfaces){target=_blank} i *Journey Optimizer-dokumentationen*.
+   Mer information finns i [Konfigurera kanalytor](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/channel-surfaces#set-up-channel-surfaces){target=_blank} i *Journey Optimizer-dokumentationen*.
 
 1. Klicka på **[!UICONTROL Action]** i avsnittet **[!UICONTROL Edit Content]** för att öppna din webbplats i webbdesignern [!DNL Journey Optimizer].
 
@@ -91,9 +91,9 @@ Klicka på knappen [!UICONTROL Reports] och klicka sedan på önskad rapportperi
 * [!UICONTROL View all time report]
 * [!UICONTROL View last 24hrs report]
 
-Mer information finns i [Kom igång med det nya rapporteringsgränssnittet](https://experienceleague.adobe.com/sv/docs/journey-optimizer/using/channel-report/report-gs-cja){target=_blank} i *Journey Optimizer-dokumentationen*.
+Mer information finns i [Kom igång med det nya rapporteringsgränssnittet](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channel-report/report-gs-cja){target=_blank} i *Journey Optimizer-dokumentationen*.
 
 >[!MORELIKETHIS]
 >
->[Arbeta med webbdesignern](https://experienceleague.adobe.com/sv/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank} i *Journey Optimizer-dokumentationen*
->&#x200B;>[Skapa en kampanj](https://experienceleague.adobe.com/sv/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank} i *Journey Optimizer Tutorials*
+>[Arbeta med webbdesignern](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank} i *Journey Optimizer-dokumentationen*
+>[Skapa en kampanj](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank} i *Journey Optimizer Tutorials*

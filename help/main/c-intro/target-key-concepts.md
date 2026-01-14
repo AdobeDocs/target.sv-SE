@@ -4,9 +4,9 @@ description: Lär dig grunderna i Adobe Target. I den här artikeln beskrivs Tar
 title: Hur använder jag Target?
 feature: Overview
 exl-id: c9555d79-d505-41ff-ba4b-ab94793f9efa
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 122484056e73f8f679312a3e776e623d905701d5
 workflow-type: tm+mt
-source-wordcount: '1523'
+source-wordcount: '1524'
 ht-degree: 2%
 
 ---
@@ -61,7 +61,7 @@ En upplevelse består av erbjudanden, bildresurser eller andra HTML-element (t.e
 
 En upplevelse kan också vara en annan siddesign. En upplevelse kan till exempel ha en uppsättning länkar längst upp på sidan, där en annan upplevelse har olika länkar eller samma länkar ordnade i en annan ordning. Du kanske vill testa om en bild ger mer lyft än en annan, eller om det är mer sannolikt att en annons klickas i sidans övre del eller på en annan plats.
 
-[!DNL Target] optimerar upplevelserna för var och en av era besökare över alla era digitala kontaktytor och testar olika upplevelser för att avgöra vilka som blir mest framgångsrika. Genom att noggrant planera målgruppsanpassningen av upplevelserna kan ni se till att besökarna på webbplatsen ser de mest relevanta erbjudandena på rätt platser på sidan, vilket förbättrar era chanser att besöka webbplatsen.
+[!DNL Target] optimerar upplevelserna för var och en av era besökare över era digitala kontaktpunkter och testar olika upplevelser för att avgöra vilka som blir mest framgångsrika. Genom att noggrant planera målgruppsanpassningen av upplevelserna kan ni se till att besökarna på webbplatsen ser de mest relevanta erbjudandena på rätt platser på sidan, vilket förbättrar era chanser att besöka webbplatsen.
 
 ## Erbjudanden {#section_973D4CC4CEB44711BBB9A21BF74B89E9}
 
@@ -99,7 +99,7 @@ Publiker kan sparas för återanvändning i flera aktiviteter eller skapas för 
 |--- |--- |
 | Återanvändbara målgrupper | Återanvändbara målgrupper kan väljas för alla aktiviteter. Om du ändrar en av dessa målgrupper ändras den för alla aktiviteter som använder den. |
 | Egna segment | Anpassade segment (kallas även kampanjspecifika segment) är specifika för en kampanj i Target Classic. De skapas som en del av kampanjen och kan inte återanvändas i andra kampanjer. |
-| Delade målgrupper | Målgrupper kan delas mellan [!DNL Adobe Experience Cloud] lösningar. Se [Publiker](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=sv-SE) för exempel. |
+| Delade målgrupper | Målgrupper kan delas mellan [!DNL Adobe Experience Cloud] lösningar. Se [Publiker](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) för exempel. |
 
 Mer information om hur besökarprofilen spårar information om besökare på platsen finns i [Besökarprofiler](/help/main/c-target/c-visitor-profile/visitor-profile.md#concept_5E53D1A6DF224D7BAE76F4AE390B9DA1).
 

@@ -4,16 +4,16 @@ description: Kom snabbt igång med ditt optimerings- och personaliseringsprogram
 title: Hur kommer jag igång med Target?
 feature: Overview
 exl-id: c7943c6d-03c9-439c-9e1a-1ad805c18073
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 122484056e73f8f679312a3e776e623d905701d5
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '380'
 ht-degree: 0%
 
 ---
 
 # Kapitel 1: Inledning
 
-Om ni är som de flesta företag idag har ni moderniserat era era digitala marknadsföringskanaler. Nu letar ni efter sätt att särskilja ert varumärke - att bryta er loss från paketet och på så sätt öka intäkterna, konverteringsgraden och andra viktiga affärsvärden. Ett sätt att göra detta är att optimera och personalisera de digitala upplevelser ni levererar till era kunder genom att använda det ni vet om dem för att få ut så mycket som möjligt av deras interaktioner på er webbplats, mobilsajt, mobilapp eller någon annan kontaktyta. Du kanske till och med vill utöka den här optimeringen och personaliseringen utöver de vanliga digitala kontaktytorna till kontaktytor som kioskdatorer, sakernas internet (IoT), callcenterinteraktioner och röstassistenter som Alexa. Varumärken som har använt [!DNL Target] för att testa och personalisera sina digitala upplevelser har fått fantastiska resultat.
+Om ni är som de flesta företag idag har ni moderniserat era era digitala marknadsföringskanaler. Nu letar ni efter sätt att särskilja ert varumärke - att bryta er loss från paketet och på så sätt öka intäkterna, konverteringsgraden och andra viktiga affärsvärden. Ett sätt att göra detta är att optimera och personalisera de digitala upplevelser ni levererar till era kunder genom att använda det ni vet om dem för att få ut så mycket som möjligt av deras interaktioner på er webbplats, mobilsajt, mobilapp eller någon annan kontaktyta. Du kanske till och med vill utöka den här optimeringen och personaliseringen utöver de vanliga digitala kontaktytorna till kontaktpunkter som kioskdatorer, sakernas internet (IoT), callcenterinteraktioner och röstassistenter som Alexa. Varumärken som har använt [!DNL Target] för att testa och personalisera sina digitala upplevelser har fått fantastiska resultat.
 
 Exempel:
 
