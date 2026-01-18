@@ -6,9 +6,9 @@ short-description: Lär dig mer om de nya funktionerna, förbättringarna och ko
 title: Vad ingår i den aktuella versionen?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: e5bc137ed1f32b07569a4f1a31746da19fb164d3
+source-git-commit: 550fa1e8d4127babe02403708b73862505bf8c99
 workflow-type: tm+mt
-source-wordcount: '1736'
+source-wordcount: '1772'
 ht-degree: 0%
 
 ---
@@ -29,89 +29,62 @@ För tidskänsliga uppdateringar relaterade till [!DNL Adobe Target] och din imp
 
 Mer information finns i [[!DNL Target] Vanliga frågor om gränssnittsuppdatering](/help/main/c-intro/updated-ui-faq.md).
 
-## [!DNL Target Standard/Premium] 25.11.2 (14 november 2025)
+## [!DNL Target Standard/Premium] 26.1.1 (18 januari 2026)
 
-**Beslutserbjudanden**
+**Aktiviteter**
 
 +++Se detaljer
-* **Erbjud beslut med dolda eller ogiltiga väljare som inte kan redigeras i det uppdaterade användargränssnittet.** Löste ett problem i det uppdaterade användargränssnittet där offertbeslut som är kopplade till dolda eller ogiltiga väljare inte kunde redigeras om inte elementet var synligt i Visual Experience Composer (VEC). Redigering stöds nu direkt från panelen, vilket återställer funktionaliteten i det äldre användargränssnittet och säkerställer att offertbesluten kan ändras oavsett om väljaren visas eller inte. (TGT-53899)
+
+* **Det går inte att kopiera aktivitet - ogiltiga användarindata.** Problemet som får användarna att se ett felmeddelande om ogiltig användarinmatning när en aktivitet kopieras har åtgärdats. Tidigare, när en aktivitet duplicerades, sparades inte aktivitetens arbetsytespecifika egenskapstilldelningar, vilket gjorde att serverdelen avvisade begäran om att spara eftersom ABActivity kräver minst en egenskap som tillhör en arbetsyta som inte är standard. Denna felmatchning utlöste ett allmänt fel i användargränssnittet, vilket gjorde att användarna inte fick någon vägledning. Korrigeringen ser till att arbetsytetilldelningar behålls korrekt under kopieringsåtgärder, så att användare kan spara den kopierade aktiviteten utan att ändra den och förhindra missvisande valideringsfel. (TGT-54282)
+* **Aktivera arbetsytekolumn i erbjudandet om webbredigerare.** Den här uppdateringen åtgärdar förvirring hos kunderna som orsakas av erbjudanden från [!UICONTROL Default Workspace] som visas i andra arbetsytor i Web Editor. Även om det här beteendet fungerar som avsett är [!UICONTROL Default Workspace] erbjudanden avsiktligt synliga i alla arbetsytor, rapporterade kunderna att gränssnittet inte har gjort arbetsytans ursprung tydligt, särskilt när aktiviteter skapas i en icke-standardarbetsyta som &quot;Godkännare&quot;. För att förbättra tydligheten har kolumnen [!UICONTROL Workspace] nu aktiverats i webbredigerarens erbjudandelista, vilket gör att användarna enkelt kan skilja på vilken arbetsyta varje erbjudande tillhör och förhindra feltolkning av de ytterligare erbjudanden som visas. (TGT-54138)
+* **Länkar med target=&quot;_blank&quot; öppnas på en ny flik.** Den här korrigeringen åtgärdar ett problem där skapade webbplatser som innehåller länkar med ~ target=&quot;_blank&quot;~ skulle öppnas på en ny webbläsarflik när de klickas i [!UICONTROL Browse] -läge, vilket stör förhandsgranskningen i redigeraren. Beteendet inträffade eftersom den redigerade sidans inbyggda länkattribut inte fångades upp av tilläggets inmatade JavaScript, till skillnad från det tidigare användargränssnittet där ankarelement omformades och deras mål åsidosattes för att behålla navigeringen i redigeraren. Uppdateringen ser till att länkar som använder ~target=&quot;_blank&quot;~ nu hanteras korrekt i Web Editor så att de inte längre kan öppna externa flikar under redigeringen. (TGT-54134)
+* **Avmarkera egenskapsvarning.** Den här uppdateringen innehåller en visuell varning som tydligt informerar användare när de avmarkerar en egenskap som identifieras automatiskt i aktivitetsredigeraren. Tidigare fanns det ingen indikation på att egenskapen skulle tas bort permanent om du tog bort en egenskap som upptäcktes automatiskt, vilket skulle leda till att målinriktningskonfigurationen gick förlorad. Korrigeringen lägger till en varningsikon, som överensstämmer med beteendet i det äldre användargränssnittet, för att meddela användare att egenskapen tas bort från aktiviteten när de avmarkerar den. (TGT-54121)
+* Listrutan **[!UICONTROL Workspaces]är begränsad till 20 i avsnittet [!UICONTROL Users].** Den här korrigeringen åtgärdar ett problem där listrutan [!UICONTROL Workspaces] i avsnittet [!UICONTROL Administration] > [!UICONTROL Users] endast visade 20 arbetsytor, även när en användare har tillgång till många fler. Det underliggande GraphQL-anropet för `licenseGroups` var även begränsat till 20 resultat, vilket gör att användargränssnittet visar en ofullständig lista trots att användaren har tillgång till fler arbetsytor i organisationen. Uppdateringen tar bort den här hårda gränsen så att hela uppsättningen tillgängliga arbetsytor nu returneras och visas korrekt. (TGT-53820)
+* **Ett problem har korrigerats där erbjudandemodala inte visade arbetsytans kolumn.** Korrigerade ett fel där erbjudandemodala inte visade arbetsytans kolumn i det uppdaterade användargränssnittet. Detta orsakade förvirring för kunderna eftersom erbjudanden från [!UICONTROL Default Workspace] visades tillsammans med erbjudanden från den valda arbetsytan utan någon indikation på deras ursprung. Arbetsytans kolumn är nu aktiverad så att kunderna tydligt kan se vilken arbetsyta varje erbjudande tillhör. (TGT-52320)
+
++++
+
+**Egenskaper**
+
++++Se detaljer
+* **Aktivitetsredigering bör inte lägga till en egenskap som identifieras automatiskt om den redan har tagits bort.** Den här korrigeringen åtgärdar ett problem där redigering av en aktivitet automatiskt återinför en automatiskt identifierad egenskap som användaren tidigare har tagit bort. När en aktivitet för redigering öppnades igen återställdes den borttagna egenskapen felaktigt, vilket leder till inkonsekvent beteende och förvirring i [!UICONTROL Properties List]. Uppdateringen ser till att när en egenskap som identifieras automatiskt tas bort, tas den bort under alla efterföljande redigeringar och visas inte igen om inte användaren uttryckligen lägger till den igen. (TGT-54182)
+* **Lägg inte till automatiskt identifierade egenskaper om de redan har tagits bort.** Den här korrigeringen ser till att när en användare tar bort en egenskap som identifieras automatiskt från en aktivitet, återinförs den inte längre i systemet vid efterföljande navigering i aktivitetsredigeraren. Om en användare tidigare avmarkerade en egenskap som identifieras automatiskt, flyttat till steget [!UICONTROL Targeting] och sedan återgått till [!UICONTROL Experiences] fylls den borttagna egenskapen i på nytt baserat på den automatiskt identifierade listan som lagras i statussegmentet i aktivitetsredigeraren. Den uppdaterade logiken jämför nu de automatiskt upptäckta egenskaperna med de aktuella egenskaperna i segmentet ~ActivityState~ och förhindrar att de automatiskt upptäckta egenskaperna som användaren redan har tagit bort läggs till igen. Detta resulterar i ett konsekvent beteende i alla steg och tar hänsyn till användaravsikten. (TGT-54181)
+* **Lägg till text som identifieras automatiskt i egenskapslistan.** Den här förbättringen uppdaterar [!UICONTROL Properties List] så att alla egenskaper som identifieras automatiskt av systemet tydligt markeras. När en automatiskt identifierad egenskap också finns i den användarsynliga [!UICONTROL Properties List] visas nu texten&quot;(Auto-Detected)&quot; bredvid namnet, med det värde som lagrats i läget ~ ActivityEditorSlice~ . Detta speglar beteendet hos det gamla användargränssnittet och hjälper användarna att enkelt skilja mellan manuellt markerade egenskaper och de egenskaper som identifieras automatiskt. (TGT-54120)
+* **Lägg till automatiskt identifierad [!UICONTROL Properties] i läget.** Den här uppdateringen ser till att läget ~ ActivityEditorSlice.ExperienceEditor~ konsekvent upprätthåller en uppdaterad lista över alla automatiskt identifierade egenskaps-ID:n som skickats från Web Editor till fliken Activity [!UICONTROL Experiences]. Varje gång användaren navigerar till fliken [!UICONTROL Experiences] uppdateras läget med alla nya identifierade egenskaper samtidigt som dubbletter förhindras, vilket ger korrekt spårning och tillförlitligt beteende i efterföljande steg. (TGT-54119)
 
 +++
 
 **Rekommendationer**
 
 +++Se detaljer
-* **Sidan kraschade när du redigerade villkor i en aktivitet.** Löste ett problem i det uppdaterade användargränssnittet där redigeringsaktivitetsvillkoren gjorde att sidan kraschade med konsolfel relaterade till `useCrudActionsCtx`. Villkorsredigeraren läses nu in och fungerar korrekt, vilket säkerställer att aktiviteter kan redigeras utan avbrott. (TGT-53971)
-* **[!UICONTROL Message]-kolumnen kunde ibland inte visa produktdata i det uppdaterade användargränssnittet.** Löste ett problem i det uppdaterade [!UICONTROL Recommendations]-användargränssnittet där kolumnen [!UICONTROL Message] i [!UICONTROL Catalog Search] ibland inte kunde visa produktdata, trots att det fanns värden i feeden. Kolumnen visar nu konsekvent rätt meddelandevärden för alla produkter, vilket garanterar tillförlitlig synlighet utan manuell omkonfiguration av kolumner. (TGT-52777)
-* Knappen **[!UICONTROL Download Recommendations Data]visas inte när aktiviteten har sparats i det uppdaterade användargränssnittet.** Löste ett problem i det uppdaterade användargränssnittet där knappen [!UICONTROL Download Recommendations Data] inte visades för vissa sparade aktiviteter, inte ens efter att användaren sparat om. Knappen visas nu på ett enhetligt sätt i alla aktiviteter, vilket säkerställer att användarna kan exportera rekommendationsdata på ett tillförlitligt sätt utan att behöva vidta tillfälliga åtgärder. (TGT-53802)
-* **När vissa produkter öppnades från en samling returnerades &quot;Begärd resurs hittades inte&quot; och modal saknade ett stängningsalternativ.** Löste ett problem i det uppdaterade gränssnittet för rekommendationer där öppnandet av vissa produkter från en samling utlöste felet &quot;Begärd resurs hittades inte&quot; och visade ett tomt modalt fel utan ett stängningsalternativ. modal läser nu in produktinformation korrekt och ett stängningsalternativ är alltid tillgängligt för att avsluta på ett bra sätt. (TGT-53986)
+* I listrutan **[!UICONTROL Environment]visas endast 100 resultat.** Den här korrigeringen åtgärdar en begränsning där kunder med fler än 100 miljöer bara kunde se de första 100 posterna i listrutan [!UICONTROL Environment] i [!UICONTROL Recommendations]. Den underliggande GraphQL-frågan (~getMiljömentsV2~) sidnumrerades med den hårdkodade sidstorleken 100, vilket gör att användargränssnittet bara visar en del av listan även om ytterligare sidor är tillgängliga. För kunder som har fler än 100 miljöer har det här problemet resulterat i saknade alternativ och en ofullständig urvalsupplevelse. Uppdateringen ökar gränsen så att alla miljöer returneras och visas, vilket ger fullständig synlighet oavsett antal miljöer. (TGT-53903)
 
 +++
 
-## [!DNL Target Standard/Premium] 25.11.1 (10 november 2025)
-
-
-**Analyser för mål (A4T)**
+**Rapporter**
 
 +++Se detaljer
-* **[!UICONTROL Goals & Settings]felmeddelande när [!DNL Adobe Analytics] används som rapportkälla i uppdaterat gränssnitt.** Löste ett problem i det uppdaterade [!UICONTROL Overview]-användargränssnittet där målavsnittet visade felmeddelandet &quot;Något gick fel. Vi kan inte slutföra din begäran. Kontakta [!DNL Adobe Client Care] om problemet kvarstår när [!DNL Adobe Analytics] (A4T) valdes som rapportkälla. Målen visas nu korrekt med [!UICONTROL Adobe Analytics]-mätvärden, vilket ger en konsekvent synlighet mellan olika rapportkällor. (TGT-54021)
+
+* **Ett problem har korrigerats där [!UICONTROL Reports]-pilen inte tydligt visade expanderbara kolumner.** Korrigerade ett fel där rapporttabellen inte tydligt visade att ytterligare kolumner kunde expanderas i det uppdaterade användargränssnittet. Ett verktygstips som försvinner har lagts till i pilen [!UICONTROL Reports] nära kolumnrubrikerna för att hjälpa kunderna att förstå att fler kolumner är tillgängliga.
 
 +++
 
-**Publiker**
+**Vyer**
 
 +++Se detaljer
-* **Det går inte att välja flera rapportmålgrupper i det uppdaterade användargränssnittet.** Löste ett problem i det uppdaterade användargränssnittet där användare inte kunde välja flera nyligen skapade rapportmålgrupper samtidigt när en aktivitet redigerades. Flera målgrupper kan nu tilldelas samtidigt, vilket ger större flexibilitet och ökad effektivitet vid rapportkonfigurationen. (TGT-53253)
+
+* **Det går inte att ta bort ändringar som gjorts i vyer.** Den här korrigeringen åtgärdar ett problem där användare inte kunde ta bort ändringar i en aktivitet om inte ändringen först tillämpades på nytt i ytterligare vyer. När du redigerar en aktivitet (till exempel aktivitets-ID 302467) har försök att ta bort ändringar ingen effekt, vilket förhindrar användare från att ta bort oönskade ändringar. När en ändring har tillämpats igen med &quot;Använd för fler vyer&quot; och tilldelats till en `Page Load`-händelse fungerade borttagningen plötsligt som förväntat. (TGT-54088)
 
 +++
 
-**Beslutserbjudanden**
+**[!UICONTROL Visual Experience Composer](VEC)**
 
 +++Se detaljer
-* **Det går inte att redigera eller ersätta beslutserbjudanden i det uppdaterade användargränssnittet.** Löste ett problem i det uppdaterade användargränssnittet där beslutserbjudanden inte kunde redigeras eller ersättas via panelen [!UICONTROL Modifications] och erbjudandenamnen visade sig vara tomma. Beslutserbjudandena är nu fullt tillgängliga och redigerbara, vilket återställer pariteten med det gamla användargränssnittet och säkerställer att kunderna kan hantera erbjudanden direkt inifrån aktiviteterna. (TGT-53884)
-
-+++
-
-**Lokalisering**
-
-+++Se detaljer
-* **Flera lokaliseringsfel i det koreanska och japanska användargränssnittet har korrigerats.** (TGT-54003, TGT-54004, TGT-54006, TGT-54007 och TGT-54018)
-
-+++
-
-**[!UICONTROL Recommendations]**
-
-+++Se detaljer
-* **Det gick inte att läsa in rekommendationsnyckeln efter att aktiviteten sparats. Det gick inte att matcha attribut med entitetsattribut.** Korrigerade ett problem där kampanjer av typen [!UICONTROL Promotion by Attribute] med regeltypen [!UICONTROL Entity Attribute Matching] inte läste in rekommendationsnyckeln när de redigerades efter att en aktivitet sparats. Problemet uppstod eftersom `customKeyId` inte begärdes via GraphQL. Rekommendationsnycklar läses nu in korrekt under kampanjredigeringar. (TGT-53117)
-* **Rekommendationen kvarstår visuellt när du byter från ExpB till ExpA.** Löste ett problem där en rekommendation infogades i Experience B och sedan växlade till Experience A, så att rutan med rekommendationserbjudanden blev synlig. Det här var bara en visuell inkonsekvens. Ändringarna återges nu korrekt när du växlar mellan upplevelser, vilket säkerställer korrekt gränssnittsbeteende. (TGT-53911)
-* **Rekommendationsnyckeln läses inte in för [!UICONTROL Promotion by Attribute] med [!UICONTROL Entity Attribute] matchning.** Löste ett problem där kampanjer av typen [!UICONTROL Promotion by Attribute] med regeltypen [!UICONTROL Entity Attribute Matching] inte läste in rekommendationsnyckeln när de redigerades efter att en aktivitet sparats. Rekommendationsnyckeln hämtas nu korrekt via GraphQL, vilket säkerställer att kampanjerna visas och fungerar som förväntat. (TGT-53917)
-* **Redigering av rekommendationer för dolda HTML-element fungerar inte i det uppdaterade användargränssnittet.** Löste ett problem i användargränssnittet för [!UICONTROL New Create] och VEC där rekommendationsaktiviteter som tillämpades på dolda HTML-element inte kunde redigeras. Funktionen fungerar nu som förväntat, vilket återställer paritet med det gamla användargränssnittet och säkerställer att rekommendationerna kan ändras oavsett elementens synlighet. (TGT-53953)
-* **Det går inte att redigera rekommendationsaktiviteter för dolda HTML-element i det uppdaterade användargränssnittet.** Löste ett problem i det uppdaterade användargränssnittet där rekommendationsaktiviteter som tillämpats på dolda HTML-element inte kunde redigeras. Funktionen fungerar nu som förväntat, vilket återställer paritet med det gamla användargränssnittet och säkerställer att rekommendationerna kan ändras oavsett elementens synlighet. (TGT-53951)
-* **Rekommendationskatalogen saknar ibland attributvärden i det uppdaterade användargränssnittet.** Löste ett problem i det uppdaterade [!UICONTROL Recommendations]-användargränssnittet där katalogsökningslistor ibland inte kunde visa vissa attributvärden (t.ex. meddelande) även när de fanns i produktflödet. Attributvärden läses nu in konsekvent i sökresultat utan att någon kolumnomkonfiguration krävs, vilket förbättrar tillförlitligheten och effektiviteten i kataloghanteringen. (TGT-52769)
-* Knappen **[!UICONTROL Download Recommendations]saknas för [!DNL Recommendations]-aktiviteter i det uppdaterade användargränssnittet.** Löste ett problem i det uppdaterade [!DNL Recommendations]-gränssnittet där knappen [!UICONTROL Download Recommendations] inte var synlig för A/B-aktiviteter med rekommendationer. Knappen visas nu korrekt så att användarna kan exportera rekommendationsdata som förväntat, vilket överensstämmer med funktionen i det äldre användargränssnittet. (TGT-53768)
-* Knappen **[!UICONTROL Download Recommendation Data]saknas i det uppdaterade översiktsgränssnittet.** Löste ett problem i det uppdaterade [!UICONTROL Overview]-gränssnittet där knappen [!UICONTROL Download Recommendation Data] inte var synlig för aktiviteter som innehåller rekommendationer. Knappen visas nu korrekt, så att användarna kan exportera rekommendationer direkt utan att behöva växla tillbaka till det gamla användargränssnittet. (TGT-53772)
-* **Redigering av aktivitetsvillkor har ibland resulterat i en tom skärm i det uppdaterade användargränssnittet.** Löste ett problem i det uppdaterade användargränssnittet där klickning på [!UICONTROL Edit Criteria in Experiences] ibland ledde till en tom skärm för vissa aktiviteter. Villkorsredigeraren läses nu in tillförlitligt i alla aktiviteter, vilket säkerställer att användarna kan redigera utan avbrott. (TGT-53961)
-* **Det går inte att redigera sekvensvillkor i det uppdaterade användargränssnittet.** Löste ett problem i det uppdaterade användargränssnittet där [!UICONTROL Sequence Criteria] försökte redigera fick popup-fönstret för kriterier att fastna vid inläsning och sedan visas en tom skärm. Villkorsredigeraren läses nu in korrekt, vilket gör att användare kan redigera och uppdatera sekvensvillkor utan avbrott. (TGT-53985)
-
-+++
-
-**[!UICONTROL Reports]**
-
-+++Se detaljer
-* **[!UICONTROL Multivariate Test] (MVT) platser och diagramrapporteringsproblem förhindrade rapportgenerering.** Löste ett problem där MVT-aktiviteter inte kunde generera [!UICONTROL Location Contribution]- och Graph-rapporter i målgränssnittet. Felet&quot;Något gick fel. Vi kan inte slutföra din begäran.&quot; Rapporterna läses nu in korrekt i användargränssnittet, vilket ger fullständig synlighet. (TGT-53654)
-* **MVT-rapporter läses inte in på grund av ett [!UICONTROL Element]-rapportfel.** Korrigerade ett fel där MVT-aktivitetsrapporter inte kunde läsas in i målgränssnittet. Felmeddelandet&quot;Elementbidragsrapporten kunde inte hämtas.&quot; Rapporterna visas nu korrekt och ger full insyn i elementens bidrag. (TGT-53691)
-* **Exportera beställningsinformation till CSV-utgåva för [!UICONTROL Experience Targeting] (XT)-aktiviteter.** Korrigerade ett problem där alternativet [!UICONTROL Export Order Details to CSV] felaktigt visades för XT-aktiviteter och returnerade en tom fil. Alternativet visas nu endast för AP-aktiviteter, vilket ger korrekt exportfunktion och förhindrar förvirring. (TGT-53798)
-
-+++
-
-**[!UICONTROL Visual Experience Composer] (VEC)**
-
-+++Se detaljer
-* **[!UICONTROL Delete Modification]-knappproblem förhindrade borttagning av aktivitetsändringar.** Löste ett problem där knappen [!UICONTROL Delete Modification] i användargränssnittet i [!DNL Target] inte fungerade, vilket hindrade användare från att ta bort ändringar i aktiviteter. Knappen fungerar nu som förväntat, så att ändringarna kan tas bort utan dröjsmål. (TGT-53728)
-* **Standardväljare känns inte igen i det uppdaterade användargränssnittet.** Löste ett problem i det uppdaterade användargränssnittet där önskade väljare, till exempel `data-target-component-id`, inte fanns med i CSS-väljarlistan i VEC. Användarna kan nu välja önskade attribut på ett tillförlitligt sätt i stället för dynamiskt genererade klassnamn, vilket ger en stabil målinriktning över SPA-siduppdateringarna. (TGT-53908)
-* **Justeringen av aktivitetsplatsen matchar inte mellan [!UICONTROL Edit] och [!UICONTROL Overview] sidor.** Löste ett problem där aktivitetsplatsnumreringen på sidan [!UICONTROL Overview] inte stämde överens med uppdateringar gjorda på sidan [!UICONTROL &#x200B; Edit Experience]. Platserna är nu konsekventa i båda vyerna, vilket ger korrekt justering och förhindrar att positioner saknas eller är felnumrerade. (TGT-53960 &amp; TGT-53954)
-* **Det går inte att växla tillbaka till [!UICONTROL Design]-läget i den uppdaterade VEC:n.** Löste ett problem i det uppdaterade VEC-gränssnittet där användare inte kunde växla tillbaka till [!UICONTROL Design] efter att ha navigerat till en ny sida i [!UICONTROL Browse]-läget. Växlingsknappen [!UICONTROL Design] fungerar nu korrekt så att ändringar kan tillämpas sömlöst på flera sidor. (TGT-53988 &amp; TGT-53993)
-* **Frågeparametern visas inte i aktivitetsöversikt.** Löste ett problem i det uppdaterade användargränssnittet där frågeparametrar inte visades på [!UICONTROL Overview]-sidan för aktiviteter, vilket orsakade avvikelser mellan [!UICONTROL Overview] och URL:er för sidleverans. Frågeparametrar visas nu korrekt och säkerställer att aktivitetsplatserna är helt representerade och konsekventa över olika vyer. (TGT-53701)
+* Namnet **[!UICONTROL Experience Fragment]trunkerades i det nya VEC-gränssnittet** (TGT-54312)
+* **Det går inte att använda [!UICONTROL Advanced Settings] för [!UICONTROL Revenue]-mått.** Den här korrigeringen åtgärdar ett problem där användare stötte på ett 403-fel av typen &quot;Åtkomst nekad&quot; när [!UICONTROL Advanced Settings] konfigurerades för [!UICONTROL Revenue]-måttet i [!UICONTROL Goals & Settings]. Problemet uppstod när ett beroendevillkor som är kopplat till det primära målet lades till. I serverdelen krävdes inte redigeringsprivilegiet korrekt, även för användare som redan har tillräcklig behörighet för att skapa och redigera aktiviteter. Därför gick det inte att spara aktiviteten trots giltig konfiguration. Uppdateringen åtgärdar behörighetskontrollen så att användare med lämplig åtkomst kan lägga till metriska beroenden för intäkt utan att utlösa ett fel med förbjuden resurs. (TGT-54092)
+* **Korrigerade ett fel där knappen Lägg till inte gällde för de valda bilderna.** Korrigerade ett problem som hindrade kunder från att lägga till vissa bilder när de valde eller uppdaterade en bild i processen för att skapa aktivitet. När kunderna sökte efter specifika resurser, till exempel bilder som returnerades när de sökte efter&quot;ipp&quot;, använde inte knappen [!UICONTROL Add] den valda bilden och ingen ändring skapades. Om du väljer andra bilder, till exempel `Homepage-banner-1-moz.jpg`, fortsätter det att fungera som förväntat. Uppdateringen ser till att alla giltiga bilder kan tillämpas på samma sätt i det uppdaterade användargränssnittet. (TGT-53610)
+* **Ett problem har korrigerats där konfigurationen av målmåttet återställdes när ett URL-villkor togs bort.** Ett problem har korrigerats där ett enskilt URL-villkor i måttet [!UICONTROL Goal] orsakade att hela konfigurationen återställdes i det uppdaterade användargränssnittet. När kunder försökte ta bort ett sparat URL-villkor under [!UICONTROL Conversion] > [!UICONTROL Viewed a Page] växlades måltypen oväntat till [!UICONTROL Viewed an Mbox] och alla tidigare konfigurerade inställningar togs bort. Den här uppdateringen ser till att endast det valda URL-villkoret tas bort och att alla återstående målinställningar förblir intakta. (TGT-53271)
+* **Ett problem där sökningen inte gick igenom undermapparna har korrigerats.** Ett problem där sökningen efter erbjudanden inte returnerade resultat från undermappar i det uppdaterade användargränssnittet har korrigerats. Kunderna kunde bara hitta ett erbjudande om de navigerade manuellt till den mapp där det sparades, vilket gör sökbeteendet inkonsekvent med API-funktionerna. Sökfunktionen har nu stöd för rekursiv sökning i mappar så att kunderna kan hitta erbjudanden utan att behöva öppna varje mapp separat. (TGT-51954)
 
 +++
 
@@ -119,8 +92,8 @@ Mer information finns i [[!DNL Target] Vanliga frågor om gränssnittsuppdaterin
 
 | Resurs | Information |
 |--- |--- |
-| [Versionsinformation: Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=sv-SE) | Information om ändringarna i respektive version av Platform Web SDK. |
-| Versionsinformation för [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=sv-SE){target=_blank} | Information om ändringar i varje version av JavaScript-biblioteket [!DNL Adobe Target] at.js. |
+| [Versionsinformation: Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=en) | Information om ändringarna i respektive version av Platform Web SDK. |
+| Versionsinformation för [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | Information om ändringar i varje version av JavaScript-biblioteket [!DNL Adobe Target] at.js. |
 
 ## Dokumentationsändringar, Versionsinformation om tidigare versioner och Experience Cloud Versionsinformation
 
@@ -130,7 +103,7 @@ Förutom anteckningarna för varje release finns det ytterligare information i f
 |--- |--- |
 | [Dokumentationsändringar](/help/main/r-release-notes/doc-change.md) | Visa detaljerad information om uppdateringar av den här guiden som inte ingår i versionsinformationen. |
 | [Versionsinformation för tidigare versioner](/help/main/r-release-notes/release-notes-for-previous-releases.md). | Visa information om nya funktioner och förbättringar i tidigare versioner av Target Standard och Target Premium. |
-| [Versionsinformation för Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=sv-SE){target=_blank} | Läs den senaste versionsinformationen om Adobe Experience Cloud lösningar. |
+| [Versionsinformation för Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target=_blank} | Läs den senaste versionsinformationen om Adobe Experience Cloud lösningar. |
 
 ## Förhandsversionsinformation {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
