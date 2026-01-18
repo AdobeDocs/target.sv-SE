@@ -77,7 +77,7 @@ Mer information finns i [[!DNL Target] Vanliga frågor om gränssnittsuppdaterin
 
 +++
 
-**[!UICONTROL Visual Experience Composer](VEC)**
+**[!UICONTROL Visual Experience Composer] (VEC)**
 
 +++Se detaljer
 * Namnet **[!UICONTROL Experience Fragment]trunkerades i det nya VEC-gränssnittet** (TGT-54312)
