@@ -22,7 +22,7 @@ Meddelanden och information om [!DNL Adobe Target]-händelser, inklusive [!DNL T
 * **High Performance Recommendations Webinar Follow-up Questions (Part 2 of Personalization Maturity Series)**
 * **Wednesday, February 28, 2024**
 * **8:00 - 9:00 (PST -8 GMT)**
-* **[Registration information](https://experienceleaguecommunities.adobe.com/t5/target-community-events/at-community-q-amp-a-coffee-break-wednesday-2-28-24-8am-pt-high/ec-p/647204/thread-id/123){target=_blank}**
+* **[Registration information](https://experienceleaguecommunities.adobe.com/t5/target-community-events/at-community-q-amp-a-coffee-break-wednesday-2-28-24-8am-pt-high/ec-p/647204/thread-id/123?profile.language=sv){target=_blank}**
 
 +++Details
 
@@ -32,9 +32,9 @@ Join [!DNL Adobe Target] experts Cristinel Anastasoaie, Brent Kostak, and Timoth
 * How a non-technical user or marketer is in full control of configuring and managing the algorithms.
 * How to use AI and custom features with recommendations to unlock use cases that have immense impact on reduction in clicks and increasing revenue.
 
-If you missed the original webinar, [listen to the recording](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}.
+If you missed the original webinar, [listen to the recording](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284?profile.language=sv){target=_blank}.
 
-Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, covering "[Unlocking AI Powered Recommendations](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-3-12-24-p3-adobe-target-personalization/m-p/639301/thread-id/3686){target=_blank}."
+Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, covering "[Unlocking AI Powered Recommendations](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-3-12-24-p3-adobe-target-personalization/m-p/639301/thread-id/3686?profile.language=sv){target=_blank}."
 
 +++ -->
 
@@ -58,13 +58,13 @@ Varför ska du vara med?
 
   En viktig del av mognaden är artificiell intelligens och maskininlärning. [!DNL Adobe Target] använder dessa tekniker för att förstå användarbeteende, förutse inställningar och anpassa innehåll dynamiskt. Genom att utnyttja kraften i AI och ML kan ni lära er hur varumärken går bortom statiska A/B-tester och regelbaserad personalisering för att leverera dynamiska, sammanhangsberoende upplevelser.
 
-  [Lyssna på inspelningen.](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}
+  [Lyssna på inspelningen.](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284?profile.language=sv){target=_blank}
 
 * **Rekommendationer med hög prestanda**
 
   Läs om hur rekommendationsalgoritmer kan bli en förändringsfaktor för företag och öka engagemanget och intäkterna. Möjligheten att guida användarna smidigt genom hela kundresan bidrar direkt till att frigöra en betydande tillväxt. Det kan gälla allt från personaliserade produktförslag till innehållsrekommendationer.
 
-  [Lyssna på inspelningen.](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/webinar-recording-2-13-24-p2-adobe-target-personalization/m-p/639295#M3685){target=_blank}
+  [Lyssna på inspelningen.](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/webinar-recording-2-13-24-p2-adobe-target-personalization/m-p/639295?profile.language=sv#M3685){target=_blank}
 
 * **Låser upp AI-Powered Personalization**
 

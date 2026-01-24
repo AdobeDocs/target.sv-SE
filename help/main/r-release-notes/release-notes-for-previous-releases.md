@@ -3989,7 +3989,7 @@ Den här [!DNL Target]-versionen innehåller följande förbättringar och korri
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ny plats för målforum </p> </td> 
-   <td colname="col2"> <p> Målforumet har flyttats till den nya <a href="https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community" format="https" scope="external"> Adobe Community Platform </a>. </p> </td> 
+   <td colname="col2"> <p> Målforumet har flyttats till den nya <a href="https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=sv" format="https" scope="external"> Adobe Community Platform </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

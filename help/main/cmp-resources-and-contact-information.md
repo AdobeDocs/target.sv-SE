@@ -27,7 +27,7 @@ Identifiera [!UICONTROL Adobe Target Community]: Ditt nav för insikter och sama
 
 Delta i konversationen, bidra med expertkunskaper och få de svar du behöver - allt på ett och samma ställe.
 
-Gå till [målforumet](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community) för att komma igång.
+Gå till [målforumet](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=sv) för att komma igång.
 
 +++
 
@@ -68,7 +68,7 @@ Kundtjänst är redo att hjälpa dig att lösa eventuella problem. Den här sida
 
 Om du stöter på problem eller har frågor när du använder Target har du ett antal alternativ
 
-Om du har frågor kan du ställa Adobe Target experter i [Adobe Target Community](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community){target=_blank}.
+Om du har frågor kan du ställa Adobe Target experter i [Adobe Target Community](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=sv){target=_blank}.
 
 Om du har tekniska problem eller vill logga ett fel kan du kontakta Kundtjänst. Ring 1-800-497-0335 om du vill kontakta kundtjänst. Avgiftsfria nummer utanför USA finns på [Adobe Digital Marketing Customer Care Regional Phone Numbers](https://helpx.adobe.com/se/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html) -sidan. När du blir ombedd att välja ett alternativ för produkten trycker du på 3 för att kontakta Target-teamet.
 
@@ -119,7 +119,7 @@ Beroende på din lösningskonfiguration kanske vissa alternativ som beskrivs i d
 
 ### Feedback {#section_8154D6D712054220A90D85FA8E92933E}
 
-Vi välkomnar alla förslag och all feedback om den här lösningen. Förbättringsidéer och förslag kan läggas till i [Adobe Target Experience League Community](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community). Klicka på fliken [!UICONTROL Ideas].
+Vi välkomnar alla förslag och all feedback om den här lösningen. Förbättringsidéer och förslag kan läggas till i [Adobe Target Experience League Community](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=sv). Klicka på fliken [!UICONTROL Ideas].
 
 ### Juridisk {#section_A6E1844D4AC2485CADBF6D05116E3D59}
 

@@ -48,7 +48,7 @@ Håll dig uppdaterad med [!DNL Target] versioner.
 **Har [!DNL Adobe] en community/forum där jag kan hitta svar och mer information om [!DNL Target]?**
 
 +++Se detaljer
-Anslut till andra [!DNL Target]-yrkesverksamma i [målcommunityforumet](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community){target=_blank}. Dela med dig av dina kunskaper, ställ frågor och samarbeta med andra som använder [!DNL Target] för att driva personalisering och experimenterande. Ett livskraftigt samhälle är beroende av aktivt deltagande. Era insikter och upplevelser kan hjälpa andra att lyckas. Hoppa in, bidra och hitta de svar du behöver.
+Anslut till andra [!DNL Target]-yrkesverksamma i [målcommunityforumet](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=sv){target=_blank}. Dela med dig av dina kunskaper, ställ frågor och samarbeta med andra som använder [!DNL Target] för att driva personalisering och experimenterande. Ett livskraftigt samhälle är beroende av aktivt deltagande. Era insikter och upplevelser kan hjälpa andra att lyckas. Hoppa in, bidra och hitta de svar du behöver.
 
 +++
 
