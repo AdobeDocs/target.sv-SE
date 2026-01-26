@@ -4,9 +4,9 @@ description: Identifiera varför vissa webbplatser kanske inte kan öppnas på e
 title: Hur använder jag [!UICONTROL Visual Editing Helper]-tillägget?
 feature: Visual Experience Composer (VEC)
 exl-id: e5aeb8b9-fab5-4ad4-882e-2106d2c9daab
-source-git-commit: c41580bcbecf2eb2c14f13ce8e66e854c655d059
+source-git-commit: 86139b5971f98091affefd771d9d138e31574727
 workflow-type: tm+mt
-source-wordcount: '672'
+source-wordcount: '765'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,18 @@ Med webbläsartillägget [!DNL Adobe Experience Cloud] [!UICONTROL Visual Editin
 
 >[!IMPORTANT]
 >
->* Det här nya tillägget ersätter det tidigare [VEC Helper-webbläsartillägget &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md). Se viktig text högst upp i den artikeln. På grund av säkerhetsförbättringar i manifest v3, kräver [!DNL Adobe] att det nya tillägget hämtas för att du ska kunna fortsätta att redigera dina webbplatser visuellt i [!DNL Target].
+>* Det här nya tillägget ersätter det tidigare [VEC Helper-webbläsartillägget ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md). Se viktig text högst upp i den artikeln. På grund av säkerhetsförbättringar i manifest v3, kräver [!DNL Adobe] att det nya tillägget hämtas för att du ska kunna fortsätta att redigera dina webbplatser visuellt i [!DNL Target].
+
+## Ändringar av tillägget [!UICONTROL Visual Editing Helper] (17 januari 2026)
+
+### **Ett problem har korrigerats genom att den nya experimentella funktionen för rensning av startcookie har lagts till i VEC Helper.**
+
+* Ett problem har korrigerats genom att en ny experimentell funktion för rensning av startcookie har lagts till i VEC Helper.
+* Den här förbättringen förbättrar prestanda och tillförlitlighet genom att rensa partitionerade cookies en gång per flik när redigeringen börjar i stället för kontinuerligt.
+* Funktionen spårar tabbhistorik för att förhindra redundant rensning och rensar historiken vid tabbstängning så att rensningen fungerar korrekt när en flik öppnas igen.
+* Omfattande enhetstester har lagts till för att säkerställa ett konsekvent beteende.
+
+![Nya VEC-alternativ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper.png)
 
 ## Orsaker till att vissa webbplatser kanske inte öppnas som de ska i VEC
 
@@ -43,7 +54,7 @@ Webbläsartillägget [!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing He
 1. Navigera till webbläsartillägget [[!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper] i Chrome Web Store](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=_blank}.
 1. Klicka på **[!UICONTROL Add to Chrome]** > **[!UICONTROL Add Extension]**.
 1. Öppna VEC i [!DNL Target].
-1. Om du vill använda tillägget klickar du på ikonen [!UICONTROL Visual Editing Helper] för webbläsartillägg ( ![&#x200B; ikonen för visuell redigeringstillägg &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/visual-editing-helper.png) ) i Chrome webbläsares verktygsfält när du är i VEC- eller QA-läge.
+1. Om du vill använda tillägget klickar du på ikonen [!UICONTROL Visual Editing Helper] för webbläsartillägg ( ![ ikonen för visuell redigeringstillägg ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/visual-editing-helper.png) ) i Chrome webbläsares verktygsfält när du är i VEC- eller QA-läge.
 
    [!UICONTROL Visual Editing Helper] aktiveras automatiskt när en webbplats öppnas i VEC:n [!UICONTROL Target] så att den kan användas för redigering. Tillägget har inga villkorsinställningar. Tillägget hanterar alla inställningar automatiskt, inklusive inställningarna för cookies för samma plats.
 
