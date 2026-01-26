@@ -17,7 +17,7 @@ Med webbläsartillägget [!DNL Adobe Experience Cloud] [!UICONTROL Visual Editin
 
 >[!IMPORTANT]
 >
->* Det här nya tillägget ersätter det tidigare [VEC Helper-webbläsartillägget ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md). Se viktig text högst upp i den artikeln. På grund av säkerhetsförbättringar i manifest v3, kräver [!DNL Adobe] att det nya tillägget hämtas för att du ska kunna fortsätta att redigera dina webbplatser visuellt i [!DNL Target].
+>* Det här nya tillägget ersätter det tidigare [VEC Helper-webbläsartillägget &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md). Se viktig text högst upp i den artikeln. På grund av säkerhetsförbättringar i manifest v3, kräver [!DNL Adobe] att det nya tillägget hämtas för att du ska kunna fortsätta att redigera dina webbplatser visuellt i [!DNL Target].
 
 ## Ändringar av tillägget [!UICONTROL Visual Editing Helper] (17 januari 2026)
 
@@ -54,7 +54,7 @@ Webbläsartillägget [!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing He
 1. Navigera till webbläsartillägget [[!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper] i Chrome Web Store](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=_blank}.
 1. Klicka på **[!UICONTROL Add to Chrome]** > **[!UICONTROL Add Extension]**.
 1. Öppna VEC i [!DNL Target].
-1. Om du vill använda tillägget klickar du på ikonen [!UICONTROL Visual Editing Helper] för webbläsartillägg ( ![ ikonen för visuell redigeringstillägg ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/visual-editing-helper.png) ) i Chrome webbläsares verktygsfält när du är i VEC- eller QA-läge.
+1. Om du vill använda tillägget klickar du på ikonen [!UICONTROL Visual Editing Helper] för webbläsartillägg ( ![&#x200B; ikonen för visuell redigeringstillägg &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/visual-editing-helper.png) ) i Chrome webbläsares verktygsfält när du är i VEC- eller QA-läge.
 
    [!UICONTROL Visual Editing Helper] aktiveras automatiskt när en webbplats öppnas i VEC:n [!UICONTROL Target] så att den kan användas för redigering. Tillägget har inga villkorsinställningar. Tillägget hanterar alla inställningar automatiskt, inklusive inställningarna för cookies för samma plats.
 
