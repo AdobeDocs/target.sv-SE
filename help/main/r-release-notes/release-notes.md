@@ -6,9 +6,9 @@ short-description: Lär dig mer om de nya funktionerna, förbättringarna och ko
 title: Vad ingår i den aktuella versionen?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 550fa1e8d4127babe02403708b73862505bf8c99
+source-git-commit: f06882e99ba67f4c1fb13656b218744f8c0428e1
 workflow-type: tm+mt
-source-wordcount: '1772'
+source-wordcount: '1862'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,14 @@ För tidskänsliga uppdateringar relaterade till [!DNL Adobe Target] och din imp
 
 Mer information finns i [[!DNL Target] Vanliga frågor om gränssnittsuppdatering](/help/main/c-intro/updated-ui-faq.md).
 
+## [!DNL Target Standard/Premium] 26.1.2 (30 januari 2026)
+
+**Adobe Target Insights Dashboard**
+
+Adobe Target innehåller nu en ny instrumentpanel för insikter som ger en översikt över hur er organisation använder Target för experimenterande och personalisering. Instrumentpanelen har tillgång till viktiga mätvärden, t.ex. live-aktiviteter, aktiviteter live och ändrad, slutförda aktiviteter, publicerade aktiviteter och A/B-testningsaktivitet. Använd tidsintervallväljaren för att utforska trender över olika perioder, inklusive en sammanfattning för 2025. Den här instrumentpanelen är fortfarande tillgänglig som ett kontinuerligt sätt att spåra implementering och aktivitet över tid.
+
+Se [Adobe Target Insights Dashboard](/help/main/c-activities/insights-dashboard.md)
+
 ## [!DNL Target Standard/Premium] 26.1.1 (18 januari 2026)
 
 **Aktiviteter**
@@ -47,6 +55,7 @@ Mer information finns i [[!DNL Target] Vanliga frågor om gränssnittsuppdaterin
 **Egenskaper**
 
 +++Se detaljer
+
 * **Aktivitetsredigering bör inte lägga till en egenskap som identifieras automatiskt om den redan har tagits bort.** Den här korrigeringen åtgärdar ett problem där redigering av en aktivitet automatiskt återinför en automatiskt identifierad egenskap som användaren tidigare har tagit bort. När en aktivitet för redigering öppnades igen återställdes den borttagna egenskapen felaktigt, vilket leder till inkonsekvent beteende och förvirring i [!UICONTROL Properties List]. Uppdateringen ser till att när en egenskap som identifieras automatiskt tas bort, tas den bort under alla efterföljande redigeringar och visas inte igen om inte användaren uttryckligen lägger till den igen. (TGT-54182)
 * **Lägg inte till automatiskt identifierade egenskaper om de redan har tagits bort.** Den här korrigeringen ser till att när en användare tar bort en egenskap som identifieras automatiskt från en aktivitet, återinförs den inte längre i systemet vid efterföljande navigering i aktivitetsredigeraren. Om en användare tidigare avmarkerade en egenskap som identifieras automatiskt, flyttat till steget [!UICONTROL Targeting] och sedan återgått till [!UICONTROL Experiences] fylls den borttagna egenskapen i på nytt baserat på den automatiskt identifierade listan som lagras i statussegmentet i aktivitetsredigeraren. Den uppdaterade logiken jämför nu de automatiskt upptäckta egenskaperna med de aktuella egenskaperna i segmentet ~ActivityState~ och förhindrar att de automatiskt upptäckta egenskaperna som användaren redan har tagit bort läggs till igen. Detta resulterar i ett konsekvent beteende i alla steg och tar hänsyn till användaravsikten. (TGT-54181)
 * **Lägg till text som identifieras automatiskt i egenskapslistan.** Den här förbättringen uppdaterar [!UICONTROL Properties List] så att alla egenskaper som identifieras automatiskt av systemet tydligt markeras. När en automatiskt identifierad egenskap också finns i den användarsynliga [!UICONTROL Properties List] visas nu texten&quot;(Auto-Detected)&quot; bredvid namnet, med det värde som lagrats i läget ~ ActivityEditorSlice~ . Detta speglar beteendet hos det gamla användargränssnittet och hjälper användarna att enkelt skilja mellan manuellt markerade egenskaper och de egenskaper som identifieras automatiskt. (TGT-54120)
@@ -57,6 +66,7 @@ Mer information finns i [[!DNL Target] Vanliga frågor om gränssnittsuppdaterin
 **Rekommendationer**
 
 +++Se detaljer
+
 * I listrutan **[!UICONTROL Environment]visas endast 100 resultat.** Den här korrigeringen åtgärdar en begränsning där kunder med fler än 100 miljöer bara kunde se de första 100 posterna i listrutan [!UICONTROL Environment] i [!UICONTROL Recommendations]. Den underliggande GraphQL-frågan (~getMiljömentsV2~) sidnumrerades med den hårdkodade sidstorleken 100, vilket gör att användargränssnittet bara visar en del av listan även om ytterligare sidor är tillgängliga. För kunder som har fler än 100 miljöer har det här problemet resulterat i saknade alternativ och en ofullständig urvalsupplevelse. Uppdateringen ökar gränsen så att alla miljöer returneras och visas, vilket ger fullständig synlighet oavsett antal miljöer. (TGT-53903)
 
 +++
@@ -77,9 +87,10 @@ Mer information finns i [[!DNL Target] Vanliga frågor om gränssnittsuppdaterin
 
 +++
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+**[!UICONTROL Visual Experience Composer](VEC)**
 
 +++Se detaljer
+
 * Namnet **[!UICONTROL Experience Fragment]trunkerades i det nya VEC-gränssnittet** (TGT-54312)
 * **Det går inte att använda [!UICONTROL Advanced Settings] för [!UICONTROL Revenue]-mått.** Den här korrigeringen åtgärdar ett problem där användare stötte på ett 403-fel av typen &quot;Åtkomst nekad&quot; när [!UICONTROL Advanced Settings] konfigurerades för [!UICONTROL Revenue]-måttet i [!UICONTROL Goals & Settings]. Problemet uppstod när ett beroendevillkor som är kopplat till det primära målet lades till. I serverdelen krävdes inte redigeringsprivilegiet korrekt, även för användare som redan har tillräcklig behörighet för att skapa och redigera aktiviteter. Därför gick det inte att spara aktiviteten trots giltig konfiguration. Uppdateringen åtgärdar behörighetskontrollen så att användare med lämplig åtkomst kan lägga till metriska beroenden för intäkt utan att utlösa ett fel med förbjuden resurs. (TGT-54092)
 * **Korrigerade ett fel där knappen Lägg till inte gällde för de valda bilderna.** Korrigerade ett problem som hindrade kunder från att lägga till vissa bilder när de valde eller uppdaterade en bild i processen för att skapa aktivitet. När kunderna sökte efter specifika resurser, till exempel bilder som returnerades när de sökte efter&quot;ipp&quot;, använde inte knappen [!UICONTROL Add] den valda bilden och ingen ändring skapades. Om du väljer andra bilder, till exempel `Homepage-banner-1-moz.jpg`, fortsätter det att fungera som förväntat. Uppdateringen ser till att alla giltiga bilder kan tillämpas på samma sätt i det uppdaterade användargränssnittet. (TGT-53610)
@@ -92,8 +103,8 @@ Mer information finns i [[!DNL Target] Vanliga frågor om gränssnittsuppdaterin
 
 | Resurs | Information |
 |--- |--- |
-| [Versionsinformation: Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=sv-SE) | Information om ändringarna i respektive version av Platform Web SDK. |
-| Versionsinformation för [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=sv-SE){target=_blank} | Information om ändringar i varje version av JavaScript-biblioteket [!DNL Adobe Target] at.js. |
+| [Versionsinformation: Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=en) | Information om ändringarna i respektive version av Platform Web SDK. |
+| Versionsinformation för [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | Information om ändringar i varje version av JavaScript-biblioteket [!DNL Adobe Target] at.js. |
 
 ## Dokumentationsändringar, Versionsinformation om tidigare versioner och Experience Cloud Versionsinformation
 
@@ -103,7 +114,7 @@ Förutom anteckningarna för varje release finns det ytterligare information i f
 |--- |--- |
 | [Dokumentationsändringar](/help/main/r-release-notes/doc-change.md) | Visa detaljerad information om uppdateringar av den här guiden som inte ingår i versionsinformationen. |
 | [Versionsinformation för tidigare versioner](/help/main/r-release-notes/release-notes-for-previous-releases.md). | Visa information om nya funktioner och förbättringar i tidigare versioner av Target Standard och Target Premium. |
-| [Versionsinformation för Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=sv-SE){target=_blank} | Läs den senaste versionsinformationen om Adobe Experience Cloud lösningar. |
+| [Versionsinformation för Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target=_blank} | Läs den senaste versionsinformationen om Adobe Experience Cloud lösningar. |
 
 ## Förhandsversionsinformation {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
