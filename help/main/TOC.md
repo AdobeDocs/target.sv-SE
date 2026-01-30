@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Adobe Target Business Practitioner
 breadcrumb-title: Användarhandbok om Target
 user-guide-description: Upptäck hur ni kan personalisera kundupplevelser över olika webbplatser, appar och sociala kanaler för att öka intäkterna.
 feature-set: Target
-source-git-commit: f06882e99ba67f4c1fb13656b218744f8c0428e1
+source-git-commit: 6b92e823c854996e074716a7b8c4856176710c24
 workflow-type: tm+mt
-source-wordcount: '1275'
+source-wordcount: '1273'
 ht-degree: 0%
 
 ---
@@ -117,7 +117,6 @@ ht-degree: 0%
    + [Integrera Target med Adobe Campaign](c-integrating-target-with-mac/campaign-and-target.md)
 + Verksamhet {#activities}
    + [Översikt över aktiviteter](c-activities/activities.md)
-   + [Instrumentpanel för insikter](c-activities/insights-dashboard.md)
    + [Målaktivitetstyper](c-activities/target-activities-guide.md)
    + A/B-test {#abtest}
       + [Översikt över A/B-tester](c-activities/t-test-ab/test-ab.md)
