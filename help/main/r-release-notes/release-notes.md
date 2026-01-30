@@ -87,7 +87,7 @@ Se [Adobe Target Insights Dashboard](/help/main/c-activities/insights-dashboard.
 
 +++
 
-**[!UICONTROL Visual Experience Composer](VEC)**
+**[!UICONTROL Visual Experience Composer] (VEC)**
 
 +++Se detaljer
 
